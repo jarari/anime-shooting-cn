@@ -1396,7 +1396,7 @@
         {
             "id": 105107,
             "name": "드림 가디언",
-            "description": "지원 공격으로 인한 범위 피해가 <color=#f26c1c>30%</color> 증가하며, 버프는 해제할 수 없습니다.",
+            "description": "지원 공격으로 인한 범위 피해가 <color=#f26c1c>30%</color> 증가합니다. 정화 불가 버프.",
             "buffEffect": "Skill/10510701_dmgup",
             "effectPlayTime": [
                 1
@@ -1412,7 +1412,7 @@
         {
             "id": 105108,
             "name": "악몽",
-            "description": "범위 피해가 <color=#f26c1c>10%</color> 증가하고, 지원 공격에 의한 범위 피해가 <color=#f26c1c>50%</color> 증가합니다. 또한 <color=#3487e0>{0}</color>이 주는 피해 유형이 <color=#8679e8>산성 피해</color>로 변경됩니다. 산성 계열 버프이며 해제 불가입니다.",
+            "description": "범위 피해가 <color=#f26c1c>10%</color> 증가하고, 지원 공격에 의한 범위 피해가 <color=#f26c1c>50%</color> 증가합니다. 또한 <color=#3487e0>{0}</color>이 주는 피해 유형이 <color=#8679e8>산성 피해</color>로 변경됩니다. 정화 불가 산성계 버프.",
             "descriptionTips": "1:90222",
             "iconName": "Buff_PoisonUP",
             "isShow": true,
@@ -10227,7 +10227,7 @@
         {
             "id": 1051083,
             "name": "악몽",
-            "description": "범위 피해가 <color=#f26c1c>20%</color> 증가하고, 지원 공격으로 인한 범위 피해가 <color=#f26c1c>80%</color> 증가하며, 지속 상태 피해가 증가합니다. <color=#f26c1c>1포인트</color>가 증가하고, <color=#3487e0>{0}</color>로 인한 피해가 <color=#8679e8>산성 피해</color>로 변경됩니다. 산성 침식 버프는 해제할 수 없습니다.",
+            "description": "범위 피해가 <color=#f26c1c>20%</color> 증가하고, 지원 공격으로 인한 범위 피해가 <color=#f26c1c>80%</color> 증가하며, 안정 지수 피해가 <color=#f26c1c>1점</color> 증가합니다. <color=#3487e0>{0}</color>로 인한 피해가 <color=#8679e8>산성 피해</color>로 변경됩니다. 정화 불가 산성계 버프.",
             "descriptionTips": "1:90222",
             "iconName": "Buff_PoisonUP",
             "isShow": true,
@@ -12870,7 +12870,7 @@
         {
             "id": 6483001,
             "name": "2중방어",
-            "description": "방어력이 <color=#f26c1c>100%</color> 증가하고 받는 피해가 <color=#f26c1c>70%</color> 감소하며 버프를 해제할 수 없습니다.",
+            "description": "방어력이 <color=#f26c1c>100%</color> 증가하고 받는 피해가 <color=#f26c1c>70%</color> 감소합니다. 정화 불가 버프.",
             "iconName": "Buff_DefUp",
             "isShow": true,
             "buffHeadShow": 1,
@@ -16228,7 +16228,7 @@
         {
             "id": 10420801,
             "name": "둔감한 힘",
-            "description": "방어력이 <color=#f26c1c>10%</color> 증가하며, 최대 5회 중첩 가능합니다. 버프는 해제할 수 없습니다.",
+            "description": "방어력이 <color=#f26c1c>10%</color> 증가하며, 최대 5회 중첩 가능합니다. 정화 불가 버프.",
             "buffEffect": "Buff/DefU|Buff/DefU",
             "effectPlayTime": [
                 1,
@@ -16284,7 +16284,7 @@
         {
             "id": 10420831,
             "name": "둔감한 힘",
-            "description": "방어력이 <color=#f26c1c>20%</color> 증가하며, 최대 8개까지 중첩 가능합니다. 버프는 해제할 수 없습니다.",
+            "description": "방어력이 <color=#f26c1c>20%</color> 증가하며, 최대 8회 중첩 가능합니다. 정화 불가 버프.",
             "buffEffect": "Buff/DefU|Buff/DefU",
             "effectPlayTime": [
                 1,
@@ -16651,7 +16651,7 @@
         {
             "id": 10510712,
             "name": "드림 가디언",
-            "description": "지원 공격으로 인한 범위 피해가 <color=#f26c1c>30%</color> 증가하며, 버프는 해제할 수 없습니다.",
+            "description": "지원 공격으로 인한 범위 피해가 <color=#f26c1c>30%</color> 증가합니다. 정화 불가 버프.",
             "iconName": "Buff_DamageUp",
             "isShow": true,
             "buffHeadShow": 1
@@ -23737,7 +23737,7 @@
         {
             "id": 105107001,
             "name": "전투 모드",
-            "description": "공격력과 방어력이 <color=#f26c1c>30%</color> 증가합니다. 행동이 끝나면 <color=#f26c1c>2점</color>을 얻으며 해제할 수 없습니다.",
+            "description": "공격력과 방어력이 <color=#f26c1c>30%</color> 증가합니다. 행동 종료 시 리몰딩 지수 <color=#f26c1c>2점</color>을 얻습니다. 정화 불가.",
             "iconName": "Buff_MishtySSR1",
             "isShow": true,
             "buffHeadShow": 1,
@@ -23746,7 +23746,7 @@
         {
             "id": 105107002,
             "name": "전투 모드",
-            "description": "공격력, 방어력, 기본 공격 치명타율이 <color=#f26c1c>30%</color> 증가합니다. 행동이 끝나면 <color=#f26c1c>2점</color>을 얻으며 해제할 수 없습니다.",
+            "description": "공격력, 방어력, 치명타율이 <color=#f26c1c>30%</color> 증가합니다. 행동 종료 시 리몰딩 지수 <color=#f26c1c>2점</color>을 얻습니다. 정화 불가.",
             "iconName": "Buff_MishtySSR1",
             "isShow": true,
             "buffHeadShow": 1,
@@ -23755,7 +23755,7 @@
         {
             "id": 105107003,
             "name": "전투 모드",
-            "description": "공격력, 방어력, 기본 공격 치명타율이 <color=#f26c1c>30%</color> 증가하고, 기동성이 <color=#f26c1c>2블록</color> 증가합니다. 행동이 끝나면 리몰딩 지수 <color=#f26c1c>3점</color>을 얻고 <color=#3487e0>{0}</color>이 없는 아군 유닛에 <color=#3487e0>{0을 적용합니다. }</color>. 정화 불가.",
+            "description": "공격력, 방어력, 치명타율이 <color=#f26c1c>30%</color> 증가하고, 이동력이 <color=#f26c1c>2칸</color> 증가합니다. 행동 종료 시 리몰딩 지수 <color=#f26c1c>3점</color>을 얻고 <color=#3487e0>{0}</color>가 없는 아군 유닛에 <color=#3487e0>{0}</color>를 적용합니다. 정화 불가.",
             "descriptionTips": "0:105104021",
             "iconName": "Buff_MishtySSR1",
             "isShow": true,
@@ -23765,7 +23765,7 @@
         {
             "id": 105107011,
             "name": "수면 보조 키트",
-            "description": "주는 피해가 <color=#f26c1c>10%</color> 증가합니다. 최대 <color=#f26c1c>2스택</color>까지 누적되며, 이 버프는 해제할 수 없습니다.",
+            "description": "피해량이 <color=#f26c1c>10%</color> 증가합니다. 최대 <color=#f26c1c>2스택</color>까지 중첩할 수 있습니다, 버프, 정화 불가",
             "iconName": "Buff_DamageUp",
             "isShow": true,
             "buffHeadShow": 1
@@ -23773,7 +23773,7 @@
         {
             "id": 105107021,
             "name": "수면 보조 키트",
-            "description": "피해량이 <color=#f26c1c>10%</color>만큼 증가합니다. 최대 <color=#f26c1c>3레이어</color>까지 중첩 가능하며, 이득은 해제되지 않습니다.",
+            "description": "피해량이 <color=#f26c1c>10%</color> 증가합니다. 최대 <color=#f26c1c>3스택</color>까지 중첩할 수 있습니다, 버프, 정화 불가.",
             "iconName": "Buff_DamageUp",
             "isShow": true,
             "buffHeadShow": 1
@@ -25218,7 +25218,7 @@
         {
             "id": 1047070114,
             "name": "상한 도달",
-            "description": "탁한 조각품의 피해가 최대 50% 증가하는 특수 효과",
+            "description": "탁류 피해가 최대 50% 증가하는 특수 효과",
             "buffEffect": "Buff/AtkU",
             "effectPlayTime": [
                 1
