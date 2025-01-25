@@ -3877,7 +3877,7 @@
         {
             "id": 5104439,
             "name": "벡터 무기 속성(구식)",
-            "description": "라운드 시작 시 필드에 불타는 디버프가 걸린 유닛 하나당 공격력이 5%씩 최대 20%까지 증가합니다.",
+            "description": "라운드 시작 시 필드에 연소계 디버프가 걸린 유닛 하나당 공격력이 5%씩 최대 20%까지 증가합니다.",
             "descriptionBrief": "",
             "descriptionLiterary": "",
             "upgradeDescription": "",
@@ -21346,8 +21346,8 @@
         {
             "id": 6890600,
             "name": "솔리드 코어",
-            "description": "안정 상태가 <color=#f26c1c>0</color>보다 크면 포트리스 타이탄이 받는 피해가 <color=#f26c1c>50%</color>만큼 감소합니다. 정상 상태 붕괴 후 <color=#f26c1c>2</color>턴 후에 모든 정상 상태 값이 복원됩니다. 붕괴 중에는 정상 상태 회복 효과가 영향을 받지 않습니다.\n요새 장치가 고정 피해를 포함한 피해를 받으면 요새 타이탄은 피해를 준 대상을 <color=#f26c1c>액티브 스킬로 공격</color>하여 공격력의 <color=#f26c1c>40%</color>를 발생시킵니다. .물리적 손상.",
-            "descriptionBrief": "안정 상태가 <color=#f26c1c>0</color>보다 크면 바스티온 타이탄이 받는 피해가 감소합니다. 정상 상태 붕괴 후 <color=#f26c1c>2</color>턴 후에 모든 정상 상태 값이 복원됩니다. 붕괴 중에는 정상 상태 회복 효과가 영향을 받지 않습니다.\n요새 장치가 고정 피해를 포함해 피해를 받으면, 요새 타이탄은 피해를 준 대상을 <color=#f26c1c>액티브 스킬로 공격</color>하여 물리적 피해를 입힙니다.",
+            "description": "안정 상태가 <color=#f26c1c>0</color>보다 크면 티탄 포트가 받는 피해가 <color=#f26c1c>50%</color>만큼 감소합니다. 안정 붕괴 상태에 빠지면 <color=#f26c1c>2</color>턴 후에 모든 정상 상태 값이 복원됩니다. 안정 붕괴 상태 중에는 안정 지수 회복 효과의 영향을 받지 않습니다.\n요새 장치가 고정 피해를 포함한 피해를 받으면 티탄 포트는 피해를 준 대상을 <color=#f26c1c>액티브 스킬로 공격</color>하여 공격력 <color=#f26c1c>40%</color>의 물리 피해를 입힙니다.",
+            "descriptionBrief": "안정 상태가 <color=#f26c1c>0</color>보다 크면 티탄 포트가 받는 피해가 감소합니다. 안정 붕괴 상태에 빠지면 <color=#f26c1c>2</color>턴 후에 모든 정상 상태 값이 복원됩니다. 안정 붕괴 상태 중에는 안정 지수 회복 효과의 영향을 받지 않습니다.\n요새 장치가 고정 피해를 포함해 피해를 받으면, 티탄 포트는 피해를 준 대상을 <color=#f26c1c>액티브 스킬로 공격</color>하여 물리 피해를 입힙니다.",
             "descriptionLiterary": "",
             "descriptionType": 4,
             "upgradeDescription": "",
@@ -21364,9 +21364,9 @@
         {
             "id": 6892001,
             "name": "불안정한 봉합",
-            "description": "적 인형의 액티브 공격을 받을 때, 인형이 보유한 버프 수가 <color=#f26c1c>3</color> 이상인 경우 네메르타리아·외계인 자체가 <color=#f26c1c>1<을 얻습니다. /color> 레이어< color=#3487e0>{0}</color>, 최대 <color=#f26c1c>15</color> 레이어를 쌓을 수 있습니다.",
+            "description": "적 인형의 액티브 공격을 받을 때, 인형이 보유한 버프 수가 <color=#f26c1c>3 이상</color> 인 경우 끈벌레·이종이 <color=#3487e0>{0}</color> 를 <color=#f26c1c>1스택</color> 획득합니다. 최대 중첩 <color=#f26c1c>15스택</color>.",
             "descriptionTips": "0:68920012",
-            "descriptionBrief": "적 인형의 액티브 공격을 받을 때, 인형이 보유한 버프 수가 <color=#f26c1c>3</color> 이상인 경우 네메르타리아·외계인 자체가 <color=#f26c1c>1<을 얻습니다. /color> 레이어< color=#3487e0>{0}</color>.",
+            "descriptionBrief": "적 인형의 액티브 공격을 받을 때, 인형이 보유한 버프 수가 <color=#f26c1c>3 이상</color> 인 경우 끈벌레·이종이 <color=#3487e0>{0}</color> 를 <color=#f26c1c>1스택</color> 획득합니다.",
             "descriptionLiterary": "",
             "descriptionType": 4,
             "upgradeDescription": "",
@@ -30700,7 +30700,7 @@
         {
             "id": 10250908,
             "name": "확장키·포획된 별빛",
-            "description": "액티브 스킬 사용 후 리몰딩 지수 <color=#f26c1c>2포인트</color>를 획득합니다. 자신을 제외한 아군 유닛이 구름 피해를 입힐 경우 자신의 액티브 스킬 <color=#3487e0>블랙홀 반전</color>의 냉각 시간이 <color=#f26c1c>1턴</color>만큼 감소합니다.",
+            "description": "액티브 스킬 사용 후 리몰딩 지수 <color=#f26c1c>2점</color>을 획득합니다. 자신을 제외한 아군 유닛이 탁류 피해를 입힐 경우 자신의 액티브 스킬 <color=#3487e0>블랙홀 반전</color>의 쿨타임이 <color=#f26c1c>1턴</color> 감소합니다.",
             "descriptionBrief": "",
             "descriptionLiterary": "",
             "descriptionType": 5,
@@ -36864,7 +36864,7 @@
             "descriptionBrief": "사격으로 화상 피해를 줌. 대상이 화상 관련 디버프를 갖고 있으면, 대상과 <color=#f26c1c>주변 반경 3칸</color> 내 모든 적에게 고정 피해를 주고, <color=#3487e0>{0}</color>와 <color=#3487e0>{1}</color>를 부여함. 자신은 리몰딩 지수를 획득.",
             "descriptionLiterary": "비관주의자 뒤에는 항상 심연이 있으며, 모든 불타오르는 것은 필사적인 생존이다.",
             "descriptionType": 2,
-            "upgradeDescription": "피해 계수가 <color=#f26c1c>30%</color> 증가하고, 고정 피해 계수가 <color=#f26c1c>30%</color> 증가합니다. 고정 피해를 입히는 데 더 이상 대상이 불타는 디버프를 가질 필요가 없으며 <color=#f26c1c>2라운드</color> 동안 추가 <color=#3487e0>{1}</color>가 적용됩니다. 획득한 염료 전도도 지수가 <color=#f26c1c>2포인트</color> 증가합니다.",
+            "upgradeDescription": "피해 계수가 <color=#f26c1c>30%</color> 증가하고, 고정 피해 계수가 <color=#f26c1c>30%</color> 증가합니다. 고정 피해를 입히는 데 더 이상 대상이 연소계 디버프를 가질 필요가 없으며 <color=#f26c1c>2라운드</color> 동안 추가 <color=#3487e0>{1}</color>가 적용됩니다. 획득한 리몰딩 지수가 <color=#f26c1c>2포인트</color> 증가합니다.",
             "level": 2,
             "icon": "Skill_VectorSSR_Active_1",
             "skillShow": true,
@@ -36900,7 +36900,7 @@
             "descriptionBrief": "사격으로 연소 피해를 줍니다. 대상이 연소류 디버프를 가지고 있다면, 대상과 그 <color=#f26c1c>주변 반경 3칸 이내</color>의 모든 적에게 고정 피해를 주고 <color=#3487e0>{0}</color>와 <color=#3487e0>{1}</color>을 부여합니다. 주요 대상을 처치하면 대상과 그 <color=#f26c1c>주변 반경 3칸 이내</color>에 <color=#3487e0>{2}</color> 지형을 생성합니다. 자신은 리몰딩 지수를 획득합니다.",
             "descriptionLiterary": "비관주의자 뒤에는 항상 심연이 있으며, 모든 불타오르는 것은 필사적인 생존이다.",
             "descriptionType": 2,
-            "upgradeDescription": "피해 계수가 <color=#f26c1c>30%</color> 증가하고, 고정 피해 계수가 <color=#f26c1c>30%</color> 증가합니다. 고정 피해를 입히는 데 더 이상 대상이 불타는 디버프를 가질 필요가 없으며 <color=#f26c1c>2라운드</color> 동안 추가 <color=#3487e0>{1}</color>가 적용됩니다. 획득한 염료 전도도 지수가 <color=#f26c1c>2포인트</color> 증가합니다.",
+            "upgradeDescription": "피해 계수가 <color=#f26c1c>30%</color> 증가하고, 고정 피해 계수가 <color=#f26c1c>30%</color> 증가합니다. 고정 피해를 입히는 데 더 이상 대상이 연소계 디버프를 가질 필요가 없으며 <color=#f26c1c>2라운드</color> 동안 추가 <color=#3487e0>{1}</color>가 적용됩니다. 획득한 리몰딩 지수가 <color=#f26c1c>2포인트</color> 증가합니다.",
             "level": 2,
             "icon": "Skill_VectorSSR_Active_1",
             "skillShow": true,
@@ -36936,7 +36936,7 @@
             "descriptionBrief": "공격은 대상에게 <color=#3487e0>{0}</color>를 적용하고 화상 피해를 입힙니다. 리몰딩 지수를 직접 얻으십시오.",
             "descriptionLiterary": "번영 아래에는 파괴의 조짐이 숨겨져 있습니다. 미리 준비하고 요점을 파악하십시오.",
             "descriptionType": 2,
-            "upgradeDescription": "피해 계수가 <color=#f26c1c>30%</color>만큼 증가합니다. <color=#3487e0>{0}</color>새로운 효과: 불타는 디버프 하나당 받는 피해가 <color=#f26c1c>3%</color>만큼 증가합니다. <color=#f26c1c>1턴</color> 동안 <color=#3487e0>{1}</color>을 적용합니다. 획득한 염료 전도도 지수가 <color=#f26c1c>2포인트</color> 증가합니다.",
+            "upgradeDescription": "피해 계수가 <color=#f26c1c>30%</color>만큼 증가합니다. <color=#3487e0>{0}</color>새로운 효과: 연소계 디버프 하나당 받는 피해가 <color=#f26c1c>3%</color>만큼 증가합니다. <color=#f26c1c>1턴</color> 동안 <color=#3487e0>{1}</color>을 적용합니다. 획득한 리몰딩 지수가 <color=#f26c1c>2포인트</color> 증가합니다.",
             "level": 2,
             "icon": "Skill_VectorSSR_Active_2",
             "skillShow": true,
@@ -37068,7 +37068,7 @@
         {
             "id": 10440907,
             "name": "공용키·죽음의 종소리",
-            "description": "라운드 시작 시 필드에 불타는 디버프가 걸린 적 유닛이 있으면 공격력이 <color=#f26c1c>8%</color> 증가합니다.",
+            "description": "라운드 시작 시 필드에 연소계 디버프가 걸린 적 유닛이 있으면 공격력이 <color=#f26c1c>8%</color> 증가합니다.",
             "descriptionBrief": "",
             "descriptionLiterary": "",
             "descriptionType": 5,
@@ -37666,7 +37666,7 @@
             "id": 10470902,
             "name": "고유키·빠른 연결",
             "description": "필드에 <color=#3487e0>타리즈</color>가 있으면 모든 아군 유닛의 방어력이 <color=#f26c1c>10%</color> 증가합니다.",
-            "descriptionBrief": "타레즈가 현장에 있을 때 모든 아군 유닛의 방어력이 <color=#f26c1c>10%</color> 증가합니다.",
+            "descriptionBrief": "타리즈가 현장에 있을 때 모든 아군 유닛의 방어력이 <color=#f26c1c>10%</color> 증가합니다.",
             "descriptionLiterary": "",
             "descriptionType": 5,
             "upgradeDescription": "",
@@ -39384,7 +39384,7 @@
         {
             "id": 20100007,
             "name": "발열증",
-            "description": "불타는 디버프가 걸린 적 대상을 공격하면 입히는 피해량이 <color=#f26c1c>5%</color> 증가합니다.",
+            "description": "연소계 디버프가 걸린 적 대상을 공격하면 입히는 피해량이 <color=#f26c1c>5%</color> 증가합니다.",
             "descriptionBrief": "",
             "descriptionLiterary": "",
             "upgradeDescription": "",
@@ -39393,7 +39393,7 @@
         {
             "id": 20100008,
             "name": "발열증",
-            "description": "불타는 디버프가 걸린 적 대상 공격 시, 입히는 피해량이 <color=#f26c1c>10%</color> 증가하고, 치명타 피해량이 <color=#f26c1c>20%</color> 증가합니다. .",
+            "description": "연소계 디버프가 걸린 적 대상 공격 시, 입히는 피해량이 <color=#f26c1c>10%</color> 증가하고, 치명타 피해량이 <color=#f26c1c>20%</color> 증가합니다. .",
             "descriptionBrief": "",
             "descriptionLiterary": "",
             "upgradeDescription": "",
@@ -39402,7 +39402,7 @@
         {
             "id": 20100009,
             "name": "발열증",
-            "description": "불타는 디버프가 걸린 적 대상 공격 시, 입히는 피해량이 <color=#f26c1c>20%</color> 증가하고, 치명타 적중률이 <color=#f26c1c>100%</color> 증가하며, 치명타 피해량이 <color=#f26c1c>15%</color> 증가합니다.",
+            "description": "연소계 디버프가 걸린 적 대상 공격 시, 입히는 피해량이 <color=#f26c1c>20%</color> 증가하고, 치명타 적중률이 <color=#f26c1c>100%</color> 증가하며, 치명타 피해량이 <color=#f26c1c>15%</color> 증가합니다.",
             "descriptionBrief": "",
             "descriptionLiterary": "",
             "upgradeDescription": "",
@@ -39499,7 +39499,7 @@
         },
         {
             "id": 20110001,
-            "name": "불타는 지원군",
+            "name": "연소 지원",
             "description": "전투 시작 시 <color=#f26c1c>3층</color><color=#3487e0>{0}</color>을 획득합니다. 피해를 입힐 때마다 자신이 <color=#f26c1c>1층</color><color=#3487e0>{0}</color>을 획득합니다.",
             "descriptionTips": "0:201100011",
             "descriptionBrief": "",
@@ -39509,7 +39509,7 @@
         },
         {
             "id": 20110002,
-            "name": "불타는 지원군",
+            "name": "연소 지원",
             "description": "받는 피해가 <color=#f26c1c>30%</color> 감소합니다. 턴 외 공격 후 적 대상에게 <color=#f26c1c>3회</color> <color=#f26c1c>50%</color> 공격력의 고정 피해와 <color=#f26c1c>2점</color> 고정 안정적 피해를 입힙니다. 대상이 보스 유닛일 경우, 공격력을 <color=#f26c1c>50%</color> 감소시키며, <color=#f26c1c>1턴</color> 동안 지속됩니다.",
             "descriptionBrief": "",
             "descriptionLiterary": "",
@@ -39518,7 +39518,7 @@
         },
         {
             "id": 20110003,
-            "name": "불타는 지원군",
+            "name": "연소 지원",
             "description": "<color=#3487e0>{0}</color> 이후 모든 스킬의 재사용 대기 시간이 <color=#f26c1c>1턴</color> 감소합니다. 액티브 스킬, 턴 외 스킬을 사용하거나 행동이 종료될 때 체력이 가장 높은 적 유닛에게 <color=#3487e0>{1}</color>과 <color=#3487e0>{2}</color>를 적용하며, <color=#f26c1c>2회</color> <color=#f26c1c>200%</color> 공격력의 고정 피해를 입힙니다.",
             "descriptionTips": "1:90228;0:310402;0:310472",
             "descriptionBrief": "",
@@ -39691,7 +39691,7 @@
         },
         {
             "id": 20210001,
-            "name": "결로 방지",
+            "name": "빙결 방호",
             "description": "공격 시 자신이 실드를 보유 중이라면 주는 피해가 <color=#f26c1c>100%</color> 증가하고, 치명타 확률이 <color=#f26c1c>100%</color> 증가합니다. 치명타 확률이 <color=#f26c1c>1%</color> 초과할 때마다 <color=#f26c1c>1%</color>의 치명타 피해가 추가로 상승합니다.",
             "descriptionBrief": "",
             "descriptionLiterary": "",
@@ -39700,7 +39700,7 @@
         },
         {
             "id": 20210002,
-            "name": "결로 방지",
+            "name": "빙결 방호",
             "description": "라운드 시작 시 방어력 × <color=#f26c1c>30%</color>만큼 공격력 증가: 방패 장착 시 공격력 감소가 불가능하며 변위 및 이동 디버프에 면역입니다. .",
             "descriptionBrief": "",
             "descriptionLiterary": "",
@@ -39709,7 +39709,7 @@
         },
         {
             "id": 20210003,
-            "name": "결로 방지",
+            "name": "빙결 방호",
             "description": "모든 <color=#3487e0>{0}</color> 부여 효과가 <color=#f26c1c>4턴</color> 동안 유지되는 <color=#3487e0>{0}</color>로 변경되며, 흡수량이 <color=#f26c1c>공격력의 150%</color>가 되고 최대 <color=#f26c1c>자신 최대 체력의 300%</color>를 초과하지 않습니다. 또한 실드를 보유 중이라면 공격 시 대상의 <color=#f26c1c>방어력을 100%</color> 무시합니다.",
             "descriptionTips": "0:330701",
             "descriptionBrief": "",
@@ -39891,7 +39891,7 @@
         },
         {
             "id": 20310001,
-            "name": "전도성 파업",
+            "name": "전도성 타격",
             "description": "이동 후 공격력이 <color=#f26c1c>30%</color> 증가하며, <color=#d4ae08>전도 피해</color>가 <color=#f26c1c>50%</color> 증가합니다. 지속시간은 턴 종료 시까지입니다. 전도 단일 피해를 입힌 후, 추가로 <color=#f26c1c>1회</color> <color=#f26c1c>50%</color> 공격력의 고정 피해를 입힙니다. 대상이 보스일 경우, 추가로 <color=#f26c1c>1회</color> <color=#f26c1c>150%</color> 공격력의 고정 피해를 입힙니다.",
             "descriptionBrief": "",
             "descriptionLiterary": "",
@@ -39900,7 +39900,7 @@
         },
         {
             "id": 20310002,
-            "name": "전도성 파업",
+            "name": "전도성 타격",
             "description": "<color=#3487e0>{0}</color>를 가진 적 대상에게 전도 단일 피해를 입힌 후, <color=#3487e0>{1}</color>를 적용하고 <color=#f26c1c>1개의</color> 버프를 해제합니다. <color=#d4ae08>전도 피해</color>를 입힌 후, 추가로 <color=#f26c1c>1회</color> <color=#f26c1c>150%</color> 공격력의 고정 피해와 <color=#f26c1c>9점</color>의 안정 지수 피해를 입힙니다.",
             "descriptionTips": "0:351701;0:203100022",
             "descriptionBrief": "",
@@ -39910,7 +39910,7 @@
         },
         {
             "id": 20310003,
-            "name": "전도성 파업",
+            "name": "전도성 타격",
             "description": "턴 시작 시, 모든 스킬의 쿨타임이 <color=#f26c1c>1턴</color> 감소하고 <color=#3487e0>{0}</color>를 획득합니다. <color=#f26c1c>결전기</color>를 사용하기 전에 <color=#3487e0>{1}</color>를 보유하고 있으면, 고정 피해 계수가 <color=#f26c1c>350%</color> 증가하고 <color=#3487e0>{2}</color>를 얻으며 지속시간은 <color=#f26c1c>2턴</color>입니다.",
             "descriptionTips": "0:203100031;0:351803;0:203100034",
             "descriptionBrief": "",
@@ -40083,7 +40083,7 @@
         },
         {
             "id": 20410001,
-            "name": "산성 붓다",
+            "name": "산성 투하",
             "description": "전투 시작 시 공격력이 가장 높은 우리 유닛의 치명타 피해량이 <color=#f26c1c>100%</color> 증가하고 <color=#3487e0>{0}</color>을 얻습니다.",
             "descriptionTips": "0:204100011",
             "descriptionBrief": "",
@@ -40093,7 +40093,7 @@
         },
         {
             "id": 20410002,
-            "name": "산성 붓다",
+            "name": "산성 투하",
             "description": "결정적인 스킬을 사용할 때 적에게 추가로 <color=#f26c1c>150%</color> 공격력의 고정 피해를 입힙니다. 이 효과가 <color=#f26c1c>1회</color> 발동될 때마다 치명타 확률이 <color=#f26c1c>15%</color> 증가하며, 최대 <color=#f26c1c>75%</color>까지 증가합니다. 피해 계수가 <color=#f26c1c>30%</color> 증가하며, 최대 <color=#f26c1c>300%</color>까지 증가합니다.",
             "descriptionBrief": "",
             "descriptionLiterary": "",
@@ -40102,7 +40102,7 @@
         },
         {
             "id": 20410003,
-            "name": "산성 붓다",
+            "name": "산성 투하",
             "description": "턴 시작 시 <color=#f26c1c>1점</color>의 리몰딩 지수를 회복하고, 모든 스킬의 쿨타임이 <color=#f26c1c>1턴</color> 줄어들며, <color=#f26c1c>30%</color>의 체력을 회복하고 공격력이 <color=#f26c1c>30%</color> 증가합니다. 범위 기술을 사용한 후 <color=#f26c1c>1중첩</color>의 <color=#3487e0>{0}</color>를 획득하며 최대 <color=#f26c1c>5중첩</color>까지 가능합니다. 액티브 공격 후 <color=#f26c1c>5중첩</color>의 <color=#3487e0>{0}</color>를 보유하고 있을 경우, 모든 <color=#3487e0>{0}</color>를 소모하여 즉시 <color=#f26c1c>1회</color>의 <color=#3487e0>{1}</color>를 획득하고, 체력이 가장 높은 적 대상에게 <color=#f26c1c>1500%</color> 공격력의 고정 피해를 입힙니다. <color=#3487e0>{1}</color> 동안 <color=#3487e0>{0}</color>를 획득할 수 없습니다.",
             "descriptionTips": "0:204100033;0:503000",
             "descriptionBrief": "",
@@ -40256,7 +40256,7 @@
         },
         {
             "id": 20500017,
-            "name": "생명의 샘이 넘쳐흐른다",
+            "name": "넘쳐흐르는 생명의 샘",
             "description": "치료를 받을 때, 치료량이 자신의 초기 최대 생명력의 <color=#f26c1c>1%</color>를 초과할 경우, <color=#f26c1c>1층</color><color=#3487e0>{0}</color>을 획득합니다.",
             "descriptionTips": "0:205000171",
             "descriptionBrief": "",
@@ -40275,7 +40275,7 @@
         },
         {
             "id": 20510001,
-            "name": "혼탁의 치유",
+            "name": "탁류의 치유",
             "description": "치료를 받으면 <color=#f26c1c>1레이어</color><color=#3487e0>{0}</color>를 얻으세요.",
             "descriptionTips": "0:205100011",
             "descriptionBrief": "",
@@ -40285,7 +40285,7 @@
         },
         {
             "id": 20510002,
-            "name": "혼탁의 치유",
+            "name": "탁류의 치유",
             "description": "치료를 받으면 <color=#f26c1c>1레이어</color><color=#3487e0>{0}</color>를 얻으세요.",
             "descriptionTips": "0:205100021",
             "descriptionBrief": "",
@@ -40295,7 +40295,7 @@
         },
         {
             "id": 20510003,
-            "name": "혼탁의 치유",
+            "name": "탁류의 치유",
             "description": "치료를 받을 때, 자신 리몰딩 지수가 <color=#f26c1c>6점</color> 미만이면, <color=#f26c1c>1점</color> 리몰딩 지수를 회복하고, 각 큰 턴마다 최대 <color=#f26c1c>10회</color>까지 발동합니다. 매번 발동할 때마다 <color=#f26c1c>1층</color><color=#3487e0>{0}</color>을 얻으며, 최대 <color=#f26c1c>20층</color>까지 얻을 수 있습니다.",
             "descriptionTips": "0:205100032",
             "descriptionBrief": "",

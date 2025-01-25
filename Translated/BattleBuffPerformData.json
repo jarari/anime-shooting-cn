@@ -7587,7 +7587,7 @@
         {
             "id": 310452,
             "name": "과열 및 자연발화",
-            "description": "이 효과가 획득되고 액션이 시작되면 플레이어와 1 블록 반경 내의 모든 아군 유닛은 공격자 공격력의 <color=#f26c1c>20%</color>에 해당하는 고정 피해를 받습니다. 불타는 디버프.",
+            "description": "이 효과가 획득되고 액션이 시작되면 플레이어와 1 블록 반경 내의 모든 아군 유닛은 공격자 공격력의 <color=#f26c1c>20%</color>에 해당하는 고정 피해를 받습니다. 연소계 디버프.",
             "buffEffect": "Buff/Dot_burn|Buff/Dot_burn_break",
             "effectPlayTime": [
                 1,
@@ -7613,7 +7613,7 @@
         {
             "id": 310462,
             "name": "과열 및 자연발화",
-            "description": "받는 화상 피해가 <color=#f26c1c>30%</color>만큼 증가합니다. 이 효과를 얻고 액션이 시작되면 자신과 <color=#f26c1c>3×3 정사각형</color> 내의 모든 아군 유닛은 <color=#f26c1c>20%</color>의 고정 피해를 받습니다. 공격자의 공격력. 불타는 디버프.",
+            "description": "받는 화상 피해가 <color=#f26c1c>30%</color>만큼 증가합니다. 이 효과를 얻고 액션이 시작되면 자신과 <color=#f26c1c>3×3 정사각형</color> 내의 모든 아군 유닛은 <color=#f26c1c>20%</color>의 고정 피해를 받습니다. 공격자의 공격력. 연소계 디버프.",
             "buffEffect": "Buff/Dot_burn|Buff/Dot_burn_break",
             "effectPlayTime": [
                 1,
@@ -9853,7 +9853,7 @@
         {
             "id": 510154,
             "name": "분신",
-            "description": "받는 화상 피해가 <color=#f26c1c>20%</color>만큼 증가합니다. 불타는 디버프.",
+            "description": "받는 화상 피해가 <color=#f26c1c>20%</color>만큼 증가합니다. 연소계 디버프.",
             "iconName": "Buff_EnemyHurtUp",
             "isShow": true,
             "buffHeadShow": 1
@@ -11171,7 +11171,7 @@
         {
             "id": 6167201,
             "name": "음파 실드",
-            "description": "라운드 종료 시 깨지지 않으면 <color=#3487e0>사악한 말 흩뿌리기</color>가 1회 해제됩니다. 분산될 수 없습니다.",
+            "description": "라운드 종료 시 깨지지 않으면 <color=#3487e0>사악한 말 흩뿌리기</color>가 1회 해제됩니다. 정화 불가.",
             "buffEffect": "Skill/6166301_Shield",
             "effectPlayTime": [
                 1
@@ -13439,7 +13439,7 @@
         {
             "id": 6704411,
             "name": "폭발 매니아",
-            "description": "이 효과가 있으면 <color=#3487e0>부주의한 폭발</color> 스킬이 모든 적 대상과 그 <color=#f26c1c>주변 3×3 격자</color>를 추적하여 선택하며, 재사용 대기시간은 다음과 같습니다. 지워졌습니다. 분산될 수 없습니다.",
+            "description": "이 효과가 있으면 <color=#3487e0>부주의한 폭발</color> 스킬이 모든 적 대상과 그 <color=#f26c1c>주변 3×3 격자</color>를 추적하여 선택하며, 재사용 대기시간은 다음과 같습니다. 지워졌습니다. 정화 불가.",
             "buffEffect": "Skill/6704301_Buff01",
             "effectPlayTime": [
                 1
@@ -20648,7 +20648,7 @@
         {
             "id": 67620306,
             "name": "비판적인",
-            "description": "다음 스킬 피해가 <color=#f26c1c>100%</color> 증가하고, 지속 피해가 <color=#f26c1c>4포인트</color> 증가합니다. 분산될 수 없습니다.",
+            "description": "다음 스킬 피해가 <color=#f26c1c>100%</color> 증가하고, 지속 피해가 <color=#f26c1c>4포인트</color> 증가합니다. 정화 불가.",
             "iconName": "Buff_AtkUpNeutral",
             "isShow": true,
             "buffHeadShow": 1,
@@ -20657,7 +20657,7 @@
         {
             "id": 67620604,
             "name": "깨지지 않음",
-            "description": "자신이 받는 피해가 <color=#f26c1c>100%</color>만큼 감소합니다. 분산될 수 없습니다.",
+            "description": "자신이 받는 피해가 <color=#f26c1c>100%</color>만큼 감소합니다. 정화 불가.",
             "iconName": "Buff_DefUpNeutral",
             "isShow": true,
             "buffHeadShow": 1,
@@ -20681,7 +20681,7 @@
         {
             "id": 68635015,
             "name": "정신적 강화",
-            "description": "입히는 피해가 <color=#f26c1c>30%</color> 증가하고, 받는 피해가 <color=#f26c1c>50%</color> 증가합니다. 분산될 수 없습니다.",
+            "description": "입히는 피해가 <color=#f26c1c>30%</color> 증가하고, 받는 피해가 <color=#f26c1c>50%</color> 증가합니다. 정화 불가.",
             "buffEffect": "Buff/68630501_Damage,Buff/68630501_Break",
             "effectPlayTime": [
                 1
@@ -20770,7 +20770,7 @@
         {
             "id": 68905022,
             "name": "반사 장벽",
-            "description": "고정 피해를 포함하여 받은 피해를 상쇄하기 위해 <color=#f26c1c>1회</color> 상쇄할 때마다 <color=#f26c1c>1레이어</color>가 감소하며, 요새 장치는 소멸됩니다. 분산될 수 없습니다.",
+            "description": "고정 피해를 포함하여 받은 피해를 상쇄하기 위해 <color=#f26c1c>1회</color> 상쇄할 때마다 <color=#f26c1c>1레이어</color>가 감소하며, 요새 장치는 소멸됩니다. 정화 불가.",
             "iconName": "Buff_InvincibleNeutral",
             "isShow": true,
             "buffHeadShow": 1,
@@ -21193,7 +21193,7 @@
         {
             "id": 69630012,
             "name": "느린 구름",
-            "description": "선택할 수 없으며, 고정 피해 이외의 피해를 받을 수 없습니다. 분산될 수 없습니다.",
+            "description": "선택할 수 없으며, 고정 피해 이외의 피해를 받을 수 없습니다. 정화 불가.",
             "buffEffect": "Skill/6963_barrier",
             "effectPlayTime": [
                 1
@@ -21219,7 +21219,7 @@
         {
             "id": 69630022,
             "name": "데이터 재구성",
-            "description": "죽을 수 없으며, 이 효과는 자신의 턴이 시작될 때 만료되고 모든 사람의 체력과 안정 지수가 회복됩니다. 분산될 수 없습니다.",
+            "description": "죽을 수 없으며, 이 효과는 자신의 턴이 시작될 때 만료되고 모든 사람의 체력과 안정 지수가 회복됩니다. 정화 불가.",
             "buffEffect": "Buff/6963_destroy",
             "effectPlayTime": [
                 1
@@ -23398,8 +23398,8 @@
         },
         {
             "id": 104704011,
-            "name": "타레즈",
-            "description": "타레즈가 대상을 따라가며 아군 유닛이 피해를 입으면 <color=#3487e0>반격</color>하고, 대상이 죽은 경우 아군 유닛의 체력을 회복하며 현재 가장 체력이 높은 적 유닛을 따르도록 전환됩니다.",
+            "name": "타리즈",
+            "description": "타리즈가 대상을 따라가며 아군 유닛이 피해를 입으면 <color=#3487e0>반격</color>하고, 대상이 죽은 경우 아군 유닛의 체력을 회복하며 현재 가장 체력이 높은 적 유닛을 따르도록 전환됩니다.",
             "effectBirthType": "109",
             "effectTypeGroup": "0",
             "iconName": "Buff_TargetNeutral",
@@ -23410,7 +23410,7 @@
         {
             "id": 104704012,
             "name": "깊은 우정",
-            "description": "최대 체력 값은 소지자의 최대 체력 값의 <color=#f26c1c>100%</color>만큼 증가합니다. 지속시간이 끝나면 시전자 공격력의 <color=#f26c1c>100%</color> 체력이 회복됩니다. 분산될 수 없습니다.",
+            "description": "최대 체력 값은 소지자의 최대 체력 값의 <color=#f26c1c>100%</color>만큼 증가합니다. 지속시간이 끝나면 시전자 공격력의 <color=#f26c1c>100%</color> 체력이 회복됩니다. 정화 불가.",
             "iconName": "Buff_SpringfieldSSR1",
             "isShow": true,
             "buffHeadShow": 1,
@@ -23418,8 +23418,8 @@
         },
         {
             "id": 104704021,
-            "name": "타레즈",
-            "description": "타레즈의 추적 대상이 아군 유닛에게 피해를 입히면, 해당 대상에게 <color=#3487e0>반격</color>을 가하고 아군 유닛의 체력을 회복합니다. 아군 유닛이 추적 대상을 능동적으로 공격하여 <color=#2caadb>탁류 피해</color>를 입힐 경우, <color=#3487e0>행동 지원</color>을 실행하며 아군 유닛의 체력을 회복합니다. 추적 대상이 사망하면 현재 체력이 가장 높은 적 유닛을 새로운 추적 대상으로 설정합니다.",
+            "name": "타리즈",
+            "description": "타리즈의 추적 대상이 아군 유닛에게 피해를 입히면, 해당 대상에게 <color=#3487e0>반격</color>을 가하고 아군 유닛의 체력을 회복합니다. 아군 유닛이 추적 대상을 능동적으로 공격하여 <color=#2caadb>탁류 피해</color>를 입힐 경우, <color=#3487e0>행동 지원</color>을 실행하며 아군 유닛의 체력을 회복합니다. 추적 대상이 사망하면 현재 체력이 가장 높은 적 유닛을 새로운 추적 대상으로 설정합니다.",
             "effectBirthType": "109",
             "effectTypeGroup": "0",
             "iconName": "Buff_TargetNeutral",
@@ -23429,8 +23429,8 @@
         },
         {
             "id": 104704031,
-            "name": "타레즈",
-            "description": "만약 타레즈의 추적 대상이 아군 유닛에게 피해를 입히면, <color=#3487e0>반격</color>을 수행하고 아군 유닛의 체력을 회복합니다. 아군 유닛이 추적 대상에게 능동적으로 공격하여 <color=#2caadb>탁류 피해</color>를 입힐 경우, <color=#3487e0>행동 지원</color>을 수행하며 아군 유닛의 체력을 회복합니다. 추적 대상이 사망하면, <color=#f26c1c>반경 4칸</color> 내의 모든 적 유닛에게 스프링필드 공격력의 <color=#f26c1c>40%</color>만큼의 고정 피해를 입히고, 현재 체력이 가장 높은 적 유닛을 새로 추적 대상으로 설정합니다.",
+            "name": "타리즈",
+            "description": "만약 타리즈의 추적 대상이 아군 유닛에게 피해를 입히면, <color=#3487e0>반격</color>을 수행하고 아군 유닛의 체력을 회복합니다. 아군 유닛이 추적 대상에게 능동적으로 공격하여 <color=#2caadb>탁류 피해</color>를 입힐 경우, <color=#3487e0>행동 지원</color>을 수행하며 아군 유닛의 체력을 회복합니다. 추적 대상이 사망하면, <color=#f26c1c>반경 4칸</color> 내의 모든 적 유닛에게 스프링필드 공격력의 <color=#f26c1c>40%</color>만큼의 고정 피해를 입히고, 현재 체력이 가장 높은 적 유닛을 새로 추적 대상으로 설정합니다.",
             "effectBirthType": "109",
             "effectTypeGroup": "0",
             "iconName": "Buff_TargetNeutral",
@@ -23441,7 +23441,7 @@
         {
             "id": 104704032,
             "name": "깊은 우정",
-            "description": "최대 체력 값은 홀더의 최대 체력 값의 <color=#f26c1c>100%</color>만큼 증가합니다. 자신이 받는 피해가 <color=#f26c1c>15%</color>만큼 감소합니다. 지속시간이 끝나면 시전자 공격력의 <color=#f26c1c>100%</color> 체력이 회복됩니다. 분산될 수 없습니다.",
+            "description": "최대 체력 값은 홀더의 최대 체력 값의 <color=#f26c1c>100%</color>만큼 증가합니다. 자신이 받는 피해가 <color=#f26c1c>15%</color>만큼 감소합니다. 지속시간이 끝나면 시전자 공격력의 <color=#f26c1c>100%</color> 체력이 회복됩니다. 정화 불가.",
             "iconName": "Buff_SpringfieldSSR1",
             "isShow": true,
             "buffHeadShow": 1,
@@ -23449,8 +23449,8 @@
         },
         {
             "id": 104704041,
-            "name": "타레즈 치앙시에",
-            "description": "만약 타레즈의 추적 대상이 아군 유닛에게 피해를 입히면, <color=#3487e0>반격</color>을 수행하고 아군 유닛의 체력을 회복합니다. 아군 유닛이 추적 대상에게 능동적으로 공격하여 <color=#2caadb>탁류 피해</color>를 입힐 경우, <color=#3487e0>행동 지원</color>을 수행하며 아군 유닛의 체력을 회복합니다. 추적 대상이 사망하면, <color=#f26c1c>반경 4칸</color> 내의 모든 적 유닛에게 스프링필드 공격력의 <color=#f26c1c>40%</color>만큼의 고정 피해를 입히고, 현재 체력이 가장 높은 적 유닛을 새로 추적 대상으로 설정합니다.",
+            "name": "타리즈·강력한 조화",
+            "description": "만약 타리즈의 추적 대상이 아군 유닛에게 피해를 입히면, <color=#3487e0>반격</color>을 수행하고 아군 유닛의 체력을 회복합니다. 아군 유닛이 추적 대상에게 능동적으로 공격하여 <color=#2caadb>탁류 피해</color>를 입힐 경우, <color=#3487e0>행동 지원</color>을 수행하며 아군 유닛의 체력을 회복합니다. 추적 대상이 사망하면, <color=#f26c1c>반경 4칸</color> 내의 모든 적 유닛에게 스프링필드 공격력의 <color=#f26c1c>40%</color>만큼의 고정 피해를 입히고, 현재 체력이 가장 높은 적 유닛을 새로 추적 대상으로 설정합니다.",
             "effectBirthType": "109",
             "effectTypeGroup": "0",
             "iconName": "Buff_TargetNeutral",
@@ -23703,7 +23703,7 @@
         {
             "id": 105009080,
             "name": "치명타 횟수",
-            "description": "발생한 치명타 횟수입니다. 분산될 수 없습니다.",
+            "description": "발생한 치명타 횟수입니다. 정화 불가.",
             "iconName": "Buff_CountHit",
             "isShow": true,
             "buffHeadShow": 1,
@@ -23728,7 +23728,7 @@
         {
             "id": 105105026,
             "name": "잠들기 전 준비 운동·강화",
-            "description": "기본 공격으로 인한 피해가 <color=#f26c1c>100%</color> 증가합니다. <color=#f26c1c>1회</color> 유효합니다. 분산될 수 없습니다.",
+            "description": "기본 공격으로 인한 피해가 <color=#f26c1c>100%</color> 증가합니다. <color=#f26c1c>1회</color> 유효합니다. 정화 불가.",
             "iconName": "Buff_AtkUpNeutral",
             "isShow": true,
             "buffHeadShow": 1,
@@ -23755,7 +23755,7 @@
         {
             "id": 105107003,
             "name": "전투 모드",
-            "description": "공격력, 방어력, 기본 공격 치명타율이 <color=#f26c1c>30%</color> 증가하고, 기동성이 <color=#f26c1c>2블록</color> 증가합니다. 행동이 끝나면 리몰딩 지수 <color=#f26c1c>3점</color>을 얻고 <color=#3487e0>{0}</color>이 없는 아군 유닛에 <color=#3487e0>{0을 적용합니다. }</color>. 분산될 수 없습니다.",
+            "description": "공격력, 방어력, 기본 공격 치명타율이 <color=#f26c1c>30%</color> 증가하고, 기동성이 <color=#f26c1c>2블록</color> 증가합니다. 행동이 끝나면 리몰딩 지수 <color=#f26c1c>3점</color>을 얻고 <color=#3487e0>{0}</color>이 없는 아군 유닛에 <color=#3487e0>{0을 적용합니다. }</color>. 정화 불가.",
             "descriptionTips": "0:105104021",
             "iconName": "Buff_MishtySSR1",
             "isShow": true,
@@ -23952,7 +23952,7 @@
         },
         {
             "id": 202100022,
-            "name": "결로 방지",
+            "name": "빙결 방호",
             "description": "자체 공격력은 감소할 수 없으며, 변위 및 이동 디버프에 면역이다. 버프는 해제할 수 없습니다.",
             "iconName": "Buff_SpeedUp",
             "isShow": true,
@@ -23960,7 +23960,7 @@
         },
         {
             "id": 202100031,
-            "name": "결로 방지",
+            "name": "빙결 방호",
             "description": "<color=#3487e0>{0}</color>효과가 향상되고, 흡수량이 공격력의 <color=#f26c1c>150%</color>, 최대 <color=#f26c1c>300%</color>입니다. color> 최대 HP, <color=#f26c1c>4라운드</color> 지속됩니다. 응축형 버프는 해제할 수 없습니다.",
             "descriptionTips": "0:330701",
             "buffEffect": "Skill/gun_Ice_shield|Skill/gun_Ice_shield_2",
@@ -23985,7 +23985,7 @@
         },
         {
             "id": 202100034,
-            "name": "결로 방지",
+            "name": "빙결 방호",
             "description": "공격 시 대상의 <color=#f26c1c>100%</color> 방어력을 무시합니다. 버프는 해제할 수 없습니다.",
             "iconName": "Buff_AtkUp",
             "isShow": true,
@@ -24116,8 +24116,8 @@
         },
         {
             "id": 205000171,
-            "name": "생명의 샘이 넘쳐흐른다",
-            "description": "최대 체력 값이 <color=#f26c1c>1%</color> 증가하며 최대 <color=#f26c1c>100레이어</color>까지 쌓을 수 있습니다. 버프는 해제할 수 없습니다.",
+            "name": "넘쳐흐르는 생명의 샘",
+            "description": "최대 체력 값이 <color=#f26c1c>1%</color> 증가하며 최대 <color=#f26c1c>100스택</color>까지 중첩 가능합니다. 버프는 해제할 수 없습니다.",
             "iconName": "Buff_SelfHeal",
             "isShow": true,
             "buffHeadShow": 1
@@ -24142,7 +24142,7 @@
         },
         {
             "id": 205100032,
-            "name": "Zhuo Ke의 황제",
+            "name": "탁류 지배",
             "description": "방어력이 <color=#f26c1c>10%</color> 증가하며, 최대 <color=#f26c1c>20겹</color>까지 중첩 가능합니다. 해제할 수 없는 방어 버프입니다.",
             "iconName": "Buff_DefUp",
             "isShow": true,
@@ -24473,7 +24473,7 @@
         {
             "id": 620019012,
             "name": "얼음방패",
-            "description": "얼음 방패가 만료될 때 깨지지 않으면 부서진뿔무쇠괴물이 <color=#3487e0>{0}</color> 레이어 1개를 얻습니다. 분산될 수 없습니다.",
+            "description": "얼음 방패가 만료될 때 깨지지 않으면 부서진뿔무쇠괴물이 <color=#3487e0>{0}</color> 레이어 1개를 얻습니다. 정화 불가.",
             "descriptionTips": "0:696221021",
             "buffEffect": "Skill/6952701_Icebuff",
             "effectPlayTime": [
@@ -24492,7 +24492,7 @@
         {
             "id": 620019022,
             "name": "얼음방패",
-            "description": "얼음 방패가 만료될 때 깨지지 않으면 부서진뿔무쇠괴물이 <color=#3487e0>{0}</color> 레이어 1개를 얻습니다. 분산될 수 없습니다.",
+            "description": "얼음 방패가 만료될 때 깨지지 않으면 부서진뿔무쇠괴물이 <color=#3487e0>{0}</color> 레이어 1개를 얻습니다. 정화 불가.",
             "descriptionTips": "0:696221021",
             "buffEffect": "Skill/6952701_Icebuff",
             "effectPlayTime": [
@@ -24511,7 +24511,7 @@
         {
             "id": 620019032,
             "name": "얼음방패",
-            "description": "얼음 방패가 만료될 때 깨지지 않으면 부서진뿔무쇠괴물이 <color=#3487e0>{0}</color> 레이어 1개를 얻습니다. 분산될 수 없습니다.",
+            "description": "얼음 방패가 만료될 때 깨지지 않으면 부서진뿔무쇠괴물이 <color=#3487e0>{0}</color> 레이어 1개를 얻습니다. 정화 불가.",
             "descriptionTips": "0:696221021",
             "buffEffect": "Skill/6952701_Icebuff",
             "effectPlayTime": [
@@ -24709,7 +24709,7 @@
         {
             "id": 686350151,
             "name": "정신적 강화",
-            "description": "입히는 피해가 <color=#f26c1c>30%</color> 증가하고, 받는 피해가 <color=#f26c1c>15%</color> 증가합니다. 분산될 수 없습니다.",
+            "description": "입히는 피해가 <color=#f26c1c>30%</color> 증가하고, 받는 피해가 <color=#f26c1c>15%</color> 증가합니다. 정화 불가.",
             "buffEffect": "Buff/68630501_Damage,Buff/68630501_Break",
             "effectPlayTime": [
                 1
@@ -24781,7 +24781,7 @@
         {
             "id": 693601012,
             "name": "함폭 경보",
-            "description": "<color=#3487e0>함선 파괴 경고</color>가 <color=#f26c1c>레벨 5</color>에 도달하면 <color=#3487e0>오로라 퀸</color>이 <color=#3487e0> 우주선을 방출합니다. I를 파괴하세요</color>. 분산될 수 없습니다.",
+            "description": "<color=#3487e0>함선 파괴 경고</color>가 <color=#f26c1c>레벨 5</color>에 도달하면 <color=#3487e0>오로라 퀸</color>이 <color=#3487e0> 우주선을 방출합니다. I를 파괴하세요</color>. 정화 불가.",
             "iconName": "Buff_Tank5",
             "isShow": true,
             "buffHeadShow": 10,
@@ -24790,7 +24790,7 @@
         {
             "id": 693601022,
             "name": "함폭 경보",
-            "description": "<color=#3487e0>함선 파괴 경고</color>가 <color=#f26c1c>레벨 6</color>에 도달하면 <color=#3487e0>오로라 여왕</color>이 <color=#3487e0> 우주선을 방출합니다. 파멸 II</color>. 분산될 수 없습니다.",
+            "description": "<color=#3487e0>함선 파괴 경고</color>가 <color=#f26c1c>레벨 6</color>에 도달하면 <color=#3487e0>오로라 여왕</color>이 <color=#3487e0> 우주선을 방출합니다. 파멸 II</color>. 정화 불가.",
             "iconName": "Buff_Tank5",
             "isShow": true,
             "buffHeadShow": 10,
@@ -24799,7 +24799,7 @@
         {
             "id": 693801012,
             "name": "함폭 경보",
-            "description": "<color=#3487e0>함선 파괴 경고</color>가 <color=#f26c1c>레벨 8</color>에 도달하면 <color=#3487e0>오로라 여왕</color>이 <color=#3487e0> 우주선을 방출합니다. I를 파괴하세요</color>. 분산될 수 없습니다.",
+            "description": "<color=#3487e0>함선 파괴 경고</color>가 <color=#f26c1c>레벨 8</color>에 도달하면 <color=#3487e0>오로라 여왕</color>이 <color=#3487e0> 우주선을 방출합니다. I를 파괴하세요</color>. 정화 불가.",
             "iconName": "Buff_Tank5",
             "isShow": true,
             "buffHeadShow": 10,
@@ -24817,7 +24817,7 @@
         {
             "id": 696221011,
             "name": "얼음방패",
-            "description": "얼음 방패가 만료될 때 깨지지 않으면 부서진뿔무쇠괴물이 <color=#3487e0>{0}</color> 레이어 1개를 얻습니다. 분산될 수 없습니다.",
+            "description": "얼음 방패가 만료될 때 깨지지 않으면 부서진뿔무쇠괴물이 <color=#3487e0>{0}</color> 레이어 1개를 얻습니다. 정화 불가.",
             "descriptionTips": "0:696221021",
             "buffEffect": "Skill/6952701_Icebuff",
             "effectPlayTime": [
@@ -24845,7 +24845,7 @@
         {
             "id": 696223011,
             "name": "아이스픽",
-            "description": "보유자의 캠프 턴이 끝나면 폭발하여 보유자와 보유자 주변 <color=#f26c1c>5×5 정사각형</color> 내의 모든 유닛이 <color=#f26c1c>70%</color> 피해를 입습니다. .color>공격력 범위 응축 피해와 <color=#f26c1c>2</color>점의 고정 피해, 그리고 <color=#3487e0>{0}</color> 추가 레이어입니다. 폭발로 인해 부서진 뿔 달린 강철 야수에게 <color=#f26c1c>4</color> 고정 지속 피해가 추가로 발생합니다. 분산될 수 없습니다.",
+            "description": "보유자의 캠프 턴이 끝나면 폭발하여 보유자와 보유자 주변 <color=#f26c1c>5×5 정사각형</color> 내의 모든 유닛이 <color=#f26c1c>70%</color> 피해를 입습니다. .color>공격력 범위 응축 피해와 <color=#f26c1c>2</color>점의 고정 피해, 그리고 <color=#3487e0>{0}</color> 추가 레이어입니다. 폭발로 인해 부서진 뿔 달린 강철 야수에게 <color=#f26c1c>4</color> 고정 지속 피해가 추가로 발생합니다. 정화 불가.",
             "descriptionTips": "0:696223012",
             "buffEffect": "Skill/6761401_Ice",
             "effectPlayTime": [
