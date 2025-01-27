@@ -20796,8 +20796,8 @@
         },
         {
             "id": 68920012,
-            "name": "헐렁한",
-            "description": "액션 시작 시 동일한 레이어 수를 가진 <color=#3487e0>{0}</color>로 변환되며 <color=#f26c1c>1턴</color> 동안 지속됩니다.",
+            "name": "떨어지는 껍질",
+            "description": "행동 시작 시 동일한 스택수의 <color=#3487e0>{0}</color>로 변하고 <color=#f26c1c>1턴</color>간 지속됩니다.",
             "descriptionTips": "0:68920014",
             "iconName": "Buff_CountHit",
             "isShow": true,
@@ -20806,8 +20806,8 @@
         },
         {
             "id": 68920014,
-            "name": "깨지기 쉬운 표피",
-            "description": "받는 피해는 <color=#f26c1c>2%</color>씩 최대 <color=#f26c1c>15</color>겹 증가하며, 디버프는 해제할 수 없습니다.",
+            "name": "연약한 표피",
+            "description": "받는 피해가 스택 당 <color=#f26c1c>2%</color>씩 최대 <color=#f26c1c>15스택</color> 증가합니다. 정화 불가 디버프.",
             "iconName": "Buff_EnemyHurtUp",
             "isShow": true,
             "buffHeadShow": 1,
@@ -20815,8 +20815,8 @@
         },
         {
             "id": 68922011,
-            "name": "타액을 소화하다",
-            "description": "받는 피해가 <color=#f26c1c>20%</color> 증가하고 중첩 가능하며 <color=#f26c1c>2라운드</color> 동안 지속되고 디버프 효과가 있습니다. 해제되면 모든 아군이 <color=#f26c1c>1개의 레이어</color><color=#3487e0>{0}</color>를 얻고 <color=#f26c1c>1턴</color> 동안 지속됩니다.",
+            "name": "소화타액",
+            "description": "받는 피해가 <color=#f26c1c>2턴</color>동안 <color=#f26c1c>20%</color> 증가합니다. 중첩 가능, 디버프. 해제 시 모든 아군이 <color=#f26c1c>1턴</color>동안 <color=#f26c1c>1스택</color>의 <color=#3487e0>{0}</color>를 얻습니다.",
             "descriptionTips": "0:68922012",
             "iconName": "Buff_EnemyHurtUp",
             "isShow": true,
@@ -20826,7 +20826,7 @@
         {
             "id": 68922012,
             "name": "침 담그기",
-            "description": "공격은 대상의 <color=#f26c1c>5%</color> 방어력을 무시하고 중첩 가능하며 버프는 해제될 수 없습니다.",
+            "description": "공격이 대상의 방어력을 <color=#f26c1c>5%</color> 무시합니다. 중첩 가능, 해제 불가 디버프.",
             "iconName": "Buff_AtkUp",
             "isShow": true,
             "buffHeadShow": 1,
@@ -20835,7 +20835,7 @@
         {
             "id": 68923031,
             "name": "기생 씨앗",
-            "description": "공격력이 <color=#f26c1c>20%</color> 감소하며, 이는 중첩 가능하며, 디버프는 해제할 수 없습니다.",
+            "description": "공격력이 <color=#f26c1c>20%</color> 감소합니다. 중첩 가능, 해제 불가 디버프.",
             "iconName": "Buff_AtkDown",
             "isShow": true,
             "buffHeadShow": 1,
@@ -20844,7 +20844,7 @@
         {
             "id": 68923042,
             "name": "가시 덩굴",
-            "description": "공격력이 <color=#f26c1c>10%</color>만큼 증가하며, 버프는 해제할 수 없습니다.",
+            "description": "공격력이 <color=#f26c1c>10%</color>만큼 증가합니다. 해제 불가 버프.",
             "iconName": "Buff_AtkUp",
             "isShow": true,
             "buffHeadShow": 1,
@@ -20852,8 +20852,8 @@
         },
         {
             "id": 68924013,
-            "name": "흥분한",
-            "description": "방어력이 <color=#f26c1c>20%</color> 감소하며 최대 <color=#f26c1c>3</color>겹까지 중첩될 수 있습니다. 디버프는 해제할 수 없습니다.",
+            "name": "격분",
+            "description": "방어력이 <color=#f26c1c>20%</color> 감소합니다. 최대 중첩 수 <color=#f26c1c>3스택</color>. 해제 불가 디버프.",
             "iconName": "Buff_DefLow",
             "isShow": true,
             "buffHeadShow": 1,
