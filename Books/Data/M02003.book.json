@@ -1,0 +1,4986 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -4966018532029360186
+  },
+  "m_Name": "M02003.book",
+  "importVersion": 0,
+  "importGridList": [
+    {
+      "rows": [
+        {
+          "rowIndex": 0,
+          "strings": [
+            "Command",
+            "Arg1",
+            "Arg2",
+            "Arg3",
+            "Arg4",
+            "Arg5",
+            "Arg6",
+            "Arg7",
+            "Arg8",
+            "WaitType",
+            "Text",
+            "PageCtrl",
+            "WindowType",
+            "Voice",
+            "Voice1",
+            "Voice_JP",
+            "Voice1_JP",
+            "Voice_EN",
+            "Voice1_EN"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 1,
+          "strings": [
+            "ChangeMessageWindow",
+            "AVGWindow",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 2,
+          "strings": [
+            "Character",
+            "闪电Rest",
+            "Idle,0|Think,3|Serious,5",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 3,
+          "strings": [
+            "Bg",
+            "BG_None_Carriage_01_Mask",
+            "",
+            "DoubleBgBackChange",
+            "",
+            "",
+            "0",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 4,
+          "strings": [
+            "Bg",
+            "BG_None_Carriage_04",
+            "",
+            "BgFrontForDoubleBg",
+            "",
+            "",
+            "1",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 5,
+          "strings": [
+            "Bg",
+            "BG_Yellow_Train_Day_Snow_01",
+            "",
+            "BgBackForDoubleBg",
+            "",
+            "",
+            "1",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 6,
+          "strings": [
+            "SetShader",
+            "BG_Yellow_Train_Day_Snow_01",
+            "_Brightness",
+            ".15",
+            "",
+            "",
+            "",
+            "0",
+            "",
+            "PageWaitSkippable",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 7,
+          "strings": [
+            "SetShader",
+            "BG_Yellow_Train_Day_Snow_01",
+            "_BlurMode",
+            "2",
+            "",
+            "",
+            "",
+            "0",
+            "",
+            "PageWaitSkippable",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 8,
+          "strings": [
+            "SetShader",
+            "BG_Yellow_Train_Day_Snow_01",
+            "_KawaseBlurRadius",
+            ".3",
+            "",
+            "",
+            "",
+            "0",
+            "",
+            "PageWaitSkippable",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 9,
+          "strings": [
+            "Tween",
+            "BG_Yellow_Train_Day_Snow_01",
+            "ScaleTo",
+            "time=0 start=0 x=2251/2048 y=1125/1024",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "NoWait",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 10,
+          "strings": [
+            "Tween",
+            "BG_Yellow_Train_Day_Snow_01",
+            "MoveBy",
+            "time=0 start=0 x=-72.72 y=368.64-405",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "PageWait",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 11,
+          "strings": [
+            "Param",
+            "delayForBack=(0+1)",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 12,
+          "strings": [
+            "BgOff",
+            "BG_None_Carriage_01_Mask",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 13,
+          "strings": [
+            "Se",
+            "2010067",
+            "TRUE",
+            ".8",
+            "",
+            "0",
+            "1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 14,
+          "strings": [
+            "Se",
+            "2010017",
+            "",
+            "1",
+            "",
+            "0",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 15,
+          "strings": [
+            "Se",
+            "2010014",
+            "",
+            "1",
+            "",
+            "1.5",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 16,
+          "strings": [
+            "Se",
+            "2010068",
+            "",
+            "1",
+            "",
+            "2.5",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 17,
+          "strings": [
+            "Text",
+            "59",
+            "闪电Rest",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "102003001",
+            "",
+            "",
+            "8020065",
+            "8020065"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 18,
+          "strings": [
+            "ChangeMessageWindow",
+            "AVGNarrator",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 19,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 20,
+          "strings": [
+            "Se",
+            "2010069",
+            "TRUE",
+            "1",
+            "",
+            "0",
+            "3",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 21,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "102003002"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 22,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 23,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "102003003"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 24,
+          "strings": [
+            "ChangeMessageWindow",
+            "AVGWindow",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 25,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 26,
+          "strings": [
+            "Bgm",
+            "长城列车",
+            "",
+            "1",
+            "",
+            "0",
+            "1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 27,
+          "strings": [
+            "Text",
+            "50",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "102003004",
+            "",
+            "",
+            "8020066",
+            "8021066"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 28,
+          "strings": [
+            "Character",
+            "克罗丽科Rest",
+            "Idle,0|Disdain,0.5|Idle,2.5",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 29,
+          "strings": [
+            "Text",
+            "154",
+            "克罗丽科Rest",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "102003005",
+            "",
+            "",
+            "8020067",
+            "8020067"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 30,
+          "strings": [
+            "Text",
+            "50",
+            "",
+            "克罗丽科Rest",
+            "",
+            "",
+            "",
+            "1.2",
+            "",
+            "",
+            "102003006",
+            "",
+            "",
+            "8020068",
+            "8021068"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 31,
+          "strings": [
+            "Character",
+            "克罗丽科Rest",
+            "Ridicule,0.5|Proud,5.5",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 32,
+          "strings": [
+            "Text",
+            "154",
+            "克罗丽科Rest",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "102003007",
+            "",
+            "",
+            "8020069",
+            "8020069"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 33,
+          "strings": [
+            "Character",
+            "克罗丽科Rest",
+            "Ridicule,4.5",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 34,
+          "strings": [
+            "Text",
+            "50",
+            "",
+            "克罗丽科Rest",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "102003008",
+            "",
+            "",
+            "8020070",
+            "8021070"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 35,
+          "strings": [
+            "ChangeLayer",
+            "克罗丽科Rest",
+            "KeepLocal",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 36,
+          "strings": [
+            "Character",
+            "闪电Rest",
+            "Idle,0|Helpless,0.5",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 37,
+          "strings": [
+            "Text",
+            "59",
+            "闪电Rest",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "102003009",
+            "",
+            "",
+            "8020071",
+            "8020071"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 38,
+          "strings": [
+            "Character",
+            "纳美西丝Rest",
+            "Idle,0|Think,1|Idle,3",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 39,
+          "strings": [
+            "Text",
+            "60",
+            "纳美西丝Rest",
+            "",
+            "",
+            "",
+            "",
+            ".6",
+            "",
+            "",
+            "102003010",
+            "",
+            "",
+            "8020072",
+            "8020072"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 40,
+          "strings": [
+            "Character",
+            "克罗丽科Rest",
+            "Surprised,0.5|Ridicule,1.5|Serious,3",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 41,
+          "strings": [
+            "Se",
+            "2010048",
+            "",
+            "1",
+            "",
+            "3",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 42,
+          "strings": [
+            "Text",
+            "154",
+            "克罗丽科Rest",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "102003011",
+            "",
+            "",
+            "8020073",
+            "8020073"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 43,
+          "strings": [
+            "Character",
+            "闪电Rest",
+            "Idle,0|Serious,2",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 44,
+          "strings": [
+            "Text",
+            "59",
+            "闪电Rest",
+            "",
+            "",
+            "",
+            "",
+            "0",
+            "",
+            "",
+            "102003012",
+            "",
+            "",
+            "8020074",
+            "8020074"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 45,
+          "strings": [
+            "Character",
+            "克罗丽科Rest",
+            "Disdain,0.5",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 46,
+          "strings": [
+            "Text",
+            "154",
+            "克罗丽科Rest",
+            "",
+            "",
+            "",
+            "",
+            "1",
+            "",
+            "",
+            "102003013",
+            "",
+            "",
+            "8020075",
+            "8020075"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 47,
+          "strings": [
+            "Text",
+            "50",
+            "",
+            "克罗丽科Rest",
+            "",
+            "",
+            "",
+            ".6",
+            "",
+            "",
+            "102003014",
+            "",
+            "",
+            "8020076",
+            "8021076"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 48,
+          "strings": [
+            "CharacterOff",
+            "克罗丽科Rest",
+            "",
+            "",
+            "",
+            "",
+            ".1",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 49,
+          "strings": [
+            "Character",
+            "闪电Rest",
+            "Helpless,0.5",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 50,
+          "strings": [
+            "Text",
+            "59",
+            "闪电Rest",
+            "",
+            "",
+            "",
+            "",
+            ".1",
+            "",
+            "",
+            "102003015",
+            "",
+            "",
+            "8020077",
+            "8020077"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 51,
+          "strings": [
+            "Text",
+            "50",
+            "",
+            "闪电Rest",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "102003016",
+            "",
+            "",
+            "8020078",
+            "8021078"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 52,
+          "strings": [
+            "CharacterOff",
+            "闪电Rest",
+            "",
+            "",
+            "",
+            "",
+            ".1",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 53,
+          "strings": [
+            "Character",
+            "克罗丽科Rest",
+            "Disdain,0|Idle,0.5",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 54,
+          "strings": [
+            "CharacterOff",
+            "克罗丽科Rest",
+            "",
+            "",
+            "",
+            "",
+            ".5",
+            "1.5",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 55,
+          "strings": [
+            "Param",
+            "mapStart=(2+0.3)",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 56,
+          "strings": [
+            "BgOff",
+            "BG_Yellow_Train_Day_Snow_01",
+            "",
+            "",
+            "",
+            "",
+            "2",
+            "2",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 57,
+          "strings": [
+            "BgOff",
+            "BG_None_Carriage_04",
+            "",
+            "",
+            "",
+            "",
+            "2",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 58,
+          "strings": [
+            "StopBgm",
+            "长城列车",
+            "",
+            "",
+            "",
+            "",
+            "1",
+            "3",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 59,
+          "strings": [
+            "StopSe",
+            "2010069",
+            "",
+            "",
+            "",
+            "",
+            "1",
+            "2",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 60,
+          "strings": [
+            "ChangeSoundVolume",
+            "Se",
+            ".2",
+            "2010067",
+            "",
+            "",
+            "0",
+            ".9",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 61,
+          "strings": [
+            "Se",
+            "2010070",
+            "",
+            "1",
+            "",
+            "0",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 62,
+          "strings": [
+            "Text",
+            "154",
+            "克罗丽科Rest",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "102003017",
+            "",
+            "",
+            "8020079",
+            "8020079"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 63,
+          "strings": [
+            "Character",
+            "美玲",
+            "Idle,0|Tentative,0.5",
+            "中",
+            "",
+            "",
+            ".400000006",
+            "2.5"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 64,
+          "strings": [
+            "Bg",
+            "BG_None_Black_01",
+            "",
+            "BgDefault",
+            "",
+            "",
+            ".2",
+            "2",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 65,
+          "strings": [
+            "Bg",
+            "BG_None_Carriage_Centre_01",
+            "",
+            "BgDefault",
+            "",
+            "",
+            "1.5",
+            "2",
+            "EaseInSine",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 66,
+          "strings": [
+            "Se",
+            "2010047",
+            "TRUE",
+            ".6",
+            "",
+            "2",
+            "1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 67,
+          "strings": [
+            "Se",
+            "2010071",
+            "",
+            "1",
+            "",
+            "0",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 68,
+          "strings": [
+            "Text",
+            "58",
+            "美玲",
+            "",
+            "",
+            "",
+            "",
+            "2.5",
+            "",
+            "",
+            "102003018",
+            "",
+            "",
+            "8020080",
+            "8020080"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 69,
+          "strings": [
+            "Character",
+            "美玲",
+            "Sad,3.5",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 70,
+          "strings": [
+            "Bgm",
+            "黄区自然",
+            "",
+            "1",
+            "",
+            "0",
+            "1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 71,
+          "strings": [
+            "Se",
+            "2010044",
+            "",
+            "1",
+            "",
+            "4",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 72,
+          "strings": [
+            "Text",
+            "58",
+            "美玲",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "102003019",
+            "",
+            "",
+            "8020081",
+            "8020081"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 73,
+          "strings": [
+            "ChangeLayer",
+            "美玲",
+            "KeepLocal",
+            "左",
+            "",
+            "",
+            ".200000003",
+            "0"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 74,
+          "strings": [
+            "Character",
+            "闪电Rest",
+            "Idle,0|Helpless,0.5",
+            "右",
+            "",
+            "",
+            ".400000006",
+            ".8000000119"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 75,
+          "strings": [
+            "Text",
+            "59",
+            "闪电Rest",
+            "",
+            "",
+            "",
+            "",
+            ".8",
+            "",
+            "",
+            "102003020",
+            "",
+            "",
+            "8020082",
+            "8020082"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 76,
+          "strings": [
+            "Character",
+            "美玲",
+            "Tentative,0.5",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 77,
+          "strings": [
+            "Text",
+            "58",
+            "美玲",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "102003021",
+            "",
+            "",
+            "8020083",
+            "8020083"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 78,
+          "strings": [
+            "CharacterOff",
+            "闪电Rest",
+            "",
+            "",
+            "",
+            "",
+            ".1",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 79,
+          "strings": [
+            "Character",
+            "美玲",
+            "Sad,0.5|Serious,7.5|Sad,12.5",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 80,
+          "strings": [
+            "Text",
+            "58",
+            "美玲",
+            "",
+            "",
+            "",
+            "",
+            "1.2",
+            "",
+            "",
+            "102003022",
+            "",
+            "",
+            "8020084",
+            "8020084"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 81,
+          "strings": [
+            "Text",
+            "50",
+            "",
+            "美玲",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "102003023",
+            "",
+            "",
+            "8020085",
+            "8021085"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 82,
+          "strings": [
+            "Character",
+            "美玲",
+            "Serious,0.5",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 83,
+          "strings": [
+            "Text",
+            "58",
+            "美玲",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "102003024",
+            "",
+            "",
+            "8020086",
+            "8020086"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 84,
+          "strings": [
+            "Character",
+            "美玲",
+            "Sad,0.5",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 85,
+          "strings": [
+            "Text",
+            "58",
+            "美玲",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "102003025",
+            "",
+            "",
+            "8020087",
+            "8020087"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 86,
+          "strings": [
+            "Text",
+            "50",
+            "",
+            "美玲",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "102003026",
+            "",
+            "",
+            "8020088",
+            "8021088"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 87,
+          "strings": [
+            "Character",
+            "美玲",
+            "Scared,0.5|Angry,3|Sad,9",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 88,
+          "strings": [
+            "Text",
+            "58",
+            "美玲",
+            "",
+            "",
+            "",
+            "",
+            "0",
+            "",
+            "",
+            "102003027",
+            "",
+            "",
+            "8020089",
+            "8020089"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 89,
+          "strings": [
+            "Text",
+            "50",
+            "",
+            "美玲",
+            "",
+            "",
+            "",
+            ".1",
+            "",
+            "",
+            "102003028",
+            "",
+            "",
+            "8020090",
+            "8021090"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 90,
+          "strings": [
+            "Character",
+            "美玲",
+            "Surprised,0.5|Angry,2",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 91,
+          "strings": [
+            "Text",
+            "58",
+            "美玲",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "102003029",
+            "",
+            "",
+            "8020091",
+            "8020091"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 92,
+          "strings": [
+            "Character",
+            "美玲",
+            "Sad,0.5",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 93,
+          "strings": [
+            "Text",
+            "58",
+            "美玲",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "102003030",
+            "",
+            "",
+            "8020092",
+            "8020092"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 94,
+          "strings": [
+            "Text",
+            "50",
+            "",
+            "美玲",
+            "",
+            "",
+            "",
+            ".2",
+            "",
+            "",
+            "102003031",
+            "",
+            "",
+            "8020093",
+            "8021093"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 95,
+          "strings": [
+            "Character",
+            "美玲",
+            "Angry,7.5",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 96,
+          "strings": [
+            "Text",
+            "58",
+            "美玲",
+            "",
+            "",
+            "",
+            "",
+            ".8",
+            "",
+            "",
+            "102003032",
+            "",
+            "",
+            "8020094",
+            "8020094"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 97,
+          "strings": [
+            "Text",
+            "50",
+            "",
+            "美玲",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "102003033",
+            "",
+            "",
+            "8020095",
+            "8021095"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 98,
+          "strings": [
+            "Text",
+            "50",
+            "",
+            "美玲",
+            "",
+            "",
+            "",
+            ".2",
+            "",
+            "",
+            "102003034",
+            "",
+            "",
+            "8020096",
+            "8021096"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 99,
+          "strings": [
+            "Character",
+            "美玲",
+            "Sad,2.5|Idle,3.5",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 100,
+          "strings": [
+            "Text",
+            "58",
+            "美玲",
+            "",
+            "",
+            "",
+            "",
+            "1.2",
+            "",
+            "",
+            "102003035",
+            "",
+            "",
+            "8020097",
+            "8020097"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 101,
+          "strings": [
+            "Text",
+            "50",
+            "",
+            "美玲",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "102003036",
+            "",
+            "",
+            "8020098",
+            "8021098"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 102,
+          "strings": [
+            "Character",
+            "美玲",
+            "Tentative,3.5",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 103,
+          "strings": [
+            "Text",
+            "58",
+            "美玲",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "102003037",
+            "",
+            "",
+            "8020099",
+            "8020099"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 104,
+          "strings": [
+            "Character",
+            "美玲",
+            "Idle,7",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 105,
+          "strings": [
+            "Text",
+            "50",
+            "",
+            "美玲",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "102003038",
+            "",
+            "",
+            "8020100",
+            "8021100"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 106,
+          "strings": [
+            "Character",
+            "美玲",
+            "Tentative,0.5|Serious,7|Tentative,10|Sad,14",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 107,
+          "strings": [
+            "Text",
+            "58",
+            "美玲",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "102003039",
+            "",
+            "",
+            "8020101",
+            "8020101"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 108,
+          "strings": [
+            "ChangeMessageWindow",
+            "AVGNarrator",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 109,
+          "strings": [
+            "Se",
+            "2010135",
+            "",
+            "1",
+            "",
+            "2",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 110,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "美玲",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "102003040"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 111,
+          "strings": [
+            "ChangeMessageWindow",
+            "AVGWindow",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 112,
+          "strings": [
+            "ChangeLayer",
+            "美玲",
+            "KeepLocal",
+            "左",
+            "",
+            "",
+            ".200000003",
+            "0"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 113,
+          "strings": [
+            "Character",
+            "闪电Rest",
+            "Helpless,0",
+            "右",
+            "",
+            "",
+            ".200000003",
+            ".8000000119"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 114,
+          "strings": [
+            "Text",
+            "59",
+            "闪电Rest",
+            "",
+            "",
+            "",
+            "",
+            ".8",
+            "",
+            "",
+            "102003041",
+            "",
+            "",
+            "8020102",
+            "8020102"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 115,
+          "strings": [
+            "Character",
+            "美玲",
+            "Angry,0.5|Serious,5.5",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 116,
+          "strings": [
+            "Se",
+            "2010050",
+            "TRUE",
+            "1",
+            "",
+            "5.5",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 117,
+          "strings": [
+            "Se",
+            "2010017",
+            "",
+            "1",
+            "",
+            "5",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 118,
+          "strings": [
+            "Text",
+            "58",
+            "美玲",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "102003042",
+            "",
+            "",
+            "8020103",
+            "8020103"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 119,
+          "strings": [
+            "CharacterOff",
+            "闪电Rest",
+            "",
+            "",
+            "",
+            "",
+            ".1",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 120,
+          "strings": [
+            "CharacterOff",
+            "美玲",
+            "",
+            "",
+            "",
+            "",
+            ".1",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 121,
+          "strings": [
+            "Character",
+            "佩妮泽",
+            "Idle,0|Surprised,0.5|Smile,2.5",
+            "中",
+            "",
+            "",
+            "",
+            "1"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 122,
+          "strings": [
+            "StopSe",
+            "2010050",
+            "",
+            "",
+            "",
+            "",
+            "0",
+            "1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 123,
+          "strings": [
+            "Se",
+            "2010051",
+            "",
+            "1",
+            "",
+            "1",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 124,
+          "strings": [
+            "Particle",
+            "通讯开始",
+            "",
+            "物品中",
+            "",
+            "",
+            "",
+            "1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 125,
+          "strings": [
+            "AddEffect",
+            "佩妮泽",
+            "SenCharEff_CommunStart_holo_01",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "NoWait",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 126,
+          "strings": [
+            "Tween",
+            "佩妮泽",
+            "ScaleFrom",
+            "time=0.5 x=0 y=1 start=1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "PageWaitSkippable",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 127,
+          "strings": [
+            "Text",
+            "136",
+            "佩妮泽",
+            "",
+            "",
+            "",
+            "",
+            "1.6",
+            "",
+            "",
+            "102003043",
+            "",
+            "",
+            "8020104",
+            "8020104"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 128,
+          "strings": [
+            "Text",
+            "50",
+            "",
+            "佩妮泽",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "102003044",
+            "",
+            "",
+            "8020105",
+            "8021105"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 129,
+          "strings": [
+            "Character",
+            "佩妮泽",
+            "Serious,0.5|Idle,2.5|Smile,4.5",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 130,
+          "strings": [
+            "Text",
+            "136",
+            "佩妮泽",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "102003045",
+            "",
+            "",
+            "8020106",
+            "8020106"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 131,
+          "strings": [
+            "ChangeLayer",
+            "佩妮泽",
+            "KeepLocal",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 132,
+          "strings": [
+            "Character",
+            "美玲",
+            "Serious,0|Tentative,2.5",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 133,
+          "strings": [
+            "Text",
+            "58",
+            "美玲",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "102003046",
+            "",
+            "",
+            "8020107",
+            "8020107"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 134,
+          "strings": [
+            "Character",
+            "佩妮泽",
+            "Serious,0.5",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 135,
+          "strings": [
+            "Text",
+            "136",
+            "佩妮泽",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "102003047",
+            "",
+            "",
+            "8020108",
+            "8020108"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 136,
+          "strings": [
+            "Character",
+            "美玲",
+            "Idle,0.5|Serious,7.5",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 137,
+          "strings": [
+            "Text",
+            "58",
+            "美玲",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "102003048",
+            "",
+            "",
+            "8020109",
+            "8020109"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 138,
+          "strings": [
+            "ChangeMessageWindow",
+            "AVGNarrator",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 139,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 140,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "102003049"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 141,
+          "strings": [
+            "ChangeMessageWindow",
+            "AVGWindow",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 142,
+          "strings": [
+            "Character",
+            "佩妮泽",
+            "Serious,0|Think,0.5|Idle,3.5",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 143,
+          "strings": [
+            "AddEffect",
+            "佩妮泽",
+            "SenCharEff_CommunStart_holo_01",
+            "",
+            "",
+            "",
+            "",
+            "0",
+            "",
+            "NoWait",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 144,
+          "strings": [
+            "Text",
+            "136",
+            "佩妮泽",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "102003050",
+            "",
+            "",
+            "8020110",
+            "8020110"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 145,
+          "strings": [
+            "Text",
+            "50",
+            "",
+            "佩妮泽",
+            "",
+            "",
+            "",
+            ".8",
+            "",
+            "",
+            "102003051",
+            "",
+            "",
+            "8020111",
+            "8021111"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 146,
+          "strings": [
+            "Character",
+            "佩妮泽",
+            "Think,0.5|Smile,3.5|Idle,7",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 147,
+          "strings": [
+            "Text",
+            "136",
+            "佩妮泽",
+            "",
+            "",
+            "",
+            "",
+            ".2",
+            "",
+            "",
+            "102003052",
+            "",
+            "",
+            "8020112",
+            "8020112"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 148,
+          "strings": [
+            "Text",
+            "50",
+            "",
+            "佩妮泽",
+            "",
+            "",
+            "",
+            ".6",
+            "",
+            "",
+            "102003053",
+            "",
+            "",
+            "8020113",
+            "8021113"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 149,
+          "strings": [
+            "Character",
+            "佩妮泽",
+            "Smile,3",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 150,
+          "strings": [
+            "Text",
+            "136",
+            "佩妮泽",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "102003054",
+            "",
+            "",
+            "8020114",
+            "8020114"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 151,
+          "strings": [
+            "Text",
+            "50",
+            "",
+            "佩妮泽",
+            "",
+            "",
+            "",
+            "1.2",
+            "",
+            "",
+            "102003055",
+            "",
+            "",
+            "8020115",
+            "8021115"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 152,
+          "strings": [
+            "Character",
+            "佩妮泽",
+            "Surprised,0.5|Idle,1.5",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 153,
+          "strings": [
+            "Text",
+            "136",
+            "佩妮泽",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "102003056",
+            "",
+            "",
+            "8020116",
+            "8020116"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 154,
+          "strings": [
+            "Character",
+            "佩妮泽",
+            "Helpless,3|Smile,5.5|Idle,6",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 155,
+          "strings": [
+            "Text",
+            "136",
+            "佩妮泽",
+            "",
+            "",
+            "",
+            "",
+            "0",
+            "",
+            "",
+            "102003057",
+            "",
+            "",
+            "8020117",
+            "8020117"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 156,
+          "strings": [
+            "Text",
+            "50",
+            "",
+            "佩妮泽",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "102003058",
+            "",
+            "",
+            "8020118",
+            "8021118"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 157,
+          "strings": [
+            "Character",
+            "佩妮泽",
+            "Think,2.5|Idle,6",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 158,
+          "strings": [
+            "Text",
+            "136",
+            "佩妮泽",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "102003059",
+            "",
+            "",
+            "8020119",
+            "8020119"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 159,
+          "strings": [
+            "Text",
+            "50",
+            "",
+            "佩妮泽",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "102003060",
+            "",
+            "",
+            "8020120",
+            "8021120"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 160,
+          "strings": [
+            "Character",
+            "佩妮泽",
+            "Helpless,0.5|Idle,5",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 161,
+          "strings": [
+            "Text",
+            "136",
+            "佩妮泽",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "102003061",
+            "",
+            "",
+            "8020121",
+            "8020121"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 162,
+          "strings": [
+            "Character",
+            "佩妮泽",
+            "Smile,0.5|Idle,6",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 163,
+          "strings": [
+            "Text",
+            "136",
+            "佩妮泽",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "102003062",
+            "",
+            "",
+            "8020122",
+            "8020122"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 164,
+          "strings": [
+            "Text",
+            "50",
+            "",
+            "佩妮泽",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "102003063",
+            "",
+            "",
+            "8020123",
+            "8021123"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 165,
+          "strings": [
+            "Character",
+            "佩妮泽",
+            "Helpless,0.5|Idle,2",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 166,
+          "strings": [
+            "Text",
+            "136",
+            "佩妮泽",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "102003064",
+            "",
+            "",
+            "8020124",
+            "8020124"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 167,
+          "strings": [
+            "Character",
+            "佩妮泽",
+            "Think,0.5|Idle,2.5",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 168,
+          "strings": [
+            "Text",
+            "136",
+            "佩妮泽",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "102003065",
+            "",
+            "",
+            "8020125",
+            "8020125"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 169,
+          "strings": [
+            "Text",
+            "50",
+            "",
+            "佩妮泽",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "102003066",
+            "",
+            "",
+            "8020126",
+            "8021126"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 170,
+          "strings": [
+            "Character",
+            "佩妮泽",
+            "Serious,0.5",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 171,
+          "strings": [
+            "Text",
+            "136",
+            "佩妮泽",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "102003067",
+            "",
+            "",
+            "8020127",
+            "8020127"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 172,
+          "strings": [
+            "Text",
+            "50",
+            "",
+            "佩妮泽",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "102003068",
+            "",
+            "",
+            "8020128",
+            "8021128"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 173,
+          "strings": [
+            "Character",
+            "佩妮泽",
+            "Idle,0.5",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 174,
+          "strings": [
+            "Text",
+            "136",
+            "佩妮泽",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "102003069",
+            "",
+            "",
+            "8020129",
+            "8020129"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 175,
+          "strings": [
+            "Character",
+            "佩妮泽",
+            "Serious,0.5|Think,3.5|Serious,7",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 176,
+          "strings": [
+            "Text",
+            "136",
+            "佩妮泽",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "102003070",
+            "",
+            "",
+            "8020130",
+            "8020130"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 177,
+          "strings": [
+            "Text",
+            "50",
+            "",
+            "佩妮泽",
+            "",
+            "",
+            "",
+            ".2",
+            "",
+            "",
+            "102003071",
+            "",
+            "",
+            "8020131",
+            "8021131"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 178,
+          "strings": [
+            "Character",
+            "佩妮泽",
+            "Helpless,0.5",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 179,
+          "strings": [
+            "Text",
+            "136",
+            "佩妮泽",
+            "",
+            "",
+            "",
+            "",
+            ".8",
+            "",
+            "",
+            "102003072",
+            "",
+            "",
+            "8020132",
+            "8020132"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 180,
+          "strings": [
+            "Character",
+            "佩妮泽",
+            "Smile,0.5|Idle,3.5",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 181,
+          "strings": [
+            "Text",
+            "136",
+            "佩妮泽",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "102003073",
+            "",
+            "",
+            "8020133",
+            "8020133"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 182,
+          "strings": [
+            "Text",
+            "50",
+            "",
+            "佩妮泽",
+            "",
+            "",
+            "",
+            "1.4",
+            "",
+            "",
+            "102003074",
+            "",
+            "",
+            "8020134",
+            "8021134"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 183,
+          "strings": [
+            "Character",
+            "佩妮泽",
+            "Smile,0.5",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 184,
+          "strings": [
+            "Text",
+            "136",
+            "佩妮泽",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "102003075",
+            "",
+            "",
+            "8020135",
+            "8020135"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 185,
+          "strings": [
+            "Text",
+            "50",
+            "",
+            "佩妮泽",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "102003076",
+            "",
+            "",
+            "8020136",
+            "8021136"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 186,
+          "strings": [
+            "Character",
+            "佩妮泽",
+            "Surprised,0.5|Idle,2|Smile,6",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 187,
+          "strings": [
+            "Text",
+            "136",
+            "佩妮泽",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "102003077",
+            "",
+            "",
+            "8020137",
+            "8020137"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 188,
+          "strings": [
+            "ChangeLayer",
+            "佩妮泽",
+            "KeepLocal",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 189,
+          "strings": [
+            "Character",
+            "美玲",
+            "Idle,0|Serious,0.5|Tentative,2.5|Idle,5",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 190,
+          "strings": [
+            "Text",
+            "58",
+            "美玲",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "102003078",
+            "",
+            "",
+            "8020138",
+            "8020138"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 191,
+          "strings": [
+            "Text",
+            "50",
+            "",
+            "美玲",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "102003079",
+            "",
+            "",
+            "8020139",
+            "8021139"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 192,
+          "strings": [
+            "CharacterOff",
+            "美玲",
+            "",
+            "",
+            "",
+            "",
+            ".1",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 193,
+          "strings": [
+            "Character",
+            "佩妮泽",
+            "Idle,0.5",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 194,
+          "strings": [
+            "Text",
+            "136",
+            "佩妮泽",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "102003080",
+            "",
+            "",
+            "8020140",
+            "8020140"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 195,
+          "strings": [
+            "Text",
+            "50",
+            "",
+            "佩妮泽",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "102003081",
+            "",
+            "",
+            "8020141",
+            "8021141"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 196,
+          "strings": [
+            "Character",
+            "佩妮泽",
+            "Smile,0.5",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 197,
+          "strings": [
+            "Se",
+            "2010052",
+            "",
+            "1",
+            "",
+            "7",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 198,
+          "strings": [
+            "Param",
+            "finishChat=(7+0.5)",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 199,
+          "strings": [
+            "Tween",
+            "佩妮泽",
+            "ScaleTo",
+            "time=0.5 x=0 y=1 start=7",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "PageWaitSkippable",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 200,
+          "strings": [
+            "Particle",
+            "通讯结束",
+            "",
+            "物品中",
+            "",
+            "",
+            "",
+            "7",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 201,
+          "strings": [
+            "CharacterOff",
+            "佩妮泽",
+            "",
+            "",
+            "",
+            "",
+            "0",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 202,
+          "strings": [
+            "Text",
+            "136",
+            "佩妮泽",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "102003082",
+            "",
+            "",
+            "8020142",
+            "8020142"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 203,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 204,
+          "strings": [
+            "Se",
+            "2010072",
+            "",
+            "1",
+            "",
+            "1.5",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 205,
+          "strings": [
+            "Text",
+            "50",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "102003083",
+            "",
+            "",
+            "8020143",
+            "8021143"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 206,
+          "strings": [
+            "Character",
+            "美玲",
+            "Idle,0|Serious,1.5",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 207,
+          "strings": [
+            "Se",
+            "2010074",
+            "TRUE",
+            "1",
+            "",
+            "1.5",
+            ".5",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 208,
+          "strings": [
+            "Se",
+            "2010073",
+            "",
+            "1",
+            "",
+            "0",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 209,
+          "strings": [
+            "Text",
+            "58",
+            "美玲",
+            "",
+            "",
+            "",
+            "",
+            "1.6",
+            "",
+            "",
+            "102003084",
+            "",
+            "",
+            "8020144",
+            "8020144"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 210,
+          "strings": [
+            "Character",
+            "闪电Rest",
+            "Idle,0|Think,4|Idle,11.5",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 211,
+          "strings": [
+            "Text",
+            "59",
+            "闪电Rest",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "102003085",
+            "",
+            "",
+            "8020145",
+            "8020145"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 212,
+          "strings": [
+            "Text",
+            "50",
+            "",
+            "闪电Rest",
+            "",
+            "",
+            "",
+            "1",
+            "",
+            "",
+            "102003086",
+            "",
+            "",
+            "8020146",
+            "8021146"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 213,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 214,
+          "strings": [
+            "StopSe",
+            "2010074",
+            "",
+            "",
+            "",
+            "",
+            "1",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 215,
+          "strings": [
+            "Text",
+            "50",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ".8",
+            "",
+            "",
+            "102003087",
+            "",
+            "",
+            "8020147",
+            "8021147"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 216,
+          "strings": [
+            "Character",
+            "美玲",
+            "Idle,0|Serious,1",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 217,
+          "strings": [
+            "Se",
+            "2010075",
+            "",
+            "1",
+            "",
+            "1.5",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 218,
+          "strings": [
+            "Text",
+            "58",
+            "美玲",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "102003088",
+            "",
+            "",
+            "8020148",
+            "8020148"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 219,
+          "strings": [
+            "Se",
+            "2010076",
+            "",
+            "1",
+            "",
+            "1.7",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 220,
+          "strings": [
+            "Text",
+            "50",
+            "",
+            "美玲",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "102003089",
+            "",
+            "",
+            "8020149",
+            "8021149"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 221,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 222,
+          "strings": [
+            "Se",
+            "2010077",
+            "",
+            "1",
+            "",
+            "3.2",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 223,
+          "strings": [
+            "Text",
+            "154",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "0",
+            "",
+            "",
+            "102003090",
+            "",
+            "",
+            "8020150",
+            "8020150"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 224,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 225,
+          "strings": [
+            "StopBgm",
+            "黄区自然",
+            "",
+            "",
+            "",
+            "",
+            "1",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 226,
+          "strings": [
+            "Text",
+            "50",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ".8",
+            "",
+            "",
+            "102003091",
+            "",
+            "",
+            "8020151",
+            "8021151"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 227,
+          "strings": [
+            "Character",
+            "美玲",
+            "Idle,0|Tentative,0.5|Idle,3.5|Serious,11",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 228,
+          "strings": [
+            "Text",
+            "58",
+            "美玲",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "102003092",
+            "",
+            "",
+            "8020152",
+            "8020152"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 229,
+          "strings": [
+            "Text",
+            "50",
+            "",
+            "美玲",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "102003093",
+            "",
+            "",
+            "8020153",
+            "8021153"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 230,
+          "strings": [
+            "Character",
+            "闪电Rest",
+            "Idle,0|Serious,0.5",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 231,
+          "strings": [
+            "Text",
+            "59",
+            "闪电Rest",
+            "",
+            "",
+            "",
+            "",
+            ".2",
+            "",
+            "",
+            "102003094",
+            "",
+            "",
+            "8020154",
+            "8020154"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 232,
+          "strings": [
+            "Text",
+            "50",
+            "",
+            "闪电Rest",
+            "",
+            "",
+            "",
+            ".6",
+            "",
+            "",
+            "102003095",
+            "",
+            "",
+            "8020155",
+            "8021155"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 233,
+          "strings": [
+            "Se",
+            "2010070",
+            "",
+            "1",
+            "",
+            "2",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 234,
+          "strings": [
+            "Text",
+            "50",
+            "",
+            "闪电Rest",
+            "",
+            "",
+            "",
+            "0",
+            "",
+            "",
+            "102003096",
+            "",
+            "",
+            "8020156",
+            "8021156"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 235,
+          "strings": [
+            "ChangeMessageWindow",
+            "AVGNarrator",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 236,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 237,
+          "strings": [
+            "Se",
+            "2010078",
+            "",
+            "1",
+            "",
+            "4.5",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 238,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "2",
+            "",
+            "",
+            "102003097"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 239,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 240,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "102003098"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 241,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 242,
+          "strings": [
+            "BgOff",
+            "BgCGBackGround",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 243,
+          "strings": [
+            "BgOff",
+            "BG_None_Carriage_Centre_01",
+            "",
+            "",
+            "",
+            "",
+            "1.5",
+            "6.5",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 244,
+          "strings": [
+            "StopSe",
+            "2010067",
+            "",
+            "",
+            "",
+            "",
+            "1.5",
+            "6",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 245,
+          "strings": [
+            "StopSe",
+            "2010047",
+            "",
+            "",
+            "",
+            "",
+            "1.5",
+            "6",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 246,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "Next",
+            "",
+            "",
+            "",
+            "102003099"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 247,
+          "strings": [
+            "EndScenario"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        }
+      ],
+      "name": "Assets/Utage/BuildResources/MainStory/Chapter02/M02003.xls:M02003",
+      "type": 1,
+      "textLength": 7425,
+      "headerRow": 0,
+      "entityIndexTbl": [
+        12,
+        57,
+        201
+      ],
+      "entityDataList": [
+        {
+          "originalStrings": [
+            "BgOff",
+            "BG_None_Carriage_01_Mask",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "&delayForBack",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "originalStrings": [
+            "BgOff",
+            "BG_None_Carriage_04",
+            "",
+            "",
+            "",
+            "",
+            "2",
+            "&mapStart",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "originalStrings": [
+            "CharacterOff",
+            "佩妮泽",
+            "",
+            "",
+            "",
+            "",
+            "0",
+            "&finishChat",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}
