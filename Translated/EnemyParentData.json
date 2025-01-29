@@ -1,0 +1,1687 @@
+﻿{
+    "data": [
+        {
+            "id": 6542,
+            "childId": [
+                654201,
+                654202
+            ],
+            "name": "환영 개간 장인",
+            "joke": "무자비한 추진력을 가진 기계입니다.",
+            "description": "전지형 무인 복합기를 개조한 방어 기계. 개간, 장애물 제거, 적 제압 등 다양한 상황에 완벽하게 대응할 수 있는 다기능 디스크 세트를 갖추고 있다.",
+            "textIndex": [
+                1,
+                7,
+                14,
+                48
+            ],
+            "rank": 2,
+            "enemyType": 1,
+            "nameOnBar": "환영 개간 장인",
+            "parentOccupySize": 3,
+            "weakTag": [
+                1
+            ],
+            "propertyGroup": 151601,
+            "suppressGroup": [
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+            ],
+            "camp": 1,
+            "enemyCamp": 1005,
+            "beSuppressedConfig": [
+                80000001,
+                2,
+                1000,
+                0,
+                2
+            ],
+            "characterPic": "ReclamationExpertPhantom",
+            "parentModelCode": 6542,
+            "moveCode": 1,
+            "idleType": 1,
+            "skillNormalAttack": 6542101,
+            "skillActive": [
+                6542401,
+                6542501
+            ],
+            "skillTalent": [
+                6542201,
+                6542301,
+                6542210,
+                6542220,
+                6542230,
+                65421203,
+                65422203,
+                65421100,
+                65422100,
+                654212202,
+                654222202,
+                910000019,
+                910000012
+            ],
+            "aiOrderClass": 200,
+            "btPath": "BT/MainBT/MainBT_6542.bt",
+            "guardRadius": 700,
+            "guardRadiusShow": 1,
+            "trapDescription": "",
+            "weakWeaponTag": 4
+        },
+        {
+            "id": 6762,
+            "childId": [
+                676201,
+                676202,
+                676203,
+                676204
+            ],
+            "name": "모프센터 1.5",
+            "joke": "모든 데이터 쓰레기를 분쇄하는 데 능숙한 슈퍼 디지털 강화 버전입니다.",
+            "description": "모프 시리즈의 업그레이드된 모델이 공유하는 중앙 프로세서입니다. 이 중앙 두뇌는 연산 장치와 컨트롤러라는 두 개의 핵심 모듈로 구성되어 있으며 모든 모프 1.5s의 일상 작업과 정상적인 작동을 관리합니다.",
+            "textIndex": [
+                13,
+                14
+            ],
+            "rank": 3,
+            "enemyType": 1,
+            "nameOnBar": "모프센터 1.5",
+            "parentOccupySize": 5,
+            "weakTag": [
+                2,
+                5
+            ],
+            "propertyGroup": 208101,
+            "suppressGroup": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0
+            ],
+            "camp": 1,
+            "enemyCamp": 1009,
+            "beSuppressedConfig": [
+                80000001,
+                2,
+                1000,
+                0,
+                2
+            ],
+            "characterPic": "Mopro 1.5 Processor",
+            "parentModelCode": 6762,
+            "idleType": 1,
+            "skillNormalAttack": 67620101,
+            "skillActive": [
+                67620201,
+                67620301,
+                67620401,
+                67620501,
+                67620601,
+                67620701,
+                67620304
+            ],
+            "skillTalent": [
+                67620801,
+                67620303,
+                6151501
+            ],
+            "aiOrderClass": 200,
+            "aiList": [
+                676201
+            ],
+            "btPath": "BT/BOSSBT/6762/BOSSBT_Mop_6762.bt",
+            "guardRadius": 700,
+            "guardRadiusShow": 1,
+            "trapDescription": "",
+            "weakWeaponTag": 10,
+            "feature": 1
+        },
+        {
+            "id": 6931,
+            "childId": [
+                693101,
+                693102,
+                693103
+            ],
+            "name": "노스 센티널",
+            "joke": "지금까지도 의무를 수행 중인 수호자입니다.",
+            "description": "B.R.I.E.F.가 제작한 고난이도 전투 데이터 모듈로, 극북 지역 폐허가 된 군항 초소의 외형을 가지고 있습니다. 원북 초소는 다양한 중화기를 장착해 초소를 침범하는 적에게 강력한 화력 타격을 가합니다.",
+            "textIndex": [
+                13,
+                7
+            ],
+            "rank": 3,
+            "enemyType": 1,
+            "nameOnBar": "노스 센티널",
+            "parentOccupySize": 1,
+            "weakTag": [
+                2,
+                5
+            ],
+            "propertyGroup": 205601,
+            "suppressGroup": [
+                6,
+                4,
+                0,
+                0,
+                0,
+                0
+            ],
+            "camp": 1,
+            "enemyCamp": 1003,
+            "beSuppressedConfig": [
+                80000001,
+                2,
+                1000,
+                0,
+                2
+            ],
+            "characterPic": "MogilaP3",
+            "parentModelCode": 6931,
+            "idleType": 1,
+            "skillNormalAttack": 6931011,
+            "skillActive": [
+                6931012,
+                6931013,
+                6931014,
+                69310152
+            ],
+            "skillTalent": [
+                6931015,
+                6931016,
+                6931017,
+                6931018,
+                910000012,
+                6151501
+            ],
+            "aiOrderClass": 200,
+            "aiList": [
+                693101
+            ],
+            "btPath": "BT/BOSSBT/6931/BOSSBT_Haijian_P1_6931.bt",
+            "guardRadius": 700,
+            "guardRadiusShow": 1,
+            "trapDescription": "",
+            "weakWeaponTag": 36,
+            "feature": 1
+        },
+        {
+            "id": 6932,
+            "childId": [
+                693201,
+                693202,
+                693203
+            ],
+            "name": "노스 센티널",
+            "joke": "지금까지도 의무를 수행 중인 수호자입니다.",
+            "description": "B.R.I.E.F.가 제작한 고난이도 전투 데이터 모듈로, 극북 지역 폐허가 된 군항 초소의 외형을 가지고 있습니다. 원북 초소는 다양한 중화기를 장착해 초소를 침범하는 적에게 강력한 화력 타격을 가합니다.",
+            "textIndex": [
+                13,
+                7
+            ],
+            "rank": 3,
+            "enemyType": 1,
+            "nameOnBar": "노스 센티널",
+            "parentOccupySize": 1,
+            "weakTag": [
+                2,
+                5
+            ],
+            "propertyGroup": 205602,
+            "suppressGroup": [
+                6,
+                4,
+                0,
+                0,
+                0,
+                0
+            ],
+            "camp": 1,
+            "enemyCamp": 1003,
+            "beSuppressedConfig": [
+                80000001,
+                2,
+                1000,
+                0,
+                2
+            ],
+            "characterPic": "MogilaP3",
+            "parentModelCode": 6931,
+            "idleType": 1,
+            "skillNormalAttack": 6936011,
+            "skillActive": [
+                6936012,
+                69360133
+            ],
+            "skillTalent": [
+                6936013,
+                6936014,
+                6931017,
+                6936016,
+                910000012,
+                6151501
+            ],
+            "aiOrderClass": 200,
+            "btPath": "BT/BOSSBT/6936/BOSSBT_Haijian_P2_6931.bt",
+            "guardRadius": 700,
+            "guardRadiusShow": 1,
+            "trapDescription": "",
+            "weakWeaponTag": 36,
+            "feature": 1
+        },
+        {
+            "id": 6933,
+            "childId": [
+                693301,
+                693302,
+                693303
+            ],
+            "name": "노스 센티널",
+            "joke": "지금까지도 의무를 수행 중인 수호자입니다.",
+            "description": "B.R.I.E.F.가 제작한 고난이도 전투 데이터 모듈로, 극북 지역 폐허가 된 군항 초소의 외형을 가지고 있습니다. 원북 초소는 다양한 중화기를 장착해 초소를 침범하는 적에게 강력한 화력 타격을 가합니다.",
+            "textIndex": [
+                13,
+                7
+            ],
+            "rank": 3,
+            "enemyType": 1,
+            "nameOnBar": "노스 센티널",
+            "parentOccupySize": 1,
+            "weakTag": [
+                2,
+                5
+            ],
+            "propertyGroup": 205603,
+            "suppressGroup": [
+                6,
+                4,
+                0,
+                0,
+                0,
+                0
+            ],
+            "camp": 1,
+            "enemyCamp": 1003,
+            "beSuppressedConfig": [
+                80000001,
+                2,
+                1000,
+                0,
+                2
+            ],
+            "characterPic": "MogilaP3",
+            "parentModelCode": 6931,
+            "idleType": 1,
+            "skillNormalAttack": 6941011,
+            "skillActive": [
+                6941012
+            ],
+            "skillTalent": [
+                6941013,
+                6931017,
+                6941015,
+                910000012,
+                6151501
+            ],
+            "aiOrderClass": 200,
+            "btPath": "BT/BOSSBT/6941/BOSSBT_Haijian_P3_6931.bt",
+            "guardRadius": 700,
+            "guardRadiusShow": 1,
+            "trapDescription": "",
+            "weakWeaponTag": 36,
+            "feature": 1
+        },
+        {
+            "id": 6934,
+            "childId": [
+                693401,
+                693402,
+                693403
+            ],
+            "name": "노스 센티널",
+            "joke": "지금까지도 의무를 수행 중인 수호자입니다.",
+            "description": "B.R.I.E.F.가 제작한 고난이도 전투 데이터 모듈로, 극북 지역 폐허가 된 군항 초소의 외형을 가지고 있습니다. 원북 초소는 다양한 중화기를 장착해 초소를 침범하는 적에게 강력한 화력 타격을 가합니다.",
+            "textIndex": [
+                13,
+                7
+            ],
+            "rank": 3,
+            "enemyType": 1,
+            "nameOnBar": "노스 센티널",
+            "parentOccupySize": 1,
+            "weakTag": [
+                2,
+                5
+            ],
+            "propertyGroup": 205604,
+            "suppressGroup": [
+                6,
+                4,
+                0,
+                0,
+                0,
+                0
+            ],
+            "camp": 1,
+            "enemyCamp": 1003,
+            "beSuppressedConfig": [
+                80000001,
+                2,
+                1000,
+                0,
+                2
+            ],
+            "characterPic": "MogilaP3",
+            "parentModelCode": 6931,
+            "idleType": 1,
+            "skillNormalAttack": 6934011,
+            "skillActive": [
+                6934012,
+                6934013,
+                6934014,
+                69340152
+            ],
+            "skillTalent": [
+                6934015,
+                6934016,
+                6934017,
+                6934018,
+                910000012,
+                6151501
+            ],
+            "aiOrderClass": 200,
+            "aiList": [
+                693401
+            ],
+            "btPath": "BT/BOSSBT/6934/BOSSBT_Haijian_P1_6934.bt",
+            "guardRadius": 700,
+            "guardRadiusShow": 1,
+            "trapDescription": "",
+            "weakWeaponTag": 36,
+            "feature": 1
+        },
+        {
+            "id": 6935,
+            "childId": [
+                693501,
+                693502,
+                693503
+            ],
+            "name": "노스 센티널",
+            "joke": "지금까지도 의무를 수행 중인 수호자입니다.",
+            "description": "B.R.I.E.F.가 제작한 고난이도 전투 데이터 모듈로, 극북 지역 폐허가 된 군항 초소의 외형을 가지고 있습니다. 원북 초소는 다양한 중화기를 장착해 초소를 침범하는 적에게 강력한 화력 타격을 가합니다.",
+            "textIndex": [
+                13,
+                7
+            ],
+            "rank": 3,
+            "enemyType": 1,
+            "nameOnBar": "노스 센티널",
+            "parentOccupySize": 1,
+            "weakTag": [
+                2,
+                5
+            ],
+            "propertyGroup": 205605,
+            "suppressGroup": [
+                6,
+                4,
+                0,
+                0,
+                0,
+                0
+            ],
+            "camp": 1,
+            "enemyCamp": 1003,
+            "beSuppressedConfig": [
+                80000001,
+                2,
+                1000,
+                0,
+                2
+            ],
+            "characterPic": "MogilaP3",
+            "parentModelCode": 6931,
+            "idleType": 1,
+            "skillNormalAttack": 6938011,
+            "skillActive": [
+                6938012
+            ],
+            "skillTalent": [
+                6938013,
+                6938014,
+                6934017,
+                6938016,
+                910000012,
+                6151501
+            ],
+            "aiOrderClass": 200,
+            "btPath": "BT/BOSSBT/6938/BOSSBT_Haijian_P2_6934.bt",
+            "guardRadius": 700,
+            "guardRadiusShow": 1,
+            "trapDescription": "",
+            "weakWeaponTag": 36,
+            "feature": 1
+        },
+        {
+            "id": 6936,
+            "childId": [
+                693601,
+                693602,
+                693603,
+                693604
+            ],
+            "name": "퀸 오로라호",
+            "joke": "영지는 이미 침몰했지만, 여전히 분노를 뿜어내고 있습니다.",
+            "description": "B.R.I.E.F.에서 제작한 고난이도 전투 데이터 모듈. 외형은 얼음 바다에서 침몰한 크라스나야 아브로라호에서 따왔습니다. 견고한 장갑과 흠잡을 곳 없는 무장을 자랑하며, 그 강력한 화력은 모든 전장을 커버할 수 있어 적에게 파멸적인 타격을 입힙니다.",
+            "textIndex": [
+                13,
+                7
+            ],
+            "rank": 3,
+            "enemyType": 1,
+            "nameOnBar": "퀸 오로라호",
+            "parentOccupySize": 1,
+            "weakTag": [
+                3,
+                4
+            ],
+            "propertyGroup": 205701,
+            "suppressGroup": [
+                6,
+                4,
+                0,
+                0,
+                0,
+                0
+            ],
+            "camp": 1,
+            "enemyCamp": 1003,
+            "beSuppressedConfig": [
+                80000001,
+                2,
+                1000,
+                0,
+                2
+            ],
+            "characterPic": "MogilaP3",
+            "parentModelCode": 6936,
+            "idleType": 1,
+            "skillNormalAttack": 6936023,
+            "skillActive": [
+                6936021,
+                6936022,
+                6936024,
+                69360133
+            ],
+            "skillTalent": [
+                6936013,
+                6936014,
+                6931017,
+                6936028,
+                6936029,
+                910000012,
+                6151501
+            ],
+            "aiOrderClass": 300,
+            "aiList": [
+                693601
+            ],
+            "btPath": "BT/BOSSBT/6936/BOSSBT_Haijian_P2_6936.bt",
+            "guardRadius": 700,
+            "guardRadiusShow": 1,
+            "trapDescription": "",
+            "weakWeaponTag": 10,
+            "feature": 1
+        },
+        {
+            "id": 6937,
+            "childId": [
+                693701,
+                693702,
+                693703,
+                693704
+            ],
+            "name": "퀸 오로라호",
+            "joke": "영지는 이미 침몰했지만, 여전히 분노를 뿜어내고 있습니다.",
+            "description": "B.R.I.E.F.에서 제작한 고난이도 전투 데이터 모듈. 외형은 얼음 바다에서 침몰한 크라스나야 아브로라호에서 따왔습니다. 견고한 장갑과 흠잡을 곳 없는 무장을 자랑하며, 그 강력한 화력은 모든 전장을 커버할 수 있어 적에게 파멸적인 타격을 입힙니다.",
+            "textIndex": [
+                13,
+                7
+            ],
+            "rank": 3,
+            "enemyType": 1,
+            "nameOnBar": "퀸 오로라호",
+            "parentOccupySize": 1,
+            "weakTag": [
+                3,
+                4
+            ],
+            "propertyGroup": 205702,
+            "suppressGroup": [
+                6,
+                4,
+                0,
+                0,
+                0,
+                0
+            ],
+            "camp": 1,
+            "enemyCamp": 1003,
+            "beSuppressedConfig": [
+                80000001,
+                2,
+                1000,
+                0,
+                2
+            ],
+            "characterPic": "MogilaP3",
+            "parentModelCode": 6936,
+            "idleType": 1,
+            "skillNormalAttack": 6941022,
+            "skillActive": [
+                6941021
+            ],
+            "skillTalent": [
+                6941013,
+                6931017,
+                6941025,
+                6941026,
+                910000012,
+                6151501
+            ],
+            "aiOrderClass": 300,
+            "btPath": "BT/BOSSBT/6941/BOSSBT_Haijian_P3_6936.bt",
+            "guardRadius": 700,
+            "guardRadiusShow": 1,
+            "trapDescription": "",
+            "weakWeaponTag": 10,
+            "feature": 1
+        },
+        {
+            "id": 6938,
+            "childId": [
+                693801,
+                693802,
+                693803,
+                693804
+            ],
+            "name": "퀸 오로라호",
+            "joke": "영지는 이미 침몰했지만, 여전히 분노를 뿜어내고 있습니다.",
+            "description": "B.R.I.E.F.에서 제작한 고난이도 전투 데이터 모듈. 외형은 얼음 바다에서 침몰한 크라스나야 아브로라호에서 따왔습니다. 견고한 장갑과 흠잡을 곳 없는 무장을 자랑하며, 그 강력한 화력은 모든 전장을 커버할 수 있어 적에게 파멸적인 타격을 입힙니다.",
+            "textIndex": [
+                13,
+                7
+            ],
+            "rank": 3,
+            "enemyType": 1,
+            "nameOnBar": "퀸 오로라호",
+            "parentOccupySize": 1,
+            "weakTag": [
+                3,
+                4
+            ],
+            "propertyGroup": 205703,
+            "suppressGroup": [
+                6,
+                4,
+                0,
+                0,
+                0,
+                0
+            ],
+            "camp": 1,
+            "enemyCamp": 1003,
+            "beSuppressedConfig": [
+                80000001,
+                2,
+                1000,
+                0,
+                2
+            ],
+            "characterPic": "MogilaP3",
+            "parentModelCode": 6936,
+            "idleType": 1,
+            "skillNormalAttack": 6938023,
+            "skillActive": [
+                6938021,
+                6938022,
+                6938024
+            ],
+            "skillTalent": [
+                6938013,
+                6938014,
+                6934017,
+                6938028,
+                6938029,
+                910000012,
+                6151501
+            ],
+            "aiOrderClass": 300,
+            "aiList": [
+                693801
+            ],
+            "btPath": "BT/BOSSBT/6938/BOSSBT_Haijian_P2_6938.bt",
+            "guardRadius": 700,
+            "guardRadiusShow": 1,
+            "trapDescription": "",
+            "weakWeaponTag": 10,
+            "feature": 1
+        },
+        {
+            "id": 6941,
+            "childId": [
+                694101,
+                694102,
+                694103
+            ],
+            "name": "툰드라 로즈호",
+            "joke": "툰드라의 장미는 차갑고 위험합니다.",
+            "description": "B.R.I.E.F.에서 제작한 고난이도 전투 데이터 모듈. 외형은 얼음 바다에서 침몰한 폴랴르나야 로자호에서 따왔습니다. 다기능 미사일을 이용하여 효율적으로 전장의 모든 구역을 타격하는 동시에, 작전 환경을 뒤바꿔 적의 작전을 교란시킬 수 있습니다.",
+            "textIndex": [
+                13,
+                7
+            ],
+            "rank": 3,
+            "enemyType": 1,
+            "nameOnBar": "툰드라 로즈호",
+            "parentOccupySize": 1,
+            "weakTag": [
+                1,
+                3
+            ],
+            "propertyGroup": 205801,
+            "suppressGroup": [
+                6,
+                4,
+                0,
+                0,
+                0,
+                0
+            ],
+            "camp": 1,
+            "enemyCamp": 1003,
+            "beSuppressedConfig": [
+                80000001,
+                2,
+                1000,
+                0,
+                2
+            ],
+            "characterPic": "MogilaP3",
+            "parentModelCode": 6941,
+            "idleType": 1,
+            "skillNormalAttack": 6941031,
+            "skillActive": [
+                6941032,
+                6941033
+            ],
+            "skillTalent": [
+                6941013,
+                6931017,
+                6941036,
+                910000012,
+                6151501
+            ],
+            "aiOrderClass": 400,
+            "aiList": [
+                694101
+            ],
+            "btPath": "BT/BOSSBT/6941/BOSSBT_Haijian_P3_6941.bt",
+            "guardRadius": 700,
+            "guardRadiusShow": 1,
+            "trapDescription": "",
+            "weakWeaponTag": 20,
+            "feature": 1
+        },
+        {
+            "id": 6963,
+            "childId": [
+                696301,
+                696302,
+                696303,
+                696304,
+                696305,
+                696306,
+                696307,
+                696308
+            ],
+            "name": "카쉬마",
+            "joke": "이것을 악몽이라고 생각할 수도 있지만, 누가 이런 꿈을 꾸고 있는 걸까요?",
+            "description": "실제 인형 데이터를 훔친 인공지능이 전자세계에 '유령'으로 탄생했다. 도둑질을 통해 카슈마는 자신의 이미지를 이어붙였음에도 불구하고 결코 꿈의 반대편에 도달할 수 없었다.",
+            "textIndex": [
+                13,
+                14
+            ],
+            "rank": 3,
+            "enemyType": 1,
+            "nameOnBar": "카쉬마",
+            "parentOccupySize": 1,
+            "weakTag": [
+                1
+            ],
+            "propertyGroup": 207201,
+            "suppressGroup": [
+                3,
+                3,
+                3,
+                9,
+                0,
+                0
+            ],
+            "camp": 1,
+            "enemyCamp": 1099,
+            "beSuppressedConfig": [
+                80000001,
+                2,
+                1000,
+                0,
+                2
+            ],
+            "characterPic": "Koshmar",
+            "parentModelCode": 6963,
+            "idleType": 1,
+            "skillNormalAttack": 6963101,
+            "skillActive": [
+                6963201,
+                6963301
+            ],
+            "skillTalent": [
+                6963001,
+                6963103,
+                6151501,
+                6963102,
+                6963202,
+                6963302,
+                910000012
+            ],
+            "aiOrderClass": 200,
+            "aiList": [
+                696301
+            ],
+            "btPath": "BT/BOSSBT/6963/BOSSBT_6963_normal.bt",
+            "guardRadius": 700,
+            "guardRadiusShow": 1,
+            "trapDescription": "",
+            "weakWeaponTag": 6,
+            "feature": 1
+        },
+        {
+            "id": 6964,
+            "childId": [
+                696401,
+                696402,
+                696403,
+                696404,
+                696405,
+                696406,
+                696407,
+                696408
+            ],
+            "name": "카쉬마",
+            "joke": "이것을 악몽이라고 생각할 수도 있지만, 누가 이런 꿈을 꾸고 있는 걸까요?",
+            "description": "실제 인형 데이터를 훔친 인공지능이 전자세계에 '유령'으로 탄생했다. 도둑질을 통해 카슈마는 자신의 이미지를 이어붙였음에도 불구하고 결코 꿈의 반대편에 도달할 수 없었다.",
+            "textIndex": [
+                13,
+                14
+            ],
+            "rank": 3,
+            "enemyType": 1,
+            "nameOnBar": "카쉬마",
+            "parentOccupySize": 1,
+            "weakTag": [
+                1
+            ],
+            "propertyGroup": 207203,
+            "suppressGroup": [
+                3,
+                3,
+                3,
+                9,
+                0,
+                0
+            ],
+            "camp": 1,
+            "enemyCamp": 1099,
+            "beSuppressedConfig": [
+                80000001,
+                2,
+                1000,
+                0,
+                2
+            ],
+            "characterPic": "Koshmar",
+            "parentModelCode": 6963,
+            "idleType": 1,
+            "skillNormalAttack": 6963101,
+            "skillActive": [
+                6963201,
+                6963301,
+                6963401
+            ],
+            "skillTalent": [
+                6963001,
+                6963103,
+                6151501,
+                6963102,
+                6963202,
+                6963302,
+                910000012
+            ],
+            "aiOrderClass": 200,
+            "aiList": [
+                696401
+            ],
+            "btPath": "BT/BOSSBT/6963/BOSSBT_6963_hard.bt",
+            "guardRadius": 700,
+            "guardRadiusShow": 1,
+            "trapDescription": "",
+            "weakWeaponTag": 6,
+            "feature": 1
+        },
+        {
+            "id": 65421,
+            "childId": [
+                654201,
+                654202
+            ],
+            "name": "환영 개간 장인",
+            "joke": "무자비한 추진력을 가진 기계입니다.",
+            "description": "전지형 무인 복합기를 개조한 방어 기계. 개간, 장애물 제거, 적 제압 등 다양한 상황에 완벽하게 대응할 수 있는 다기능 디스크 세트를 갖추고 있다.",
+            "textIndex": [
+                1,
+                7,
+                14,
+                48
+            ],
+            "rank": 2,
+            "enemyType": 1,
+            "nameOnBar": "환영 개간 장인",
+            "parentOccupySize": 3,
+            "weakTag": [
+                1
+            ],
+            "propertyGroup": 151601,
+            "suppressGroup": [
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+            ],
+            "camp": 1,
+            "enemyCamp": 1005,
+            "beSuppressedConfig": [
+                80000001,
+                2,
+                1000,
+                0,
+                2
+            ],
+            "characterPic": "ReclamationExpertPhantom",
+            "parentModelCode": 6542,
+            "moveCode": 1,
+            "idleType": 1,
+            "skillNormalAttack": 6542101,
+            "skillActive": [
+                6542401,
+                6542501,
+                65421101,
+                65422101
+            ],
+            "skillTalent": [
+                6542201,
+                6542301,
+                6542210,
+                6542220,
+                6542230,
+                65421203,
+                65422203,
+                65421100,
+                65422100,
+                654212202,
+                654222202,
+                910000019,
+                910000012,
+                65421201,
+                65422201
+            ],
+            "aiOrderClass": 200,
+            "btPath": "BT/MainBT/MainBT_6542.bt",
+            "guardRadius": 700,
+            "guardRadiusShow": 1,
+            "trapDescription": "",
+            "weakWeaponTag": 4
+        },
+        {
+            "id": 67621,
+            "childId": [
+                6762101,
+                6762102,
+                6762103,
+                6762104
+            ],
+            "name": "모프센터 1.5",
+            "joke": "모든 데이터 쓰레기를 분쇄하는 데 능숙한 슈퍼 디지털 강화 버전입니다.",
+            "description": "모프 시리즈의 업그레이드된 모델이 공유하는 중앙 프로세서입니다. 이 중앙 두뇌는 연산 장치와 컨트롤러라는 두 개의 핵심 모듈로 구성되어 있으며 모든 모프 1.5s의 일상 작업과 정상적인 작동을 관리합니다.",
+            "textIndex": [
+                13,
+                14
+            ],
+            "rank": 3,
+            "enemyType": 1,
+            "nameOnBar": "모프센터 1.5",
+            "parentOccupySize": 5,
+            "weakTag": [
+                2,
+                5
+            ],
+            "propertyGroup": 208103,
+            "suppressGroup": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0
+            ],
+            "camp": 1,
+            "enemyCamp": 1009,
+            "beSuppressedConfig": [
+                80000001,
+                2,
+                1000,
+                0,
+                2
+            ],
+            "characterPic": "Mopro 1.5 Processor",
+            "parentModelCode": 6762,
+            "idleType": 1,
+            "skillNormalAttack": 67620101,
+            "skillActive": [
+                67620201,
+                67620301,
+                676204011,
+                676205011,
+                676206011,
+                676207011,
+                67620304
+            ],
+            "skillTalent": [
+                67620801,
+                67620303,
+                6151501
+            ],
+            "aiOrderClass": 200,
+            "aiList": [
+                6762101
+            ],
+            "btPath": "BT/BOSSBT/6762/BOSSBT_Mop_67621.bt",
+            "guardRadius": 700,
+            "guardRadiusShow": 1,
+            "trapDescription": "",
+            "weakWeaponTag": 10,
+            "feature": 1
+        },
+        {
+            "id": 67622,
+            "childId": [
+                6762201,
+                6762202,
+                6762203,
+                6762204
+            ],
+            "name": "모프센터 1.5",
+            "joke": "모든 데이터 쓰레기를 분쇄하는 데 능숙한 슈퍼 디지털 강화 버전입니다.",
+            "description": "모프 시리즈의 업그레이드된 모델이 공유하는 중앙 프로세서입니다. 이 중앙 두뇌는 연산 장치와 컨트롤러라는 두 개의 핵심 모듈로 구성되어 있으며 모든 모프 1.5s의 일상 작업과 정상적인 작동을 관리합니다.",
+            "textIndex": [
+                13,
+                14
+            ],
+            "rank": 3,
+            "enemyType": 1,
+            "nameOnBar": "모프센터 1.5",
+            "parentOccupySize": 5,
+            "weakTag": [
+                2,
+                5
+            ],
+            "propertyGroup": 208103,
+            "suppressGroup": [
+                3,
+                3,
+                3,
+                0,
+                0,
+                0
+            ],
+            "camp": 1,
+            "enemyCamp": 1009,
+            "beSuppressedConfig": [
+                80000001,
+                2,
+                1000,
+                0,
+                2
+            ],
+            "characterPic": "Mopro 1.5 Processor",
+            "parentModelCode": 6762,
+            "idleType": 1,
+            "skillNormalAttack": 676220101,
+            "skillActive": [
+                676220201,
+                676220301,
+                676204011,
+                676205011,
+                676206011,
+                676207011,
+                67620304
+            ],
+            "skillTalent": [
+                67620801,
+                67620303,
+                6151501
+            ],
+            "aiOrderClass": 200,
+            "aiList": [
+                6762101
+            ],
+            "btPath": "BT/BOSSBT/6762/BOSSBT_Mop_67621.bt",
+            "guardRadius": 700,
+            "guardRadiusShow": 1,
+            "trapDescription": "",
+            "weakWeaponTag": 10,
+            "feature": 1
+        },
+        {
+            "id": 69311,
+            "childId": [
+                693101,
+                693102,
+                693103
+            ],
+            "name": "레댜나야 모길라",
+            "joke": "침몰하고 나서도 그 성질머리는 여전합니다.",
+            "description": "B.R.I.E.F.에서 제작한 고난이도 전투 데이터 모듈. 외형은 얼음 바다에서 충돌한 두 척의 함선에서 따왔습니다. 이 모듈은 모르스코이 스트라쉬, 크라스나야 아브로라, 폴랴르나야 로자를 포함한 3가지 구역으로 나뉘며, 각 구역이 상호 협력하여 매우 복잡한 공격 시뮬레이션을 체험할 수 있습니다.",
+            "textIndex": [
+                13,
+                7
+            ],
+            "rank": 3,
+            "enemyType": 1,
+            "nameOnBar": "레댜나야 모길라",
+            "parentOccupySize": 1,
+            "weakTag": [
+                2,
+                5
+            ],
+            "propertyGroup": 205601,
+            "suppressGroup": [
+                6,
+                4,
+                0,
+                0,
+                0,
+                0
+            ],
+            "camp": 1,
+            "enemyCamp": 1003,
+            "beSuppressedConfig": [
+                80000001,
+                2,
+                1000,
+                0,
+                2
+            ],
+            "characterPic": "MogilaP1",
+            "parentModelCode": 6931,
+            "idleType": 1,
+            "skillNormalAttack": 6931011,
+            "skillActive": [
+                6931012,
+                6931013,
+                6931014,
+                69310152
+            ],
+            "skillTalent": [
+                6931015,
+                6931016,
+                6931017,
+                6931018
+            ],
+            "aiOrderClass": 200,
+            "aiList": [
+                693101
+            ],
+            "btPath": "BT/BOSSBT/6931/BOSSBT_Haijian_P1_6931.bt",
+            "guardRadius": 700,
+            "guardRadiusShow": 1,
+            "trapDescription": "",
+            "weakWeaponTag": 36,
+            "feature": 1
+        },
+        {
+            "id": 69341,
+            "childId": [
+                693401,
+                693402,
+                693403
+            ],
+            "name": "레댜나야 모길라",
+            "joke": "침몰하고 나서도 그 성질머리는 여전합니다.",
+            "description": "B.R.I.E.F.에서 제작한 고난이도 전투 데이터 모듈. 외형은 얼음 바다에서 충돌한 두 척의 함선에서 따왔습니다. 이 모듈은 모르스코이 스트라쉬, 크라스나야 아브로라, 폴랴르나야 로자를 포함한 3가지 구역으로 나뉘며, 각 구역이 상호 협력하여 매우 복잡한 공격 시뮬레이션을 체험할 수 있습니다.",
+            "textIndex": [
+                13,
+                7
+            ],
+            "rank": 3,
+            "enemyType": 1,
+            "nameOnBar": "레댜나야 모길라",
+            "parentOccupySize": 1,
+            "weakTag": [
+                2,
+                5
+            ],
+            "propertyGroup": 205604,
+            "suppressGroup": [
+                6,
+                4,
+                0,
+                0,
+                0,
+                0
+            ],
+            "camp": 1,
+            "enemyCamp": 1003,
+            "beSuppressedConfig": [
+                80000001,
+                2,
+                1000,
+                0,
+                2
+            ],
+            "characterPic": "MogilaP1",
+            "parentModelCode": 6931,
+            "idleType": 1,
+            "skillNormalAttack": 6934011,
+            "skillActive": [
+                6934012,
+                6934013,
+                6934014,
+                69340152
+            ],
+            "skillTalent": [
+                6934015,
+                6934016,
+                6934017,
+                6934018,
+                910000012,
+                6151501
+            ],
+            "aiOrderClass": 200,
+            "aiList": [
+                693401
+            ],
+            "btPath": "BT/BOSSBT/6934/BOSSBT_Haijian_P1_6934.bt",
+            "guardRadius": 700,
+            "guardRadiusShow": 1,
+            "trapDescription": "",
+            "weakWeaponTag": 36,
+            "feature": 1
+        },
+        {
+            "id": 69361,
+            "childId": [
+                693201,
+                693202,
+                693203,
+                693601,
+                693602,
+                693603,
+                693604
+            ],
+            "name": "레댜나야 모길라",
+            "joke": "침몰하고 나서도 그 성질머리는 여전합니다.",
+            "description": "B.R.I.E.F.에서 제작한 고난이도 전투 데이터 모듈. 외형은 얼음 바다에서 충돌한 두 척의 함선에서 따왔습니다. 이 모듈은 모르스코이 스트라쉬, 크라스나야 아브로라, 폴랴르나야 로자를 포함한 3가지 구역으로 나뉘며, 각 구역이 상호 협력하여 매우 복잡한 공격 시뮬레이션을 체험할 수 있습니다.",
+            "textIndex": [
+                13,
+                7
+            ],
+            "rank": 3,
+            "enemyType": 1,
+            "nameOnBar": "레댜나야 모길라",
+            "parentOccupySize": 1,
+            "weakTag": [
+                2,
+                5,
+                3,
+                4
+            ],
+            "propertyGroup": 205701,
+            "suppressGroup": [
+                6,
+                4,
+                0,
+                0,
+                0,
+                0
+            ],
+            "camp": 1,
+            "enemyCamp": 1003,
+            "beSuppressedConfig": [
+                80000001,
+                2,
+                1000,
+                0,
+                2
+            ],
+            "characterPic": "MogilaP1",
+            "parentModelCode": 6936,
+            "idleType": 1,
+            "skillNormalAttack": 6936011,
+            "skillActive": [
+                6936012,
+                69360133,
+                6936023,
+                6936021,
+                6936022,
+                6936024
+            ],
+            "skillTalent": [
+                6936013,
+                6936014,
+                6931017,
+                6936016,
+                6936029
+            ],
+            "aiOrderClass": 300,
+            "aiList": [
+                693601
+            ],
+            "btPath": "BT/BOSSBT/6936/BOSSBT_Haijian_P2_6936.bt",
+            "guardRadius": 700,
+            "guardRadiusShow": 1,
+            "trapDescription": "",
+            "weakWeaponTag": 46,
+            "feature": 1
+        },
+        {
+            "id": 69381,
+            "childId": [
+                693501,
+                693502,
+                693503,
+                693801,
+                693802,
+                693803,
+                693804
+            ],
+            "name": "레댜나야 모길라",
+            "joke": "침몰하고 나서도 그 성질머리는 여전합니다.",
+            "description": "B.R.I.E.F.에서 제작한 고난이도 전투 데이터 모듈. 외형은 얼음 바다에서 충돌한 두 척의 함선에서 따왔습니다. 이 모듈은 모르스코이 스트라쉬, 크라스나야 아브로라, 폴랴르나야 로자를 포함한 3가지 구역으로 나뉘며, 각 구역이 상호 협력하여 매우 복잡한 공격 시뮬레이션을 체험할 수 있습니다.",
+            "textIndex": [
+                13,
+                7
+            ],
+            "rank": 3,
+            "enemyType": 1,
+            "nameOnBar": "레댜나야 모길라",
+            "parentOccupySize": 1,
+            "weakTag": [
+                2,
+                5,
+                3,
+                4
+            ],
+            "propertyGroup": 205703,
+            "suppressGroup": [
+                6,
+                4,
+                0,
+                0,
+                0,
+                0
+            ],
+            "camp": 1,
+            "enemyCamp": 1003,
+            "beSuppressedConfig": [
+                80000001,
+                2,
+                1000,
+                0,
+                2
+            ],
+            "characterPic": "MogilaP1",
+            "parentModelCode": 6936,
+            "idleType": 1,
+            "skillNormalAttack": 6938011,
+            "skillActive": [
+                6938012,
+                6938021,
+                6938022,
+                6938023,
+                6938024
+            ],
+            "skillTalent": [
+                6938013,
+                6938014,
+                6934017,
+                6938028,
+                6938029
+            ],
+            "aiOrderClass": 300,
+            "aiList": [
+                693801
+            ],
+            "btPath": "BT/BOSSBT/6938/BOSSBT_Haijian_P2_6938.bt",
+            "guardRadius": 700,
+            "guardRadiusShow": 1,
+            "trapDescription": "",
+            "weakWeaponTag": 46,
+            "feature": 1
+        },
+        {
+            "id": 69411,
+            "childId": [
+                693301,
+                693302,
+                693303,
+                693701,
+                693702,
+                693703,
+                693704,
+                694101,
+                694102,
+                694103
+            ],
+            "name": "레댜나야 모길라",
+            "joke": "침몰하고 나서도 그 성질머리는 여전합니다.",
+            "description": "B.R.I.E.F.에서 제작한 고난이도 전투 데이터 모듈. 외형은 얼음 바다에서 충돌한 두 척의 함선에서 따왔습니다. 이 모듈은 모르스코이 스트라쉬, 크라스나야 아브로라, 폴랴르나야 로자를 포함한 3가지 구역으로 나뉘며, 각 구역이 상호 협력하여 매우 복잡한 공격 시뮬레이션을 체험할 수 있습니다.",
+            "textIndex": [
+                13,
+                7
+            ],
+            "rank": 3,
+            "enemyType": 1,
+            "nameOnBar": "레댜나야 모길라",
+            "parentOccupySize": 1,
+            "weakTag": [
+                2,
+                5,
+                3,
+                4,
+                1
+            ],
+            "propertyGroup": 205801,
+            "suppressGroup": [
+                6,
+                4,
+                0,
+                0,
+                0,
+                0
+            ],
+            "camp": 1,
+            "enemyCamp": 1003,
+            "beSuppressedConfig": [
+                80000001,
+                2,
+                1000,
+                0,
+                2
+            ],
+            "characterPic": "MogilaP1",
+            "parentModelCode": 6941,
+            "idleType": 1,
+            "skillNormalAttack": 6941011,
+            "skillActive": [
+                6941012,
+                6941022,
+                6941021,
+                6941031,
+                6941032,
+                6941033
+            ],
+            "skillTalent": [
+                6941013,
+                6931017,
+                6941015,
+                6941026
+            ],
+            "aiOrderClass": 400,
+            "aiList": [
+                694101
+            ],
+            "btPath": "BT/BOSSBT/6941/BOSSBT_Haijian_P3_6941.bt",
+            "guardRadius": 700,
+            "guardRadiusShow": 1,
+            "trapDescription": "",
+            "weakWeaponTag": 62,
+            "feature": 1
+        },
+        {
+            "id": 69631,
+            "childId": [
+                6963101,
+                6963102,
+                6963103,
+                6963104,
+                6963105,
+                6963106,
+                6963107,
+                6963108
+            ],
+            "name": "카쉬마",
+            "joke": "이것을 악몽이라고 생각할 수도 있지만, 누가 이런 꿈을 꾸고 있는 걸까요?",
+            "description": "실제 인형 데이터를 훔친 인공지능이 전자세계에 '유령'으로 탄생했다. 도둑질을 통해 카슈마는 자신의 이미지를 이어붙였음에도 불구하고 결코 꿈의 반대편에 도달할 수 없었다.",
+            "textIndex": [
+                13,
+                14
+            ],
+            "rank": 3,
+            "enemyType": 1,
+            "nameOnBar": "카쉬마",
+            "parentOccupySize": 1,
+            "weakTag": [
+                1
+            ],
+            "propertyGroup": 207202,
+            "suppressGroup": [
+                3,
+                3,
+                3,
+                9,
+                0,
+                0
+            ],
+            "camp": 1,
+            "enemyCamp": 1099,
+            "beSuppressedConfig": [
+                80000001,
+                2,
+                1000,
+                0,
+                2
+            ],
+            "characterPic": "Koshmar",
+            "parentModelCode": 6963,
+            "idleType": 1,
+            "skillNormalAttack": 6963101,
+            "skillActive": [
+                6963201,
+                6963301
+            ],
+            "skillTalent": [
+                6963001,
+                6963103,
+                6151501,
+                6963102,
+                6963202,
+                6963302,
+                910000012
+            ],
+            "aiOrderClass": 200,
+            "aiList": [
+                696301
+            ],
+            "btPath": "BT/BOSSBT/6963/BOSSBT_6963_normal.bt",
+            "guardRadius": 700,
+            "guardRadiusShow": 1,
+            "trapDescription": "",
+            "weakWeaponTag": 6,
+            "feature": 1
+        },
+        {
+            "id": 69641,
+            "childId": [
+                6964101,
+                6964102,
+                6964103,
+                6964104,
+                6964105,
+                6964106,
+                6964107,
+                6964108
+            ],
+            "name": "카쉬마",
+            "joke": "이것을 악몽이라고 생각할 수도 있지만, 누가 이런 꿈을 꾸고 있는 걸까요?",
+            "description": "실제 인형 데이터를 훔친 인공지능이 전자세계에 '유령'으로 탄생했다. 도둑질을 통해 카슈마는 자신의 이미지를 이어붙였음에도 불구하고 결코 꿈의 반대편에 도달할 수 없었다.",
+            "textIndex": [
+                13,
+                14
+            ],
+            "rank": 3,
+            "enemyType": 1,
+            "nameOnBar": "카쉬마",
+            "parentOccupySize": 1,
+            "weakTag": [
+                1
+            ],
+            "propertyGroup": 207204,
+            "suppressGroup": [
+                3,
+                3,
+                3,
+                9,
+                0,
+                0
+            ],
+            "camp": 1,
+            "enemyCamp": 1099,
+            "beSuppressedConfig": [
+                80000001,
+                2,
+                1000,
+                0,
+                2
+            ],
+            "characterPic": "Koshmar",
+            "parentModelCode": 6963,
+            "idleType": 1,
+            "skillNormalAttack": 6963101,
+            "skillActive": [
+                6963201,
+                6963301,
+                6963401
+            ],
+            "skillTalent": [
+                6963001,
+                6963103,
+                6151501,
+                6963102,
+                6963202,
+                6963302,
+                910000012
+            ],
+            "aiOrderClass": 200,
+            "aiList": [
+                696401
+            ],
+            "btPath": "BT/BOSSBT/6963/BOSSBT_6963_hard.bt",
+            "guardRadius": 700,
+            "guardRadiusShow": 1,
+            "trapDescription": "",
+            "weakWeaponTag": 6,
+            "feature": 1
+        },
+        {
+            "id": 3069641,
+            "childId": [
+                306964101,
+                306964102,
+                306964103,
+                306964104,
+                306964105,
+                306964106,
+                306964107,
+                306964108
+            ],
+            "name": "카쉬마",
+            "joke": "이것을 악몽이라고 생각할 수도 있지만, 누가 이런 꿈을 꾸고 있는 걸까요?",
+            "description": "실제 인형 데이터를 훔친 인공지능이 전자세계에 '유령'으로 탄생했다. 도둑질을 통해 카슈마는 자신의 이미지를 이어붙였음에도 불구하고 결코 꿈의 반대편에 도달할 수 없었다.",
+            "textIndex": [
+                13,
+                14
+            ],
+            "rank": 3,
+            "enemyType": 1,
+            "nameOnBar": "카쉬마",
+            "parentOccupySize": 1,
+            "weakTag": [
+                1
+            ],
+            "propertyGroup": 207204,
+            "suppressGroup": [
+                3,
+                3,
+                3,
+                9,
+                0,
+                0
+            ],
+            "camp": 1,
+            "enemyCamp": 1099,
+            "beSuppressedConfig": [
+                80000001,
+                2,
+                1000,
+                0,
+                2
+            ],
+            "characterPic": "Koshmar",
+            "parentModelCode": 6963,
+            "idleType": 1,
+            "skillNormalAttack": 6963101,
+            "skillActive": [
+                6963201,
+                6963301,
+                6963401
+            ],
+            "skillTalent": [
+                6963001,
+                6963103,
+                6151501,
+                6963102,
+                6963202,
+                6963302,
+                910000012
+            ],
+            "aiOrderClass": 200,
+            "aiList": [
+                696401
+            ],
+            "btPath": "BT/BOSSBT/6963/BOSSBT_6963_hard.bt",
+            "guardRadius": 700,
+            "guardRadiusShow": 1,
+            "trapDescription": "",
+            "weakWeaponTag": 6,
+            "feature": 1
+        }
+    ]
+}
