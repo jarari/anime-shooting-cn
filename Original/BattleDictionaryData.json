@@ -606,6 +606,11 @@
             "description": "回合开始时，潜行冠鼹会按照一定规则从<color=#3487e0>洞</color>中出现；有单位停留在<color=#3487e0>洞</color>上潜行冠鼹不能从此<color=#3487e0>洞</color>中钻出，且每有1个<color=#3487e0>洞</color>上没有单位停留，潜行冠鼹获得<color=#f26c1c>1层</color><color=#3487e0>{0}</color>，持续<color=#f26c1c>1回合</color>。"
         },
         {
+            "id": 90120,
+            "name": "最终伤害",
+            "description": "计算了增伤、减伤等所有加成之后得到的最终的伤害。"
+        },
+        {
             "id": 90210,
             "name": "炽焰",
             "description": "对区域上的敌方单位附加<color=#e67129>燃烧</color>弱点。对行动结束后停留在区域上的敌方单位造成<color=#f26c1c>99998点</color>固定伤害，燃烧类地格。"
@@ -704,6 +709,56 @@
             "id": 900229,
             "name": "回溯代码",
             "description": "受到伤害降低<color=#f26c1c>90%</color>。回合开始时，恢复自身<color=#f26c1c>8%</color>最大生命值的生命值。增益不可驱散。"
+        },
+        {
+            "id": 900230,
+            "name": "轻盈回旋",
+            "description": "为友方单位（不包含自身）施加<color=#3487e0>{0}</color>和<color=#3487e0>{1}</color>。"
+        },
+        {
+            "id": 900231,
+            "name": "轻盈回旋",
+            "description": "为友方单位（不包含自身）施加<color=#3487e0>{0}</color>和<color=#3487e0>{1}</color>，并恢复生命值。"
+        },
+        {
+            "id": 900232,
+            "name": "热情共鸣",
+            "description": "为友方单位（不包含自身）施加<color=#3487e0>{0}</color>与<color=#3487e0>{1}</color>。"
+        },
+        {
+            "id": 900233,
+            "name": "热情共鸣",
+            "description": "为友方单位（不包含自身）施加<color=#3487e0>{0}</color>与<color=#3487e0>{1}</color>，并驱散减益效果。"
+        },
+        {
+            "id": 900234,
+            "name": "最佳舞者",
+            "description": "根据最先施加的<color=#f26c1c>3个</color><color=#3487e0>{0}</color>，每有<color=#f26c1c>1个</color><color=#3487e0>轻盈的舞步</color>，恢复全场友方单位<color=#f26c1c>15%</color>最大生命值的生命值；每有<color=#f26c1c>1个</color><color=#3487e0>热情的舞步</color>，驱散全场友方<color=#f26c1c>1个</color>减益效果（若本回合已触发过<color=#3487e0>最佳舞者</color>，幼熙不会有跳舞表现，但效果仍然生效）。"
+        },
+        {
+            "id": 900235,
+            "name": "舞步",
+            "description": "包含<color=#3487e0>轻盈的舞步</color>和<color=#3487e0>热情的舞步</color>。"
+        },
+        {
+            "id": 901031,
+            "name": "储气区",
+            "description": "对行动结束后停留在区域上的敌方单位施加1层<color=#3487e0>{0}</color>，持续<color=#f26c1c>2回合</color>。对区域上的敌方单位附加<color=#e67129>燃烧</color>弱点，燃烧类地格。"
+        },
+        {
+            "id": 901032,
+            "name": "储气区",
+            "description": "对行动结束后停留在区域上的敌方单位施加1层<color=#3487e0>{0}</color>，持续<color=#f26c1c>2回合</color>。对区域上的敌方单位附加<color=#e67129>燃烧</color>弱点，燃烧类地格。"
+        },
+        {
+            "id": 901041,
+            "name": "液化流域",
+            "description": "对行动结束后停留在区域上的敌方单位驱散2层<color=#3487e0>{0}</color>并施加<color=#3487e0>{1}</color>，持续<color=#f26c1c>2回合</color>。对区域上的敌方单位附加<color=#2caadb>浊刻</color>弱点，浊刻类地格。"
+        },
+        {
+            "id": 901042,
+            "name": "液化流域",
+            "description": "对行动结束后停留在区域上的敌方单位驱散2层<color=#3487e0>{0}</color>并施加<color=#3487e0>{1}</color>，持续<color=#f26c1c>2回合</color>。对区域上的敌方单位附加<color=#2caadb>浊刻</color>弱点，浊刻类地格。"
         }
     ]
 }
