@@ -6348,8 +6348,8 @@
         },
         {
             "id": 262403,
-            "name": "反御增伤",
-            "description": "对目标造成物理伤害时，若目标降低的防御力大于<color=#f26c1c>100%</color>，则对其造成伤害提高。增益不可驱散。",
+            "name": "방어력 무시 초과 피해",
+            "description": "대상에게 물리 피해를 줄 때, 만약 대상의 방어력 감소량이 <color=#f26c1c>100%</color>를 초과하면, 추가 피해가 증가된다. 정화 불가 버프.",
             "buffEffect": "Buff/AtkU|Buff/AtkU",
             "effectPlayTime": [
                 1,
@@ -11563,8 +11563,8 @@
         },
         {
             "id": 6176102,
-            "name": "热力烧伤I",
-            "description": "获得该效果及行动结束时，自身受到施加者<color=#f26c1c>12%</color>攻击力的固定伤害，至多叠加<color=#f26c1c>5层</color>，减益效果。",
+            "name": "열력 화상 I",
+            "description": "해당 효과 획득 및 행동 종료 시, 시전자 공격력의 <color=#f26c1c>12%</color>에 해당하는 고정 피해를 입는다(중첩 가능, 효과는 중첩되지 않음).\n최대 <color=#f26c1c>5회 중첩</color> 가능. 디버프.",
             "buffEffect": "Buff/Dot_burn|Buff/Dot_burn_break",
             "effectPlayTime": [
                 1,
@@ -11590,8 +11590,8 @@
         },
         {
             "id": 6177102,
-            "name": "热力烧伤II",
-            "description": "获得该效果及行动结束时，自身受到施加者<color=#f26c1c>20%</color>攻击力的固定伤害，至多叠加<color=#f26c1c>6层</color>，减益效果。",
+            "name": "열력 화상 II",
+            "description": "해당 효과 획득 및 행동 종료 시, 시전자 공격력의 <color=#f26c1c>20%</color>에 해당하는 고정 피해를 입는다(중첩 가능, 효과는 중첩되지 않음).\n최대 <color=#f26c1c>6회 중첩</color> 가능. 디버프.",
             "buffEffect": "Buff/Dot_burn|Buff/Dot_burn_break",
             "effectPlayTime": [
                 1,
@@ -11618,7 +11618,7 @@
         {
             "id": 6177400,
             "name": "열광",
-            "description": "自身生命值已低于40%。",
+            "description": "자신의 체력이 40% 미만.",
             "buffEffect": "Skill/6171301_firebuff",
             "effectPlayTime": [
                 1
@@ -14503,8 +14503,8 @@
         },
         {
             "id": 6894201,
-            "name": "战意回响",
-            "description": "自身回合内主动攻击后将受到狂战者的反击，造成狂战者<color=#f26c1c>80%</color>攻击力的物理伤害，不可驱散。",
+            "name": "전투 의지 회향",
+            "description": "자신의 턴 내 액티브 공격 후, 광전사의 반격으로 인해 광전사의 공격력의 <color=#f26c1c>80%</color>에 해당하는 물리 피해를 입는다.\n정화 불가.",
             "iconName": "Buff_TargetNeutral",
             "isShow": true,
             "buffHeadShow": 1,
@@ -14512,8 +14512,8 @@
         },
         {
             "id": 6894301,
-            "name": "利刃刻痕",
-            "description": "行动结束时受到施加者<color=#f26c1c>10%</color>攻击力的伤害，可叠加（效果不叠加），减益效果。若被驱散则使己方全体获得<color=#3487e0>{0}</color>，持续<color=#f26c1c>2回合</color>。",
+            "name": "날카로운 칼날 자국",
+            "description": "행동 종료 시, 시전자 공격력의 <color=#f26c1c>10%</color>에 해당하는 피해를 입는다(중첩 가능, 효과는 중첩되지 않음).\n만약 해제되면, 아군 전체가 <color=#3487e0>{0}</color> 효과를 획득하며, <color=#f26c1c>2턴</color> 동안 지속된다.\n디버프.",
             "descriptionTips": "0:6894302",
             "iconName": "Buff_ContinueHurt",
             "isShow": true,
@@ -14522,8 +14522,8 @@
         },
         {
             "id": 6894302,
-            "name": "暴击狂潮",
-            "description": "暴击伤害提高<color=#f26c1c>10%</color>，最大可叠加<color=#f26c1c>10层</color>，增益不可驱散。",
+            "name": "치명타 광풍",
+            "description": "치명타 피해가 <color=#f26c1c>10%</color> 증가한다.\n최대 <color=#f26c1c>10회 중첩</color> 가능.\n정화 불가 버프.",
             "iconName": "Buff_CriDamUp",
             "isShow": true,
             "buffHeadShow": 1,
@@ -14531,8 +14531,8 @@
         },
         {
             "id": 6894401,
-            "name": "钢铁磐岩",
-            "description": "受到的稳态伤害降低<color=#f26c1c>2点</color>，防御力提高<color=#f26c1c>30%</color>，增益效果。若被驱散则转化为<color=#3487e0>{0}</color>，持续<color=#f26c1c>2回合</color>。",
+            "name": "강철 반암",
+            "description": "받는 안정 피해가 <color=#f26c1c>2점</color> 감소하고, 방어력이 <color=#f26c1c>30%</color> 상승한다.\n만약 해제되면, <color=#3487e0>{0}</color> 효과로 전환되어 <color=#f26c1c>2턴</color> 동안 지속된다.\n정화 불가 버프.",
             "descriptionTips": "0:68944012",
             "iconName": "Buff_DefUp",
             "isShow": true,
@@ -14542,7 +14542,7 @@
         {
             "id": 6894402,
             "name": "보호막",
-            "description": "能量力场盾",
+            "description": "에너지 장 쉴드",
             "buffEffect": "Skill/6873401_Shield|Skill/6873403_Shield_1",
             "effectPlayTime": [
                 1,
@@ -16969,8 +16969,8 @@
         },
         {
             "id": 10540401,
-            "name": "舞团核心",
-            "description": "为友方单位（不包含自身）施加<color=#3487e0>{0}</color>和<color=#3487e0>{1}</color>时，会获得1个相同的效果。不可驱散。",
+            "name": "댄스단 코어",
+            "description": "자신을 제외한 아군에게 <color=#3487e0>{0}</color>와 <color=#3487e0>{1}</color> 효과를 부여할 때, 동일한 효과를 1회 획득한다. 정화 불가 버프.",
             "descriptionTips": "1:900235;0:262403",
             "buffEffect": "Skill/YooHeeSSR01/10540401_Buff",
             "effectPlayTime": [
@@ -16994,8 +16994,8 @@
         },
         {
             "id": 10540403,
-            "name": "舞团核心",
-            "description": "攻击时无视目标<color=#f26c1c>50%</color>的防御力。为友方单位（不包含自身）施加<color=#3487e0>{0}</color>和<color=#3487e0>{1}</color>时，会获得1个相同的效果。触发<color=#3487e0>{2}</color>效果后，对射程内当前生命值最高的敌方单位使用1次主动技能<color=#3487e0>即兴舞步</color>，每回合至多触发<color=#f26c1c>1次</color>，且技能后不能使用主动技能<color=#3487e0>轻盈回旋</color>和主动技能<color=#3487e0>热情共鸣</color>。不可驱散。",
+            "name": "댄스단 코어",
+            "description": "공격 시 대상 방어력의 <color=#f26c1c>50%</color>를 무시한다.\n자신을 제외한 아군에게 <color=#3487e0>{0}</color>와 <color=#3487e0>{1}</color> 효과를 부여할 때, 동일한 효과를 1회 획득한다.\n<color=#3487e0>{2}</color> 효과 발동 후, 사거리 내 현재 체력이 가장 높은 적에게 액티브 스킬 <color=#3487e0>즉흥 무도</color>를 1회 사용한다. (매 턴 최대 <color=#f26c1c>1회</color>, 스킬 사용 후 <color=#3487e0>경쾌 회전</color> 및 <color=#3487e0>열정 공명</color> 사용 불가.)\n정화 불가.",
             "descriptionTips": "1:900235;0:262403;1:900234",
             "buffEffect": "Skill/YooHeeSSR01/10540401_Buff",
             "effectPlayTime": [
@@ -17019,8 +17019,8 @@
         },
         {
             "id": 10540542,
-            "name": "奇思妙想",
-            "description": "下回合主动技能<color=#3487e0>即兴舞步</color>效果增强，暴击率提高<color=#f26c1c>15%</color>，无视目标<color=#f26c1c>10%</color>的防御力，至多叠加<color=#f26c1c>3层</color>。不可驱散。",
+            "name": "기발한 상상",
+            "description": "다음 턴 액티브 스킬 <color=#3487e0>즉흥 무도</color>의 효과가 강화된다. 치명타 확률이 <color=#f26c1c>15%</color> 상승하고, 대상 방어력의 <color=#f26c1c>10%</color>를 무시한다. 최대 <color=#f26c1c>3회 중첩</color> 가능. 정화 불가.",
             "iconName": "Buff_CriUpNetral",
             "isShow": true,
             "buffHeadShow": 1,
@@ -17028,8 +17028,8 @@
         },
         {
             "id": 10540822,
-            "name": "绝不认输",
-            "description": "友方单位受到伤害降低<color=#f26c1c>30%</color>。不可驱散。",
+            "name": "절대 굴복하지 않아",
+            "description": "아군이 받는 피해가 <color=#f26c1c>30%</color> 감소한다. 정화 불가 버프.",
             "iconName": "Buff_DefUpNeutral",
             "isShow": true,
             "buffHeadShow": 1,
@@ -17037,8 +17037,8 @@
         },
         {
             "id": 10540823,
-            "name": "台前热身",
-            "description": "造成物理伤害时，暴击伤害提高<color=#f26c1c>25%</color>。增益不可驱散。",
+            "name": "전면 워밍업",
+            "description": "물리 피해를 줄 때, 치명타 피해가 <color=#f26c1c>25%</color> 상승한다. 정화 불가 버프.",
             "iconName": "Buff_CriDamUp",
             "isShow": true,
             "buffHeadShow": 1,
@@ -17046,8 +17046,8 @@
         },
         {
             "id": 10540851,
-            "name": "绝不认输",
-            "description": "<color=#3487e0>{0}</color>所有效果失效。不可驱散。",
+            "name": "절대 굴복하지 않아",
+            "description": "<color=#3487e0>{0}</color> 모든 효과가 무효화된다. 정화 불가.",
             "descriptionTips": "0:10541821",
             "iconName": "Buff_Tank5",
             "isShow": true,
@@ -17056,8 +17056,8 @@
         },
         {
             "id": 10540861,
-            "name": "计数·轻盈的舞步",
-            "description": "<color=#3487e0>{0}</color>施加次数。不可驱散。",
+            "name": "계수·경쾌한 무도",
+            "description": "<color=#3487e0>{0}</color> 적용 횟수. 정화 불가.",
             "descriptionTips": "0:105408011",
             "iconName": "Buff_CountUp",
             "isShow": true,
@@ -17066,8 +17066,8 @@
         },
         {
             "id": 10540871,
-            "name": "计数·热情的舞步",
-            "description": "<color=#3487e0>{0}</color>施加次数。不可驱散。",
+            "name": "계수·열정의 무도",
+            "description": "<color=#3487e0>{0}</color> 적용 횟수. 정화 불가.",
             "descriptionTips": "0:105408012",
             "iconName": "Buff_CountUp",
             "isShow": true,
@@ -17076,8 +17076,8 @@
         },
         {
             "id": 10541821,
-            "name": "绝不认输",
-            "description": "友方单位主动物理攻击时，无视目标<color=#f26c1c>15%</color>的防御力。至多叠加<color=#f26c1c>4层</color>。友方单位造成异位伤害时，中断<color=#f26c1c>2个大回合</color>。不可驱散。",
+            "name": "절대 굴복하지 않아",
+            "description": "아군 액티브 물리 공격 시, 대상 방어력의 <color=#f26c1c>15%</color>를 무시한다. 최대 <color=#f26c1c>4회 중첩</color> 가능. 아군이 위상 피해를 줄 경우, 대상의 행동이 <color=#f26c1c>2턴</color> 중단된다. 정화 불가.",
             "iconName": "Buff_AtkUpNeutral",
             "isShow": true,
             "buffHeadShow": 1,
@@ -19566,8 +19566,8 @@
         },
         {
             "id": 60007902,
-            "name": "群防策略",
-            "description": "受到的精准伤害提高<color=#f26c1c>30%</color>,受到的范围伤害降低<color=#f26c1c>50%</color>，持续时间无限。",
+            "name": "군집 방어 전략",
+            "description": "받는 단일 피해가 <color=#f26c1c>30%</color> 증가하고, 받는 범위 피해가 <color=#f26c1c>50%</color> 감소한다. (지속 시간 무제한)",
             "iconName": "Buff_EnemyRedHurt",
             "isShow": true,
             "buffHeadShow": 1
@@ -19793,22 +19793,22 @@
         },
         {
             "id": 61000370,
-            "name": "超限精准",
-            "description": "精准伤害提高<color=#f26c1c>20%</color>。",
+            "name": "극한 정밀",
+            "description": "단일 피해가 <color=#f26c1c>20%</color> 증가한다.",
             "iconName": "Buff_Guild_47",
             "showPriorityIcon": 10
         },
         {
             "id": 61000380,
-            "name": "超限重击",
-            "description": "物理伤害提高<color=#f26c1c>30%</color>。",
+            "name": "극한 중격",
+            "description": "물리 피해가 <color=#f26c1c>30%</color> 증가한다.",
             "iconName": "Buff_Guild_48",
             "showPriorityIcon": 10
         },
         {
             "id": 61000390,
-            "name": "破稳重击",
-            "description": "对敌方目标造成物理伤害时，暴击伤害提高<color=#f26c1c>20%</color>，额外造成<color=#f26c1c>5点</color>稳态伤害。",
+            "name": "안정 붕괴 중격",
+            "description": "적에게 물리 피해를 줄 때, 치명타 피해가 <color=#f26c1c>20%</color> 상승하고, 추가로 <color=#f26c1c>5점</color>의 안정 피해를 준다.",
             "iconName": "Buff_Guild_49",
             "showPriorityIcon": 10
         },
@@ -19863,71 +19863,71 @@
         },
         {
             "id": 61001080,
-            "name": "激流腐化",
-            "description": "浊刻与酸蚀伤害提高<color=#f26c1c>30%</color>，浊刻与酸蚀伤害暴击率提升<color=#f26c1c>30%</color>。",
+            "name": "격류 부패",
+            "description": "탁류 및 산성 피해가 <color=#f26c1c>30%</color> 증가하며, 탁류 및 산성 피해의 치명타 확률이 <color=#f26c1c>30%</color> 상승한다.",
             "iconName": "Buff_Guild_50",
             "showPriorityIcon": 10
         },
         {
             "id": 61001090,
-            "name": "电弧腐化",
-            "description": "电导与酸蚀伤害提高<color=#f26c1c>30%</color>，电导与酸蚀伤害暴击率提升<color=#f26c1c>30%</color>。",
+            "name": "전호 부패",
+            "description": "전도 및 산성 피해가 <color=#f26c1c>30%</color> 증가하며, 전도 및 산성 피해의 치명타 확률이 <color=#f26c1c>30%</color> 상승한다.",
             "iconName": "Buff_Guild_51",
             "showPriorityIcon": 10
         },
         {
             "id": 61001100,
-            "name": "寒潮燎原",
-            "description": "冷凝与燃烧伤害提高<color=#f26c1c>30%</color>，冷凝与燃烧伤害暴击率提高<color=#f26c1c>30%</color>。",
+            "name": "한파 불길",
+            "description": "빙결 및 연소 피해가 <color=#f26c1c>30%</color> 증가하며, 빙결 및 연소 피해의 치명타 확률이 <color=#f26c1c>30%</color> 상승한다.",
             "iconName": "Buff_Guild_52",
             "showPriorityIcon": 10
         },
         {
             "id": 61001110,
-            "name": "寒潮电弧",
-            "description": "冷凝与电导伤害提高<color=#f26c1c>30%</color>，冷凝与电导伤害暴击率提高<color=#f26c1c>30%</color>。",
+            "name": "한파 전호",
+            "description": "빙결 및 전도 피해가 <color=#f26c1c>30%</color> 증가하며, 빙결 및 전도 피해의 치명타 확률이 <color=#f26c1c>30%</color> 상승한다.",
             "iconName": "Buff_Guild_53",
             "showPriorityIcon": 10
         },
         {
             "id": 61001120,
-            "name": "火热重击",
-            "description": "物理与燃烧伤害提高<color=#f26c1c>30%</color>，物理与燃烧伤害暴击率提升<color=#f26c1c>30%</color>。",
+            "name": "불열 중격",
+            "description": "물리 및 연소 피해가 <color=#f26c1c>30%</color> 증가하며, 물리 및 연소 피해의 치명타 확률이 <color=#f26c1c>30%</color> 상승한다.",
             "iconName": "Buff_Guild_54",
             "showPriorityIcon": 10
         },
         {
             "id": 61001130,
-            "name": "激流重击",
-            "description": "物理与浊刻伤害提高<color=#f26c1c>30%</color>，物理与浊刻伤害暴击率提升<color=#f26c1c>30%</color>。",
+            "name": "격류 중격",
+            "description": "물리 및 탁류 피해가 <color=#f26c1c>30%</color> 증가하며, 물리 및 탁류 피해의 치명타 확률이 <color=#f26c1c>30%</color> 상승한다.",
             "iconName": "Buff_Guild_55",
             "showPriorityIcon": 10
         },
         {
             "id": 61001140,
-            "name": "电弧重击",
-            "description": "物理与电导伤害提高<color=#f26c1c>30%</color>，物理与电导伤害暴击率提高<color=#f26c1c>30%</color>。",
+            "name": "전호 중격",
+            "description": "물리 및 전도 피해가 <color=#f26c1c>30%</color> 증가하며, 물리 및 전도 피해의 치명타 확률이 <color=#f26c1c>30%</color> 상승한다.",
             "iconName": "Buff_Guild_56",
             "showPriorityIcon": 10
         },
         {
             "id": 61001150,
-            "name": "腐化重击",
-            "description": "物理与酸蚀伤害提高<color=#f26c1c>30%</color>，物理与酸蚀伤害暴击率提高<color=#f26c1c>30%</color>。",
+            "name": "부패 중격",
+            "description": "물리 및 산성 피해가 <color=#f26c1c>30%</color> 증가하며, 물리 및 산성 피해의 치명타 확률이 <color=#f26c1c>30%</color> 상승한다.",
             "iconName": "Buff_Guild_57",
             "showPriorityIcon": 10
         },
         {
             "id": 61001160,
-            "name": "寒潮重击",
-            "description": "物理与冷凝伤害提高<color=#f26c1c>30%</color>，物理与冷凝伤害暴击率提高<color=#f26c1c>30%</color>。",
+            "name": "한파 중격",
+            "description": "물리 및 빙결 피해가 <color=#f26c1c>30%</color> 증가하며, 물리 및 빙결 피해의 치명타 확률이 <color=#f26c1c>30%</color> 상승한다.",
             "iconName": "Buff_Guild_58",
             "showPriorityIcon": 10
         },
         {
             "id": 61001170,
-            "name": "精准重击",
-            "description": "物理伤害提高<color=#f26c1c>30%</color>，精准伤害提高<color=#f26c1c>25%</color>。",
+            "name": "정밀 중격",
+            "description": "물리 피해가 <color=#f26c1c>30%</color> 증가하고, 단일 피해가 <color=#f26c1c>25%</color> 상승한다.",
             "iconName": "Buff_Guild_59",
             "showPriorityIcon": 10
         },
@@ -20241,8 +20241,8 @@
         },
         {
             "id": 61761011,
-            "name": "屏障受损",
-            "description": "受到<color=#f26c1c>燃烧火域</color>伤害提高150%。",
+            "name": "장벽 손상",
+            "description": "받는 <color=#f26c1c>연소 화역</color> 피해가 150% 증가한다.",
             "iconName": "Buff_EnemyHurtUp",
             "isShow": true,
             "buffHeadShow": 1,
@@ -20250,8 +20250,8 @@
         },
         {
             "id": 61776021,
-            "name": "防御增幅",
-            "description": "自身防御力提高200%，可叠加。增益效果。",
+            "name": "방어력 증폭",
+            "description": "자신의 방어력이 200% 상승하며, 중첩 가능하다. 정화 불가 버프.",
             "iconName": "Buff_DefUp",
             "isShow": true,
             "buffHeadShow": 1,
@@ -20352,8 +20352,8 @@
         },
         {
             "id": 62004401,
-            "name": "异位减伤",
-            "description": "受到的酸蚀、电导、冷凝元素伤害减少<color=#f26c1c>20%</color>。增益效果。",
+            "name": "위상 피해 감소",
+            "description": "받는 산성, 전도, 빙결 속성 피해가 <color=#f26c1c>20%</color> 감소한다. 정화 불가 버프.",
             "buffEffect": "Buff/DefU|Buff/DefU",
             "effectPlayTime": [
                 1,
@@ -20370,8 +20370,8 @@
         },
         {
             "id": 62004402,
-            "name": "异位减伤",
-            "description": "受到的酸蚀、电导、冷凝元素伤害减少<color=#f26c1c>30%</color>。增益效果。",
+            "name": "위상 피해 감소",
+            "description": "받는 산성, 전도, 빙결 속성 피해가 <color=#f26c1c>30%</color> 감소한다. 정화 불가 버프.",
             "buffEffect": "Buff/DefU|Buff/DefU",
             "effectPlayTime": [
                 1,
@@ -20388,8 +20388,8 @@
         },
         {
             "id": 62004403,
-            "name": "异位减伤",
-            "description": "受到的酸蚀、电导、冷凝元素伤害减少<color=#f26c1c>50%</color>。增益效果。",
+            "name": "위상 피해 감소",
+            "description": "받는 산성, 전도, 빙결 속성 피해가 <color=#f26c1c>50%</color> 감소한다. 정화 불가 버프.",
             "buffEffect": "Buff/DefU|Buff/DefU",
             "effectPlayTime": [
                 1,
@@ -20520,7 +20520,7 @@
         },
         {
             "id": 62203301,
-            "name": "잔폭",
+            "name": "난폭",
             "description": "주는 피해 <color=#f26c1c>+80%</color>, 받는 피해 <color=#f26c1c>-50%</color>, 이동력 <color=#f26c1c>+1칸</color>. 버프.",
             "iconName": "Buff_AllUp",
             "isShow": true,
@@ -21278,7 +21278,7 @@
         {
             "id": 68922011,
             "name": "소화 타액",
-            "description": "受到伤害增加<color=#f26c1c>20%</color>，可叠加，持续<color=#f26c1c>2回合</color>，减益效果。若被驱散则使己方全体获得<color=#f26c1c>1层</color><color=#3487e0>{0}</color>，持续<color=#f26c1c>2回合</color>。",
+            "description": "받는 피해가 <color=#f26c1c>20%</color> 증가하며, 중첩 가능하고 <color=#f26c1c>2턴</color> 동안 지속된다. 만약 해제되면, 아군 전체가 <color=#f26c1c>1회</color> <color=#3487e0>{0}</color> 효과를 획득하며, <color=#f26c1c>2턴</color> 동안 지속된다. 디버프.",
             "descriptionTips": "0:68922012",
             "iconName": "Buff_EnemyHurtUp",
             "isShow": true,
@@ -21323,8 +21323,8 @@
         },
         {
             "id": 68940013,
-            "name": "骇然震慑",
-            "description": "受到伤害增加<color=#f26c1c>10%</color>，可叠加，减益不可驱散。",
+            "name": "경악 충격",
+            "description": "받는 피해가 <color=#f26c1c>10%</color> 증가하며, 중첩 가능하다. 정화 불가 디버프.",
             "iconName": "Buff_EnemyHurtUp",
             "isShow": true,
             "buffHeadShow": 1,
@@ -21332,8 +21332,8 @@
         },
         {
             "id": 68944012,
-            "name": "裂痕防线α",
-            "description": "受到的稳态伤害提高<color=#f26c1c>2点</color>，防御力降低<color=#f26c1c>30%</color>，减益不可驱散。",
+            "name": "균열 방어선 α",
+            "description": "받는 안정 피해가 <color=#f26c1c>2점</color> 증가하고, 방어력이 <color=#f26c1c>30%</color> 감소한다. 정화 불가 디버프.",
             "iconName": "Buff_DefLow",
             "isShow": true,
             "buffHeadShow": 1,
@@ -21341,8 +21341,8 @@
         },
         {
             "id": 68944022,
-            "name": "裂痕防线β",
-            "description": "防御力降低<color=#f26c1c>10%</color>，减益不可驱散。",
+            "name": "균열 방어선 β",
+            "description": "방어력이 <color=#f26c1c>10%</color> 감소한다. 정화 불가 디버프.",
             "iconName": "Buff_DefLow",
             "isShow": true,
             "buffHeadShow": 1,
@@ -22140,7 +22140,7 @@
         {
             "id": 72011201,
             "name": "면역",
-            "description": "免疫所有异位伤害和异位弱点。不可驱散。",
+            "description": "모든 위상 피해와 위상 약점에 면역된다. 정화 불가.",
             "iconName": "Buff_InvincibleNeutral",
             "isShow": true,
             "buffHeadShow": 1,
@@ -22149,7 +22149,7 @@
         {
             "id": 72012201,
             "name": "면역",
-            "description": "免疫除<color=#e67129>燃烧</color>外的所有异位伤害和异位弱点。不可驱散。",
+            "description": "<color=#e67129>연소</color>를 제외한 모든 위상 피해와 위상 약점에 면역된다. 정화 불가.",
             "iconName": "Buff_InvincibleNeutral",
             "isShow": true,
             "buffHeadShow": 1,
@@ -22158,7 +22158,7 @@
         {
             "id": 72013201,
             "name": "면역",
-            "description": "免疫除<color=#2caadb>浊刻</color>外的所有异位伤害和异位弱点。不可驱散。",
+            "description": "<color=#2caadb>탁류</color>를 제외한 모든 위상 피해와 위상 약점에 면역된다. 정화 불가.",
             "iconName": "Buff_InvincibleNeutral",
             "isShow": true,
             "buffHeadShow": 1,
@@ -22167,7 +22167,7 @@
         {
             "id": 72014201,
             "name": "면역",
-            "description": "免疫除<color=#42cce0>冷凝</color>外的所有异位伤害和异位弱点。不可驱散。",
+            "description": "<color=#42cce0>빙결</color>을 제외한 모든 위상 피해와 위상 약점에 면역된다. 정화 불가.",
             "iconName": "Buff_InvincibleNeutral",
             "isShow": true,
             "buffHeadShow": 1,
@@ -22176,7 +22176,7 @@
         {
             "id": 72015201,
             "name": "면역",
-            "description": "免疫除<color=#d4ae08>电导</color>外的所有异位伤害和异位弱点。不可驱散。",
+            "description": "<color=#d4ae08>전도</color>를 제외한 모든 위상 피해와 위상 약점에 면역된다. 정화 불가.",
             "iconName": "Buff_InvincibleNeutral",
             "isShow": true,
             "buffHeadShow": 1,
@@ -22185,7 +22185,7 @@
         {
             "id": 72016201,
             "name": "면역",
-            "description": "免疫除<color=#8679e8>酸蚀</color>外的所有异位伤害和异位弱点。不可驱散。",
+            "description": "<color=#8679e8>산성</color>을 제외한 모든 위상 피해와 위상 약점에 면역된다. 정화 불가.",
             "iconName": "Buff_InvincibleNeutral",
             "isShow": true,
             "buffHeadShow": 1,
@@ -24350,8 +24350,8 @@
         },
         {
             "id": 105408011,
-            "name": "轻盈的舞步",
-            "description": "暴击伤害提高<color=#f26c1c>10%</color>，攻击后恢复自身<color=#f26c1c>20%</color>攻击力的生命值。与<color=#3487e0>热情的舞步</color>互斥。增益不可驱散。",
+            "name": "경쾌한 무도",
+            "description": "치명타 피해가 <color=#f26c1c>10%</color> 증가하고, 공격 후 자신의 공격력의 <color=#f26c1c>20%</color>에 해당하는 체력을 회복한다. <color=#3487e0>열정의 무도</color>와 상호 배타적이다. 정화 불가 버프.",
             "buffEffect": "Skill/YooHeeSSR01/10540801_Buff|Buff/Recover",
             "effectPlayTime": [
                 1,
@@ -24375,8 +24375,8 @@
         },
         {
             "id": 105408012,
-            "name": "热情的舞步",
-            "description": "暴击伤害提高<color=#f26c1c>10%</color>，行动结束时获得<color=#f26c1c>2层</color><color=#3487e0>{0}</color>。与<color=#3487e0>轻盈的舞步</color>互斥。增益不可驱散。",
+            "name": "열정의 무도",
+            "description": "치명타 피해가 <color=#f26c1c>10%</color> 증가하고, 행동 종료 시 <color=#f26c1c>2회</color> <color=#3487e0>{0}</color> 효과를 획득한다. <color=#3487e0>경쾌한 무도</color>와 상호 배타적이다. 정화 불가 버프.",
             "descriptionTips": "0:301300",
             "buffEffect": "Skill/YooHeeSSR01/10540802_Buff",
             "effectPlayTime": [
@@ -24400,8 +24400,8 @@
         },
         {
             "id": 105408221,
-            "name": "回血",
-            "description": "回血",
+            "name": "회복",
+            "description": "회복",
             "buffEffect": "Buff/Recover",
             "effectPlayTime": [
                 3
@@ -24440,8 +24440,8 @@
         },
         {
             "id": 105408816,
-            "name": "全屏效果回血",
-            "description": "回血",
+            "name": "전 범위 회복",
+            "description": "회복",
             "buffEffect": "Buff/Recover",
             "effectPlayTime": [
                 3
@@ -24460,7 +24460,7 @@
         },
         {
             "id": 105408817,
-            "name": "全屏效果驱散",
+            "name": "전 범위 해제",
             "description": "디버프 정화",
             "buffEffect": "Buff/StableU",
             "effectPlayTime": [
@@ -25118,7 +25118,7 @@
         },
         {
             "id": 617660102,
-            "name": "隔热防护",
+            "name": "열 차단 보호",
             "description": "받는 피해가 <color=#f26c1c>100%</color> 감소합니다. 정화 불가 버프.",
             "iconName": "Buff_EnemyRedHurt",
             "isShow": true,
@@ -25126,7 +25126,7 @@
         },
         {
             "id": 617660103,
-            "name": "隔热防护",
+            "name": "열 차단 보호",
             "description": "받는 피해가 <color=#f26c1c>75%</color> 감소합니다. 정화 불가 버프.",
             "iconName": "Buff_EnemyRedHurt",
             "isShow": true,
@@ -25134,7 +25134,7 @@
         },
         {
             "id": 617660104,
-            "name": "隔热防护",
+            "name": "열 차단 보호",
             "description": "받는 피해가 <color=#f26c1c>50%</color> 감소합니다. 정화 불가 버프.",
             "iconName": "Buff_EnemyRedHurt",
             "isShow": true,
@@ -25142,7 +25142,7 @@
         },
         {
             "id": 617660105,
-            "name": "隔热防护",
+            "name": "열 차단 보호",
             "description": "받는 피해가 <color=#f26c1c>25%</color> 감소합니다. 정화 불가 버프.",
             "iconName": "Buff_EnemyRedHurt",
             "isShow": true,
@@ -25150,8 +25150,8 @@
         },
         {
             "id": 617660121,
-            "name": "耐火",
-            "description": "免疫受到的伤害。可叠加。增益效果不可驱散。",
+            "name": "내화",
+            "description": "피해를 면역하며, 중첩 가능하다. 정화 불가 버프.",
             "iconName": "Buff_Invincible",
             "isShow": true,
             "buffHeadShow": 1,
@@ -25159,8 +25159,8 @@
         },
         {
             "id": 617660122,
-            "name": "耐火",
-            "description": "免疫受到的伤害。可叠加。增益效果不可驱散。",
+            "name": "내화",
+            "description": "피해를 면역하며, 중첩 가능하다. 정화 불가 버프.",
             "iconName": "Buff_Invincible",
             "isShow": true,
             "buffHeadShow": 1,
@@ -25276,7 +25276,7 @@
         },
         {
             "id": 620043020,
-            "name": "精准提升",
+            "name": "정밀 향상",
             "description": "단일 피해 <color=#f26c1c>+20%</color>. 버프.",
             "buffEffect": "Buff/AtkU|Buff/AtkU",
             "effectPlayTime": [
@@ -25300,8 +25300,8 @@
         },
         {
             "id": 620043030,
-            "name": "精准提升",
-            "description": "精准类伤害提高<color=#f26c1c>50%</color>。增益效果。",
+            "name": "정밀 향상",
+            "description": "정밀 계열 피해가 <color=#f26c1c>50%</color> 증가한다. 정화 불가 버프.",
             "buffEffect": "Buff/AtkU|Buff/AtkU",
             "effectPlayTime": [
                 1,
@@ -25324,8 +25324,8 @@
         },
         {
             "id": 620043040,
-            "name": "精准提升",
-            "description": "精准类伤害提高<color=#f26c1c>80%</color>。增益效果。",
+            "name": "정밀 향상",
+            "description": "정밀 계열 피해가 <color=#f26c1c>80%</color> 증가한다. 정화 불가 버프.",
             "buffEffect": "Buff/AtkU|Buff/AtkU",
             "effectPlayTime": [
                 1,
@@ -25349,7 +25349,7 @@
         {
             "id": 620045018,
             "name": "방어 상승",
-            "description": "防御力提高<color=#f26c1c>30%</color>",
+            "description": "방어력이 <color=#f26c1c>30%</color> 증가한다.",
             "buffEffect": "Buff/DefU|Buff/DefU",
             "effectPlayTime": [
                 1,
@@ -25375,7 +25375,7 @@
         {
             "id": 620045028,
             "name": "방어 상승",
-            "description": "防御力提高<color=#f26c1c>40%</color>",
+            "description": "방어력이 <color=#f26c1c>40%</color> 증가한다.",
             "buffEffect": "Buff/DefU|Buff/DefU",
             "effectPlayTime": [
                 1,
@@ -25393,7 +25393,7 @@
         {
             "id": 620045029,
             "name": "출력 과부하",
-            "description": "范围减伤提高<color=#f26c1c>50%</color>",
+            "description": "범위 피해 감소 효과가 <color=#f26c1c>50%</color> 상승한다.",
             "iconName": "Buff_AllUp",
             "isShow": true,
             "buffHeadShow": 1
@@ -25401,7 +25401,7 @@
         {
             "id": 620045038,
             "name": "방어 상승",
-            "description": "防御力提高<color=#f26c1c>50%</color>",
+            "description": "방어력이 <color=#f26c1c>50%</color> 증가한다.",
             "buffEffect": "Buff/DefU|Buff/DefU",
             "effectPlayTime": [
                 1,
@@ -25419,7 +25419,7 @@
         {
             "id": 620045039,
             "name": "출력 과부하",
-            "description": "范围减伤提高<color=#f26c1c>80%</color>",
+            "description": "범위 피해 감소 효과가 <color=#f26c1c>80%</color> 상승한다.",
             "iconName": "Buff_AllUp",
             "isShow": true,
             "buffHeadShow": 1
@@ -25427,7 +25427,7 @@
         {
             "id": 620046012,
             "name": "공격 상승",
-            "description": "攻击力提高<color=#f26c1c>10%</color>",
+            "description": "공격력이 <color=#f26c1c>10%</color> 증가한다.",
             "buffEffect": "Buff/AtkU|Buff/AtkU",
             "effectPlayTime": [
                 1,
@@ -25452,7 +25452,7 @@
         {
             "id": 620046022,
             "name": "공격 상승",
-            "description": "攻击力提高<color=#f26c1c>15%</color>",
+            "description": "공격력이 <color=#f26c1c>15%</color> 증가한다.",
             "buffEffect": "Buff/AtkU|Buff/AtkU",
             "effectPlayTime": [
                 1,
@@ -25477,7 +25477,7 @@
         {
             "id": 620046032,
             "name": "공격 상승",
-            "description": "攻击力提高<color=#f26c1c>25%</color>",
+            "description": "공격력이 <color=#f26c1c>25%</color> 증가한다.",
             "buffEffect": "Buff/AtkU|Buff/AtkU",
             "effectPlayTime": [
                 1,
@@ -25561,7 +25561,7 @@
         {
             "id": 628346012,
             "name": "군체 감응",
-            "description": "造成伤害提高<color=#f26c1c>25%</color>，受到伤害降低<color=#f26c1c>50%</color>，造成稳态伤害提高<color=#f26c1c>2点</color>，受到稳态伤害降低<color=#f26c1c>1点</color>，不可驱散。",
+            "description": "입히는 피해가 <color=#f26c1c>25%</color> 증가하고, 받는 피해가 <color=#f26c1c>50%</color> 감소하며, 입히는 안정 피해가 <color=#f26c1c>2점</color> 상승하고, 받는 안정 피해가 <color=#f26c1c>1점</color> 감소한다. 정화 불가.",
             "iconName": "Buff_AtkUp",
             "isShow": true,
             "buffHeadShow": 1,
