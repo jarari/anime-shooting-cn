@@ -13696,7 +13696,7 @@
         {
             "id": 6761411,
             "name": "기원",
-            "description": "방어력이 <color=#f26c1c>50%</color> 증가합니다. 턴 시작 시, 자신이 보유한 연소 유형 디버프 1개마다 <color=#3487e0>기원</color> 1중첩을 제거합니다. <color=#3487e0>기원</color>이 여전히 <color=#f26c1c>3중첩</color> 이상이라면, 추가로 <color=#3487e0>{0}</color>를 부여합니다. 정화 불가.",
+            "description": "방어력이 <color=#f26c1c>50%</color> 증가합니다. 턴 시작 시, 자신이 보유한 연소계 디버프 1개마다 <color=#3487e0>기원</color> 1중첩을 제거합니다. <color=#3487e0>기원</color>이 여전히 <color=#f26c1c>3중첩</color> 이상이라면, 추가로 <color=#3487e0>{0}</color>를 부여합니다. 정화 불가.",
             "descriptionTips": "0:6761412",
             "iconName": "Buff_Lumi1",
             "isShow": true,
@@ -14495,7 +14495,7 @@
         {
             "id": 6893809,
             "name": "열융해",
-            "description": "방어력이 <color=#f26c1c>10%</color> 감소하며, 중첩 가능합니다. 방어 유형 디버프로 정화 불가입니다.",
+            "description": "방어력이 <color=#f26c1c>10%</color> 감소하며, 중첩 가능합니다. 정화 불가 방어 디버프.",
             "iconName": "Buff_DefLow",
             "isShow": true,
             "buffHeadShow": 1,
@@ -25276,7 +25276,7 @@
         },
         {
             "id": 620043020,
-            "name": "정밀 향상",
+            "name": "단일 향상",
             "description": "단일 피해 <color=#f26c1c>+20%</color>. 버프.",
             "buffEffect": "Buff/AtkU|Buff/AtkU",
             "effectPlayTime": [
@@ -25300,8 +25300,8 @@
         },
         {
             "id": 620043030,
-            "name": "정밀 향상",
-            "description": "정밀 계열 피해가 <color=#f26c1c>50%</color> 증가한다. 정화 불가 버프.",
+            "name": "단일 향상",
+            "description": "단일 계열 피해가 <color=#f26c1c>50%</color> 증가한다. 정화 불가 버프.",
             "buffEffect": "Buff/AtkU|Buff/AtkU",
             "effectPlayTime": [
                 1,
@@ -25324,8 +25324,8 @@
         },
         {
             "id": 620043040,
-            "name": "정밀 향상",
-            "description": "정밀 계열 피해가 <color=#f26c1c>80%</color> 증가한다. 정화 불가 버프.",
+            "name": "단일 향상",
+            "description": "단일 계열 피해가 <color=#f26c1c>80%</color> 증가한다. 정화 불가 버프.",
             "buffEffect": "Buff/AtkU|Buff/AtkU",
             "effectPlayTime": [
                 1,
