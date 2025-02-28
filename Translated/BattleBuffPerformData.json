@@ -309,8 +309,8 @@
         },
         {
             "id": 331,
-            "name": "테스트物件buff",
-            "description": "테스트物件buff, 挂在攻击者身上, 攻击者身后出现이고",
+            "name": "테스트오브젝트buff",
+            "description": "테스트오브젝트buff, 공격자에게적용, 공격자뒤에이고출현",
             "buffEffect": "Buff/Recover",
             "effectPlayTime": [
                 1
@@ -331,8 +331,8 @@
         },
         {
             "id": 332,
-            "name": "테스트物件buff2",
-            "description": "테스트物件buff2, 挂在攻击者身上, 攻击者后上方出现이고",
+            "name": "테스트오브젝트buff2",
+            "description": "테스트오브젝트buff2, 공격자에게적용, 공격자뒤에이고출현",
             "buffEffect": "Buff/StableHPRecover",
             "effectPlayTime": [
                 1
@@ -370,7 +370,7 @@
         {
             "id": 3001,
             "name": "확대편성 임시효과",
-            "description": "턴 시작 시, 持有技能的角色加稳固buff",
+            "description": "턴 시작 시, 스킬가진캐릭에게안정buff",
             "iconName": "Buff_AtkUp",
             "isShow": true,
             "buffHeadShow": 1
@@ -378,7 +378,7 @@
         {
             "id": 3002,
             "name": "확대편성 임시효과",
-            "description": "행동 종료 시, 持有技能的角色加稳固buff",
+            "description": "행동 종료 시, 스킬을 가진 캐릭터에게 안정buff",
             "iconName": "Buff_AtkUp",
             "isShow": true,
             "buffHeadShow": 1
@@ -9919,7 +9919,7 @@
         {
             "id": 510521,
             "name": "문드러짐",
-            "description": "이동력 <color=#f26c1c>-2칸</color>, 行动结束时受到纽虫·异种<color=#f26c1c>50%</color> 고정 피해.",
+            "description": "이동력 <color=#f26c1c>-2칸</color>, 행동 종료 시 끈벌레·이종이 공격력 <color=#f26c1c>50%</color> 고정 피해를 입는다.",
             "iconName": "Buff_PoisonDefDown",
             "isShow": true,
             "buffHeadShow": 1,
@@ -10276,7 +10276,7 @@
         {
             "id": 1051083,
             "name": "악몽화",
-            "description": "주는 범위 피해 <color=#f26c1c>+20%</color>, 支援攻击주는 범위 피해 <color=#f26c1c>+80%</color>, 주는 안정 피해 <color=#f26c1c>+1점</color>, 且将<color=#3487e0>{0}</color>주는 피해修改为<color=#8679e8>산성 피해</color>를 준다. 산성계 정화 불가 버프.",
+            "description": "주는 범위 피해 <color=#f26c1c>+20%</color>, 지원 공격으로 주는 범위 피해 <color=#f26c1c>+80%</color>, 주는 안정 피해 <color=#f26c1c>+1점</color>. <color=#3487e0>{0}</color>로 주는 피해가 <color=#8679e8>산성 피해</color>가 된다. 산성계 정화 불가 버프.",
             "descriptionTips": "1:90222",
             "iconName": "Buff_PoisonUP",
             "isShow": true,
@@ -11234,7 +11234,7 @@
         {
             "id": 6167331,
             "name": "지체",
-            "description": "이동력 <color=#f26c1c>-2칸</color>, 중첩 가능. 可정화移动디버프.",
+            "description": "이동력 <color=#f26c1c>-2칸</color>, 중첩 가능. 정화 가능 이동 디버프.",
             "buffEffect": "Buff/SpeedD|Buff/SpeedD",
             "effectPlayTime": [
                 1,
@@ -14236,7 +14236,7 @@
         {
             "id": 6874701,
             "name": "안정 증폭",
-            "description": "안정 지수가 <color=#f26c1c>0</color>보다 높을 때, 공격력 <color=#f26c1c>+50%</color>, 且받는 피해 <color=#f26c1c>-50%</color>, 정화 불가.",
+            "description": "안정 지수가 <color=#f26c1c>0</color>보다 높을 때, 공격력 <color=#f26c1c>+50%</color>, 받는 피해 <color=#f26c1c>-50%</color>. 정화 불가.",
             "iconName": "Buff_DefUpNeutral",
             "isShow": true,
             "showPriorityIcon": 10
@@ -15102,8 +15102,8 @@
         },
         {
             "id": 6976002,
-            "name": "甲壳3被动",
-            "description": "甲壳P3防御型被动表现",
+            "name": "갑각3패시브",
+            "description": "갑각P3방어형패시브표시",
             "buffEffect": "Skill/6976301_idel",
             "effectPlayTime": [
                 1
@@ -15177,8 +15177,8 @@
         },
         {
             "id": 6977002,
-            "name": "甲壳4被动",
-            "description": "甲壳P4攻击型被动表现"
+            "name": "갑각4패시브",
+            "description": "갑각P4공격형패시브표시"
         },
         {
             "id": 6977903,
@@ -15335,7 +15335,7 @@
         {
             "id": 10040701,
             "name": "양극",
-            "description": "테스트그로자ETS能否分摊피해 分走70%",
+            "description": "테스트그로자ETS피해분산가능한지 70%분산",
             "descriptionTips": "1:90118;0:330201",
             "buffEffect": "Skill/gun_Ice_shield|Skill/gun_Ice_shield_2",
             "effectPlayTime": [
@@ -25570,7 +25570,7 @@
         {
             "id": 628348031,
             "name": "몰두",
-            "description": "주는 피해 <color=#f26c1c>+25%</color>, 최고 중첩至4스택, 정화 불가 버프.",
+            "description": "주는 피해 <color=#f26c1c>+25%</color>. 4스택까지 중첩 가능. 정화 불가 버프.",
             "iconName": "Buff_DamageUp",
             "isShow": true,
             "buffHeadShow": 1,
