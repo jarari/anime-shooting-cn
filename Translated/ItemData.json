@@ -473,7 +473,7 @@
             "introduction": "간결한 코드 몇 줄일 뿐이지만, 사르 데이터베이스에서 제한된 시간 동안 개방되는 서브 모듈에 접속할 수 있도록 도와줍니다. 가거라, 그대가 갈망하는 모든 것이 그곳에 있노니...! 자신의 역량에 맞게 이용해주세요.\n「지정 발주」에서 특정 데이터베이스에 액세스할 수 있습니다.",
             "description": "人形UP券",
             "type": 1,
-            "icon": "Item_Icon_Gacha_UpTicket_YooHee",
+            "icon": "Item_Icon_Gacha_UpTicket",
             "rank": 5,
             "sort": 22,
             "goodsid": 3011,
@@ -652,7 +652,7 @@
         {
             "id": 221,
             "name": "增量合约·月",
-            "introduction": "안정적으로 판매되는 계약. 네트워크 서비스를 공급하는 계약입니다. 사용 시 기술적으로 시뮬레이션 추론 데이터를 변경할 수 있습니다. 재료 획득 효율을 높이고 싶은 현상금 사냥꾼은 구매해보는 것도 좋겠죠.\n구매 당일 적용되며, 유효 기간은 1개월입니다. 유효 기간 동안 매일 「표준 동기화」 입장 횟수와 전투 중 되감기 가능 횟수가 추가됩니다.",
+            "introduction": "稳定发售的合约，约定补给为网络服务，合约确定后可通过一些技术手段修改模拟推演数据。期望提升材料获取效率的赏金猎人可以尝试购入。\n该合约自购买当日起生效，有效期1个月。有效期内每日前2次标准同调产出、重演次数增加。",
             "description": "小月卡\n宝箱样式【开发背景下的产物】\n不是真的宝箱-购买就获得大月卡绑定额功能month_card表中配置",
             "type": 35,
             "icon": "Item_Icon_WeaponUpgrade",
@@ -1102,6 +1102,26 @@
             "type": 142,
             "icon": "Unknow",
             "rank": 2,
+            "sort": 1,
+            "iconPath": "Item"
+        },
+        {
+            "id": 501,
+            "name": "战勋徽记",
+            "introduction": "由B.R.I.E.F.颁发，用于表彰取得卓越成就的赏金猎人。这是荣誉的象征，同时也是兑换B.R.I.E.F.特别奖励的重要信物。",
+            "type": 4,
+            "icon": "Item_Icon_Achievement_reward",
+            "rank": 5,
+            "sort": 1,
+            "iconPath": "Item"
+        },
+        {
+            "id": 502,
+            "name": "战勋记录",
+            "introduction": "记录赏金猎人战勋的B.R.I.E.F.荣誉档案，这份记录中的每一笔都是属于您的重大成就。",
+            "type": 4,
+            "icon": "Item_Icon_Achievement_reward_total",
+            "rank": 5,
             "sort": 1,
             "iconPath": "Item"
         },
@@ -1626,6 +1646,18 @@
             "rank": 5,
             "sort": 34,
             "argsStr": "1054",
+            "iconPath": "Character"
+        },
+        {
+            "id": 1055,
+            "name": "妮基塔",
+            "introduction": "坚持正义的治安人员、爱护孩子的温柔姐姐、花钱不眨眼的月光族——谁说这些身份不能是同一个人？奋战于守护正义的一线，妮基塔冷静地践行着自己的原则，但在面对你时，她也会流露出特别的一面。“我的工作告诉我，不要完全相信任何人。不过，BOSS是例外了，我们可是一起追逐正义的伙伴呢。”",
+            "description": "人形整卡",
+            "type": 10,
+            "icon": "Item_Icon_Gun_NikketaSSR",
+            "rank": 5,
+            "sort": 34,
+            "argsStr": "1055",
             "iconPath": "Character"
         },
         {
@@ -2466,6 +2498,23 @@
             "howToGet": "3",
             "showType": 2,
             "argsStr": "1054",
+            "iconPath": "Item",
+            "dismantlingList": {
+                "2": 5000
+            }
+        },
+        {
+            "id": 4055,
+            "name": "妮基塔心智存档",
+            "introduction": "这份存档虽然表面看来严肃，里面却似乎总是回荡着孩子的笑声。\n妮基塔的心智存档，可用于该人形的云图强固。",
+            "description": "人形碎片",
+            "type": 11,
+            "icon": "Item_Icon_Core_NikketaSSR",
+            "rank": 5,
+            "sort": 34,
+            "howToGet": "3",
+            "showType": 2,
+            "argsStr": "1055",
             "iconPath": "Item",
             "dismantlingList": {
                 "2": 5000
@@ -6296,6 +6345,54 @@
             }
         },
         {
+            "id": 10551,
+            "name": "旧式维斯卡94",
+            "introduction": "从暗商处采购的廉价武器，准头一般，但还能凑合使用。",
+            "description": "武器",
+            "type": 20,
+            "icon": "Weapon_VSK94_3",
+            "rank": 3,
+            "sort": 77,
+            "showType": 2,
+            "argsStr": "10551",
+            "iconPath": "Weapon",
+            "dismantlingList": {
+                "16": 2
+            }
+        },
+        {
+            "id": 10552,
+            "name": "维斯卡94",
+            "introduction": "与妮基塔契合度高的枪械，针对妮基塔的作战偏好进行了一定的改造，减轻了重量，在执行任务时更加便携。",
+            "description": "武器",
+            "type": 20,
+            "icon": "Weapon_VSK94_4",
+            "rank": 4,
+            "sort": 77,
+            "showType": 2,
+            "argsStr": "10552",
+            "iconPath": "Weapon",
+            "dismantlingList": {
+                "47": 18
+            }
+        },
+        {
+            "id": 10553,
+            "name": "护梦银翼",
+            "introduction": "妮基塔被配给的高性能狙击枪，以维斯卡94为原型，提升了射击精准度，成为维护正义的利器。将所有罪恶扼杀于萌芽中，还孩子们一片安宁梦乡。",
+            "description": "武器",
+            "type": 20,
+            "icon": "Weapon_VSK94_5",
+            "rank": 5,
+            "sort": 77,
+            "showType": 2,
+            "argsStr": "10553",
+            "iconPath": "Weapon",
+            "dismantlingList": {
+                "47": 90
+            }
+        },
+        {
             "id": 11007,
             "name": "산토끼",
             "introduction": "캐롤릭과 궁합이 좋은 근접 무기. 캐롤릭의 작전 취향에 맞게 일부 개조를 거쳤으며, 캐롤릭과 어울리는 색상으로 도색했습니다.",
@@ -8808,6 +8905,54 @@
             }
         },
         {
+            "id": 15551,
+            "name": "武器蓝图·旧式维斯卡94",
+            "introduction": "常见的武器蓝图，简洁的线条勾勒出武器的轮廓。\n可用于组装旧式维斯卡94。",
+            "description": "武器碎片",
+            "type": 38,
+            "icon": "Weapon_VSK94_Core_3",
+            "rank": 3,
+            "sort": 77,
+            "showType": 2,
+            "argsStr": "10551",
+            "iconPath": "WeaponCore",
+            "dismantlingList": {
+                "2": 5000
+            }
+        },
+        {
+            "id": 15552,
+            "name": "武器蓝图·维斯卡94",
+            "introduction": "少见的武器蓝图，简洁的线条勾勒出武器的轮廓。\n可用于组装维斯卡94。",
+            "description": "武器碎片",
+            "type": 38,
+            "icon": "Weapon_VSK94_Core_4",
+            "rank": 4,
+            "sort": 77,
+            "showType": 2,
+            "argsStr": "10552",
+            "iconPath": "WeaponCore",
+            "dismantlingList": {
+                "2": 5000
+            }
+        },
+        {
+            "id": 15553,
+            "name": "武器蓝图·护梦银翼",
+            "introduction": "稀有的武器蓝图，简洁的线条勾勒出武器的轮廓。\n可用于组装护梦银翼。",
+            "description": "武器碎片",
+            "type": 38,
+            "icon": "Weapon_VSK94_Core_5",
+            "rank": 5,
+            "sort": 77,
+            "showType": 2,
+            "argsStr": "10553",
+            "iconPath": "WeaponCore",
+            "dismantlingList": {
+                "2": 5000
+            }
+        },
+        {
             "id": 21000,
             "name": "아이콘·블레이드 플래시",
             "introduction": "평상복 차림의 캐롤릭. 트레이드 마크인 토끼 귀가 눈에 띕니다.\n캐롤릭 획득 시 해금.",
@@ -9728,6 +9873,18 @@
             "iconPath": "Avatar"
         },
         {
+            "id": 21089,
+            "name": "绘像·正义警戒",
+            "introduction": "以常见着装出现的妮基塔，一丝不苟的制服，体现出将正义贯彻到底的决心。\n获得妮基塔以解锁。",
+            "description": "头像",
+            "type": 12,
+            "icon": "Avatar_Head_NikketaSSR",
+            "rank": 5,
+            "sort": 102,
+            "argsStr": "21089",
+            "iconPath": "Avatar"
+        },
+        {
             "id": 21105,
             "name": "아이콘·서킷 스파크",
             "introduction": "치타에게 불꽃이란 비유가 아닙니다. 준비 단단히 하세요. 경기가 곧 시작됩니다.\n치타의 코스튬 「서킷 스파크」 획득 시 해금.",
@@ -9802,7 +9959,7 @@
         {
             "id": 21111,
             "name": "아이콘·예비 플랜",
-            "introduction": "Plan B 가동, 지금부터는 주인공의 반격 시간이야.\n원일점·후 클리어 시 해금",
+            "introduction": "Plan B启动，现在是主人公 的反击时间。\n通关远日点·下篇以解锁",
             "description": "头像",
             "type": 12,
             "icon": "Avatar_Head_ActivityMishty",
@@ -9944,6 +10101,18 @@
             "iconPath": "Avatar"
         },
         {
+            "id": 21123,
+            "name": "绘像·完美的回礼",
+            "introduction": "完美的女仆，自然是为主人奉上一切完美的存在。\n人形回赠的心意赠礼，与人形铭契后获得。",
+            "description": "头像",
+            "type": 12,
+            "icon": "Avatar_Head_CentaureissiLove",
+            "rank": 5,
+            "sort": 102,
+            "argsStr": "21123",
+            "iconPath": "Avatar"
+        },
+        {
             "id": 21124,
             "name": "아이콘·낮의 가벼운 춤",
             "introduction": "무대 어느 곳에 있더라도, 그 부드러운 눈빛은 항상 특정 방향으로 향합니다.\n인형이 전하는 진심의 선물로, 인형과 인연을 맺은 후 해금됩니다.",
@@ -9953,6 +10122,18 @@
             "rank": 5,
             "sort": 102,
             "argsStr": "21124",
+            "iconPath": "Avatar"
+        },
+        {
+            "id": 21126,
+            "name": "绘像·恪尽之锁",
+            "introduction": "正义本是她的唯一信条，但现在，你的理想，也成为她的行动准则。\n人形回赠的心意赠礼，与人形铭契后获得。",
+            "description": "头像",
+            "type": 12,
+            "icon": "Avatar_Head_NikketaLove",
+            "rank": 5,
+            "sort": 102,
+            "argsStr": "21126",
             "iconPath": "Avatar"
         },
         {
@@ -10241,6 +10422,54 @@
             "rank": 4,
             "sort": 102,
             "argsStr": "21180",
+            "iconPath": "Avatar"
+        },
+        {
+            "id": 21181,
+            "name": "绘像·秘影特工",
+            "introduction": "特训只是前奏，真正的生死较量，现在才开始。\n领取匿影而生·秘影特训最后一档奖励以解锁。",
+            "description": "头像",
+            "type": 12,
+            "icon": "Avatar_Head_ActivityNikketa1",
+            "rank": 5,
+            "sort": 102,
+            "argsStr": "21181",
+            "iconPath": "Avatar"
+        },
+        {
+            "id": 21182,
+            "name": "绘像·怀光者",
+            "introduction": "即使只身融入夜色，心中也依旧怀抱希望之光。\n通关匿影而生剧情模式关卡以解锁。",
+            "description": "头像",
+            "type": 12,
+            "icon": "Avatar_Head_ActivityNikketa2",
+            "rank": 5,
+            "sort": 102,
+            "argsStr": "21182",
+            "iconPath": "Avatar"
+        },
+        {
+            "id": 21183,
+            "name": "绘像·骄阳般起舞",
+            "introduction": "骄阳似火，青春起舞，热情如花朵般绽放。\n获得妮基塔的衣装·骄阳般起舞后解锁。",
+            "description": "头像",
+            "type": 12,
+            "icon": "Avatar_Head_NikketaSSR01",
+            "rank": 4,
+            "sort": 102,
+            "argsStr": "21183",
+            "iconPath": "Avatar"
+        },
+        {
+            "id": 21184,
+            "name": "绘像·战地兔影",
+            "introduction": "枪林弹雨中，兔影穿梭，高射速与高机动的完美调和。\n获得维克托的衣装·战地兔影后解锁。",
+            "description": "头像",
+            "type": 12,
+            "icon": "Avatar_Head_VectorSSR01",
+            "rank": 4,
+            "sort": 102,
+            "argsStr": "21184",
             "iconPath": "Avatar"
         },
         {
@@ -11669,7 +11898,7 @@
             "introduction": "BRIEF가 수여하는 칭호는 페리가 열차에 탑승한 순간을 기념하며 엘모호 에 대한 특혜 공급원이 보장됩니다.\n인형 페리를 획득한 후 잠금 해제됩니다.",
             "description": "称号",
             "type": 37,
-            "icon": "Img_Title_GunGet_PeriSSR",
+            "icon": "Img_Title_GunGet_Peri",
             "rank": 5,
             "sort": 1,
             "howToGet": "0",
@@ -11682,11 +11911,24 @@
             "introduction": "B.R.I.E.F.가 수여한 칭호로, 유희의 탑승 순간을 기념하며 엘모호의 공연 무대에 뜨거운 열정의 불꽃을 일으켰습니다!\n인형 유희를 획득하면 해금됩니다.",
             "description": "称号",
             "type": 37,
-            "icon": "Img_Title_GunGet_YooHeeSSR",
+            "icon": "Img_Title_GunGet_YooHee",
             "rank": 5,
             "sort": 1,
             "howToGet": "0",
             "argsStr": "23075",
+            "iconPath": "PlayerTitlePic"
+        },
+        {
+            "id": 23076,
+            "name": "妮基塔·入队",
+            "introduction": "由B.R.I.E.F.授予的称号，纪念妮基塔的登车时刻，顽皮捣蛋的家伙可要小心了。\n获得人形妮基塔后解锁。",
+            "description": "称号",
+            "type": 37,
+            "icon": "Img_Title_GunGet_Nikketa",
+            "rank": 5,
+            "sort": 1,
+            "howToGet": "0",
+            "argsStr": "23076",
             "iconPath": "PlayerTitlePic"
         },
         {
@@ -11898,6 +12140,19 @@
             "iconPath": "PlayerTitlePic"
         },
         {
+            "id": 23108,
+            "name": "最敬佩的主人",
+            "introduction": "如果只有一位的主人，那永远是你。\n与人形契合的证明，契合度达到8级解锁。",
+            "description": "称号",
+            "type": 37,
+            "icon": "Img_Title_Love_Centaureissi",
+            "rank": 5,
+            "sort": 1,
+            "howToGet": "0",
+            "argsStr": "23108",
+            "iconPath": "PlayerTitlePic"
+        },
+        {
             "id": 23109,
             "name": "일광 왈츠",
             "introduction": "두근거리는 심장의 회전, 오직 네 시선을 붙잡기 위함이다!\n인형과의 친밀도를 증명하는 조건으로, 친밀도 8레벨 달성 시 해금된다.",
@@ -11908,6 +12163,19 @@
             "sort": 1,
             "howToGet": "0",
             "argsStr": "23109",
+            "iconPath": "PlayerTitlePic"
+        },
+        {
+            "id": 23111,
+            "name": "驱尽黑夜之光",
+            "introduction": "将你身前的所有黑暗尽数驱尽，只为看到你的笑颜。\n与人形契合的证明，契合度达到8级解锁。",
+            "description": "称号",
+            "type": 37,
+            "icon": "Img_Title_Love_Nikketa",
+            "rank": 5,
+            "sort": 1,
+            "howToGet": "0",
+            "argsStr": "23111",
             "iconPath": "PlayerTitlePic"
         },
         {
@@ -11986,6 +12254,110 @@
             "sort": 1,
             "howToGet": "0",
             "argsStr": "23146",
+            "iconPath": "PlayerTitlePic"
+        },
+        {
+            "id": 23149,
+            "name": "零星拾遗",
+            "introduction": "由美玲颁发的称号，踏上奇忆展列之旅！\n回忆总值达到200后解锁。",
+            "description": "称号",
+            "type": 37,
+            "icon": "Img_Title_Handmade_Collect1",
+            "rank": 5,
+            "sort": 1,
+            "howToGet": "0",
+            "argsStr": "23149",
+            "iconPath": "PlayerTitlePic"
+        },
+        {
+            "id": 23150,
+            "name": "初放异彩",
+            "introduction": "由美玲颁发的称号，是时候增加采购3D打印材料的预算了。\n回忆总值达到450后解锁。",
+            "description": "称号",
+            "type": 37,
+            "icon": "Img_Title_Handmade_Collect2",
+            "rank": 5,
+            "sort": 1,
+            "howToGet": "0",
+            "argsStr": "23150",
+            "iconPath": "PlayerTitlePic"
+        },
+        {
+            "id": 23151,
+            "name": "奇忆猎人",
+            "introduction": "由美玲颁发的称号，堪比人形的记忆能力，究竟是怎么做到的呢？\n回忆总值达到700后解锁。",
+            "description": "称号",
+            "type": 37,
+            "icon": "Img_Title_Handmade_Collect3",
+            "rank": 5,
+            "sort": 1,
+            "howToGet": "0",
+            "argsStr": "23151",
+            "iconPath": "PlayerTitlePic"
+        },
+        {
+            "id": 23152,
+            "name": "藏界名仕",
+            "introduction": "由美玲颁发的称号，这个车上还有谁的收藏比我多？\n回忆总值达到950后解锁。",
+            "description": "称号",
+            "type": 37,
+            "icon": "Img_Title_Handmade_Collect4",
+            "rank": 5,
+            "sort": 1,
+            "howToGet": "0",
+            "argsStr": "23152",
+            "iconPath": "PlayerTitlePic"
+        },
+        {
+            "id": 23153,
+            "name": "博揽奇珍",
+            "introduction": "由美玲颁发的称号，奇珍异宝应有尽有。\n回忆总值达到1450后解锁。",
+            "description": "称号",
+            "type": 37,
+            "icon": "Img_Title_Handmade_Collect5",
+            "rank": 5,
+            "sort": 1,
+            "howToGet": "0",
+            "argsStr": "23153",
+            "iconPath": "PlayerTitlePic"
+        },
+        {
+            "id": 23154,
+            "name": "臻品满堂",
+            "introduction": "由美玲颁发的称号，是不是该扩充展列室了？\n回忆总值达到1700后解锁。",
+            "description": "称号",
+            "type": 37,
+            "icon": "Img_Title_Handmade_Collect6",
+            "rank": 5,
+            "sort": 1,
+            "howToGet": "0",
+            "argsStr": "23154",
+            "iconPath": "PlayerTitlePic"
+        },
+        {
+            "id": 23155,
+            "name": "珍忆制造机",
+            "introduction": "由美玲颁发的称号，回忆的光彩照耀你我。\n回忆总值达到1950后解锁。",
+            "description": "称号",
+            "type": 37,
+            "icon": "Img_Title_Handmade_Collect7",
+            "rank": 5,
+            "sort": 1,
+            "howToGet": "0",
+            "argsStr": "23155",
+            "iconPath": "PlayerTitlePic"
+        },
+        {
+            "id": 23156,
+            "name": "艾莫号博物馆",
+            "introduction": "由美玲颁发的称号，属于我的珍宝原来就在心中。\n回忆总值达到2200后解锁。",
+            "description": "称号",
+            "type": 37,
+            "icon": "Img_Title_Handmade_Collect8",
+            "rank": 5,
+            "sort": 1,
+            "howToGet": "0",
+            "argsStr": "23156",
             "iconPath": "PlayerTitlePic"
         },
         {
@@ -12653,6 +13025,19 @@
             "iconPath": "Item"
         },
         {
+            "id": 24074,
+            "name": "绘像框·完美的回礼",
+            "introduction": "她眼中完美的你，值得她用所有美好回报。\n人形回赠的心意赠礼，与人形提升契合度后获得。",
+            "description": "好感度头像框",
+            "type": 39,
+            "icon": "Item_HeadFrame_Love_Centaureissi",
+            "rank": 5,
+            "sort": 1,
+            "howToGet": "0",
+            "argsStr": "24074",
+            "iconPath": "Item"
+        },
+        {
             "id": 24075,
             "name": "액자·독점 혜택",
             "introduction": "쉿, 이 특별 혜택은 너만 누릴 수 있어.\n인형이 보내는 마음의 선물이야. 인형과 결합도가 상승하면 얻을 수 있어요.",
@@ -12689,6 +13074,19 @@
             "sort": 1,
             "howToGet": "0",
             "argsStr": "24077",
+            "iconPath": "Item"
+        },
+        {
+            "id": 24079,
+            "name": "绘像框·恪尽之锁",
+            "introduction": "将忠诚所向锁于心中。\n人形回赠的心意赠礼，与人形提升契合度后获得。",
+            "description": "好感度头像框",
+            "type": 39,
+            "icon": "Item_HeadFrame_Love_Nikketa",
+            "rank": 5,
+            "sort": 1,
+            "howToGet": "0",
+            "argsStr": "24079",
             "iconPath": "Item"
         },
         {
@@ -12879,6 +13277,58 @@
             "sort": 1,
             "howToGet": "0",
             "argsStr": "24132",
+            "iconPath": "Item"
+        },
+        {
+            "id": 24136,
+            "name": "绘像框·向更深处",
+            "introduction": "利用黑暗，成就光明。\n通关匿影而生挑战模式关卡以解锁。",
+            "description": "妮基塔活动头像框",
+            "type": 39,
+            "icon": "Item_HeadFrame_ActivityNikketa",
+            "rank": 5,
+            "sort": 1,
+            "howToGet": "0",
+            "argsStr": "24136",
+            "iconPath": "Item"
+        },
+        {
+            "id": 24137,
+            "name": "绘像框·颇有品位",
+            "introduction": "把重要的回忆展示出来，怎么不算是一种艺术呢？\n回忆总值达到1200后解锁。",
+            "description": "藏品头像框",
+            "type": 39,
+            "icon": "Item_HeadFrame_Handmade_Collect1",
+            "rank": 5,
+            "sort": 1,
+            "howToGet": "0",
+            "argsStr": "24137",
+            "iconPath": "Item"
+        },
+        {
+            "id": 24138,
+            "name": "绘像框·大收藏家",
+            "introduction": "让奇忆展列再次辉煌！\n回忆总值达到2450后解锁。",
+            "description": "藏品头像框",
+            "type": 39,
+            "icon": "Item_HeadFrame_Handmade_Collect2",
+            "rank": 5,
+            "sort": 1,
+            "howToGet": "0",
+            "argsStr": "24138",
+            "iconPath": "Item"
+        },
+        {
+            "id": 24139,
+            "name": "绘像框·势如破竹",
+            "introduction": "团队协作以及个人主义相互协调，赢得绿茵场上的绝对荣耀。\n完成同调演练【绿茵集训】所有关卡后，可通过主题奖励获得。",
+            "description": "ex关卡头像框",
+            "type": 39,
+            "icon": "Item_HeadFrame_ExStage_1",
+            "rank": 5,
+            "sort": 1,
+            "howToGet": "0",
+            "argsStr": "24139",
             "iconPath": "Item"
         },
         {
@@ -13433,6 +13883,30 @@
             "rank": 4,
             "sort": 86,
             "argsStr": "1105401",
+            "iconPath": "Item"
+        },
+        {
+            "id": 31070,
+            "name": "衣装·骄阳般起舞",
+            "introduction": "妮基塔的衣装盒，里面是一套由她亲手设计的啦啦队服。\n充满活力的设计之中，洋溢着青春的气息。\n获取后，可在换装界面解锁骄阳般起舞。",
+            "description": "衣装·妮基塔",
+            "type": 13,
+            "icon": "Item_Icon_Skin_NikketaSSR01",
+            "rank": 4,
+            "sort": 86,
+            "argsStr": "1105501",
+            "iconPath": "Item"
+        },
+        {
+            "id": 31071,
+            "name": "衣装·战地兔影",
+            "introduction": "维克托的衣装盒，里面是一套以复合材料打造的潜入战术服。高延展性的材料兼顾了可动性与舒适性。\n获取后，可在换装界面解锁战地兔影。",
+            "description": "衣装·维克托",
+            "type": 13,
+            "icon": "Item_Icon_Skin_VectorSSR01",
+            "rank": 4,
+            "sort": 86,
+            "argsStr": "1104401",
             "iconPath": "Item"
         },
         {
@@ -15959,6 +16433,20 @@
             }
         },
         {
+            "id": 91019,
+            "name": "共键·正义之名",
+            "introduction": "장착 후 해당 스킬을 획득할 수 있는 파생키.",
+            "description": "天赋插拔技能道具",
+            "type": 31,
+            "icon": "Skill_Chrtalent_ActivitySR19",
+            "rank": 4,
+            "argsStr": "91019",
+            "iconPath": "Skill",
+            "dismantlingList": {
+                "2": 5000
+            }
+        },
+        {
             "id": 92001,
             "name": "공용키·요량청악",
             "introduction": "장착 후 해당 스킬을 획득할 수 있는 파생키.",
@@ -16211,6 +16699,20 @@
             }
         },
         {
+            "id": 92019,
+            "name": "共键·规章条例专家",
+            "introduction": "장착 후 해당 스킬을 획득할 수 있는 파생키.",
+            "description": "天赋插拔技能道具",
+            "type": 31,
+            "icon": "Skill_Chrtalent_ActivityR19",
+            "rank": 3,
+            "argsStr": "92019",
+            "iconPath": "Skill",
+            "dismantlingList": {
+                "2": 5000
+            }
+        },
+        {
             "id": 93001,
             "name": "공용키·아로마 가드",
             "introduction": "장착 후 해당 스킬을 획득할 수 있는 파생키.",
@@ -16449,6 +16951,20 @@
             }
         },
         {
+            "id": 93018,
+            "name": "共键·冷调的温柔",
+            "introduction": "장착 후 해당 스킬을 획득할 수 있는 파생키.",
+            "description": "天赋插拔技能道具",
+            "type": 31,
+            "icon": "Skill_Chrtalent_OperationActivitySR18",
+            "rank": 4,
+            "argsStr": "93018",
+            "iconPath": "Skill",
+            "dismantlingList": {
+                "2": 5000
+            }
+        },
+        {
             "id": 110000,
             "name": "정예 마인드맵 선택 박스",
             "introduction": "정예 마인드맵 아카이브가 담긴 선택 박스. 대리인이 특별히 준비한 센스 있는 선물입니다.\n오픈 시 정예 인형 1명의 마인드맵 아카이브를 선택해 획득할 수 있습니다. 선택 가능 인형: 베프리, 페리티아, 사브리나, 토로로, 경구",
@@ -16568,7 +17084,7 @@
         {
             "id": 110009,
             "name": "增量合约·月",
-            "introduction": "안정적으로 판매되는 계약. 네트워크 서비스를 공급하는 계약입니다. 사용 시 기술적으로 시뮬레이션 추론 데이터를 변경할 수 있습니다. 재료 획득 효율을 높이고 싶은 현상금 사냥꾼은 구매해보는 것도 좋겠죠.\n구매 당일 적용되며, 유효 기간은 1개월입니다. 유효 기간 동안 매일 「표준 동기화」 입장 횟수와 전투 중 되감기 가능 횟수가 추가됩니다.",
+            "introduction": "稳定发售的合约，约定补给为网络服务，合约确定后可通过一些技术手段修改模拟推演数据。期望提升材料获取效率的赏金猎人可以尝试购入。\n该合约自购买当日起生效，有效期1个月。有效期内每日前2次标准同调产出、重演次数增加。",
             "description": "运营用-投放",
             "type": 106,
             "icon": "Item_Icon_Month_Scard",
@@ -16757,6 +17273,18 @@
             "iconPath": "Item"
         },
         {
+            "id": 110036,
+            "name": "每周补给礼箱",
+            "introduction": "每周补给礼箱，每周登录免费领取一份随机奖励，有概率获得访问许可、坍塌晶条等奖励，累计3次必得专访许可*1；累计6次必得坍塌晶条*300，并重置进度。",
+            "description": "运营用-投放箱",
+            "type": 5,
+            "icon": "Item_Icon_Store_pre_weekly1",
+            "rank": 4,
+            "sort": 51,
+            "argsStr": "500006",
+            "iconPath": "Item"
+        },
+        {
             "id": 110050,
             "name": "정예 마인드맵 선택 박스",
             "introduction": "정예 마인드맵 아카이브가 담긴 선택 박스. 대리인이 특별히 준비한 센스 있는 선물입니다.\n오픈 시 정예 인형 1명의 마인드맵 아카이브를 선택해 획득할 수 있습니다. 선택 가능 인형: 베프리, 페리티아, 사브리나, 토로로, 경구, 모신나강",
@@ -16902,6 +17430,32 @@
             "sort": 5,
             "showType": 2,
             "argsStr": "110111",
+            "iconPath": "Item"
+        },
+        {
+            "id": 110112,
+            "name": "크레딧 선물 박스α",
+            "introduction": "装有高价值货币的礼盒。\n打开后，可随机获得15-35信用币。\n获得15信用币的概率为60%；\n获得25信用币的概率为30%；\n获得35信用币的概率为10%。",
+            "description": "海外信用宝箱",
+            "type": 105,
+            "icon": "Item_Icon_CurrencyBox_5",
+            "rank": 5,
+            "sort": 5,
+            "showType": 2,
+            "argsStr": "110112",
+            "iconPath": "Item"
+        },
+        {
+            "id": 110113,
+            "name": "크레딧 선물 박스β",
+            "introduction": "装有高价值货币的礼盒。\n打开后，可随机获得25-60信用币。\n获得25信用币的概率为50%；\n获得30信用币的概率为35%；\n获得40信用币的概率为10%；\n获得60信用币的概率为5%。",
+            "description": "海外信用宝箱",
+            "type": 105,
+            "icon": "Item_Icon_CurrencyBox_5",
+            "rank": 5,
+            "sort": 5,
+            "showType": 2,
+            "argsStr": "110113",
             "iconPath": "Item"
         },
         {
@@ -18181,7 +18735,7 @@
         {
             "id": 121038,
             "name": "돌격소총 고급 파츠 박스·클루카이Ⅱ",
-            "introduction": "오픈 시 정밀급 돌격소총 조준기 파츠 1개를 획득합니다. 여기서 획득하는 파츠는 기본 스탯이 더 높습니다. 클루카이 이벤트에서만 얻을 수 있습니다. 외관은 기본 외관 중 하나가 랜덤으로 부여됩니다. 주의해서 사용하세요!",
+            "introduction": "오픈 시 정밀급 돌격소총 그립 파츠 1개를 획득합니다. 여기서 획득하는 파츠는 기본 스탯이 더 높습니다. 클루카이 이벤트에서만 얻을 수 있습니다. 외관은 기본 외관 중 하나가 랜덤으로 부여됩니다. 주의해서 사용하세요!",
             "description": "活动专用配件箱",
             "type": 105,
             "icon": "Item_Icon_WeaponPartBox_AR_Clukay02",
@@ -18194,7 +18748,7 @@
         {
             "id": 121039,
             "name": "돌격소총 고급 파츠 박스·클루카이Ⅲ",
-            "introduction": "오픈 시 정밀급 돌격소총 그립 파츠 1개를 획득합니다. 여기서 획득하는 파츠는 기본 스탯이 더 높습니다. 클루카이 이벤트에서만 얻을 수 있습니다. 외관은 기본 외관 중 하나가 랜덤으로 부여됩니다. 주의해서 사용하세요!",
+            "introduction": "오픈 시 정밀급 돌격소총 조준기 파츠 1개를 획득합니다. 여기서 획득하는 파츠는 기본 스탯이 더 높습니다. 클루카이 이벤트에서만 얻을 수 있습니다. 외관은 기본 외관 중 하나가 랜덤으로 부여됩니다. 주의해서 사용하세요!",
             "description": "活动专用配件箱",
             "type": 105,
             "icon": "Item_Icon_WeaponPartBox_AR_Clukay03",
@@ -18233,7 +18787,7 @@
         {
             "id": 121042,
             "name": "돌격소총 고급 파츠 박스·미슈티Ⅱ",
-            "introduction": "오픈 시 정밀급 돌격소총 조준기 파츠 1개를 획득합니다. 여기서 획득하는 파츠는 기본 스탯이 더 높습니다. 미슈티 이벤트에서만 얻을 수 있습니다. 외관은 기본 외관 중 하나가 랜덤으로 부여됩니다. 주의해서 사용하세요!",
+            "introduction": "오픈 시 정밀급 돌격소총 그립 파츠 1개를 획득합니다. 여기서 획득하는 파츠는 기본 스탯이 더 높습니다. 미슈티 이벤트에서만 얻을 수 있습니다. 외관은 기본 외관 중 하나가 랜덤으로 부여됩니다. 주의해서 사용하세요!",
             "description": "活动专用配件箱",
             "type": 105,
             "icon": "Item_Icon_WeaponPartBox_AR_Mishty02",
@@ -18246,7 +18800,7 @@
         {
             "id": 121043,
             "name": "돌격소총 고급 파츠 박스·미슈티Ⅲ",
-            "introduction": "오픈 시 정밀급 돌격소총 그립 파츠 1개를 획득합니다. 여기서 획득하는 파츠는 기본 스탯이 더 높습니다. 미슈티 이벤트에서만 얻을 수 있습니다. 외관은 기본 외관 중 하나가 랜덤으로 부여됩니다. 주의해서 사용하세요!",
+            "introduction": "오픈 시 정밀급 돌격소총 조준기 파츠 1개를 획득합니다. 여기서 획득하는 파츠는 기본 스탯이 더 높습니다. 미슈티 이벤트에서만 얻을 수 있습니다. 외관은 기본 외관 중 하나가 랜덤으로 부여됩니다. 주의해서 사용하세요!",
             "description": "活动专用配件箱",
             "type": 105,
             "icon": "Item_Icon_WeaponPartBox_AR_Mishty03",
@@ -18337,7 +18891,7 @@
         {
             "id": 121050,
             "name": "돌격소총 고급 파츠 박스·비욜카Ⅱ",
-            "introduction": "오픈 시 정밀급 돌격소총 조준기 파츠 1개를 획득합니다. 여기서 획득하는 파츠는 기본 스탯이 더 높습니다. 비욜카 이벤트에서만 얻을 수 있습니다. 외관은 기본 외관 중 하나가 랜덤으로 부여됩니다. 주의해서 사용하세요!",
+            "introduction": "打开后必定获得精密级稀有度的突击握把*1，该宝箱产出的配件基础属性更高，比悠卡主题活动专供，外观为任意基础外观中的一种，请注意使用！",
             "description": "活动专用配件箱",
             "type": 105,
             "icon": "Item_Icon_WeaponPartBox_RF_Biyoca02",
@@ -18350,7 +18904,7 @@
         {
             "id": 121051,
             "name": "돌격소총 고급 파츠 박스·비욜카Ⅲ",
-            "introduction": "오픈 시 정밀급 돌격소총 양각대 파츠 1개를 획득합니다. 여기서 획득하는 파츠는 기본 스탯이 더 높습니다. 벨카 이벤트에서만 얻을 수 있습니다. 외관은 기본 외관 중 하나가 랜덤으로 부여됩니다. 주의해서 사용하세요!",
+            "introduction": "오픈 시 정밀급 돌격소총 조준기 파츠 1개를 획득합니다. 여기서 획득하는 파츠는 기본 스탯이 더 높습니다. 비욜카 이벤트에서만 얻을 수 있습니다. 외관은 기본 외관 중 하나가 랜덤으로 부여됩니다. 주의해서 사용하세요!",
             "description": "活动专用配件箱",
             "type": 105,
             "icon": "Item_Icon_WeaponPartBox_RF_Biyoca03",
@@ -18389,7 +18943,7 @@
         {
             "id": 121054,
             "name": "돌격소총 고급 파츠 박스·안도리스Ⅱ",
-            "introduction": "오픈 시 정밀급 돌격소총 조준기 파츠 1개를 획득합니다. 여기서 획득하는 파츠는 기본 스탯이 더 높습니다. 안도리스 이벤트에서만 얻을 수 있습니다. 외관은 기본 외관 중 하나가 랜덤으로 부여됩니다. 주의해서 사용하세요!",
+            "introduction": "오픈 시 정밀급 돌격소총 그립 파츠 1개를 획득합니다. 여기서 획득하는 파츠는 기본 스탯이 더 높습니다. 안도리스 이벤트에서만 얻을 수 있습니다. 외관은 기본 외관 중 하나가 랜덤으로 부여됩니다. 주의해서 사용하세요!",
             "description": "活动专用配件箱",
             "type": 105,
             "icon": "Item_Icon_WeaponPartBox_AR_Andoris02",
@@ -18402,7 +18956,7 @@
         {
             "id": 121055,
             "name": "돌격소총 고급 파츠 박스·안도리스Ⅲ",
-            "introduction": "오픈 시 정밀급 돌격소총 그립 파츠 1개를 획득합니다. 여기서 획득하는 파츠는 기본 스탯이 더 높습니다. 안도리스 이벤트에서만 얻을 수 있습니다. 외관은 기본 외관 중 하나가 랜덤으로 부여됩니다. 주의해서 사용하세요!",
+            "introduction": "오픈 시 정밀급 돌격소총 조준기 파츠 1개를 획득합니다. 여기서 획득하는 파츠는 기본 스탯이 더 높습니다. 안도리스 이벤트에서만 얻을 수 있습니다. 외관은 기본 외관 중 하나가 랜덤으로 부여됩니다. 주의해서 사용하세요!",
             "description": "活动专用配件箱",
             "type": 105,
             "icon": "Item_Icon_WeaponPartBox_AR_Andoris03",
@@ -18597,7 +19151,7 @@
         {
             "id": 121070,
             "name": "돌격 소총 고급 부품 상자·유희Ⅱ",
-            "introduction": "개봉 시 반드시 정밀급 희귀도의 돌격 조준기*1이 지급되며, 이 상자에서 획득되는 부품은 기본 속성이 향상되어 있고, 유희 테마 이벤트 전용으로 제공됩니다. 외형은 임의의 기본 외형 중 하나로 적용되오니, 사용 시 유의하시기 바랍니다.",
+            "introduction": "개봉 시 반드시 정밀급 희귀도의 돌격 그립*1이 지급되며, 이 상자에서 획득되는 부품은 기본 속성이 향상되어 있고, 유희 테마 이벤트 전용으로 제공됩니다. 외형은 임의의 기본 외형 중 하나로 적용되오니, 사용 시 유의하시기 바랍니다.",
             "description": "活动专用配件箱",
             "type": 105,
             "icon": "Item_Icon_WeaponPartBox_AR_YooHee02",
@@ -18610,7 +19164,7 @@
         {
             "id": 121071,
             "name": "돌격 소총 고급 부품 상자·유희Ⅲ",
-            "introduction": "개봉 시 반드시 정밀급 희귀도의 돌격 그립*1이 지급되며, 이 상자에서 획득되는 부품은 기본 속성이 향상되어 있고, 유희 테마 이벤트 전용으로 제공됩니다. 외형은 임의의 기본 외형 중 하나로 적용되오니, 사용 시 유의하시기 바랍니다.",
+            "introduction": "개봉 시 반드시 정밀급 희귀도의 돌격 조준기*1이 지급되며, 이 상자에서 획득되는 부품은 기본 속성이 향상되어 있고, 유희 테마 이벤트 전용으로 제공됩니다. 외형은 임의의 기본 외형 중 하나로 적용되오니, 사용 시 유의하시기 바랍니다.",
             "description": "活动专用配件箱",
             "type": 105,
             "icon": "Item_Icon_WeaponPartBox_AR_YooHee03",
@@ -18631,6 +19185,58 @@
             "sort": 5,
             "showType": 2,
             "argsStr": "7019",
+            "iconPath": "Item"
+        },
+        {
+            "id": 121073,
+            "name": "狙击枪高阶配件箱·妮基塔Ⅰ",
+            "introduction": "打开后必定获得精密级稀有度的狙击枪口*1，该宝箱产出的配件基础属性更高，妮基塔主题活动专供，外观为任意基础外观中的一种，请注意使用！",
+            "description": "活动专用配件箱",
+            "type": 105,
+            "icon": "Item_Icon_WeaponPartBox_RF_Nikketa01",
+            "rank": 5,
+            "sort": 5,
+            "showType": 2,
+            "argsStr": "7024",
+            "iconPath": "Item"
+        },
+        {
+            "id": 121074,
+            "name": "狙击枪高阶配件箱·妮基塔Ⅱ",
+            "introduction": "打开后必定获得精密级稀有度的狙击瞄准*1，该宝箱产出的配件基础属性更高，妮基塔主题活动专供，外观为任意基础外观中的一种，请注意使用！",
+            "description": "活动专用配件箱",
+            "type": 105,
+            "icon": "Item_Icon_WeaponPartBox_RF_Nikketa02",
+            "rank": 5,
+            "sort": 5,
+            "showType": 2,
+            "argsStr": "7026",
+            "iconPath": "Item"
+        },
+        {
+            "id": 121075,
+            "name": "狙击枪高阶配件箱·妮基塔Ⅲ",
+            "introduction": "打开后必定获得精密级稀有度的狙击脚架*1，该宝箱产出的配件基础属性更高，妮基塔主题活动专供，外观为任意基础外观中的一种，请注意使用！",
+            "description": "活动专用配件箱",
+            "type": 105,
+            "icon": "Item_Icon_WeaponPartBox_RF_Nikketa03",
+            "rank": 5,
+            "sort": 5,
+            "showType": 2,
+            "argsStr": "7025",
+            "iconPath": "Item"
+        },
+        {
+            "id": 121076,
+            "name": "狙击枪高阶配件箱·妮基塔Ⅳ",
+            "introduction": "打开后必定获得精密级稀有度的狙击下挂*1，该宝箱产出的配件基础属性更高，妮基塔主题活动专供，外观为任意基础外观中的一种，请注意使用！",
+            "description": "活动专用配件箱",
+            "type": 105,
+            "icon": "Item_Icon_WeaponPartBox_RF_Nikketa04",
+            "rank": 5,
+            "sort": 5,
+            "showType": 2,
+            "argsStr": "7027",
             "iconPath": "Item"
         },
         {
@@ -18802,6 +19408,19 @@
             "rank": 5,
             "sort": 102,
             "getList": "330001",
+            "showType": 2,
+            "iconPath": "Item"
+        },
+        {
+            "id": 131004,
+            "name": "火控校准芯片",
+            "introduction": "由I.O.P.主导，火神重工研发，用于调整单兵武器配件性能的芯片。可在极致精调中为配件提供稳定的提升。\n仅对属性增幅效果全部大于100%的配件生效",
+            "description": "用于配件增幅的稀有道具",
+            "type": 4,
+            "icon": "Item_Icon_Mod_Refine_Cost",
+            "rank": 5,
+            "sort": 102,
+            "getList": "190003",
             "showType": 2,
             "iconPath": "Item"
         },
@@ -20816,7 +21435,6 @@
             "sort": 102,
             "howToGet": "0",
             "getList": "320017,320018,320019",
-            "showType": 2,
             "iconPath": "Item"
         },
         {
@@ -20969,7 +21587,6 @@
             "rank": 4,
             "sort": 102,
             "howToGet": "0",
-            "showType": 2,
             "timeLimit": "1742986799",
             "iconPath": "Item"
         },
@@ -20983,7 +21600,6 @@
             "rank": 4,
             "sort": 102,
             "howToGet": "0",
-            "showType": 2,
             "timeLimit": "1742986799",
             "iconPath": "Item"
         },
@@ -21829,14 +22445,14 @@
         {
             "id": 176003,
             "name": "원일 쿠폰",
-            "introduction": "이걸 가져가, 고생도 좀 해보고.\n\n[하드 모드] 스테이지 입장에 사용할 수 있습니다.\n이벤트 기간 동안 매일 3장 회복, 최대 6장 보유 가능.",
+            "introduction": "拿上这个，去直面困难吧。\n可用于开启物资模式关卡。\n在活动期间每天恢复3张券，最多储存6张券",
             "description": "可露凯门票",
             "type": 130,
             "icon": "Item_Icon_Clukay_ticket",
             "rank": 4,
             "sort": 102,
             "howToGet": "0",
-            "argsStr": "5:3:6",
+            "argsStr": "3:3:6",
             "timeLimit": "1746010799",
             "iconPath": "Item"
         },
@@ -22170,6 +22786,45 @@
             "howToGet": "0",
             "argsStr": "3:3:6",
             "timeLimit": "1741046399",
+            "iconPath": "Item"
+        },
+        {
+            "id": 176701,
+            "name": "秘密情报",
+            "introduction": "以身犯险获得的情报，可兑现价值相应的物资。\n可用于在情报置换处兑换奖励。",
+            "description": "妮基塔版本兑换材料",
+            "type": 4,
+            "icon": "Item_Icon_Nikketa_exchange",
+            "rank": 4,
+            "sort": 102,
+            "howToGet": "0",
+            "iconPath": "Item"
+        },
+        {
+            "id": 176702,
+            "name": "特训积分",
+            "introduction": "用于记录秘影特训的积分，在深入黑暗之前，还有很多准备工作要做。\n秘影特训任务积分，累计积分可以领取积分奖励。",
+            "description": "妮基塔版本任务进度点数",
+            "type": 4,
+            "icon": "Item_Icon_Jiangyu_preheat",
+            "rank": 4,
+            "sort": 102,
+            "howToGet": "0",
+            "timeLimit": "1742860799",
+            "iconPath": "Item"
+        },
+        {
+            "id": 176703,
+            "name": "匿影券",
+            "introduction": "隐姓埋名，销声匿迹，只为达成心中的目标。\n可用于开启物资模式关卡。\n在活动期间每天恢复3张券，最多储存6张券",
+            "description": "妮基塔门票",
+            "type": 130,
+            "icon": "Item_Icon_Nikketa_ticket",
+            "rank": 4,
+            "sort": 102,
+            "howToGet": "0",
+            "argsStr": "3:3:6",
+            "timeLimit": "1742860799",
             "iconPath": "Item"
         },
         {
@@ -22550,7 +23205,7 @@
             "sort": 102,
             "howToGet": "0",
             "showType": 2,
-            "timeLimit": "1746392399",
+            "timeLimit": "1746737999",
             "iconPath": "Item"
         },
         {
@@ -22639,6 +23294,17 @@
             "howToGet": "0",
             "showType": 2,
             "timeLimit": "1741381199",
+            "iconPath": "Item"
+        },
+        {
+            "id": 190031,
+            "name": "#N/A",
+            "introduction": "#N/A",
+            "description": "小月卡同调权益次数",
+            "type": 33,
+            "icon": "Unknow",
+            "rank": 2,
+            "sort": 1,
             "iconPath": "Item"
         },
         {
@@ -25289,6 +25955,78 @@
             "iconPath": "Skill"
         },
         {
+            "id": 205501,
+            "name": "固键·正派人形",
+            "introduction": "장착 후 해당 스킬을 얻을 수 있는 강화키.",
+            "description": "天赋专属技能",
+            "type": 31,
+            "icon": "Skill_Chrtalent_Nikketa01",
+            "rank": 4,
+            "getList": "341055",
+            "argsStr": "205501",
+            "iconPath": "Skill"
+        },
+        {
+            "id": 205502,
+            "name": "固键·公义使者",
+            "introduction": "장착 후 해당 스킬을 얻을 수 있는 강화키.",
+            "description": "天赋专属技能",
+            "type": 31,
+            "icon": "Skill_Chrtalent_Nikketa02",
+            "rank": 4,
+            "getList": "341055",
+            "argsStr": "205502",
+            "iconPath": "Skill"
+        },
+        {
+            "id": 205503,
+            "name": "固键·英勇气势",
+            "introduction": "장착 후 해당 스킬을 얻을 수 있는 강화키.",
+            "description": "天赋专属技能",
+            "type": 31,
+            "icon": "Skill_Chrtalent_Nikketa03",
+            "rank": 4,
+            "getList": "341055",
+            "argsStr": "205503",
+            "iconPath": "Skill"
+        },
+        {
+            "id": 205504,
+            "name": "固键·赏善罚暴",
+            "introduction": "장착 후 해당 스킬을 얻을 수 있는 강화키.",
+            "description": "天赋专属技能",
+            "type": 31,
+            "icon": "Skill_Chrtalent_Nikketa04",
+            "rank": 4,
+            "getList": "341055",
+            "argsStr": "205504",
+            "iconPath": "Skill"
+        },
+        {
+            "id": 205505,
+            "name": "固键·严厉视线",
+            "introduction": "장착 후 해당 스킬을 얻을 수 있는 강화키.",
+            "description": "天赋专属技能",
+            "type": 31,
+            "icon": "Skill_Chrtalent_Nikketa05",
+            "rank": 4,
+            "getList": "341055",
+            "argsStr": "205505",
+            "iconPath": "Skill"
+        },
+        {
+            "id": 205506,
+            "name": "固键·锐气逼人",
+            "introduction": "장착 후 해당 스킬을 얻을 수 있는 강화키.",
+            "description": "天赋专属技能",
+            "type": 31,
+            "icon": "Skill_Chrtalent_Nikketa06",
+            "rank": 4,
+            "getList": "341055",
+            "argsStr": "205506",
+            "iconPath": "Skill"
+        },
+        {
             "id": 300001,
             "name": "铭契之环",
             "introduction": "이별과 장애물이 가로막아도, 소중한 추억을 간직한 인형은 그것을 뛰어넘을 수 있습니다. 지휘관의 직접 조작으로 인형 마인드맵 심층에 전용 코드가 입력되어, 그 잊을 수 없는 모습이 영원히 마인드맵에 새겨집니다.\n전용 프로토콜 코드가 저장된 고리 모양 기억 장치. 인형과의 결약에 사용됩니다.",
@@ -26189,7 +26927,7 @@
         {
             "id": 300074,
             "name": "특별 선물·마키아토",
-            "introduction": "마키아토만을 위한 선물. 당신의 마음을 전달해보세요.\n오픈 시 마키아토가 좋아하는 결합도 선물을 획득합니다.",
+            "introduction": "专属于玛绮朵的礼物，让她感受到你的心意吧。\n打开后，获得玛绮朵专属的契合度礼物。",
             "description": "好感度礼物宝箱",
             "type": 5,
             "icon": "Item_Icon_GiftBox_Macqiato",
@@ -26252,6 +26990,19 @@
             "iconPath": "Item"
         },
         {
+            "id": 300079,
+            "name": "特别赠礼·妮基塔",
+            "introduction": "专属于妮基塔的礼物，让她感受到你的心意吧。\n打开后，获得妮基塔专属的契合度礼物。",
+            "description": "好感度礼物宝箱",
+            "type": 105,
+            "icon": "Item_Icon_GiftBox_Nikketa",
+            "rank": 5,
+            "sort": 5,
+            "showType": 2,
+            "argsStr": "10032",
+            "iconPath": "Item"
+        },
+        {
             "id": 300081,
             "name": "특별 선물·센타우레이시",
             "introduction": "센타우레이시만을 위한 선물. 당신의 마음을 전달해보세요.\n오픈 시 센타우레이시가 좋아하는 결합도 선물을 획득합니다.",
@@ -26275,6 +27026,71 @@
             "sort": 5,
             "showType": 2,
             "argsStr": "10035",
+            "iconPath": "Item"
+        },
+        {
+            "id": 300083,
+            "name": "보라 선물함·1",
+            "introduction": "보라 품질의 결합도 선물이 담긴 선물함. 오픈 시 「VR 고글」, 「캠코더」, 「태블릿 PC」 중 하나를 랜덤으로 획득합니다.",
+            "description": "好感度礼物宝箱",
+            "type": 5,
+            "icon": "Item_Icon_GiftBox_1",
+            "rank": 4,
+            "sort": 4,
+            "showType": 2,
+            "argsStr": "10006",
+            "iconPath": "Item"
+        },
+        {
+            "id": 300084,
+            "name": "보라 선물함·2",
+            "introduction": "보라 품질의 결합도 선물이 담긴 선물함. 오픈 시 「콘서트 티켓」, 「극장 할인권」, 「박물관 기념품」 중 하나를 랜덤으로 획득합니다.",
+            "description": "好感度礼物宝箱",
+            "type": 5,
+            "icon": "Item_Icon_GiftBox_1",
+            "rank": 4,
+            "sort": 4,
+            "showType": 2,
+            "argsStr": "10007",
+            "iconPath": "Item"
+        },
+        {
+            "id": 300085,
+            "name": "보라 선물함·3",
+            "introduction": "보라 품질의 결합도 선물이 담긴 선물함. 오픈 시 「외장 배터리」, 「샤워 세트」, 「정교한 손거울」 중 하나를 랜덤으로 획득합니다.",
+            "description": "好感度礼物宝箱",
+            "type": 5,
+            "icon": "Item_Icon_GiftBox_1",
+            "rank": 4,
+            "sort": 4,
+            "showType": 2,
+            "argsStr": "10008",
+            "iconPath": "Item"
+        },
+        {
+            "id": 300086,
+            "name": "보라 선물함·4",
+            "introduction": "보라 품질의 결합도 선물이 담긴 선물함. 오픈 시 「스파이크 목줄」, 「테마 팔찌」, 「우울 귀걸이」 중 하나를 랜덤으로 획득합니다.",
+            "description": "好感度礼物宝箱",
+            "type": 5,
+            "icon": "Item_Icon_GiftBox_1",
+            "rank": 4,
+            "sort": 4,
+            "showType": 2,
+            "argsStr": "10009",
+            "iconPath": "Item"
+        },
+        {
+            "id": 300087,
+            "name": "보라 선물함·5",
+            "introduction": "보라 품질의 결합도 선물이 담긴 선물함. 오픈 시 「소박한 액자」, 「석재 장식품」, 「클래식 음반」 중 하나를 랜덤으로 획득합니다.",
+            "description": "好感度礼物宝箱",
+            "type": 5,
+            "icon": "Item_Icon_GiftBox_1",
+            "rank": 4,
+            "sort": 4,
+            "showType": 2,
+            "argsStr": "10010",
             "iconPath": "Item"
         },
         {
@@ -27042,6 +27858,21 @@
             }
         },
         {
+            "id": 901055,
+            "name": "共键·卫道者",
+            "introduction": "장착 후 해당 스킬을 획득할 수 있는 파생키.",
+            "description": "天赋插拔技能道具",
+            "type": 31,
+            "icon": "Skill_Chrtalent_NikketaSSR",
+            "rank": 5,
+            "getList": "341055",
+            "argsStr": "901055",
+            "iconPath": "Skill",
+            "dismantlingList": {
+                "2": 5000
+            }
+        },
+        {
             "id": 911001,
             "name": "공용키·뜨거운 수호",
             "introduction": "장착 후 해당 스킬을 획득할 수 있는 파생키.",
@@ -27546,6 +28377,20 @@
             }
         },
         {
+            "id": 911055,
+            "name": "共键·正义的伙伴",
+            "introduction": "장착 후 해당 스킬을 획득할 수 있는 파생키.",
+            "description": "天赋插拔技能道具",
+            "type": 31,
+            "icon": "Skill_Chrtalent_NikketaSSR_love",
+            "rank": 4,
+            "argsStr": "911055",
+            "iconPath": "Skill",
+            "dismantlingList": {
+                "2": 5001
+            }
+        },
+        {
             "id": 921001,
             "name": "도약키·토끼의 창공 급습",
             "introduction": "일종의 도약키. 장착 후 해당 스킬을 얻습니다.",
@@ -27576,6 +28421,21 @@
             }
         },
         {
+            "id": 921015,
+            "name": "跃键·偶像舞步",
+            "introduction": "일종의 도약키. 장착 후 해당 스킬을 얻습니다.",
+            "description": "天赋插拔技能道具",
+            "type": 31,
+            "icon": "Skill_Chrtalent_VepleySSR_expand",
+            "rank": 5,
+            "getList": "341015",
+            "argsStr": "921015",
+            "iconPath": "Skill",
+            "dismantlingList": {
+                "2": 5000
+            }
+        },
+        {
             "id": 921017,
             "name": "도약키·절대 방어 요령",
             "introduction": "일종의 도약키. 장착 후 해당 스킬을 얻습니다.",
@@ -27585,6 +28445,21 @@
             "rank": 5,
             "getList": "341017",
             "argsStr": "921017",
+            "iconPath": "Skill",
+            "dismantlingList": {
+                "2": 5000
+            }
+        },
+        {
+            "id": 921022,
+            "name": "跃键·热情的节拍",
+            "introduction": "일종의 도약키. 장착 후 해당 스킬을 얻습니다.",
+            "description": "天赋插拔技能道具",
+            "type": 31,
+            "icon": "Skill_Chrtalent_SharkrySR_expand",
+            "rank": 5,
+            "getList": "341022",
+            "argsStr": "921022",
             "iconPath": "Skill",
             "dismantlingList": {
                 "2": 5000
@@ -27906,6 +28781,304 @@
             "rank": 5,
             "sort": 1,
             "showType": 2,
+            "iconPath": "Item"
+        },
+        {
+            "id": 1325001,
+            "name": "精雕奇忆·要塞伯爵",
+            "introduction": "“空投装甲真是棘手……改天让美玲研究研究能不能在艾莫号上复刻一下。”\n大体积，细节更显丰富……某人对它的记忆真的很深刻呢。",
+            "description": "藏品",
+            "type": 132,
+            "icon": "Item_Icon_Handmade_Deichgraf",
+            "rank": 5,
+            "sort": 1,
+            "getList": "190012",
+            "showType": 2,
+            "iconPath": "Item"
+        },
+        {
+            "id": 1325002,
+            "name": "精雕奇忆·冰海舰骸",
+            "introduction": "“挺气派的，要是火力再强一点，就更有挑战的价值了。”\n大体积，细节更显丰富……某人对它的记忆真的很深刻呢。",
+            "description": "藏品",
+            "type": 132,
+            "icon": "Item_Icon_Handmade_Mogila",
+            "rank": 5,
+            "sort": 1,
+            "getList": "190012",
+            "showType": 2,
+            "iconPath": "Item"
+        },
+        {
+            "id": 1325003,
+            "name": "精雕奇忆·锤岩蟾蜍",
+            "introduction": "“要是能招财就好了……”\n大体积，细节更显丰富……某人对它的记忆真的很深刻呢。",
+            "description": "藏品",
+            "type": 132,
+            "icon": "Item_Icon_Handmade_Thutoad",
+            "rank": 5,
+            "sort": 1,
+            "getList": "190012",
+            "showType": 2,
+            "iconPath": "Item"
+        },
+        {
+            "id": 1325004,
+            "name": "精雕奇忆·羊头恐蜥",
+            "introduction": "“怎么回事，模型化之后还有点可爱……”\n大体积，细节更显丰富……某人对它的记忆真的很深刻呢。",
+            "description": "藏品",
+            "type": 132,
+            "icon": "Item_Icon_Handmade_SheepsheadDinosaur",
+            "rank": 5,
+            "sort": 1,
+            "getList": "190012",
+            "showType": 2,
+            "iconPath": "Item"
+        },
+        {
+            "id": 1325005,
+            "name": "精雕奇忆·棘熊",
+            "introduction": "“虽说是毛茸茸的，但一点也不可爱，超凶。”\n大体积，细节更显丰富……某人对它的记忆真的很深刻呢。",
+            "description": "藏品",
+            "type": 132,
+            "icon": "Item_Icon_Handmade_HammerThorn",
+            "rank": 5,
+            "sort": 1,
+            "showType": 2,
+            "iconPath": "Item"
+        },
+        {
+            "id": 1325101,
+            "name": "奇忆·超级兵蚁",
+            "introduction": "“难以直视它的红瞳，似乎摄像模块的背后始终有什么在注视着我……”",
+            "description": "藏品",
+            "type": 132,
+            "icon": "Item_Icon_Handmade_Dinergate",
+            "rank": 4,
+            "sort": 1,
+            "getList": "190013",
+            "showType": 2,
+            "iconPath": "Item"
+        },
+        {
+            "id": 1325102,
+            "name": "奇忆·铁壁圣盾",
+            "introduction": "“谁能不喜欢大机器人？现在才发现，这个型号有种沉稳扎实的美感。”",
+            "description": "藏品",
+            "type": 132,
+            "icon": "Item_Icon_Handmade_AegisWall",
+            "rank": 4,
+            "sort": 1,
+            "getList": "190013",
+            "showType": 2,
+            "iconPath": "Item"
+        },
+        {
+            "id": 1325103,
+            "name": "奇忆·锤岩蟾蜍·冷凝",
+            "introduction": "“道理我都懂，但它为什么不会冬眠呢？”",
+            "description": "藏品",
+            "type": 132,
+            "icon": "Item_Icon_Handmade_Thutoad_Ice",
+            "rank": 4,
+            "sort": 1,
+            "getList": "190013",
+            "showType": 2,
+            "iconPath": "Item"
+        },
+        {
+            "id": 1325104,
+            "name": "奇忆·锤岩蟾蜍·酸蚀",
+            "introduction": "“放在这里真的安全吗……它看起来依旧毒性十足。”",
+            "description": "藏品",
+            "type": 132,
+            "icon": "Item_Icon_Handmade_Thutoad_Poison",
+            "rank": 4,
+            "sort": 1,
+            "getList": "190013",
+            "showType": 2,
+            "iconPath": "Item"
+        },
+        {
+            "id": 1325105,
+            "name": "奇忆·锤岩蟾蜍·浊刻",
+            "introduction": "“湿漉漉、黏糊糊，我再也不想碰蟾蜍了。”",
+            "description": "藏品",
+            "type": 132,
+            "icon": "Item_Icon_Handmade_Thutoad_Water",
+            "rank": 4,
+            "sort": 1,
+            "getList": "190013",
+            "showType": 2,
+            "iconPath": "Item"
+        },
+        {
+            "id": 1325106,
+            "name": "奇忆·棘熊",
+            "introduction": "“虽说是毛茸茸的，但一点也不可爱，超凶。”",
+            "description": "藏品",
+            "type": 132,
+            "icon": "Item_Icon_Handmade_HammerThorn",
+            "rank": 4,
+            "sort": 1,
+            "getList": "190013",
+            "showType": 2,
+            "iconPath": "Item"
+        },
+        {
+            "id": 1325107,
+            "name": "奇忆·要塞伯爵",
+            "introduction": "“空投装甲真是棘手……改天让美玲研究研究能不能在艾莫号上复刻一下。”",
+            "description": "藏品",
+            "type": 132,
+            "icon": "Item_Icon_Handmade_Deichgraf",
+            "rank": 4,
+            "sort": 1,
+            "getList": "190013,240001",
+            "showType": 2,
+            "iconPath": "Item"
+        },
+        {
+            "id": 1325108,
+            "name": "奇忆·冰海舰骸",
+            "introduction": "“挺气派的，要是火力再强一点，就更有挑战的价值了。”",
+            "description": "藏品",
+            "type": 132,
+            "icon": "Item_Icon_Handmade_Mogila",
+            "rank": 4,
+            "sort": 1,
+            "getList": "190013,240001",
+            "showType": 2,
+            "iconPath": "Item"
+        },
+        {
+            "id": 1325109,
+            "name": "奇忆·壁瘤棘虫",
+            "introduction": "“不知为何让我想起火龙果……希望车上不会有人异想天开拿它做烹饪原料。”",
+            "description": "藏品",
+            "type": 132,
+            "icon": "Item_Icon_Handmade_Tumorhynchus",
+            "rank": 4,
+            "sort": 1,
+            "getList": "190013,240001",
+            "showType": 2,
+            "iconPath": "Item"
+        },
+        {
+            "id": 1325110,
+            "name": "奇忆·蓝雪球",
+            "introduction": "“愿她安息。”",
+            "description": "藏品",
+            "type": 132,
+            "icon": "Item_Icon_Handmade_Blusphere",
+            "rank": 4,
+            "sort": 1,
+            "getList": "190013,240001",
+            "showType": 2,
+            "iconPath": "Item"
+        },
+        {
+            "id": 1325111,
+            "name": "奇忆·羊头恐蜥",
+            "introduction": "“怎么回事，模型化之后还有点可爱……”",
+            "description": "藏品",
+            "type": 132,
+            "icon": "Item_Icon_Handmade_SheepsheadDinosaur",
+            "rank": 4,
+            "sort": 1,
+            "getList": "190013,240001",
+            "showType": 2,
+            "iconPath": "Item"
+        },
+        {
+            "id": 1325112,
+            "name": "奇忆·诡异人形",
+            "introduction": "“如果是能加入艾莫号的人形，那就更好了……”",
+            "description": "藏品",
+            "type": 132,
+            "icon": "Item_Icon_Handmade_StrangeDoll",
+            "rank": 4,
+            "sort": 1,
+            "getList": "190013,240001",
+            "showType": 2,
+            "iconPath": "Item"
+        },
+        {
+            "id": 1335001,
+            "name": "奇忆嵌色·格调",
+            "introduction": "经典配色，更显稳重。\n可用于更换奇忆展柜的材质。",
+            "description": "墙纸",
+            "type": 133,
+            "icon": "Item_Icon_Handmade_Display_Wall1",
+            "rank": 4,
+            "sort": 1,
+            "showType": 2,
+            "iconPath": "Item"
+        },
+        {
+            "id": 1335002,
+            "name": "奇忆嵌色·沉木",
+            "introduction": "温厚木质，沉淀回忆。\n可用于更换奇忆展柜的材质。",
+            "description": "墙纸",
+            "type": 133,
+            "icon": "Item_Icon_Handmade_Display_Wall2",
+            "rank": 4,
+            "sort": 1,
+            "getList": "190012",
+            "showType": 2,
+            "iconPath": "Item"
+        },
+        {
+            "id": 1335003,
+            "name": "奇忆嵌色·无垢",
+            "introduction": "光影交错，往事鲜明。\n可用于更换奇忆展柜的材质。",
+            "description": "墙纸",
+            "type": 133,
+            "icon": "Item_Icon_Handmade_Display_Wall3",
+            "rank": 4,
+            "sort": 1,
+            "getList": "190012",
+            "showType": 2,
+            "iconPath": "Item"
+        },
+        {
+            "id": 1335101,
+            "name": "奇忆展柜·一型",
+            "introduction": "“可以更换奇忆展柜的橱窗结构”",
+            "description": "手办架",
+            "type": 133,
+            "icon": "Item_Icon_Handmade_compart1",
+            "rank": 4,
+            "sort": 1,
+            "showType": 2,
+            "iconPath": "Item"
+        },
+        {
+            "id": 1340001,
+            "name": "奇忆甄选·暗流",
+            "introduction": "杂糅了各种记忆的宝盒，谁会是你最印象深刻的那位呢？\n打开后，可随机从以下奇忆造物中获得1个，还有概率获得精雕奇忆造物：奇忆·要塞伯爵、奇忆·冰海舰骸、奇忆·壁瘤棘虫、奇忆·蓝雪球、奇忆·羊头恐蜥、奇忆·诡异人形。",
+            "description": "活动专用配件箱",
+            "type": 105,
+            "icon": "Item_Icon_Handmade_Blind_Box1",
+            "rank": 4,
+            "sort": 4,
+            "getList": "190013",
+            "showType": 2,
+            "argsStr": "10036",
+            "iconPath": "Item"
+        },
+        {
+            "id": 1340002,
+            "name": "奇忆甄选·火线",
+            "introduction": "杂糅了各种记忆的宝盒，谁会是你最印象深刻的那位呢？\n打开后，可随机从以下奇忆造物中获得1个，还有概率获得精雕奇忆造物：奇忆·超级兵蚁、奇忆·铁壁圣盾、奇忆·锤岩蟾蜍·冷凝、奇忆·锤岩蟾蜍·酸蚀、奇忆·锤岩蟾蜍·浊刻、奇忆·棘熊",
+            "description": "活动专用配件箱",
+            "type": 105,
+            "icon": "Item_Icon_Handmade_Blind_Box2",
+            "rank": 4,
+            "sort": 4,
+            "getList": "190013",
+            "showType": 2,
+            "argsStr": "10037",
             "iconPath": "Item"
         },
         {
@@ -28258,6 +29431,39 @@
             "icon": "Weapon_PPSh41_3",
             "rank": 3,
             "argsStr": "3113263",
+            "iconPath": "Weapon"
+        },
+        {
+            "id": 3113315,
+            "name": "涂装·护梦银翼",
+            "introduction": "依照涂装·护梦银翼设计的武器涂装方案。\n可用于更换相应的武器涂装。",
+            "description": "武器皮肤",
+            "type": 60,
+            "icon": "Weapon_VSK94_5",
+            "rank": 5,
+            "argsStr": "3113315",
+            "iconPath": "Weapon"
+        },
+        {
+            "id": 3113363,
+            "name": "涂装·旧式维斯卡94",
+            "introduction": "依照涂装·旧式维斯卡94设计的武器涂装方案。\n可用于更换相应的武器涂装。",
+            "description": "武器皮肤",
+            "type": 60,
+            "icon": "Weapon_VSK94_3",
+            "rank": 3,
+            "argsStr": "3113363",
+            "iconPath": "Weapon"
+        },
+        {
+            "id": 3113364,
+            "name": "涂装·维斯卡94",
+            "introduction": "依照涂装·维斯卡94设计的武器涂装方案。\n可用于更换相应的武器涂装。",
+            "description": "武器皮肤",
+            "type": 60,
+            "icon": "Weapon_VSK94_4",
+            "rank": 4,
+            "argsStr": "3113364",
             "iconPath": "Weapon"
         },
         {
@@ -29098,6 +30304,18 @@
             "iconPath": "Weapon"
         },
         {
+            "id": 4131454,
+            "name": "涂装·丛林口径",
+            "introduction": "天然伪装，小巧隐蔽，重点是还可以当备用粮。\n可用于更换相应的武器涂装。",
+            "description": "武器皮肤",
+            "type": 60,
+            "icon": "Weapon_HRClaD013_4",
+            "rank": 4,
+            "getList": "190012",
+            "argsStr": "4131454",
+            "iconPath": "Weapon"
+        },
+        {
             "id": 4132015,
             "name": "涂装·灵海潮汐",
             "introduction": "청량한 여름, 고민 따윈 잊어버리고 햇살과 바다를 만끽해 보세요.\n해당 무기의 도색을 바꿀 수 있습니다.",
@@ -29346,6 +30564,18 @@
             "iconPath": "Weapon"
         },
         {
+            "id": 4133424,
+            "name": "涂装·幽渊寂语",
+            "introduction": "潜藏在幽渊中的窥视者，用子弹赐予侵入者永恒的沉默。\n可用于更换相应的武器涂装。",
+            "description": "武器皮肤",
+            "type": 60,
+            "icon": "Weapon_RFClaB016_4",
+            "rank": 4,
+            "getList": "290027",
+            "argsStr": "4133424",
+            "iconPath": "Weapon"
+        },
+        {
             "id": 4134015,
             "name": "涂装·天青漱玉",
             "introduction": "시원한 바람에 구슬 울리는 소리를 들으시며 그대를 꿈속으로 초대해요.\n해당 무기의 도색을 바꿀 수 있습니다.",
@@ -29471,7 +30701,7 @@
             "type": 60,
             "icon": "Weapon_ARClaB010_4",
             "rank": 4,
-            "getList": "290021",
+            "getList": "312004",
             "argsStr": "4134274",
             "iconPath": "Weapon"
         },
@@ -29661,6 +30891,18 @@
             "iconPath": "Weapon"
         },
         {
+            "id": 4137444,
+            "name": "涂装·村好剑",
+            "introduction": "捡到这么一根树枝，可以绕着艾莫号走一整天！\n可用于更换相应的武器涂装。",
+            "description": "武器皮肤",
+            "type": 60,
+            "icon": "Weapon_KnifeClaD014_4",
+            "rank": 4,
+            "getList": "190012",
+            "argsStr": "4137444",
+            "iconPath": "Weapon"
+        },
+        {
             "id": 4137694,
             "name": "도색·신생",
             "introduction": "무성한 나무처럼 새로운 삶.\n해당 무기의 도색을 바꿀 수 있습니다.",
@@ -29791,6 +31033,18 @@
             "iconPath": "Weapon"
         },
         {
+            "id": 4333225,
+            "name": "涂装·维护正义的搭档",
+            "introduction": "以妮基塔为主题的武器涂装。志同道合的搭档或许有很多，但她决定永远陪伴在身边的，只有你一个。\n可用于更换相应的武器涂装。",
+            "description": "武器皮肤",
+            "type": 60,
+            "icon": "Weapon_RFClaNikketa_5",
+            "rank": 5,
+            "getList": "351055",
+            "argsStr": "4333225",
+            "iconPath": "Weapon"
+        },
+        {
             "id": 4334005,
             "name": "도색·고대의 행성",
             "introduction": "토로로를 테마로 한 무기 도색. 오래된 별빛, 영원한 수호.\n해당 무기의 도색을 바꿀 수 있습니다.",
@@ -29908,6 +31162,18 @@
             "rank": 5,
             "getList": "351054",
             "argsStr": "4334195",
+            "iconPath": "Weapon"
+        },
+        {
+            "id": 4334215,
+            "name": "涂装·全心全意的服务",
+            "introduction": "以桑朵莱希为主题的武器涂装。每一次的服务都倾注了所有真心，现在如此，将来也会如此。\n可用于更换相应的武器涂装。",
+            "description": "武器皮肤",
+            "type": 60,
+            "icon": "Weapon_ARClaCentaureissi_5",
+            "rank": 5,
+            "getList": "351028",
+            "argsStr": "4334215",
             "iconPath": "Weapon"
         },
         {
@@ -30711,7 +31977,7 @@
         {
             "id": 7231155,
             "name": "도색·교차하는 스텝 사이트",
-            "introduction": "앞으로, 뒤로, 서로를 따라가며, 함께 이 음악에 빠지자.\n해당 무기의 도색을 바꿀 수 있습니다.",
+            "introduction": "向前或后退，追逐彼此，共同沉沦在这一曲中。\n可用于更换相应的配件涂装。",
             "description": "配件皮肤",
             "type": 61,
             "icon": "WeaponPart_1_Set004_5",
@@ -30723,7 +31989,7 @@
         {
             "id": 7231195,
             "name": "도색·미드나잇 왈츠 사이트",
-            "introduction": "자정의 종소리, 발끝의 우아한 박자가 가장 아름다운 순간에 고정되다.\n해당 무기의 도색을 바꿀 수 있습니다.",
+            "introduction": "午夜钟声，足尖优雅的节拍，定格住最美的一刻。\n可用于更换相应的配件涂装。",
             "description": "配件皮肤",
             "type": 61,
             "icon": "WeaponPart_1_Set003_5",
@@ -30961,6 +32227,18 @@
             "iconPath": "WeaponPart"
         },
         {
+            "id": 7331144,
+            "name": "涂装·晴视万里",
+            "introduction": "万里无云，视界良好。\n可用于更换相应的配件涂装。",
+            "description": "配件皮肤",
+            "type": 61,
+            "icon": "WeaponPart_3_ClaE008_3",
+            "rank": 4,
+            "getList": "190012",
+            "argsStr": "7331144",
+            "iconPath": "WeaponPart"
+        },
+        {
             "id": 7331145,
             "name": "도색·깔끔한 군장",
             "introduction": "스프링필드 모양 파츠. 삶의 곳곳이 전장이지만, 그녀 곁에서는 얼마든지 풀어질 수 있습니다.\n인형과 결약 후 결합도가 일정 레벨을 달성하면 획득.",
@@ -30982,6 +32260,18 @@
             "rank": 5,
             "getList": "351017",
             "argsStr": "7331155",
+            "iconPath": "WeaponPart"
+        },
+        {
+            "id": 7331164,
+            "name": "涂装·火眼金睛",
+            "introduction": "火眼金睛，精准索敌。\n可用于更换相应的配件涂装。",
+            "description": "配件皮肤",
+            "type": 61,
+            "icon": "WeaponPart_1_ClaE006_3",
+            "rank": 4,
+            "getList": "190012",
+            "argsStr": "7331164",
             "iconPath": "WeaponPart"
         },
         {
@@ -31030,6 +32320,30 @@
             "rank": 5,
             "getList": "351037",
             "argsStr": "7331205",
+            "iconPath": "WeaponPart"
+        },
+        {
+            "id": 7331215,
+            "name": "涂装·典范制式",
+            "introduction": "妮基塔造型的配件。BOSS的身边，绝不容许出现任何污点。\n与人形铭契后，契合度达到一定等级后获得。",
+            "description": "配件皮肤",
+            "type": 61,
+            "icon": "WeaponPart_1_ClaNikketa_3",
+            "rank": 5,
+            "getList": "351055",
+            "argsStr": "7331215",
+            "iconPath": "WeaponPart"
+        },
+        {
+            "id": 7331225,
+            "name": "涂装·完美招待",
+            "introduction": "桑朵莱希造型的配件。给敌人的完美招待，就是送上新鲜的子弹。\n与人形铭契后，契合度达到一定等级后获得。",
+            "description": "配件皮肤",
+            "type": 61,
+            "icon": "WeaponPart_1_ClaCentaureissi_3",
+            "rank": 5,
+            "getList": "351028",
+            "argsStr": "7331225",
             "iconPath": "WeaponPart"
         },
         {
@@ -31165,9 +32479,21 @@
             "iconPath": "WeaponPart"
         },
         {
+            "id": 7332144,
+            "name": "涂装·幽渊枪口",
+            "introduction": "潜藏在幽渊中的窥视者，用子弹赐予侵入者永恒的沉默。\n可用于更换相应的配件涂装。",
+            "description": "配件皮肤",
+            "type": 61,
+            "icon": "WeaponPart_1_ClaC015_3",
+            "rank": 4,
+            "getList": "290027",
+            "argsStr": "7332144",
+            "iconPath": "WeaponPart"
+        },
+        {
             "id": 7332145,
             "name": "도색·교차하는 스텝 총구",
-            "introduction": "앞으로, 뒤로, 서로를 따라가며, 함께 이 음악에 빠지자.\n해당 무기의 도색을 바꿀 수 있습니다.",
+            "introduction": "向前或后退，追逐彼此，共同沉沦在这一曲中。\n可用于更换相应的配件涂装。",
             "description": "配件皮肤",
             "type": 61,
             "icon": "WeaponPart_2_Set004_5",
@@ -31177,9 +32503,21 @@
             "iconPath": "WeaponPart"
         },
         {
+            "id": 7332154,
+            "name": "涂装·空气动力",
+            "introduction": "注意不要把气都放走了哦。\n可用于更换相应的配件涂装。",
+            "description": "配件皮肤",
+            "type": 61,
+            "icon": "WeaponPart_2_ClaE007_3",
+            "rank": 4,
+            "getList": "190012",
+            "argsStr": "7332154",
+            "iconPath": "WeaponPart"
+        },
+        {
             "id": 7332185,
             "name": "도색·미드나잇 왈츠 총구",
-            "introduction": "자정의 종소리, 발끝의 우아한 박자가 가장 아름다운 순간에 고정되다.\n해당 무기의 도색을 바꿀 수 있습니다.",
+            "introduction": "午夜钟声，足尖优雅的节拍，定格住最美的一刻。\n可用于更换相应的配件涂装。",
             "description": "配件皮肤",
             "type": 61,
             "icon": "WeaponPart_2_Set003_5",
@@ -31333,7 +32671,7 @@
         {
             "id": 7333135,
             "name": "도색·교차하는 스텝 총열덮개",
-            "introduction": "앞으로, 뒤로, 서로를 따라가며, 함께 이 음악에 빠지자.\n해당 무기의 도색을 바꿀 수 있습니다.",
+            "introduction": "向前或后退，追逐彼此，共同沉沦在这一曲中。\n可用于更换相应的配件涂装。",
             "description": "配件皮肤",
             "type": 61,
             "icon": "WeaponPart_3_Set004_5",
@@ -31345,7 +32683,7 @@
         {
             "id": 7333175,
             "name": "도색·미드나잇 왈츠 총열덮개",
-            "introduction": "자정의 종소리, 발끝의 우아한 박자가 가장 아름다운 순간에 고정되다.\n해당 무기의 도색을 바꿀 수 있습니다.",
+            "introduction": "午夜钟声，足尖优雅的节拍，定格住最美的一刻。\n可用于更换相应的配件涂装。",
             "description": "配件皮肤",
             "type": 61,
             "icon": "WeaponPart_3_Set003_5",
@@ -31386,7 +32724,7 @@
             "type": 61,
             "icon": "WeaponPart_3_ClaB010_3",
             "rank": 4,
-            "getList": "290021",
+            "getList": "312004",
             "argsStr": "7333954",
             "iconPath": "WeaponPart"
         },
@@ -31412,6 +32750,18 @@
             "rank": 4,
             "getList": "312004",
             "argsStr": "7334024",
+            "iconPath": "WeaponPart"
+        },
+        {
+            "id": 7334134,
+            "name": "涂装·鲜花锋刃",
+            "introduction": "这算是给武器附魔了吗？\n可用于更换相应的配件涂装。",
+            "description": "配件皮肤",
+            "type": 61,
+            "icon": "WeaponPart_4_ClaE009_3",
+            "rank": 4,
+            "getList": "190012",
+            "argsStr": "7334134",
             "iconPath": "WeaponPart"
         },
         {
@@ -31617,6 +32967,18 @@
             "iconPath": "WeaponPart"
         },
         {
+            "id": 7336134,
+            "name": "涂装·幽渊脚架",
+            "introduction": "潜藏在幽渊中的窥视者，用子弹赐予侵入者永恒的沉默。\n可用于更换相应的配件涂装。",
+            "description": "配件皮肤",
+            "type": 61,
+            "icon": "WeaponPart_13_ClaD015_3",
+            "rank": 4,
+            "getList": "290027",
+            "argsStr": "7336134",
+            "iconPath": "WeaponPart"
+        },
+        {
             "id": 7336205,
             "name": "도색·사랑의 마법 그립",
             "introduction": "사랑이 가득한 달콤한 도색은 분홍빛과 흰빛을 주된 색조로 하며, 미세한 분홍 하트 장식이 더해져 소녀의 순수함과 낭만을 돋보이게 합니다.\n해당 부품의 도색을 변경하는 데 사용됩니다.",
@@ -31671,7 +33033,7 @@
             "type": 61,
             "icon": "WeaponPart_12_ClaC010_3",
             "rank": 4,
-            "getList": "290021",
+            "getList": "312004",
             "argsStr": "7336944",
             "iconPath": "WeaponPart"
         },
@@ -31702,7 +33064,7 @@
         {
             "id": 7337125,
             "name": "도색·교차하는 스텝 양각대",
-            "introduction": "앞으로, 뒤로, 서로를 따라가며, 함께 이 음악에 빠지자.\n해당 무기의 도색을 바꿀 수 있습니다.",
+            "introduction": "向前或后退，追逐彼此，共同沉沦在这一曲中。\n可用于更换相应的配件涂装。",
             "description": "配件皮肤",
             "type": 61,
             "icon": "WeaponPart_13_Set004_5",
@@ -31714,7 +33076,7 @@
         {
             "id": 7337165,
             "name": "도색·미드나잇 왈츠 양각대",
-            "introduction": "자정의 종소리, 발끝의 우아한 박자가 가장 아름다운 순간에 고정되다.\n해당 무기의 도색을 바꿀 수 있습니다.",
+            "introduction": "午夜钟声，足尖优雅的节拍，定格住最美的一刻。\n可用于更换相应的配件涂装。",
             "description": "配件皮肤",
             "type": 61,
             "icon": "WeaponPart_13_Set003_5",

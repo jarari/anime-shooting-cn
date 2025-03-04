@@ -3614,7 +3614,8 @@
                 61751202,
                 61751301,
                 61751401,
-                617512011
+                617512011,
+                617513011
             ],
             "skillTalentExtra": [
                 61751601,
@@ -3752,8 +3753,6 @@
                 6177602,
                 6177603,
                 6177701,
-                61777011,
-                6177702,
                 6177801,
                 6151501,
                 80000002,
@@ -7219,27 +7218,31 @@
         },
         {
             "id": 6772,
-            "enemyCamp": 1001,
+            "enemyCamp": 1010,
             "duty": 1,
-            "skillNormalAttack": 6710101,
-            "skillTalent": 6710201,
+            "skillNormalAttack": 6772101,
+            "skillActive": 6772201,
+            "skillTalent": 6772301,
+            "skillTalentExtra": [
+                6772401
+            ],
             "dzAiList": [
                 611002
             ],
-            "rank": 1,
+            "rank": 2,
             "propertyGroup": 101201,
-            "name": "S5精英猛犸号占位",
+            "name": "猛犸号",
             "joke": "只要开枪次数够多，总有命中的时候。",
             "trapDescription": "",
             "description": "究竟是什么，能让他们从人类变成只会在战场上横冲直撞的大猩猩？",
             "textIndex": [
                 3
             ],
-            "characterPic": "Felade",
-            "modelCode": 6110,
-            "moveCode": 11,
-            "occupySize": 1,
-            "aiOrder": 490,
+            "characterPic": "Mammoth",
+            "modelCode": 6772,
+            "moveCode": 1,
+            "occupySize": 3,
+            "aiOrder": 90,
             "useFakeAttack": true,
             "shieldType": 1,
             "attackType": 1,
@@ -7252,74 +7255,72 @@
                 8
             ],
             "idleType": 1,
-            "displacement": 1,
-            "dzOpenBattle": 6110101,
+            "enemyType": 1,
+            "dzOpenBattle": 6772101,
             "btPath": "BT/MainBT/MainBT_6110.bt",
-            "weakTag": "5,1",
+            "weakTag": "2",
             "supressGroup": [
                 4,
-                0,
-                0,
+                2,
+                2,
                 0,
                 0,
                 0
             ],
-            "nameOnBar": "S5精英猛犸号占位",
+            "nameOnBar": "猛犸号",
             "guardRadius": 500,
             "guardRadiusShow": 1,
-            "weakWeaponTag": 14
+            "weakWeaponTag": 2
         },
         {
             "id": 6773,
-            "enemyCamp": 1001,
+            "enemyCamp": 1011,
             "duty": 1,
-            "skillNormalAttack": 6710101,
-            "skillTalent": 6710201,
             "dzAiList": [
                 611002
             ],
             "rank": 1,
             "propertyGroup": 101201,
-            "name": "S5Boss卡俄斯占位",
+            "name": "卡俄斯",
             "joke": "只要开枪次数够多，总有命中的时候。",
             "trapDescription": "",
             "description": "究竟是什么，能让他们从人类变成只会在战场上横冲直撞的大猩猩？",
             "textIndex": [
-                3
+                13,
+                14
             ],
-            "characterPic": "Felade",
-            "modelCode": 6110,
-            "moveCode": 11,
+            "characterPic": "Chaos",
+            "modelCode": 6773,
+            "moveCode": 1,
             "occupySize": 1,
-            "aiOrder": 490,
+            "aiOrder": 50,
             "useFakeAttack": true,
             "shieldType": 1,
             "attackType": 1,
             "element": 1,
             "beSupressedConfig": [
                 80000001,
-                9999,
-                0,
+                2,
+                1000,
                 0,
                 8
             ],
             "idleType": 1,
-            "displacement": 1,
             "dzOpenBattle": 6110101,
             "btPath": "BT/MainBT/MainBT_6110.bt",
-            "weakTag": "5,1",
+            "weakTag": "2,3,1",
             "supressGroup": [
                 4,
-                0,
-                0,
-                0,
-                0,
+                2,
+                5,
+                5,
+                3,
                 0
             ],
-            "nameOnBar": "S5Boss卡俄斯占位",
+            "nameOnBar": "卡俄斯",
             "guardRadius": 500,
             "guardRadiusShow": 1,
-            "weakWeaponTag": 14
+            "weakWeaponTag": 42
         },
         {
             "id": 6851,
@@ -13179,6 +13180,55 @@
             "feature": 1
         },
         {
+            "id": 7027,
+            "enemyCamp": 1003,
+            "duty": 1,
+            "skillTalentExtra": [
+                7027101,
+                7027201,
+                7027301,
+                7027401,
+                6151501
+            ],
+            "rank": 1,
+            "propertyGroup": 301601,
+            "name": "歌利亚足球",
+            "joke": "远看有点像个足球，近看……不好快跑！",
+            "trapDescription": "",
+            "description": "铁血工造技术代表作的定制版，涂装经过特殊设计，歌利亚宠物化、家用化趋势愈加明显的一个版本。",
+            "characterPic": "GolyatRed",
+            "modelCode": 63121,
+            "moveCode": 1,
+            "occupySize": 1,
+            "aiOrder": 50,
+            "shieldType": 1,
+            "attackType": 2,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "btPath": "BT/MainBT/MainBT_0.bt",
+            "weakTag": "5",
+            "supressGroup": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "歌利亚足球",
+            "guardRadius": 300,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 8
+        },
+        {
             "id": 7101,
             "enemyCamp": 1099,
             "duty": 2,
@@ -14193,7 +14243,8 @@
             ],
             "skillTalentExtra": [
                 6116202,
-                6116203
+                6116203,
+                6116231
             ],
             "rank": 1,
             "propertyGroup": 102401,
@@ -15123,7 +15174,8 @@
                 61751202,
                 61751301,
                 61751401,
-                617512011
+                617512011,
+                617513011
             ],
             "skillTalentExtra": [
                 61751601,
@@ -15170,6 +15222,78 @@
             "dzOpenBattle": 61751101,
             "btPath": "BT/BOSSBT/6175/BOSSBT_Berserker.bt",
             "weakTag": "5,1",
+            "supressGroup": [
+                3,
+                3,
+                4,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "狂战者",
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 10
+        },
+        {
+            "id": 61752,
+            "enemyCamp": 1001,
+            "duty": 1,
+            "skillNormalAttack": 61752101,
+            "skillActive": 61752201,
+            "skillTalent": 61752501,
+            "skillActiveExtra": [
+                61752202,
+                61752301,
+                61752302
+            ],
+            "skillTalentExtra": [
+                61752601,
+                61751102,
+                6151501,
+                61751701,
+                61752401,
+                617522011
+            ],
+            "aiList": [
+                6175201,
+                6175202
+            ],
+            "dzAiList": [
+                617501,
+                617502
+            ],
+            "rank": 3,
+            "propertyGroup": 208203,
+            "name": "狂战者",
+            "joke": "只有活腻了的家伙，才会去驾驶这玩意！",
+            "trapDescription": "",
+            "description": "由劫掠而来的半自律型机械改装而成的骇人武器。在历经瓦良格帮所谓的风格化改装折腾下变成了如今棘熊的样子。尽管从各个层面来看都是负优化，但得益赖于其原有的卓越品质，其火力及战斗力仍处于基本水准之上。",
+            "textIndex": [
+                9,
+                13,
+                14
+            ],
+            "characterPic": "Berserker",
+            "modelCode": 6175,
+            "moveCode": 1,
+            "occupySize": 3,
+            "aiOrder": 50,
+            "useFakeAttack": true,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                2,
+                1000,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "dzOpenBattle": 61751101,
+            "btPath": "BT/BOSSBT/61752/BOSSBT_Berserker_expand_31.bt",
+            "weakTag": "5",
             "supressGroup": [
                 3,
                 3,
@@ -18307,6 +18431,9 @@
             "skillNormalAttack": 6334101,
             "skillActive": 63343201,
             "skillTalent": 63343200,
+            "skillActiveExtra": [
+                63343202
+            ],
             "rank": 1,
             "propertyGroup": 101006,
             "name": "铁壁圣盾·冷凝三型",
@@ -19778,6 +19905,7 @@
             "enemyCamp": 1004,
             "duty": 1,
             "skillNormalAttack": 6423201,
+            "skillActive": 6423302,
             "skillTalent": 6423301,
             "skillTalentExtra": [
                 64232300
@@ -19831,6 +19959,7 @@
             "enemyCamp": 1004,
             "duty": 1,
             "skillNormalAttack": 6423201,
+            "skillActive": 64233302,
             "skillTalent": 64233301,
             "skillTalentExtra": [
                 64233300
@@ -23601,27 +23730,28 @@
         },
         {
             "id": 67711,
-            "enemyCamp": 1001,
+            "enemyCamp": 1010,
             "duty": 1,
-            "skillNormalAttack": 6710101,
-            "skillTalent": 6710201,
+            "skillNormalAttack": 6771101,
+            "skillActive": 6771102,
+            "skillTalent": 6771112,
             "dzAiList": [
                 611002
             ],
             "rank": 1,
             "propertyGroup": 101201,
-            "name": "S5复合哨兵一型占位",
+            "name": "复合哨兵一型",
             "joke": "只要开枪次数够多，总有命中的时候。",
             "trapDescription": "",
             "description": "究竟是什么，能让他们从人类变成只会在战场上横冲直撞的大猩猩？",
             "textIndex": [
                 3
             ],
-            "characterPic": "Felade",
-            "modelCode": 6110,
-            "moveCode": 11,
+            "characterPic": "CompositeSentry",
+            "modelCode": 6771,
+            "moveCode": 1,
             "occupySize": 1,
-            "aiOrder": 490,
+            "aiOrder": 600,
             "useFakeAttack": true,
             "shieldType": 1,
             "attackType": 1,
@@ -23635,45 +23765,49 @@
             ],
             "idleType": 1,
             "displacement": 1,
-            "dzOpenBattle": 6110101,
-            "btPath": "BT/MainBT/MainBT_6110.bt",
-            "weakTag": "5,1",
+            "dzOpenBattle": 6771101,
+            "btPath": "BT/MainBT/MainBT_6771.bt",
+            "weakTag": "2,3",
             "supressGroup": [
-                4,
+                2,
                 0,
                 0,
                 0,
                 0,
                 0
             ],
-            "nameOnBar": "S5复合哨兵一型占位",
+            "nameOnBar": "复合哨兵Ⅰ",
             "guardRadius": 500,
             "guardRadiusShow": 1,
-            "weakWeaponTag": 14
+            "weakWeaponTag": 10
         },
         {
             "id": 67712,
-            "enemyCamp": 1001,
+            "enemyCamp": 1010,
             "duty": 1,
-            "skillNormalAttack": 6710101,
-            "skillTalent": 6710201,
+            "skillNormalAttack": 6771101,
+            "skillActive": 6771102,
+            "skillTalent": 6771112,
+            "skillTalentExtra": [
+                6771103
+            ],
             "dzAiList": [
                 611002
             ],
             "rank": 1,
             "propertyGroup": 101201,
-            "name": "S5复合哨兵二型占位",
+            "name": "复合哨兵二型",
             "joke": "只要开枪次数够多，总有命中的时候。",
             "trapDescription": "",
             "description": "究竟是什么，能让他们从人类变成只会在战场上横冲直撞的大猩猩？",
             "textIndex": [
                 3
             ],
-            "characterPic": "Felade",
-            "modelCode": 6110,
-            "moveCode": 11,
+            "characterPic": "CompositeSentry",
+            "modelCode": 6771,
+            "moveCode": 1,
             "occupySize": 1,
-            "aiOrder": 490,
+            "aiOrder": 600,
             "useFakeAttack": true,
             "shieldType": 1,
             "attackType": 1,
@@ -23687,45 +23821,51 @@
             ],
             "idleType": 1,
             "displacement": 1,
-            "dzOpenBattle": 6110101,
-            "btPath": "BT/MainBT/MainBT_6110.bt",
-            "weakTag": "5,1",
+            "dzOpenBattle": 6771101,
+            "btPath": "BT/MainBT/MainBT_6771.bt",
+            "weakTag": "2,3",
             "supressGroup": [
-                4,
+                2,
                 0,
                 0,
                 0,
                 0,
                 0
             ],
-            "nameOnBar": "S5复合哨兵二型占位",
+            "nameOnBar": "复合哨兵Ⅱ",
             "guardRadius": 500,
             "guardRadiusShow": 1,
-            "weakWeaponTag": 14
+            "weakWeaponTag": 10
         },
         {
             "id": 67713,
-            "enemyCamp": 1001,
+            "enemyCamp": 1010,
             "duty": 1,
-            "skillNormalAttack": 6710101,
-            "skillTalent": 6710201,
+            "skillNormalAttack": 6771101,
+            "skillActive": 6771102,
+            "skillTalent": 6771112,
+            "skillTalentExtra": [
+                6771113,
+                67713103,
+                6771123
+            ],
             "dzAiList": [
                 611002
             ],
             "rank": 1,
             "propertyGroup": 101201,
-            "name": "S5复合哨兵三型占位",
+            "name": "复合哨兵三型",
             "joke": "只要开枪次数够多，总有命中的时候。",
             "trapDescription": "",
             "description": "究竟是什么，能让他们从人类变成只会在战场上横冲直撞的大猩猩？",
             "textIndex": [
                 3
             ],
-            "characterPic": "Felade",
-            "modelCode": 6110,
-            "moveCode": 11,
+            "characterPic": "CompositeSentry",
+            "modelCode": 6771,
+            "moveCode": 1,
             "occupySize": 1,
-            "aiOrder": 490,
+            "aiOrder": 600,
             "useFakeAttack": true,
             "shieldType": 1,
             "attackType": 1,
@@ -23739,73 +23879,21 @@
             ],
             "idleType": 1,
             "displacement": 1,
-            "dzOpenBattle": 6110101,
-            "btPath": "BT/MainBT/MainBT_6110.bt",
-            "weakTag": "5,1",
+            "dzOpenBattle": 6771101,
+            "btPath": "BT/MainBT/MainBT_6771.bt",
+            "weakTag": "2,3",
             "supressGroup": [
-                4,
+                2,
                 0,
                 0,
                 0,
                 0,
                 0
             ],
-            "nameOnBar": "S5复合哨兵三型占位",
+            "nameOnBar": "复合哨兵Ⅲ",
             "guardRadius": 500,
             "guardRadiusShow": 1,
-            "weakWeaponTag": 14
-        },
-        {
-            "id": 67714,
-            "enemyCamp": 1001,
-            "duty": 1,
-            "skillNormalAttack": 6710101,
-            "skillTalent": 6710201,
-            "dzAiList": [
-                611002
-            ],
-            "rank": 1,
-            "propertyGroup": 101201,
-            "name": "S5复合哨兵召唤物",
-            "joke": "只要开枪次数够多，总有命中的时候。",
-            "trapDescription": "",
-            "description": "究竟是什么，能让他们从人类变成只会在战场上横冲直撞的大猩猩？",
-            "textIndex": [
-                3
-            ],
-            "characterPic": "Felade",
-            "modelCode": 6110,
-            "moveCode": 11,
-            "occupySize": 1,
-            "aiOrder": 490,
-            "useFakeAttack": true,
-            "shieldType": 1,
-            "attackType": 1,
-            "element": 1,
-            "beSupressedConfig": [
-                80000001,
-                9999,
-                0,
-                0,
-                8
-            ],
-            "idleType": 1,
-            "displacement": 1,
-            "dzOpenBattle": 6110101,
-            "btPath": "BT/MainBT/MainBT_6110.bt",
-            "weakTag": "5,1",
-            "supressGroup": [
-                4,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "nameOnBar": "S5复合哨兵召唤物",
-            "guardRadius": 500,
-            "guardRadiusShow": 1,
-            "weakWeaponTag": 14
+            "weakWeaponTag": 10
         },
         {
             "id": 68512,
@@ -25212,30 +25300,31 @@
         },
         {
             "id": 72011,
-            "enemyCamp": 1009,
+            "enemyCamp": 1099,
             "duty": 1,
             "skillNormalAttack": 72011101,
             "skillTalent": 72011201,
             "skillTalentExtra": [
-                6151501
+                6151501,
+                910000012
             ],
             "aiList": [
                 72011
             ],
             "rank": 3,
             "propertyGroup": 208701,
-            "name": "物理木桩（攻击）",
-            "joke": "物理木桩（攻击）",
+            "name": "机偶·无畏大师",
+            "joke": "友善的机器人，问它什么都回答：对，对，对。",
             "trapDescription": "",
-            "description": "物理木桩（攻击）",
+            "description": "来自神秘厂商的次时代训练机偶，一夜之间风靡世界的超人气产品，加装了自动步枪和铜墙铁壁般的防御装甲。熟悉的涂装，让人联想到一个故人。",
             "textIndex": [
-                1,
+                50,
                 13,
                 14
             ],
-            "characterPic": "MopC",
-            "modelCode": 6713,
-            "occupySize": 1,
+            "characterPic": "TrainingBot",
+            "modelCode": 7201,
+            "occupySize": 3,
             "aiOrder": 550,
             "useFakeAttack": true,
             "shieldType": 1,
@@ -25259,35 +25348,36 @@
                 0,
                 0
             ],
-            "nameOnBar": "物理木桩",
+            "nameOnBar": "机偶·无畏大师",
             "weakWeaponTag": 62
         },
         {
             "id": 72012,
-            "enemyCamp": 1009,
+            "enemyCamp": 1099,
             "duty": 1,
             "skillNormalAttack": 72011101,
             "skillTalent": 72012201,
             "skillTalentExtra": [
-                6151501
+                6151501,
+                910000012
             ],
             "aiList": [
                 72011
             ],
             "rank": 3,
             "propertyGroup": 208701,
-            "name": "火木桩（攻击）",
-            "joke": "火木桩（攻击）",
+            "name": "机偶·炽焰大师",
+            "joke": "都市传说，在特定的日子会播放奇怪的语音。",
             "trapDescription": "",
-            "description": "火木桩（攻击）",
+            "description": "来自神秘厂商的次时代训练机偶，一夜之间风靡世界的超人气产品，为追求极致的防御效果，而采用了不利于散热的重型合金。熟悉的涂装，让人联想到一个故人。",
             "textIndex": [
-                1,
+                50,
                 13,
                 14
             ],
-            "characterPic": "MopC",
-            "modelCode": 6713,
-            "occupySize": 1,
+            "characterPic": "TrainingBot",
+            "modelCode": 7201,
+            "occupySize": 3,
             "aiOrder": 550,
             "useFakeAttack": true,
             "shieldType": 1,
@@ -25312,34 +25402,35 @@
                 0,
                 0
             ],
-            "nameOnBar": "火木桩"
+            "nameOnBar": "机偶·炽焰大师"
         },
         {
             "id": 72013,
-            "enemyCamp": 1009,
+            "enemyCamp": 1099,
             "duty": 1,
             "skillNormalAttack": 72011101,
             "skillTalent": 72013201,
             "skillTalentExtra": [
-                6151501
+                6151501,
+                910000012
             ],
             "aiList": [
                 72011
             ],
             "rank": 3,
             "propertyGroup": 208701,
-            "name": "水木桩（攻击）",
-            "joke": "水木桩（攻击）",
+            "name": "机偶·波涛大师",
+            "joke": "时常接收到训练者的反馈，为此预载了智能回复：能，能，都能。",
             "trapDescription": "",
-            "description": "水木桩（攻击）",
+            "description": "来自神秘厂商的次时代训练机偶，一夜之间风靡世界的超人气产品，为适应长时间训练，采取了透气性更好多孔焊接的技术。熟悉的涂装，让人联想到一个故人。",
             "textIndex": [
-                1,
+                50,
                 13,
                 14
             ],
-            "characterPic": "MopC",
-            "modelCode": 6713,
-            "occupySize": 1,
+            "characterPic": "TrainingBot",
+            "modelCode": 7201,
+            "occupySize": 3,
             "aiOrder": 550,
             "useFakeAttack": true,
             "shieldType": 1,
@@ -25364,34 +25455,35 @@
                 0,
                 0
             ],
-            "nameOnBar": "水木桩"
+            "nameOnBar": "机偶·波涛大师"
         },
         {
             "id": 72014,
-            "enemyCamp": 1009,
+            "enemyCamp": 1099,
             "duty": 1,
             "skillNormalAttack": 72011101,
             "skillTalent": 72014201,
             "skillTalentExtra": [
-                6151501
+                6151501,
+                910000012
             ],
             "aiList": [
                 72011
             ],
             "rank": 3,
             "propertyGroup": 208701,
-            "name": "冰木桩（攻击）",
-            "joke": "冰木桩（攻击）",
+            "name": "机偶·寒潮大师",
+            "joke": "灵活的机器人，一不留神就会开着法拉利出门。",
             "trapDescription": "",
-            "description": "冰木桩（攻击）",
+            "description": "来自神秘厂商的次时代训练机偶，一夜之间风靡世界的超人气产品，为强化灵活性，而采用了轻型合金。熟悉的涂装，让人联想到一个故人。",
             "textIndex": [
-                1,
+                50,
                 13,
                 14
             ],
-            "characterPic": "MopC",
-            "modelCode": 6713,
-            "occupySize": 1,
+            "characterPic": "TrainingBot",
+            "modelCode": 7201,
+            "occupySize": 3,
             "aiOrder": 550,
             "useFakeAttack": true,
             "shieldType": 1,
@@ -25416,34 +25508,35 @@
                 0,
                 0
             ],
-            "nameOnBar": "冰木桩"
+            "nameOnBar": "机偶·寒潮大师"
         },
         {
             "id": 72015,
-            "enemyCamp": 1009,
+            "enemyCamp": 1099,
             "duty": 1,
             "skillNormalAttack": 72011101,
             "skillTalent": 72015201,
             "skillTalentExtra": [
-                6151501
+                6151501,
+                910000012
             ],
             "aiList": [
                 72011
             ],
             "rank": 3,
             "propertyGroup": 208701,
-            "name": "电木桩（攻击）",
-            "joke": "电木桩（攻击）",
+            "name": "机偶·雷霆大师",
+            "joke": "不断电的话，可以一口气把训练计划写到十年后。",
             "trapDescription": "",
-            "description": "电木桩（攻击）",
+            "description": "来自神秘厂商的次时代训练机偶，一夜之间风靡世界的超人气产品，为强化训练功率，而采用了高导电的电路硬件。熟悉的涂装，让人联想到一个故人。",
             "textIndex": [
-                1,
+                50,
                 13,
                 14
             ],
-            "characterPic": "MopC",
-            "modelCode": 6713,
-            "occupySize": 1,
+            "characterPic": "TrainingBot",
+            "modelCode": 7201,
+            "occupySize": 3,
             "aiOrder": 550,
             "useFakeAttack": true,
             "shieldType": 1,
@@ -25468,34 +25561,35 @@
                 0,
                 0
             ],
-            "nameOnBar": "电木桩"
+            "nameOnBar": "机偶·雷霆大师"
         },
         {
             "id": 72016,
-            "enemyCamp": 1009,
+            "enemyCamp": 1099,
             "duty": 1,
             "skillNormalAttack": 72011101,
             "skillTalent": 72016201,
             "skillTalentExtra": [
-                6151501
+                6151501,
+                910000012
             ],
             "aiList": [
                 72011
             ],
             "rank": 3,
             "propertyGroup": 208701,
-            "name": "毒木桩（攻击）",
-            "joke": "毒木桩（攻击）",
+            "name": "机偶·腐沼大师",
+            "joke": "非同凡响的机偶，据说伤害评级为SS。",
             "trapDescription": "",
-            "description": "毒木桩（攻击）",
+            "description": "来自神秘厂商的次时代训练机偶，一夜之间风靡世界的超人气产品，为适应更广泛的训练情景，采用了通用的中型合金。熟悉的涂装，让人联想到一个故人。",
             "textIndex": [
-                1,
+                50,
                 13,
                 14
             ],
-            "characterPic": "MopC",
-            "modelCode": 6713,
-            "occupySize": 1,
+            "characterPic": "TrainingBot",
+            "modelCode": 7201,
+            "occupySize": 3,
             "aiOrder": 550,
             "useFakeAttack": true,
             "shieldType": 1,
@@ -25520,29 +25614,31 @@
                 0,
                 0
             ],
-            "nameOnBar": "毒木桩"
+            "nameOnBar": "机偶·腐沼大师"
         },
         {
             "id": 72021,
-            "enemyCamp": 1009,
+            "enemyCamp": 1099,
             "duty": 1,
             "skillTalent": 72011201,
             "skillTalentExtra": [
-                6151501
+                6151501,
+                910000012
             ],
             "rank": 3,
             "propertyGroup": 208701,
-            "name": "物理木桩（无攻击）",
-            "joke": "物理木桩（无攻击）",
+            "name": "靶机·无畏大师",
+            "joke": "友善的机器人，问它什么都回答：对，对，对。",
             "trapDescription": "",
-            "description": "物理木桩（无攻击）",
+            "description": "一夜之间风靡世界的超人气产品，好到无以复加的训练靶机，是挥洒汗水的最佳拍档。熟悉的涂装，让人联想到一个故人。",
             "textIndex": [
+                51,
                 13,
                 14
             ],
-            "characterPic": "MopC",
-            "modelCode": 6713,
-            "occupySize": 1,
+            "characterPic": "TrainingBot",
+            "modelCode": 7201,
+            "occupySize": 3,
             "aiOrder": 550,
             "useFakeAttack": true,
             "shieldType": 1,
@@ -25566,30 +25662,32 @@
                 0,
                 0
             ],
-            "nameOnBar": "物理木桩",
+            "nameOnBar": "靶机·无畏大师",
             "weakWeaponTag": 62
         },
         {
             "id": 72022,
-            "enemyCamp": 1009,
+            "enemyCamp": 1099,
             "duty": 1,
             "skillTalent": 72012201,
             "skillTalentExtra": [
-                6151501
+                6151501,
+                910000012
             ],
             "rank": 3,
             "propertyGroup": 208701,
-            "name": "火木桩（无攻击）",
-            "joke": "火木桩（无攻击）",
+            "name": "靶机·炽焰大师",
+            "joke": "都市传说，在特定的日子会播放奇怪的语音。",
             "trapDescription": "",
-            "description": "火木桩（无攻击）",
+            "description": "一夜之间风靡世界的超人气产品，好到无以复加的训练靶机，是挥洒汗水的最佳拍档。熟悉的涂装，让人联想到一个故人。",
             "textIndex": [
+                51,
                 13,
                 14
             ],
-            "characterPic": "MopC",
-            "modelCode": 6713,
-            "occupySize": 1,
+            "characterPic": "TrainingBot",
+            "modelCode": 7201,
+            "occupySize": 3,
             "aiOrder": 550,
             "useFakeAttack": true,
             "shieldType": 1,
@@ -25614,29 +25712,31 @@
                 0,
                 0
             ],
-            "nameOnBar": "火木桩"
+            "nameOnBar": "靶机·炽焰大师"
         },
         {
             "id": 72023,
-            "enemyCamp": 1009,
+            "enemyCamp": 1099,
             "duty": 1,
             "skillTalent": 72013201,
             "skillTalentExtra": [
-                6151501
+                6151501,
+                910000012
             ],
             "rank": 3,
             "propertyGroup": 208701,
-            "name": "水木桩（无攻击）",
-            "joke": "水木桩（无攻击）",
+            "name": "靶机·波涛大师",
+            "joke": "时常接收到训练者的反馈，为此预载了智能回复：能，能，都能。",
             "trapDescription": "",
-            "description": "水木桩（无攻击）",
+            "description": "一夜之间风靡世界的超人气产品，好到无以复加的训练靶机，是挥洒汗水的最佳拍档。熟悉的涂装，让人联想到一个故人。",
             "textIndex": [
+                51,
                 13,
                 14
             ],
-            "characterPic": "MopC",
-            "modelCode": 6713,
-            "occupySize": 1,
+            "characterPic": "TrainingBot",
+            "modelCode": 7201,
+            "occupySize": 3,
             "aiOrder": 550,
             "useFakeAttack": true,
             "shieldType": 1,
@@ -25661,29 +25761,31 @@
                 0,
                 0
             ],
-            "nameOnBar": "水木桩"
+            "nameOnBar": "靶机·波涛大师"
         },
         {
             "id": 72024,
-            "enemyCamp": 1009,
+            "enemyCamp": 1099,
             "duty": 1,
             "skillTalent": 72014201,
             "skillTalentExtra": [
-                6151501
+                6151501,
+                910000012
             ],
             "rank": 3,
             "propertyGroup": 208701,
-            "name": "冰木桩（无攻击）",
-            "joke": "冰木桩（无攻击）",
+            "name": "靶机·寒潮大师",
+            "joke": "灵活的机器人，一不留神就会开着法拉利出门。",
             "trapDescription": "",
-            "description": "冰木桩（无攻击）",
+            "description": "一夜之间风靡世界的超人气产品，好到无以复加的训练靶机，是挥洒汗水的最佳拍档。熟悉的涂装，让人联想到一个故人。",
             "textIndex": [
+                51,
                 13,
                 14
             ],
-            "characterPic": "MopC",
-            "modelCode": 6713,
-            "occupySize": 1,
+            "characterPic": "TrainingBot",
+            "modelCode": 7201,
+            "occupySize": 3,
             "aiOrder": 550,
             "useFakeAttack": true,
             "shieldType": 1,
@@ -25708,29 +25810,31 @@
                 0,
                 0
             ],
-            "nameOnBar": "冰木桩"
+            "nameOnBar": "靶机·寒潮大师"
         },
         {
             "id": 72025,
-            "enemyCamp": 1009,
+            "enemyCamp": 1099,
             "duty": 1,
             "skillTalent": 72015201,
             "skillTalentExtra": [
-                6151501
+                6151501,
+                910000012
             ],
             "rank": 3,
             "propertyGroup": 208701,
-            "name": "电木桩（无攻击）",
-            "joke": "电木桩（无攻击）",
+            "name": "靶机·雷霆大师",
+            "joke": "不断电的话，可以一口气把训练计划写到十年后。",
             "trapDescription": "",
-            "description": "电木桩（无攻击）",
+            "description": "一夜之间风靡世界的超人气产品，好到无以复加的训练靶机，是挥洒汗水的最佳拍档。熟悉的涂装，让人联想到一个故人。",
             "textIndex": [
+                51,
                 13,
                 14
             ],
-            "characterPic": "MopC",
-            "modelCode": 6713,
-            "occupySize": 1,
+            "characterPic": "TrainingBot",
+            "modelCode": 7201,
+            "occupySize": 3,
             "aiOrder": 550,
             "useFakeAttack": true,
             "shieldType": 1,
@@ -25755,29 +25859,31 @@
                 0,
                 0
             ],
-            "nameOnBar": "电木桩"
+            "nameOnBar": "靶机·雷霆大师"
         },
         {
             "id": 72026,
-            "enemyCamp": 1009,
+            "enemyCamp": 1099,
             "duty": 1,
             "skillTalent": 72016201,
             "skillTalentExtra": [
-                6151501
+                6151501,
+                910000012
             ],
             "rank": 3,
             "propertyGroup": 208701,
-            "name": "毒木桩（无攻击）",
-            "joke": "毒木桩（无攻击）",
+            "name": "靶机·腐沼大师",
+            "joke": "非同凡响的靶机，据说伤害评级为SS。",
             "trapDescription": "",
-            "description": "毒木桩（无攻击）",
+            "description": "一夜之间风靡世界的超人气产品，好到无以复加的训练靶机，是挥洒汗水的最佳拍档。熟悉的涂装，让人联想到一个故人。",
             "textIndex": [
+                51,
                 13,
                 14
             ],
-            "characterPic": "MopC",
-            "modelCode": 6713,
-            "occupySize": 1,
+            "characterPic": "TrainingBot",
+            "modelCode": 7201,
+            "occupySize": 3,
             "aiOrder": 550,
             "useFakeAttack": true,
             "shieldType": 1,
@@ -25802,7 +25908,7 @@
                 0,
                 0
             ],
-            "nameOnBar": "毒木桩"
+            "nameOnBar": "靶机·腐沼大师"
         },
         {
             "id": 206441,
@@ -28403,6 +28509,7 @@
             "enemyCamp": 1004,
             "duty": 1,
             "skillNormalAttack": 6423201,
+            "skillActive": 6423302,
             "skillTalent": 6423301,
             "skillTalentExtra": [
                 64232300
@@ -28456,6 +28563,7 @@
             "enemyCamp": 1004,
             "duty": 1,
             "skillNormalAttack": 6423201,
+            "skillActive": 64233302,
             "skillTalent": 64233301,
             "skillTalentExtra": [
                 64233300
@@ -40539,6 +40647,164 @@
             "guardRadius": 700,
             "guardRadiusShow": 1,
             "weakWeaponTag": 10
+        },
+        {
+            "id": 4300001,
+            "enemyCamp": 1001,
+            "duty": 1,
+            "skillNormalAttack": 6110101,
+            "dzAiList": [
+                611002
+            ],
+            "rank": 1,
+            "propertyGroup": 101201,
+            "name": "战斗者·冲锋兵一型",
+            "joke": "只要开枪次数够多，总有命中的时候。",
+            "trapDescription": "",
+            "description": "究竟是什么，能让他们从人类变成只会在战场上横冲直撞的大猩猩？",
+            "textIndex": [
+                1
+            ],
+            "characterPic": "Felade",
+            "modelCode": 6110,
+            "moveCode": 11,
+            "occupySize": 1,
+            "aiOrder": 600,
+            "useFakeAttack": true,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                1,
+                1000,
+                0,
+                32
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "dzOpenBattle": 6110101,
+            "btPath": "BT/MainBT/MainBT_SoccerMon.bt",
+            "weakTag": "5,1",
+            "supressGroup": [
+                4,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "冲锋兵Ⅰ",
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 14,
+            "weakMap": 61101
+        },
+        {
+            "id": 4300002,
+            "enemyCamp": 1001,
+            "duty": 1,
+            "skillNormalAttack": 6114101,
+            "skillTalent": 61141201,
+            "skillTalentExtra": [
+                80000002
+            ],
+            "dzAiList": [
+                611002
+            ],
+            "rank": 1,
+            "propertyGroup": 101101,
+            "name": "战斗者·防卫兵一型",
+            "joke": "不是已经成为了炮灰，就是在成为炮灰的路上。",
+            "trapDescription": "",
+            "description": "别搞错了，他们一心要保护的并非队友，而是赃物。",
+            "textIndex": [
+                1,
+                29
+            ],
+            "characterPic": "Guard01",
+            "modelCode": 6114,
+            "moveCode": 11,
+            "occupySize": 1,
+            "aiOrder": 290,
+            "useFakeAttack": true,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 2,
+            "dzOpenBattle": 6114101,
+            "btPath": "BT/EnemyBT/EnemyBT_002+002.bt",
+            "weakTag": "5,2",
+            "supressGroup": [
+                3,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "防卫兵Ⅰ",
+            "guardRadius": 300,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 14,
+            "weakMap": 61141
+        },
+        {
+            "id": 4300003,
+            "enemyCamp": 1001,
+            "duty": 3,
+            "skillNormalAttack": 6111101,
+            "rank": 1,
+            "propertyGroup": 102001,
+            "name": "战斗者·狙击兵一型",
+            "joke": "你别说，还挺疼的——来自中弹队友的中肯评价。",
+            "trapDescription": "",
+            "description": "虽然武器不够高级，但他们却足够狡诈。路过阴影处的时候要小心，不要撞到正在瞄准的瓦良格狙击兵。",
+            "textIndex": [
+                2
+            ],
+            "characterPic": "Felaskju",
+            "modelCode": 6111,
+            "moveCode": 11,
+            "occupySize": 1,
+            "aiOrder": 650,
+            "useFakeAttack": true,
+            "shieldType": 2,
+            "attackType": 2,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "dzOpenBattle": 6111101,
+            "btPath": "BT/MainBT/MainBT_SoccerMon.bt",
+            "weakTag": "1,5",
+            "supressGroup": [
+                2,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "狙击兵Ⅰ",
+            "guardRadius": 700,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 26,
+            "weakMap": 61111
         },
         {
             "id": 6283401,

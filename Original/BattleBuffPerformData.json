@@ -6349,7 +6349,7 @@
         {
             "id": 262403,
             "name": "反御增伤",
-            "description": "对目标造成物理伤害时，若目标降低的防御力大于<color=#f26c1c>100%</color>，则对其造成伤害提高。增益不可驱散。",
+            "description": "对目标造成物理伤害时，若目标降低的防御力<color=#f26c1c>大于100%</color>，每额外降低<color=#f26c1c>1%</color>防御力，对其造成的伤害提高对应比例。增益不可驱散。对应比例如下：\n额外降防率<color=#f26c1c><100%</color>：<color=#f26c1c>0.5%</color>;\n<color=#f26c1c>100%≤</color>额外降防率<color=#f26c1c><200%</color>：<color=#f26c1c>0.75%</color>；\n<color=#f26c1c>200%≤</color>额外降防率<color=#f26c1c><300%</color>：<color=#f26c1c>1%</color>;\n额外降防率<color=#f26c1c>≥300%</color>：<color=#f26c1c>1.5%</color>。",
             "buffEffect": "Buff/AtkU|Buff/AtkU",
             "effectPlayTime": [
                 1,
@@ -7957,6 +7957,22 @@
             "effectFollowType": "1",
             "effectBirthType": "104",
             "iconName": "Buff_WaterDrown",
+            "isShow": true,
+            "buffHeadShow": 1
+        },
+        {
+            "id": 320201,
+            "name": "浸润I",
+            "description": "造成<color=#2caadb>浊刻伤害</color>提高<color=#f26c1c>10%</color>。浊刻类增益。",
+            "iconName": "Buff_WaterDamageUp",
+            "isShow": true,
+            "buffHeadShow": 1
+        },
+        {
+            "id": 320202,
+            "name": "浸润I",
+            "description": "造成<color=#2caadb>浊刻伤害</color>提高<color=#f26c1c>10%</color>。浊刻类增益。",
+            "iconName": "Buff_WaterDamageUp",
             "isShow": true,
             "buffHeadShow": 1
         },
@@ -10448,6 +10464,40 @@
             "description": ""
         },
         {
+            "id": 4300010,
+            "name": "竞技",
+            "description": "受到的稳态伤害降低<color=#f26c1c>4点</color>，免疫伤害。稳态指数为0时，获得<color=#3487e0>{0}</color>。增益不可驱散。",
+            "descriptionTips": "0:4300021",
+            "iconName": "Buff_CountSuppress",
+            "isShow": true,
+            "buffHeadShow": 1
+        },
+        {
+            "id": 4300021,
+            "name": "乏力",
+            "description": "无法行动，回合结束时恢复自身稳态指数，恢复量为最大稳态指数的<color=#f26c1c>50%</color>。自身满稳态指数时，则移除该效果。减益不可驱散。",
+            "buffEffect": "Buff/Debuff_stun|Buff/Debuff_stun",
+            "effectPlayTime": [
+                1,
+                6
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "103|103",
+            "effectTypeGroup": "0|0",
+            "buffFix": 1,
+            "iconName": "Buff_UnActionNeutral",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "1|1"
+        },
+        {
             "id": 5104831,
             "name": "薪火燎原",
             "description": "造成的燃烧伤害提高<color=#f26c1c>2%</color>。",
@@ -10791,6 +10841,30 @@
             "iconName": "Buff_MaxHPDown",
             "isShow": true,
             "buffHeadShow": 1
+        },
+        {
+            "id": 6000813,
+            "name": "短路损伤",
+            "description": "受到伤害提高<color=#f26c1c>10%</color>，至多叠加5层。减益效果。",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_EnemyHurtUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
         },
         {
             "id": 6110501,
@@ -13558,7 +13632,7 @@
         {
             "id": 6704411,
             "name": "爆炸狂热",
-            "description": "拥有该效果时，<color=#3487e0>不经意爆破</color>技能将追踪选择全部敌方目标及其<color=#f26c1c>周围3×3格</color>，且清空冷却时间。不可驱散。",
+            "description": "拥有该效果时，<color=#3487e0>不随意爆破</color>技能将追踪选择全部敌方目标及其<color=#f26c1c>周围3×3格</color>，且清空冷却时间。不可驱散。",
             "buffEffect": "Skill/6704301_Buff01",
             "effectPlayTime": [
                 1
@@ -13735,6 +13809,35 @@
             "iconName": "Buff_EnemyHurtUp",
             "isShow": true,
             "buffHeadShow": 1
+        },
+        {
+            "id": 6771102,
+            "name": "目标锁定",
+            "description": "复合哨兵标记 。不可驱散。",
+            "iconName": "Buff_InvincibleNeutral",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 6771402,
+            "name": "不应该看到我",
+            "description": "不应该看到我",
+            "buffEffect": "Skill/67714_Born",
+            "effectPlayTime": [
+                1
+            ],
+            "effectBirthType": "109",
+            "effectTypeGroup": "0"
+        },
+        {
+            "id": 6772401,
+            "name": "铜墙铁壁",
+            "description": "防御力提高<color=#f26c1c>30%</color>，至多叠加10层，增益不可驱散。",
+            "iconName": "Buff_InvincibleNeutral",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 5
         },
         {
             "id": 6851101,
@@ -14504,7 +14607,7 @@
         {
             "id": 6894201,
             "name": "战意回响",
-            "description": "自身回合内主动攻击后将受到狂战者的反击，造成狂战者<color=#f26c1c>80%</color>攻击力的物理伤害，不可驱散。",
+            "description": "自身回合内主动攻击后将受到狂战者的回击（该回击会再次触发我方单位的伏击、反击和支援攻击），造成狂战者<color=#f26c1c>80%</color>攻击力的物理伤害，不可驱散。",
             "iconName": "Buff_TargetNeutral",
             "isShow": true,
             "buffHeadShow": 1,
@@ -17084,6 +17187,14 @@
             "showPriorityIcon": 20
         },
         {
+            "id": 10550402,
+            "name": "监控",
+            "description": "对敌方单位造成伤害时，自身受到<color=#f26c1c>2点</color>稳态伤害，且受到来自库利奇的反击伤害提高<color=#f26c1c>15%</color>。浊刻类减益不可驱散。",
+            "iconName": "Buff_NikketaSSR2",
+            "isShow": true,
+            "buffHeadShow": 1
+        },
+        {
             "id": 20200016,
             "name": "",
             "description": "",
@@ -19565,14 +19676,6 @@
             "buffHeadShow": 1
         },
         {
-            "id": 60007902,
-            "name": "群防策略",
-            "description": "受到的精准伤害提高<color=#f26c1c>30%</color>,受到的范围伤害降低<color=#f26c1c>50%</color>，持续时间无限。",
-            "iconName": "Buff_EnemyRedHurt",
-            "isShow": true,
-            "buffHeadShow": 1
-        },
-        {
             "id": 61000010,
             "name": "致命火力",
             "description": "火力人形造成的伤害提高<color=#f26c1c>20%</color>。",
@@ -19981,8 +20084,8 @@
         },
         {
             "id": 61141201,
-            "name": "掩体防御",
-            "description": "稳态指数大于<color=#f26c1c>0</color>时，降低<color=#f26c1c>周围半径4格内</color>友方目标 (不包含自身)受到的稳态伤害，至多<color=#f26c1c>2点</color>。不可驱散。",
+            "name": "掩体防御I",
+            "description": "稳态指数大于<color=#f26c1c>0</color>时，降低<color=#f26c1c>周围半径2格内</color>友方目标 (不包含自身)受到的稳态伤害，至多<color=#f26c1c>2点</color>。不可驱散。",
             "iconName": "Buff_CountSuppress",
             "isShow": true,
             "showPriorityIcon": 10
@@ -20020,6 +20123,14 @@
             "description": "受到的稳态伤害降低<color=#f26c1c>3点</color>。增益不可驱散。",
             "iconName": "Buff_GrozaSR1",
             "isShow": true
+        },
+        {
+            "id": 61142204,
+            "name": "掩体防御II",
+            "description": "稳态指数大于<color=#f26c1c>0</color>时，降低<color=#f26c1c>周围半径3格内</color>友方目标 (不包含自身)受到的稳态伤害，至多<color=#f26c1c>3点</color>。不可驱散。",
+            "iconName": "Buff_CountSuppress",
+            "isShow": true,
+            "showPriorityIcon": 10
         },
         {
             "id": 61143201,
@@ -20238,6 +20349,68 @@
             "isShow": true,
             "buffHeadShow": 1,
             "isLoop": "1"
+        },
+        {
+            "id": 61752701,
+            "name": "狂飙",
+            "description": "受到的稳态伤害降低<color=#f26c1c>2点</color>，受到伤害减少<color=#f26c1c>50%</color>，行动力提高<color=#f26c1c>2格</color>。行动结束时恢复10点稳态。稳态崩溃时移除该效果，并获得<color=#3487e0>{0}</color>。增益不可驱散。",
+            "descriptionTips": "0:61752703",
+            "buffEffect": "Skill/6175401_Loop",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "109",
+            "effectTypeGroup": "0",
+            "iconName": "Buff_AllUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "1"
+        },
+        {
+            "id": 61752703,
+            "name": "引擎过载",
+            "description": "防御力降低<color=#f26c1c>15%</color>，效果结束时获得<color=#3487e0>{0}</color>。减益不可驱散。",
+            "descriptionTips": "0:61752701",
+            "iconName": "Buff_DefLow",
+            "isShow": true,
+            "buffHeadShow": 1
+        },
+        {
+            "id": 61752801,
+            "name": "血涟",
+            "description": "行动结束时，受到施加者<color=#f26c1c>170%</color>攻击力的固定伤害和<color=#f26c1c>5</color>点稳态伤害。受到的治疗效果降低<color=#f26c1c>30%</color>。若自身生命值大于等于<color=#f26c1c>100%</color>，则移除该效果。减益效果。",
+            "iconName": "Buff_ContinueHurt",
+            "isShow": true,
+            "buffHeadShow": 1
+        },
+        {
+            "id": 61752811,
+            "name": "血涟",
+            "description": "行动结束时，受到施加者<color=#f26c1c>170%</color>攻击力的固定伤害和<color=#f26c1c>5</color>点稳态伤害。受到的治疗效果降低<color=#f26c1c>40%</color>。若自身生命值大于等于<color=#f26c1c>100%</color>，则移除该效果。减益效果。",
+            "iconName": "Buff_ContinueHurt",
+            "isShow": true
+        },
+        {
+            "id": 61752821,
+            "name": "血涟",
+            "description": "行动结束时，受到施加者<color=#f26c1c>170%</color>攻击力的固定伤害和<color=#f26c1c>5</color>点稳态伤害。受到的治疗效果降低<color=#f26c1c>50%</color>。若自身生命值大于等于<color=#f26c1c>100%</color>，则移除该效果。减益效果。",
+            "iconName": "Buff_ContinueHurt",
+            "isShow": true
+        },
+        {
+            "id": 61752831,
+            "name": "血涟",
+            "description": "行动结束时，受到施加者<color=#f26c1c>170%</color>攻击力的固定伤害和<color=#f26c1c>5</color>点稳态伤害。受到的治疗效果降低<color=#f26c1c>70%</color>。若自身生命值大于等于<color=#f26c1c>100%</color>，则移除该效果。减益效果。",
+            "iconName": "Buff_ContinueHurt",
+            "isShow": true
         },
         {
             "id": 61761011,
@@ -22138,8 +22311,28 @@
             "showPriorityIcon": 99
         },
         {
+            "id": 70273031,
+            "name": "",
+            "description": "",
+            "buffEffect": "Buff/football_power",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "109",
+            "effectTypeGroup": "0",
+            "isLoop": "1"
+        },
+        {
             "id": 72011201,
-            "name": "免疫",
+            "name": "无畏装甲",
             "description": "免疫所有异位伤害和异位弱点。不可驱散。",
             "iconName": "Buff_InvincibleNeutral",
             "isShow": true,
@@ -22148,7 +22341,7 @@
         },
         {
             "id": 72012201,
-            "name": "免疫",
+            "name": "散热不良",
             "description": "免疫除<color=#e67129>燃烧</color>外的所有异位伤害和异位弱点。不可驱散。",
             "iconName": "Buff_InvincibleNeutral",
             "isShow": true,
@@ -22157,7 +22350,7 @@
         },
         {
             "id": 72013201,
-            "name": "免疫",
+            "name": "液态侵蚀",
             "description": "免疫除<color=#2caadb>浊刻</color>外的所有异位伤害和异位弱点。不可驱散。",
             "iconName": "Buff_InvincibleNeutral",
             "isShow": true,
@@ -22166,7 +22359,7 @@
         },
         {
             "id": 72014201,
-            "name": "免疫",
+            "name": "失温脆性",
             "description": "免疫除<color=#42cce0>冷凝</color>外的所有异位伤害和异位弱点。不可驱散。",
             "iconName": "Buff_InvincibleNeutral",
             "isShow": true,
@@ -22175,7 +22368,7 @@
         },
         {
             "id": 72015201,
-            "name": "免疫",
+            "name": "强电易感",
             "description": "免疫除<color=#d4ae08>电导</color>外的所有异位伤害和异位弱点。不可驱散。",
             "iconName": "Buff_InvincibleNeutral",
             "isShow": true,
@@ -22184,7 +22377,7 @@
         },
         {
             "id": 72016201,
-            "name": "免疫",
+            "name": "酸性溶解",
             "description": "免疫除<color=#8679e8>酸蚀</color>外的所有异位伤害和异位弱点。不可驱散。",
             "iconName": "Buff_InvincibleNeutral",
             "isShow": true,
@@ -24420,7 +24613,7 @@
         },
         {
             "id": 105408322,
-            "name": "驱散",
+            "name": "全屏效果驱散",
             "description": "驱散减益",
             "buffEffect": "Buff/StableU",
             "effectPlayTime": [
@@ -24477,6 +24670,56 @@
             "effectBirthType": "109",
             "effectTypeGroup": "0",
             "isLoop": "0"
+        },
+        {
+            "id": 105505011,
+            "name": "畏罪",
+            "description": "受到来自妮基塔和库利奇的<color=#2caadb>浊刻伤害</color>提高<color=#f26c1c>5%</color>。浊刻类减益不可驱散。",
+            "buffEffect": "Skill/NikketaSSR01/10550701_Buff",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "109",
+            "iconName": "Buff_NikketaSSR1",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 9,
+            "isLoop": "0"
+        },
+        {
+            "id": 105505012,
+            "name": "畏罪",
+            "description": "受到来自妮基塔和库利奇的<color=#2caadb>浊刻伤害</color>提高<color=#f26c1c>10%</color>。浊刻类减益不可驱散。",
+            "buffEffect": "Skill/NikketaSSR01/10550701_Buff",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "109",
+            "iconName": "Buff_NikketaSSR1",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 9,
+            "isLoop": "0"
+        },
+        {
+            "id": 105508011,
+            "name": "线索",
+            "description": "<color=#3487e0>{0}</color>造成的伤害额外提高<color=#f26c1c>5%</color>，至多叠加<color=#f26c1c>5层</color>。浊刻类增益不可驱散。",
+            "descriptionTips": "1:90228",
+            "iconName": "Buff_NikketaSSR3",
+            "isShow": true,
+            "buffHeadShow": 1
+        },
+        {
+            "id": 105508021,
+            "name": "线索",
+            "description": "<color=#3487e0>{0}</color>造成的伤害额外提高<color=#f26c1c>5%</color>，至多叠加<color=#f26c1c>10层</color>。浊刻类增益不可驱散。",
+            "descriptionTips": "1:90228",
+            "iconName": "Buff_NikketaSSR3",
+            "isShow": true,
+            "buffHeadShow": 1
         },
         {
             "id": 201000041,
@@ -26189,6 +26432,14 @@
             "id": 1050080251,
             "name": "不能暴击计数标记",
             "description": ""
+        },
+        {
+            "id": 1055108022,
+            "name": "库利奇的威慑",
+            "description": "攻击力降低<color=#f26c1c>10%</color>。浊刻类减益不可驱散。",
+            "iconName": "Buff_EnemyHurtUp",
+            "isShow": true,
+            "buffHeadShow": 1
         }
     ]
 }
