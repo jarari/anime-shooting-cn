@@ -6349,7 +6349,7 @@
         {
             "id": 262403,
             "name": "방어력 무시 초과 피해",
-            "description": "对目标造成物理伤害时，若目标降低的防御力<color=#f26c1c>大于100%</color>，每额外降低<color=#f26c1c>1%</color>防御力，对其造成的伤害提高对应比例。增益不可驱散。对应比例如下：\n额外降防率<color=#f26c1c><100%</color>：<color=#f26c1c>0.5%</color>;\n<color=#f26c1c>100%≤</color>额外降防率<color=#f26c1c><200%</color>：<color=#f26c1c>0.75%</color>；\n<color=#f26c1c>200%≤</color>额外降防率<color=#f26c1c><300%</color>：<color=#f26c1c>1%</color>;\n额外降防率<color=#f26c1c>≥300%</color>：<color=#f26c1c>1.5%</color>。",
+            "description": "적에게 물리 피해를 줄 때, 대상의 방어력 감소치가 <color=#f26c1c>100%를 초과</color>하면, 방어력이 <color=#f26c1c>1%</color>씩 추가로 내려갈 때마다 주는 피해가 그 비율만큼 증가한다. 정화 불가 버프.\n증가 비율은 아래와 같다:\n추가 방어력 감소율 <color=#f26c1c><100%</color>: <color=#f26c1c>0.5%</color>\n<color=#f26c1c>100%≤</color>추가 방어력 감소율<color=#f26c1c><200%</color>: <color=#f26c1c>0.75%</color>\n<color=#f26c1c>200%≤</color>추가 방어력 감소율<color=#f26c1c><300%</color>: <color=#f26c1c>1%</color>\n추가 방어력 감소율<color=#f26c1c>≥300%</color>: <color=#f26c1c>1.5%</color>",
             "buffEffect": "Buff/AtkU|Buff/AtkU",
             "effectPlayTime": [
                 1,
@@ -7962,16 +7962,16 @@
         },
         {
             "id": 320201,
-            "name": "浸润I",
-            "description": "造成<color=#2caadb>浊刻伤害</color>提高<color=#f26c1c>10%</color>。浊刻类增益。",
+            "name": "침윤 I",
+            "description": "<color=#2caadb>탁류 피해</color>를 주는 효과가 <color=#f26c1c>10%</color> 증가한다. 탁류계 버프.",
             "iconName": "Buff_WaterDamageUp",
             "isShow": true,
             "buffHeadShow": 1
         },
         {
             "id": 320202,
-            "name": "浸润I",
-            "description": "造成<color=#2caadb>浊刻伤害</color>提高<color=#f26c1c>10%</color>。浊刻类增益。",
+            "name": "침윤 I",
+            "description": "<color=#2caadb>탁류 피해</color>를 주는 효과가 <color=#f26c1c>10%</color> 증가한다. 탁류계 버프.",
             "iconName": "Buff_WaterDamageUp",
             "isShow": true,
             "buffHeadShow": 1
@@ -10465,8 +10465,8 @@
         },
         {
             "id": 4300010,
-            "name": "竞技",
-            "description": "受到的稳态伤害降低<color=#f26c1c>4点</color>，免疫伤害。稳态指数为0时，获得<color=#3487e0>{0}</color>。增益不可驱散。",
+            "name": "대련",
+            "description": "받는 안정 피해가 <color=#f26c1c>4</color> 감소하며, 피해를 무효화한다. 안정 지수가 0이 되면 <color=#3487e0>{0}</color>를 획득한다. 정화 불가 버프.",
             "descriptionTips": "0:4300021",
             "iconName": "Buff_CountSuppress",
             "isShow": true,
@@ -10474,8 +10474,8 @@
         },
         {
             "id": 4300021,
-            "name": "乏力",
-            "description": "无法行动，回合结束时恢复自身稳态指数，恢复量为最大稳态指数的<color=#f26c1c>50%</color>。自身满稳态指数时，则移除该效果。减益不可驱散。",
+            "name": "탈력",
+            "description": "행동 불가 상태가 되며, 턴 종료 시 자신이 가진 안정 지수를 최대치의 <color=#f26c1c>50%</color>만큼 회복한다. 안정 지수가 가득 차면 이 디버프는 제거된다. 정화 불가 디버프.",
             "buffEffect": "Buff/Debuff_stun|Buff/Debuff_stun",
             "effectPlayTime": [
                 1,
@@ -10844,8 +10844,8 @@
         },
         {
             "id": 6000813,
-            "name": "短路损伤",
-            "description": "受到伤害提高<color=#f26c1c>10%</color>，至多叠加5层。减益效果。",
+            "name": "쇼트 데미지",
+            "description": "받는 피해가 <color=#f26c1c>10%</color> 증가하며, 최대 5스택까지 누적된다. 디버프 효과.",
             "buffEffect": "Buff/AccD|Buff/AccD",
             "effectPlayTime": [
                 1,
@@ -13813,7 +13813,7 @@
         {
             "id": 6771102,
             "name": "목표 표시",
-            "description": "复合哨兵标记 。不可驱散。",
+            "description": "복합 초병 표식. 정화 불가.",
             "iconName": "Buff_InvincibleNeutral",
             "isShow": true,
             "buffHeadShow": 1,
@@ -13821,8 +13821,8 @@
         },
         {
             "id": 6771402,
-            "name": "不应该看到我",
-            "description": "不应该看到我",
+            "name": "나를 보지 마",
+            "description": "나를 보지 마",
             "buffEffect": "Skill/67714_Born",
             "effectPlayTime": [
                 1
@@ -13832,8 +13832,8 @@
         },
         {
             "id": 6772401,
-            "name": "铜墙铁壁",
-            "description": "防御力提高<color=#f26c1c>30%</color>，至多叠加10层，增益不可驱散。",
+            "name": "철벽 방어",
+            "description": "방어력이 <color=#f26c1c>30%</color> 상승하며, 최대 10스택까지 누적된다. 정화 불가 버프.",
             "iconName": "Buff_InvincibleNeutral",
             "isShow": true,
             "buffHeadShow": 1,
@@ -14607,7 +14607,7 @@
         {
             "id": 6894201,
             "name": "전투 의지 회향",
-            "description": "自身回合内主动攻击后将受到狂战者的回击（该回击会再次触发我方单位的伏击、反击和支援攻击），造成狂战者<color=#f26c1c>80%</color>攻击力的物理伤害，不可驱散。",
+            "description": "자신이 행동하는 턴에 능동적으로 공격을 하면 광전사의 반격을 받으며(이 반격은 아군 유닛의 매복, 반격, 지원 공격을 다시 유발할 수 있다), 광전사의 공격력 <color=#f26c1c>80%</color>에 해당하는 물리 피해를 입는다. 정화 불가.",
             "iconName": "Buff_TargetNeutral",
             "isShow": true,
             "buffHeadShow": 1,
@@ -17188,8 +17188,8 @@
         },
         {
             "id": 10550402,
-            "name": "监控",
-            "description": "对敌方单位造成伤害时，自身受到<color=#f26c1c>2点</color>稳态伤害，且受到来自库利奇的反击伤害提高<color=#f26c1c>15%</color>。浊刻类减益不可驱散。",
+            "name": "감시",
+            "description": "적 유닛에게 피해를 줄 때, 자신이 <color=#f26c1c>안정 피해 2</color>를 입으며, 쿠리치로부터 받는 반격 피해가 <color=#f26c1c>15%</color> 증가한다. 탁류계 정화 불가 디버프.",
             "iconName": "Buff_NikketaSSR2",
             "isShow": true,
             "buffHeadShow": 1
@@ -20084,8 +20084,8 @@
         },
         {
             "id": 61141201,
-            "name": "掩体防御I",
-            "description": "稳态指数大于<color=#f26c1c>0</color>时，降低<color=#f26c1c>周围半径2格内</color>友方目标 (不包含自身)受到的稳态伤害，至多<color=#f26c1c>2点</color>。不可驱散。",
+            "name": "엄폐 방어 I",
+            "description": "안정 지수가 <color=#f26c1c>0</color> 초과일 때, <color=#f26c1c>주변 2칸</color> 내 아군 유닛(자신 제외)이 받는 안정 피해를 최대 <color=#f26c1c>2</color>까지 감소시킨다. 정화 불가.",
             "iconName": "Buff_CountSuppress",
             "isShow": true,
             "showPriorityIcon": 10
@@ -20126,8 +20126,8 @@
         },
         {
             "id": 61142204,
-            "name": "掩体防御II",
-            "description": "稳态指数大于<color=#f26c1c>0</color>时，降低<color=#f26c1c>周围半径3格内</color>友方目标 (不包含自身)受到的稳态伤害，至多<color=#f26c1c>3点</color>。不可驱散。",
+            "name": "엄폐 방어 II",
+            "description": "안정 지수가 <color=#f26c1c>0</color> 초과일 때, <color=#f26c1c>주변 3칸</color> 내 아군 유닛(자신 제외)이 받는 안정 피해를 최대 <color=#f26c1c>3</color>까지 감소시킨다. 정화 불가.",
             "iconName": "Buff_CountSuppress",
             "isShow": true,
             "showPriorityIcon": 10
@@ -20352,8 +20352,8 @@
         },
         {
             "id": 61752701,
-            "name": "狂飙",
-            "description": "受到的稳态伤害降低<color=#f26c1c>2点</color>，受到伤害减少<color=#f26c1c>50%</color>，行动力提高<color=#f26c1c>2格</color>。行动结束时恢复10点稳态。稳态崩溃时移除该效果，并获得<color=#3487e0>{0}</color>。增益不可驱散。",
+            "name": "폭주",
+            "description": "받는 안정 피해가 <color=#f26c1c>2</color> 감소하고, 받는 피해가 <color=#f26c1c>50%</color> 줄어들며, 이동력이 <color=#f26c1c>2칸</color> 증가한다. 행동 종료 시 안정 지수를 10 회복한다. 안정 붕괴 시 이 효과는 제거되며 <color=#3487e0>{0}</color>를 획득한다. 정화 불가 버프.",
             "descriptionTips": "0:61752703",
             "buffEffect": "Skill/6175401_Loop",
             "effectPlayTime": [
@@ -20376,8 +20376,8 @@
         },
         {
             "id": 61752703,
-            "name": "引擎过载",
-            "description": "防御力降低<color=#f26c1c>15%</color>，效果结束时获得<color=#3487e0>{0}</color>。减益不可驱散。",
+            "name": "엔진 오버로드",
+            "description": "방어력이 <color=#f26c1c>15%</color> 감소하며, 효과가 끝날 때 <color=#3487e0>{0}</color>를 획득한다. 정화 불가 디버프.",
             "descriptionTips": "0:61752701",
             "iconName": "Buff_DefLow",
             "isShow": true,
@@ -20385,30 +20385,30 @@
         },
         {
             "id": 61752801,
-            "name": "血涟",
-            "description": "行动结束时，受到施加者<color=#f26c1c>170%</color>攻击力的固定伤害和<color=#f26c1c>5</color>点稳态伤害。受到的治疗效果降低<color=#f26c1c>30%</color>。若自身生命值大于等于<color=#f26c1c>100%</color>，则移除该效果。减益效果。",
+            "name": "핏물",
+            "description": "행동 종료 시, 이 디버프를 건 유닛의 공격력 <color=#f26c1c>170%</color>에 해당하는 고정 피해와 <color=#f26c1c>안정 피해 5</color>를 입는다. 받는 치유 효과가 <color=#f26c1c>30%</color> 감소한다. 자신의 체력이 <color=#f26c1c>100%</color> 이상이면 이 효과가 제거된다. 디버프 효과.",
             "iconName": "Buff_ContinueHurt",
             "isShow": true,
             "buffHeadShow": 1
         },
         {
             "id": 61752811,
-            "name": "血涟",
-            "description": "行动结束时，受到施加者<color=#f26c1c>170%</color>攻击力的固定伤害和<color=#f26c1c>5</color>点稳态伤害。受到的治疗效果降低<color=#f26c1c>40%</color>。若自身生命值大于等于<color=#f26c1c>100%</color>，则移除该效果。减益效果。",
+            "name": "핏물",
+            "description": "행동 종료 시, 이 디버프를 건 유닛의 공격력 <color=#f26c1c>170%</color>에 해당하는 고정 피해와 <color=#f26c1c>안정 피해 5</color>를 입는다. 받는 치유 효과가 <color=#f26c1c>40%</color> 감소한다. 자신의 체력이 <color=#f26c1c>100%</color> 이상이면 이 효과가 제거된다. 디버프 효과.",
             "iconName": "Buff_ContinueHurt",
             "isShow": true
         },
         {
             "id": 61752821,
-            "name": "血涟",
-            "description": "行动结束时，受到施加者<color=#f26c1c>170%</color>攻击力的固定伤害和<color=#f26c1c>5</color>点稳态伤害。受到的治疗效果降低<color=#f26c1c>50%</color>。若自身生命值大于等于<color=#f26c1c>100%</color>，则移除该效果。减益效果。",
+            "name": "핏물",
+            "description": "행동 종료 시, 이 디버프를 건 유닛의 공격력 <color=#f26c1c>170%</color>에 해당하는 고정 피해와 <color=#f26c1c>안정 피해 5</color>를 입는다. 받는 치유 효과가 <color=#f26c1c>50%</color> 감소한다. 자신의 체력이 <color=#f26c1c>100%</color> 이상이면 이 효과가 제거된다. 디버프 효과.",
             "iconName": "Buff_ContinueHurt",
             "isShow": true
         },
         {
             "id": 61752831,
-            "name": "血涟",
-            "description": "行动结束时，受到施加者<color=#f26c1c>170%</color>攻击力的固定伤害和<color=#f26c1c>5</color>点稳态伤害。受到的治疗效果降低<color=#f26c1c>70%</color>。若自身生命值大于等于<color=#f26c1c>100%</color>，则移除该效果。减益效果。",
+            "name": "핏물",
+            "description": "행동 종료 시, 이 디버프를 건 유닛의 공격력 <color=#f26c1c>170%</color>에 해당하는 고정 피해와 <color=#f26c1c>안정 피해 5</color>를 입는다. 받는 치유 효과가 <color=#f26c1c>70%</color> 감소한다. 자신의 체력이 <color=#f26c1c>100%</color> 이상이면 이 효과가 제거된다. 디버프 효과.",
             "iconName": "Buff_ContinueHurt",
             "isShow": true
         },
@@ -22332,7 +22332,7 @@
         },
         {
             "id": 72011201,
-            "name": "无畏装甲",
+            "name": "불굴의 장갑",
             "description": "모든 위상 피해와 위상 약점에 면역된다. 정화 불가.",
             "iconName": "Buff_InvincibleNeutral",
             "isShow": true,
@@ -22341,7 +22341,7 @@
         },
         {
             "id": 72012201,
-            "name": "散热不良",
+            "name": "방열 불량",
             "description": "<color=#e67129>연소</color>를 제외한 모든 위상 피해와 위상 약점에 면역된다. 정화 불가.",
             "iconName": "Buff_InvincibleNeutral",
             "isShow": true,
@@ -22350,7 +22350,7 @@
         },
         {
             "id": 72013201,
-            "name": "液态侵蚀",
+            "name": "액화 침식",
             "description": "<color=#2caadb>탁류</color>를 제외한 모든 위상 피해와 위상 약점에 면역된다. 정화 불가.",
             "iconName": "Buff_InvincibleNeutral",
             "isShow": true,
@@ -22359,7 +22359,7 @@
         },
         {
             "id": 72014201,
-            "name": "失温脆性",
+            "name": "저체온 취약",
             "description": "<color=#42cce0>빙결</color>을 제외한 모든 위상 피해와 위상 약점에 면역된다. 정화 불가.",
             "iconName": "Buff_InvincibleNeutral",
             "isShow": true,
@@ -22368,7 +22368,7 @@
         },
         {
             "id": 72015201,
-            "name": "强电易感",
+            "name": "고전류 감수성",
             "description": "<color=#d4ae08>전도</color>를 제외한 모든 위상 피해와 위상 약점에 면역된다. 정화 불가.",
             "iconName": "Buff_InvincibleNeutral",
             "isShow": true,
@@ -22377,7 +22377,7 @@
         },
         {
             "id": 72016201,
-            "name": "酸性溶解",
+            "name": "산성 용해",
             "description": "<color=#8679e8>산성</color>을 제외한 모든 위상 피해와 위상 약점에 면역된다. 정화 불가.",
             "iconName": "Buff_InvincibleNeutral",
             "isShow": true,
@@ -24673,8 +24673,8 @@
         },
         {
             "id": 105505011,
-            "name": "畏罪",
-            "description": "受到来自妮基塔和库利奇的<color=#2caadb>浊刻伤害</color>提高<color=#f26c1c>5%</color>。浊刻类减益不可驱散。",
+            "name": "죄의식",
+            "description": "니키타와 쿠리치가 주는 <color=#2caadb>탁류 피해</color>를 <color=#f26c1c>5%</color> 더 많이 받는다. 탁류계 정화 불가 디버프.",
             "buffEffect": "Skill/NikketaSSR01/10550701_Buff",
             "effectPlayTime": [
                 1
@@ -24689,8 +24689,8 @@
         },
         {
             "id": 105505012,
-            "name": "畏罪",
-            "description": "受到来自妮基塔和库利奇的<color=#2caadb>浊刻伤害</color>提高<color=#f26c1c>10%</color>。浊刻类减益不可驱散。",
+            "name": "죄의식",
+            "description": "니키타와 쿠리치가 주는 <color=#2caadb>탁류 피해</color>를 <color=#f26c1c>10%</color> 더 많이 받는다. 탁류계 정화 불가 디버프.",
             "buffEffect": "Skill/NikketaSSR01/10550701_Buff",
             "effectPlayTime": [
                 1
@@ -24705,8 +24705,8 @@
         },
         {
             "id": 105508011,
-            "name": "线索",
-            "description": "<color=#3487e0>{0}</color>造成的伤害额外提高<color=#f26c1c>5%</color>，至多叠加<color=#f26c1c>5层</color>。浊刻类增益不可驱散。",
+            "name": "단서",
+            "description": "<color=#3487e0>{0}</color>가 주는 피해가 추가로 <color=#f26c1c>5%</color> 증가하며, 최대 <color=#f26c1c>5스택</color>까지 가능하다. 탁류계 정화 불가 버프.",
             "descriptionTips": "1:90228",
             "iconName": "Buff_NikketaSSR3",
             "isShow": true,
@@ -24714,8 +24714,8 @@
         },
         {
             "id": 105508021,
-            "name": "线索",
-            "description": "<color=#3487e0>{0}</color>造成的伤害额外提高<color=#f26c1c>5%</color>，至多叠加<color=#f26c1c>10层</color>。浊刻类增益不可驱散。",
+            "name": "단서",
+            "description": "<color=#3487e0>{0}</color>가 주는 피해가 추가로 <color=#f26c1c>5%</color> 증가하며, 최대 <color=#f26c1c>10스택</color>까지 가능하다. 탁류계 정화 불가 버프.",
             "descriptionTips": "1:90228",
             "iconName": "Buff_NikketaSSR3",
             "isShow": true,
@@ -26435,8 +26435,8 @@
         },
         {
             "id": 1055108022,
-            "name": "库利奇的威慑",
-            "description": "攻击力降低<color=#f26c1c>10%</color>。浊刻类减益不可驱散。",
+            "name": "쿠리치의 위협",
+            "description": "공격력이 <color=#f26c1c>10%</color> 감소한다. 탁류계 정화 불가 디버프.",
             "iconName": "Buff_EnemyHurtUp",
             "isShow": true,
             "buffHeadShow": 1
