@@ -370,7 +370,7 @@
         {
             "id": 3001,
             "name": "확대편성 임시효과",
-            "description": "턴 시작 시, 스킬가진캐릭에게안정buff",
+            "description": "턴 시작 시, 스킬을 보유한 캐릭터에게 공고 버프를 부여한다.",
             "iconName": "Buff_AtkUp",
             "isShow": true,
             "buffHeadShow": 1
@@ -8588,8 +8588,8 @@
         },
         {
             "id": 340601,
-            "name": "강산 퍼붓기",
-            "description": "행동 종료 시, 부여자가 공격력 <color=#f26c1c>12%</color> 범위 <color=#8679e8>산성 피해</color>를 준다. 추가적인 <color=#f26c1c>1스택</color>마다 피해 계수 <color=#f26c1c>+12%</color>. 클루카이의 공격 또는 다른 유닛에게서 <color=#8679e8>산성 피해</color>를 받을 때 <color=#f26c1c>+1스택</color>, 지속 시간 초기화. 최대 중첩 <color=#f26c1c>10스택</color>. 부여자가 쓰러질 때 해제된다. 산성계 디버프, 정화 불가.",
+            "name": "강산 주입",
+            "description": "행동 종료 시, 부여자가 공격력 <color=#f26c1c>12%</color> 범위 <color=#8679e8>산성 피해</color>를 준다. 추가적인 <color=#f26c1c>1스택</color>마다 피해 계수 <color=#f26c1c>+12%</color>.\n클루카이의 액티브 공격 또는 다른 유닛에게서 <color=#8679e8>산성 피해</color>를 받을 때 <color=#f26c1c>1스택</color>이 추가되고 지속 시간 초기화.\n최대 중첩 <color=#f26c1c>10스택</color>. 부여자가 쓰러질 때 해제된다. 산성계 디버프, 정화 불가.",
             "buffEffect": "Buff/poisonBorn",
             "effectPlayTime": [
                 1
@@ -8603,8 +8603,8 @@
         },
         {
             "id": 340602,
-            "name": "강산 퍼붓기",
-            "description": "방어력 <color=#f26c1c>-1%</color>. 행동 종료 시, 부여자가 공격력 <color=#f26c1c>12%</color> 범위 <color=#8679e8>산성 피해</color>를 준다. 추가적인 <color=#f26c1c>1스택</color>마다 피해 계수 <color=#f26c1c>+12%</color>. 클루카이의 공격 또는 다른 유닛에게서 <color=#8679e8>산성 피해</color>를 받을 때 <color=#f26c1c>+2스택</color>, 지속 시간 초기화. 최대 중첩 <color=#f26c1c>15스택</color>. 부여자가 쓰러질 때 해제된다. 산성계 디버프, 정화 불가.",
+            "name": "강산 주입",
+            "description": "방어력 <color=#f26c1c>-1%</color>.\n행동 종료 시, 부여자가 공격력 <color=#f26c1c>12%</color> 범위 <color=#8679e8>산성 피해</color>를 준다. 추가적인 <color=#f26c1c>1스택</color>마다 피해 계수 <color=#f26c1c>+12%</color>.\n클루카이의 액티브 공격 또는 다른 유닛에게서 <color=#8679e8>산성 피해</color>를 받을 때 <color=#f26c1c>2스택</color>이 추가되고 지속 시간 초기화.\n최대 중첩 <color=#f26c1c>15스택</color>. 부여자가 쓰러질 때 해제된다. 산성계 디버프, 정화 불가.",
             "buffEffect": "Buff/poisonBorn",
             "effectPlayTime": [
                 1
@@ -8618,8 +8618,8 @@
         },
         {
             "id": 340603,
-            "name": "강산 퍼붓기",
-            "description": "방어력 <color=#f26c1c>-1%</color>. 행동 종료 시, 부여자가 공격력 <color=#f26c1c>12%</color> 범위 <color=#8679e8>산성 피해</color>를 준다. 추가적인 <color=#f26c1c>1스택</color>마다 피해 계수 <color=#f26c1c>+12%</color>. 클루카이의 공격 또는 다른 유닛에게서 <color=#8679e8>산성 피해</color>를 받을 때 <color=#f26c1c>+2스택</color>, 지속 시간 초기화. 최대 중첩 <color=#f26c1c>15스택</color>. 부여자가 쓰러질 때 해제된다. 산성계 디버프, 정화 불가.",
+            "name": "강산 주입",
+            "description": "방어력 <color=#f26c1c>-1%</color>.\n행동 종료 시, 부여자가 공격력 <color=#f26c1c>12%</color> 범위 <color=#8679e8>산성 피해</color>를 준다. 추가적인 <color=#f26c1c>1스택</color>마다 피해 계수 <color=#f26c1c>+12%</color>.\n클루카이의 액티브 공격 또는 다른 유닛에게서 <color=#8679e8>산성 피해</color>를 받을 때 <color=#f26c1c>2스택</color>이 추가되고 지속 시간 초기화.\n최대 중첩 <color=#f26c1c>15스택</color>. 부여자가 쓰러질 때 해제된다. 산성계 디버프, 정화 불가.",
             "buffEffect": "Buff/poisonBorn",
             "effectPlayTime": [
                 1
@@ -8634,7 +8634,7 @@
         {
             "id": 340701,
             "name": "독성 침투",
-            "description": "행동 종료 시, <color=#3487e0>강산 퍼붓기</color>를 <color=#f26c1c>1스택</color> 받는다. 지속 시간 <color=#f26c1c>2턴</color>. 쓰러질 때 부여자가 보유자 및 그 <color=#f26c1c>주위 반경 3칸 이내</color>의 모든 적에게 <color=#3487e0>독성 침투</color>를 <color=#f26c1c>2턴 간</color> 부여한다. 그리고 공격력 <color=#f26c1c>60%</color> 범위 <color=#8679e8>산성 피해</color>를 준다. 부여자가 쓰러질 때 해제. 산성계 디버프.",
+            "description": "행동 종료 시 <color=#3487e0>강산 주입</color>을 <color=#f26c1c>1스택</color> 받는다. 지속 시간 <color=#f26c1c>2턴</color>.\n쓰러질 때 부여자가 보유자 및 그 <color=#f26c1c>주위 반경 3칸 이내</color>의 모든 적에게 <color=#3487e0>독성 침투</color>를 <color=#f26c1c>2턴 간</color> 부여한다. 그리고 공격력 <color=#f26c1c>60%</color> 범위 <color=#8679e8>산성 피해</color>를 준다.\n부여자가 쓰러질 때 해제. 산성계 디버프.",
             "effectFollowType": "1",
             "iconName": "Buff_ClukaySSR2",
             "isShow": true,
@@ -8643,7 +8643,7 @@
         {
             "id": 340702,
             "name": "독성 침투",
-            "description": "행동 종료 시, <color=#3487e0>강산 퍼붓기</color>를 <color=#f26c1c>1스택</color> 받는다. 지속 시간 <color=#f26c1c>2턴</color>. 그리고 부여자가 그 <color=#f26c1c>주위 반경 3칸 이내</color>의 <color=#3487e0>독성 침투</color>가 없는 적에게 <color=#3487e0>독성 침투</color>를 <color=#f26c1c>2턴 간</color> 부여한다. 쓰러질 때 부여자가 보유자 및 그 <color=#f26c1c>주위 반경 3칸 이내</color>의 모든 적에게 <color=#3487e0>독성 침투</color>를 <color=#f26c1c>2턴 간</color> 부여한다. 그리고 공격력 <color=#f26c1c>60%</color> 범위 <color=#8679e8>산성 피해</color>를 준다. 부여자가 쓰러질 때 해제. 산성계 디버프.",
+            "description": "행동 종료 시 <color=#3487e0>강산 주입</color>을 <color=#f26c1c>1스택</color> 받는다. 지속 시간 <color=#f26c1c>2턴</color>. 그리고 부여자가 그 <color=#f26c1c>주위 반경 3칸 이내</color>의 <color=#3487e0>독성 침투</color>가 없는 적에게 <color=#3487e0>독성 침투</color>를 <color=#f26c1c>2턴 간</color> 부여한다.\n쓰러질 때 부여자가 보유자 및 그 <color=#f26c1c>주위 반경 3칸 이내</color>의 모든 적에게 <color=#3487e0>독성 침투</color>를 <color=#f26c1c>2턴 간</color> 부여한다. 그리고 공격력 <color=#f26c1c>60%</color> 범위 <color=#8679e8>산성 피해</color>를 준다.\n부여자가 쓰러질 때 해제. 산성계 디버프.",
             "effectFollowType": "1",
             "iconName": "Buff_ClukaySSR2",
             "isShow": true,
@@ -8652,7 +8652,7 @@
         {
             "id": 340703,
             "name": "독성 침투",
-            "description": "행동 종료 시, <color=#3487e0>강산 퍼붓기</color>를 <color=#f26c1c>1스택</color> 받는다. 지속 시간 <color=#f26c1c>2턴</color>. 그리고 부여자가 그 <color=#f26c1c>주위 반경 4칸 이내</color>의 <color=#3487e0>독성 침투</color>가 없는 적에게 <color=#3487e0>독성 침투</color>를 <color=#f26c1c>2턴 간</color> 부여한다. 쓰러질 때 부여자가 보유자 및 그 <color=#f26c1c>주위 반경 4칸 이내</color>의 모든 적에게 <color=#3487e0>독성 침투</color>를 <color=#f26c1c>2턴 간</color> 부여한다. 그리고 공격력 <color=#f26c1c>60%</color> 범위 <color=#8679e8>산성 피해</color>를 준다. 클루카이의 액티브 공격을 받을 때 받는 피해 <color=#f26c1c>+30%</color>. 부여자가 쓰러질 때 해제. 산성계 디버프.",
+            "description": "행동 종료 시 <color=#3487e0>강산 주입</color>을 <color=#f26c1c>1스택</color> 받는다. 지속 시간 <color=#f26c1c>2턴</color>. 그리고 부여자가 그 <color=#f26c1c>주위 반경 4칸 이내</color>의 <color=#3487e0>독성 침투</color>가 없는 적에게 <color=#3487e0>독성 침투</color>를 <color=#f26c1c>2턴 간</color> 부여한다.\n쓰러질 때 부여자가 보유자 및 그 <color=#f26c1c>주위 반경 4칸 이내</color>의 모든 적에게 <color=#3487e0>독성 침투</color>를 <color=#f26c1c>2턴 간</color> 부여한다. 그리고 공격력 <color=#f26c1c>80%</color> 범위 <color=#8679e8>산성 피해</color>를 준다. 클루카이의 액티브 공격으로 받는 피해 <color=#f26c1c>+30%</color>.\n부여자가 쓰러질 때 해제. 산성계 디버프.",
             "effectFollowType": "1",
             "iconName": "Buff_ClukaySSR2",
             "isShow": true,
@@ -8661,7 +8661,7 @@
         {
             "id": 340704,
             "name": "독성 침투",
-            "description": "행동 종료 시, <color=#3487e0>강산 퍼붓기</color>를 <color=#f26c1c>1스택</color> 받는다. 지속 시간 <color=#f26c1c>2턴</color>. 그리고 부여자가 그 <color=#f26c1c>주위 반경 4칸 이내</color>의 <color=#3487e0>독성 침투</color>가 없는 적에게 <color=#3487e0>독성 침투</color>를 <color=#f26c1c>2턴 간</color> 부여한다. 쓰러질 때 부여자가 보유자 및 그 <color=#f26c1c>주위 반경 4칸 이내</color>의 모든 적에게 <color=#3487e0>독성 침투</color>를 <color=#f26c1c>2턴 간</color> 부여한다. 그리고 공격력 <color=#f26c1c>60%</color> 범위 <color=#8679e8>산성 피해</color>를 준다. 클루카이의 액티브 공격을 받을 때 받는 피해 <color=#f26c1c>+30%</color>. 부여자가 쓰러질 때 해제. 산성계 디버프.",
+            "description": "행동 종료 시 <color=#3487e0>강산 주입</color>을 <color=#f26c1c>1스택</color> 받는다. 지속 시간 <color=#f26c1c>2턴</color>. 그리고 부여자가 그 <color=#f26c1c>주위 반경 4칸 이내</color>의 <color=#3487e0>독성 침투</color>가 없는 적에게 <color=#3487e0>독성 침투</color>를 <color=#f26c1c>2턴 간</color> 부여한다.\n쓰러질 때 부여자가 보유자 및 그 <color=#f26c1c>주위 반경 4칸 이내</color>의 모든 적에게 <color=#3487e0>독성 침투</color>를 <color=#f26c1c>2턴 간</color> 부여한다. 그리고 공격력 <color=#f26c1c>80%</color> 범위 <color=#8679e8>산성 피해</color>를 준다. 클루카이의 액티브 공격으로 받는 피해 <color=#f26c1c>+30%</color>.\n부여자가 쓰러질 때 해제. 산성계 디버프.",
             "effectFollowType": "1",
             "iconName": "Buff_ClukaySSR2",
             "isShow": true,
@@ -14167,7 +14167,7 @@
         },
         {
             "id": 6871721,
-            "name": "티탄 수비",
+            "name": "티탄의 방어",
             "description": "안정 지수가 <color=#f26c1c>0</color>보다 높을 때, 받는 피해 <color=#f26c1c>-80%</color>. 정화 불가.",
             "iconName": "Buff_DefUpNeutral",
             "isShow": true,
@@ -19712,21 +19712,21 @@
         },
         {
             "id": 61000090,
-            "name": "경량 관통",
+            "name": "경량탄 관통",
             "description": "경량탄 공격이 대상의 방어력을 <color=#f26c1c>50%</color> 무시한다.",
             "iconName": "Buff_Guild_4",
             "showPriorityIcon": 10
         },
         {
             "id": 61000100,
-            "name": "중형 관통",
+            "name": "표준탄 관통",
             "description": "표준탄 공격이 대상의 방어력 <color=#f26c1c>50%</color> 무시.",
             "iconName": "Buff_Guild_17",
             "showPriorityIcon": 10
         },
         {
             "id": 61000110,
-            "name": "중량 관통",
+            "name": "중량탄 관통",
             "description": "중량탄 공격이 대상의 방어력을 <color=#f26c1c>50%</color> 무시한다.",
             "iconName": "Buff_Guild_5",
             "showPriorityIcon": 10
@@ -21385,8 +21385,8 @@
         },
         {
             "id": 68903011,
-            "name": "진열 강화",
-            "description": "요새 장치를 소환할 때 이 같은 스택 수의 <color=#3487e0>{0}</color> 효과로 변환되어 요새 장치에게 부여한다. 정화 불가.",
+            "name": "진형 강화",
+            "description": "요새 장치를 소환할 때, 같은 스택 수의 <color=#3487e0>{0}</color> 효과로 변환되어 요새 장치에게 부여된다. 정화 불가.",
             "descriptionTips": "0:68905022",
             "iconName": "Buff_MechaGuard3",
             "isShow": true,
