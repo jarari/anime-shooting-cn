@@ -10517,7 +10517,7 @@
         },
         {
             "id": 6166403,
-            "name": "경보 명중 실패",
+            "name": "경보 미발동",
             "description": "0",
             "descriptionBrief": "",
             "descriptionLiterary": "",
@@ -13913,7 +13913,7 @@
         {
             "id": 6282801,
             "name": "단단한 비늘",
-            "description": "자신의 안정 지수가 <color=#f26c1c>0보다 높을</color> 때, 받는 단일 피해 <color=#f26c1c>-90%</color>. \n안정 붕괴 시<color=#f26c1c>주위 3×3칸 밖</color>에서 <color=#f26c1c>7×7칸 안</color> 범위에 <color=#3487e0>{0}</color> 타일을 <color=#f26c1c>2턴</color>간 생성한다. \n안정 붕괴 상태에서 안정 회복 효과를 받지 못하고 <color=#f26c1c>2턴</color> 후 안정 지수를 전부 회복한다. \n자신의 이동력은 이동 계열 효과 영향을 받지 않는다.",
+            "description": "자신의 안정 지수가 <color=#f26c1c>0보다 높을</color> 때, 받는 단일 피해 <color=#f26c1c>-90%</color>. \n안정 붕괴 시 <color=#f26c1c>주위 3×3칸 밖</color>에서 <color=#f26c1c>7×7칸 안</color> 범위에 <color=#3487e0>{0}</color> 타일을 <color=#f26c1c>2턴</color> 간 생성한다. \n안정 붕괴 상태에서 안정 회복 효과를 받지 못하고, <color=#f26c1c>2턴</color> 후 안정 지수를 전부 회복한다. \n이동 계열 효과를 받아도 이동력이 변하지 않는다.",
             "descriptionTips": "1:90219",
             "descriptionBrief": "안정 지수가 <color=#f26c1c>0보다 높을</color> 경우 받는 단일 피해 차감. 안정 붕괴 시 <color=#f26c1c>주위 3×3칸 밖</color>에서 <color=#f26c1c>7×7칸 이내</color>의 범위에 <color=#3487e0>{0}</color> 타일을 생성한다. 안정 붕괴 상태에서 안정 회복 효과를 받지 못하고 <color=#f26c1c>2턴</color> 후 안정 지수를 전부 회복한다. 자신의 이동력은 이동 버프/디버프 효과에 면역이 된다.",
             "descriptionLiterary": "",
@@ -27340,7 +27340,7 @@
         },
         {
             "id": 10030401,
-            "name": "결전기",
+            "name": "궁극기",
             "description": "ID3인타일삭제좀",
             "descriptionBrief": "ID3인타일삭제좀",
             "descriptionLiterary": "",
@@ -40037,7 +40037,7 @@
         {
             "id": 10520905,
             "name": "고유키·극한을 넘어",
-            "description": "결전기 <color=#3487e0>페이탈 드리프트</color>의 효과 범위 너비가 3칸으로 좁아지는 대신, 줄어든 1칸마다 주는 피해 <color=#f26c1c>+10%</color>.",
+            "description": "결전기 <color=#3487e0>페이탈 드리프트</color>의 효과 범위 너비가 3칸으로 좁아지는 대신, 줄어든 너비 1칸마다 주는 피해 <color=#f26c1c>+10%</color>.",
             "descriptionBrief": "",
             "descriptionLiterary": "",
             "descriptionType": 5,
@@ -43652,9 +43652,9 @@
         {
             "id": 62821301,
             "name": "기척 표식",
-            "description": "가장 가까운 적 하나에게 <color=#3487e0>{0}</color> 효과를 <color=#f26c1c>3턴 간</color> 부여한다. 한 턴에 <color=#3487e0>{0}</color> 효과를 보유한 적을 공격 못했을 경우 자신은 체력을 <color=#f26c1c>15%</color> 회복한다.",
+            "description": "가장 가까운 적 하나에게 <color=#3487e0>{0}</color> 효과를 <color=#f26c1c>3턴 간</color> 부여한다. 해당 턴에 <color=#3487e0>{0}</color> 효과를 보유한 적을 공격하지 않았을 경우, 자신의 체력을 <color=#f26c1c>15%</color> 회복한다.",
             "descriptionTips": "0:6282301",
-            "descriptionBrief": "가장 가까운 적 하나에게 <color=#3487e0>{0}</color> 효과를 부여한다. 한 턴에 <color=#3487e0>{0}</color> 효과를 보유한 적을 공격 못했을 경우 자신은 체력을 회복한다.",
+            "descriptionBrief": "가장 가까운 적 하나에게 <color=#3487e0>{0}</color> 효과를 부여한다. 해당 턴에 <color=#3487e0>{0}</color> 효과를 보유한 적을 공격하지 않았을 경우 자신의 체력을 회복한다.",
             "descriptionLiterary": "",
             "descriptionType": 2,
             "upgradeDescription": "",
