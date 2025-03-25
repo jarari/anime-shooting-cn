@@ -2,6 +2,7 @@
     "data": [
         {
             "id": 1,
+            "version": "1.0",
             "name": "쌍추연역",
             "difficultyType": 1,
             "difficultyGroup": 101,
@@ -23,10 +24,12 @@
                 "3": 12,
                 "1": 1
             },
-            "chapterReward": "12:1,1:50,25:1000|12:1,1:100,8301:1000|12:2,1:150,2:1000"
+            "chapterReward": "12:1,1:50,25:1000|12:1,1:100,8301:1000|12:2,1:150,2:1000",
+            "priority": 81
         },
         {
             "id": 2,
+            "version": "2.0",
             "name": "제2신호",
             "difficultyType": 1,
             "difficultyGroup": 102,
@@ -50,10 +53,12 @@
                 "3": 12,
                 "1": 1
             },
-            "chapterReward": "12:1,1:50,25:1000|12:1,1:100,8301:1000|12:2,1:150,2:1000"
+            "chapterReward": "12:1,1:50,25:1000|12:1,1:100,8301:1000|12:2,1:150,2:1000",
+            "priority": 82
         },
         {
             "id": 3,
+            "version": "3.0",
             "name": "오버피팅",
             "difficultyType": 1,
             "difficultyGroup": 103,
@@ -77,10 +82,12 @@
                 "3": 12,
                 "1": 1
             },
-            "chapterReward": "12:1,1:50,25:2000|12:1,1:100,8301:2000|12:2,1:150,2:2000"
+            "chapterReward": "12:1,1:50,25:2000|12:1,1:100,8301:2000|12:2,1:150,2:2000",
+            "priority": 83
         },
         {
             "id": 4,
+            "version": "4.0",
             "name": "역순행렬",
             "difficultyType": 1,
             "difficultyGroup": 104,
@@ -104,10 +111,12 @@
                 "3": 12,
                 "1": 1
             },
-            "chapterReward": "12:1,1:50,25:3000|12:1,1:100,8301:3000|12:2,1:150,2:3000"
+            "chapterReward": "12:1,1:50,25:3000|12:1,1:100,8301:3000|12:2,1:150,2:3000",
+            "priority": 84
         },
         {
             "id": 5,
+            "version": "5.0",
             "name": "복합공명",
             "difficultyType": 1,
             "difficultyGroup": 105,
@@ -131,10 +140,12 @@
                 "3": 12,
                 "1": 1
             },
-            "chapterReward": "12:1,1:50,25:6000|12:1,1:100,8301:6000|12:2,1:150,2:6000"
+            "chapterReward": "12:1,1:50,25:6000|12:1,1:100,8301:6000|12:2,1:150,2:6000",
+            "priority": 85
         },
         {
             "id": 6,
+            "version": "6.0",
             "name": "단현주기",
             "difficultyType": 1,
             "difficultyGroup": 106,
@@ -158,10 +169,12 @@
                 "3": 12,
                 "1": 1
             },
-            "chapterReward": "12:1,1:50,25:9000|12:1,1:100,8301:9000|12:2,1:150,2:9000"
+            "chapterReward": "12:1,1:50,25:9000|12:1,1:100,8301:9000|12:2,1:150,2:9000",
+            "priority": 86
         },
         {
             "id": 7,
+            "version": "7.0",
             "name": "방사감쇠",
             "difficultyType": 1,
             "difficultyGroup": 107,
@@ -185,10 +198,12 @@
                 "3": 12,
                 "1": 1
             },
-            "chapterReward": "12:1,1:50,25:10000|12:1,1:100,8301:10000|12:2,1:150,2:10000"
+            "chapterReward": "12:1,1:50,25:10000|12:1,1:100,8301:10000|12:2,1:150,2:10000",
+            "priority": 87
         },
         {
             "id": 8,
+            "version": "8.0",
             "name": "잔상효과",
             "difficultyType": 1,
             "difficultyGroup": 108,
@@ -212,7 +227,127 @@
                 "3": 12,
                 "1": 1
             },
-            "chapterReward": "12:1,1:50,25:10000|12:1,1:100,8301:10000|12:2,1:150,2:10000"
+            "chapterReward": "12:1,1:50,25:10000|12:1,1:100,8301:10000|12:2,1:150,2:10000",
+            "priority": 88
+        },
+        {
+            "id": 1001,
+            "version": "8.3",
+            "name": "잿빛의 날개 속에서",
+            "difficultyType": 1,
+            "difficultyGroup": 301,
+            "type": 1,
+            "stageGroup": 3001,
+            "relation": 101,
+            "activityId": 401,
+            "tabName": "",
+            "planId": 70001,
+            "unlockId": 99008,
+            "chapterReward1": [
+                15,
+                30,
+                45
+            ],
+            "chapterDes": "当第一枚灰烬落在羽翼之中时，人们终将看到被遮蔽的真相。",
+            "background": "Img_BattleIndexBg_Story8_3",
+            "mapBackground": "Img_ChapterBg_8_3",
+            "decoration": "UIChapterDecoration1Item",
+            "effects": "story_sandwind",
+            "chapterRewardShow": {
+                "2": 1,
+                "3": 1,
+                "1": 1
+            },
+            "chapterReward": "1:50|1:100|1:150"
+        },
+        {
+            "id": 1002,
+            "version": "8.7",
+            "name": "씁쓸한 가시덩굴과 수레국화",
+            "difficultyType": 1,
+            "difficultyGroup": 302,
+            "type": 1,
+            "stageGroup": 3002,
+            "relation": 102,
+            "tabName": "",
+            "planId": 70002,
+            "unlockId": 99009,
+            "chapterReward1": [
+                9,
+                18,
+                27
+            ],
+            "chapterDes": "疼痛已经成为罪证，所有的救赎都会变成毒药。",
+            "background": "Img_BattleIndexBg_Story8_7",
+            "mapBackground": "Img_ChapterBg_8_7",
+            "decoration": "UIChapterDecoration3Item",
+            "effects": "story_sandwind",
+            "chapterRewardShow": {
+                "2": 1,
+                "3": 1,
+                "1": 1
+            },
+            "chapterReward": "1:50|1:100|1:150"
+        },
+        {
+            "id": 1003,
+            "version": "9.0",
+            "name": "원일점·상",
+            "difficultyType": 1,
+            "difficultyGroup": 310,
+            "type": 1,
+            "stageGroup": 4013,
+            "relation": 110,
+            "activityId": 901,
+            "tabName": "",
+            "planId": 70010,
+            "unlockId": 99010,
+            "chapterReward1": [
+                16,
+                32,
+                48
+            ],
+            "chapterDes": "废墟之下，火种在黑暗中发芽。",
+            "background": "Img_BattleIndexBg_Story9",
+            "mapBackground": "Img_ChapterBg_9",
+            "decoration": "UIChapterDecoration5Item",
+            "effects": "story_sandwind",
+            "chapterRewardShow": {
+                "2": 1,
+                "3": 1,
+                "1": 1
+            },
+            "chapterReward": "12:1,1:50,25:12000|12:1,1:100,8301:12000|12:2,1:150,2:12000"
+        },
+        {
+            "id": 1004,
+            "version": "10.0",
+            "name": "원일점·하",
+            "difficultyType": 1,
+            "difficultyGroup": 311,
+            "type": 1,
+            "stageGroup": 4014,
+            "relation": 111,
+            "activityId": 911,
+            "tabName": "",
+            "planId": 70011,
+            "unlockId": 99011,
+            "chapterReward1": [
+                16,
+                32,
+                48
+            ],
+            "chapterDes": "在意识消失前，把这份疼痛刻进弹匣。",
+            "background": "Img_BattleIndexBg_Story9",
+            "mapBackground": "Img_ChapterBg_9",
+            "decoration": "UIChapterDecoration7Item",
+            "effects": "story_sandwind",
+            "chapterRewardShow": {
+                "2": 1,
+                "3": 1,
+                "1": 1
+            },
+            "chapterReward": "12:1,1:50,25:12000|12:1,1:100,8301:12000|12:2,1:150,2:12000"
         },
         {
             "id": 3001,
@@ -222,9 +357,8 @@
             "type": 3,
             "stageGroup": 3001,
             "relation": 101,
-            "tab": 1,
             "activityId": 401,
-            "tabName": "스토리 전역",
+            "tabName": "",
             "planId": 70001,
             "unlockId": 10997,
             "chapterReward1": [
@@ -252,8 +386,7 @@
             "type": 3,
             "stageGroup": 3002,
             "relation": 102,
-            "tab": 1,
-            "tabName": "스토리 전역",
+            "tabName": "",
             "planId": 70002,
             "unlockId": 10997,
             "chapterReward1": [
@@ -279,7 +412,7 @@
             "type": 3,
             "stageGroup": 4006,
             "relation": 103,
-            "tab": 2,
+            "tab": 1,
             "tabName": "이벤트 스토리",
             "planId": 70003,
             "unlockId": 10997,
@@ -306,7 +439,7 @@
             "type": 3,
             "stageGroup": 4007,
             "relation": 104,
-            "tab": 2,
+            "tab": 1,
             "activityId": 501,
             "tabName": "이벤트 스토리",
             "planId": 70004,
@@ -334,7 +467,7 @@
             "type": 3,
             "stageGroup": 4008,
             "relation": 105,
-            "tab": 2,
+            "tab": 1,
             "activityId": 511,
             "tabName": "이벤트 스토리",
             "planId": 70005,
@@ -364,7 +497,7 @@
             "type": 3,
             "stageGroup": 4009,
             "relation": 106,
-            "tab": 2,
+            "tab": 1,
             "activityId": 601,
             "tabName": "이벤트 스토리",
             "planId": 70006,
@@ -392,7 +525,7 @@
             "type": 3,
             "stageGroup": 4010,
             "relation": 107,
-            "tab": 2,
+            "tab": 1,
             "activityId": 611,
             "tabName": "이벤트 스토리",
             "planId": 70007,
@@ -422,7 +555,7 @@
             "type": 3,
             "stageGroup": 4011,
             "relation": 108,
-            "tab": 2,
+            "tab": 1,
             "activityId": 701,
             "tabName": "이벤트 스토리",
             "planId": 70008,
@@ -452,7 +585,7 @@
             "type": 3,
             "stageGroup": 4012,
             "relation": 109,
-            "tab": 2,
+            "tab": 1,
             "activityId": 801,
             "tabName": "이벤트 스토리",
             "planId": 70009,
@@ -482,9 +615,8 @@
             "type": 3,
             "stageGroup": 4013,
             "relation": 110,
-            "tab": 1,
             "activityId": 901,
-            "tabName": "스토리 전역",
+            "tabName": "",
             "planId": 70010,
             "unlockId": 29301,
             "chapterReward1": [
@@ -512,9 +644,8 @@
             "type": 3,
             "stageGroup": 4014,
             "relation": 111,
-            "tab": 1,
             "activityId": 911,
-            "tabName": "스토리 전역",
+            "tabName": "",
             "planId": 70011,
             "unlockId": 29301,
             "chapterReward1": [
@@ -542,7 +673,7 @@
             "type": 3,
             "stageGroup": 4015,
             "relation": 112,
-            "tab": 2,
+            "tab": 1,
             "activityId": 1001,
             "tabName": "이벤트 스토리",
             "planId": 70012,
@@ -572,7 +703,7 @@
             "type": 3,
             "stageGroup": 4016,
             "relation": 113,
-            "tab": 2,
+            "tab": 1,
             "activityId": 1201,
             "tabName": "이벤트 스토리",
             "planId": 70013,
@@ -602,7 +733,7 @@
             "type": 3,
             "stageGroup": 4017,
             "relation": 114,
-            "tab": 2,
+            "tab": 1,
             "activityId": 1301,
             "tabName": "이벤트 스토리",
             "planId": 70014,
@@ -632,7 +763,7 @@
             "type": 3,
             "stageGroup": 4018,
             "relation": 115,
-            "tab": 2,
+            "tab": 1,
             "activityId": 1401,
             "tabName": "이벤트 스토리",
             "planId": 70015,
@@ -662,7 +793,7 @@
             "type": 3,
             "stageGroup": 4019,
             "relation": 116,
-            "tab": 2,
+            "tab": 1,
             "activityId": 1501,
             "tabName": "이벤트 스토리",
             "planId": 70016,
@@ -692,7 +823,7 @@
             "type": 3,
             "stageGroup": 4020,
             "relation": 117,
-            "tab": 2,
+            "tab": 1,
             "activityId": 1601,
             "tabName": "이벤트 스토리",
             "planId": 70017,
@@ -722,7 +853,7 @@
             "type": 3,
             "stageGroup": 4021,
             "relation": 118,
-            "tab": 2,
+            "tab": 1,
             "activityId": 1701,
             "tabName": "이벤트 스토리",
             "planId": 70018,
@@ -752,7 +883,7 @@
             "type": 3,
             "stageGroup": 4022,
             "relation": 119,
-            "tab": 2,
+            "tab": 1,
             "activityId": 1801,
             "tabName": "이벤트 스토리",
             "planId": 70019,
@@ -765,6 +896,66 @@
             "chapterDes": "",
             "background": "Img_Branch_Nikketa",
             "mapBackground": "Img_Nikketa_ChapterBg_1",
+            "decoration": "UIChapterDecoration1Item",
+            "effects": "story_sandwind",
+            "chapterRewardShow": {
+                "2": 1,
+                "3": 1,
+                "1": 1
+            },
+            "chapterReward": "1:50|1:100|1:150"
+        },
+        {
+            "id": 3020,
+            "name": "错位锚定·上篇",
+            "difficultyType": 1,
+            "difficultyGroup": 320,
+            "type": 3,
+            "stageGroup": 4023,
+            "relation": 120,
+            "tab": 1,
+            "activityId": 1901,
+            "tabName": "이벤트 스토리",
+            "planId": 70020,
+            "unlockId": 29301,
+            "chapterReward1": [
+                21,
+                45,
+                69
+            ],
+            "chapterDes": "",
+            "background": "Img_Branch_Leva",
+            "mapBackground": "Img_Leva_ChapterBg_1",
+            "decoration": "UIChapterDecoration1Item",
+            "effects": "story_sandwind",
+            "chapterRewardShow": {
+                "2": 1,
+                "3": 1,
+                "1": 1
+            },
+            "chapterReward": "1:50|1:100|1:150"
+        },
+        {
+            "id": 3021,
+            "name": "错位锚定·下篇",
+            "difficultyType": 1,
+            "difficultyGroup": 321,
+            "type": 3,
+            "stageGroup": 4024,
+            "relation": 121,
+            "tab": 1,
+            "activityId": 2001,
+            "tabName": "이벤트 스토리",
+            "planId": 70021,
+            "unlockId": 29301,
+            "chapterReward1": [
+                21,
+                42,
+                66
+            ],
+            "chapterDes": "",
+            "background": "Img_Branch_Robella",
+            "mapBackground": "Img_Robella_ChapterBg_1",
             "decoration": "UIChapterDecoration1Item",
             "effects": "story_sandwind",
             "chapterRewardShow": {
@@ -1343,7 +1534,68 @@
             "chapterReward": "1:50|1:100|1:150"
         },
         {
+            "id": 4023,
+            "name": "错位锚定·上篇",
+            "difficultyType": 1,
+            "difficultyGroup": 423,
+            "type": 4,
+            "stageGroup": 4023,
+            "relation": 120,
+            "notes": 1,
+            "activityId": 1901,
+            "tabName": "스토리 모드",
+            "planId": 500109,
+            "unlockId": 29301,
+            "chapterReward1": [
+                21,
+                45,
+                69
+            ],
+            "chapterDes": "",
+            "background": "Img_Branch_Leva",
+            "mapBackground": "Img_Leva_ChapterBg_1",
+            "decoration": "UIChapterDecoration1Item",
+            "effects": "story_sandwind",
+            "chapterRewardShow": {
+                "2": 1,
+                "3": 1,
+                "1": 1
+            },
+            "chapterReward": "1:50|1:100|1:150"
+        },
+        {
+            "id": 4024,
+            "name": "错位锚定·下篇",
+            "difficultyType": 1,
+            "difficultyGroup": 424,
+            "type": 4,
+            "stageGroup": 4024,
+            "relation": 121,
+            "notes": 1,
+            "activityId": 2001,
+            "tabName": "스토리 모드",
+            "planId": 500111,
+            "unlockId": 29301,
+            "chapterReward1": [
+                21,
+                42,
+                66
+            ],
+            "chapterDes": "",
+            "background": "Img_Branch_Robella",
+            "mapBackground": "Img_Robella_ChapterBg_1",
+            "decoration": "UIChapterDecoration1Item",
+            "effects": "story_sandwind",
+            "chapterRewardShow": {
+                "2": 1,
+                "3": 1,
+                "1": 1
+            },
+            "chapterReward": "1:50|1:100|1:150"
+        },
+        {
             "id": 91001,
+            "version": "1.0",
             "name": "쌍추연역",
             "difficultyType": 2,
             "difficultyGroup": 101,
@@ -1368,6 +1620,7 @@
         },
         {
             "id": 91002,
+            "version": "2.0",
             "name": "제2신호",
             "difficultyType": 2,
             "difficultyGroup": 102,
@@ -1392,6 +1645,7 @@
         },
         {
             "id": 91003,
+            "version": "3.0",
             "name": "오버피팅",
             "difficultyType": 2,
             "difficultyGroup": 103,
@@ -1416,6 +1670,7 @@
         },
         {
             "id": 91004,
+            "version": "4.0",
             "name": "역순행렬",
             "difficultyType": 2,
             "difficultyGroup": 104,
@@ -1440,6 +1695,7 @@
         },
         {
             "id": 91005,
+            "version": "5.0",
             "name": "복합공명",
             "difficultyType": 2,
             "difficultyGroup": 105,
@@ -1464,6 +1720,7 @@
         },
         {
             "id": 91006,
+            "version": "6.0",
             "name": "단현주기",
             "difficultyType": 2,
             "difficultyGroup": 106,
@@ -1488,6 +1745,7 @@
         },
         {
             "id": 91007,
+            "version": "7.0",
             "name": "방사감쇠",
             "difficultyType": 2,
             "difficultyGroup": 107,
@@ -1512,6 +1770,7 @@
         },
         {
             "id": 91008,
+            "version": "8.0",
             "name": "잔상효과",
             "difficultyType": 2,
             "difficultyGroup": 108,
@@ -1533,6 +1792,125 @@
                 "1": 1
             },
             "chapterReward": "12:1,1:50,25:12000|12:1,1:100,8301:12000|12:2,1:150,2:12000"
+        },
+        {
+            "id": 91009,
+            "version": "8.3",
+            "name": "잿빛의 날개 속에서",
+            "difficultyType": 2,
+            "difficultyGroup": 301,
+            "type": 1,
+            "stageGroup": 93001,
+            "relation": 201,
+            "activityId": 402,
+            "tabName": "",
+            "planId": 70001,
+            "unlockId": 91008,
+            "chapterReward1": [
+                5,
+                10,
+                15
+            ],
+            "chapterDes": "当第一枚灰烬落在羽翼之中时，人们终将看到被遮蔽的真相。",
+            "background": "Img_BattleIndexBg_Story8_3",
+            "mapBackground": "Img_ChapterBg_8_3",
+            "decoration": "UIChapterDecoration2Item",
+            "effects": "story_sandwind",
+            "chapterRewardShow": {
+                "2": 1,
+                "3": 1,
+                "1": 1
+            },
+            "chapterReward": "1:50|1:100|1:150"
+        },
+        {
+            "id": 91010,
+            "version": "8.7",
+            "name": "씁쓸한 가시덩굴과 수레국화",
+            "difficultyType": 2,
+            "difficultyGroup": 302,
+            "type": 1,
+            "stageGroup": 93002,
+            "relation": 202,
+            "tabName": "",
+            "planId": 70002,
+            "unlockId": 91009,
+            "chapterReward1": [
+                5,
+                10,
+                15
+            ],
+            "chapterDes": "疼痛已经成为罪证，所有的救赎都会变成毒药。",
+            "background": "Img_BattleIndexBg_Story8_7",
+            "mapBackground": "Img_ChapterBg_8_7",
+            "decoration": "UIChapterDecoration4Item",
+            "effects": "story_sandwind",
+            "chapterRewardShow": {
+                "2": 1,
+                "3": 1,
+                "1": 1
+            },
+            "chapterReward": "1:50|1:100|1:150"
+        },
+        {
+            "id": 91011,
+            "version": "9.0",
+            "name": "원일점·상",
+            "difficultyType": 2,
+            "difficultyGroup": 310,
+            "type": 1,
+            "stageGroup": 94013,
+            "relation": 210,
+            "activityId": 902,
+            "tabName": "",
+            "planId": 70010,
+            "unlockId": 91010,
+            "chapterReward1": [
+                5,
+                10,
+                15
+            ],
+            "chapterDes": "废墟之下，火种在黑暗中发芽。",
+            "background": "Img_BattleIndexBg_Story9",
+            "mapBackground": "Img_ChapterBg_9",
+            "decoration": "UIChapterDecoration6Item",
+            "effects": "story_sandwind",
+            "chapterRewardShow": {
+                "2": 1,
+                "3": 1,
+                "1": 1
+            },
+            "chapterReward": "12:1,1:50,25:14000|12:1,1:100,8301:14000|12:2,1:150,2:14000"
+        },
+        {
+            "id": 91012,
+            "version": "10.0",
+            "name": "원일점·하",
+            "difficultyType": 2,
+            "difficultyGroup": 311,
+            "type": 1,
+            "stageGroup": 94014,
+            "relation": 211,
+            "activityId": 912,
+            "tabName": "",
+            "planId": 70011,
+            "unlockId": 91011,
+            "chapterReward1": [
+                5,
+                10,
+                15
+            ],
+            "chapterDes": "在意识消失前，把这份疼痛刻进弹匣。",
+            "background": "Img_BattleIndexBg_Story9",
+            "mapBackground": "Img_ChapterBg_9",
+            "decoration": "UIChapterDecoration8Item",
+            "effects": "story_sandwind",
+            "chapterRewardShow": {
+                "2": 1,
+                "3": 1,
+                "1": 1
+            },
+            "chapterReward": "12:1,1:50,25:14000|12:1,1:100,8301:14000|12:2,1:150,2:14000"
         },
         {
             "id": 93001,
@@ -2038,6 +2416,60 @@
             "chapterDes": "",
             "background": "Img_Branch_Nikketa",
             "mapBackground": "Img_Nikketa_ChapterBg_1",
+            "chapterRewardShow": {
+                "2": 1,
+                "3": 1,
+                "1": 1
+            },
+            "chapterReward": "1:50|1:100|1:150"
+        },
+        {
+            "id": 93020,
+            "name": "错位锚定·上篇",
+            "difficultyType": 2,
+            "difficultyGroup": 320,
+            "type": 3,
+            "stageGroup": 94023,
+            "relation": 220,
+            "tab": 1,
+            "activityId": 1902,
+            "tabName": "이벤트 스토리",
+            "planId": 70020,
+            "chapterReward1": [
+                5,
+                10,
+                15
+            ],
+            "chapterDes": "",
+            "background": "Img_Branch_Leva",
+            "mapBackground": "Img_Leva_ChapterBg_1",
+            "chapterRewardShow": {
+                "2": 1,
+                "3": 1,
+                "1": 1
+            },
+            "chapterReward": "1:50|1:100|1:150"
+        },
+        {
+            "id": 93021,
+            "name": "错位锚定·下篇",
+            "difficultyType": 2,
+            "difficultyGroup": 321,
+            "type": 3,
+            "stageGroup": 94024,
+            "relation": 221,
+            "tab": 1,
+            "activityId": 2002,
+            "tabName": "이벤트 스토리",
+            "planId": 70021,
+            "chapterReward1": [
+                5,
+                10,
+                15
+            ],
+            "chapterDes": "",
+            "background": "Img_Branch_Robella",
+            "mapBackground": "Img_Robella_ChapterBg_1",
             "chapterRewardShow": {
                 "2": 1,
                 "3": 1,
@@ -2579,6 +3011,64 @@
             "chapterReward": "1:50|1:100|1:150"
         },
         {
+            "id": 94023,
+            "name": "错位锚定·上篇",
+            "difficultyType": 2,
+            "difficultyGroup": 423,
+            "type": 4,
+            "stageGroup": 94023,
+            "relation": 220,
+            "notes": 1,
+            "activityId": 1902,
+            "tabName": "물자 모드",
+            "planId": 51039,
+            "chapterReward1": [
+                5,
+                10,
+                15
+            ],
+            "chapterDes": "",
+            "background": "Img_Branch_Leva",
+            "mapBackground": "Img_Leva_ChapterBg_1",
+            "decoration": "UIChapterDecoration1Item",
+            "effects": "story_sandwind",
+            "chapterRewardShow": {
+                "2": 1,
+                "3": 1,
+                "1": 1
+            },
+            "chapterReward": "1:50|1:100|1:150"
+        },
+        {
+            "id": 94024,
+            "name": "错位锚定·下篇",
+            "difficultyType": 2,
+            "difficultyGroup": 424,
+            "type": 4,
+            "stageGroup": 94024,
+            "relation": 221,
+            "notes": 1,
+            "activityId": 2002,
+            "tabName": "물자 모드",
+            "planId": 51041,
+            "chapterReward1": [
+                5,
+                10,
+                15
+            ],
+            "chapterDes": "",
+            "background": "Img_Branch_Robella",
+            "mapBackground": "Img_Robella_ChapterBg_1",
+            "decoration": "UIChapterDecoration1Item",
+            "effects": "story_sandwind",
+            "chapterRewardShow": {
+                "2": 1,
+                "3": 1,
+                "1": 1
+            },
+            "chapterReward": "1:50|1:100|1:150"
+        },
+        {
             "id": 994001,
             "name": "잿빛의 날개 속에서",
             "difficultyType": 3,
@@ -2841,6 +3331,34 @@
             "chapterDes": "",
             "background": "Img_Branch_Nikketa",
             "mapBackground": "Img_Nikketa_ChapterBg_1"
+        },
+        {
+            "id": 994023,
+            "name": "错位锚定·上篇",
+            "difficultyType": 3,
+            "difficultyGroup": 99423,
+            "type": 4,
+            "stageGroup": 994023,
+            "activityId": 1903,
+            "tabName": "챌린지 모드",
+            "planId": 51040,
+            "chapterDes": "",
+            "background": "Img_Branch_Leva",
+            "mapBackground": "Img_Leva_ChapterBg_1"
+        },
+        {
+            "id": 994024,
+            "name": "错位锚定·下篇",
+            "difficultyType": 3,
+            "difficultyGroup": 99424,
+            "type": 4,
+            "stageGroup": 994024,
+            "activityId": 2003,
+            "tabName": "챌린지 모드",
+            "planId": 51042,
+            "chapterDes": "",
+            "background": "Img_Branch_Robella",
+            "mapBackground": "Img_Robella_ChapterBg_1"
         }
     ]
 }
