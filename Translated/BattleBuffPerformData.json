@@ -13929,7 +13929,7 @@
         {
             "id": 6741403,
             "name": "경비",
-            "description": "받는 피해가 <color=#f26c1c>20%</color> 증가하고, 주는 피해도 <color=#f26c1c>20%</color> 증가합니다. 중첩 가능하며 해제할 수 없습니다.",
+            "description": "받는 피해가 <color=#f26c1c>20%</color> 증가하고, 주는 피해도 <color=#f26c1c>20%</color> 증가한다. 중첩 가능. 정화 불가.",
             "iconName": "Buff_CountHit",
             "isShow": true,
             "buffHeadShow": 1,
@@ -13947,7 +13947,7 @@
         {
             "id": 6761411,
             "name": "기원",
-            "description": "방어력이 <color=#f26c1c>50%</color> 증가합니다. 턴 시작 시, 자신이 보유한 연소계 디버프 1개마다 <color=#3487e0>기원</color> 1중첩을 제거합니다. <color=#3487e0>기원</color>이 여전히 <color=#f26c1c>3중첩</color> 이상이라면, 추가로 <color=#3487e0>{0}</color>를 부여합니다. 정화 불가.",
+            "description": "방어력이 <color=#f26c1c>50%</color> 증가한다. 턴 시작 시, 자신이 보유한 연소계 디버프 1개마다 <color=#3487e0>기원</color> 1중첩을 제거합니다. <color=#3487e0>기원</color>이 여전히 <color=#f26c1c>3중첩</color> 이상이라면, 추가로 <color=#3487e0>{0}</color> 효과를 부여한다. 정화 불가.",
             "descriptionTips": "0:6761412",
             "iconName": "Buff_Lumi1",
             "isShow": true,
@@ -13957,7 +13957,7 @@
         {
             "id": 6761412,
             "name": "먼지 쌓인 소망",
-            "description": "공격력이 <color=#f26c1c>50%</color> 증가합니다. 턴 시작 시, <color=#3487e0>{0}</color>가 <color=#f26c1c>3중첩</color> 미만이고 <color=#3487e0>먼지 쌓인 소망</color>을 보유하고 있다면, <color=#3487e0>먼지 쌓인 소망</color>을 제거합니다. 정화 불가.",
+            "description": "공격력이 <color=#f26c1c>50%</color> 증가한다. 턴 시작 시, <color=#3487e0>{0}</color>가 <color=#f26c1c>3중첩</color> 미만이고 <color=#3487e0>먼지 쌓인 소망</color>을 보유하고 있다면, <color=#3487e0>먼지 쌓인 소망</color>을 제거한다. 정화 불가.",
             "descriptionTips": "0:6761411",
             "buffEffect": "Skill/6761401_Ice",
             "effectPlayTime": [
@@ -17420,7 +17420,7 @@
         {
             "id": 10480001,
             "name": "그을림",
-            "description": "행동 종료 시, 부여자가 대상에게 <color=#f26c1c>7%</color>의 공격력으로 <color=#e67129>연소 피해</color>를 입히며, 추가로 <color=#f26c1c>1층</color>이 쌓일 때마다 피해 계수가 <color=#f26c1c>7%</color> 증가하고, 층수를 리셋합니다. 적 유닛으로부터 받은 <color=#e67129>연소 피해</color>를 받을 때마다 <color=#f26c1c>1층</color>이 증가하며, 최대 <color=#f26c1c>12층</color>까지 쌓을 수 있습니다. 부여자가 사망하면 해제됩니다. 정화 불가 연소계 디버프.",
+            "description": "행동 종료 시, 부여자가 대상에게 <color=#f26c1c>7%</color>의 공격력으로 <color=#e67129>연소 피해</color>를 입히며, 추가로 <color=#f26c1c>1스택</color>이 쌓일 때마다 피해 계수가 <color=#f26c1c>7%</color> 증가한다. 피해를 가한 후 스택은 리셋된다. 적 유닛에게 <color=#e67129>연소 피해</color>를 받을 때마다 <color=#f26c1c>1스택</color> 증가합니다. 최대 중첩 <color=#f26c1c>12스택</color>. 부여자가 사망하면 해제됩니다. 정화 불가 연소계 디버프.",
             "buffEffect": "Buff/Dot_burn",
             "effectPlayTime": [
                 1
@@ -17443,7 +17443,7 @@
         {
             "id": 10480002,
             "name": "그을림",
-            "description": "행동 종료 시, 부여자가 대상에게 <color=#f26c1c>7%</color>의 공격력으로 <color=#e67129>연소 피해</color>를 입히며, 추가로 <color=#f26c1c>1층</color>이 쌓일 때마다 피해 계수가 <color=#f26c1c>7%</color> 증가하고, 층수를 리셋합니다. 적 유닛으로부터 받은 <color=#e67129>연소 피해</color>를 받을 때마다 <color=#f26c1c>1층</color>이 증가하며, 쌓을 수 있습니다. 부여자가 사망하면 해제됩니다. 정화 불가 연소계 디버프.",
+            "description": "행동 종료 시, 부여자가 대상에게 <color=#f26c1c>7%</color>의 공격력으로 <color=#e67129>연소 피해</color>를 입히며, 추가로 <color=#f26c1c>1스택</color>이 쌓일 때마다 피해 계수가 <color=#f26c1c>7%</color> 증가한다. 피해를 가한 후 스택은 리셋된다. 적 유닛에게 <color=#e67129>연소 피해</color>를 받을 때마다 <color=#f26c1c>1스택</color> 증가합니다. 중첩 가능. 부여자가 사망하면 해제됩니다. 정화 불가 연소계 디버프.",
             "buffEffect": "Buff/Dot_burn",
             "effectPlayTime": [
                 1
@@ -17466,7 +17466,7 @@
         {
             "id": 10480003,
             "name": "그을림",
-            "description": "행동 종료 시, 부여자가 대상에게 <color=#f26c1c>10%</color>의 공격력으로 <color=#e67129>연소 피해</color>를 입히며, 추가로 <color=#f26c1c>1층</color>이 쌓일 때마다 피해 계수가 <color=#f26c1c>10%</color> 증가하고, 층수를 리셋합니다. 적 유닛으로부터 받은 <color=#e67129>연소 피해</color>를 받을 때마다 <color=#f26c1c>2층</color>이 증가하며, 쌓을 수 있습니다. 정화 불가 연소계 디버프.",
+            "description": "행동 종료 시, 부여자가 대상에게 <color=#f26c1c>10%</color>의 공격력으로 <color=#e67129>연소 피해</color>를 입히며, 추가로 <color=#f26c1c>1스택</color>이 쌓일 때마다 피해 계수가 <color=#f26c1c>10%</color> 증가한다. 피해를 가한 후 스택은 리셋된다. 적 유닛에게 <color=#e67129>연소 피해</color>를 받을 때마다 <color=#f26c1c>2스택</color> 증가합니다. 중첩 가능. 정화 불가 연소계 디버프.",
             "buffEffect": "Buff/Dot_burn",
             "effectPlayTime": [
                 1
@@ -17615,7 +17615,7 @@
         {
             "id": 10530421,
             "name": "가격 협상",
-            "description": "입히는 피해가 <color=#f26c1c>30%</color> 증가합니다. 일반 공격의 치명타 확률이 <color=#f26c1c>100%</color> 증가합니다. 정화 불가 버프.",
+            "description": "입히는 피해가 <color=#f26c1c>30%</color> 증가한다. 일반 공격의 치명타 확률이 <color=#f26c1c>100%</color> 증가한다. 정화 불가 버프.",
             "iconName": "Buff_CriUp",
             "isShow": true,
             "buffHeadShow": 1,
@@ -17624,7 +17624,7 @@
         {
             "id": 10530422,
             "name": "가격 협상",
-            "description": "입히는 피해가 <color=#f26c1c>60%</color> 증가합니다. 일반 공격의 치명타 확률이 <color=#f26c1c>100%</color> 증가합니다. 지속 시간 종료 시 자신의 모든 안정 지수를 회복합니다. 정화 불가 버프.",
+            "description": "입히는 피해가 <color=#f26c1c>60%</color> 증가한다. 일반 공격의 치명타 확률이 <color=#f26c1c>100%</color> 증가한다. 지속 시간 종료 시 자신의 모든 안정 지수를 회복한다. 정화 불가 버프.",
             "iconName": "Buff_CriUp",
             "isShow": true,
             "buffHeadShow": 1,
@@ -17633,7 +17633,7 @@
         {
             "id": 10530423,
             "name": "가격 협상",
-            "description": "입히는 피해가 <color=#f26c1c>60%</color> 증가합니다. 일반 공격의 치명타 확률이 <color=#f26c1c>100%</color> 증가하고, 치명타 피해가 <color=#f26c1c>50%</color> 증가합니다. 지속 시간 종료 시 자신의 모든 안정 지수를 회복합니다. 정화 불가 버프.",
+            "description": "입히는 피해가 <color=#f26c1c>60%</color> 증가한다. 일반 공격의 치명타 확률이 <color=#f26c1c>100%</color> 증가하고, 치명타 피해가 <color=#f26c1c>50%</color> 증가한다. 지속 시간 종료 시 자신의 모든 안정 지수를 회복한다. 정화 불가 버프.",
             "iconName": "Buff_CriUp",
             "isShow": true,
             "buffHeadShow": 1,
@@ -20401,14 +20401,14 @@
         {
             "id": 61000140,
             "name": "초극한 연소",
-            "description": "연소 피해가 <color=#f26c1c>20%</color> 증가합니다.",
+            "description": "연소 피해가 <color=#f26c1c>20%</color> 증가한다.",
             "iconName": "Buff_Guild_20",
             "showPriorityIcon": 10
         },
         {
             "id": 61000150,
             "name": "초 탁류",
-            "description": "탁류 피해가 <color=#f26c1c>20%</color> 증가합니다.",
+            "description": "탁류 피해가 <color=#f26c1c>20%</color> 증가한다.",
             "iconName": "Buff_Guild_21",
             "showPriorityIcon": 10
         },
@@ -20522,7 +20522,7 @@
         {
             "id": 61000310,
             "name": "부식 흡수",
-            "description": "<color=#8679e8>산성 계열</color> 버프 효과가 있을 때, 주는 피해가 <color=#f26c1c>20%</color> 증가합니다.",
+            "description": "<color=#8679e8>산성 계열</color> 버프 효과가 있을 때, 주는 피해가 <color=#f26c1c>20%</color> 증가한다.",
             "iconName": "Buff_Guild_39",
             "showPriorityIcon": 10
         },
@@ -20536,14 +20536,14 @@
         {
             "id": 61000330,
             "name": "탁류 흡수",
-            "description": "<color=#2caadb>탁류 계열</color> 버프 효과를 보유 중일 때, 주는 피해가 <color=#f26c1c>20%</color> 증가합니다.",
+            "description": "<color=#2caadb>탁류 계열</color> 버프 효과를 보유 중일 때, 주는 피해가 <color=#f26c1c>20%</color> 증가한다.",
             "iconName": "Buff_Guild_44",
             "showPriorityIcon": 10
         },
         {
             "id": 61000340,
             "name": "연소 흡수",
-            "description": "<color=#e67129>연소류</color> 강화 효과가 있을 때, 입히는 피해가 <color=#f26c1c>20%</color> 증가합니다.",
+            "description": "<color=#e67129>연소류</color> 강화 효과가 있을 때, 입히는 피해가 <color=#f26c1c>20%</color> 증가한다.",
             "iconName": "Buff_Guild_20",
             "showPriorityIcon": 10
         },
@@ -20557,7 +20557,7 @@
         {
             "id": 61000360,
             "name": "전도 흡수",
-            "description": "<color=#d4ae08>전도류</color> 버프 효과가 있을 때 가하는 피해가 <color=#f26c1c>20%</color> 증가합니다.",
+            "description": "<color=#d4ae08>전도류</color> 버프 효과가 있을 때 가하는 피해가 <color=#f26c1c>20%</color> 증가한다.",
             "iconName": "Buff_Guild_22",
             "showPriorityIcon": 10
         },
@@ -21003,7 +21003,7 @@
         {
             "id": 61751202,
             "name": "맹렬한 숨결·돌격",
-            "description": "공격받을 때, 공격자에게 <color=#f26c1c>80%</color> 공격력의 물리 피해와 <color=#f26c1c>3 안정 손상</color>을 입히며 최대 <color=#f26c1c>2번</color> 발동됩니다. 자신의 턴 시작 시 제거됩니다. 중립 효과로 해제할 수 없습니다.",
+            "description": "공격받을 때, 공격자에게 <color=#f26c1c>80%</color> 공격력의 물리 피해와 <color=#f26c1c>3 안정 손상</color>을 입히며 최대 <color=#f26c1c>2번</color> 발동됩니다. 자신의 턴 시작 시 제거됩니다. 중립, 정화 불가.",
             "iconName": "Buff_CountUp",
             "isShow": true,
             "buffHeadShow": 1
@@ -21011,7 +21011,7 @@
         {
             "id": 61751401,
             "name": "격노",
-            "description": "받는 안정 상태 피해가 <color=#f26c1c>2포인트</color> 감소하며, 방어력이 <color=#f26c1c>20%</color> 증가하고, 행동력이 <color=#f26c1c>2칸</color> 증가합니다. 버프는 제거할 수 없습니다.",
+            "description": "받는 안정 상태 피해가 <color=#f26c1c>2포인트</color> 감소하며, 방어력이 <color=#f26c1c>20%</color> 증가하고, 이동력이 <color=#f26c1c>2칸</color> 증가합니다. 정화 불가 버프.",
             "buffEffect": "Skill/6175401_Loop",
             "effectPlayTime": [
                 1
@@ -21114,7 +21114,7 @@
         {
             "id": 62002551,
             "name": "이동 상승I",
-            "description": "행동력이 <color=#f26c1c>1칸</color> 증가하며, 중첩 가능합니다. 버프 효과입니다.",
+            "description": "이동력 <color=#f26c1c>1칸</color> 증가. 중첩 가능, 버프.",
             "buffEffect": "Buff/SpeedU|Buff/SpeedU",
             "effectPlayTime": [
                 1,
@@ -21138,7 +21138,7 @@
         {
             "id": 62002552,
             "name": "이동 상승II",
-            "description": "행동력이 <color=#f26c1c>2칸</color> 증가합니다. 중첩 가능합니다. 강화 효과.",
+            "description": "이동력 <color=#f26c1c>2칸</color> 증가. 중첩 가능, 버프.",
             "buffEffect": "Buff/SpeedU|Buff/SpeedU",
             "effectPlayTime": [
                 1,
@@ -21156,7 +21156,7 @@
         {
             "id": 62002553,
             "name": "이동 상승III",
-            "description": "행동력이 <color=#f26c1c>3칸</color> 증가합니다. 중첩 가능합니다. 강화 효과.",
+            "description": "이동력 <color=#f26c1c>3칸</color> 증가. 중첩 가능, 버프.",
             "buffEffect": "Buff/SpeedU|Buff/SpeedU",
             "effectPlayTime": [
                 1,
@@ -21952,7 +21952,7 @@
         {
             "id": 67152205,
             "name": "추적",
-            "description": "이동력이 <color=#f26c1c>5칸</color> 증가합니다. 이 강화 효과는 제거할 수 없습니다.",
+            "description": "이동력 <color=#f26c1c>5칸</color> 증가. 정화 불가 버프.",
             "buffEffect": "Buff/SpeedU",
             "effectPlayTime": [
                 1
@@ -21985,7 +21985,7 @@
         {
             "id": 67612412,
             "name": "먼지 쌓인 소망",
-            "description": "공격력이 <color=#f26c1c>50%</color> 증가합니다. 턴 시작 시, <color=#3487e0>{0}</color>가 <color=#f26c1c>3중첩</color> 미만이고 <color=#3487e0>먼지 쌓인 소망</color>을 보유하고 있다면, <color=#3487e0>먼지 쌓인 소망</color>을 제거합니다. 정화 불가.",
+            "description": "공격력이 <color=#f26c1c>50%</color> 증가한다. 턴 시작 시, <color=#3487e0>{0}</color>가 <color=#f26c1c>3중첩</color> 미만이고 <color=#3487e0>먼지 쌓인 소망</color>을 보유하고 있다면, <color=#3487e0>먼지 쌓인 소망</color>을 제거한다. 정화 불가.",
             "descriptionTips": "0:67612411",
             "buffEffect": "Skill/6761401_Ice",
             "effectPlayTime": [
@@ -24093,7 +24093,7 @@
         {
             "id": 102809088,
             "name": "상쾌한 따뜻한 차",
-            "description": "모든 아군이 <color=#e67129>연소 피해</color>를 입힐 때 치명타 피해가 <color=#f26c1c>10%</color> 증가하며, <color=#e67129>연소 피해</color>가 <color=#f26c1c>15%</color> 증가합니다. 이 효과는 해제할 수 없습니다.",
+            "description": "모든 아군이 <color=#e67129>연소 피해</color>를 입힐 때 치명타 피해가 <color=#f26c1c>10%</color> 증가하며, <color=#e67129>연소 피해</color>가 <color=#f26c1c>15%</color> 증가한다. 정화 불가.",
             "iconName": "Buff_AtkUpNeutral",
             "isShow": true,
             "buffHeadShow": 1,
@@ -26163,7 +26163,7 @@
         {
             "id": 510533015,
             "name": "치명적인 마음",
-            "description": "기본 공격으로 인한 치명타 피해량이 <color=#f26c1c>15%</color> 증가합니다. 정화 불가 버프.",
+            "description": "일반 공격의 치명타 피해가 <color=#f26c1c>15%</color> 증가한다. 정화 불가 버프.",
             "iconName": "Buff_CriDamUp",
             "isShow": true,
             "buffHeadShow": 1
@@ -26171,7 +26171,7 @@
         {
             "id": 510533017,
             "name": "치명적인 마음",
-            "description": "기본 공격으로 인한 치명타 피해량이 <color=#f26c1c>17%</color> 증가합니다. 정화 불가 버프.",
+            "description": "일반 공격의 치명타 피해가 <color=#f26c1c>17%</color> 증가한다. 정화 불가 버프.",
             "iconName": "Buff_CriDamUp",
             "isShow": true,
             "buffHeadShow": 1
@@ -26179,7 +26179,7 @@
         {
             "id": 510533018,
             "name": "치명적인 마음",
-            "description": "기본 공격으로 인한 치명타 피해량이 <color=#f26c1c>18%</color> 증가합니다. 정화 불가 버프.",
+            "description": "일반 공격의 치명타 피해가 <color=#f26c1c>18%</color> 증가한다. 정화 불가 버프.",
             "iconName": "Buff_CriDamUp",
             "isShow": true,
             "buffHeadShow": 1
@@ -26187,7 +26187,7 @@
         {
             "id": 510533019,
             "name": "치명적인 마음",
-            "description": "기본 공격으로 인한 치명타 피해량이 <color=#f26c1c>19%</color> 증가합니다. 정화 불가 버프.",
+            "description": "일반 공격의 치명타 피해가 <color=#f26c1c>19%</color> 증가한다. 정화 불가 버프.",
             "iconName": "Buff_CriDamUp",
             "isShow": true,
             "buffHeadShow": 1
@@ -26195,7 +26195,7 @@
         {
             "id": 510533020,
             "name": "치명적인 마음",
-            "description": "기본 공격으로 인한 치명타 피해량이 <color=#f26c1c>20%</color> 증가합니다. 정화 불가 버프.",
+            "description": "일반 공격의 치명타 피해가 <color=#f26c1c>20%</color> 증가한다. 정화 불가 버프.",
             "iconName": "Buff_CriDamUp",
             "isShow": true,
             "buffHeadShow": 1
@@ -26203,7 +26203,7 @@
         {
             "id": 510533021,
             "name": "치명적인 마음",
-            "description": "기본 공격으로 인한 치명타 피해량이 <color=#f26c1c>21%</color> 증가합니다. 정화 불가 버프.",
+            "description": "일반 공격의 치명타 피해가 <color=#f26c1c>21%</color> 증가한다. 정화 불가 버프.",
             "iconName": "Buff_CriDamUp",
             "isShow": true,
             "buffHeadShow": 1
@@ -26211,7 +26211,7 @@
         {
             "id": 510533022,
             "name": "치명적인 마음",
-            "description": "기본 공격으로 인한 치명타 피해량이 <color=#f26c1c>22%</color> 증가합니다. 정화 불가 버프.",
+            "description": "일반 공격의 치명타 피해가 <color=#f26c1c>22%</color> 증가한다. 정화 불가 버프.",
             "iconName": "Buff_CriDamUp",
             "isShow": true,
             "buffHeadShow": 1
@@ -26219,7 +26219,7 @@
         {
             "id": 510533023,
             "name": "치명적인 마음",
-            "description": "기본 공격으로 인한 치명타 피해량이 <color=#f26c1c>23%</color> 증가합니다. 정화 불가 버프.",
+            "description": "일반 공격의 치명타 피해가 <color=#f26c1c>23%</color> 증가한다. 정화 불가 버프.",
             "iconName": "Buff_CriDamUp",
             "isShow": true,
             "buffHeadShow": 1
@@ -26227,7 +26227,7 @@
         {
             "id": 510533024,
             "name": "치명적인 마음",
-            "description": "기본 공격으로 인한 치명타 피해량이 <color=#f26c1c>24%</color> 증가합니다. 정화 불가 버프.",
+            "description": "일반 공격의 치명타 피해가 <color=#f26c1c>24%</color> 증가한다. 정화 불가 버프.",
             "iconName": "Buff_CriDamUp",
             "isShow": true,
             "buffHeadShow": 1
@@ -26235,7 +26235,7 @@
         {
             "id": 510533025,
             "name": "치명적인 마음",
-            "description": "기본 공격으로 인한 치명타 피해량이 <color=#f26c1c>25%</color> 증가합니다. 정화 불가 버프.",
+            "description": "일반 공격의 치명타 피해가 <color=#f26c1c>25%</color> 증가한다. 정화 불가 버프.",
             "iconName": "Buff_CriDamUp",
             "isShow": true,
             "buffHeadShow": 1
@@ -26243,7 +26243,7 @@
         {
             "id": 510533027,
             "name": "치명적인 마음",
-            "description": "기본 공격으로 인한 치명타 피해량이 <color=#f26c1c>27%</color> 증가합니다. 정화 불가 버프.",
+            "description": "일반 공격의 치명타 피해가 <color=#f26c1c>27%</color> 증가한다. 정화 불가 버프.",
             "iconName": "Buff_CriDamUp",
             "isShow": true,
             "buffHeadShow": 1
@@ -26251,7 +26251,7 @@
         {
             "id": 510533029,
             "name": "치명적인 마음",
-            "description": "기본 공격으로 인한 치명타 피해량이 <color=#f26c1c>29%</color> 증가합니다. 정화 불가 버프.",
+            "description": "일반 공격의 치명타 피해가 <color=#f26c1c>29%</color> 증가한다. 정화 불가 버프.",
             "iconName": "Buff_CriDamUp",
             "isShow": true,
             "buffHeadShow": 1
@@ -26259,7 +26259,7 @@
         {
             "id": 510533030,
             "name": "치명적인 마음",
-            "description": "기본 공격의 치명타 피해가 <color=#f26c1c>30%</color> 증가합니다. 이 강화는 해제할 수 없습니다.",
+            "description": "일반 공격의 치명타 피해가 <color=#f26c1c>30%</color> 증가한다. 정화 불가 버프.",
             "iconName": "Buff_CriDamUp",
             "isShow": true,
             "buffHeadShow": 1
@@ -26267,7 +26267,7 @@
         {
             "id": 510533031,
             "name": "치명적인 마음",
-            "description": "기본 공격의 치명타 피해가 <color=#f26c1c>31%</color> 증가합니다. 이 강화는 해제할 수 없습니다.",
+            "description": "일반 공격의 치명타 피해가 <color=#f26c1c>31%</color> 증가한다. 정화 불가 버프.",
             "iconName": "Buff_CriDamUp",
             "isShow": true,
             "buffHeadShow": 1
@@ -26275,7 +26275,7 @@
         {
             "id": 510533033,
             "name": "치명적인 마음",
-            "description": "기본 공격으로 인한 치명타 피해량이 <color=#f26c1c>33%</color> 증가합니다. 정화 불가 버프.",
+            "description": "일반 공격의 치명타 피해가 <color=#f26c1c>33%</color> 증가한다. 정화 불가 버프.",
             "iconName": "Buff_CriDamUp",
             "isShow": true,
             "buffHeadShow": 1
@@ -26283,7 +26283,7 @@
         {
             "id": 510533035,
             "name": "치명적인 마음",
-            "description": "기본 공격으로 인한 치명타 피해량이 <color=#f26c1c>35%</color> 증가합니다. 정화 불가 버프.",
+            "description": "일반 공격의 치명타 피해가 <color=#f26c1c>35%</color> 증가한다. 정화 불가 버프.",
             "iconName": "Buff_CriDamUp",
             "isShow": true,
             "buffHeadShow": 1
@@ -26291,7 +26291,7 @@
         {
             "id": 510533036,
             "name": "치명적인 마음",
-            "description": "기본 공격으로 인한 치명타 피해량이 <color=#f26c1c>36%</color> 증가합니다. 정화 불가 버프.",
+            "description": "일반 공격의 치명타 피해가 <color=#f26c1c>36%</color> 증가한다. 정화 불가 버프.",
             "iconName": "Buff_CriDamUp",
             "isShow": true,
             "buffHeadShow": 1
@@ -26299,7 +26299,7 @@
         {
             "id": 510533039,
             "name": "치명적인 마음",
-            "description": "기본 공격으로 인한 치명타 피해량이 <color=#f26c1c>39%</color> 증가합니다. 정화 불가 버프.",
+            "description": "일반 공격의 치명타 피해가 <color=#f26c1c>39%</color> 증가한다. 정화 불가 버프.",
             "iconName": "Buff_CriDamUp",
             "isShow": true,
             "buffHeadShow": 1
@@ -26307,7 +26307,7 @@
         {
             "id": 510533040,
             "name": "치명적인 마음",
-            "description": "기본 공격으로 인한 치명타 피해량이 <color=#f26c1c>40%</color> 증가합니다. 정화 불가 버프.",
+            "description": "일반 공격의 치명타 피해가 <color=#f26c1c>40%</color> 증가합니다. 정화 불가 버프.",
             "iconName": "Buff_CriDamUp",
             "isShow": true,
             "buffHeadShow": 1
@@ -26315,7 +26315,7 @@
         {
             "id": 510533043,
             "name": "치명적인 마음",
-            "description": "기본 공격으로 인한 치명타 피해량이 <color=#f26c1c>43%</color> 증가합니다. 정화 불가 버프.",
+            "description": "일반 공격의 치명타 피해가 <color=#f26c1c>43%</color> 증가합니다. 정화 불가 버프.",
             "iconName": "Buff_CriDamUp",
             "isShow": true,
             "buffHeadShow": 1
@@ -26323,7 +26323,7 @@
         {
             "id": 510533045,
             "name": "치명적인 마음",
-            "description": "기본 공격으로 인한 치명타 피해량이 <color=#f26c1c>45%</color> 증가합니다. 정화 불가 버프.",
+            "description": "일반 공격의 치명타 피해가 <color=#f26c1c>45%</color> 증가합니다. 정화 불가 버프.",
             "iconName": "Buff_CriDamUp",
             "isShow": true,
             "buffHeadShow": 1
@@ -26331,7 +26331,7 @@
         {
             "id": 510533050,
             "name": "치명적인 마음",
-            "description": "기본 공격으로 인한 치명타 피해량이 <color=#f26c1c>50%</color> 증가합니다. 정화 불가 버프.",
+            "description": "일반 공격의 치명타 피해가 <color=#f26c1c>50%</color> 증가합니다. 정화 불가 버프.",
             "iconName": "Buff_CriDamUp",
             "isShow": true,
             "buffHeadShow": 1
