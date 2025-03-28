@@ -675,7 +675,7 @@
         },
         {
             "id": 23048,
-            "name": "电磁干扰",
+            "name": "전자기 교란",
             "description": "",
             "buffEffect": "Skill/EMI_effect",
             "effectPlayTime": [
@@ -1382,7 +1382,7 @@
         },
         {
             "id": 70000,
-            "name": "广谱抑制",
+            "name": "광범위 억제",
             "description": "탐사 권장 속성이 아닌 인형은 제압 효과를 받아 기초 능력치가 <color=#f26c1c>50%</color> 감소한다.",
             "iconName": "Buff_Weak",
             "isShow": true,
@@ -1415,7 +1415,7 @@
         {
             "id": 70004,
             "name": "개척 특화 연구",
-            "description": "아군 유닛은 라운드 중 첫 공격을 마친 후 자신이 주는 <color=#42cce0>빙결 피해</color>가 <color=#f26c1c>30%</color> 증가한다。\n아군 유닛이 받는 피해가 <color=#f26c1c>30%</color> 감소하고, 방어력이 <color=#f26c1c>15%</color> 증가한다.",
+            "description": "아군 유닛의 <color=#42cce0>빙결 피해</color>가 <color=#f26c1c>120%</color> 증가하고, 약점 공격 시 가하는 안정 피해가 <color=#f26c1c>4</color> 증가.\n아군 유닛이 받는 피해가 <color=#f26c1c>30%</color> 감소하며, 방어력이 <color=#f26c1c>15%</color> 상승한다.",
             "iconName": "Buff_Strong",
             "isShow": true,
             "showPriorityIcon": 99
@@ -1423,7 +1423,7 @@
         {
             "id": 70005,
             "name": "개척 특화 연구",
-            "description": "아군 유닛은 라운드 중 첫 공격을 마친 후 자신이 주는 <color=#d4ae08>전도 피해</color>가 <color=#f26c1c>30%</color> 증가한다。\n라운드 종료 시 아군 유닛은 자신의 최대 체력 <color=#f26c1c>20%</color>만큼 체력을 회복하며, 자신이 안정 붕괴 상태라면 추가로 안정 지수를 <color=#f26c1c>3</color> 회복한다.",
+            "description": "아군 유닛의 <color=#d4ae08>전도 피해</color>가 <color=#f26c1c>120%</color> 증가하고, 약점 공격 시 가하는 안정 피해가 <color=#f26c1c>4</color> 증가.\n턴 종료 시 아군 유닛은 자신의 최대 체력의 <color=#f26c1c>20%</color>를 회복하며, 안정 붕괴 상태라면 추가로 <color=#f26c1c>안정 지수 3</color>을 회복한다.",
             "iconName": "Buff_Strong",
             "isShow": true,
             "showPriorityIcon": 99
@@ -1431,7 +1431,7 @@
         {
             "id": 70006,
             "name": "개척 특화 연구",
-            "description": "아군 유닛은 라운드 중 첫 공격을 마친 후 자신이 주는 <color=#2caadb>탁류 피해</color>가 <color=#f26c1c>30%</color> 증가한다。\n아군 유닛의 방어력이 <color=#f26c1c>15%</color> 올라가며, 받는 안정 피해가 <color=#f26c1c>1</color> 감소한다.",
+            "description": "아군 유닛의 <color=#2caadb>탁류 피해</color>가 <color=#f26c1c>120%</color> 증가하고, 약점 공격 시 가하는 안정 피해가 <color=#f26c1c>4</color> 증가.\n아군 유닛의 방어력이 <color=#f26c1c>15%</color> 상승하고, 받는 안정 피해가 <color=#f26c1c>1</color> 감소한다.",
             "iconName": "Buff_Strong",
             "isShow": true,
             "showPriorityIcon": 99
@@ -1439,7 +1439,7 @@
         {
             "id": 70007,
             "name": "개척 특화 연구",
-            "description": "아군 유닛의 물리 피해가 <color=#f26c1c>30%</color> 증가하고, 공격이 상성일 때 주는 안정 피해가 <color=#f26c1c>4</color> 증가한다。\n아군 유닛이 받는 피해가 <color=#f26c1c>40%</color> 감소하고, 방어력이 <color=#f26c1c>20%</color> 증가한다.",
+            "description": "아군 유닛의 물리 피해가 <color=#f26c1c>120%</color> 증가하고, 약점 공격 시 가하는 안정 피해가 <color=#f26c1c>4</color> 증가.\n아군 유닛이 받는 피해가 <color=#f26c1c>40%</color> 감소하며, 방어력이 <color=#f26c1c>20%</color> 상승한다.",
             "iconName": "Buff_Strong",
             "isShow": true,
             "showPriorityIcon": 99
@@ -1447,7 +1447,15 @@
         {
             "id": 70008,
             "name": "개척 특화 연구",
-            "description": "아군 유닛의 <color=#8679e8>산성 피해</color>가 <color=#f26c1c>30%</color> 증가하고, 공격이 상성일 때 주는 안정 피해가 <color=#f26c1c>4</color> 증가한다。\n아군 유닛이 받는 피해가 <color=#f26c1c>40%</color> 감소하고, 방어력이 <color=#f26c1c>20%</color> 증가한다.",
+            "description": "아군 유닛의 <color=#8679e8>산성 피해</color>가 <color=#f26c1c>120%</color> 증가하고, 약점 공격 시 가하는 안정 피해가 <color=#f26c1c>4</color> 증가.\n아군 유닛이 받는 피해가 <color=#f26c1c>40%</color> 감소하며, 방어력이 <color=#f26c1c>20%</color> 상승한다.",
+            "iconName": "Buff_Strong",
+            "isShow": true,
+            "showPriorityIcon": 99
+        },
+        {
+            "id": 70009,
+            "name": "개척 특화 연구",
+            "description": "아군 유닛의 <color=#e67129>연소 피해</color>가 <color=#f26c1c>120%</color> 증가하고, 약점 공격 시 가하는 안정 피해가 <color=#f26c1c>4</color> 증가.\n아군 유닛이 받는 피해가 <color=#f26c1c>30%</color> 감소하며, 받는 안정 피해가 <color=#f26c1c>1</color> 감소한다.",
             "iconName": "Buff_Strong",
             "isShow": true,
             "showPriorityIcon": 99
@@ -9311,6 +9319,29 @@
             "isLoop": "0"
         },
         {
+            "id": 351799,
+            "name": "음전하",
+            "description": "단일 전도 피해를 받을 때 <color=#3487e0>음전하</color>를 가진 모든 대상은 이번 피해 <color=#f26c1c>30%</color>의 고정 피해를 받는다. \n<color=#3487e0>음전하</color>를 다시 부여받을 경우, 추가로 부여자 공격력 <color=#f26c1c>3%</color> 고정 피해를 <color=#f26c1c>1회</color> 받는다. \n<color=#3487e0>양전하</color>를 가진 유닛에게서 공격받을 때 받는 <color=#d4ae08>전도 피해</color> 증가. 전도계 디버프.",
+            "buffEffect": "Other/BattleFX/Negative",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "109",
+            "effectTypeGroup": "0",
+            "iconName": "Buff_ElectricMinus",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0"
+        },
+        {
             "id": 351802,
             "name": "양전하",
             "description": "행동 종료 시, 자신 최대 체력 20%만큼 체력을 회복한다. <color=#f26c1c>주위 반경 3칸 안</color> 안에 <color=#3487e0>양전하</color>를 보유한 다른 아군 유닛이 존재할 경우, 추가로 자신 최대 체력 15%만큼 회복한다. \n<color=#3487e0>{0}</color>를 보유한 적을 공격할 때 주는 <color=#d4ae08>전도 피해</color> <color=#f26c1c>+35%</color>, 각 대상마다 턴당 최대 <color=#f26c1c>3회</color> 적용. 전도계 버프.",
@@ -15183,7 +15214,7 @@
         {
             "id": 6953401,
             "name": "격류",
-            "description": "행동 종료 시 가장 멀리 있는 아군 유닛 및 <color=#f26c1c>그 주위 5×5 범위 이내</color>의 모든 아군 유닛에게 공격력 <color=#f26c1c>50%</color> 범위 <color=#2caadb>탁류 피해 </color>를 주고, 즉시 범위 안의 <color=#3487e0>인뢰주</color>를 제거한다. 정화 불가 디버프.",
+            "description": "행동 종료 시 가장 멀리 있는 아군 유닛 및 <color=#f26c1c>그 주위 5×5 범위 이내</color>의 모든 아군 유닛에게 공격력 <color=#f26c1c>50%</color> 범위 <color=#2caadb>탁류 피해 </color>를 주고, 즉시 범위 안의 <color=#3487e0>인뢰침</color>을 제거한다. 정화 불가 디버프.",
             "iconName": "Buff_Eber8",
             "isShow": true,
             "buffHeadShow": 1

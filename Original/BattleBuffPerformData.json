@@ -1415,7 +1415,7 @@
         {
             "id": 70004,
             "name": "拓域专研",
-            "description": "我方单位大回合内首次进行攻击后，自身造成的<color=#42cce0>冷凝伤害</color>提高<color=#f26c1c>30%</color>。\n我方单位受到的伤害降低<color=#f26c1c>30%</color>，防御力提高<color=#f26c1c>15%</color>。",
+            "description": "我方单位<color=#42cce0>冷凝伤害</color>提高<color=#f26c1c>120%</color>，攻击产生克制时，造成的稳态伤害提高<color=#f26c1c>4点</color>。\n我方单位受到的伤害降低<color=#f26c1c>30%</color>，防御力提高<color=#f26c1c>15%</color>。",
             "iconName": "Buff_Strong",
             "isShow": true,
             "showPriorityIcon": 99
@@ -1423,7 +1423,7 @@
         {
             "id": 70005,
             "name": "拓域专研",
-            "description": "我方单位大回合内首次进行攻击后，自身造成的<color=#d4ae08>电导伤害</color>提高<color=#f26c1c>30%</color>。\n大回合结束时，我方单位恢复自身<color=#f26c1c>20%</color>最大生命值的生命值，若自身处于稳态崩溃状态，则额外恢复<color=#f26c1c>3点</color>稳态指数。",
+            "description": "我方单位<color=#d4ae08>电导伤害</color>提高<color=#f26c1c>120%</color>，攻击产生克制时，造成的稳态伤害提高<color=#f26c1c>4点</color>。\n大回合结束时，我方单位恢复自身<color=#f26c1c>20%</color>最大生命值的生命值，若自身处于稳态崩溃状态，则额外恢复<color=#f26c1c>3点</color>稳态指数。",
             "iconName": "Buff_Strong",
             "isShow": true,
             "showPriorityIcon": 99
@@ -1431,7 +1431,7 @@
         {
             "id": 70006,
             "name": "拓域专研",
-            "description": "我方单位大回合内首次进行攻击后，自身造成的<color=#2caadb>浊刻伤害</color>提高<color=#f26c1c>30%</color>。\n我方单位的防御力提高<color=#f26c1c>15%</color>，受到的稳态伤害降低<color=#f26c1c>1点</color>。",
+            "description": "我方单位<color=#2caadb>浊刻伤害</color>提高<color=#f26c1c>120%</color>，攻击产生克制时，造成的稳态伤害提高<color=#f26c1c>4点</color>。\n我方单位的防御力提高<color=#f26c1c>15%</color>，受到的稳态伤害降低<color=#f26c1c>1点</color>。",
             "iconName": "Buff_Strong",
             "isShow": true,
             "showPriorityIcon": 99
@@ -1439,7 +1439,7 @@
         {
             "id": 70007,
             "name": "拓域专研",
-            "description": "我方单位物理伤害提高<color=#f26c1c>30%</color>，攻击产生克制时，造成的稳态伤害提高<color=#f26c1c>4点</color>。\n我方单位受到的伤害降低<color=#f26c1c>40%</color>，防御力提高<color=#f26c1c>20%</color>。",
+            "description": "我方单位物理伤害提高<color=#f26c1c>120%</color>，攻击产生克制时，造成的稳态伤害提高<color=#f26c1c>4点</color>。\n我方单位受到的伤害降低<color=#f26c1c>40%</color>，防御力提高<color=#f26c1c>20%</color>。",
             "iconName": "Buff_Strong",
             "isShow": true,
             "showPriorityIcon": 99
@@ -1447,7 +1447,15 @@
         {
             "id": 70008,
             "name": "拓域专研",
-            "description": "我方单位<color=#8679e8>酸蚀伤害</color>提高<color=#f26c1c>30%</color>，攻击产生克制时，造成的稳态伤害提高<color=#f26c1c>4点</color>。\n我方单位受到的伤害降低<color=#f26c1c>40%</color>，防御力提高<color=#f26c1c>20%</color>。",
+            "description": "我方单位<color=#8679e8>酸蚀伤害</color>提高<color=#f26c1c>120%</color>，攻击产生克制时，造成的稳态伤害提高<color=#f26c1c>4点</color>。\n我方单位受到的伤害降低<color=#f26c1c>40%</color>，防御力提高<color=#f26c1c>20%</color>。",
+            "iconName": "Buff_Strong",
+            "isShow": true,
+            "showPriorityIcon": 99
+        },
+        {
+            "id": 70009,
+            "name": "拓域专研",
+            "description": "我方单位<color=#e67129>燃烧伤害</color>提高<color=#f26c1c>120%</color>，攻击产生克制时，造成的稳态伤害提高<color=#f26c1c>4点</color>。\n我方单位受到的伤害降低<color=#f26c1c>30%</color>，受到的稳态伤害降低<color=#f26c1c>1点</color>。",
             "iconName": "Buff_Strong",
             "isShow": true,
             "showPriorityIcon": 99
@@ -9308,6 +9316,29 @@
             "effectFollowType": "1",
             "effectBirthType": "104",
             "effectTypeGroup": "0",
+            "isLoop": "0"
+        },
+        {
+            "id": 351799,
+            "name": "负电荷",
+            "description": "受到电导精准伤害时，所有拥有<color=#3487e0>负电荷</color>的目标受到此次伤害<color=#f26c1c>30%</color>的固定伤害。被再次施加<color=#3487e0>负电荷</color>时，额外受到<color=#f26c1c>1次</color><color=#f26c1c>3%</color>施加者攻击力的固定伤害。受到来自拥有<color=#3487e0>正电荷</color>的单位攻击时，受到的<color=#d4ae08>电导伤害</color>提高。电导类减益。",
+            "buffEffect": "Other/BattleFX/Negative",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "109",
+            "effectTypeGroup": "0",
+            "iconName": "Buff_ElectricMinus",
+            "isShow": true,
+            "buffHeadShow": 1,
             "isLoop": "0"
         },
         {
