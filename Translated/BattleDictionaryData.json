@@ -3,7 +3,7 @@
         {
             "id": 51015,
             "name": "소각",
-            "description": "타일 위 적 유닛에게 연소 약점을 부여한다. 이 타일 위에서 행동을 마친 적 유닛에게 <color=#3487e0>{0}</color>와 <color=#3487e0>{1}</color>를 2턴간 부여한다. 연소계 타일."
+            "description": "타일 위 적 유닛에게 연소 약점을 부여한다. 이 타일 위에서 행동을 마친 적 유닛에게 <color=#3487e0>{0}</color> 효과와 <color=#3487e0>{1}</color>를 2턴간 부여한다. 연소계 타일."
         },
         {
             "id": 51100,
@@ -737,38 +737,38 @@
         },
         {
             "id": 90234,
-            "name": "拓径爆弹I",
-            "description": "自身停留时或行动结束时，对<color=#f26c1c>十字方向5格内</color>的所有敌方单位造成<color=#f26c1c>120%</color>攻击力的对应自身异位属性的伤害。"
+            "name": "길 개척 폭탄 I",
+            "description": "자신이 정지해 있거나 행동을 마칠 때, <color=#f26c1c>십자 방향 5칸</color> 내 모든 적 유닛에게 자신의 위상 속성으로 공격력 <color=#f26c1c>120%</color>에 해당하는 피해를 준다."
         },
         {
             "id": 90235,
-            "name": "拓径爆弹II",
-            "description": "自身停留时或行动结束时，对<color=#f26c1c>十字方向8格内</color>的所有敌方单位造成<color=#f26c1c>180%</color>攻击力的对应自身异位属性的伤害，并对敌方目标施加1层<color=#3487e0>{0}</color>和<color=#3487e0>{1}</color>，持续<color=#f26c1c>1回合</color>。"
+            "name": "길 개척 폭탄 II",
+            "description": "자신이 정지해 있거나 행동 종료 시, <color=#f26c1c>십자 방향 8칸</color> 내 모든 적 유닛에게 자신의 위상 속성으로 공격력 <color=#f26c1c>180%</color>에 해당하는 피해를 주고, 적 대상에게 <color=#f26c1c>1스택</color><color=#3487e0>{0}</color> 효과와 <color=#3487e0>{1}</color>을 걸어 <color=#f26c1c>1턴</color> 동안 유지한다."
         },
         {
             "id": 90236,
-            "name": "异位爆破",
-            "description": "额外造成1次基于自身攻击力的<color=#e67129>燃烧</color>、<color=#3487e0>冷凝</color>、<color=#d4ae08>电导</color>、<color=#8679e8>酸蚀</color>、<color=#2caadb>浊刻</color>和物理伤害。（不会触发支援攻击等效果）"
+            "name": "위상 폭파",
+            "description": "자신의 공격력을 기반으로 <color=#e67129>연소</color>·<color=#3487e0>빙결</color>·<color=#d4ae08>전도</color>·<color=#8679e8>산성</color>·<color=#2caadb>탁류</color>·물리 피해를 1회 추가로 준다. (지원 공격 등은 발동되지 않음)"
         },
         {
             "id": 90237,
-            "name": "全域拓径爆弹",
-            "description": "继承召唤者<color=#f26c1c>300%</color>的当前攻击力，召唤者所在阵营回合结束时对全场范围内所有敌方单位造成<color=#f26c1c>3000%</color>攻击力的范围固定伤害。"
+            "name": "전역 길 개척 폭탄",
+            "description": "소환자의 현재 공격력 <color=#f26c1c>300%</color>를 계승하며, 소환자가 속한 진영의 턴 종료 시 전장 전체의 모든 적 유닛에게 공격력 <color=#f26c1c>3000%</color>에 해당하는 범위 고정 피해를 준다."
         },
         {
             "id": 90238,
-            "name": "培育学者",
-            "description": "召唤物。继承召唤者<color=#f26c1c>200%</color>的攻击力和<color=#f26c1c>100%</color>的其它初始属性。"
+            "name": "배양 학자",
+            "description": "소환물. 소환자의 공격력 <color=#f26c1c>200%</color>와 그 외 초기 스탯 <color=#f26c1c>100%</color>를 계승한다."
         },
         {
             "id": 90239,
             "name": "생산 장인",
-            "description": "召唤物。继承召唤者<color=#f26c1c>2000%</color>的初始生命值和<color=#f26c1c>100%</color>的其它初始属性。"
+            "description": "소환물. 소환자의 초기 생명력 <color=#f26c1c>2000%</color>와 다른 초기 스탯 <color=#f26c1c>100%</color>를 계승한다."
         },
         {
             "id": 90240,
             "name": "순회 감독",
-            "description": "召唤物。初始生命值为<color=#f26c1c>1000点</color>，初始攻击力和防御力为<color=#f26c1c>1点</color>。"
+            "description": "소환물. 초기 생명력은 <color=#f26c1c>1000</color>이며, 초기 공격력과 방어력은 <color=#f26c1c>1</color>이다."
         },
         {
             "id": 900229,
@@ -778,22 +778,22 @@
         {
             "id": 900230,
             "name": "경쾌 회전",
-            "description": "자신을 제외한 아군에게 <color=#3487e0>{0}</color>와 <color=#3487e0>{1}</color> 효과를 부여한다."
+            "description": "자신을 제외한 아군에게 <color=#3487e0>{0}</color> 효과와 <color=#3487e0>{1}</color> 효과를 부여한다."
         },
         {
             "id": 900231,
             "name": "경쾌 회전",
-            "description": "자신을 제외한 아군에게 <color=#3487e0>{0}</color>와 <color=#3487e0>{1}</color> 효과를 부여하며, 체력을 회복한다."
+            "description": "자신을 제외한 아군에게 <color=#3487e0>{0}</color> 효과와 <color=#3487e0>{1}</color> 효과를 부여하며, 체력을 회복한다."
         },
         {
             "id": 900232,
             "name": "열정 공명",
-            "description": "자신을 제외한 아군에게 <color=#3487e0>{0}</color>와 <color=#3487e0>{1}</color> 효과를 부여한다."
+            "description": "자신을 제외한 아군에게 <color=#3487e0>{0}</color> 효과와 <color=#3487e0>{1}</color> 효과를 부여한다."
         },
         {
             "id": 900233,
             "name": "열정 공명",
-            "description": "자신을 제외한 아군에게 <color=#3487e0>{0}</color>와 <color=#3487e0>{1}</color> 효과를 부여하며, 디버프를 해제한다."
+            "description": "자신을 제외한 아군에게 <color=#3487e0>{0}</color> 효과와 <color=#3487e0>{1}</color> 효과를 부여하며, 디버프를 해제한다."
         },
         {
             "id": 900234,
@@ -813,7 +813,7 @@
         {
             "id": 900237,
             "name": "쿠리치",
-            "description": "소환물. 니키타의 초기 체력 <color=#f26c1c>100%</color>, 초기 공격력 <color=#f26c1c>80%</color>, 초기 방어력 <color=#f26c1c>100%</color>를 계승한다. 이동할 수 없으며, 패시브 스킬 <color=#3487e0>{0}</color>와 <color=#3487e0>{1}</color>를 가진다."
+            "description": "소환물. 니키타의 초기 체력 <color=#f26c1c>100%</color>, 초기 공격력 <color=#f26c1c>80%</color>, 초기 방어력 <color=#f26c1c>100%</color>를 계승한다. 이동할 수 없으며, 패시브 스킬 <color=#3487e0>{0}</color> 효과와 <color=#3487e0>{1}</color>를 가진다."
         },
         {
             "id": 900238,
@@ -832,13 +832,13 @@
         },
         {
             "id": 900241,
-            "name": "凛冽侵蚀",
-            "description": "进行一次攻击。对敌方目标造成<color=#f26c1c>150%</color>攻击力的<color=#42cce0>冷凝伤害</color>和<color=#f26c1c>2点</color>稳态伤害。"
+            "name": "매서운 침식",
+            "description": "공격을 1회 수행해, 적 대상에게 공격력 <color=#f26c1c>150%</color>의 <color=#42cce0>빙결 피해</color>와 안정 피해 <color=#f26c1c>2점</color>을 준다."
         },
         {
             "id": 900242,
-            "name": "护盾穿透率",
-            "description": "对拥有护盾的目标造成伤害时，无视目标对应比例的护盾，直接对其生命值造成伤害。"
+            "name": "실드 관통률",
+            "description": "실드가 있는 적에게 피해를 줄 때, 해당 비율만큼 실드를 무시하고 직접 생명력에 피해를 입힌다."
         },
         {
             "id": 901031,
