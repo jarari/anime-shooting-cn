@@ -524,7 +524,6 @@
             "icon": "Item_Icon_RemouldingPattern_LevelUp",
             "rank": 2,
             "sort": 1,
-            "howToGet": "0",
             "getList": "290029",
             "showType": 2,
             "iconPath": "Item"
@@ -1687,6 +1686,18 @@
             "iconPath": "Character"
         },
         {
+            "id": 1057,
+            "name": "로벨라",
+            "introduction": "表面上抉择果断，做事雷厉风行的洛贝拉，其实在看不见的地方，已经独自一人纠结很久了。她的敏感、温柔和纤细，是只有你能看见的东西。\n“太累的话，接下来的工作就交给我吧……我可不希望，指挥官缺席一会的作战会议。“",
+            "description": "人形整卡",
+            "type": 10,
+            "icon": "Item_Icon_Gun_RobellaSSR",
+            "rank": 5,
+            "sort": 34,
+            "argsStr": "1057",
+            "iconPath": "Character"
+        },
+        {
             "id": 4001,
             "name": "캐롤릭 마인드맵 아카이브",
             "introduction": "이 마인드맵 아카이브의 주인은 다소 욱하는 성격이지만, 맡긴 임무는 나무랄 데 없이 수행합니다.\n캐롤릭의 마인드맵 아카이브. 캐롤릭의 「마인드 보강」에 사용할 수 있습니다.",
@@ -2566,7 +2577,7 @@
         {
             "id": 4057,
             "name": "로벨라 마인드맵 보관",
-            "introduction": "로벨라 마인드맵 보관",
+            "introduction": "这份心智存档看起来果断细腻，但只要提到机械兵蚁相关的话题就会产生巨大的反应。\n洛贝拉的心智存档，可用于该人形的云图强固。",
             "description": "人形碎片",
             "type": 11,
             "icon": "Item_Icon_Core_RobellaSSR",
@@ -4071,6 +4082,32 @@
             "description": "支线解锁档案道具",
             "type": 4,
             "icon": "Item_Icon_ArchivesCenter_EZ004",
+            "rank": 4,
+            "sort": 102,
+            "howToGet": "0",
+            "getList": "320000",
+            "iconPath": "Item"
+        },
+        {
+            "id": 8131,
+            "name": "自制果酱",
+            "introduction": "一瓶污染区居民自治的果酱，色泽鲜艳，甜味十足，是污染区非常少见的食品。\n可用于解锁艾莫云中特定的机要密报。",
+            "description": "支线解锁档案道具",
+            "type": 4,
+            "icon": "Item_Icon_ArchivesCenter_FZ020",
+            "rank": 4,
+            "sort": 102,
+            "howToGet": "0",
+            "getList": "320000",
+            "iconPath": "Item"
+        },
+        {
+            "id": 8132,
+            "name": "精致的天平",
+            "introduction": "一架精致的天平，可用于衡量正义，也可用于称重良知与私利。\n可用于解锁艾莫云中特定的机要密报。",
+            "description": "支线解锁档案道具",
+            "type": 4,
+            "icon": "Item_Icon_ArchivesCenter_SZ005",
             "rank": 4,
             "sort": 102,
             "howToGet": "0",
@@ -6508,6 +6545,54 @@
             "sort": 77,
             "showType": 2,
             "argsStr": "10563",
+            "iconPath": "Weapon",
+            "dismantlingList": {
+                "47": 90
+            }
+        },
+        {
+            "id": 10571,
+            "name": "旧式柯尔特635型冲锋枪",
+            "introduction": "从暗商处采购的廉价武器，成色和性能都不太好，但是勉强满足日常执勤的充数使用。",
+            "description": "武器",
+            "type": 20,
+            "icon": "Weapon_RO635_3",
+            "rank": 3,
+            "sort": 77,
+            "showType": 2,
+            "argsStr": "10571",
+            "iconPath": "Weapon",
+            "dismantlingList": {
+                "16": 2
+            }
+        },
+        {
+            "id": 10572,
+            "name": "柯尔特635型冲锋枪",
+            "introduction": "与洛贝拉契合度高的枪械，针对洛贝拉的作战偏好进行了一定的改造，提高了射速，在近战和冲锋战中更有优势。",
+            "description": "武器",
+            "type": 20,
+            "icon": "Weapon_RO635_4",
+            "rank": 4,
+            "sort": 77,
+            "showType": 2,
+            "argsStr": "10572",
+            "iconPath": "Weapon",
+            "dismantlingList": {
+                "47": 18
+            }
+        },
+        {
+            "id": 10573,
+            "name": "流浪者赞歌",
+            "introduction": "洛贝拉被配给的高性能冲锋枪，以柯尔特635型冲锋枪为原型，进行了全方位的性能升级，拥有了更强的火力和射速。追寻自我的道路虽然坎坷，但有了它，也就有了愈战愈勇的底气。",
+            "description": "武器",
+            "type": 20,
+            "icon": "Weapon_RO635_5",
+            "rank": 5,
+            "sort": 77,
+            "showType": 2,
+            "argsStr": "10573",
             "iconPath": "Weapon",
             "dismantlingList": {
                 "47": 90
@@ -9122,6 +9207,54 @@
             }
         },
         {
+            "id": 15571,
+            "name": "武器蓝图·旧式柯尔特635型冲锋枪",
+            "introduction": "常见的武器蓝图，简洁的线条勾勒出武器的轮廓。\n可用于组装旧式柯尔特635型冲锋枪。",
+            "description": "武器碎片",
+            "type": 38,
+            "icon": "Weapon_RO635_Core_3",
+            "rank": 3,
+            "sort": 77,
+            "showType": 2,
+            "argsStr": "10571",
+            "iconPath": "WeaponCore",
+            "dismantlingList": {
+                "2": 5000
+            }
+        },
+        {
+            "id": 15572,
+            "name": "武器蓝图·柯尔特635型冲锋枪",
+            "introduction": "少见的武器蓝图，简洁的线条勾勒出武器的轮廓。\n可用于组装柯尔特635型冲锋枪。",
+            "description": "武器碎片",
+            "type": 38,
+            "icon": "Weapon_RO635_Core_4",
+            "rank": 4,
+            "sort": 77,
+            "showType": 2,
+            "argsStr": "10572",
+            "iconPath": "WeaponCore",
+            "dismantlingList": {
+                "2": 5000
+            }
+        },
+        {
+            "id": 15573,
+            "name": "武器蓝图·流浪者赞歌",
+            "introduction": "稀有的武器蓝图，简洁的线条勾勒出武器的轮廓。\n可用于组装流浪者赞歌。",
+            "description": "武器碎片",
+            "type": 38,
+            "icon": "Weapon_RO635_Core_5",
+            "rank": 5,
+            "sort": 77,
+            "showType": 2,
+            "argsStr": "10573",
+            "iconPath": "WeaponCore",
+            "dismantlingList": {
+                "2": 5000
+            }
+        },
+        {
             "id": 21000,
             "name": "아이콘·블레이드 플래시",
             "introduction": "평상복 차림의 캐롤릭. 트레이드 마크인 토끼 귀가 눈에 띕니다.\n캐롤릭 획득 시 해금.",
@@ -10066,6 +10199,18 @@
             "iconPath": "Avatar"
         },
         {
+            "id": 21091,
+            "name": "绘像·机械之心",
+            "introduction": "以常见着装出现的洛贝拉，冰冷的机械躯体中似乎有着温热的心跳。\n获得洛贝拉以解锁。",
+            "description": "头像",
+            "type": 12,
+            "icon": "Avatar_Head_RobellaSSR",
+            "rank": 5,
+            "sort": 102,
+            "argsStr": "21091",
+            "iconPath": "Avatar"
+        },
+        {
             "id": 21105,
             "name": "아이콘·서킷 스파크",
             "introduction": "치타에게 불꽃이란 비유가 아닙니다. 준비 단단히 하세요. 경기가 곧 시작됩니다.\n치타의 코스튬 「서킷 스파크」 획득 시 해금.",
@@ -10330,6 +10475,18 @@
             "iconPath": "Avatar"
         },
         {
+            "id": 21127,
+            "name": "绘像·心弦扣击",
+            "introduction": "时而飘忽不定，时而错落有致，是心动的感觉！\n人形回赠的心意赠礼，与人形铭契后获得。",
+            "description": "头像",
+            "type": 12,
+            "icon": "Avatar_Head_JiangyuLove",
+            "rank": 5,
+            "sort": 102,
+            "argsStr": "21127",
+            "iconPath": "Avatar"
+        },
+        {
             "id": 21128,
             "name": "아이콘·여우의 진심",
             "introduction": "조금 더 가까이, 조금 더 가까이 와도 돼. 다만 너무 성급하진 말아줘, 나도 모르게 널 잡아먹어 버릴지도 모르거든~\n인형이 건네준 마음의 선물로, 인형과 명계 후 획득한다.",
@@ -10339,6 +10496,18 @@
             "rank": 5,
             "sort": 102,
             "argsStr": "21128",
+            "iconPath": "Avatar"
+        },
+        {
+            "id": 21130,
+            "name": "绘像·角落里的珍藏",
+            "introduction": "在她心智中最柔软的角落里，全部都是关于你的回忆。\n人形回赠的心意赠礼，与人形铭契后获得。",
+            "description": "头像",
+            "type": 12,
+            "icon": "Avatar_Head_RobellaLove",
+            "rank": 5,
+            "sort": 102,
+            "argsStr": "21130",
             "iconPath": "Avatar"
         },
         {
@@ -10723,6 +10892,42 @@
             "rank": 5,
             "sort": 102,
             "argsStr": "21188",
+            "iconPath": "Avatar"
+        },
+        {
+            "id": 21189,
+            "name": "绘像·未来领航",
+            "introduction": "以英雄的凛然之姿，开辟出属于未来的光辉之路。\n获得洛贝拉的衣装·未来领航后解锁。",
+            "description": "头像",
+            "type": 12,
+            "icon": "Avatar_Head_RobellaSSR01",
+            "rank": 5,
+            "sort": 102,
+            "argsStr": "21189",
+            "iconPath": "Avatar"
+        },
+        {
+            "id": 21190,
+            "name": "绘像·学府风尚",
+            "introduction": "战斗、训练、学习，无数次的付出锻炼出绝对优秀的实力。\n获得维克托的衣装·学府风尚后解锁。",
+            "description": "头像",
+            "type": 12,
+            "icon": "Avatar_Head_VectorSSR02",
+            "rank": 4,
+            "sort": 102,
+            "argsStr": "21190",
+            "iconPath": "Avatar"
+        },
+        {
+            "id": 21191,
+            "name": "绘像·心智共鸣",
+            "introduction": "在那一刻，人形与人类的边界不再分明。\n通关错位锚定·下篇以解锁",
+            "description": "头像",
+            "type": 12,
+            "icon": "Avatar_Head_ActivityRobella",
+            "rank": 5,
+            "sort": 102,
+            "argsStr": "21191",
             "iconPath": "Avatar"
         },
         {
@@ -11426,6 +11631,17 @@
             "rank": 5,
             "sort": 1,
             "argsStr": "22070",
+            "iconPath": "Item"
+        },
+        {
+            "id": 22071,
+            "name": "徽记·破晓远征",
+            "introduction": "远征归来，品尝胜利的美酒——B.R.I.E.F.于此见证。\n在兵棋推演赛季·破晓远征中获得前80%排名后解锁。",
+            "type": 36,
+            "icon": "Item_Icon_Medal_HighPVP_Season15",
+            "rank": 5,
+            "sort": 1,
+            "argsStr": "22071",
             "iconPath": "Item"
         },
         {
@@ -12209,6 +12425,19 @@
             "iconPath": "PlayerTitlePic"
         },
         {
+            "id": 23078,
+            "name": "洛贝拉·入队",
+            "introduction": "由B.R.I.E.F.授予的称号，纪念洛贝拉的登车时刻，请保证在她的视线范围内不要出现兵蚁。\n获得人形洛贝拉后解锁。",
+            "description": "称号",
+            "type": 37,
+            "icon": "Img_Title_GunGet_Robella",
+            "rank": 5,
+            "sort": 1,
+            "howToGet": "0",
+            "argsStr": "23078",
+            "iconPath": "PlayerTitlePic"
+        },
+        {
             "id": 23092,
             "name": "위기침투",
             "introduction": "B.R.I.E.F.에서 수여하는 칭호. 정확한 행동으로 적의 방어를 빠르게 무너뜨리다.\n「워게임 매치·위기침투 시즌」에서 상위 80% 달성 시 해금.",
@@ -12469,6 +12698,19 @@
             "iconPath": "PlayerTitlePic"
         },
         {
+            "id": 23112,
+            "name": "无拘的执笔者",
+            "introduction": "与适合的人相处，会让你感觉无拘无束。\n与人形契合的证明，契合度达到8级解锁。",
+            "description": "称号",
+            "type": 37,
+            "icon": "Img_Title_Love_Jiangyu",
+            "rank": 5,
+            "sort": 1,
+            "howToGet": "0",
+            "argsStr": "23112",
+            "iconPath": "PlayerTitlePic"
+        },
+        {
             "id": 23113,
             "name": "게임 이론의 무용수",
             "introduction": "발끝의 전진과 양보는, 결국 춤곡의 어느 순간에 기묘한 균형을 이룰 것이다.\n인형과의 유대 증명으로, 친화도 8레벨 달성 시 해제된다.",
@@ -12479,6 +12721,19 @@
             "sort": 1,
             "howToGet": "0",
             "argsStr": "23113",
+            "iconPath": "PlayerTitlePic"
+        },
+        {
+            "id": 23115,
+            "name": "专属特摄导演",
+            "introduction": "如果是由您执导的影片，我、我愿意出演……主人公……\n与人形契合的证明，契合度达到8级解锁。",
+            "description": "称号",
+            "type": 37,
+            "icon": "Img_Title_Love_Robella",
+            "rank": 5,
+            "sort": 1,
+            "howToGet": "0",
+            "argsStr": "23115",
             "iconPath": "PlayerTitlePic"
         },
         {
@@ -12570,6 +12825,19 @@
             "sort": 1,
             "howToGet": "0",
             "argsStr": "23147",
+            "iconPath": "PlayerTitlePic"
+        },
+        {
+            "id": 23148,
+            "name": "破晓远征",
+            "introduction": "由B.R.I.E.F.授予的称号，用不屈的意志超越对手。\n在兵棋推演赛季·破晓远征中获得前80%排名后解锁。",
+            "description": "称号",
+            "type": 37,
+            "icon": "Img_Title_HighPVP_Season15",
+            "rank": 5,
+            "sort": 1,
+            "howToGet": "0",
+            "argsStr": "23148",
             "iconPath": "PlayerTitlePic"
         },
         {
@@ -13393,6 +13661,19 @@
             "iconPath": "Item"
         },
         {
+            "id": 24078,
+            "name": "绘像框·心弦扣击",
+            "introduction": "那轻快的鼓点，尽数落于心间。\n人形回赠的心意赠礼，与人形提升契合度后获得。",
+            "description": "好感度头像框",
+            "type": 39,
+            "icon": "Item_HeadFrame_Love_Jiangyu",
+            "rank": 5,
+            "sort": 1,
+            "howToGet": "0",
+            "argsStr": "24078",
+            "iconPath": "Item"
+        },
+        {
             "id": 24079,
             "name": "액자·성실의 사슬",
             "introduction": "충성의 방향을 마음에 묶어 두었다.\n인형이 선물하는 감사의 증표로, 인형 친화도를 높이면 획득된다.",
@@ -13429,6 +13710,19 @@
             "sort": 1,
             "howToGet": "0",
             "argsStr": "24083",
+            "iconPath": "Item"
+        },
+        {
+            "id": 24085,
+            "name": "绘像框·角落里的珍藏",
+            "introduction": "共同经历的时光，化作宝物，珍藏在最深处的角落。\n人形回赠的心意赠礼，与人形提升契合度后获得。",
+            "description": "好感度头像框",
+            "type": 39,
+            "icon": "Item_HeadFrame_Love_Robella",
+            "rank": 5,
+            "sort": 1,
+            "howToGet": "0",
+            "argsStr": "24085",
             "iconPath": "Item"
         },
         {
@@ -13573,6 +13867,19 @@
             "iconPath": "Item"
         },
         {
+            "id": 24118,
+            "name": "绘像框·雩风桃季",
+            "introduction": "아침저녁으로 해와 달을 마주하며, 꽃을 바라보며 먼 길을 간다.\n이번 시즌 항해 일지 유료 등급을 구매하면 해금된다.",
+            "description": "BP头像框",
+            "type": 39,
+            "icon": "Item_HeadFrame_Bp2_3",
+            "rank": 5,
+            "sort": 1,
+            "howToGet": "0",
+            "argsStr": "24118",
+            "iconPath": "Item"
+        },
+        {
             "id": 24128,
             "name": "액자·무질서한 급류",
             "introduction": "어려움을 극복하기 위한 꾸준한 전술 - B.R.I.E.F.\n워게임 매치·무질서한 급류에서 상위 50% 순위에 도달하면 잠금 해제됩니다.",
@@ -13647,6 +13954,18 @@
             "iconPath": "Item"
         },
         {
+            "id": 24134,
+            "name": "绘像框·破晓远征",
+            "introduction": "永不放弃的战意，突破自我——B.R.I.E.F.于此见证。\n在兵棋推演赛季·破晓远征中获得前50%排名后解锁。",
+            "type": 39,
+            "icon": "Item_HeadFrame_HighPVP_Season15",
+            "rank": 5,
+            "sort": 1,
+            "howToGet": "0",
+            "argsStr": "24134",
+            "iconPath": "Item"
+        },
+        {
             "id": 24136,
             "name": "액자·더 깊은 곳으로",
             "introduction": "어둠을 이용해 빛을 이룬다.\n‘匿影而生’ 챌린지 모드를 클리어하면 해제된다.",
@@ -13701,7 +14020,7 @@
         {
             "id": 24140,
             "name": "액자·암야의 기국",
-            "introduction": "뛰어난 기사는 언제나 판 밖에 몸을 숨긴다.\n엇갈린 앵커링 챌린지 모드·상편 클리어 시 해제된다",
+            "introduction": "高明的棋手，总是藏身局外。\n通关错位锚定挑战模式·上篇以解锁。",
             "description": "莱娅活动头像框",
             "type": 39,
             "icon": "Item_HeadFrame_ActivityLeva",
@@ -13709,6 +14028,19 @@
             "sort": 1,
             "howToGet": "0",
             "argsStr": "24140",
+            "iconPath": "Item"
+        },
+        {
+            "id": 24141,
+            "name": "绘像框·和平如幻",
+            "introduction": "在世界的暗夜边缘，摇篮曲为酣梦而吟唱。\n通关错位锚定挑战模式·下篇以解锁",
+            "description": "洛贝拉活动头像框",
+            "type": 39,
+            "icon": "Item_HeadFrame_ActivityRobella",
+            "rank": 5,
+            "sort": 1,
+            "howToGet": "0",
+            "argsStr": "24141",
             "iconPath": "Item"
         },
         {
@@ -13745,6 +14077,19 @@
             "sort": 1,
             "howToGet": "0",
             "argsStr": "25002",
+            "iconPath": "Item"
+        },
+        {
+            "id": 25003,
+            "name": "无垢的心语",
+            "introduction": "她沉默不语，温柔地注视着你的双眸，包容着你的心绪。\n购买当期远航巡录付费档位获取的个人名片背景，可用于名片背景更换。",
+            "description": "暂未使用名片卡",
+            "type": 40,
+            "icon": "Item_Icon_CommanderInfo_Robella",
+            "rank": 5,
+            "sort": 1,
+            "howToGet": "0",
+            "argsStr": "25003",
             "iconPath": "Item"
         },
         {
@@ -14599,6 +14944,30 @@
             "iconPath": "Item"
         },
         {
+            "id": 31074,
+            "name": "衣装·未来领航",
+            "introduction": "洛贝拉的衣装盒，里面是充满设计感的赛车服。\n简洁流畅的设计贴合身形，面料透气耐磨，赋予穿着者最佳舒适度。\n获取后，可在换装界面解锁未来领航。",
+            "description": "衣装·洛贝拉",
+            "type": 13,
+            "icon": "Item_Icon_Skin_RobellaSSR01",
+            "rank": 5,
+            "sort": 86,
+            "argsStr": "1105701",
+            "iconPath": "Item"
+        },
+        {
+            "id": 31075,
+            "name": "衣装·学府风尚",
+            "introduction": "维克托的衣装盒，里面是一套学院风格服饰。\n外套选用了沉稳低调的色系，搭配别具巧思的深蓝色裙装，在保持书卷气的同时，突显少女行事的利落感。\n获取后，可在换装界面解锁学府风尚。",
+            "description": "衣装·洛贝拉",
+            "type": 13,
+            "icon": "Item_Icon_Skin_VectorSSR02",
+            "rank": 4,
+            "sort": 86,
+            "argsStr": "1104402",
+            "iconPath": "Item"
+        },
+        {
             "id": 50001,
             "name": "전자 블레이드",
             "introduction": "BLD 전용 탈착형 칼날 파츠. 고밀도 에너지 셀이 활성화되면 칼날을 치명적인 에너지 역장으로 둘러싸 살과 뼈, 그리고 대부분의 장갑판을 보다 효율적으로 절단할 수 있습니다.",
@@ -14697,7 +15066,7 @@
             "name": "진입 허가증",
             "introduction": "아무리 든든한 지원도 한도가 있습니다. 적진에 너무 깊이 들어가지 마세요.\n블록 진입 시 소모됩니다. 탐색에서 복귀한 후 갱신됩니다.",
             "description": "用于暗区道中的门票",
-            "type": 34,
+            "type": 4,
             "icon": "ltem_lcon_Darkzone_ticket",
             "rank": 5,
             "howToGet": "29",
@@ -15925,7 +16294,7 @@
             "introduction": "액티브 공격으로 무기 약점을 찌른 경우, 주는 피해 +10%, 주는 안정 피해 +2점.",
             "description": "新肉鸽展示用",
             "type": 4,
-            "icon": "Item_Rogue_Chip_92",
+            "icon": "Item_Rogue_Chip_190",
             "rank": 4,
             "iconPath": "Rogue"
         },
@@ -15945,7 +16314,7 @@
             "introduction": "액티브 공격으로 위상 약점을 찌른 경우, 주는 피해 +10%, 주는 안정 피해 +2점.",
             "description": "新肉鸽展示用",
             "type": 4,
-            "icon": "Item_Rogue_Chip_94",
+            "icon": "Item_Rogue_Chip_191",
             "rank": 4,
             "iconPath": "Rogue"
         },
@@ -15955,7 +16324,7 @@
             "introduction": "적 처치 시, 체력을 자신의 최대 체력 10%만큼 회복.",
             "description": "新肉鸽展示用",
             "type": 4,
-            "icon": "Item_Rogue_Chip_95",
+            "icon": "Item_Rogue_Chip_192",
             "rank": 4,
             "iconPath": "Rogue"
         },
@@ -15975,7 +16344,7 @@
             "introduction": "필드에 적 유닛이 3기 이하일 경우, 자신이 주는 피해 +15%.",
             "description": "新肉鸽展示用",
             "type": 4,
-            "icon": "Item_Rogue_Chip_97",
+            "icon": "Item_Rogue_Chip_193",
             "rank": 3,
             "iconPath": "Rogue"
         },
@@ -15995,7 +16364,7 @@
             "introduction": "필드에 적 유닛이 4기 이상일 경우, 자신이 주는 피해 +15%.",
             "description": "新肉鸽展示用",
             "type": 4,
-            "icon": "Item_Rogue_Chip_99",
+            "icon": "Item_Rogue_Chip_194",
             "rank": 3,
             "iconPath": "Rogue"
         },
@@ -16015,7 +16384,7 @@
             "introduction": "아군이 전원 생존 시, 주는 범위 피해 +15%. 아군이 1명 사망할 때마다 효과가 3% 감소한다.",
             "description": "新肉鸽展示用",
             "type": 4,
-            "icon": "Item_Rogue_Chip_101",
+            "icon": "Item_Rogue_Chip_195",
             "rank": 4,
             "iconPath": "Rogue"
         },
@@ -16035,7 +16404,7 @@
             "introduction": "아군이 전원 생존 시, 주는 단일 피해 +15%. 아군이 1명 사망할 때마다 효과가 3% 감소한다.",
             "description": "新肉鸽展示用",
             "type": 4,
-            "icon": "Item_Rogue_Chip_103",
+            "icon": "Item_Rogue_Chip_196",
             "rank": 4,
             "iconPath": "Rogue"
         },
@@ -16085,7 +16454,7 @@
             "introduction": "턴 시작 시 자신의 공격력 +3%. 중첩 가능.",
             "description": "新肉鸽展示用",
             "type": 4,
-            "icon": "Item_Rogue_Chip_108",
+            "icon": "Item_Rogue_Chip_197",
             "rank": 4,
             "iconPath": "Rogue"
         },
@@ -16095,7 +16464,7 @@
             "introduction": "턴 시작 시 자신의 방어력 3%. 중첩 가능.",
             "description": "新肉鸽展示用",
             "type": 4,
-            "icon": "Item_Rogue_Chip_109",
+            "icon": "Item_Rogue_Chip_198",
             "rank": 4,
             "iconPath": "Rogue"
         },
@@ -16105,7 +16474,7 @@
             "introduction": "적 목표의 체력이 40% 미만일 때 주는 피해 +10%.",
             "description": "新肉鸽展示用",
             "type": 4,
-            "icon": "Item_Rogue_Chip_110",
+            "icon": "Item_Rogue_Chip_199",
             "rank": 3,
             "iconPath": "Rogue"
         },
@@ -16870,6 +17239,826 @@
             "iconPath": "Rogue"
         },
         {
+            "id": 89115,
+            "name": "兵刃穿袭",
+            "introduction": "造成近战伤害时，攻击无视敌方目标10%的防御力。",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_115",
+            "rank": 3,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89116,
+            "name": "兵刃穿袭",
+            "introduction": "造成近战伤害时，攻击无视敌方目标10%的防御力。若造成物理伤害，额外无视10%的防御力。",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_116",
+            "rank": 4,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89117,
+            "name": "兵刃穿袭",
+            "introduction": "造成近战伤害时，攻击无视敌方目标15%的防御力。若造成物理伤害，额外无视15%的防御力。",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_117",
+            "rank": 5,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89118,
+            "name": "连击崩甲",
+            "introduction": "每造成2次物理伤害，下一次伤害降低敌方10%防御，不可叠加。",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_118",
+            "rank": 3,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89119,
+            "name": "蓄势奇袭",
+            "introduction": "每造成2次物理伤害，下一次伤害造成1次固定伤害，伤害量为【A】层数*5%攻击力的伤害。",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_119",
+            "rank": 4,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89120,
+            "name": "快速装填",
+            "introduction": "造成1次物理伤害后，获得2点导染指数，1回合至多触发7次。",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_120",
+            "rank": 5,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89121,
+            "name": "横扫千军",
+            "introduction": "范围伤害增加5%，若是物理范围伤害，则无视敌方目标防御增加5%。",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_121",
+            "rank": 3,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89122,
+            "name": "横扫千军",
+            "introduction": "范围伤害增加5%，若是物理范围伤害，则造成伤害提高10%，无视敌方目标防御增加10%。",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_122",
+            "rank": 4,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89123,
+            "name": "所向披靡",
+            "introduction": "每命中1个敌方目标，下一次伤害提高5%，无视敌方防御提高5%，至多提高30%；若敌方目标为首领单位，则造成伤害和无视敌方防御直接提高30%。",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_123",
+            "rank": 5,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89124,
+            "name": "叠锋强效",
+            "introduction": "我方回合结束时，每获得10层【A】，则获得buff，持续1回合。\nbuff：自身防御力提高1%，额外造成1点稳态伤害，无视敌方防御提高1%，可叠加。",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_124",
+            "rank": 4,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89125,
+            "name": "徽印积累",
+            "introduction": "回合开始时，获得1层【A】。",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_125",
+            "rank": 4,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89126,
+            "name": "逆境求生",
+            "introduction": "若自身生命值＜50%且拥有3层及以上的【A】，则消耗3层【A】，提高20%自身防御力， 获得100%自身防御力的【护盾】，持续1回合，1回合至多触发1次。\n【护盾】：消耗护盾的生命值抵消等量的伤害。护盾被击破时，恢复自身100%最大生命值的生命值和3点稳态指数，永久提升20%防御力，增益效果，不可驱散。",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_126",
+            "rank": 4,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89127,
+            "name": "反御突击",
+            "introduction": "行动结束时，若拥有3层及以上的【A】，则消耗3层【A】，获得【反御增伤】，持续1回合。若已有【反御增伤】，则获得buff，持续1回合。\nbuff：自身防御力提高30%，攻击时无视敌方目标30%防御力和额外造成额外稳态伤害6点。",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_127",
+            "rank": 5,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89128,
+            "name": "控敌重塑",
+            "introduction": "造成控制效果时，驱散自身3个减益效果，恢复自身100%最大生命值的生命值。自身防御力提高20%，持续2回合。",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_128",
+            "rank": 5,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89129,
+            "name": "物理精通",
+            "introduction": "每拥有1个物理体系插件，攻击时无视防御2% ，至多叠加6层。",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_129",
+            "rank": 3,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89130,
+            "name": "碎盾突破",
+            "introduction": "攻击拥有防御减益的敌方目标时，降低敌方防御20%，额外造成4点稳态伤害。",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_130",
+            "rank": 4,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89131,
+            "name": "碎盾突破",
+            "introduction": "攻击拥有防御减益的敌方目标时，降低敌方防御40%，额外造成8点稳态伤害。",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_131",
+            "rank": 5,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89132,
+            "name": "强压之势",
+            "introduction": "攻击防御力为0的敌方目标时，获得buff，持续2回合。\nbuff: 自身防御力提高30%，主动攻击时无视敌方目标20%的防御力。",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_132",
+            "rank": 5,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89133,
+            "name": "稳态强固",
+            "introduction": "稳态伤害提高2点，受到的稳态伤害降低1点，最大稳态值提升1点。",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_133",
+            "rank": 3,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89134,
+            "name": "稳态强固",
+            "introduction": "稳态伤害提高4点，受到的稳态伤害降低2点，最大稳态值提升2点。",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_134",
+            "rank": 4,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89135,
+            "name": "稳态强固",
+            "introduction": "稳态伤害提高6点，受到的稳态伤害降低3点，最大稳态值提升3点。",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_135",
+            "rank": 5,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89136,
+            "name": "溃敌重击",
+            "introduction": "攻击稳态为0的单位时，造成的伤害提高10%",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_136",
+            "rank": 3,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89137,
+            "name": "溃敌重击",
+            "introduction": "攻击稳态为0的单位时，造成的伤害提高15%，暴击伤害提高15%",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_137",
+            "rank": 4,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89138,
+            "name": "溃敌重击",
+            "introduction": "攻击稳态为0的单位时，造成的伤害提高25%，暴击伤害提高25%，无视20%防御。",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_138",
+            "rank": 5,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89139,
+            "name": "维稳不屈",
+            "introduction": "受到稳态伤害时，恢复3点稳态指数。",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_139",
+            "rank": 3,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89140,
+            "name": "稳健之姿",
+            "introduction": "每有1点当前稳态值，造成的提高5%",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_140",
+            "rank": 4,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89141,
+            "name": "破而后立",
+            "introduction": "自身破稳时，立刻恢复所有稳态指数，驱散自身所有减益效果，并恢复全部血量，每场战斗仅触发1次。",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_141",
+            "rank": 4,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89142,
+            "name": "坚韧不拔",
+            "introduction": "稳态值为满时，受到的伤害降低60%；若行动结束时仍然为满，则行动结束时恢复15%最大生命值。",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_142",
+            "rank": 4,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89143,
+            "name": "镇定自若",
+            "introduction": "稳态值为满超过3个回合时，获得【引爆】\n【引爆】：下次主动攻击附加当前稳态值*100%攻击力的固定伤害",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_143",
+            "rank": 5,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89144,
+            "name": "碎颅溃击",
+            "introduction": "破稳时，驱散目标2个增益效果，并使其陷入晕眩状态，持续1回合。",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_144",
+            "rank": 3,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89145,
+            "name": "식은 죽 먹기",
+            "introduction": "破稳时，目标额外受到自身7%最大生命值的固定伤害。",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_145",
+            "rank": 4,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89146,
+            "name": "异位稳袭",
+            "introduction": "破稳时，触发1次60%倍率的【五颜六色】\n【五颜六色】：额外造成6种基于自身攻击力的属性伤害。（火冰毒水电物）（吃武器和元素的固定稳态伤害加成）",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_146",
+            "rank": 5,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89147,
+            "name": "溃散赋能",
+            "introduction": "破稳时，恢复全体友方包括自己1点导染，冷却时间减少1回合。",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_147",
+            "rank": 5,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89148,
+            "name": "稳扎猛打",
+            "introduction": "破稳时，回复等同于自身生命上限25%的生命值，并获得1层【攻击力提升】\n【攻击力提升】：攻击力提升15%，无限叠层",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_148",
+            "rank": 5,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89149,
+            "name": "稳态吸收",
+            "introduction": "每拥有1个破稳体系插件，造成的稳态伤害提高1点，受到的稳态伤害降低1点",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_149",
+            "rank": 4,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89150,
+            "name": "稳态激荡",
+            "introduction": "造成的稳态伤害提高，提高值为当前稳态值。",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_150",
+            "rank": 5,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89151,
+            "name": "跃升动能",
+            "introduction": "每点最大行动力提升1%伤害",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_151",
+            "rank": 3,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89152,
+            "name": "跃升动能",
+            "introduction": "每点最大行动力提升2%暴击率，2%暴击伤害",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_152",
+            "rank": 4,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89153,
+            "name": "跃升动能",
+            "introduction": "每点最大行动力提升3%攻击力，3%伤害，1点稳态伤害",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_153",
+            "rank": 5,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89154,
+            "name": "长驱陷阵",
+            "introduction": "最大行动力+1，若站在任意友方地格上，攻击力提高15%",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_154",
+            "rank": 3,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89155,
+            "name": "长驱陷阵",
+            "introduction": "最大行动力+2，若站在任意友方地格上，造成伤害提高20%，暴击伤害提高25%",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_155",
+            "rank": 4,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89156,
+            "name": "长驱陷阵",
+            "introduction": "最大行动力+3，若站在【泡泡水弹】上，则造成伤害和暴击伤害提高最大行动力*3%，造成的稳态伤害提高最大行动力*1点",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_156",
+            "rank": 5,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89157,
+            "name": "疾风掠影",
+            "introduction": "每拥有1个行动力体系插件，自身受到伤害降低5% ，至多叠加6层",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_157",
+            "rank": 3,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89158,
+            "name": "疾风掠影",
+            "introduction": "每拥有1个行动力体系插件，自身最大移动力提高1 ，至多叠加9层",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_158",
+            "rank": 4,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89159,
+            "name": "养精蓄锐",
+            "introduction": "若未施放主动技能，则【泡泡水弹】造成的伤害提高，提高值为最大移动力*5%",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_159",
+            "rank": 5,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89160,
+            "name": "相位恢复",
+            "introduction": "移动后，恢复等同于移动距离*2%的生命值",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_160",
+            "rank": 3,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89161,
+            "name": "势能传递",
+            "introduction": "移动后，其他友方单位获得1点导染。",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_161",
+            "rank": 4,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89162,
+            "name": "瞬影匿踪",
+            "introduction": "移动后，获得【隐匿】，不可作为直接目标被敌方技能选中，持续至主动攻击后或下回合自身行动结束时",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_162",
+            "rank": 5,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89163,
+            "name": "重力统御",
+            "introduction": "获得【重力场】。【重力场】：自身半径2格范围内敌方单位行动力-3，且无法获得增益。",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_163",
+            "rank": 4,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89164,
+            "name": "禁足破敌",
+            "introduction": "若敌方移动力为0，则对其造成的伤害提高50%，并无视30%防御",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_164",
+            "rank": 5,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89165,
+            "name": "震荡奔袭",
+            "introduction": "若产生移动，则在行动结束时，对周围3格内敌人造成200%攻击力的固定伤害，并附加“眩晕”1回合。",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_165",
+            "rank": 4,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89166,
+            "name": "援助冲锋",
+            "introduction": "若产生移动，则在行动结束时，驱散周围5格内友方2个减益效果，并恢复15%最大生命值和3点稳态。",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_166",
+            "rank": 4,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89167,
+            "name": "爆弹投放",
+            "introduction": "若产生移动，则在行动结束时，在自身周围3格生成【泡泡水弹】",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_167",
+            "rank": 5,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89168,
+            "name": "惯性积渐",
+            "introduction": "若未移动，则立刻获得【后发制人】，持续2回合\n【后发制人】：移动力+12，攻击力提高（提高值为最大行动力*3%）（可无限叠层），且下回合生成的【泡泡水弹】伤害翻倍",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_168",
+            "rank": 5,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89169,
+            "name": "羁绊共鸣",
+            "introduction": "场上每存在1名友方召唤物，友方单位防御力提高5%，友方召唤物额外提高5%。",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_169",
+            "rank": 3,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89170,
+            "name": "羁绊共鸣",
+            "introduction": "场上每存在1名友方召唤物，友方单位攻击力提高5%，友方召唤物额外提高5%。",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_170",
+            "rank": 4,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89171,
+            "name": "结缘增益",
+            "introduction": "每拥有1个<召唤>体系芯片，友方召唤物防御力提高10%，至多叠加6层",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_171",
+            "rank": 3,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89172,
+            "name": "结缘增益",
+            "introduction": "每拥有1个<召唤>体系芯片，友方召唤物攻击力提高10%，至多叠加9层",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_172",
+            "rank": 4,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89173,
+            "name": "相生相伴",
+            "introduction": "友方人形造成的伤害降低5%，友方召唤物造成的伤害提高10%。",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_173",
+            "rank": 3,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89174,
+            "name": "相生相伴",
+            "introduction": "友方人形造成的伤害降低15%，造成的稳态伤害降低2点。友方召唤物造成的伤害提高30%，造成的稳态伤害提高4点。",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_174",
+            "rank": 4,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89175,
+            "name": "相生相伴",
+            "introduction": "友方人形造成的伤害降低30%，造成的稳态伤害降低4点。友方召唤物造成的伤害提高60%，造成的稳态伤害提高8点。",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_175",
+            "rank": 5,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89176,
+            "name": "联合爆发",
+            "introduction": "当前大回合友方单位每进行1次主动攻击，友方召唤物的暴击率提高10%",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_176",
+            "rank": 4,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89177,
+            "name": "联合爆发",
+            "introduction": "当前大回合友方单位每进行1次主动攻击，友方召唤物的暴击伤害提高10%",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_177",
+            "rank": 5,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89178,
+            "name": "驱魔之触",
+            "introduction": "友方召唤物攻击后，驱散目标拥有的1个增益效果",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_178",
+            "rank": 3,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89179,
+            "name": "攻守与共",
+            "introduction": "友方人形的攻击力降低15%，友方召唤物的攻击力提高30%",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_179",
+            "rank": 4,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89180,
+            "name": "攻守与共",
+            "introduction": "友方人形的防御力降低15%，友方召唤物的防御力提高30%",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_180",
+            "rank": 4,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89181,
+            "name": "烙印创痕",
+            "introduction": "敌方单位当前大回合每受到一个不同的友方单位攻击，下个大回合受到的伤害提高10%",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_181",
+            "rank": 5,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89182,
+            "name": "涅槃重生",
+            "introduction": "我方人形释放传送技能时，降低自身20%的防御力，提高培育学者20%的攻击力，持续3回合。传送技能冷却时间减少1回合。",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_182",
+            "rank": 4,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89183,
+            "name": "盟誓激发",
+            "introduction": "友方召唤物每持有1层【A】，攻击后恢复5%的生命值。",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_183",
+            "rank": 5,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89184,
+            "name": "猎魂累势",
+            "introduction": "友方召唤物的攻击若未造成击杀，则使下一次友方召唤物的攻击造成的伤害提高30%，可持续累积。若造成击杀则使所有友方单位获得2层【A】。",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_184",
+            "rank": 5,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89185,
+            "name": "守护契约",
+            "introduction": "友方人形受到致命伤害时若拥有的【A】大于等于10层，则消耗10层【A】免疫该次伤害并恢复全部生命值",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_185",
+            "rank": 5,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89186,
+            "name": "围猎之阵",
+            "introduction": "友方召唤物攻击未破稳的敌方单位时，造成的稳态伤害提高8点，攻击处于稳态崩溃的敌方单位时，造成的伤害提高50%",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_186",
+            "rank": 5,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89187,
+            "name": "정밀 파쇄",
+            "introduction": "主动攻击造成武器克制时，造成伤害提高30%，稳态伤害提高4点。",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_92",
+            "rank": 5,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89188,
+            "name": "약점 파괴",
+            "introduction": "主动攻击造成异位克制时，造成伤害提高30%，稳态伤害提高4点。",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_94",
+            "rank": 5,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89189,
+            "name": "처치 효율",
+            "introduction": "造成击杀时，恢复自身5%最大生命值的生命值",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_95",
+            "rank": 3,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89190,
+            "name": "인해전술",
+            "introduction": "场上敌方单位数量小于等于3时，自身造成伤害提高45%",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_97",
+            "rank": 5,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89191,
+            "name": "다윗과 골리앗",
+            "introduction": "场上敌方单位数量大于3时，自身造成伤害提高45%",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_99",
+            "rank": 5,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89192,
+            "name": "사통 공유",
+            "introduction": "我方全体存活时，造成的范围伤害提高5%，每有1个友方单位死亡，该效果降低1%",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_101",
+            "rank": 3,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89193,
+            "name": "탄도 동기화",
+            "introduction": "我方全体存活时，造成的精准伤害提高5%，每有1个友方单位死亡，该效果降低1%",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_103",
+            "rank": 3,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89194,
+            "name": "역전의 전사",
+            "introduction": "回合开始时，自身攻击力提高1%，可叠加",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_108",
+            "rank": 3,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89195,
+            "name": "철벽 쌓기",
+            "introduction": "回合开始时，自身防御力提高1%，可叠加",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_109",
+            "rank": 3,
+            "iconPath": "Rogue"
+        },
+        {
+            "id": 89196,
+            "name": "배수일전",
+            "introduction": "敌方目标生命值低于80%时，造成伤害提高30%",
+            "description": "新肉鸽展示用",
+            "type": 4,
+            "icon": "Item_Rogue_Chip_110",
+            "rank": 5,
+            "iconPath": "Rogue"
+        },
+        {
             "id": 91001,
             "name": "공용키·화려한 트릴",
             "introduction": "장착 후 해당 스킬을 획득할 수 있는 파생키.",
@@ -17144,6 +18333,20 @@
             "icon": "Skill_Chrtalent_ActivitySR20",
             "rank": 4,
             "argsStr": "91020",
+            "iconPath": "Skill",
+            "dismantlingList": {
+                "2": 5000
+            }
+        },
+        {
+            "id": 91021,
+            "name": "共键·灵魂强音",
+            "introduction": "장착 후 해당 스킬을 획득할 수 있는 파생키.",
+            "description": "天赋插拔技能道具",
+            "type": 31,
+            "icon": "Skill_Chrtalent_ActivitySR21",
+            "rank": 4,
+            "argsStr": "91021",
             "iconPath": "Skill",
             "dismantlingList": {
                 "2": 5000
@@ -17430,6 +18633,20 @@
             }
         },
         {
+            "id": 92021,
+            "name": "共键·三代的余裕",
+            "introduction": "장착 후 해당 스킬을 획득할 수 있는 파생키.",
+            "description": "天赋插拔技能道具",
+            "type": 31,
+            "icon": "Skill_Chrtalent_ActivityR21",
+            "rank": 3,
+            "argsStr": "92021",
+            "iconPath": "Skill",
+            "dismantlingList": {
+                "2": 5000
+            }
+        },
+        {
             "id": 93001,
             "name": "공용키·아로마 가드",
             "introduction": "장착 후 해당 스킬을 획득할 수 있는 파생키.",
@@ -17690,6 +18907,20 @@
             "icon": "Skill_Chrtalent_OperationActivitySR19",
             "rank": 4,
             "argsStr": "93019",
+            "iconPath": "Skill",
+            "dismantlingList": {
+                "2": 5000
+            }
+        },
+        {
+            "id": 93020,
+            "name": "共键·爱狗人士",
+            "introduction": "장착 후 해당 스킬을 획득할 수 있는 파생키.",
+            "description": "天赋插拔技能道具",
+            "type": 31,
+            "icon": "Skill_Chrtalent_OperationActivitySR20",
+            "rank": 4,
+            "argsStr": "93020",
             "iconPath": "Skill",
             "dismantlingList": {
                 "2": 5000
@@ -18062,6 +19293,18 @@
             "sort": 5,
             "showType": 2,
             "argsStr": "1;1015:1,1021:1,1029:1,1025:1,1027:1,1033:1;",
+            "iconPath": "Item"
+        },
+        {
+            "id": 110051,
+            "name": "性别转换卡",
+            "introduction": "做男做女都精彩。\n使用后，可更改指挥官的性别。",
+            "description": "指挥官性转卡",
+            "type": 108,
+            "icon": "Item_Icon_player_sex",
+            "rank": 5,
+            "sort": 5,
+            "showType": 2,
             "iconPath": "Item"
         },
         {
@@ -20078,6 +21321,58 @@
             "description": "活动专用配件箱",
             "type": 105,
             "icon": "Item_Icon_WeaponPartBox_SMG_Leva04",
+            "rank": 5,
+            "sort": 5,
+            "showType": 2,
+            "argsStr": "7023",
+            "iconPath": "Item"
+        },
+        {
+            "id": 121081,
+            "name": "冲锋枪高阶配件箱·洛贝拉Ⅰ",
+            "introduction": "打开后必定获得精密级稀有度的冲锋枪口*1，该宝箱产出的配件基础属性更高，洛贝拉主题活动专供，外观为任意基础外观中的一种，请注意使用！",
+            "description": "活动专用配件箱",
+            "type": 105,
+            "icon": "Item_Icon_WeaponPartBox_SMG_Robella01",
+            "rank": 5,
+            "sort": 5,
+            "showType": 2,
+            "argsStr": "7020",
+            "iconPath": "Item"
+        },
+        {
+            "id": 121082,
+            "name": "冲锋枪高阶配件箱·洛贝拉Ⅱ",
+            "introduction": "打开后必定获得精密级稀有度的冲锋瞄准*1，该宝箱产出的配件基础属性更高，洛贝拉主题活动专供，外观为任意基础外观中的一种，请注意使用！",
+            "description": "活动专用配件箱",
+            "type": 105,
+            "icon": "Item_Icon_WeaponPartBox_SMG_Robella02",
+            "rank": 5,
+            "sort": 5,
+            "showType": 2,
+            "argsStr": "7022",
+            "iconPath": "Item"
+        },
+        {
+            "id": 121083,
+            "name": "冲锋枪高阶配件箱·洛贝拉Ⅲ",
+            "introduction": "打开后必定获得精密级稀有度的冲锋握把*1，该宝箱产出的配件基础属性更高，洛贝拉主题活动专供，外观为任意基础外观中的一种，请注意使用！",
+            "description": "活动专用配件箱",
+            "type": 105,
+            "icon": "Item_Icon_WeaponPartBox_SMG_Robella03",
+            "rank": 5,
+            "sort": 5,
+            "showType": 2,
+            "argsStr": "7021",
+            "iconPath": "Item"
+        },
+        {
+            "id": 121084,
+            "name": "冲锋枪高阶配件箱·洛贝拉Ⅳ",
+            "introduction": "打开后必定获得精密级稀有度的冲锋下挂*1，该宝箱产出的配件基础属性更高，洛贝拉主题活动专供，外观为任意基础外观中的一种，请注意使用！",
+            "description": "活动专用配件箱",
+            "type": 105,
+            "icon": "Item_Icon_WeaponPartBox_SMG_Robella04",
             "rank": 5,
             "sort": 5,
             "showType": 2,
@@ -26993,6 +28288,78 @@
             "iconPath": "Skill"
         },
         {
+            "id": 205701,
+            "name": "固键·防御降临",
+            "introduction": "장착 후 해당 스킬을 얻을 수 있는 강화키.",
+            "description": "天赋专属技能",
+            "type": 31,
+            "icon": "Skill_Chrtalent_Robella01",
+            "rank": 4,
+            "getList": "341057",
+            "argsStr": "205701",
+            "iconPath": "Skill"
+        },
+        {
+            "id": 205702,
+            "name": "固键·三代心智",
+            "introduction": "장착 후 해당 스킬을 얻을 수 있는 강화키.",
+            "description": "天赋专属技能",
+            "type": 31,
+            "icon": "Skill_Chrtalent_Robella02",
+            "rank": 4,
+            "getList": "341057",
+            "argsStr": "205702",
+            "iconPath": "Skill"
+        },
+        {
+            "id": 205703,
+            "name": "固键·额外关注",
+            "introduction": "장착 후 해당 스킬을 얻을 수 있는 강화키.",
+            "description": "天赋专属技能",
+            "type": 31,
+            "icon": "Skill_Chrtalent_Robella03",
+            "rank": 4,
+            "getList": "341057",
+            "argsStr": "205703",
+            "iconPath": "Skill"
+        },
+        {
+            "id": 205704,
+            "name": "固键·不如兵蚁",
+            "introduction": "장착 후 해당 스킬을 얻을 수 있는 강화키.",
+            "description": "天赋专属技能",
+            "type": 31,
+            "icon": "Skill_Chrtalent_Robella04",
+            "rank": 4,
+            "getList": "341057",
+            "argsStr": "205704",
+            "iconPath": "Skill"
+        },
+        {
+            "id": 205705,
+            "name": "固键·冷淡保护色",
+            "introduction": "장착 후 해당 스킬을 얻을 수 있는 강화키.",
+            "description": "天赋专属技能",
+            "type": 31,
+            "icon": "Skill_Chrtalent_Robella05",
+            "rank": 4,
+            "getList": "341057",
+            "argsStr": "205705",
+            "iconPath": "Skill"
+        },
+        {
+            "id": 205706,
+            "name": "固键·内核稳定",
+            "introduction": "장착 후 해당 스킬을 얻을 수 있는 강화키.",
+            "description": "天赋专属技能",
+            "type": 31,
+            "icon": "Skill_Chrtalent_Robella06",
+            "rank": 4,
+            "getList": "341057",
+            "argsStr": "205706",
+            "iconPath": "Skill"
+        },
+        {
             "id": 300001,
             "name": "铭契之环",
             "introduction": "이별과 장애물이 가로막아도, 소중한 추억을 간직한 인형은 그것을 뛰어넘을 수 있습니다. 지휘관의 직접 조작으로 인형 마인드맵 심층에 전용 코드가 입력되어, 그 잊을 수 없는 모습이 영원히 마인드맵에 새겨집니다.\n전용 프로토콜 코드가 저장된 고리 모양 기억 장치. 인형과의 결약에 사용됩니다.",
@@ -28073,6 +29440,19 @@
             "iconPath": "Item"
         },
         {
+            "id": 300088,
+            "name": "特别赠礼·洛贝拉",
+            "introduction": "专属于洛贝拉的礼物，让她感受到你的心意吧。\n打开后，获得洛贝拉专属的契合度礼物。",
+            "description": "好感度礼物宝箱",
+            "type": 105,
+            "icon": "Item_Icon_GiftBox_Robella",
+            "rank": 5,
+            "sort": 5,
+            "showType": 2,
+            "argsStr": "10034",
+            "iconPath": "Item"
+        },
+        {
             "id": 800001,
             "name": "명성",
             "introduction": "노동의 달콤한 과실을 즐길 시간입니다.\n「서클 명성 상점」 전용 화폐. 서클 보급, 일일 과업, 흙먼지 전선을 통해 얻을 수 있습니다.",
@@ -28867,6 +30247,21 @@
             }
         },
         {
+            "id": 901057,
+            "name": "共键·正义护体",
+            "introduction": "장착 후 해당 스킬을 획득할 수 있는 파생키.",
+            "description": "天赋插拔技能道具",
+            "type": 31,
+            "icon": "Skill_Chrtalent_RobellaSSR",
+            "rank": 5,
+            "getList": "341057",
+            "argsStr": "901057",
+            "iconPath": "Skill",
+            "dismantlingList": {
+                "2": 5000
+            }
+        },
+        {
             "id": 911001,
             "name": "공용키·뜨거운 수호",
             "introduction": "장착 후 해당 스킬을 획득할 수 있는 파생키.",
@@ -29399,6 +30794,20 @@
             }
         },
         {
+            "id": 911057,
+            "name": "共键·心灵渡船",
+            "introduction": "장착 후 해당 스킬을 획득할 수 있는 파생키.",
+            "description": "天赋插拔技能道具",
+            "type": 31,
+            "icon": "Skill_Chrtalent_RobellaSSR_love",
+            "rank": 4,
+            "argsStr": "911057",
+            "iconPath": "Skill",
+            "dismantlingList": {
+                "2": 5001
+            }
+        },
+        {
             "id": 921001,
             "name": "도약키·토끼의 창공 급습",
             "introduction": "일종의 도약키. 장착 후 해당 스킬을 얻습니다.",
@@ -29408,6 +30817,21 @@
             "rank": 5,
             "getList": "341001",
             "argsStr": "921001",
+            "iconPath": "Skill",
+            "dismantlingList": {
+                "2": 5000
+            }
+        },
+        {
+            "id": 921008,
+            "name": "跃键·悼亡的预言",
+            "introduction": "일종의 도약키. 장착 후 해당 스킬을 얻습니다.",
+            "description": "天赋插拔技能道具",
+            "type": 31,
+            "icon": "Skill_Chrtalent_NemesisSSR_expand",
+            "rank": 5,
+            "getList": "341008",
+            "argsStr": "921008",
             "iconPath": "Skill",
             "dismantlingList": {
                 "2": 5000
@@ -29678,6 +31102,21 @@
             "rank": 5,
             "getList": "341038",
             "argsStr": "921038",
+            "iconPath": "Skill",
+            "dismantlingList": {
+                "2": 5000
+            }
+        },
+        {
+            "id": 921039,
+            "name": "跃键·摇滚雪绒花",
+            "introduction": "일종의 도약키. 장착 후 해당 스킬을 얻습니다.",
+            "description": "天赋插拔技能道具",
+            "type": 31,
+            "icon": "Skill_Chrtalent_SuomiSSR_expand",
+            "rank": 5,
+            "getList": "341039",
+            "argsStr": "921039",
             "iconPath": "Skill",
             "dismantlingList": {
                 "2": 5000
@@ -30064,6 +31503,46 @@
             "iconPath": "PatternData"
         },
         {
+            "id": 994109,
+            "name": "酸蚀·穹顶之花β",
+            "introduction": "고급 성장 데이터로, 장착 시 의태 코어에 지정된 특화 형태와 현상 인자를 부여한다.",
+            "description": "生长数据",
+            "type": 99,
+            "icon": "RemouldingPattern_Data_Suppress_01_4",
+            "rank": 4,
+            "iconPath": "PatternData"
+        },
+        {
+            "id": 994110,
+            "name": "突击·熵叠之茎β",
+            "introduction": "고급 성장 데이터로, 장착 시 의태 코어에 지정된 특화 형태와 현상 인자를 부여한다.",
+            "description": "生长数据",
+            "type": 99,
+            "icon": "RemouldingPattern_Data_Scout_01_4",
+            "rank": 4,
+            "iconPath": "PatternData"
+        },
+        {
+            "id": 994111,
+            "name": "电场·晨露之叶β",
+            "introduction": "고급 성장 데이터로, 장착 시 의태 코어에 지정된 특화 형태와 현상 인자를 부여한다.",
+            "description": "生长数据",
+            "type": 99,
+            "icon": "RemouldingPattern_Data_Assist_03_4",
+            "rank": 4,
+            "iconPath": "PatternData"
+        },
+        {
+            "id": 994112,
+            "name": "坚壁·髓柱之根β",
+            "introduction": "고급 성장 데이터로, 장착 시 의태 코어에 지정된 특화 형태와 현상 인자를 부여한다.",
+            "description": "生长数据",
+            "type": 99,
+            "icon": "RemouldingPattern_Data_Guard_03_4",
+            "rank": 4,
+            "iconPath": "PatternData"
+        },
+        {
             "id": 994200,
             "name": "배아구슬의 줄기 β",
             "introduction": "고급 성장 데이터로, 장착 시 의태 코어에 지정된 특화 형태와 현상 인자를 부여한다.",
@@ -30284,6 +31763,86 @@
             "iconPath": "PatternData"
         },
         {
+            "id": 995118,
+            "name": "实弹·穹顶之花γ",
+            "introduction": "최상급 성장 데이터로, 장착 시 의태 코어에 지정된 특화 형태와 현상 인자를 부여한다.",
+            "description": "生长数据",
+            "type": 99,
+            "icon": "RemouldingPattern_Data_Suppress_01_5",
+            "rank": 5,
+            "iconPath": "PatternData"
+        },
+        {
+            "id": 995119,
+            "name": "溶解·裂隙之茎γ",
+            "introduction": "최상급 성장 데이터로, 장착 시 의태 코어에 지정된 특화 형태와 현상 인자를 부여한다.",
+            "description": "生长数据",
+            "type": 99,
+            "icon": "RemouldingPattern_Data_Scout_04_5",
+            "rank": 5,
+            "iconPath": "PatternData"
+        },
+        {
+            "id": 995120,
+            "name": "탁류·살관의 꽃 γ",
+            "introduction": "최상급 성장 데이터로, 장착 시 의태 코어에 지정된 특화 형태와 현상 인자를 부여한다.",
+            "description": "生长数据",
+            "type": 99,
+            "icon": "RemouldingPattern_Data_Suppress_02_5",
+            "rank": 5,
+            "iconPath": "PatternData"
+        },
+        {
+            "id": 995121,
+            "name": "过载·锋锐之茎γ",
+            "introduction": "최상급 성장 데이터로, 장착 시 의태 코어에 지정된 특화 형태와 현상 인자를 부여한다.",
+            "description": "生长数据",
+            "type": 99,
+            "icon": "RemouldingPattern_Data_Scout_03_5",
+            "rank": 5,
+            "iconPath": "PatternData"
+        },
+        {
+            "id": 995122,
+            "name": "血噬·源栅之叶γ",
+            "introduction": "최상급 성장 데이터로, 장착 시 의태 코어에 지정된 특화 형태와 현상 인자를 부여한다.",
+            "description": "生长数据",
+            "type": 99,
+            "icon": "RemouldingPattern_Data_Assist_02_5",
+            "rank": 5,
+            "iconPath": "PatternData"
+        },
+        {
+            "id": 995123,
+            "name": "坚壁·磐脉之根γ",
+            "introduction": "최상급 성장 데이터로, 장착 시 의태 코어에 지정된 특화 형태와 현상 인자를 부여한다.",
+            "description": "生长数据",
+            "type": 99,
+            "icon": "RemouldingPattern_Data_Guard_01_5",
+            "rank": 5,
+            "iconPath": "PatternData"
+        },
+        {
+            "id": 995124,
+            "name": "堙疗·碧络之叶γ",
+            "introduction": "최상급 성장 데이터로, 장착 시 의태 코어에 지정된 특화 형태와 현상 인자를 부여한다.",
+            "description": "生长数据",
+            "type": 99,
+            "icon": "RemouldingPattern_Data_Assist_01_5",
+            "rank": 5,
+            "iconPath": "PatternData"
+        },
+        {
+            "id": 995125,
+            "name": "围剿·千须之根γ",
+            "introduction": "최상급 성장 데이터로, 장착 시 의태 코어에 지정된 특화 형태와 현상 인자를 부여한다.",
+            "description": "生长数据",
+            "type": 99,
+            "icon": "RemouldingPattern_Data_Guard_04_5",
+            "rank": 5,
+            "iconPath": "PatternData"
+        },
+        {
             "id": 995200,
             "name": "배아구슬의 줄기 γ",
             "introduction": "최상급 성장 데이터로, 장착 시 의태 코어에 지정된 특화 형태와 현상 인자를 부여한다.",
@@ -30412,6 +31971,32 @@
             "sort": 4,
             "showType": 2,
             "argsStr": "1;994105:1,994106:1,994107:1,994108:1;",
+            "iconPath": "Item"
+        },
+        {
+            "id": 996009,
+            "name": "최상급 성장 데이터 선물 상자",
+            "introduction": "B.R.I.E.F. 특공품으로, 16LAB 연구팀이 수집·재가공한 최상급 성장 데이터가 들어 있다. 전투 효율을 높이는 데 최고의 선택.",
+            "description": "拟态积分奖励",
+            "type": 8,
+            "icon": "Item_Icon_RemouldingPattern_Box_5",
+            "rank": 5,
+            "sort": 5,
+            "showType": 2,
+            "argsStr": "1;995118:1,995119:1,995120:1,995121:1,995122:1,995123:1,995124:1,995125:1;",
+            "iconPath": "Item"
+        },
+        {
+            "id": 996010,
+            "name": "고급 성장 데이터 선물 상자",
+            "introduction": "B.R.I.E.F. 특공품으로, 16LAB 연구팀이 수집·재가공한 고급 성장 데이터가 들어 있다. 전투 효율을 높이는 데 최고의 선택.",
+            "description": "拟态积分奖励",
+            "type": 8,
+            "icon": "Item_Icon_RemouldingPattern_Box_5",
+            "rank": 4,
+            "sort": 4,
+            "showType": 2,
+            "argsStr": "1;994109:1,994110:1,994111:1,994112:1;",
             "iconPath": "Item"
         },
         {
@@ -31189,9 +32774,20 @@
             "iconPath": "Weapon"
         },
         {
+            "id": 3112105,
+            "name": "涂装·流浪者赞歌",
+            "introduction": "依照流浪者赞歌设计的武器涂装方案。\n可用于更换相应的武器涂装。",
+            "description": "武器皮肤",
+            "type": 60,
+            "icon": "Weapon_RO635_5",
+            "rank": 5,
+            "argsStr": "3112105",
+            "iconPath": "Weapon"
+        },
+        {
             "id": 3112115,
             "name": "도색·교활한 여우",
-            "introduction": "도색·교활한 여우 디자인을 기반으로 한 무기 도색안.\n해당 무기 도색 교체에 사용 가능.",
+            "introduction": "依照狡狐设计的武器涂装方案。\n可用于更换相应的武器涂装。",
             "description": "武器皮肤",
             "type": 60,
             "icon": "Weapon_UMP45_5",
@@ -31244,6 +32840,17 @@
             "iconPath": "Weapon"
         },
         {
+            "id": 3112284,
+            "name": "涂装·柯尔特635型冲锋枪",
+            "introduction": "依照柯尔特635型冲锋枪设计的武器涂装方案。\n可用于更换相应的武器涂装。",
+            "description": "武器皮肤",
+            "type": 60,
+            "icon": "Weapon_RO635_4",
+            "rank": 4,
+            "argsStr": "3112284",
+            "iconPath": "Weapon"
+        },
+        {
             "id": 3112293,
             "name": "도색·구형 C-벡터",
             "introduction": "「구형 C-벡터」의 도색 플랜.\n해당 무기의 도색을 바꿀 수 있습니다.",
@@ -31288,9 +32895,20 @@
             "iconPath": "Weapon"
         },
         {
+            "id": 3112463,
+            "name": "涂装·旧式柯尔特635型冲锋枪",
+            "introduction": "依照旧式柯尔特635型冲锋枪设计的武器涂装方案。\n可用于更换相应的武器涂装。",
+            "description": "武器皮肤",
+            "type": 60,
+            "icon": "Weapon_RO635_3",
+            "rank": 3,
+            "argsStr": "3112463",
+            "iconPath": "Weapon"
+        },
+        {
             "id": 3112473,
             "name": "도색·구식 범용 기관단총 45",
-            "introduction": "도색·구식 범용 기관단총 45 디자인을 기반으로 한 무기 도색안.\n해당 무기 도색 교체에 사용 가능.",
+            "introduction": "依照旧式通用冲锋枪45设计的武器涂装方案。\n可用于更换相应的武器涂装。",
             "description": "武器皮肤",
             "type": 60,
             "icon": "Weapon_UMP45_3",
@@ -31455,7 +33073,7 @@
         {
             "id": 3113315,
             "name": "도색·은빛 날개의 꿈 수호자",
-            "introduction": "「은빛 날개의 꿈 수호자」의 도색 플랜.\n해당 무기의 도색을 바꿀 수 있습니다.",
+            "introduction": "依照护梦银翼设计的武器涂装方案。\n可用于更换相应的武器涂装。",
             "description": "武器皮肤",
             "type": 60,
             "icon": "Weapon_VSK94_5",
@@ -31466,7 +33084,7 @@
         {
             "id": 3113363,
             "name": "도색·구형 VSK-94",
-            "introduction": "「구형 VSK-94」의 도색 플랜.\n해당 무기의 도색을 바꿀 수 있습니다.",
+            "introduction": "依照旧式维斯卡94设计的武器涂装方案。\n可用于更换相应的武器涂装。",
             "description": "武器皮肤",
             "type": 60,
             "icon": "Weapon_VSK94_3",
@@ -31477,7 +33095,7 @@
         {
             "id": 3113364,
             "name": "도색·VSK-94",
-            "introduction": "「VSK-94」의 도색 플랜.\n해당 무기의 도색을 바꿀 수 있습니다.",
+            "introduction": "依照维斯卡94设计的武器涂装方案。\n可用于更换相应的武器涂装。",
             "description": "武器皮肤",
             "type": 60,
             "icon": "Weapon_VSK94_4",
@@ -31609,7 +33227,7 @@
         {
             "id": 3114135,
             "name": "도색·흐르는 불꽃의 광채",
-            "introduction": "「흐르는 불꽃의 광채」의 도색 플랜.\n해당 무기의 도색을 바꿀 수 있습니다.",
+            "introduction": "依照流光花火设计的武器涂装方案。\n可用于更换相应的武器涂装。",
             "description": "武器皮肤",
             "type": 60,
             "icon": "Weapon_K2_5",
@@ -31675,7 +33293,7 @@
         {
             "id": 3114294,
             "name": "도색·범용 기관단총 45",
-            "introduction": "도색·범용 기관단총 45 디자인을 기반으로 한 무기 도색안.\n해당 무기 도색 교체에 사용 가능.",
+            "introduction": "依照通用冲锋枪45设计的武器涂装方案。\n可用于更换相应的武器涂装。",
             "description": "武器皮肤",
             "type": 60,
             "icon": "Weapon_UMP45_4",
@@ -31785,7 +33403,7 @@
         {
             "id": 3114493,
             "name": "도색·구형 K2",
-            "introduction": "「구형 K2」의 도색 플랜.\n해당 무기의 도색을 바꿀 수 있습니다.",
+            "introduction": "依照旧式卡宾刻2型设计的武器涂装方案。\n可用于更换相应的武器涂装。",
             "description": "武器皮肤",
             "type": 60,
             "icon": "Weapon_K2_3",
@@ -32137,7 +33755,7 @@
         {
             "id": 3116314,
             "name": "도색·K2",
-            "introduction": "「K2」의 도색 플랜.\n해당 무기의 도색을 바꿀 수 있습니다.",
+            "introduction": "依照卡宾刻2型设计的武器涂装方案。\n可用于更换相应的武器涂装。",
             "description": "武器皮肤",
             "type": 60,
             "icon": "Weapon_K2_4",
@@ -32346,6 +33964,18 @@
             "iconPath": "Weapon"
         },
         {
+            "id": 4131494,
+            "name": "涂装·炫光金属",
+            "introduction": "炫丽的不只有枪身，还有扣下扳机后闪耀的火光。\n可用于更换相应的武器涂装。",
+            "description": "武器皮肤",
+            "type": 60,
+            "icon": "Weapon_HRClaC012_4",
+            "rank": 4,
+            "getList": "270014",
+            "argsStr": "4131494",
+            "iconPath": "Weapon"
+        },
+        {
             "id": 4132015,
             "name": "涂装·灵海潮汐",
             "introduction": "청량한 여름, 고민 따윈 잊어버리고 햇살과 바다를 만끽해 보세요.\n해당 무기의 도색을 바꿀 수 있습니다.",
@@ -32355,6 +33985,18 @@
             "rank": 5,
             "getList": "312003",
             "argsStr": "4132015",
+            "iconPath": "Weapon"
+        },
+        {
+            "id": 4132075,
+            "name": "涂装·穹线流光",
+            "introduction": "曳光划过天际，子弹所至，皆为终点！\n可用于更换相应的武器涂装。",
+            "description": "武器皮肤",
+            "type": 60,
+            "icon": "Weapon_SMGSet008_5",
+            "rank": 5,
+            "getList": "312003",
+            "argsStr": "4132075",
             "iconPath": "Weapon"
         },
         {
@@ -32497,6 +34139,18 @@
             "rank": 4,
             "getList": "290028",
             "argsStr": "4132474",
+            "iconPath": "Weapon"
+        },
+        {
+            "id": 4132504,
+            "name": "涂装·和平使者",
+            "introduction": "硝烟散尽的天空之下，用最后的火药点燃和平的篝火。\n可用于更换相应的武器涂装。",
+            "description": "武器皮肤",
+            "type": 60,
+            "icon": "Weapon_SMGClaB018_4",
+            "rank": 4,
+            "getList": "290030",
+            "argsStr": "4132504",
             "iconPath": "Weapon"
         },
         {
@@ -32678,6 +34332,18 @@
             "iconPath": "Weapon"
         },
         {
+            "id": 4134075,
+            "name": "涂装·辉翎花火",
+            "introduction": "流光奔涌汇聚，音符潮汐律动，于黑夜中伴随珍视之人勇往直前。\n可用于更换相应的武器涂装。",
+            "description": "武器皮肤",
+            "type": 60,
+            "icon": "Weapon_ARClaB031_5",
+            "rank": 5,
+            "getList": "190003",
+            "argsStr": "4134075",
+            "iconPath": "Weapon"
+        },
+        {
             "id": 4134104,
             "name": "도색·돌격수의 꿈",
             "introduction": "어린 시절의 꿈을 얕보지 마라.\n해당 무기의 도색을 바꿀 수 있습니다.",
@@ -32781,6 +34447,18 @@
             "rank": 4,
             "getList": "290026",
             "argsStr": "4134414",
+            "iconPath": "Weapon"
+        },
+        {
+            "id": 4134424,
+            "name": "涂装·充气火力",
+            "introduction": "宛如空气一般轻量化的枪身，不过要注意“炸膛”的风险哦。\n可用于更换相应的武器涂装。",
+            "description": "武器皮肤",
+            "type": 60,
+            "icon": "Weapon_ARClaD016_4",
+            "rank": 4,
+            "getList": "190012",
+            "argsStr": "4134424",
             "iconPath": "Weapon"
         },
         {
@@ -33011,7 +34689,7 @@
             "type": 60,
             "icon": "Weapon_ARClaB012_4",
             "rank": 4,
-            "getList": "290023",
+            "getList": "312004",
             "argsStr": "4234354",
             "iconPath": "Weapon"
         },
@@ -33108,6 +34786,18 @@
             "rank": 5,
             "getList": "351013",
             "argsStr": "4332245",
+            "iconPath": "Weapon"
+        },
+        {
+            "id": 4332255,
+            "name": "涂装·好戏开场",
+            "introduction": "以洛贝拉为主题的武器涂装。在只有我和你的镜头中，会发生怎样的故事呢？\n可用于更换相应的武器涂装。",
+            "description": "武器皮肤",
+            "type": 60,
+            "icon": "Weapon_SMGClaRobella_5",
+            "rank": 5,
+            "getList": "351057",
+            "argsStr": "4332255",
             "iconPath": "Weapon"
         },
         {
@@ -33276,6 +34966,18 @@
             "rank": 5,
             "getList": "351028",
             "argsStr": "4334215",
+            "iconPath": "Weapon"
+        },
+        {
+            "id": 4334265,
+            "name": "涂装·激昂的鼓点",
+            "introduction": "以绛雨为主题的武器涂装。每一声枪响，都精准地踩在正确的鼓点节奏之上！\n可用于更换相应的武器涂装。",
+            "description": "武器皮肤",
+            "type": 60,
+            "icon": "Weapon_ARClaJiangyu_5",
+            "rank": 5,
+            "getList": "351035",
+            "argsStr": "4334265",
             "iconPath": "Weapon"
         },
         {
@@ -34125,6 +35827,18 @@
             "iconPath": "WeaponPart"
         },
         {
+            "id": 7231315,
+            "name": "涂装·穹线流光瞄准",
+            "introduction": "曳光划过天际，子弹所至，皆为终点！\n可用于更换相应的配件涂装。",
+            "description": "配件皮肤",
+            "type": 61,
+            "icon": "WeaponPart_1_Set008_5",
+            "rank": 5,
+            "getList": "312003",
+            "argsStr": "7231315",
+            "iconPath": "WeaponPart"
+        },
+        {
             "id": 7331005,
             "name": "도색·회색지대의 유성",
             "introduction": "토로로 모양 파츠. \"억만 광년을 넘어온 항성의 차가운 빛에도, 한때는 따뜻함이 있었겠죠...\"\n인형과 결약 후 결합도가 일정 레벨을 달성하면 획득.",
@@ -34449,6 +36163,18 @@
             "iconPath": "WeaponPart"
         },
         {
+            "id": 7331224,
+            "name": "涂装·白鸽瞄准",
+            "introduction": "硝烟散尽的天空之下，用最后的火药点燃和平的篝火。\n可用于更换相应的配件涂装。",
+            "description": "配件皮肤",
+            "type": 61,
+            "icon": "WeaponPart_1_ClaC017_3",
+            "rank": 4,
+            "getList": "290030",
+            "argsStr": "7331224",
+            "iconPath": "WeaponPart"
+        },
+        {
             "id": 7331225,
             "name": "도색·완벽한 응대",
             "introduction": "센타우레이시 테마의 파츠. 적에게 주는 완벽한 접대란, 신선한 총알을 선물하는 것.\n인형과 각인 후, 친화도가 일정 레벨에 도달하면 획득.",
@@ -34482,6 +36208,30 @@
             "rank": 5,
             "getList": "351013",
             "argsStr": "7331245",
+            "iconPath": "WeaponPart"
+        },
+        {
+            "id": 7331255,
+            "name": "涂装·机械之心",
+            "introduction": "洛贝拉造型的配件。“我想像人类一样思考……我想与指挥官产生共鸣……”\n与人形铭契后，契合度达到一定等级后获得。",
+            "description": "配件皮肤",
+            "type": 61,
+            "icon": "WeaponPart_1_ClaRobella_3",
+            "rank": 5,
+            "getList": "351057",
+            "argsStr": "7331255",
+            "iconPath": "WeaponPart"
+        },
+        {
+            "id": 7331265,
+            "name": "涂装·嘈切细雨",
+            "introduction": "绛雨造型的配件。绵绵细雨之中，夹杂着她轻快的笑声。\n与人形铭契后，契合度达到一定等级后获得。",
+            "description": "配件皮肤",
+            "type": 61,
+            "icon": "WeaponPart_1_ClaJiangyu_3",
+            "rank": 5,
+            "getList": "351035",
+            "argsStr": "7331265",
             "iconPath": "WeaponPart"
         },
         {
@@ -34576,7 +36326,7 @@
             "type": 61,
             "icon": "WeaponPart_2_ClaB012_3",
             "rank": 4,
-            "getList": "290023",
+            "getList": "312004",
             "argsStr": "7332054",
             "iconPath": "WeaponPart"
         },
@@ -34698,6 +36448,18 @@
             "rank": 5,
             "getList": "312003",
             "argsStr": "7332265",
+            "iconPath": "WeaponPart"
+        },
+        {
+            "id": 7332305,
+            "name": "涂装·穹线流光枪口",
+            "introduction": "曳光划过天际，子弹所至，皆为终点！\n可用于更换相应的配件涂装。",
+            "description": "配件皮肤",
+            "type": 61,
+            "icon": "WeaponPart_2_Set008_5",
+            "rank": 5,
+            "getList": "312003",
+            "argsStr": "7332305",
             "iconPath": "WeaponPart"
         },
         {
@@ -34888,6 +36650,18 @@
             "rank": 5,
             "getList": "312003",
             "argsStr": "7333255",
+            "iconPath": "WeaponPart"
+        },
+        {
+            "id": 7333295,
+            "name": "涂装·穹线流光下挂",
+            "introduction": "曳光划过天际，子弹所至，皆为终点！\n可用于更换相应的配件涂装。",
+            "description": "配件皮肤",
+            "type": 61,
+            "icon": "WeaponPart_3_Set008_5",
+            "rank": 5,
+            "getList": "312003",
+            "argsStr": "7333295",
             "iconPath": "WeaponPart"
         },
         {
@@ -35112,7 +36886,7 @@
             "type": 61,
             "icon": "WeaponPart_12_ClaC012_3",
             "rank": 4,
-            "getList": "290023",
+            "getList": "312004",
             "argsStr": "7336044",
             "iconPath": "WeaponPart"
         },
@@ -35177,6 +36951,18 @@
             "iconPath": "WeaponPart"
         },
         {
+            "id": 7336214,
+            "name": "涂装·白鸽握把",
+            "introduction": "硝烟散尽的天空之下，用最后的火药点燃和平的篝火。\n可用于更换相应的配件涂装。",
+            "description": "配件皮肤",
+            "type": 61,
+            "icon": "WeaponPart_12_ClaD017_3",
+            "rank": 4,
+            "getList": "290030",
+            "argsStr": "7336214",
+            "iconPath": "WeaponPart"
+        },
+        {
             "id": 7336245,
             "name": "도색·청봉 철의 맹세 손잡이",
             "introduction": "청록빛 도색에 황금 용이 휘감겨, 녹색 비단에 언월도를 든 군신이 재림한 듯하다. 그녀 또한 이 충성을 이어받아 목숨을 걸고 너를 지킨다.\n해당 파츠 도색 교체에 사용 가능.",
@@ -35186,6 +36972,18 @@
             "rank": 5,
             "getList": "312003",
             "argsStr": "7336245",
+            "iconPath": "WeaponPart"
+        },
+        {
+            "id": 7336285,
+            "name": "涂装·穹线流光握把",
+            "introduction": "曳光划过天际，子弹所至，皆为终点！\n可用于更换相应的配件涂装。",
+            "description": "配件皮肤",
+            "type": 61,
+            "icon": "WeaponPart_12_Set008_5",
+            "rank": 5,
+            "getList": "312003",
+            "argsStr": "7336285",
             "iconPath": "WeaponPart"
         },
         {
@@ -35403,6 +37201,16 @@
             "description": "新肉鸽用",
             "type": 4,
             "icon": "Item_Icon_Rogue_exp",
+            "rank": 5,
+            "iconPath": "Item"
+        },
+        {
+            "id": 9990201,
+            "name": "强固终端",
+            "introduction": "“在缺少心智存档的特殊情况下，可使用它进行限定强固。”\n仅限于遗珍回收中提升人形的椎体。",
+            "description": "新肉鸽用",
+            "type": 4,
+            "icon": "Item_Icon_Rogue_Grade",
             "rank": 5,
             "iconPath": "Item"
         },
@@ -42869,6 +44677,114 @@
             }
         },
         {
+            "id": 44020101,
+            "name": "飒爽气息",
+            "introduction": "简单，干净，朴素的造型却能直观展现维克托的魅力。",
+            "description": "衣装部件头饰1",
+            "type": 14,
+            "icon": "0",
+            "rank": 5,
+            "sort": 86,
+            "argsStr": "44020101",
+            "iconPath": "Item"
+        },
+        {
+            "id": 44020102,
+            "name": "新奇小熊",
+            "introduction": "以小熊为主题的头饰，新奇的造型让人忍不住想要抚摸一番。",
+            "description": "衣装部件头饰2",
+            "type": 14,
+            "icon": "Item_ClothesMod_VectorSSR02_P2_Head",
+            "rank": 5,
+            "sort": 86,
+            "argsStr": "44020102",
+            "iconPath": "Item"
+        },
+        {
+            "id": 44020103,
+            "name": "捣乱猫咪",
+            "introduction": "来自过去的猫耳造型的头饰，谁能想到这是来自一次不情愿的任务呢。",
+            "description": "衣装部件头饰3",
+            "type": 14,
+            "icon": "Item_ClothesMod_VectorSSR02_P3_Head",
+            "rank": 5,
+            "sort": 86,
+            "argsStr": "44020103",
+            "iconPath": "Item"
+        },
+        {
+            "id": 44020201,
+            "name": "青春洋溢",
+            "introduction": "以欧美风的校园为主题，洋溢着校园青春与活力风格的服装。对于维克托而言，这也是一种别致的体验。",
+            "description": "衣装部件衣服1",
+            "type": 14,
+            "icon": "Item_ClothesMod_VectorSSR02_P1_Cloth",
+            "rank": 5,
+            "sort": 86,
+            "argsStr": "44020201",
+            "iconPath": "Item"
+        },
+        {
+            "id": 44020202,
+            "name": "旧日风情",
+            "introduction": "以维克托冲锋枪为元素，搭配干净的白衬衣，突显穿戴者的清爽帅气。只要穿上，就仿佛回到了过去一般。",
+            "description": "衣装部件衣服2",
+            "type": 14,
+            "icon": "Item_ClothesMod_VectorSSR02_P2_Cloth",
+            "rank": 5,
+            "sort": 86,
+            "argsStr": "44020202",
+            "iconPath": "Item"
+        },
+        {
+            "id": 44020203,
+            "name": "猫猫肉垫",
+            "introduction": "基于一次胡闹任务中的服装而重新翻新的上衣。机会难得，不如再尝试做一次【吓唬人】的动作吧。",
+            "description": "衣装部件衣服3",
+            "type": 14,
+            "icon": "Item_ClothesMod_VectorSSR02_P3_Cloth",
+            "rank": 5,
+            "sort": 86,
+            "argsStr": "44020203",
+            "iconPath": "Item"
+        },
+        {
+            "id": 44020301,
+            "name": "校园漫游",
+            "introduction": "青春，生机，活力与朝气，要去学校里体验体验吗？",
+            "description": "衣装部件腿部1",
+            "type": 14,
+            "icon": "Item_ClothesMod_VectorSSR02_P1_Body",
+            "rank": 5,
+            "sort": 86,
+            "argsStr": "44020301",
+            "iconPath": "Item"
+        },
+        {
+            "id": 44020302,
+            "name": "战术风格",
+            "introduction": "为了作战而准备的长袜，实用至上主义的福音。",
+            "description": "衣装部件腿部2",
+            "type": 14,
+            "icon": "Item_ClothesMod_VectorSSR02_P2_Body",
+            "rank": 5,
+            "sort": 86,
+            "argsStr": "44020302",
+            "iconPath": "Item"
+        },
+        {
+            "id": 44020303,
+            "name": "轻盈猫爪",
+            "introduction": "不对称美学与猫咪结合的设计，虽然不会增加跳跃力，但可爱即是正义。",
+            "description": "衣装部件腿部3",
+            "type": 14,
+            "icon": "Item_ClothesMod_VectorSSR02_P3_Body",
+            "rank": 5,
+            "sort": 86,
+            "argsStr": "44020303",
+            "iconPath": "Item"
+        },
+        {
             "id": 54010101,
             "name": "꽃빛 달콤함",
             "introduction": "가장 전형적인 메이드 헤드기어로, 꽃잎을 모티프로 디자인되었으며, 정교한 실크와 레이스로 제작되어 생동감 있는 주름 디테일이 소녀의 활기를 돋보이게 합니다.",
@@ -42974,6 +44890,114 @@
             "rank": 4,
             "sort": 86,
             "argsStr": "54010303",
+            "iconPath": "Item"
+        },
+        {
+            "id": 57010101,
+            "name": "朝气向导",
+            "introduction": "朝气满满的向导，她将在最前方带领众人冲向终点线。",
+            "description": "衣装部件头饰1",
+            "type": 14,
+            "icon": "Item_ClothesMod_RobellaSSR01_P1_Head",
+            "rank": 4,
+            "sort": 86,
+            "argsStr": "57010101",
+            "iconPath": "Item"
+        },
+        {
+            "id": 57010102,
+            "name": "黑猫标记",
+            "introduction": "以猫耳为蓝本设计的头饰，虽然不具备任何功能，但是却可以给佩戴者增加一分可爱与灵动。",
+            "description": "衣装部件头饰2",
+            "type": 14,
+            "icon": "Item_ClothesMod_RobellaSSR01_P2_Head",
+            "rank": 4,
+            "sort": 86,
+            "argsStr": "57010102",
+            "iconPath": "Item"
+        },
+        {
+            "id": 57010103,
+            "name": "兔耳先锋",
+            "introduction": "以兔耳为原型打造的讯号接收器，即使在远处也可以看到高耸的兔耳。",
+            "description": "衣装部件头饰3",
+            "type": 14,
+            "icon": "Item_ClothesMod_RobellaSSR01_P3_Head",
+            "rank": 4,
+            "sort": 86,
+            "argsStr": "57010103",
+            "iconPath": "Item"
+        },
+        {
+            "id": 57010201,
+            "name": "空力动感",
+            "introduction": "宛如破风一般的凌厉的上衣，强烈的视觉冲击仿佛在最后直线上的加速冲刺。",
+            "description": "衣装部件衣服1",
+            "type": 14,
+            "icon": "Item_ClothesMod_RobellaSSR01_P1_Cloth",
+            "rank": 4,
+            "sort": 86,
+            "argsStr": "57010201",
+            "iconPath": "Item"
+        },
+        {
+            "id": 57010202,
+            "name": "新潮流线",
+            "introduction": "以视觉冲击和流线型设计为笔，为人形勾勒出最棒的身姿。每一次疾驰，都是与平庸的告别。",
+            "description": "衣装部件衣服2",
+            "type": 14,
+            "icon": "Item_ClothesMod_RobellaSSR01_P2_Cloth",
+            "rank": 4,
+            "sort": 86,
+            "argsStr": "57010202",
+            "iconPath": "Item"
+        },
+        {
+            "id": 57010203,
+            "name": "效能特化",
+            "introduction": "注重流线型和圆润的设计，简洁的外观不会掩盖人形最直接的魅力。",
+            "description": "衣装部件衣服3",
+            "type": 14,
+            "icon": "Item_ClothesMod_RobellaSSR01_P3_Cloth",
+            "rank": 4,
+            "sort": 86,
+            "argsStr": "57010203",
+            "iconPath": "Item"
+        },
+        {
+            "id": 57010301,
+            "name": "增压加速",
+            "introduction": "突显运动性的长袜，魅力与弹性的结合体。要不要试着和她狂飙一圈呢？",
+            "description": "衣装部件腿部1",
+            "type": 14,
+            "icon": "Item_ClothesMod_RobellaSSR01_P1_Body",
+            "rank": 4,
+            "sort": 86,
+            "argsStr": "57010301",
+            "iconPath": "Item"
+        },
+        {
+            "id": 57010302,
+            "name": "矢量推力",
+            "introduction": "以尼龙纤维打造的，重视舒适性与包裹性的丝袜。加速的时候要注意打滑哦。",
+            "description": "衣装部件腿部2",
+            "type": 14,
+            "icon": "Item_ClothesMod_RobellaSSR01_P2_Body",
+            "rank": 4,
+            "sort": 86,
+            "argsStr": "57010302",
+            "iconPath": "Item"
+        },
+        {
+            "id": 57010303,
+            "name": "致朴动力",
+            "introduction": "没有额外装饰，用质朴无华的方式展现曲线最简单的美。",
+            "description": "衣装部件腿部3",
+            "type": 14,
+            "icon": "Item_ClothesMod_RobellaSSR01_P3_Body",
+            "rank": 4,
+            "sort": 86,
+            "argsStr": "57010303",
             "iconPath": "Item"
         },
         {

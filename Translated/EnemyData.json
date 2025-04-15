@@ -3824,17 +3824,18 @@
             "textIndex": [
                 1,
                 9,
-                12
+                12,
+                48
             ],
-            "characterPic": "Polylabris_Snail",
+            "characterPic": "PolylabrisSnail",
             "modelCode": 6218,
-            "moveCode": 3,
+            "moveCode": 1,
             "occupySize": 1,
             "aiOrder": 600,
             "useFakeAttack": true,
             "shieldType": 1,
             "attackType": 1,
-            "element": 1,
+            "element": 5,
             "beSupressedConfig": [
                 80000001,
                 9999,
@@ -3846,7 +3847,7 @@
             "displacement": 1,
             "dzOpenBattle": 6218101,
             "btPath": "BT/MainBT/MainBT_6220.bt",
-            "weakTag": "5",
+            "weakTag": "2,3",
             "supressGroup": [
                 4,
                 2,
@@ -3858,7 +3859,7 @@
             "nameOnBar": "갈라진 입 큰 달팽이",
             "guardRadius": 500,
             "guardRadiusShow": 1,
-            "weakWeaponTag": 12,
+            "weakWeaponTag": 10,
             "weakMap": 62173
         },
         {
@@ -7284,7 +7285,8 @@
             "skillActive": 6772201,
             "skillTalent": 6772301,
             "skillTalentExtra": [
-                6772401
+                6772401,
+                910000019
             ],
             "dzAiList": [
                 611002
@@ -7296,7 +7298,10 @@
             "trapDescription": "",
             "description": "지라드 그룹이 설계·제작한 궤도 차량으로, 오염 구역 개척과 건설을 위해 만들어졌다. 전면에 튼튼한 돌파 모듈이 장착되어 있어 무적처럼 보이며, 전력으로 밀고 들어올 때는 일반 화력으론 막기 어렵다.",
             "textIndex": [
-                3
+                7,
+                12,
+                14,
+                48
             ],
             "characterPic": "Mammoth",
             "modelCode": 6772,
@@ -7357,6 +7362,208 @@
             "rank": 3,
             "propertyGroup": 208901,
             "name": "카오스",
+            "joke": "얼마나 오래 벽에 매달려 있었는지 모른다. 족쇄가 풀리는 순간, 억눌린 광기가 분출하듯 터져 나온다.",
+            "trapDescription": "",
+            "description": "금속 골격과 무장 기계가 결합된, 미지의 지하 연구소가 비밀리에 개발한 3세대 인형 프로토타입. 날카로운 촉수가 여러 갈래 도검을 치켜들고, 치명타를 노린다.",
+            "textIndex": [
+                13,
+                14
+            ],
+            "characterPic": "Chaos",
+            "modelCode": 6773,
+            "moveCode": 1,
+            "occupySize": 3,
+            "aiOrder": 50,
+            "useFakeAttack": true,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                2,
+                1000,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "enemyType": 1,
+            "dzOpenBattle": 6110101,
+            "btPath": "BT/BOSSBT/6773/BOSSBT_Chaos.bt",
+            "weakTag": "2,3,1",
+            "supressGroup": [
+                4,
+                2,
+                5,
+                5,
+                3,
+                0
+            ],
+            "nameOnBar": "카오스",
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 42
+        },
+        {
+            "id": 6776,
+            "enemyCamp": 1100,
+            "duty": 1,
+            "skillNormalAttack": 6776101,
+            "skillActive": 6776201,
+            "skillActiveExtra": [
+                6776102,
+                6776202,
+                6776301,
+                6776401,
+                6776501,
+                6776601
+            ],
+            "skillTalentExtra": [
+                6776801,
+                6776901,
+                80000002,
+                6151501
+            ],
+            "aiList": [
+                677601
+            ],
+            "dzAiList": [
+                611002
+            ],
+            "rank": 3,
+            "propertyGroup": 209101,
+            "name": "그로자?",
+            "joke": "熟悉的身影面目，疏离的姿态眉眼。迎面而来的究竟是谁？",
+            "trapDescription": "",
+            "description": "神秘的敌对人形，具备优秀的指挥能力。素体外观与艾莫号的闪电极其相似，在此基础上似乎又强化了不少模块的性能。",
+            "textIndex": [
+                13,
+                19,
+                32
+            ],
+            "characterPic": "BlackGroza",
+            "modelCode": 6776,
+            "moveCode": 11,
+            "occupySize": 1,
+            "aiOrder": 50,
+            "useFakeAttack": true,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                2,
+                1000,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "dzOpenBattle": 6776101,
+            "btPath": "BT/BOSSBT/6776/BOSSBT_BlackGroza.bt",
+            "weakTag": "2,3,5",
+            "supressGroup": [
+                2,
+                6,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "그로자?",
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 14
+        },
+        {
+            "id": 6784,
+            "enemyCamp": 1100,
+            "duty": 1,
+            "skillNormalAttack": 6773101,
+            "skillActive": 6773201,
+            "skillTalent": 6773501,
+            "skillActiveExtra": [
+                6773301,
+                6773401
+            ],
+            "skillTalentExtra": [
+                6773601,
+                6773701,
+                6151501
+            ],
+            "aiList": [
+                677301
+            ],
+            "dzAiList": [
+                611002
+            ],
+            "rank": 3,
+            "propertyGroup": 208901,
+            "name": "针一形态",
+            "joke": "얼마나 오래 벽에 매달려 있었는지 모른다. 족쇄가 풀리는 순간, 억눌린 광기가 분출하듯 터져 나온다.",
+            "trapDescription": "",
+            "description": "금속 골격과 무장 기계가 결합된, 미지의 지하 연구소가 비밀리에 개발한 3세대 인형 프로토타입. 날카로운 촉수가 여러 갈래 도검을 치켜들고, 치명타를 노린다.",
+            "textIndex": [
+                13,
+                14
+            ],
+            "characterPic": "Chaos",
+            "modelCode": 6773,
+            "moveCode": 1,
+            "occupySize": 3,
+            "aiOrder": 50,
+            "useFakeAttack": true,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                2,
+                1000,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "enemyType": 1,
+            "dzOpenBattle": 6110101,
+            "btPath": "BT/BOSSBT/6773/BOSSBT_Chaos.bt",
+            "weakTag": "2,3,1",
+            "supressGroup": [
+                4,
+                2,
+                5,
+                5,
+                3,
+                0
+            ],
+            "nameOnBar": "카오스",
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 42
+        },
+        {
+            "id": 6787,
+            "enemyCamp": 1100,
+            "duty": 1,
+            "skillNormalAttack": 6773101,
+            "skillActive": 6773201,
+            "skillTalent": 6773501,
+            "skillActiveExtra": [
+                6773301,
+                6773401
+            ],
+            "skillTalentExtra": [
+                6773601,
+                6773701,
+                6151501
+            ],
+            "aiList": [
+                677301
+            ],
+            "dzAiList": [
+                611002
+            ],
+            "rank": 3,
+            "propertyGroup": 208901,
+            "name": "针三形态",
             "joke": "얼마나 오래 벽에 매달려 있었는지 모른다. 족쇄가 풀리는 순간, 억눌린 광기가 분출하듯 터져 나온다.",
             "trapDescription": "",
             "description": "금속 골격과 무장 기계가 결합된, 미지의 지하 연구소가 비밀리에 개발한 3세대 인형 프로토타입. 날카로운 촉수가 여러 갈래 도검을 치켜들고, 치명타를 노린다.",
@@ -9958,6 +10165,80 @@
             "guardRadius": 700,
             "guardRadiusShow": 1,
             "weakWeaponTag": 56
+        },
+        {
+            "id": 6895,
+            "enemyCamp": 1100,
+            "duty": 1,
+            "skillNormalAttack": 6895101,
+            "skillActive": 6895201,
+            "skillTalent": 6895001,
+            "skillActiveExtra": [
+                6895203,
+                6895301,
+                6895401
+            ],
+            "skillTalentExtra": [
+                6895002,
+                6895003,
+                6895004,
+                6895102,
+                6895204,
+                68951011,
+                6895202,
+                6895302,
+                6895403,
+                6151501,
+                910000012
+            ],
+            "aiList": [
+                689501
+            ],
+            "rank": 3,
+            "propertyGroup": 207304,
+            "name": "卡俄斯·怨忿",
+            "joke": "枷锁松动之时，比光跑得还快的是怨忿的疯狂。",
+            "trapDescription": "",
+            "description": "金属素体与武装机械结合的第三代人形原型机。在实战的锤炼下，高举的各式屠刀愈加锋利，张牙舞爪的触手愈加致命。",
+            "textIndex": [
+                7,
+                11,
+                13,
+                14
+            ],
+            "characterPic": "Chaos",
+            "modelCode": 6773,
+            "moveCode": 1,
+            "occupySize": 3,
+            "aiOrder": 50,
+            "useFakeAttack": true,
+            "shieldType": 2,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                910000007,
+                2,
+                1000,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "enemyType": 1,
+            "dzOpenBattle": 6895101,
+            "btPath": "BT/BOSSBT/6895/BOSSBT_ChaosII.bt",
+            "weakTag": "4,5",
+            "supressGroup": [
+                3,
+                2,
+                2,
+                3,
+                0,
+                0
+            ],
+            "nameOnBar": "卡俄斯·怨忿",
+            "guardRadius": 700,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 28
         },
         {
             "id": 6901,
@@ -13376,6 +13657,306 @@
             "guardRadius": 300,
             "guardRadiusShow": 1,
             "weakWeaponTag": 8
+        },
+        {
+            "id": 7028,
+            "enemyCamp": 1099,
+            "duty": 1,
+            "skillTalent": 7026101,
+            "skillTalentExtra": [
+                910000011,
+                910000013,
+                910000010,
+                80000002
+            ],
+            "rank": 1,
+            "propertyGroup": 300801,
+            "name": "诱猎塔·眩晕",
+            "joke": "성질 완전 더러워. 툭하면 폭발해.",
+            "trapDescription": "암류 잔류",
+            "description": "성격이 괴팍하고 사나우며 혼자 있는 것을 좋아합니다. 최대한 방해하지 않도록 하세요.",
+            "textIndex": [
+                9
+            ],
+            "characterPic": "JerricanWater",
+            "modelCode": 7010,
+            "occupySize": 1,
+            "aiOrder": 250,
+            "trap": true,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 2,
+            "btPath": "BT/MainBT/MainBT_0.bt",
+            "supressGroup": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "诱猎塔·眩晕",
+            "guardRadius": 100,
+            "guardRadiusShow": 1,
+            "feature": 1
+        },
+        {
+            "id": 7029,
+            "enemyCamp": 1099,
+            "duty": 1,
+            "skillTalent": 7026101,
+            "skillTalentExtra": [
+                910000011,
+                910000013,
+                910000010,
+                80000002
+            ],
+            "rank": 1,
+            "propertyGroup": 300801,
+            "name": "诱猎塔·滞足",
+            "joke": "성질 완전 더러워. 툭하면 폭발해.",
+            "trapDescription": "암류 잔류",
+            "description": "성격이 괴팍하고 사나우며 혼자 있는 것을 좋아합니다. 최대한 방해하지 않도록 하세요.",
+            "textIndex": [
+                9
+            ],
+            "characterPic": "JerricanWater",
+            "modelCode": 7010,
+            "occupySize": 1,
+            "aiOrder": 250,
+            "trap": true,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 2,
+            "btPath": "BT/MainBT/MainBT_0.bt",
+            "supressGroup": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "诱猎塔·滞足",
+            "guardRadius": 100,
+            "guardRadiusShow": 1,
+            "feature": 1
+        },
+        {
+            "id": 7030,
+            "enemyCamp": 1099,
+            "duty": 1,
+            "skillTalent": 7030101,
+            "skillTalentExtra": [
+                910000011,
+                910000013,
+                910000010,
+                80000002
+            ],
+            "rank": 1,
+            "propertyGroup": 300801,
+            "name": "冷凝体（定身版）",
+            "joke": "성질 완전 더러워. 툭하면 폭발해.",
+            "trapDescription": "암류 잔류",
+            "description": "성격이 괴팍하고 사나우며 혼자 있는 것을 좋아합니다. 최대한 방해하지 않도록 하세요.",
+            "textIndex": [
+                9
+            ],
+            "characterPic": "Toad_Ice",
+            "modelCode": 96345,
+            "occupySize": 1,
+            "aiOrder": 250,
+            "trap": true,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 2,
+            "btPath": "BT/MainBT/MainBT_0.bt",
+            "supressGroup": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "빙결체",
+            "guardRadius": 100,
+            "guardRadiusShow": 1,
+            "feature": 1
+        },
+        {
+            "id": 7031,
+            "enemyCamp": 1099,
+            "duty": 1,
+            "skillTalent": 7026101,
+            "skillTalentExtra": [
+                910000011,
+                910000013,
+                910000010,
+                80000002
+            ],
+            "rank": 1,
+            "propertyGroup": 300801,
+            "name": "诱猎塔·眩晕",
+            "joke": "성질 완전 더러워. 툭하면 폭발해.",
+            "trapDescription": "암류 잔류",
+            "description": "성격이 괴팍하고 사나우며 혼자 있는 것을 좋아합니다. 최대한 방해하지 않도록 하세요.",
+            "textIndex": [
+                9
+            ],
+            "characterPic": "JerricanWater",
+            "modelCode": 7010,
+            "occupySize": 1,
+            "aiOrder": 250,
+            "trap": true,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 2,
+            "btPath": "BT/MainBT/MainBT_0.bt",
+            "supressGroup": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "诱猎塔·眩晕",
+            "guardRadius": 100,
+            "guardRadiusShow": 1,
+            "feature": 1
+        },
+        {
+            "id": 7032,
+            "enemyCamp": 1099,
+            "duty": 1,
+            "skillTalent": 7026101,
+            "skillTalentExtra": [
+                910000011,
+                910000013,
+                910000010,
+                80000002
+            ],
+            "rank": 1,
+            "propertyGroup": 300801,
+            "name": "诱猎塔·滞足",
+            "joke": "성질 완전 더러워. 툭하면 폭발해.",
+            "trapDescription": "암류 잔류",
+            "description": "성격이 괴팍하고 사나우며 혼자 있는 것을 좋아합니다. 최대한 방해하지 않도록 하세요.",
+            "textIndex": [
+                9
+            ],
+            "characterPic": "JerricanWater",
+            "modelCode": 7010,
+            "occupySize": 1,
+            "aiOrder": 250,
+            "trap": true,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 2,
+            "btPath": "BT/MainBT/MainBT_0.bt",
+            "supressGroup": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "诱猎塔·滞足",
+            "guardRadius": 100,
+            "guardRadiusShow": 1,
+            "feature": 1
+        },
+        {
+            "id": 7033,
+            "enemyCamp": 1099,
+            "duty": 1,
+            "skillTalent": 7030201,
+            "skillTalentExtra": [
+                910000011,
+                910000013,
+                910000010,
+                80000002
+            ],
+            "rank": 1,
+            "propertyGroup": 300801,
+            "name": "冷凝体（定身版）",
+            "joke": "성질 완전 더러워. 툭하면 폭발해.",
+            "trapDescription": "암류 잔류",
+            "description": "성격이 괴팍하고 사나우며 혼자 있는 것을 좋아합니다. 최대한 방해하지 않도록 하세요.",
+            "textIndex": [
+                9
+            ],
+            "characterPic": "Toad_Ice",
+            "modelCode": 96345,
+            "occupySize": 1,
+            "aiOrder": 250,
+            "trap": true,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 2,
+            "btPath": "BT/MainBT/MainBT_0.bt",
+            "supressGroup": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "빙결체",
+            "guardRadius": 100,
+            "guardRadiusShow": 1,
+            "feature": 1
         },
         {
             "id": 7101,
@@ -21222,6 +21803,76 @@
             "weakWeaponTag": 12
         },
         {
+            "id": 64835,
+            "enemyCamp": 1004,
+            "duty": 1,
+            "skillNormalAttack": 6481102,
+            "skillActive": 6481201,
+            "skillTalent": 6481500,
+            "skillActiveExtra": [
+                6481301,
+                6481401
+            ],
+            "skillTalentExtra": [
+                6481501,
+                6483602,
+                6481700,
+                6151501,
+                80000002,
+                910000015
+            ],
+            "aiList": [
+                648301,
+                648302
+            ],
+            "dzAiList": [
+                648301,
+                648302
+            ],
+            "rank": 3,
+            "propertyGroup": 209006,
+            "name": "벨라토-137",
+            "joke": "팀워크가 끈끈합니다 (벨라토-212와 있을 때 한정).",
+            "trapDescription": "",
+            "description": "거친 피부, 비대한 살집, 가장 큰 덩치를 자랑하는 전사입니다.",
+            "textIndex": [
+                13,
+                41
+            ],
+            "characterPic": "Bellator",
+            "modelCode": 6481,
+            "moveCode": 11,
+            "occupySize": 1,
+            "aiOrder": 50,
+            "useFakeAttack": true,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                2,
+                1000,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "dzOpenBattle": 6481102,
+            "btPath": "BT/BOSSBT/6483/BOSSBT_tushi137_hard_64833.bt",
+            "weakTag": "2,5",
+            "supressGroup": [
+                3,
+                4,
+                5,
+                2,
+                0,
+                0
+            ],
+            "nameOnBar": "벨라토-137",
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 6
+        },
+        {
             "id": 64839,
             "enemyCamp": 1004,
             "duty": 1,
@@ -21570,6 +22221,76 @@
             "guardRadius": 500,
             "guardRadiusShow": 1,
             "weakWeaponTag": 34
+        },
+        {
+            "id": 64845,
+            "enemyCamp": 1004,
+            "duty": 1,
+            "skillNormalAttack": 6482102,
+            "skillActive": 6482201,
+            "skillTalent": 6482500,
+            "skillActiveExtra": [
+                6482301,
+                6482401
+            ],
+            "skillTalentExtra": [
+                6482501,
+                6484602,
+                6481700,
+                6151501,
+                80000002,
+                910000015
+            ],
+            "aiList": [
+                648401,
+                648402
+            ],
+            "dzAiList": [
+                648401,
+                648402
+            ],
+            "rank": 3,
+            "propertyGroup": 209007,
+            "name": "벨라토-212",
+            "joke": "자주적 사고에 있어서는 벨라토-137과 막상막하입니다.",
+            "trapDescription": "",
+            "description": "벨라토-137처럼 매우 거대하고 튼튼한 몸뚱이를 가졌지만, 오히려 그것이 그의 죽음을 앞당겼습니다.",
+            "textIndex": [
+                13,
+                41
+            ],
+            "characterPic": "BellatorBlack",
+            "modelCode": 6482,
+            "moveCode": 11,
+            "occupySize": 1,
+            "aiOrder": 60,
+            "useFakeAttack": true,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                2,
+                1000,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "dzOpenBattle": 6482102,
+            "btPath": "BT/BOSSBT/6484/BOSSBT_tushi212_hard_64843.bt",
+            "weakTag": "2,5",
+            "supressGroup": [
+                3,
+                4,
+                5,
+                2,
+                0,
+                0
+            ],
+            "nameOnBar": "벨라토-212",
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 6
         },
         {
             "id": 64849,
@@ -24598,6 +25319,76 @@
             "guardRadius": 500,
             "guardRadiusShow": 1,
             "weakWeaponTag": 42
+        },
+        {
+            "id": 67761,
+            "enemyCamp": 1100,
+            "duty": 1,
+            "skillNormalAttack": 6776101,
+            "skillActive": 6776201,
+            "skillActiveExtra": [
+                6776102,
+                6776202,
+                6776301,
+                6776401,
+                6776501,
+                6776601
+            ],
+            "skillTalentExtra": [
+                6776801,
+                6776901,
+                80000002,
+                6151501
+            ],
+            "aiList": [
+                677601
+            ],
+            "dzAiList": [
+                611002
+            ],
+            "rank": 3,
+            "propertyGroup": 209102,
+            "name": "그로자?",
+            "joke": "熟悉的身影面目，疏离的姿态眉眼。迎面而来的究竟是谁？",
+            "trapDescription": "",
+            "description": "神秘的敌对人形，具备优秀的指挥能力。素体外观与艾莫号的闪电极其相似，在此基础上似乎又强化了不少模块的性能。",
+            "textIndex": [
+                13,
+                19,
+                32
+            ],
+            "characterPic": "BlackGroza",
+            "modelCode": 6776,
+            "moveCode": 11,
+            "occupySize": 1,
+            "aiOrder": 50,
+            "useFakeAttack": true,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                2,
+                1000,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "dzOpenBattle": 6776101,
+            "btPath": "BT/BOSSBT/6776/BOSSBT_BlackGroza.bt",
+            "weakTag": "2,3,5",
+            "supressGroup": [
+                2,
+                6,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "그로자?",
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 14
         },
         {
             "id": 68512,
@@ -34549,6 +35340,242 @@
             "weakWeaponTag": 4
         },
         {
+            "id": 2834101,
+            "enemyCamp": 1099,
+            "duty": 4,
+            "skillNormalAttack": 10520101,
+            "skillActive": 10520501,
+            "skillTalent": 10520801,
+            "skillActiveExtra": [
+                10520701,
+                10520401
+            ],
+            "rank": 1,
+            "propertyGroup": 80130,
+            "name": "클루카이",
+            "joke": "",
+            "trapDescription": "",
+            "description": "우아하고 냉정하며 절대적인 자신감으로 무장한 인형. H.I.D.E. 404 전원을 정예로 키워내기 위해 노력합니다. 그 강인함과 엄격함 뒤에 얼마나 부드럽고 모두를 아끼는 마음이 숨겨져 있는지는, 그녀와 친숙한 사람들만이 알고 있습니다.",
+            "textIndex": [
+                7,
+                10
+            ],
+            "characterPic": "ClukaySSR",
+            "modelCode": 5058,
+            "moveCode": 27,
+            "occupySize": 1,
+            "aiOrder": 200,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 4,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "enemyType": 2,
+            "dzOpenBattle": 10500101,
+            "btPath": "BT/GunBT/1052/MainBT_1052.bt",
+            "weakTag": "2",
+            "supressGroup": [
+                6,
+                4,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "클루카이",
+            "nonMultimove": true,
+            "showPotential": true,
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "defaultClothId": 1105200,
+            "weakWeaponTag": 32,
+            "weaponTag": 4
+        },
+        {
+            "id": 2834102,
+            "enemyCamp": 1099,
+            "duty": 4,
+            "skillNormalAttack": 10510101,
+            "skillActive": 10510501,
+            "skillTalent": 10510801,
+            "skillActiveExtra": [
+                10510701,
+                10510401
+            ],
+            "rank": 1,
+            "propertyGroup": 80130,
+            "name": "미슈티",
+            "joke": "",
+            "trapDescription": "",
+            "description": "게임과 만화 감상 외에는 항상 나른한 인형. 언제 어디서든 쿨쿨 잘 수 있는 특기가 있습니다. 무기력의 극치를 보여주는 그녀지만 위기의 순간에는 듬직한 모습을 보여주기도 합니다. 물론 본인은 위기가 평생 없길 바라지만요.",
+            "textIndex": [
+                9,
+                31
+            ],
+            "characterPic": "MishtySSR",
+            "modelCode": 5057,
+            "moveCode": 27,
+            "occupySize": 1,
+            "aiOrder": 200,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 4,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "enemyType": 2,
+            "dzOpenBattle": 10500101,
+            "btPath": "BT/GunBT/1051/MainBT_1051.bt",
+            "weakTag": "5",
+            "supressGroup": [
+                6,
+                4,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "미슈티",
+            "nonMultimove": true,
+            "showPotential": true,
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "defaultClothId": 1105100,
+            "weakWeaponTag": 8,
+            "weaponTag": 4
+        },
+        {
+            "id": 2834103,
+            "enemyCamp": 1099,
+            "duty": 4,
+            "skillNormalAttack": 10450101,
+            "skillActive": 10450501,
+            "skillTalent": 10450801,
+            "skillActiveExtra": [
+                10450701,
+                10450401
+            ],
+            "rank": 1,
+            "propertyGroup": 80130,
+            "name": "비욜카",
+            "joke": "",
+            "trapDescription": "",
+            "description": "순수하고 활발하며, 인축무해한 잔머리가 한가득. 지휘관과 언니에게 절대 충성하며 모두에게 사랑받는 인형이 되기 위해 노력하는 엘리트 인형. 그녀가 있는 한 분위기가 썰렁해질 걱정은 없다!",
+            "textIndex": [
+                3,
+                31
+            ],
+            "characterPic": "BiyocaSSR",
+            "modelCode": 5058,
+            "moveCode": 27,
+            "occupySize": 1,
+            "aiOrder": 200,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 2,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "enemyType": 2,
+            "dzOpenBattle": 10500101,
+            "btPath": "BT/GunBT/1045/MainBT_1045.bt",
+            "weakTag": "3",
+            "supressGroup": [
+                6,
+                4,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "비욜카",
+            "nonMultimove": true,
+            "showPotential": true,
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "defaultClothId": 1104500,
+            "weakWeaponTag": 32,
+            "weaponTag": 4
+        },
+        {
+            "id": 2834104,
+            "enemyCamp": 1099,
+            "duty": 4,
+            "skillNormalAttack": 10420101,
+            "skillActive": 10420501,
+            "skillTalent": 10420801,
+            "skillActiveExtra": [
+                10420701,
+                10420401
+            ],
+            "rank": 1,
+            "propertyGroup": 80130,
+            "name": "안도리스",
+            "joke": "",
+            "trapDescription": "",
+            "description": "다정하고 상냥한 인형. 성능상 한계가 있어도 실의에 빠지지 않고 자신이 있을 곳을 열심히 찾아다니며, 곁의 모든 사람을 포용했습니다. 그러던 중 어느 사이에 그녀도 타인이 기댈 곳이 되었습니다.",
+            "textIndex": [
+                4,
+                31
+            ],
+            "characterPic": "AndorisSSR",
+            "modelCode": 5058,
+            "moveCode": 27,
+            "occupySize": 1,
+            "aiOrder": 200,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 2,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "enemyType": 2,
+            "dzOpenBattle": 10500101,
+            "btPath": "BT/GunBT/1042/MainBT_1042.bt",
+            "weakTag": "4",
+            "supressGroup": [
+                6,
+                4,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "안도리스",
+            "nonMultimove": true,
+            "showPotential": true,
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "defaultClothId": 1104200,
+            "weakWeaponTag": 8,
+            "weaponTag": 4
+        },
+        {
             "id": 2862012,
             "enemyCamp": 1002,
             "duty": 1,
@@ -38047,6 +39074,73 @@
             "guardRadiusShow": 1,
             "weakWeaponTag": 36,
             "weakMap": 61313
+        },
+        {
+            "id": 3061661,
+            "enemyCamp": 1001,
+            "duty": 3,
+            "skillNormalAttack": 6166101,
+            "skillActive": 6166102,
+            "skillTalent": 6166302,
+            "skillActiveExtra": [
+                6166201,
+                6166301,
+                6166401,
+                6166305
+            ],
+            "skillTalentExtra": [
+                6166403,
+                6166303,
+                6166501,
+                6151501,
+                6166304,
+                80000002
+            ],
+            "aiList": [
+                616601
+            ],
+            "rank": 3,
+            "propertyGroup": 500101,
+            "name": "아이언사이드",
+            "joke": "RC카 조작보다 살짝 복잡한 정도입니다. ...아마도.",
+            "trapDescription": "",
+            "description": "바랴그단이 빼앗아온 반자율형 다목적 전투 로봇. 원격 조종 기능이 있어 조종자의 수준에 따라 전투 능력이 크게 좌우됩니다.",
+            "textIndex": [
+                7,
+                13,
+                20
+            ],
+            "characterPic": "Ironside",
+            "modelCode": 6166,
+            "moveCode": 1,
+            "occupySize": 1,
+            "aiOrder": 50,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                1,
+                1000,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "dzOpenBattle": 6166101,
+            "btPath": "BT/BOSSBT/6166/BOSSBT_Ironside.bt",
+            "weakTag": "2,3",
+            "supressGroup": [
+                2,
+                6,
+                4,
+                2,
+                0,
+                0
+            ],
+            "nameOnBar": "아이언사이드",
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 24
         },
         {
             "id": 3061721,
