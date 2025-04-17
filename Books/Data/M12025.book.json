@@ -1,0 +1,4065 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -4966018532029360186
+  },
+  "m_Name": "M12025.book",
+  "importVersion": 0,
+  "importGridList": [
+    {
+      "rows": [
+        {
+          "rowIndex": 0,
+          "strings": [
+            "Command",
+            "Arg1",
+            "Arg2",
+            "Arg3",
+            "Arg4",
+            "Arg5",
+            "Arg6",
+            "Arg7",
+            "Arg8",
+            "WaitType",
+            "Text",
+            "PageCtrl",
+            "WindowType",
+            "Voice",
+            "Voice1",
+            "Voice_JP",
+            "Voice1_JP",
+            "Voice_EN",
+            "Voice1_EN"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 1,
+          "strings": [
+            "ChangeMessageWindow",
+            "AVGNarrator",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 2,
+          "strings": [
+            "Bg",
+            "BG_None_Black_01",
+            "",
+            "BgDefault",
+            "",
+            "",
+            "0.2",
+            "0",
+            "Linear",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 3,
+          "strings": [
+            "Bg",
+            "BG_Green_City_Street_Day_02",
+            "",
+            "BgDefault",
+            "",
+            "",
+            "2",
+            "0",
+            "EaseInSine",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 4,
+          "strings": [
+            "Particle",
+            "小雨",
+            "",
+            "EffectLayer",
+            "",
+            "",
+            "",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 5,
+          "strings": [
+            "Tween",
+            "小雨",
+            "MoveTo",
+            "time=0.5 start=0 x=0 y=0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "NoWait",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 6,
+          "strings": [
+            "Bgm",
+            "消极紧张",
+            "",
+            "1",
+            "",
+            "0",
+            "2",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 7,
+          "strings": [
+            "Se",
+            "2027051",
+            "False",
+            "1",
+            "",
+            "0",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 8,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "112025001"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 9,
+          "strings": [
+            "Se",
+            "2019012",
+            "False",
+            "1",
+            "",
+            "0",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 10,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "112025002"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 11,
+          "strings": [
+            "ChangeMessageWindow",
+            "AVGWindow",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 12,
+          "strings": [
+            "Character",
+            "莱娅SSR",
+            "Suspect,0",
+            "中",
+            "",
+            "",
+            "0.5",
+            "0.5"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 13,
+          "strings": [
+            "Text",
+            "9",
+            "莱娅SSR",
+            "",
+            "",
+            "",
+            "",
+            "1.5",
+            "",
+            "",
+            "112025003",
+            "",
+            "",
+            "801201075",
+            "801201075"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 14,
+          "strings": [
+            "ChangeMessageWindow",
+            "AVGNarrator",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 15,
+          "strings": [
+            "CharacterOff",
+            "莱娅SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 16,
+          "strings": [
+            "Se",
+            "2010190",
+            "False",
+            "1",
+            "",
+            "0",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 17,
+          "strings": [
+            "Se",
+            "2010191",
+            "False",
+            "1",
+            "",
+            "0",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 18,
+          "strings": [
+            "Se",
+            "2010098",
+            "True",
+            "1",
+            "",
+            "0",
+            "1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 19,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "112025004"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 20,
+          "strings": [
+            "Se",
+            "2010020",
+            "True",
+            "1",
+            "",
+            "0",
+            "2",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 21,
+          "strings": [
+            "Se",
+            "2027001",
+            "True",
+            "1",
+            "",
+            "0",
+            "2",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 22,
+          "strings": [
+            "StopSe",
+            "2010098",
+            "",
+            "",
+            "",
+            "",
+            "0",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 23,
+          "strings": [
+            "Se",
+            "2010051",
+            "False",
+            "1",
+            "",
+            "0",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 24,
+          "strings": [
+            "Se",
+            "20110006",
+            "False",
+            "1",
+            "",
+            "0",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 25,
+          "strings": [
+            "Se",
+            "2010193",
+            "False",
+            "1",
+            "",
+            "0.8",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 26,
+          "strings": [
+            "Particle",
+            "速度线",
+            "",
+            "EffectLayer",
+            "",
+            "",
+            "",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 27,
+          "strings": [
+            "Tween",
+            "速度线",
+            "MoveTo",
+            "time=0.5 start=0 x=0 y=0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "NoWait",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 28,
+          "strings": [
+            "Tween",
+            "速度线",
+            "ScaleTo",
+            "time=0 start=0 x=1.8 y=1.8",
+            "Linear",
+            "",
+            "",
+            "0",
+            "",
+            "NoWait",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 29,
+          "strings": [
+            "Tween",
+            "速度线",
+            "MoveTo",
+            "time=0 start=0 x=0 y=0 islocal=true",
+            "Linear",
+            "",
+            "",
+            "0",
+            "",
+            "NoWait",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 30,
+          "strings": [
+            "Tween",
+            "BG_Green_City_Street_Day_02",
+            "PunchPosition",
+            "time=0.5 delay=0.5 x=0 y=5 start=0",
+            "",
+            "loop=0",
+            "",
+            "",
+            "",
+            "NoWait",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 31,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "112025005"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 32,
+          "strings": [
+            "ChangeMessageWindow",
+            "AVGWindow",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 33,
+          "strings": [
+            "Character",
+            "莱娅SSR",
+            "Suspect,0|Solemn,0.5",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 34,
+          "strings": [
+            "Text",
+            "9",
+            "莱娅SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "112025006",
+            "",
+            "",
+            "801201076",
+            "801201076"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 35,
+          "strings": [
+            "Character",
+            "莱娅SSR",
+            "Solemn,0",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 36,
+          "strings": [
+            "Character",
+            "格琳娜西装",
+            "Solemn,0",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 37,
+          "strings": [
+            "AddEffect",
+            "格琳娜西装",
+            "SenCharEff_CommunStart_holo_01",
+            "",
+            "",
+            "",
+            "",
+            "0",
+            "",
+            "NoWait",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 38,
+          "strings": [
+            "Text",
+            "112",
+            "格琳娜西装",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "112025007",
+            "",
+            "",
+            "801201077",
+            "801201077"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 39,
+          "strings": [
+            "ChangeMessageWindow",
+            "AVGNarrator",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 40,
+          "strings": [
+            "Character",
+            "莱娅SSR",
+            "Solemn,0",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 41,
+          "strings": [
+            "Character",
+            "格琳娜西装",
+            "Solemn,0",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 42,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "112025008"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 43,
+          "strings": [
+            "ChangeMessageWindow",
+            "AVGWindow",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 44,
+          "strings": [
+            "Character",
+            "格琳娜西装",
+            "Solemn,0",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 45,
+          "strings": [
+            "Character",
+            "莱娅SSR",
+            "Solemn,0|Surprised,0.5",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 46,
+          "strings": [
+            "Text",
+            "9",
+            "莱娅SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "112025009",
+            "",
+            "",
+            "801201078",
+            "801201078"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 47,
+          "strings": [
+            "Character",
+            "莱娅SSR",
+            "Surprised,0",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 48,
+          "strings": [
+            "Character",
+            "格琳娜西装",
+            "Solemn,0",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 49,
+          "strings": [
+            "Text",
+            "112",
+            "格琳娜西装",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "112025010",
+            "",
+            "",
+            "801201079",
+            "801201079"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 50,
+          "strings": [
+            "Character",
+            "莱娅SSR",
+            "Surprised,0",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 51,
+          "strings": [
+            "Character",
+            "莱娜日常装",
+            "Think,0",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 52,
+          "strings": [
+            "Text",
+            "62",
+            "莱娜日常装",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "112025011",
+            "",
+            "",
+            "801201080",
+            "801201080"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 53,
+          "strings": [
+            "Character",
+            "莱娜日常装",
+            "Think,0",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 54,
+          "strings": [
+            "Character",
+            "莱娅SSR",
+            "Surprised,0|Suspect,0.5",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 55,
+          "strings": [
+            "Text",
+            "9",
+            "莱娅SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "112025012",
+            "",
+            "",
+            "801201081",
+            "801201081"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 56,
+          "strings": [
+            "Character",
+            "莱娅SSR",
+            "Suspect,0",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 57,
+          "strings": [
+            "Character",
+            "格琳娜西装",
+            "Solemn,0",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 58,
+          "strings": [
+            "AddEffect",
+            "格琳娜西装",
+            "SenCharEff_CommunStart_holo_01",
+            "",
+            "",
+            "",
+            "",
+            "0",
+            "",
+            "NoWait",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 59,
+          "strings": [
+            "Text",
+            "112",
+            "格琳娜西装",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "112025013",
+            "",
+            "",
+            "801201082",
+            "801201082"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 60,
+          "strings": [
+            "Character",
+            "莱娅SSR",
+            "Suspect,0",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 61,
+          "strings": [
+            "Character",
+            "格琳娜西装",
+            "Solemn,0|Think,0.5",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 62,
+          "strings": [
+            "Text",
+            "112",
+            "格琳娜西装",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "112025014",
+            "",
+            "",
+            "801201083",
+            "801201083"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 63,
+          "strings": [
+            "Character",
+            "莱娅SSR",
+            "Suspect,0",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 64,
+          "strings": [
+            "Character",
+            "格琳娜西装",
+            "Think,0",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 65,
+          "strings": [
+            "Text",
+            "112",
+            "格琳娜西装",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "112025015",
+            "",
+            "",
+            "801201084",
+            "801201084"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 66,
+          "strings": [
+            "Character",
+            "格琳娜西装",
+            "Think,0",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 67,
+          "strings": [
+            "Character",
+            "莱娅SSR",
+            "Suspect,0|Solemn,0.5",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 68,
+          "strings": [
+            "Text",
+            "9",
+            "莱娅SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "112025016",
+            "",
+            "",
+            "801201085",
+            "801201085"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 69,
+          "strings": [
+            "Character",
+            "莱娅SSR",
+            "Solemn,0",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 70,
+          "strings": [
+            "Character",
+            "格琳娜西装",
+            "Think,0|Solemn,0.5",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 71,
+          "strings": [
+            "Text",
+            "112",
+            "格琳娜西装",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "112025017",
+            "",
+            "",
+            "801201086",
+            "801201086"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 72,
+          "strings": [
+            "Character",
+            "格琳娜西装",
+            "Solemn,0",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 73,
+          "strings": [
+            "Character",
+            "莱娅SSR",
+            "Solemn,0|Suspect,0.5",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 74,
+          "strings": [
+            "Text",
+            "9",
+            "莱娅SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "112025018",
+            "",
+            "",
+            "801201087",
+            "801201087"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 75,
+          "strings": [
+            "Character",
+            "莱娅SSR",
+            "Suspect,0",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 76,
+          "strings": [
+            "Character",
+            "格琳娜西装",
+            "Solemn,0",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 77,
+          "strings": [
+            "Text",
+            "9",
+            "莱娅SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "112025019",
+            "",
+            "",
+            "801201088",
+            "801201088"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 78,
+          "strings": [
+            "Character",
+            "莱娅SSR",
+            "Suspect,0",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 79,
+          "strings": [
+            "Character",
+            "格琳娜西装",
+            "Solemn,0",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 80,
+          "strings": [
+            "Text",
+            "112",
+            "格琳娜西装",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "112025020",
+            "",
+            "",
+            "801201089",
+            "801201089"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 81,
+          "strings": [
+            "Character",
+            "莱娅SSR",
+            "Suspect,0",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 82,
+          "strings": [
+            "Character",
+            "格琳娜西装",
+            "Solemn,0",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 83,
+          "strings": [
+            "Text",
+            "9",
+            "莱娅SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "112025021",
+            "",
+            "",
+            "801201090",
+            "801201090"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 84,
+          "strings": [
+            "Character",
+            "莱娅SSR",
+            "Suspect,0",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 85,
+          "strings": [
+            "Character",
+            "格琳娜西装",
+            "Solemn,0",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 86,
+          "strings": [
+            "Text",
+            "112",
+            "格琳娜西装",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "112025022",
+            "",
+            "",
+            "801201091",
+            "801201091"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 87,
+          "strings": [
+            "Character",
+            "洛贝拉SSR",
+            "Serious,0",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 88,
+          "strings": [
+            "Character",
+            "格琳娜西装",
+            "Solemn,0",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 89,
+          "strings": [
+            "Text",
+            "426",
+            "洛贝拉SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "112025023",
+            "",
+            "",
+            "801201092",
+            "801201092"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 90,
+          "strings": [
+            "Character",
+            "洛贝拉SSR",
+            "Serious,0",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 91,
+          "strings": [
+            "Character",
+            "格琳娜西装",
+            "Solemn,0|Think,0.5",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 92,
+          "strings": [
+            "Text",
+            "112",
+            "格琳娜西装",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "112025024",
+            "",
+            "",
+            "801201093",
+            "801201093"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 93,
+          "strings": [
+            "Character",
+            "洛贝拉SSR",
+            "Serious,0",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 94,
+          "strings": [
+            "Character",
+            "格琳娜西装",
+            "Think,0",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 95,
+          "strings": [
+            "Text",
+            "112",
+            "格琳娜西装",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "112025025",
+            "",
+            "",
+            "801201094",
+            "801201094"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 96,
+          "strings": [
+            "Character",
+            "格琳娜西装",
+            "Think,0",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 97,
+          "strings": [
+            "Character",
+            "莱娅SSR",
+            "Suspect,0|Surprised,0.5",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 98,
+          "strings": [
+            "Text",
+            "9",
+            "莱娅SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "112025026",
+            "",
+            "",
+            "801201095",
+            "801201095"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 99,
+          "strings": [
+            "Character",
+            "莱娅SSR",
+            "Surprised,0",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 100,
+          "strings": [
+            "Character",
+            "格琳娜西装",
+            "Think,0|Solemn,0.5",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 101,
+          "strings": [
+            "Text",
+            "112",
+            "格琳娜西装",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "112025027",
+            "",
+            "",
+            "801201096",
+            "801201096"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 102,
+          "strings": [
+            "Character",
+            "格琳娜西装",
+            "Solemn,0",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 103,
+          "strings": [
+            "Character",
+            "莱娅SSR",
+            "Surprised,0|Helpless,0.5",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 104,
+          "strings": [
+            "Text",
+            "9",
+            "莱娅SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "112025028",
+            "",
+            "",
+            "801201097",
+            "801201097"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 105,
+          "strings": [
+            "Character",
+            "莱娅SSR",
+            "Helpless,0",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 106,
+          "strings": [
+            "Character",
+            "格琳娜西装",
+            "Solemn,0|Worry,0.5",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 107,
+          "strings": [
+            "Text",
+            "112",
+            "格琳娜西装",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "112025029",
+            "",
+            "",
+            "801201098",
+            "801201098"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 108,
+          "strings": [
+            "Character",
+            "莱娅SSR",
+            "Helpless,0",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 109,
+          "strings": [
+            "Character",
+            "格琳娜西装",
+            "Worry,0",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 110,
+          "strings": [
+            "Text",
+            "112",
+            "格琳娜西装",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "112025030",
+            "",
+            "",
+            "801201099",
+            "801201099"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 111,
+          "strings": [
+            "Character",
+            "莱娅SSR",
+            "Helpless,0",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 112,
+          "strings": [
+            "Character",
+            "格琳娜西装",
+            "Worry,0",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 113,
+          "strings": [
+            "Text",
+            "112",
+            "格琳娜西装",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "112025031",
+            "",
+            "",
+            "801201100",
+            "801201100"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 114,
+          "strings": [
+            "Character",
+            "莱娅SSR",
+            "Helpless,0",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 115,
+          "strings": [
+            "Character",
+            "格琳娜西装",
+            "Worry,0|Solemn,0.5",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 116,
+          "strings": [
+            "Text",
+            "112",
+            "格琳娜西装",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "112025032",
+            "",
+            "",
+            "801201101",
+            "801201101"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 117,
+          "strings": [
+            "Character",
+            "格琳娜西装",
+            "Solemn,0",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 118,
+          "strings": [
+            "Character",
+            "莱娅SSR",
+            "Helpless,0|Angry,0.5",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 119,
+          "strings": [
+            "Text",
+            "9",
+            "莱娅SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "112025033",
+            "",
+            "",
+            "801201102",
+            "801201102"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 120,
+          "strings": [
+            "ChangeMessageWindow",
+            "AVGNarrator",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 121,
+          "strings": [
+            "CharacterOff",
+            "莱娅SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 122,
+          "strings": [
+            "CharacterOff",
+            "格琳娜西装",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 123,
+          "strings": [
+            "Se",
+            "2028019",
+            "False",
+            "1",
+            "",
+            "0",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 124,
+          "strings": [
+            "Se",
+            "2010020",
+            "True",
+            "0.8",
+            "",
+            "0",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 125,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "112025034"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 126,
+          "strings": [
+            "ChangeMessageWindow",
+            "AVGWindow",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 127,
+          "strings": [
+            "Character",
+            "莱娅SSR",
+            "Angry,0|Solemn,0.5",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 128,
+          "strings": [
+            "Text",
+            "9",
+            "莱娅SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "112025035",
+            "",
+            "",
+            "801201103",
+            "801201103"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 129,
+          "strings": [
+            "Character",
+            "莱娅SSR",
+            "Solemn,0",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 130,
+          "strings": [
+            "Text",
+            "9",
+            "莱娅SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "112025036",
+            "",
+            "",
+            "801201104",
+            "801201104"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 131,
+          "strings": [
+            "Character",
+            "莱娅SSR",
+            "Solemn,0|Suspect,0.5",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 132,
+          "strings": [
+            "Text",
+            "9",
+            "莱娅SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "112025037",
+            "",
+            "",
+            "801201105",
+            "801201105"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 133,
+          "strings": [
+            "Character",
+            "莱娅SSR",
+            "Suspect,0",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 134,
+          "strings": [
+            "Character",
+            "格琳娜西装",
+            "Solemn,0",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 135,
+          "strings": [
+            "AddEffect",
+            "格琳娜西装",
+            "SenCharEff_CommunStart_holo_01",
+            "",
+            "",
+            "",
+            "",
+            "0",
+            "",
+            "NoWait",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 136,
+          "strings": [
+            "Text",
+            "112",
+            "格琳娜西装",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "112025038",
+            "",
+            "",
+            "801201106",
+            "801201106"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 137,
+          "strings": [
+            "Character",
+            "莱娅SSR",
+            "Suspect,0",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 138,
+          "strings": [
+            "Character",
+            "格琳娜西装",
+            "Solemn,0",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 139,
+          "strings": [
+            "Text",
+            "112",
+            "格琳娜西装",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "112025039",
+            "",
+            "",
+            "801201107",
+            "801201107"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 140,
+          "strings": [
+            "Character",
+            "莱娅SSR",
+            "Suspect,0",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 141,
+          "strings": [
+            "Character",
+            "格琳娜西装",
+            "Solemn,0|Think,0.5",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 142,
+          "strings": [
+            "Text",
+            "112",
+            "格琳娜西装",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "112025040",
+            "",
+            "",
+            "801201108",
+            "801201108"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 143,
+          "strings": [
+            "ChangeMessageWindow",
+            "AVGNarrator",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 144,
+          "strings": [
+            "CharacterOff",
+            "莱娅SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 145,
+          "strings": [
+            "CharacterOff",
+            "格琳娜西装",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 146,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "112025041"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 147,
+          "strings": [
+            "ChangeMessageWindow",
+            "AVGWindow",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 148,
+          "strings": [
+            "Character",
+            "格琳娜西装",
+            "Think,0|Solemn,0.5",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 149,
+          "strings": [
+            "AddEffect",
+            "格琳娜西装",
+            "SenCharEff_CommunStart_holo_01",
+            "",
+            "",
+            "",
+            "",
+            "0",
+            "",
+            "NoWait",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 150,
+          "strings": [
+            "Text",
+            "112",
+            "格琳娜西装",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "112025042",
+            "",
+            "",
+            "801201109",
+            "801201109"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 151,
+          "strings": [
+            "Character",
+            "洛贝拉SSR",
+            "Worried,0",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 152,
+          "strings": [
+            "Character",
+            "格琳娜西装",
+            "Solemn,0",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 153,
+          "strings": [
+            "Text",
+            "426",
+            "洛贝拉SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "112025043",
+            "",
+            "",
+            "801201110",
+            "801201110"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 154,
+          "strings": [
+            "Character",
+            "洛贝拉SSR",
+            "Worried,0",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 155,
+          "strings": [
+            "Character",
+            "格琳娜西装",
+            "Solemn,0",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 156,
+          "strings": [
+            "Text",
+            "112",
+            "格琳娜西装",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "112025044",
+            "",
+            "",
+            "801201111",
+            "801201111"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 157,
+          "strings": [
+            "Character",
+            "格琳娜西装",
+            "Solemn,0",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 158,
+          "strings": [
+            "Character",
+            "莱娜日常装",
+            "Surprised,0",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 159,
+          "strings": [
+            "Text",
+            "62",
+            "莱娜日常装",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "112025045",
+            "",
+            "",
+            "801201112",
+            "801201112"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 160,
+          "strings": [
+            "Character",
+            "莱娜日常装",
+            "Surprised,0",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 161,
+          "strings": [
+            "Character",
+            "格琳娜西装",
+            "Solemn,0",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 162,
+          "strings": [
+            "AddEffect",
+            "格琳娜西装",
+            "SenCharEff_CommunStart_holo_01",
+            "",
+            "",
+            "",
+            "",
+            "0",
+            "",
+            "NoWait",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 163,
+          "strings": [
+            "Text",
+            "112",
+            "格琳娜西装",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "112025046",
+            "",
+            "",
+            "801201113",
+            "801201113"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 164,
+          "strings": [
+            "Character",
+            "莱娅SSR",
+            "Suspect,0",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 165,
+          "strings": [
+            "Character",
+            "格琳娜西装",
+            "Solemn,0",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 166,
+          "strings": [
+            "Text",
+            "9",
+            "莱娅SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "112025047",
+            "",
+            "",
+            "801201114",
+            "801201114"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 167,
+          "strings": [
+            "Character",
+            "莱娅SSR",
+            "Suspect,0",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 168,
+          "strings": [
+            "Character",
+            "格琳娜西装",
+            "Solemn,0",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 169,
+          "strings": [
+            "Text",
+            "9",
+            "莱娅SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "112025048",
+            "",
+            "",
+            "801201115",
+            "801201115"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 170,
+          "strings": [
+            "Character",
+            "莱娅SSR",
+            "Suspect,0",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 171,
+          "strings": [
+            "Character",
+            "格琳娜西装",
+            "Solemn,0|Think,0.5",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 172,
+          "strings": [
+            "Text",
+            "112",
+            "格琳娜西装",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "112025049",
+            "",
+            "",
+            "801201116",
+            "801201116"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 173,
+          "strings": [
+            "Character",
+            "格琳娜西装",
+            "Think,0",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 174,
+          "strings": [
+            "Character",
+            "洛贝拉SSR",
+            "Worried,0|Serious,0.5",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 175,
+          "strings": [
+            "Text",
+            "426",
+            "洛贝拉SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "112025050",
+            "",
+            "",
+            "801201117",
+            "801201117"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 176,
+          "strings": [
+            "Character",
+            "洛贝拉SSR",
+            "Serious,0",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 177,
+          "strings": [
+            "Character",
+            "格琳娜西装",
+            "Think,0",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 178,
+          "strings": [
+            "Text",
+            "112",
+            "格琳娜西装",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "112025051",
+            "",
+            "",
+            "801201118",
+            "801201118"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 179,
+          "strings": [
+            "Character",
+            "洛贝拉SSR",
+            "Serious,0",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 180,
+          "strings": [
+            "Character",
+            "格琳娜西装",
+            "Think,0",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 181,
+          "strings": [
+            "Text",
+            "112",
+            "格琳娜西装",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "112025052",
+            "",
+            "",
+            "801201119",
+            "801201119"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 182,
+          "strings": [
+            "Character",
+            "格琳娜西装",
+            "Think,0",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 183,
+          "strings": [
+            "Character",
+            "莱娅SSR",
+            "Suspect,0|Ridicule,0.5",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 184,
+          "strings": [
+            "Text",
+            "9",
+            "莱娅SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "112025053",
+            "",
+            "",
+            "801201120",
+            "801201120"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 185,
+          "strings": [
+            "Character",
+            "莱娅SSR",
+            "Ridicule,0",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 186,
+          "strings": [
+            "Character",
+            "格琳娜西装",
+            "Think,0|Worry,0.5",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 187,
+          "strings": [
+            "Text",
+            "112",
+            "格琳娜西装",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "112025054",
+            "",
+            "",
+            "801201121",
+            "801201121"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 188,
+          "strings": [
+            "Character",
+            "洛贝拉SSR",
+            "Serious,0",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 189,
+          "strings": [
+            "Character",
+            "格琳娜西装",
+            "Worry,0",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 190,
+          "strings": [
+            "Text",
+            "426",
+            "洛贝拉SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "112025055",
+            "",
+            "",
+            "801201122",
+            "801201122"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 191,
+          "strings": [
+            "Character",
+            "洛贝拉SSR",
+            "Serious,0",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 192,
+          "strings": [
+            "Character",
+            "格琳娜西装",
+            "Worry,0",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 193,
+          "strings": [
+            "Text",
+            "112",
+            "格琳娜西装",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "112025056",
+            "",
+            "",
+            "801201123",
+            "801201123"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 194,
+          "strings": [
+            "Character",
+            "洛贝拉SSR",
+            "Serious,0",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 195,
+          "strings": [
+            "Character",
+            "格琳娜西装",
+            "Worry,0|Solemn,0.5",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 196,
+          "strings": [
+            "Text",
+            "112",
+            "格琳娜西装",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "112025057",
+            "",
+            "",
+            "801201124",
+            "801201124"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 197,
+          "strings": [
+            "Character",
+            "洛贝拉SSR",
+            "Serious,0",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 198,
+          "strings": [
+            "Character",
+            "格琳娜西装",
+            "Solemn,0",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 199,
+          "strings": [
+            "Text",
+            "112",
+            "格琳娜西装",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "112025058",
+            "",
+            "",
+            "801201125",
+            "801201125"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 200,
+          "strings": [
+            "Character",
+            "洛贝拉SSR",
+            "Serious,0",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 201,
+          "strings": [
+            "Character",
+            "格琳娜西装",
+            "Solemn,0",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 202,
+          "strings": [
+            "Text",
+            "112",
+            "格琳娜西装",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "112025059",
+            "",
+            "",
+            "801201126",
+            "801201126"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 203,
+          "strings": [
+            "Character",
+            "洛贝拉SSR",
+            "Serious,0",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 204,
+          "strings": [
+            "Character",
+            "格琳娜西装",
+            "Solemn,0",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 205,
+          "strings": [
+            "Text",
+            "112",
+            "格琳娜西装",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "112025060",
+            "",
+            "",
+            "801201127",
+            "801201127"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 206,
+          "strings": [
+            "Character",
+            "洛贝拉SSR",
+            "Serious,0",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 207,
+          "strings": [
+            "Character",
+            "格琳娜西装",
+            "Solemn,0",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 208,
+          "strings": [
+            "Text",
+            "112",
+            "格琳娜西装",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "112025061",
+            "",
+            "",
+            "801201128",
+            "801201128"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 209,
+          "strings": [
+            "Character",
+            "洛贝拉SSR",
+            "Serious,0",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 210,
+          "strings": [
+            "Character",
+            "格琳娜西装",
+            "Solemn,0",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 211,
+          "strings": [
+            "Text",
+            "426",
+            "洛贝拉SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "112025062",
+            "",
+            "",
+            "801201129",
+            "801201129"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 212,
+          "strings": [
+            "Character",
+            "洛贝拉SSR",
+            "Serious,0",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 213,
+          "strings": [
+            "Character",
+            "格琳娜西装",
+            "Solemn,0|Think,0.5",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 214,
+          "strings": [
+            "Text",
+            "112",
+            "格琳娜西装",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "112025063",
+            "",
+            "",
+            "801201130",
+            "801201130"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 215,
+          "strings": [
+            "Character",
+            "洛贝拉SSR",
+            "Serious,0",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 216,
+          "strings": [
+            "Character",
+            "格琳娜西装",
+            "Think,0|Solemn,0.5",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 217,
+          "strings": [
+            "Text",
+            "112",
+            "格琳娜西装",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "112025064",
+            "",
+            "",
+            "801201131",
+            "801201131"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 218,
+          "strings": [
+            "Character",
+            "洛贝拉SSR",
+            "Serious,0",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 219,
+          "strings": [
+            "Character",
+            "格琳娜西装",
+            "Solemn,0",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 220,
+          "strings": [
+            "Text",
+            "112",
+            "格琳娜西装",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "112025065",
+            "",
+            "",
+            "801201132",
+            "801201132"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 221,
+          "strings": [
+            "Character",
+            "莱娅SSR",
+            "Helpless,0",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 222,
+          "strings": [
+            "Character",
+            "格琳娜西装",
+            "Solemn,0",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 223,
+          "strings": [
+            "ParticleOff",
+            "小雨",
+            "Default",
+            "",
+            "",
+            "",
+            "0",
+            "6",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 224,
+          "strings": [
+            "Param",
+            "fuzhu1=(4+1)",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 225,
+          "strings": [
+            "BgOff",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "2",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 226,
+          "strings": [
+            "CharacterOff",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "2",
+            "4",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 227,
+          "strings": [
+            "StopBgm",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "2",
+            "4",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 228,
+          "strings": [
+            "StopSe",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "2",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 229,
+          "strings": [
+            "Text",
+            "9",
+            "莱娅SSR",
+            "",
+            "",
+            "",
+            "Next",
+            "",
+            "",
+            "",
+            "112025066",
+            "",
+            "",
+            "801201133",
+            "801201133"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 230,
+          "strings": [
+            "EndScenario"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        }
+      ],
+      "name": "Assets/Utage/BuildResources/NewAVG_MainStory/Chapter12/M12025.xls:M12025",
+      "type": 1,
+      "textLength": 6832,
+      "headerRow": 0,
+      "entityIndexTbl": [
+        225,
+        228
+      ],
+      "entityDataList": [
+        {
+          "originalStrings": [
+            "BgOff",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "2",
+            "&fuzhu1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "originalStrings": [
+            "StopSe",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "2",
+            "&fuzhu1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}
