@@ -370,7 +370,7 @@
         {
             "id": 3001,
             "name": "확대편성 임시효과",
-            "description": "턴 시작 시, 스킬을 보유한 캐릭터에게 공고 버프를 부여한다.",
+            "description": "턴 시작 시, 스킬가진캐릭에게안정buff",
             "iconName": "Buff_AtkUp",
             "isShow": true,
             "buffHeadShow": 1
@@ -1552,7 +1552,7 @@
         },
         {
             "id": 105107,
-            "name": "몽경 수호자",
+            "name": "꿈속 수호자",
             "description": "지원 공격으로 주는 범위 피해 <color=#f26c1c>+30%</color>, 정화 불가 버프.",
             "buffEffect": "Skill/10510701_dmgup",
             "effectPlayTime": [
@@ -6505,8 +6505,8 @@
         },
         {
             "id": 262401,
-            "name": "방어력 무시 초과 피해",
-            "description": "적에게 물리 피해를 줄 때, 대상의 방어력 감소치가 <color=#f26c1c>100%를 초과</color>하면, 방어력이 <color=#f26c1c>1%</color>씩 추가로 내려갈 때마다 주는 피해가 그 비율만큼 증가한다. 정화 불가 버프.\n증가 비율은 아래와 같다:\n추가 방어력 감소율 <color=#f26c1c><100%</color>: <color=#f26c1c>0.5%</color>\n<color=#f26c1c>100%≤</color>추가 방어력 감소율<color=#f26c1c><200%</color>: <color=#f26c1c>0.75%</color>\n<color=#f26c1c>200%≤</color>추가 방어력 감소율<color=#f26c1c><300%</color>: <color=#f26c1c>1%</color>\n추가 방어력 감소율<color=#f26c1c>≥300%</color>: <color=#f26c1c>1.5%</color>",
+            "name": "과관통 보너스",
+            "description": "대상에게 물리 피해를 줄 때, 대상의 감소한 방어력이 <color=#f26c1c>100%를 넘을 경우</color>, 추가로 감소한 방어력 <color=#f26c1c>1%</color>마다 다음과 같이 피해가 상승한다. 정화 불가 버프.\n추가 감소율이 <color=#f26c1c>100%보다 낮을 때</color>: <color=#f26c1c>0.5%</color>\n<color=#f26c1c>100% 이상, 200% 미만</color>: <color=#f26c1c>0.75%</color>\n<color=#f26c1c>200% 이상, 300% 미만</color>: <color=#f26c1c>1%</color>\n<color=#f26c1c>300% 이상</color>: <color=#f26c1c>1.5%</color>",
             "buffEffect": "Buff/AtkU|Buff/AtkU",
             "effectPlayTime": [
                 1,
@@ -6530,8 +6530,8 @@
         },
         {
             "id": 262403,
-            "name": "방어력 무시 초과 피해",
-            "description": "적에게 물리 피해를 줄 때, 대상의 방어력 감소치가 <color=#f26c1c>100%를 초과</color>하면, 방어력이 <color=#f26c1c>1%</color>씩 추가로 내려갈 때마다 주는 피해가 그 비율만큼 증가한다. 정화 불가 버프.\n증가 비율은 아래와 같다:\n추가 방어력 감소율 <color=#f26c1c><100%</color>: <color=#f26c1c>0.5%</color>\n<color=#f26c1c>100%≤</color>추가 방어력 감소율<color=#f26c1c><200%</color>: <color=#f26c1c>0.75%</color>\n<color=#f26c1c>200%≤</color>추가 방어력 감소율<color=#f26c1c><300%</color>: <color=#f26c1c>1%</color>\n추가 방어력 감소율<color=#f26c1c>≥300%</color>: <color=#f26c1c>1.5%</color>",
+            "name": "과관통 보너스",
+            "description": "대상에게 물리 피해를 줄 때, 대상의 감소한 방어력이 <color=#f26c1c>100%를 넘을 경우</color>, 추가로 감소한 방어력 <color=#f26c1c>1%</color>마다 다음과 같이 피해가 상승한다. 정화 불가 버프.\n추가 감소율이 <color=#f26c1c>100%보다 낮을 때</color>: <color=#f26c1c>0.5%</color>\n<color=#f26c1c>100% 이상, 200% 미만</color>: <color=#f26c1c>0.75%</color>\n<color=#f26c1c>200% 이상, 300% 미만</color>: <color=#f26c1c>1%</color>\n<color=#f26c1c>300% 이상</color>: <color=#f26c1c>1.5%</color>",
             "buffEffect": "Buff/AtkU|Buff/AtkU",
             "effectPlayTime": [
                 1,
@@ -6627,7 +6627,7 @@
         },
         {
             "id": 263402,
-            "name": "완벽한 보호",
+            "name": "완벽 수호",
             "description": "일반 공격 및 스킬 피해를 받지 않는다, 일반 공격 또는 스킬 공격을 <color=#f26c1c>1회</color> 받은 후에 해제된다. 버프.",
             "buffEffect": "Buff/61152201_Invincible2|Buff/61152201_Invincible",
             "effectPlayTime": [
@@ -8158,16 +8158,16 @@
         },
         {
             "id": 320201,
-            "name": "침윤 I",
-            "description": "<color=#2caadb>탁류 피해</color>를 주는 효과가 <color=#f26c1c>10%</color> 증가한다. 탁류계 버프.",
+            "name": "적시기I",
+            "description": "주는 <color=#2caadb>탁류 피해</color> <color=#f26c1c>+10%</color>. 탁류계 버프.",
             "iconName": "Buff_WaterDamageUp",
             "isShow": true,
             "buffHeadShow": 1
         },
         {
             "id": 320202,
-            "name": "침윤 I",
-            "description": "<color=#2caadb>탁류 피해</color>를 주는 효과가 <color=#f26c1c>10%</color> 증가한다. 탁류계 버프.",
+            "name": "적시기I",
+            "description": "주는 <color=#2caadb>탁류 피해</color> <color=#f26c1c>+10%</color>. 탁류계 버프.",
             "iconName": "Buff_WaterDamageUp",
             "isShow": true,
             "buffHeadShow": 1
@@ -10812,8 +10812,8 @@
         },
         {
             "id": 4300010,
-            "name": "대련",
-            "description": "받는 안정 피해가 <color=#f26c1c>4</color> 감소하며, 피해를 무효화한다. 안정 지수가 0이 되면 <color=#3487e0>{0}</color>를 획득한다. 정화 불가 버프.",
+            "name": "경주",
+            "description": "받는 안정 피해 <color=#f26c1c>-4점</color>, 체력 피해 면역. 안정 지수가 0이 되면 <color=#3487e0>{0}</color> 효과를 얻는다. 정화 불가 버프.",
             "descriptionTips": "0:4300021",
             "iconName": "Buff_CountSuppress",
             "isShow": true,
@@ -10822,7 +10822,7 @@
         {
             "id": 4300021,
             "name": "탈력",
-            "description": "행동 불가 상태가 되며, 턴 종료 시 자신이 가진 안정 지수를 최대치의 <color=#f26c1c>50%</color>만큼 회복한다. 안정 지수가 가득 차면 이 디버프는 제거된다. 정화 불가 디버프.",
+            "description": "행동 불가. 턴 종료 시 자신 안정 지수를 최대 안정 지수의 <color=#f26c1c>50%</color>만큼 회복한다. \n안정 지수가 최대치일 때 이 효과를 해제한다. 정화 불가 디버프.",
             "buffEffect": "Buff/Debuff_stun|Buff/Debuff_stun",
             "effectPlayTime": [
                 1,
@@ -10846,48 +10846,48 @@
         },
         {
             "id": 5104831,
-            "name": "타오르는 불길",
-            "description": "가하는 연소 피해가 <color=#f26c1c>2%</color> 증가한다.",
+            "name": "번지는 장작불",
+            "description": "주는 연소 피해 <color=#f26c1c>+2%</color>.",
             "iconName": "Buff_DamageUp",
             "isShow": true,
             "buffHeadShow": 1
         },
         {
             "id": 5104832,
-            "name": "타오르는 불길",
-            "description": "가하는 연소 피해가 <color=#f26c1c>3%</color> 증가한다.",
+            "name": "번지는 장작불",
+            "description": "주는 연소 피해 <color=#f26c1c>+3%</color>.",
             "iconName": "Buff_DamageUp",
             "isShow": true,
             "buffHeadShow": 1
         },
         {
             "id": 5104833,
-            "name": "타오르는 불길",
-            "description": "가하는 연소 피해가 <color=#f26c1c>4%</color> 증가한다.",
+            "name": "번지는 장작불",
+            "description": "주는 연소 피해 <color=#f26c1c>+4%</color>.",
             "iconName": "Buff_DamageUp",
             "isShow": true,
             "buffHeadShow": 1
         },
         {
             "id": 5104834,
-            "name": "타오르는 불길",
-            "description": "가하는 연소 피해가 <color=#f26c1c>5%</color> 증가한다.",
+            "name": "번지는 장작불",
+            "description": "주는 연소 피해 <color=#f26c1c>+5%</color>.",
             "iconName": "Buff_DamageUp",
             "isShow": true,
             "buffHeadShow": 1
         },
         {
             "id": 5104835,
-            "name": "타오르는 불길",
-            "description": "가하는 연소 피해가 <color=#f26c1c>6%</color> 증가한다.",
+            "name": "번지는 장작불",
+            "description": "주는 연소 피해 <color=#f26c1c>+6%</color>.",
             "iconName": "Buff_DamageUp",
             "isShow": true,
             "buffHeadShow": 1
         },
         {
             "id": 5104836,
-            "name": "타오르는 불길",
-            "description": "가하는 연소 피해가 <color=#f26c1c>7%</color> 증가한다.",
+            "name": "번지는 장작불",
+            "description": "주는 연소 피해 <color=#f26c1c>+7%</color>.",
             "iconName": "Buff_DamageUp",
             "isShow": true,
             "buffHeadShow": 1
@@ -11191,8 +11191,8 @@
         },
         {
             "id": 6000813,
-            "name": "쇼트 데미지",
-            "description": "받는 피해가 <color=#f26c1c>10%</color> 증가하며, 최대 5스택까지 누적된다. 디버프 효과.",
+            "name": "쇼트 손상",
+            "description": "받는 피해 <color=#f26c1c>+10%</color>, 최대 중첩 5스택. 디버프.",
             "buffEffect": "Buff/AccD|Buff/AccD",
             "effectPlayTime": [
                 1,
@@ -11984,8 +11984,8 @@
         },
         {
             "id": 6176102,
-            "name": "열력 화상 I",
-            "description": "해당 효과 획득 및 행동 종료 시, 시전자 공격력의 <color=#f26c1c>12%</color>에 해당하는 고정 피해를 입는다(중첩 가능, 효과는 중첩되지 않음).\n최대 <color=#f26c1c>5회 중첩</color> 가능. 디버프.",
+            "name": "열력 화상I",
+            "description": "이 효과를 받을 때와 행동 종료 시, 부여자의 공격력 <color=#f26c1c>12%</color> 고정 피해를 받는다, 최대 중첩 <color=#f26c1c>5스택</color>. 디버프.",
             "buffEffect": "Buff/Dot_burn|Buff/Dot_burn_break",
             "effectPlayTime": [
                 1,
@@ -12011,8 +12011,8 @@
         },
         {
             "id": 6177102,
-            "name": "열력 화상 II",
-            "description": "해당 효과 획득 및 행동 종료 시, 시전자 공격력의 <color=#f26c1c>20%</color>에 해당하는 고정 피해를 입는다(중첩 가능, 효과는 중첩되지 않음).\n최대 <color=#f26c1c>6회 중첩</color> 가능. 디버프.",
+            "name": "열력 화상II",
+            "description": "이 효과를 받을 때와 행동 종료 시, 부여자의 공격력 <color=#f26c1c>20%</color> 고정 피해를 받는다, 최대 중첩 <color=#f26c1c>6스택</color>. 디버프.",
             "buffEffect": "Buff/Dot_burn|Buff/Dot_burn_break",
             "effectPlayTime": [
                 1,
@@ -12039,7 +12039,7 @@
         {
             "id": 6177400,
             "name": "열광",
-            "description": "자신의 체력이 40% 미만.",
+            "description": "자신 체력이 이미 40% 미만.",
             "buffEffect": "Skill/6171301_firebuff",
             "effectPlayTime": [
                 1
@@ -12612,7 +12612,7 @@
         {
             "id": 6281903,
             "name": "파손주의",
-            "description": "받는 피해 <color=#f26c1c>+100%</color>. 약점 공격을 받을 시 <color=#3487e0>{0}</color> 효과를 <color=#f26c1c>1스택</color> <color=#f26c1c>1턴 간</color> 생성한다. 정화 불가.",
+            "description": "받는 피해 <color=#f26c1c>+100%</color>. 약점 공격을 받을 시 <color=#3487e0>{0}</color> 효과 <color=#f26c1c>1스택</color>을 <color=#f26c1c>1턴 간</color> 생성한다. 정화 불가.",
             "descriptionTips": "0:62819031",
             "buffEffect": "Buff/AccD|Buff/AccD",
             "effectPlayTime": [
@@ -13690,7 +13690,7 @@
         {
             "id": 6552604,
             "name": "광학 잔영",
-            "description": "기괴한 인형 클론.",
+            "description": "기괴한 인형의 분신.",
             "buffEffect": "Skill/FX_StrangeDoll",
             "effectPlayTime": [
                 1
@@ -13712,8 +13712,8 @@
         },
         {
             "id": 6552622,
-            "name": "광학적 보호",
-            "description": "방어력이 <color=#f26c1c>25%</color> 상승합니다. 공격받으면 소모되며, 해제될 수 있습니다.",
+            "name": "광학 방호",
+            "description": "방어력 <color=#f26c1c>+25%</color>, 공격받으면 소모된다. 정화 가능.",
             "iconName": "Buff_DefUp",
             "isShow": true,
             "buffHeadShow": 1
@@ -13721,7 +13721,7 @@
         {
             "id": 6553111,
             "name": "광학 잔영",
-            "description": "기괴한 인형 클론.",
+            "description": "기괴한 인형의 분신.",
             "buffEffect": "Skill/StrangeDoll/6551601_Red",
             "effectPlayTime": [
                 1
@@ -13744,7 +13744,7 @@
         {
             "id": 6553112,
             "name": "광학 잔영",
-            "description": "기괴한 인형 클론.",
+            "description": "기괴한 인형의 분신.",
             "buffEffect": "Skill/StrangeDoll/6551601_Yellow",
             "effectPlayTime": [
                 1
@@ -13767,7 +13767,7 @@
         {
             "id": 6553113,
             "name": "광학 잔영",
-            "description": "기괴한 인형 클론.",
+            "description": "기괴한 인형의 분신.",
             "buffEffect": "Skill/StrangeDoll/6551601_Green",
             "effectPlayTime": [
                 1
@@ -13789,8 +13789,8 @@
         },
         {
             "id": 6553201,
-            "name": "포맷 프로세스",
-            "description": "다음 라운드 시작 시 자신과 같은 평면에 있는 필드 내 모든 적 대상에게 공격력의 120% 범위 물리 피해를 입힙니다.",
+            "name": "포맷 진도",
+            "description": "다음 턴 시작 시, 필드 전체에 자신과 같은 평면에 있는 모든 적에게 공격력 120% 범위 물리 피해를 준다.",
             "buffEffect": "Skill/6551301_Loop",
             "effectPlayTime": [
                 1
@@ -13810,15 +13810,15 @@
         {
             "id": 6553302,
             "name": "범위 방어",
-            "description": "받는 범위 피해가 <color=#f26c1c>60%</color> 감소합니다.",
+            "description": "받는 범위피해 <color=#f26c1c>-60%</color>.",
             "iconName": "Buff_EnemyRedHurt",
             "isShow": true,
             "buffHeadShow": 1
         },
         {
             "id": 6553601,
-            "name": "조용한 엑스터시",
-            "description": "큰 턴 종료 시, 소멸되지 않은 각 분신은 인형의 현재 <color=#f26c1c>25%</color>의 체력을 차감합니다.",
+            "name": "영혼 침묵",
+            "description": "전체 턴 종료 시, 소멸 안 한 분신마다 인형의 현재 체력을 <color=#f26c1c>25%</color> 차감한다.",
             "iconName": "Buff_MechaGuard3",
             "isShow": true,
             "buffHeadShow": 1
@@ -14107,7 +14107,7 @@
         {
             "id": 6741403,
             "name": "경비",
-            "description": "받는 피해가 <color=#f26c1c>20%</color> 증가하고, 주는 피해도 <color=#f26c1c>20%</color> 증가한다. 중첩 가능. 정화 불가.",
+            "description": "받는 피해 <color=#f26c1c>+20%</color>, 주는 피해 <color=#f26c1c>+20%</color>, 중첩 가능, 정화 불가.",
             "iconName": "Buff_CountHit",
             "isShow": true,
             "buffHeadShow": 1,
@@ -14116,7 +14116,7 @@
         {
             "id": 6743351,
             "name": "수압",
-            "description": "이동력이 <color=#f26c1c>2칸</color> 증가하고, 받는 피해가 <color=#f26c1c>8%</color> 감소합니다. 최대 <color=#f26c1c>5스택</color>까지 중첩되며, 이 버프는 해제되지 않습니다.",
+            "description": "이동력 <color=#f26c1c>+2칸</color>, 받는 피해 <color=#f26c1c>-8%</color>. 최대 중첩 <color=#f26c1c>5스택</color>, 정화 불가 버프.",
             "iconName": "Buff_AllUp",
             "isShow": true,
             "buffHeadShow": 1,
@@ -14125,7 +14125,7 @@
         {
             "id": 6761411,
             "name": "기원",
-            "description": "방어력이 <color=#f26c1c>50%</color> 증가한다. 턴 시작 시, 자신이 보유한 연소계 디버프 <color=#f26c1c>1개</color>마다 <color=#3487e0>기원</color> <color=#f26c1c>1스택</color>을 제거한다. <color=#3487e0>기원</color>이 여전히 <color=#f26c1c>3중첩</color> 이상이라면, 추가로 <color=#3487e0>{0}</color> 효과를 부여한다. 정화 불가.",
+            "description": "방어력 <color=#f26c1c>+50%</color>. 턴 시작 시, 자신이 보유한 연소계 디버프 <color=#f26c1c>하나마다</color> <color=#3487e0>기원</color>을 <color=#f26c1c>1스택</color> 정화한다. 그 후 <color=#3487e0>기원</color>이 여전히 <color=#f26c1c>3스택</color> 이상일 경우, 추가로 <color=#3487e0>{0}</color> 효과를 부여한다. 정화 불가.",
             "descriptionTips": "0:6761412",
             "iconName": "Buff_Lumi1",
             "isShow": true,
@@ -14134,8 +14134,8 @@
         },
         {
             "id": 6761412,
-            "name": "먼지 쌓인 소망",
-            "description": "공격력이 <color=#f26c1c>50%</color> 증가한다. 턴 시작 시, <color=#3487e0>{0}</color>가 <color=#f26c1c>3중첩</color> 미만이고 <color=#3487e0>먼지 쌓인 소망</color>을 보유하고 있다면, <color=#3487e0>먼지 쌓인 소망</color>을 제거한다. 정화 불가.",
+            "name": "묻어둔 소망",
+            "description": "공격력 <color=#f26c1c>+50%</color>. 턴 시작 시, <color=#3487e0>{0}</color> 효과가 <color=#f26c1c>3스택</color> 미만이고 <color=#3487e0>묻어둔 소망</color>을 보유한 경우, <color=#3487e0>묻어둔 소망</color>을 정화한다. 정화 불가.",
             "descriptionTips": "0:6761411",
             "buffEffect": "Skill/6761401_Ice",
             "effectPlayTime": [
@@ -14159,8 +14159,8 @@
         },
         {
             "id": 6761511,
-            "name": "소멸",
-            "description": "받는 <color=#e67129>연소 피해</color>가 <color=#f26c1c>50%</color> 증가. 정화 불가.",
+            "name": "녹아내림",
+            "description": "받는 <color=#e67129>연소 피해</color> <color=#f26c1c>+50%</color>. 정화 불가.",
             "iconName": "Buff_EnemyHurtUp",
             "isShow": true,
             "buffHeadShow": 1
@@ -14176,8 +14176,8 @@
         },
         {
             "id": 6771402,
-            "name": "나를 보지 마",
-            "description": "나를 보지 마",
+            "name": "나 안 보인다",
+            "description": "나 안 보인다",
             "buffEffect": "Skill/67714_Born",
             "effectPlayTime": [
                 1
@@ -14189,7 +14189,7 @@
         {
             "id": 6772401,
             "name": "난공불락",
-            "description": "방어력이 <color=#f26c1c>30%</color> 상승하며, 최대 10스택까지 누적된다. 정화 불가 버프.",
+            "description": "방어력 <color=#f26c1c>+30%</color>, 최대 중첩 10스택, 정화 불가 버프.",
             "buffEffect": "Skill/6772401_Shield",
             "effectPlayTime": [
                 1,
@@ -14992,8 +14992,8 @@
         },
         {
             "id": 6893803,
-            "name": "열핵 이온층",
-            "description": "일반 공격과 스킬로 인한 피해를 받지 않으며, <color=#f26c1c>1회</color> 일반 공격 또는 스킬 공격을 받은 후 해제된다. 중첩 가능, 정화 불가 버프.",
+            "name": "플라즈마 실드",
+            "description": "일반 공격 및 스킬로 주는 피해를 받지 않는다. 일반 공격 또는 스킬 공격을 <color=#f26c1c>1회</color> 받은 후 해제. 중첩 가능, 정화 불가 버프.",
             "buffEffect": "Buff/61152201_Invincible2|Buff/61152201_Invincible",
             "effectPlayTime": [
                 1,
@@ -15017,8 +15017,8 @@
         },
         {
             "id": 6893808,
-            "name": "열핵 과부하",
-            "description": "연소 약점을 획득합니다. <color=#e67129>연소 피해</color>를 받을 때마다 <color=#3487e0>{0}</color>를 획득하고, 1턴 동안 지속됩니다. 정화 불가 디버프.",
+            "name": "코어 과열",
+            "description": "연소 약점을 얻는다. <color=#e67129>연소 피해</color>를 받은 후마다 1턴간 <color=#3487e0>{0}</color> 효과를 얻는다. 정화 불가 디버프.",
             "descriptionTips": "0:6893809",
             "iconName": "Buff_Fire",
             "isShow": true,
@@ -15027,8 +15027,8 @@
         },
         {
             "id": 6893809,
-            "name": "열융해",
-            "description": "방어력이 <color=#f26c1c>10%</color> 감소하며, 중첩 가능합니다. 정화 불가 방어 디버프.",
+            "name": "용융",
+            "description": "방어력 <color=#f26c1c>-10%</color>, 중첩 가능. 방어계 디버프, 정화 불가.",
             "iconName": "Buff_DefLow",
             "isShow": true,
             "buffHeadShow": 1,
@@ -15036,8 +15036,8 @@
         },
         {
             "id": 6894201,
-            "name": "전투 의지 회향",
-            "description": "자신이 행동하는 턴에 능동적으로 공격을 하면 광전사의 반격을 받으며(이 반격은 아군 유닛의 매복, 반격, 지원 공격을 다시 유발할 수 있다), 광전사의 공격력 <color=#f26c1c>80%</color>에 해당하는 물리 피해를 입는다. 정화 불가.",
+            "name": "투지의 메아리",
+            "description": "자기 턴에서 액티브 공격 후 배섀르크의 보복으로 배섀르크 공격력 <color=#f26c1c>80%</color> 물리피해를 받는다, 정화 불가.(이 보복은 아군 유닛의 매복, 반격 및 지원 공격을 다시 발동시킨다.",
             "iconName": "Buff_TargetNeutral",
             "isShow": true,
             "buffHeadShow": 1,
@@ -15045,8 +15045,8 @@
         },
         {
             "id": 6894301,
-            "name": "날카로운 칼날 자국",
-            "description": "행동 종료 시, 시전자 공격력의 <color=#f26c1c>10%</color>에 해당하는 피해를 입는다(중첩 가능, 효과는 중첩되지 않음).\n만약 해제되면, 아군 전체가 <color=#3487e0>{0}</color> 효과를 획득하며, <color=#f26c1c>2턴</color> 동안 지속된다.\n디버프.",
+            "name": "예리한 베인 상처",
+            "description": "행동 종료 시 부여자 공격력 <color=#f26c1c>10%</color> 피해를 받는다. 중첩 가능(효과는 1스택만), 디버프. \n정화될 경우 모든 아군에게 <color=#f26c1c>1스택</color> <color=#3487e0>{0}</color> 효과를 <color=#f26c1c>2턴간</color> 부여한다.",
             "descriptionTips": "0:6894302",
             "iconName": "Buff_ContinueHurt",
             "isShow": true,
@@ -15055,8 +15055,8 @@
         },
         {
             "id": 6894302,
-            "name": "치명타 광풍",
-            "description": "치명타 피해가 <color=#f26c1c>10%</color> 증가한다.\n최대 <color=#f26c1c>10회 중첩</color> 가능.\n정화 불가 버프.",
+            "name": "치명 광란",
+            "description": "치명피해 <color=#f26c1c>+10%</color>, 최대 중첩 <color=#f26c1c>10스택</color>, 정화 불가 버프.",
             "iconName": "Buff_CriDamUp",
             "isShow": true,
             "buffHeadShow": 1,
@@ -15064,8 +15064,8 @@
         },
         {
             "id": 6894401,
-            "name": "강철 반암",
-            "description": "받는 안정 피해가 <color=#f26c1c>2점</color> 감소하고, 방어력이 <color=#f26c1c>30%</color> 상승한다.\n만약 해제되면, <color=#3487e0>{0}</color> 효과로 전환되어 <color=#f26c1c>2턴</color> 동안 지속된다.\n버프.",
+            "name": "강철 등반",
+            "description": "받는 안정 피해 <color=#f26c1c>-2점</color>, 방어력 <color=#f26c1c>+30%</color>. 버프. \n정화될 경우 <color=#3487e0>{0}</color> 효과로 변하여 <color=#f26c1c>2턴간</color> 지속된다.",
             "descriptionTips": "0:68944012",
             "iconName": "Buff_DefUp",
             "isShow": true,
@@ -15075,7 +15075,7 @@
         {
             "id": 6894402,
             "name": "보호막",
-            "description": "에너지 장 실드",
+            "description": "에너지 포스실드",
             "buffEffect": "Skill/6873401_Shield|Skill/6873403_Shield_1",
             "effectPlayTime": [
                 1,
@@ -15430,7 +15430,7 @@
         {
             "id": 6953401,
             "name": "격류",
-            "description": "행동 종료 시 가장 멀리 있는 아군 유닛 및 <color=#f26c1c>그 주위 5×5 범위 이내</color>의 모든 아군 유닛에게 공격력 <color=#f26c1c>50%</color> 범위 <color=#2caadb>탁류 피해 </color>를 주고, 즉시 범위 안의 <color=#3487e0>인뢰침</color>을 제거한다. 정화 불가 디버프.",
+            "description": "행동 종료 시 가장 멀리 있는 아군 유닛 및 <color=#f26c1c>그 주위 5×5 범위 이내</color>의 모든 아군 유닛에게 공격력 <color=#f26c1c>50%</color> 범위 <color=#2caadb>탁류 피해 </color>를 주고, 즉시 범위 안의 <color=#3487e0>인뢰주</color>를 제거한다. 정화 불가 디버프.",
             "iconName": "Buff_Eber8",
             "isShow": true,
             "buffHeadShow": 1
@@ -17560,14 +17560,14 @@
         {
             "id": 10440403,
             "name": "기름 뿌리기",
-            "description": "보유한 연소계 버프 하나마다 주는 피해 <color=#f26c1c>+5%</color>. \n연소 피해를 줄 때, 주는 피해 <color=#f26c1c>+30%</color>, 그리고 대상에게 추가로 공격력 <color=#f26c1c>20%</color> 고정 피해를 준다. 연소계 정화 불가 버프.",
+            "description": "가진 연소계 버프 하나마다 주는 피해 <color=#f26c1c>+5%</color>. \n연소 피해를 줄 때, 주는 피해 <color=#f26c1c>+30%</color>, 치명피해 <color=#f26c1c>+15%</color>, 그리고 대상에게 추가로 공격력 <color=#f26c1c>20%</color> 고정 피해를 준다. 연소계 정화 불가 버프.",
             "iconName": "Buff_FireUP",
             "isShow": true,
             "buffHeadShow": 9
         },
         {
             "id": 10440701,
-            "name": "속탐",
+            "name": "타는 속",
             "description": "연소 피해를 받을 때 <color=#f26c1c>주위 반경 3칸 안</color>에 <color=#3487e0>{0}</color> 타일을 <color=#f26c1c>2턴</color>간 생성한다. 연소계 정화 불가 디버프.",
             "descriptionTips": "1:51015",
             "buffEffect": "Skill/10440701_knife1|Skill/10440701_explosion",
@@ -17594,7 +17594,7 @@
         },
         {
             "id": 10440702,
-            "name": "속탐",
+            "name": "타는 속",
             "description": "가진 연소계 디버프 하나마다 받는 피해 <color=#f26c1c>+3%</color>. \n연소 피해를 받을 때 <color=#f26c1c>주위 반경 3칸 안</color>에 <color=#3487e0>{0}</color> 타일을 <color=#f26c1c>2턴</color>간 생성한다. 연소계 정화 불가 디버프.",
             "descriptionTips": "1:51015",
             "buffEffect": "Skill/10440701_knife1|Skill/10440701_explosion",
@@ -17666,8 +17666,8 @@
         },
         {
             "id": 10480001,
-            "name": "그을림",
-            "description": "행동 종료 시, 부여자가 대상에게 <color=#f26c1c>7%</color>의 공격력으로 <color=#e67129>연소 피해</color>를 입히며, 추가로 <color=#f26c1c>1스택</color>이 쌓일 때마다 피해 계수가 <color=#f26c1c>7%</color> 증가한다. 피해를 가한 후 스택은 리셋된다. 적 유닛에게 <color=#e67129>연소 피해</color>를 받을 때마다 <color=#f26c1c>1스택</color> 증가합니다. 최대 중첩 <color=#f26c1c>12스택</color>. 부여자가 사망하면 해제됩니다. 정화 불가 연소계 디버프.",
+            "name": "그을음",
+            "description": "행동 종료 시, 부여자가 보유자에게 공격력 <color=#f26c1c>7%</color> <color=#e67129>연소 피해</color>를 준다. 추가 중첩된 <color=#f26c1c>1스택</color>마다 피해 계수 <color=#f26c1c>+7%</color>. 피해를 준 후 스택 수를 초기화한다. \n적 유닛에게서 <color=#e67129>연소 피해</color>를 받을 때 <color=#f26c1c>+1스택</color>, 최대 중첩 <color=#f26c1c>12스택</color>. 부여자가 쓰러지면 해제된다. 연소계 정화 불가 디버프.",
             "buffEffect": "Buff/Dot_burn",
             "effectPlayTime": [
                 1
@@ -17689,8 +17689,8 @@
         },
         {
             "id": 10480002,
-            "name": "그을림",
-            "description": "행동 종료 시, 부여자가 대상에게 <color=#f26c1c>7%</color>의 공격력으로 <color=#e67129>연소 피해</color>를 입히며, 추가로 <color=#f26c1c>1스택</color>이 쌓일 때마다 피해 계수가 <color=#f26c1c>7%</color> 증가한다. 피해를 가한 후 스택은 리셋된다. 적 유닛에게 <color=#e67129>연소 피해</color>를 받을 때마다 <color=#f26c1c>1스택</color> 증가합니다. 중첩 가능. 부여자가 사망하면 해제됩니다. 정화 불가 연소계 디버프.",
+            "name": "그을음",
+            "description": "행동 종료 시, 부여자가 보유자에게 공격력 <color=#f26c1c>7%</color> <color=#e67129>연소 피해</color>를 준다. 추가 중첩된 <color=#f26c1c>1스택</color>마다 피해 계수 <color=#f26c1c>+7%</color>. 피해를 준 후 스택 수를 초기화한다. \n적 유닛에게서 <color=#e67129>연소 피해</color>를 받을 때 <color=#f26c1c>+1스택</color>, 중첩 가능. 부여자가 쓰러지면 해제된다. 연소계 정화 불가 디버프.",
             "buffEffect": "Buff/Dot_burn",
             "effectPlayTime": [
                 1
@@ -17712,8 +17712,8 @@
         },
         {
             "id": 10480003,
-            "name": "그을림",
-            "description": "행동 종료 시, 부여자가 대상에게 <color=#f26c1c>10%</color>의 공격력으로 <color=#e67129>연소 피해</color>를 입히며, 추가로 <color=#f26c1c>1스택</color>이 쌓일 때마다 피해 계수가 <color=#f26c1c>10%</color> 증가한다. 피해를 가한 후 스택은 리셋된다. 적 유닛에게 <color=#e67129>연소 피해</color>를 받을 때마다 <color=#f26c1c>2스택</color> 증가합니다. 중첩 가능. 정화 불가 연소계 디버프.",
+            "name": "그을음",
+            "description": "행동 종료 시, 부여자가 보유자에게 공격력 <color=#f26c1c>10%</color> <color=#e67129>연소 피해</color>를 준다. 추가 중첩된 <color=#f26c1c>1스택</color>마다 피해 계수 <color=#f26c1c>+10%</color>. 피해를 준 후 스택 수를 초기화한다. \n적 유닛에게서 <color=#e67129>연소 피해</color>를 받을 때 <color=#f26c1c>+2스택</color>, 중첩 가능. 부여자가 쓰러지면 해제된다. 연소계 정화 불가 디버프.",
             "buffEffect": "Buff/Dot_burn",
             "effectPlayTime": [
                 1
@@ -17771,7 +17771,7 @@
         },
         {
             "id": 10510712,
-            "name": "몽경 수호자",
+            "name": "꿈속 수호자",
             "description": "지원 공격으로 주는 범위 피해 <color=#f26c1c>+30%</color>, 정화 불가 버프.",
             "iconName": "Buff_DamageUp",
             "isShow": true,
@@ -17788,7 +17788,7 @@
         {
             "id": 10520403,
             "name": "패닉",
-            "description": "기초 이동력이 <color=#f26c1c>1칸</color>으로 감소, 공격력 <color=#f26c1c>-30%</color>, 주는 안정 피해 <color=#f26c1c>-4점</color>.디버프.",
+            "description": "기초 이동력이 <color=#f26c1c>1칸</color>으로 감소, 공격력 <color=#f26c1c>-30%</color>, 주는 안정 피해 <color=#f26c1c>-4점</color>. 디버프.",
             "iconName": "Buff_ClukaySSR3",
             "isShow": true,
             "buffHeadShow": 1
@@ -17811,8 +17811,8 @@
         },
         {
             "id": 10530411,
-            "name": "원금 보호",
-            "description": "<color=#3487e0>{0}</color>, 받는 안정성 피해가 <color=#f26c1c>2점</color> 감소합니다. 행동 종료 시, <color=#f26c1c>주변 반경 2칸 내</color>의 모든 적 대상에게 <color=#3487e0>{1}</color>를 부여하며, 지속 시간은 <color=#f26c1c>2턴</color>입니다. 정화 불가 버프.",
+            "name": "원금 보장",
+            "description": "<color=#3487e0>{0}</color>, 받는 안정 피해 <color=#f26c1c>-2점</color>. \n\n행동 종료 시, <color=#f26c1c>주위 반경 2칸 안</color>의 모든 적에게 <color=#3487e0>{1}</color> 효과를 <color=#f26c1c>2턴간</color> 부여한다. 정화 불가 버프.",
             "descriptionTips": "1:90118;0:401012",
             "buffEffect": "Skill/PeriSSR01/10530401_shield|Skill/PeriSSR01/10530401_shield",
             "effectPlayTime": [
@@ -17836,8 +17836,8 @@
         },
         {
             "id": 10530412,
-            "name": "원금 보호",
-            "description": "<color=#3487e0>{0}</color>, 받는 안정성 피해가 <color=#f26c1c>2점</color> 감소합니다. 공격받기 전에, 공격자의 공격력이 <color=#f26c1c>30%</color> 감소합니다. 행동 종료 시, <color=#f26c1c>주변 반경 2칸 내</color>의 모든 적 대상에게 <color=#3487e0>{1}</color>를 부여하며, 지속 시간은 <color=#f26c1c>2턴</color>입니다. 정화 불가 버프.",
+            "name": "원금 보장",
+            "description": "<color=#3487e0>{0}</color>, 받는 안정 피해 <color=#f26c1c>-2점</color>. 공격받기 전 공격자의 공격력 <color=#f26c1c>-30%</color>. \n\n행동 종료 시, <color=#f26c1c>주위 반경 2칸 안</color>의 모든 적에게 <color=#3487e0>{1}</color> 효과를 <color=#f26c1c>2턴간</color> 부여한다. 정화 불가 버프.",
             "descriptionTips": "1:90118;0:401012",
             "buffEffect": "Skill/PeriSSR01/10530401_shield|Skill/PeriSSR01/10530401_shield",
             "effectPlayTime": [
@@ -17862,7 +17862,7 @@
         {
             "id": 10530421,
             "name": "가격 협상",
-            "description": "입히는 피해가 <color=#f26c1c>30%</color> 증가한다. 일반 공격의 치명타 확률이 <color=#f26c1c>100%</color> 증가한다. 정화 불가 버프.",
+            "description": "주는 피해 <color=#f26c1c>+30%</color>. 일반공격의 치명률 <color=#f26c1c>+100%</color>. 정화 불가 버프.",
             "iconName": "Buff_CriUp",
             "isShow": true,
             "buffHeadShow": 1,
@@ -17871,7 +17871,7 @@
         {
             "id": 10530422,
             "name": "가격 협상",
-            "description": "입히는 피해가 <color=#f26c1c>60%</color> 증가한다. 일반 공격의 치명타 확률이 <color=#f26c1c>100%</color> 증가한다. 지속 시간 종료 시 자신의 모든 안정 지수를 회복한다. 정화 불가 버프.",
+            "description": "주는 피해 <color=#f26c1c>+60%</color>. 일반공격의 치명률 <color=#f26c1c>+100%</color>. 지속시간 종료 시 자신의 안정 지수를 전부 회복한다. 정화 불가 버프.",
             "iconName": "Buff_CriUp",
             "isShow": true,
             "buffHeadShow": 1,
@@ -17880,7 +17880,7 @@
         {
             "id": 10530423,
             "name": "가격 협상",
-            "description": "입히는 피해가 <color=#f26c1c>60%</color> 증가한다. 일반 공격의 치명타 확률이 <color=#f26c1c>100%</color> 증가하고, 치명타 피해가 <color=#f26c1c>50%</color> 증가한다. 지속 시간 종료 시 자신의 모든 안정 지수를 회복한다. 정화 불가 버프.",
+            "description": "주는 피해 <color=#f26c1c>+60%</color>. 일반공격의 치명률 <color=#f26c1c>+100%</color>, 치명피해 <color=#f26c1c>+50%</color>. 지속시간 종료 시 자신의 안정 지수를 전부 회복한다. 정화 불가 버프.",
             "iconName": "Buff_CriUp",
             "isShow": true,
             "buffHeadShow": 1,
@@ -17888,7 +17888,7 @@
         },
         {
             "id": 10530701,
-            "name": "과열 거래",
+            "name": "과열된 거래",
             "description": "받는 연소 피해 <color=#f26c1c>+20%</color>, 연소계 디버프.",
             "iconName": "Buff_Fire",
             "isShow": true,
@@ -17897,7 +17897,7 @@
         {
             "id": 10530801,
             "name": "핫딜 투자",
-            "description": "받는 피해가 <color=#f26c1c>10%</color> 감소하며, 받는 치유 효과도 <color=#f26c1c>10%</color> 감소합니다. 행동 시작 시 중첩 수가 절반으로 줄어들며(올림 처리), 최대 <color=#f26c1c>6스택</color>까지 중첩됩니다. 정화 불가.",
+            "description": "받는 피해 <color=#f26c1c>-10%</color>, 받는 치료 효과 <color=#f26c1c>-10%</color>. 행동 시작 시, 스택 수가 절반 감소한다(소숫점 올림). 최대 중첩 <color=#f26c1c>6스택</color>. 정화 불가.",
             "iconName": "Buff_PeriSSR2",
             "isShow": true,
             "buffHeadShow": 1,
@@ -17905,7 +17905,7 @@
         },
         {
             "id": 10530811,
-            "name": "흑자 루트",
+            "name": "우량 공급처",
             "description": "스킬 발동 후 <color=#f26c1c>1스택</color>을 소모하여 <color=#3487e0>{0}</color> 효과를 얻는다.",
             "descriptionTips": "0:502000",
             "iconName": "Buff_PeriSSR3",
@@ -17915,8 +17915,8 @@
         },
         {
             "id": 10540401,
-            "name": "무용단의 핵심",
-            "description": "자신을 제외한 아군에게 <color=#3487e0>{0}</color> 효과와 <color=#3487e0>{1}</color> 효과를 부여할 때, 동일한 효과를 1회 획득한다. 정화 불가 버프.",
+            "name": "댄스그룹의 핵심",
+            "description": "자신 외 아군 유닛에게 <color=#3487e0>{0}</color> 또는 <color=#3487e0>{1}</color> 효과를 부여할 때, 자신도 같은 효과를 얻는다. 정화 불가.",
             "descriptionTips": "1:900235;0:262403",
             "buffEffect": "Skill/YooHeeSSR01/10540401_Buff",
             "effectPlayTime": [
@@ -17940,8 +17940,8 @@
         },
         {
             "id": 10540403,
-            "name": "무용단의 핵심",
-            "description": "공격 시 대상 방어력의 <color=#f26c1c>50%</color>를 무시한다.\n자신을 제외한 아군에게 <color=#3487e0>{0}</color> 효과와 <color=#3487e0>{1}</color> 효과를 부여할 때, 동일한 효과를 1회 획득한다.\n<color=#3487e0>{2}</color> 효과 발동 후, 사거리 내 현재 체력이 가장 높은 적에게 액티브 스킬 <color=#3487e0>즉흥 무도</color>를 1회 사용한다. (매 턴 최대 <color=#f26c1c>1회</color>, 스킬 사용 후 <color=#3487e0>경쾌 회전</color> 및 <color=#3487e0>열정 공명</color> 사용 불가.)\n정화 불가.",
+            "name": "댄스그룹의 핵심",
+            "description": "공격 시 대상의 방어력을 <color=#f26c1c>50%</color> 무시한다. \n자신 외 아군 유닛에게 <color=#3487e0>{0}</color> 또는 <color=#3487e0>{1}</color> 효과를 부여할 때, 자신도 같은 효과를 얻는다.\n<color=#3487e0>{2}</color>의 효과를 발동한 후, 사거리 안 현재 체력이 가장 높은 적에게 액티브 스킬 <color=#3487e0>애드리브 스텝</color>을 1회 시전한다. 턴당 최대 <color=#f26c1c>1회</color> 발동. 그리고 이번 스킬 사용 후 액티브 스킬 <color=#3487e0>스무스 턴</color> 및 <color=#3487e0>패션 하울링</color>을 사용할 수 없다. 정화 불가.",
             "descriptionTips": "1:900235;0:262403;1:900234",
             "buffEffect": "Skill/YooHeeSSR01/10540401_Buff",
             "effectPlayTime": [
@@ -17965,8 +17965,8 @@
         },
         {
             "id": 10540542,
-            "name": "기발한 상상",
-            "description": "다음 턴 액티브 스킬 <color=#3487e0>즉흥 무도</color>의 효과가 강화된다. 치명타 확률이 <color=#f26c1c>15%</color> 상승하고, 대상 방어력의 <color=#f26c1c>10%</color>를 무시한다. 최대 <color=#f26c1c>3회 중첩</color> 가능. 정화 불가.",
+            "name": "기발한 생각",
+            "description": "다음 턴 액티브 스킬 <color=#3487e0>애드리브 스텝</color>의 효과가 강화되어, 치명률 <color=#f26c1c>+15%</color>, 대상의 방어력을 <color=#f26c1c>10%</color> 무시한다. 최대 중첩 <color=#f26c1c>3스택</color>. 정화 불가.",
             "iconName": "Buff_CriUpNetral",
             "isShow": true,
             "buffHeadShow": 1,
@@ -17974,8 +17974,8 @@
         },
         {
             "id": 10540822,
-            "name": "절대 포기하지 않아",
-            "description": "아군이 받는 피해가 <color=#f26c1c>30%</color> 감소한다. 정화 불가 버프.",
+            "name": "절대 안 져",
+            "description": "아군 유닛이 받는 피해 <color=#f26c1c>-30%</color>. 정화 불가.",
             "iconName": "Buff_DefUpNeutral",
             "isShow": true,
             "buffHeadShow": 1,
@@ -17983,8 +17983,8 @@
         },
         {
             "id": 10540823,
-            "name": "전면 워밍업",
-            "description": "물리 피해를 줄 때, 치명타 피해가 <color=#f26c1c>25%</color> 상승한다. 정화 불가 버프.",
+            "name": "사전 워밍업",
+            "description": "물리 피해를 줄 때 치명피해 <color=#f26c1c>+25%</color>. 정화 불가 버프.",
             "iconName": "Buff_CriDamUp",
             "isShow": true,
             "buffHeadShow": 1,
@@ -17992,8 +17992,8 @@
         },
         {
             "id": 10540851,
-            "name": "절대 포기하지 않아",
-            "description": "<color=#3487e0>{0}</color> 모든 효과가 무효화된다. 정화 불가.",
+            "name": "절대 안 져",
+            "description": "<color=#3487e0>{0}</color>의 모든 효과 중단. 정화 불가.",
             "descriptionTips": "0:10541821",
             "iconName": "Buff_Tank5",
             "isShow": true,
@@ -18002,8 +18002,8 @@
         },
         {
             "id": 10540861,
-            "name": "계수·경쾌한 무도",
-            "description": "<color=#3487e0>{0}</color> 적용 횟수. 정화 불가.",
+            "name": "카운터·가벼운 스텝",
+            "description": "<color=#3487e0>{0}</color> 부여 횟수. 정화 불가.",
             "descriptionTips": "0:105408011",
             "iconName": "Buff_CountUp",
             "isShow": true,
@@ -18012,8 +18012,8 @@
         },
         {
             "id": 10540871,
-            "name": "계수·열정의 무도",
-            "description": "<color=#3487e0>{0}</color> 적용 횟수. 정화 불가.",
+            "name": "카운터·열정적인 스텝",
+            "description": "<color=#3487e0>{0}</color> 부여 횟수. 정화 불가.",
             "descriptionTips": "0:105408012",
             "iconName": "Buff_CountUp",
             "isShow": true,
@@ -18022,8 +18022,8 @@
         },
         {
             "id": 10541821,
-            "name": "절대 포기하지 않아",
-            "description": "아군 액티브 물리 공격 시, 대상 방어력의 <color=#f26c1c>15%</color>를 무시한다. 최대 <color=#f26c1c>4회 중첩</color> 가능. 아군이 위상 피해를 줄 경우, 해당 효과의 적용이 <color=#f26c1c>2턴</color> 중단된다. 정화 불가.",
+            "name": "절대 안 져",
+            "description": "아군 유닛이 액티브 물리 공격 시, 대상의 방어력을 <color=#f26c1c>15%</color> 무시한다. 최대 중첩 <color=#f26c1c>4스택</color>. \n아군 유닛이 위상 피해를 주면 <color=#f26c1c>2개 전체 턴</color> 동안 효과가 중단된다. 정화 불가.",
             "iconName": "Buff_AtkUpNeutral",
             "isShow": true,
             "buffHeadShow": 1,
@@ -18031,8 +18031,8 @@
         },
         {
             "id": 10550402,
-            "name": "감시",
-            "description": "적 유닛에게 피해를 줄 때, 자신이 안정 피해를 <color=#f26c1c>2점</color> 받으며, 쿠리치로부터 받는 반격 피해가 <color=#f26c1c>15%</color> 증가한다. 탁류계 정화 불가 디버프.",
+            "name": "모니터링",
+            "description": "적 유닛에게 피해를 줄 때 자신은 <color=#f26c1c>2점</color> 안정 피해를 받고, 쿨리치에게서 받는 반격 피해 <color=#f26c1c>+15%</color>. 탁류계 정화 불가 디버프.",
             "iconName": "Buff_NikketaSSR2",
             "isShow": true,
             "buffHeadShow": 1
@@ -20850,8 +20850,8 @@
         },
         {
             "id": 60007902,
-            "name": "군집 방어 전략",
-            "description": "받는 단일 피해가 <color=#f26c1c>30%</color> 증가하고, 받는 범위 피해가 <color=#f26c1c>50%</color> 감소한다. 지속시간 무제한.",
+            "name": "군체 방어 전술",
+            "description": "받는 단일 피해 <color=#f26c1c>+30%</color>, 받는 범위 피해 <color=#f26c1c>-50%</color>. 무한 지속.",
             "iconName": "Buff_EnemyRedHurt",
             "isShow": true,
             "buffHeadShow": 1
@@ -20923,14 +20923,14 @@
         {
             "id": 61000140,
             "name": "초극한 연소",
-            "description": "연소 피해가 <color=#f26c1c>20%</color> 증가한다.",
+            "description": "연소 피해 <color=#f26c1c>+20%</color>.",
             "iconName": "Buff_Guild_20",
             "showPriorityIcon": 10
         },
         {
             "id": 61000150,
-            "name": "초 탁류",
-            "description": "탁류 피해가 <color=#f26c1c>20%</color> 증가한다.",
+            "name": "초극한 탁류",
+            "description": "탁류 피해 <color=#f26c1c>+20%</color>.",
             "iconName": "Buff_Guild_21",
             "showPriorityIcon": 10
         },
@@ -21044,7 +21044,7 @@
         {
             "id": 61000310,
             "name": "부식 흡수",
-            "description": "<color=#8679e8>산성 계열</color> 버프 효과가 있을 때, 주는 피해가 <color=#f26c1c>20%</color> 증가한다.",
+            "description": "<color=#d4ae08>산성계</color> 버프를 가진 경우, 주는 피해 <color=#f26c1c>+20%</color>.",
             "iconName": "Buff_Guild_39",
             "showPriorityIcon": 10
         },
@@ -21058,49 +21058,49 @@
         {
             "id": 61000330,
             "name": "탁류 흡수",
-            "description": "<color=#2caadb>탁류 계열</color> 버프 효과를 보유 중일 때, 주는 피해가 <color=#f26c1c>20%</color> 증가한다.",
+            "description": "<color=#2caadb>탁류계</color> 버프 보유 시, 주는 피해 <color=#f26c1c>+20%</color>.",
             "iconName": "Buff_Guild_44",
             "showPriorityIcon": 10
         },
         {
             "id": 61000340,
             "name": "연소 흡수",
-            "description": "<color=#e67129>연소류</color> 강화 효과가 있을 때, 입히는 피해가 <color=#f26c1c>20%</color> 증가한다.",
+            "description": "<color=#e67129>연소계</color> 버프 보유 시, 주는 피해 <color=#f26c1c>+20%</color>.",
             "iconName": "Buff_Guild_20",
             "showPriorityIcon": 10
         },
         {
             "id": 61000350,
             "name": "빙결 흡수",
-            "description": "<color=#42cce0>빙결류</color> 버프 효과가 있을 때, 주는 피해가 <color=#f26c1c>20%</color> 증가한다.",
+            "description": "<color=#d4ae08>빙결계</color> 버프를 가진 경우, 주는 피해 <color=#f26c1c>+20%</color>.",
             "iconName": "Buff_Guild_24",
             "showPriorityIcon": 10
         },
         {
             "id": 61000360,
             "name": "전도 흡수",
-            "description": "<color=#d4ae08>전도류</color> 버프 효과가 있을 때 가하는 피해가 <color=#f26c1c>20%</color> 증가한다.",
+            "description": "<color=#d4ae08>전도계</color> 버프를 가진 경우, 주는 피해 <color=#f26c1c>+20%</color>.",
             "iconName": "Buff_Guild_22",
             "showPriorityIcon": 10
         },
         {
             "id": 61000370,
-            "name": "극한 정밀",
-            "description": "단일 피해가 <color=#f26c1c>20%</color> 증가한다.",
+            "name": "초극한 단일",
+            "description": "단일피해 <color=#f26c1c>+20%</color>.",
             "iconName": "Buff_Guild_47",
             "showPriorityIcon": 10
         },
         {
             "id": 61000380,
-            "name": "극한 중격",
-            "description": "물리 피해가 <color=#f26c1c>30%</color> 증가한다.",
+            "name": "초극한 중격",
+            "description": "물리 피해 <color=#f26c1c>+30%</color>.",
             "iconName": "Buff_Guild_48",
             "showPriorityIcon": 10
         },
         {
             "id": 61000390,
-            "name": "안정 붕괴 중격",
-            "description": "적에게 물리 피해를 줄 때, 치명타 피해가 <color=#f26c1c>20%</color> 상승하고, 추가로 <color=#f26c1c>5점</color>의 안정 피해를 준다.",
+            "name": "파쇄 중격",
+            "description": "적 유닛에게 물리 피해를 줄 때, 치명피해 <color=#f26c1c>+20%</color>, 추가로 <color=#f26c1c>5점</color> 안정 피해를 준다.",
             "iconName": "Buff_Guild_49",
             "showPriorityIcon": 10
         },
@@ -21215,71 +21215,71 @@
         },
         {
             "id": 61001080,
-            "name": "격류 부패",
-            "description": "탁류 및 산성 피해가 <color=#f26c1c>30%</color> 증가하며, 탁류 및 산성 피해의 치명타 확률이 <color=#f26c1c>30%</color> 상승한다.",
+            "name": "격류 부식",
+            "description": "탁류 및 산성 피해 <color=#f26c1c>+30%</color>, 탁류 및 산성 피해 치명률 <color=#f26c1c>+30%</color>.",
             "iconName": "Buff_Guild_50",
             "showPriorityIcon": 10
         },
         {
             "id": 61001090,
-            "name": "전호 부패",
-            "description": "전도 및 산성 피해가 <color=#f26c1c>30%</color> 증가하며, 전도 및 산성 피해의 치명타 확률이 <color=#f26c1c>30%</color> 상승한다.",
+            "name": "아크 부식",
+            "description": "전도 및 산성 피해 <color=#f26c1c>+30%</color>, 전도 및 산성 피해 치명률 <color=#f26c1c>+30%</color>.",
             "iconName": "Buff_Guild_51",
             "showPriorityIcon": 10
         },
         {
             "id": 61001100,
-            "name": "한파 불길",
-            "description": "빙결 및 연소 피해가 <color=#f26c1c>30%</color> 증가하며, 빙결 및 연소 피해의 치명타 확률이 <color=#f26c1c>30%</color> 상승한다.",
+            "name": "한파 불바다",
+            "description": "빙결 및 연소 피해 <color=#f26c1c>+30%</color>, 빙결 및 연소 피해 치명률 <color=#f26c1c>+30%</color>.",
             "iconName": "Buff_Guild_52",
             "showPriorityIcon": 10
         },
         {
             "id": 61001110,
-            "name": "한파 전호",
-            "description": "빙결 및 전도 피해가 <color=#f26c1c>30%</color> 증가하며, 빙결 및 전도 피해의 치명타 확률이 <color=#f26c1c>30%</color> 상승한다.",
+            "name": "한파 아크",
+            "description": "빙결 및 전도 피해 <color=#f26c1c>+30%</color>, 빙결 및 전도 피해 치명률 <color=#f26c1c>+30%</color>.",
             "iconName": "Buff_Guild_53",
             "showPriorityIcon": 10
         },
         {
             "id": 61001120,
-            "name": "불열 중격",
-            "description": "물리 및 연소 피해가 <color=#f26c1c>30%</color> 증가하며, 물리 및 연소 피해의 치명타 확률이 <color=#f26c1c>30%</color> 상승한다.",
+            "name": "화끈한 중격",
+            "description": "물리 및 연소 피해 <color=#f26c1c>+30%</color>, 물리 및 연소 피해치명률 <color=#f26c1c>+30%</color>.",
             "iconName": "Buff_Guild_54",
             "showPriorityIcon": 10
         },
         {
             "id": 61001130,
             "name": "격류 중격",
-            "description": "물리 및 탁류 피해가 <color=#f26c1c>30%</color> 증가하며, 물리 및 탁류 피해의 치명타 확률이 <color=#f26c1c>30%</color> 상승한다.",
+            "description": "물리 및 탁류 피해 <color=#f26c1c>+30%</color>, 물리 및 탁류 피해 치명률 <color=#f26c1c>+30%</color>.",
             "iconName": "Buff_Guild_55",
             "showPriorityIcon": 10
         },
         {
             "id": 61001140,
-            "name": "전호 중격",
-            "description": "물리 및 전도 피해가 <color=#f26c1c>30%</color> 증가하며, 물리 및 전도 피해의 치명타 확률이 <color=#f26c1c>30%</color> 상승한다.",
+            "name": "아크 중격",
+            "description": "물리 및 전도 피해 <color=#f26c1c>+30%</color>, 물리 및 전도 피해 치명률 <color=#f26c1c>+30%</color>.",
             "iconName": "Buff_Guild_56",
             "showPriorityIcon": 10
         },
         {
             "id": 61001150,
-            "name": "부패 중격",
-            "description": "물리 및 산성 피해가 <color=#f26c1c>30%</color> 증가하며, 물리 및 산성 피해의 치명타 확률이 <color=#f26c1c>30%</color> 상승한다.",
+            "name": "부식 중격",
+            "description": "물리 및 산성 피해 <color=#f26c1c>+30%</color>, 물리 및 산성 피해 치명률 <color=#f26c1c>+30%</color>.",
             "iconName": "Buff_Guild_57",
             "showPriorityIcon": 10
         },
         {
             "id": 61001160,
             "name": "한파 중격",
-            "description": "물리 및 빙결 피해가 <color=#f26c1c>30%</color> 증가하며, 물리 및 빙결 피해의 치명타 확률이 <color=#f26c1c>30%</color> 상승한다.",
+            "description": "물리 및 빙결 피해 <color=#f26c1c>+30%</color>, 물리 및 빙결 피해치명률 <color=#f26c1c>+30%</color>.",
             "iconName": "Buff_Guild_58",
             "showPriorityIcon": 10
         },
         {
             "id": 61001170,
-            "name": "정밀 중격",
-            "description": "물리 피해가 <color=#f26c1c>30%</color> 증가하고, 단일 피해가 <color=#f26c1c>25%</color> 상승한다.",
+            "name": "단일 중격",
+            "description": "물리피해 <color=#f26c1c>+30%</color>, 단일피해 <color=#f26c1c>+25%</color>.",
             "iconName": "Buff_Guild_59",
             "showPriorityIcon": 10
         },
@@ -21333,8 +21333,8 @@
         },
         {
             "id": 61141201,
-            "name": "엄폐 방어 I",
-            "description": "안정 지수가 <color=#f26c1c>0</color> 초과일 때, <color=#f26c1c>주변 2칸</color> 내 아군 유닛(자신 제외)이 받는 안정 피해를 최대 <color=#f26c1c>2</color>까지 감소시킨다. 정화 불가.",
+            "name": "엄폐물 방어I",
+            "description": "안정 지수가 <color=#f26c1c>0보다 높을</color> 때, <color=#f26c1c>-주위 반경 2칸 안</color>의 자신 외 아군 유닛이 받는 안정 피해를 최대 <color=#f26c1c>2점</color> 차감한다 . 정화 불가.",
             "iconName": "Buff_CountSuppress",
             "isShow": true,
             "showPriorityIcon": 10
@@ -21375,8 +21375,8 @@
         },
         {
             "id": 61142204,
-            "name": "엄폐 방어 II",
-            "description": "안정 지수가 <color=#f26c1c>0</color> 초과일 때, <color=#f26c1c>주변 3칸</color> 내 아군 유닛(자신 제외)이 받는 안정 피해를 최대 <color=#f26c1c>3</color>까지 감소시킨다. 정화 불가.",
+            "name": "엄폐물 방어II",
+            "description": "안정 지수가 <color=#f26c1c>0보다 높을</color> 때, <color=#f26c1c>-주위 반경 2칸 안</color>의 자신 외 아군 유닛이 받는 안정 피해를 최대 <color=#f26c1c>3점</color> 차감한다 . 정화 불가.",
             "iconName": "Buff_CountSuppress",
             "isShow": true,
             "showPriorityIcon": 10
@@ -21570,8 +21570,8 @@
         },
         {
             "id": 61751202,
-            "name": "맹렬한 숨결·돌격",
-            "description": "공격받을 때, 공격자에게 <color=#f26c1c>80%</color> 공격력의 물리 피해와 <color=#f26c1c>3 안정 손상</color>을 입히며 최대 <color=#f26c1c>2번</color> 발동됩니다. 자신의 턴 시작 시 제거됩니다. 중립, 정화 불가.",
+            "name": "격노의 입김·차지",
+            "description": "공격을 받으면 공격자에게 공격력 <color=#f26c1c>80%</color> 물리피해와 <color=#f26c1c>3점</color> 안정 피해를 준다. 최대 <color=#f26c1c>2회</color> 발동. 자신 턴 시작 시 해제. 정화 불가 중립 효과.",
             "iconName": "Buff_CountUp",
             "isShow": true,
             "buffHeadShow": 1
@@ -21579,7 +21579,7 @@
         {
             "id": 61751401,
             "name": "격노",
-            "description": "받는 안정 상태 피해가 <color=#f26c1c>2포인트</color> 감소하며, 방어력이 <color=#f26c1c>20%</color> 증가하고, 이동력이 <color=#f26c1c>2칸</color> 증가합니다. 정화 불가 버프.",
+            "description": "받는 안정 피해 <color=#f26c1c>-2점</color>, 방어력 <color=#f26c1c>+20%</color>, 이동력 <color=#f26c1c>+2칸</color>. 정화 불가 버프.",
             "buffEffect": "Skill/6175401_Loop",
             "effectPlayTime": [
                 1
@@ -21601,8 +21601,8 @@
         },
         {
             "id": 61752701,
-            "name": "폭주",
-            "description": "받는 안정 피해가 <color=#f26c1c>2</color> 감소하고, 받는 피해가 <color=#f26c1c>50%</color> 줄어들며, 이동력이 <color=#f26c1c>2칸</color> 증가한다. 행동 종료 시 안정 지수를 10 회복한다. 안정 붕괴 시 이 효과는 제거되며 <color=#3487e0>{0}</color>를 획득한다. 정화 불가 버프.",
+            "name": "폭주족",
+            "description": "받는 안정 피해 <color=#f26c1c>-2점</color>, 받는 피해 <color=#f26c1c>-50%</color>, 이동력 <color=#f26c1c>+2칸</color>. \n행동 종료 시 안정 지수를 10점 회복한다.\n안정 붕괴 시 이 효과를 해제하고 <color=#3487e0>{0}</color> 효과를 얻는다. 정화 불가 버프.",
             "descriptionTips": "0:61752703",
             "buffEffect": "Skill/6175401_Loop",
             "effectPlayTime": [
@@ -21625,8 +21625,8 @@
         },
         {
             "id": 61752703,
-            "name": "엔진 오버로드",
-            "description": "방어력이 <color=#f26c1c>15%</color> 감소하며, 효과가 끝날 때 <color=#3487e0>{0}</color>를 획득한다. 정화 불가 디버프.",
+            "name": "엔진 과부하",
+            "description": "방어력 <color=#f26c1c>-15%</color>, 효과 종료 시 <color=#3487e0>{0}</color> 효과를 얻는다. 정화 불가 디버프.",
             "descriptionTips": "0:61752701",
             "iconName": "Buff_DefLow",
             "isShow": true,
@@ -21634,37 +21634,37 @@
         },
         {
             "id": 61752801,
-            "name": "핏물",
-            "description": "행동 종료 시, 이 디버프를 건 유닛의 공격력 <color=#f26c1c>170%</color>에 해당하는 고정 피해와 <color=#f26c1c>안정 피해 5</color>를 입는다. 받는 치유 효과가 <color=#f26c1c>30%</color> 감소한다. 자신의 체력이 <color=#f26c1c>100%</color> 이상이면 이 효과가 제거된다. 디버프.",
+            "name": "피의 물결",
+            "description": "행동 종료 시, 부여자 공격력 <color=#f26c1c>170%</color> 고정 피해와 <color=#f26c1c>5점</color> 안정 피해를 받는다. \n받는 치료 효과 <color=#f26c1c>-30%</color>. \n자신 체력이 <color=#f26c1c>100%</color> 이상이 되면 이 효과를 해제한다. 디버프.",
             "iconName": "Buff_ContinueHurt",
             "isShow": true,
             "buffHeadShow": 1
         },
         {
             "id": 61752811,
-            "name": "핏물",
-            "description": "행동 종료 시, 이 디버프를 건 유닛의 공격력 <color=#f26c1c>170%</color>에 해당하는 고정 피해와 <color=#f26c1c>안정 피해 5</color>를 입는다. 받는 치유 효과가 <color=#f26c1c>40%</color> 감소한다. 자신의 체력이 <color=#f26c1c>100%</color> 이상이면 이 효과가 제거된다. 디버프.",
+            "name": "피의 물결",
+            "description": "행동 종료 시, 부여자 공격력 <color=#f26c1c>170%</color> 고정 피해와 <color=#f26c1c>5점</color> 안정 피해를 받는다. \n받는 치료 효과 <color=#f26c1c>-40%</color>. \n자신 체력이 <color=#f26c1c>100%</color> 이상이 되면 이 효과를 해제한다. 디버프.",
             "iconName": "Buff_ContinueHurt",
             "isShow": true
         },
         {
             "id": 61752821,
-            "name": "핏물",
-            "description": "행동 종료 시, 이 디버프를 건 유닛의 공격력 <color=#f26c1c>170%</color>에 해당하는 고정 피해와 <color=#f26c1c>안정 피해 5</color>를 입는다. 받는 치유 효과가 <color=#f26c1c>50%</color> 감소한다. 자신의 체력이 <color=#f26c1c>100%</color> 이상이면 이 효과가 제거된다. 디버프.",
+            "name": "피의 물결",
+            "description": "행동 종료 시, 부여자 공격력 <color=#f26c1c>170%</color> 고정 피해와 <color=#f26c1c>5점</color> 안정 피해를 받는다. \n받는 치료 효과 <color=#f26c1c>-50%</color>. \n자신 체력이 <color=#f26c1c>100%</color> 이상이 되면 이 효과를 해제한다. 디버프.",
             "iconName": "Buff_ContinueHurt",
             "isShow": true
         },
         {
             "id": 61752831,
-            "name": "핏물",
-            "description": "행동 종료 시, 이 디버프를 건 유닛의 공격력 <color=#f26c1c>170%</color>에 해당하는 고정 피해와 <color=#f26c1c>안정 피해 5</color>를 입는다. 받는 치유 효과가 <color=#f26c1c>70%</color> 감소한다. 자신의 체력이 <color=#f26c1c>100%</color> 이상이면 이 효과가 제거된다. 디버프.",
+            "name": "피의 물결",
+            "description": "행동 종료 시, 부여자 공격력 <color=#f26c1c>170%</color> 고정 피해와 <color=#f26c1c>5점</color> 안정 피해를 받는다. \n받는 치료 효과 <color=#f26c1c>-70%</color>. \n자신 체력이 <color=#f26c1c>100%</color> 이상이 되면 이 효과를 해제한다. 디버프.",
             "iconName": "Buff_ContinueHurt",
             "isShow": true
         },
         {
             "id": 61761011,
-            "name": "장벽 손상",
-            "description": "받는 <color=#f26c1c>연소 화역</color> 피해가 150% 증가한다.",
+            "name": "방벽 파손",
+            "description": "<color=#f26c1c>불바다 영역</color>으로 받는 피해 +150%.",
             "iconName": "Buff_EnemyHurtUp",
             "isShow": true,
             "buffHeadShow": 1,
@@ -21672,8 +21672,8 @@
         },
         {
             "id": 61776021,
-            "name": "방어력 증폭",
-            "description": "자신의 방어력이 200% 상승하며, 중첩 가능하다. 정화 불가 버프.",
+            "name": "방어 증폭",
+            "description": "자신 방어력 +200%, 중첩 가능. 버프.",
             "iconName": "Buff_DefUp",
             "isShow": true,
             "buffHeadShow": 1,
@@ -21774,8 +21774,8 @@
         },
         {
             "id": 62004401,
-            "name": "위상 피해 감소",
-            "description": "받는 산성, 전도, 빙결 속성 피해가 <color=#f26c1c>20%</color> 감소한다. 정화 불가 버프.",
+            "name": "위상 차감",
+            "description": "받는 산성, 전도, 빙결 속성 피해 <color=#f26c1c>-20%</color>. 버프.",
             "buffEffect": "Buff/DefU|Buff/DefU",
             "effectPlayTime": [
                 1,
@@ -21792,8 +21792,8 @@
         },
         {
             "id": 62004402,
-            "name": "위상 피해 감소",
-            "description": "받는 산성, 전도, 빙결 속성 피해가 <color=#f26c1c>30%</color> 감소한다. 정화 불가 버프.",
+            "name": "위상 차감",
+            "description": "받는 산성, 전도, 빙결 속성 피해 <color=#f26c1c>-30%</color>. 버프.",
             "buffEffect": "Buff/DefU|Buff/DefU",
             "effectPlayTime": [
                 1,
@@ -21810,8 +21810,8 @@
         },
         {
             "id": 62004403,
-            "name": "위상 피해 감소",
-            "description": "받는 산성, 전도, 빙결 속성 피해가 <color=#f26c1c>50%</color> 감소한다. 정화 불가 버프.",
+            "name": "위상 차감",
+            "description": "받는 산성, 전도, 빙결 속성 피해 <color=#f26c1c>-50%</color>. 버프.",
             "buffEffect": "Buff/DefU|Buff/DefU",
             "effectPlayTime": [
                 1,
@@ -21969,7 +21969,7 @@
         },
         {
             "id": 62791101,
-            "name": "전도 부여",
+            "name": "전도 부가",
             "description": "액티브 물리 공격 피해가 전도 피해로 변한다. <color=#f26c1c>1회</color> 적용. 정화 불가.",
             "iconName": "Buff_ElectricUP",
             "isShow": true,
@@ -21978,8 +21978,8 @@
         },
         {
             "id": 62791201,
-            "name": "연소 부여",
-            "description": "액티브 물리 공격 피해가 연소 피해로 변한다, <color=#f26c1c>1회</color> 적용. 정화 불가.",
+            "name": "추가 연소",
+            "description": "액티브 물리 공격 피해를 연소 피해로 바꾼다, <color=#f26c1c>1회</color> 적용. 정화 불가.",
             "iconName": "Buff_FireUP",
             "isShow": true,
             "buffHeadShow": 1,
@@ -21987,8 +21987,8 @@
         },
         {
             "id": 62791301,
-            "name": "빙결 부여",
-            "description": "액티브 물리 공격 피해가 빙결 피해로 변한다, <color=#f26c1c>1회</color> 적용. 정화 불가.",
+            "name": "추가 빙결",
+            "description": "액티브 물리 공격을 빙결 피해로 바꾼다, <color=#f26c1c>1회</color> 적용. 정화 불가.",
             "iconName": "Buff_IceUP",
             "isShow": true,
             "buffHeadShow": 1,
@@ -21996,7 +21996,7 @@
         },
         {
             "id": 62791401,
-            "name": "산성 부여",
+            "name": "산성 부가",
             "description": "액티브 물리 공격 피해가 산성 피해로 변한다. <color=#f26c1c>1회</color> 적용. 정화 불가.",
             "iconName": "Buff_PoisonUP",
             "isShow": true,
@@ -22510,8 +22510,8 @@
         },
         {
             "id": 67152201,
-            "name": "수배 명령",
-            "description": "적용 대상에게 입힌 피해가 <color=#f26c1c>60%</color> 감소합니다. 적용 대상에게 피해를 입은 후, <color=#3487e0>{0}</color>를 얻고, <color=#f26c1c>2턴</color> 동안 지속됩니다. 정화 불가 디버프.",
+            "name": "수배령",
+            "description": "부여자에게 주는 피해 <color=#f26c1c>-60%</color>. 부여자에게서 피해를 받은 후, <color=#3487e0>{0}</color> 효과를 <color=#f26c1c>2턴간</color> 얻는다. 정화 불가 디버프.",
             "descriptionTips": "0:253202",
             "iconName": "Buff_DamageDown",
             "isShow": true,
@@ -22519,8 +22519,8 @@
         },
         {
             "id": 67152205,
-            "name": "추적",
-            "description": "이동력 <color=#f26c1c>5칸</color> 증가. 정화 불가 버프.",
+            "name": "검거",
+            "description": "이동력 <color=#f26c1c>+5칸</color>. 정화 불가 버프.",
             "buffEffect": "Buff/SpeedU",
             "effectPlayTime": [
                 1
@@ -22552,8 +22552,8 @@
         },
         {
             "id": 67612412,
-            "name": "먼지 쌓인 소망",
-            "description": "공격력이 <color=#f26c1c>50%</color> 증가한다. 턴 시작 시, <color=#3487e0>{0}</color>가 <color=#f26c1c>3중첩</color> 미만이고 <color=#3487e0>먼지 쌓인 소망</color>을 보유하고 있다면, <color=#3487e0>먼지 쌓인 소망</color>을 제거한다. 정화 불가.",
+            "name": "묻어둔 소망",
+            "description": "공격력 <color=#f26c1c>+50%</color>. 턴 시작 시, <color=#3487e0>{0}</color> 효과가 <color=#f26c1c>3스택</color> 미만이고 <color=#3487e0>묻어둔 소망</color>을 보유한 경우, <color=#3487e0>묻어둔 소망</color>을 정화한다. 정화 불가.",
             "descriptionTips": "0:67612411",
             "buffEffect": "Skill/6761401_Ice",
             "effectPlayTime": [
@@ -22832,7 +22832,7 @@
         {
             "id": 68922011,
             "name": "소화 타액",
-            "description": "받는 피해가 <color=#f26c1c>20%</color> 증가하며, 중첩 가능하고 <color=#f26c1c>2턴</color> 동안 지속된다. 만약 해제되면, 아군 전체가 <color=#f26c1c>1회</color> <color=#3487e0>{0}</color> 효과를 획득하며, <color=#f26c1c>2턴</color> 동안 지속된다. 디버프.",
+            "description": "받는 피해 <color=#f26c1c>+20%</color>, 중첩 가능, <color=#f26c1c>2턴간</color> 지속. 디버프. \n정화될 경우 모든 아군에게 <color=#3487e0>{0}</color> <color=#f26c1c>1스택</color>을 <color=#f26c1c>2턴간</color> 부여한다.",
             "descriptionTips": "0:68922012",
             "iconName": "Buff_EnemyHurtUp",
             "isShow": true,
@@ -22877,8 +22877,8 @@
         },
         {
             "id": 68940013,
-            "name": "경악 충격",
-            "description": "받는 피해가 <color=#f26c1c>10%</color> 증가하며, 중첩 가능하다. 정화 불가 디버프.",
+            "name": "갑작스런 공포",
+            "description": "받는 피해 <color=#f26c1c>+10%</color>, 중첩 가능, 정화 불가 디버프.",
             "iconName": "Buff_EnemyHurtUp",
             "isShow": true,
             "buffHeadShow": 1,
@@ -22886,8 +22886,8 @@
         },
         {
             "id": 68944012,
-            "name": "균열 방어선 α",
-            "description": "받는 안정 피해가 <color=#f26c1c>2점</color> 증가하고, 방어력이 <color=#f26c1c>30%</color> 감소한다. 정화 불가 디버프.",
+            "name": "균열 방어선α",
+            "description": "받는 안정 피해 <color=#f26c1c>+2점</color>, 방어력 <color=#f26c1c>-30%</color>, 정화 불가 디버프.",
             "iconName": "Buff_DefLow",
             "isShow": true,
             "buffHeadShow": 1,
@@ -22895,8 +22895,8 @@
         },
         {
             "id": 68944022,
-            "name": "균열 방어선 β",
-            "description": "방어력이 <color=#f26c1c>10%</color> 감소한다. 정화 불가 디버프.",
+            "name": "균열 방어선β",
+            "description": "방어력 <color=#f26c1c>-10%</color>, 정화 불가 디버프.",
             "iconName": "Buff_DefLow",
             "isShow": true,
             "buffHeadShow": 1,
@@ -23947,8 +23947,8 @@
         },
         {
             "id": 72011201,
-            "name": "불굴의 장갑",
-            "description": "모든 위상 피해와 위상 약점에 면역된다. 정화 불가.",
+            "name": "드레드노트 아머",
+            "description": "모든 위상 피해와 위상 약점에 면역이 된다. 정화 불가.",
             "iconName": "Buff_InvincibleNeutral",
             "isShow": true,
             "buffHeadShow": 1,
@@ -23957,7 +23957,7 @@
         {
             "id": 72012201,
             "name": "방열 불량",
-            "description": "<color=#e67129>연소</color>를 제외한 모든 위상 피해와 위상 약점에 면역된다. 정화 불가.",
+            "description": "<color=#d4ae08>연소</color> 이외의 모든 위상 피해와 위상 약점에 면역이 된다. 정화 불가.",
             "iconName": "Buff_InvincibleNeutral",
             "isShow": true,
             "buffHeadShow": 1,
@@ -23965,8 +23965,8 @@
         },
         {
             "id": 72013201,
-            "name": "액화 침식",
-            "description": "<color=#2caadb>탁류</color>를 제외한 모든 위상 피해와 위상 약점에 면역된다. 정화 불가.",
+            "name": "액상 침식",
+            "description": "<color=#d4ae08>탁류</color> 이외의 모든 위상 피해와 위상 약점에 면역이 된다. 정화 불가.",
             "iconName": "Buff_InvincibleNeutral",
             "isShow": true,
             "buffHeadShow": 1,
@@ -23974,8 +23974,8 @@
         },
         {
             "id": 72014201,
-            "name": "저체온 취약",
-            "description": "<color=#42cce0>빙결</color>을 제외한 모든 위상 피해와 위상 약점에 면역된다. 정화 불가.",
+            "name": "실온 취약성",
+            "description": "<color=#d4ae08>빙결</color> 이외의 모든 위상 피해와 위상 약점에 면역이 된다. 정화 불가.",
             "iconName": "Buff_InvincibleNeutral",
             "isShow": true,
             "buffHeadShow": 1,
@@ -23983,8 +23983,8 @@
         },
         {
             "id": 72015201,
-            "name": "고전류 감수성",
-            "description": "<color=#d4ae08>전도</color>를 제외한 모든 위상 피해와 위상 약점에 면역된다. 정화 불가.",
+            "name": "강전하 취약",
+            "description": "<color=#d4ae08>전도</color> 이외의 모든 위상 피해와 위상 약점에 면역이 된다. 정화 불가.",
             "iconName": "Buff_InvincibleNeutral",
             "isShow": true,
             "buffHeadShow": 1,
@@ -23993,7 +23993,7 @@
         {
             "id": 72016201,
             "name": "산성 용해",
-            "description": "<color=#8679e8>산성</color>을 제외한 모든 위상 피해와 위상 약점에 면역된다. 정화 불가.",
+            "description": "<color=#d4ae08>산성</color> 이외의 모든 위상 피해와 위상 약점에 면역이 된다. 정화 불가.",
             "iconName": "Buff_InvincibleNeutral",
             "isShow": true,
             "buffHeadShow": 1,
@@ -24797,8 +24797,8 @@
         },
         {
             "id": 102809088,
-            "name": "상쾌한 따뜻한 차",
-            "description": "모든 아군이 <color=#e67129>연소 피해</color>를 입힐 때 치명타 피해가 <color=#f26c1c>10%</color> 증가하며, <color=#e67129>연소 피해</color>가 <color=#f26c1c>15%</color> 증가한다. 정화 불가.",
+            "name": "따끈한 차 한잔",
+            "description": "모든 아군이 <color=#e67129>연소 피해</color>를 줄 때 치명피해 <color=#f26c1c>+10%</color>, 주는 <color=#e67129>연소 피해</color> <color=#f26c1c>+15%</color>. 정화 불가.",
             "iconName": "Buff_AtkUpNeutral",
             "isShow": true,
             "buffHeadShow": 1,
@@ -25874,8 +25874,8 @@
         },
         {
             "id": 104800011,
-            "name": "카운트·그을림",
-            "description": "누적된 <color=#3487e0>그을림</color> 중첩 수 입니다.",
+            "name": "카운터·그을음",
+            "description": "<color=#3487e0>그을음</color> 부여 스택 수 집계.",
             "iconName": "Buff_CountHit",
             "isShow": true,
             "showPriorityIcon": 9
@@ -25902,8 +25902,8 @@
         },
         {
             "id": 104800021,
-            "name": "카운트·그을림",
-            "description": "누적된 <color=#3487e0>그을림</color> 중첩 수 입니다.",
+            "name": "카운터·그을음",
+            "description": "<color=#3487e0>그을음</color> 부여 스택 수 집계.",
             "iconName": "Buff_CountHit",
             "isShow": true,
             "showPriorityIcon": 9
@@ -25930,8 +25930,8 @@
         },
         {
             "id": 104800031,
-            "name": "카운트·그을림",
-            "description": "누적된 <color=#3487e0>그을림</color> 중첩 수 입니다.",
+            "name": "카운터·그을음",
+            "description": "<color=#3487e0>그을음</color> 부여 스택 수 집계.",
             "iconName": "Buff_CountHit",
             "isShow": true,
             "showPriorityIcon": 9
@@ -25958,7 +25958,7 @@
         },
         {
             "id": 104809061,
-            "name": "고유키·만취대식",
+            "name": "고유키·먹고 마셔라",
             "description": "",
             "buffEffect": "Buff/Purity",
             "effectPlayTime": [
@@ -26177,8 +26177,8 @@
         },
         {
             "id": 105408011,
-            "name": "경쾌한 무도",
-            "description": "치명타 피해가 <color=#f26c1c>10%</color> 증가하고, 공격 후 자신의 공격력의 <color=#f26c1c>20%</color>에 해당하는 체력을 회복한다. <color=#3487e0>열정의 무도</color>와 상호 배타적이다. 정화 불가 버프.",
+            "name": "가벼운 스텝",
+            "description": "치명피해 <color=#f26c1c>+10%</color>, 공격 후 자신 공격력 <color=#f26c1c>20%</color>만큼 체력을 회복한다. <color=#3487e0>열정적인 스텝</color>과 공존 불가. 정화 불가 버프.",
             "buffEffect": "Skill/YooHeeSSR01/10540801_Buff|Buff/Recover",
             "effectPlayTime": [
                 1,
@@ -26202,8 +26202,8 @@
         },
         {
             "id": 105408012,
-            "name": "열정의 무도",
-            "description": "치명타 피해가 <color=#f26c1c>10%</color> 증가하고, 행동 종료 시 <color=#f26c1c>2회</color> <color=#3487e0>{0}</color> 효과를 획득한다. <color=#3487e0>경쾌한 무도</color>와 상호 배타적이다. 정화 불가 버프.",
+            "name": "열정적인 스텝",
+            "description": "치명피해 <color=#f26c1c>+10%</color>, 행동 종료 시 <color=#f26c1c>2스택</color><color=#3487e0>{0}</color> 효과를 얻는다. <color=#3487e0>가벼운 스텝</color>과 공존 불가. 정화 불가 버프.",
             "descriptionTips": "0:301300",
             "buffEffect": "Skill/YooHeeSSR01/10540802_Buff",
             "effectPlayTime": [
@@ -26227,8 +26227,8 @@
         },
         {
             "id": 105408221,
-            "name": "회복",
-            "description": "회복",
+            "name": "체력 회복",
+            "description": "체력 회복",
             "buffEffect": "Buff/Recover",
             "effectPlayTime": [
                 3
@@ -26247,7 +26247,7 @@
         },
         {
             "id": 105408322,
-            "name": "전 범위 해제",
+            "name": "맵 전체 디버프 정화",
             "description": "디버프 정화",
             "buffEffect": "Buff/StableU",
             "effectPlayTime": [
@@ -26267,8 +26267,8 @@
         },
         {
             "id": 105408816,
-            "name": "전 범위 회복",
-            "description": "회복",
+            "name": "맵 전체 체력 회복",
+            "description": "체력 회복",
             "buffEffect": "Buff/Recover",
             "effectPlayTime": [
                 3
@@ -26287,7 +26287,7 @@
         },
         {
             "id": 105408817,
-            "name": "전 범위 해제",
+            "name": "맵 전체 디버프 정화",
             "description": "디버프 정화",
             "buffEffect": "Buff/StableU",
             "effectPlayTime": [
@@ -26307,8 +26307,8 @@
         },
         {
             "id": 105505011,
-            "name": "죄의식",
-            "description": "니키타와 쿠리치가 주는 <color=#2caadb>탁류 피해</color>를 <color=#f26c1c>5%</color> 더 많이 받는다. 탁류계 정화 불가 디버프.",
+            "name": "중죄",
+            "description": "니키타와 쿨리치에게서 받는 <color=#2caadb>탁류 피해</color> <color=#f26c1c>+5%</color>. 탁류계 정화 불가 디버프.",
             "buffEffect": "Skill/NikketaSSR01/10550701_Buff",
             "effectPlayTime": [
                 1
@@ -26323,8 +26323,8 @@
         },
         {
             "id": 105505012,
-            "name": "죄의식",
-            "description": "니키타와 쿠리치가 주는 <color=#2caadb>탁류 피해</color>를 <color=#f26c1c>10%</color> 더 많이 받는다. 탁류계 정화 불가 디버프.",
+            "name": "중죄",
+            "description": "니키타와 쿨리치에게서 받는 <color=#2caadb>탁류 피해</color> <color=#f26c1c>+10%</color>. 탁류계 정화 불가 디버프.",
             "buffEffect": "Skill/NikketaSSR01/10550701_Buff",
             "effectPlayTime": [
                 1
@@ -26340,7 +26340,7 @@
         {
             "id": 105508011,
             "name": "단서",
-            "description": "<color=#3487e0>{0}</color>으로 주는 피해 <color=#f26c1c>+5%</color>, 최대 중첩 <color=#f26c1c>5스택</color>. 탁류계 정화 불가 버프.",
+            "description": "<color=#3487e0>{0}</color> 효과로 주는 피해 추가로 <color=#f26c1c>+5%</color>, 최대 중첩 <color=#f26c1c>5스택</color>. 탁류계 정화 불가 버프.",
             "descriptionTips": "1:90228",
             "iconName": "Buff_NikketaSSR3",
             "isShow": true,
@@ -26349,7 +26349,7 @@
         {
             "id": 105508021,
             "name": "단서",
-            "description": "<color=#3487e0>{0}</color>으로 주는 피해 <color=#f26c1c>+5%</color>, 최대 중첩 <color=#f26c1c>10스택</color>. 탁류계 정화 불가 버프.",
+            "description": "<color=#3487e0>{0}</color> 효과로 주는 피해 추가로 <color=#f26c1c>+5%</color>, 최대 중첩 <color=#f26c1c>10스택</color>. 탁류계 정화 불가 버프.",
             "descriptionTips": "1:90228",
             "iconName": "Buff_NikketaSSR3",
             "isShow": true,
@@ -27351,184 +27351,184 @@
         },
         {
             "id": 510533015,
-            "name": "치명적인 마음",
-            "description": "일반 공격의 치명타 피해가 <color=#f26c1c>15%</color> 증가한다. 정화 불가 버프.",
+            "name": "치명적 불스아이",
+            "description": "일반공격으로 주는 치명피해 <color=#f26c1c>+15%</color>, 정화 불가 버프.",
             "iconName": "Buff_CriDamUp",
             "isShow": true,
             "buffHeadShow": 1
         },
         {
             "id": 510533017,
-            "name": "치명적인 마음",
-            "description": "일반 공격의 치명타 피해가 <color=#f26c1c>17%</color> 증가한다. 정화 불가 버프.",
+            "name": "치명적 불스아이",
+            "description": "일반공격으로 주는 치명피해 <color=#f26c1c>+17%</color>, 정화 불가 버프.",
             "iconName": "Buff_CriDamUp",
             "isShow": true,
             "buffHeadShow": 1
         },
         {
             "id": 510533018,
-            "name": "치명적인 마음",
-            "description": "일반 공격의 치명타 피해가 <color=#f26c1c>18%</color> 증가한다. 정화 불가 버프.",
+            "name": "치명적 불스아이",
+            "description": "일반공격으로 주는 치명피해 <color=#f26c1c>+18%</color>, 정화 불가 버프.",
             "iconName": "Buff_CriDamUp",
             "isShow": true,
             "buffHeadShow": 1
         },
         {
             "id": 510533019,
-            "name": "치명적인 마음",
-            "description": "일반 공격의 치명타 피해가 <color=#f26c1c>19%</color> 증가한다. 정화 불가 버프.",
+            "name": "치명적 불스아이",
+            "description": "일반공격으로 주는 치명피해 <color=#f26c1c>+19%</color>, 정화 불가 버프.",
             "iconName": "Buff_CriDamUp",
             "isShow": true,
             "buffHeadShow": 1
         },
         {
             "id": 510533020,
-            "name": "치명적인 마음",
-            "description": "일반 공격의 치명타 피해가 <color=#f26c1c>20%</color> 증가한다. 정화 불가 버프.",
+            "name": "치명적 불스아이",
+            "description": "일반공격으로 주는 치명피해 <color=#f26c1c>+20%</color>, 정화 불가 버프.",
             "iconName": "Buff_CriDamUp",
             "isShow": true,
             "buffHeadShow": 1
         },
         {
             "id": 510533021,
-            "name": "치명적인 마음",
-            "description": "일반 공격의 치명타 피해가 <color=#f26c1c>21%</color> 증가한다. 정화 불가 버프.",
+            "name": "치명적 불스아이",
+            "description": "일반공격으로 주는 치명피해 <color=#f26c1c>+21%</color>, 정화 불가 버프.",
             "iconName": "Buff_CriDamUp",
             "isShow": true,
             "buffHeadShow": 1
         },
         {
             "id": 510533022,
-            "name": "치명적인 마음",
-            "description": "일반 공격의 치명타 피해가 <color=#f26c1c>22%</color> 증가한다. 정화 불가 버프.",
+            "name": "치명적 불스아이",
+            "description": "일반공격으로 주는 치명피해 <color=#f26c1c>+22%</color>, 정화 불가 버프.",
             "iconName": "Buff_CriDamUp",
             "isShow": true,
             "buffHeadShow": 1
         },
         {
             "id": 510533023,
-            "name": "치명적인 마음",
-            "description": "일반 공격의 치명타 피해가 <color=#f26c1c>23%</color> 증가한다. 정화 불가 버프.",
+            "name": "치명적 불스아이",
+            "description": "일반공격으로 주는 치명피해 <color=#f26c1c>+23%</color>, 정화 불가 버프.",
             "iconName": "Buff_CriDamUp",
             "isShow": true,
             "buffHeadShow": 1
         },
         {
             "id": 510533024,
-            "name": "치명적인 마음",
-            "description": "일반 공격의 치명타 피해가 <color=#f26c1c>24%</color> 증가한다. 정화 불가 버프.",
+            "name": "치명적 불스아이",
+            "description": "일반공격으로 주는 치명피해 <color=#f26c1c>+24%</color>, 정화 불가 버프.",
             "iconName": "Buff_CriDamUp",
             "isShow": true,
             "buffHeadShow": 1
         },
         {
             "id": 510533025,
-            "name": "치명적인 마음",
-            "description": "일반 공격의 치명타 피해가 <color=#f26c1c>25%</color> 증가한다. 정화 불가 버프.",
+            "name": "치명적 불스아이",
+            "description": "일반공격으로 주는 치명피해 <color=#f26c1c>+25%</color>, 정화 불가 버프.",
             "iconName": "Buff_CriDamUp",
             "isShow": true,
             "buffHeadShow": 1
         },
         {
             "id": 510533027,
-            "name": "치명적인 마음",
-            "description": "일반 공격의 치명타 피해가 <color=#f26c1c>27%</color> 증가한다. 정화 불가 버프.",
+            "name": "치명적 불스아이",
+            "description": "일반공격으로 주는 치명피해 <color=#f26c1c>+27%</color>, 정화 불가 버프.",
             "iconName": "Buff_CriDamUp",
             "isShow": true,
             "buffHeadShow": 1
         },
         {
             "id": 510533029,
-            "name": "치명적인 마음",
-            "description": "일반 공격의 치명타 피해가 <color=#f26c1c>29%</color> 증가한다. 정화 불가 버프.",
+            "name": "치명적 불스아이",
+            "description": "일반공격으로 주는 치명피해 <color=#f26c1c>+29%</color>, 정화 불가 버프.",
             "iconName": "Buff_CriDamUp",
             "isShow": true,
             "buffHeadShow": 1
         },
         {
             "id": 510533030,
-            "name": "치명적인 마음",
-            "description": "일반 공격의 치명타 피해가 <color=#f26c1c>30%</color> 증가한다. 정화 불가 버프.",
+            "name": "치명적 불스아이",
+            "description": "일반공격으로 주는 치명피해 <color=#f26c1c>+30%</color>, 정화 불가 버프.",
             "iconName": "Buff_CriDamUp",
             "isShow": true,
             "buffHeadShow": 1
         },
         {
             "id": 510533031,
-            "name": "치명적인 마음",
-            "description": "일반 공격의 치명타 피해가 <color=#f26c1c>31%</color> 증가한다. 정화 불가 버프.",
+            "name": "치명적 불스아이",
+            "description": "일반공격으로 주는 치명피해 <color=#f26c1c>+31%</color>, 정화 불가 버프.",
             "iconName": "Buff_CriDamUp",
             "isShow": true,
             "buffHeadShow": 1
         },
         {
             "id": 510533033,
-            "name": "치명적인 마음",
-            "description": "일반 공격의 치명타 피해가 <color=#f26c1c>33%</color> 증가한다. 정화 불가 버프.",
+            "name": "치명적 불스아이",
+            "description": "일반공격으로 주는 치명피해 <color=#f26c1c>+33%</color>, 정화 불가 버프.",
             "iconName": "Buff_CriDamUp",
             "isShow": true,
             "buffHeadShow": 1
         },
         {
             "id": 510533035,
-            "name": "치명적인 마음",
-            "description": "일반 공격의 치명타 피해가 <color=#f26c1c>35%</color> 증가한다. 정화 불가 버프.",
+            "name": "치명적 불스아이",
+            "description": "일반공격으로 주는 치명피해 <color=#f26c1c>+35%</color>, 정화 불가 버프.",
             "iconName": "Buff_CriDamUp",
             "isShow": true,
             "buffHeadShow": 1
         },
         {
             "id": 510533036,
-            "name": "치명적인 마음",
-            "description": "일반 공격의 치명타 피해가 <color=#f26c1c>36%</color> 증가한다. 정화 불가 버프.",
+            "name": "치명적 불스아이",
+            "description": "일반공격으로 주는 치명피해 <color=#f26c1c>+36%</color>, 정화 불가 버프.",
             "iconName": "Buff_CriDamUp",
             "isShow": true,
             "buffHeadShow": 1
         },
         {
             "id": 510533039,
-            "name": "치명적인 마음",
-            "description": "일반 공격의 치명타 피해가 <color=#f26c1c>39%</color> 증가한다. 정화 불가 버프.",
+            "name": "치명적 불스아이",
+            "description": "일반공격으로 주는 치명피해 <color=#f26c1c>+39%</color>, 정화 불가 버프.",
             "iconName": "Buff_CriDamUp",
             "isShow": true,
             "buffHeadShow": 1
         },
         {
             "id": 510533040,
-            "name": "치명적인 마음",
-            "description": "일반 공격의 치명타 피해가 <color=#f26c1c>40%</color> 증가합니다. 정화 불가 버프.",
+            "name": "치명적 불스아이",
+            "description": "일반공격으로 주는 치명피해 <color=#f26c1c>+40%</color>, 정화 불가 버프.",
             "iconName": "Buff_CriDamUp",
             "isShow": true,
             "buffHeadShow": 1
         },
         {
             "id": 510533043,
-            "name": "치명적인 마음",
-            "description": "일반 공격의 치명타 피해가 <color=#f26c1c>43%</color> 증가합니다. 정화 불가 버프.",
+            "name": "치명적 불스아이",
+            "description": "일반공격으로 주는 치명피해 <color=#f26c1c>+43%</color>, 정화 불가 버프.",
             "iconName": "Buff_CriDamUp",
             "isShow": true,
             "buffHeadShow": 1
         },
         {
             "id": 510533045,
-            "name": "치명적인 마음",
-            "description": "일반 공격의 치명타 피해가 <color=#f26c1c>45%</color> 증가합니다. 정화 불가 버프.",
+            "name": "치명적 불스아이",
+            "description": "일반공격으로 주는 치명피해 <color=#f26c1c>+45%</color>, 정화 불가 버프.",
             "iconName": "Buff_CriDamUp",
             "isShow": true,
             "buffHeadShow": 1
         },
         {
             "id": 510533050,
-            "name": "치명적인 마음",
-            "description": "일반 공격의 치명타 피해가 <color=#f26c1c>50%</color> 증가합니다. 정화 불가 버프.",
+            "name": "치명적 불스아이",
+            "description": "일반공격으로 주는 치명피해 <color=#f26c1c>+50%</color>, 정화 불가 버프.",
             "iconName": "Buff_CriDamUp",
             "isShow": true,
             "buffHeadShow": 1
         },
         {
             "id": 616921011,
-            "name": "기능지연",
-            "description": "액티브 스킬 비활성화",
+            "name": "기능 저해",
+            "description": "액티브 스킬 사용 불가",
             "iconName": "Buff_Weak",
             "isShow": true,
             "buffHeadShow": 1
@@ -27545,7 +27545,7 @@
         {
             "id": 616928121,
             "name": "파츠 겹침",
-            "description": "입히는 피해가 <color=#f26c1c>20%</color> 감소합니다. 정화 불가.",
+            "description": "주는 피해 <color=#f26c1c>-20%</color>. 정화 불가.",
             "iconName": "Buff_DamageDown",
             "isShow": true,
             "buffHeadShow": 1,
@@ -27554,7 +27554,7 @@
         {
             "id": 617514012,
             "name": "오버로드",
-            "description": "방어력이 <color=#f26c1c>15%</color> 감소합니다. 정화 불가 디버프.",
+            "description": "방어력 <color=#f26c1c>-15%</color>. 정화 불가 디버프.",
             "iconName": "Buff_DefLow",
             "isShow": true,
             "buffHeadShow": 1
@@ -27562,47 +27562,47 @@
         {
             "id": 617515011,
             "name": "찢어짐",
-            "description": "이동할 때마다 <color=#f26c1c>1칸</color>당 시전자 공격력의 <color=#f26c1c>5%</color>에 해당하는 고정 피해와 <color=#f26c1c>2점</color>의 안정 피해를 받습니다. 자신이 보호막을 획득하면 이 효과는 제거됩니다. 이 약화는 해제할 수 없습니다.",
+            "description": "이동한 <color=#f26c1c>1칸</color>마다, 부여자 공격력 <color=#f26c1c>5%</color> 고정 피해와 <color=#f26c1c>2점</color> 안정 피해를 받는다. \n자신이 보호막을 얻을 때, 이 효과를 해제한다. 정화 불가 디버프.",
             "iconName": "Buff_ContinueHurt",
             "isShow": true,
             "buffHeadShow": 1
         },
         {
             "id": 617660102,
-            "name": "열 차단 보호",
-            "description": "받는 피해가 <color=#f26c1c>100%</color> 감소합니다. 정화 불가 버프.",
+            "name": "방열 보호",
+            "description": "받는 피해 <color=#f26c1c>-100%</color>, 정화 불가 버프.",
             "iconName": "Buff_EnemyRedHurt",
             "isShow": true,
             "buffHeadShow": 1
         },
         {
             "id": 617660103,
-            "name": "열 차단 보호",
-            "description": "받는 피해가 <color=#f26c1c>75%</color> 감소합니다. 정화 불가 버프.",
+            "name": "방열 보호",
+            "description": "받는 피해 <color=#f26c1c>-75%</color>, 정화 불가 버프.",
             "iconName": "Buff_EnemyRedHurt",
             "isShow": true,
             "buffHeadShow": 1
         },
         {
             "id": 617660104,
-            "name": "열 차단 보호",
-            "description": "받는 피해가 <color=#f26c1c>50%</color> 감소합니다. 정화 불가 버프.",
+            "name": "방열 보호",
+            "description": "받는 피해 <color=#f26c1c>-50%</color>, 정화 불가 버프.",
             "iconName": "Buff_EnemyRedHurt",
             "isShow": true,
             "buffHeadShow": 1
         },
         {
             "id": 617660105,
-            "name": "열 차단 보호",
-            "description": "받는 피해가 <color=#f26c1c>25%</color> 감소합니다. 정화 불가 버프.",
+            "name": "방열 보호",
+            "description": "받는 피해 <color=#f26c1c>-25%</color>, 정화 불가 버프.",
             "iconName": "Buff_EnemyRedHurt",
             "isShow": true,
             "buffHeadShow": 1
         },
         {
             "id": 617660121,
-            "name": "내화",
-            "description": "피해를 면역하며, 중첩 가능하다. 정화 불가 버프.",
+            "name": "내열",
+            "description": "받는 피해에 면역. 중첩 가능. 정화 불가 버프.",
             "iconName": "Buff_Invincible",
             "isShow": true,
             "buffHeadShow": 1,
@@ -27610,8 +27610,8 @@
         },
         {
             "id": 617660122,
-            "name": "내화",
-            "description": "피해를 면역하며, 중첩 가능하다. 정화 불가 버프.",
+            "name": "내열",
+            "description": "받는 피해에 면역. 중첩 가능. 정화 불가 버프.",
             "iconName": "Buff_Invincible",
             "isShow": true,
             "buffHeadShow": 1,
@@ -27704,7 +27704,7 @@
         {
             "id": 620031011,
             "name": "출력 과부하",
-            "description": "범위 피해 감소율이 <color=#f26c1c>10%</color> 증가합니다.",
+            "description": "범위 피해 차감 <color=#f26c1c>+10%</color>",
             "iconName": "Buff_AllUp",
             "isShow": true,
             "buffHeadShow": 1
@@ -27712,7 +27712,7 @@
         {
             "id": 620031021,
             "name": "출력 과부하",
-            "description": "범위 피해 감소율이 <color=#f26c1c>20%</color> 증가합니다.",
+            "description": "범위 피해 차감 <color=#f26c1c>+20%</color>",
             "iconName": "Buff_AllUp",
             "isShow": true,
             "buffHeadShow": 1
@@ -27720,14 +27720,14 @@
         {
             "id": 620031031,
             "name": "출력 과부하",
-            "description": "범위 피해 감소율이 <color=#f26c1c>30%</color> 증가합니다.",
+            "description": "범위 피해 차감 <color=#f26c1c>+30%</color>",
             "iconName": "Buff_AllUp",
             "isShow": true,
             "buffHeadShow": 1
         },
         {
             "id": 620043020,
-            "name": "단일 향상",
+            "name": "단일 상승",
             "description": "단일 피해 <color=#f26c1c>+20%</color>. 버프.",
             "buffEffect": "Buff/AtkU|Buff/AtkU",
             "effectPlayTime": [
@@ -27751,8 +27751,8 @@
         },
         {
             "id": 620043030,
-            "name": "단일 향상",
-            "description": "단일 피해가 <color=#f26c1c>50%</color> 증가한다. 정화 불가 버프.",
+            "name": "단일 상승",
+            "description": "단일 피해 <color=#f26c1c>+50%</color>. 버프.",
             "buffEffect": "Buff/AtkU|Buff/AtkU",
             "effectPlayTime": [
                 1,
@@ -27775,8 +27775,8 @@
         },
         {
             "id": 620043040,
-            "name": "단일 향상",
-            "description": "단일 피해가 <color=#f26c1c>80%</color> 증가한다. 정화 불가 버프.",
+            "name": "단일 상승",
+            "description": "단일 피해 <color=#f26c1c>+80%</color>. 버프.",
             "buffEffect": "Buff/AtkU|Buff/AtkU",
             "effectPlayTime": [
                 1,
@@ -27800,7 +27800,7 @@
         {
             "id": 620045018,
             "name": "방어 상승",
-            "description": "방어력이 <color=#f26c1c>30%</color> 증가한다.",
+            "description": "방어력 <color=#f26c1c>+30%</color>",
             "buffEffect": "Buff/DefU|Buff/DefU",
             "effectPlayTime": [
                 1,
@@ -27818,7 +27818,7 @@
         {
             "id": 620045019,
             "name": "출력 과부하",
-            "description": "범위 피해 감소율이 <color=#f26c1c>30%</color> 증가합니다.",
+            "description": "범위 피해 차감 <color=#f26c1c>+30%</color>",
             "iconName": "Buff_AllUp",
             "isShow": true,
             "buffHeadShow": 1
@@ -27826,7 +27826,7 @@
         {
             "id": 620045028,
             "name": "방어 상승",
-            "description": "방어력이 <color=#f26c1c>40%</color> 증가한다.",
+            "description": "방어력 <color=#f26c1c>+40%</color>",
             "buffEffect": "Buff/DefU|Buff/DefU",
             "effectPlayTime": [
                 1,
@@ -27844,7 +27844,7 @@
         {
             "id": 620045029,
             "name": "출력 과부하",
-            "description": "범위 피해 감소 효과가 <color=#f26c1c>50%</color> 상승한다.",
+            "description": "범위 피해 차감 <color=#f26c1c>+50%</color>",
             "iconName": "Buff_AllUp",
             "isShow": true,
             "buffHeadShow": 1
@@ -27852,7 +27852,7 @@
         {
             "id": 620045038,
             "name": "방어 상승",
-            "description": "방어력이 <color=#f26c1c>50%</color> 증가한다.",
+            "description": "방어력 <color=#f26c1c>+50%</color>",
             "buffEffect": "Buff/DefU|Buff/DefU",
             "effectPlayTime": [
                 1,
@@ -27870,7 +27870,7 @@
         {
             "id": 620045039,
             "name": "출력 과부하",
-            "description": "범위 피해 감소 효과가 <color=#f26c1c>80%</color> 상승한다.",
+            "description": "범위 피해 차감 <color=#f26c1c>+80%</color>",
             "iconName": "Buff_AllUp",
             "isShow": true,
             "buffHeadShow": 1
@@ -27878,7 +27878,7 @@
         {
             "id": 620046012,
             "name": "공격 상승",
-            "description": "공격력이 <color=#f26c1c>10%</color> 증가한다.",
+            "description": "공격력 <color=#f26c1c>+10%</color>",
             "buffEffect": "Buff/AtkU|Buff/AtkU",
             "effectPlayTime": [
                 1,
@@ -27903,7 +27903,7 @@
         {
             "id": 620046022,
             "name": "공격 상승",
-            "description": "공격력이 <color=#f26c1c>15%</color> 증가한다.",
+            "description": "공격력 <color=#f26c1c>+15%</color>",
             "buffEffect": "Buff/AtkU|Buff/AtkU",
             "effectPlayTime": [
                 1,
@@ -27928,7 +27928,7 @@
         {
             "id": 620046032,
             "name": "공격 상승",
-            "description": "공격력이 <color=#f26c1c>25%</color> 증가한다.",
+            "description": "공격력 <color=#f26c1c>+25%</color>",
             "buffEffect": "Buff/AtkU|Buff/AtkU",
             "effectPlayTime": [
                 1,
@@ -28135,7 +28135,7 @@
         {
             "id": 628346012,
             "name": "군체 감응",
-            "description": "입히는 피해가 <color=#f26c1c>25%</color> 증가하고, 받는 피해가 <color=#f26c1c>50%</color> 감소하며, 입히는 안정 피해가 <color=#f26c1c>2점</color> 상승하고, 받는 안정 피해가 <color=#f26c1c>1점</color> 감소한다. 정화 불가.",
+            "description": "주는 피해 <color=#f26c1c>+25%</color>, 받는 피해 <color=#f26c1c>-50%</color>, 주는 안정 피해 <color=#f26c1c>+2점</color>, 받는 안정 피해 <color=#f26c1c>-1점</color>, 정화 불가.",
             "iconName": "Buff_AtkUp",
             "isShow": true,
             "buffHeadShow": 1,
@@ -28190,40 +28190,40 @@
         },
         {
             "id": 655280102,
-            "name": "팬텀바디",
-            "description": "받는 피해가 <color=#f26c1c>100%</color> 감소합니다. 정화 불가 버프.",
+            "name": "환각의 몸뚱이",
+            "description": "받는 피해 <color=#f26c1c>-100%</color>, 정화 불가 버프.",
             "iconName": "Buff_EnemyRedHurt",
             "isShow": true,
             "buffHeadShow": 1
         },
         {
             "id": 655280103,
-            "name": "팬텀바디",
-            "description": "받는 피해가 <color=#f26c1c>75%</color> 감소합니다. 정화 불가 버프.",
+            "name": "환각의 몸뚱이",
+            "description": "받는 피해 <color=#f26c1c>-75%</color>, 정화 불가 버프.",
             "iconName": "Buff_EnemyRedHurt",
             "isShow": true,
             "buffHeadShow": 1
         },
         {
             "id": 655280104,
-            "name": "팬텀바디",
-            "description": "받는 피해가 <color=#f26c1c>50%</color> 감소합니다. 정화 불가 버프.",
+            "name": "환각의 몸뚱이",
+            "description": "받는 피해 <color=#f26c1c>-50%</color>, 정화 불가 버프.",
             "iconName": "Buff_EnemyRedHurt",
             "isShow": true,
             "buffHeadShow": 1
         },
         {
             "id": 655280105,
-            "name": "팬텀바디",
-            "description": "받는 피해가 <color=#f26c1c>25%</color> 감소합니다. 정화 불가 버프.",
+            "name": "환각의 몸뚱이",
+            "description": "받는 피해 <color=#f26c1c>-25%</color>, 정화 불가 버프.",
             "iconName": "Buff_EnemyRedHurt",
             "isShow": true,
             "buffHeadShow": 1
         },
         {
             "id": 655350101,
-            "name": "역추적 코드",
-            "description": "받는 피해가 <color=#f26c1c>90%</color> 감소합니다. 턴 시작 시 자신의 최대 체력 <color=#f26c1c>8%</color>를 회복합니다. 이 강화는 해제할 수 없습니다.",
+            "name": "백트랙 코드",
+            "description": "받는 피해 <color=#f26c1c>-90%</color>. 턴 시작 시, 자신 최대체력 <color=#f26c1c>8%</color>만큼 회복한다. 정화 불가 버프.",
             "iconName": "Buff_SelfHeal",
             "isShow": true,
             "buffHeadShow": 1
@@ -28934,7 +28934,7 @@
         {
             "id": 1023090811,
             "name": "도약키·용사의 겨울 찬가",
-            "description": "가하는 <color=#42cce0>빙결 피해</color>가 <color=#f26c1c>5%</color> 증가하며, 최대 <color=#f26c1c>3스택</color>까지 중첩됩니다. 정화 불가",
+            "description": "주는 <color=#42cce0>빙결 피해</color> <color=#f26c1c>+5%</color>, 최대 중첩 <color=#f26c1c>3스택</color>. 정화 불가",
             "iconName": "Buff_IceNeutral",
             "isShow": true,
             "buffHeadShow": 1,
@@ -29150,8 +29150,8 @@
         },
         {
             "id": 1055108022,
-            "name": "쿠리치의 위협",
-            "description": "공격력이 <color=#f26c1c>10%</color> 감소한다. 탁류계 정화 불가 디버프.",
+            "name": "쿨리치의 위협",
+            "description": "공격력 <color=#f26c1c>-10%</color>. 탁류계 정화 불가 디버프.",
             "iconName": "Buff_EnemyHurtUp",
             "isShow": true,
             "buffHeadShow": 1
@@ -29332,8 +29332,8 @@
         },
         {
             "id": 2101000334,
-            "name": "모범 지도",
-            "description": "순회 감독이 누적 <color=#f26c1c>{%2101000339*1}</color>만큼의 피해를 기록했다.",
+            "name": "모범 감독관",
+            "description": "순찰 감독이 누적 <color=#f26c1c>{%2101000339*1}</color>만큼의 피해를 기록했다.",
             "iconName": "Buff_AtkUpNeutral",
             "isShow": true,
             "buffHeadShow": 1,

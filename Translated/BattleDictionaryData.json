@@ -3,7 +3,7 @@
         {
             "id": 51015,
             "name": "소각",
-            "description": "타일 위 적 유닛에게 연소 약점을 부여한다. 이 타일 위에서 행동을 마친 적 유닛에게 <color=#3487e0>{0}</color> 효과와 <color=#3487e0>{1}</color>를 2턴간 부여한다. 연소계 타일."
+            "description": "타일 위 적 유닛에게 연소 약점을 부여한다. 이 타일 위에서 행동을 마친 적 유닛에게 <color=#3487e0>{0}</color>와 <color=#3487e0>{1}</color>를 2턴간 부여한다. 연소계 타일."
         },
         {
             "id": 51100,
@@ -603,7 +603,7 @@
         {
             "id": 90118,
             "name": "보호막",
-            "description": "일정량의 피해를 흡수할 수 있습니다. 방어막은 중첩되지 않지만, 덮어쓸 수 있습니다. 나중에 적용된 방어막의 지속 턴 수나 피해 흡수량이 이전 것보다 많을 경우, 덮어씌워집니다. 방어막에는 <color=#3487e0>서리 방벽</color>과 <color=#3487e0>본금 방호</color> 등의 효과가 포함됩니다."
+            "description": "일정량의 피해를 흡수한다. 보호막은 서로 중첩되지 않지만 덮어씌울 수 있다. 후에 부여된 보호막의 지속 턴 수 또는 흡수량이 기존보다 높을 경우 덮어씌운다. 보호막은 <color=#3487e0>서리 보호막</color>, <color=#3487e0>원금 보장</color> 등을 포함한다."
         },
         {
             "id": 90119,
@@ -613,7 +613,7 @@
         {
             "id": 90120,
             "name": "최종 피해",
-            "description": "증가, 감소 등 모든 가산치를 계산한 최종 피해량."
+            "description": "피해 증감 등 모든 보정을 계산하여 얻은 최종적인 피해량."
         },
         {
             "id": 90210,
@@ -703,7 +703,7 @@
         {
             "id": 90227,
             "name": "독늪",
-            "description": "이 타일 위에서 행동을 마친 적 유닛에게 <color=#3487e0>{0}</color> 효과를 1턴간 부여한다. 산성계 타일."
+            "description": "이 타일 위에서 행동을 마친 적 유닛에게 <color=#3487e0>{0}</color>효과를 1턴간 부여한다. 산성계 타일."
         },
         {
             "id": 90228,
@@ -767,68 +767,68 @@
         },
         {
             "id": 90240,
-            "name": "순회 감독",
+            "name": "순찰 감독",
             "description": "소환물. 초기 생명력은 <color=#f26c1c>1000</color>이며, 초기 공격력과 방어력은 <color=#f26c1c>1</color>이다."
         },
         {
             "id": 900229,
-            "name": "역추적 코드",
-            "description": "받는 피해가 <color=#f26c1c>90%</color> 감소합니다. 턴 시작 시 자신의 최대 체력 <color=#f26c1c>8%</color>를 회복합니다. 이 강화는 해제할 수 없습니다."
+            "name": "백트랙 코드",
+            "description": "받는 피해 <color=#f26c1c>-90%</color>. 턴 시작 시, 자신 최대체력 <color=#f26c1c>8%</color>만큼 회복한다. 정화 불가 버프."
         },
         {
             "id": 900230,
-            "name": "경쾌 회전",
-            "description": "자신을 제외한 아군에게 <color=#3487e0>{0}</color> 효과와 <color=#3487e0>{1}</color> 효과를 부여한다."
+            "name": "스무스 턴",
+            "description": "자신 외 아군에게 <color=#3487e0>{0}</color>, <color=#3487e0>{1}</color> 효과를 부여한다."
         },
         {
             "id": 900231,
-            "name": "경쾌 회전",
-            "description": "자신을 제외한 아군에게 <color=#3487e0>{0}</color> 효과와 <color=#3487e0>{1}</color> 효과를 부여하며, 체력을 회복한다."
+            "name": "스무스 턴",
+            "description": "자신 외 아군에게 <color=#3487e0>{0}</color>, <color=#3487e0>{1}</color> 효과를 부여하고, 체력을 회복시킨다."
         },
         {
             "id": 900232,
-            "name": "열정 공명",
-            "description": "자신을 제외한 아군에게 <color=#3487e0>{0}</color> 효과와 <color=#3487e0>{1}</color> 효과를 부여한다."
+            "name": "패션 하울링",
+            "description": "자신 외 아군에게 <color=#3487e0>{0}</color> 및 <color=#3487e0>{1}</color> 효과를 부여한다."
         },
         {
             "id": 900233,
-            "name": "열정 공명",
-            "description": "자신을 제외한 아군에게 <color=#3487e0>{0}</color> 효과와 <color=#3487e0>{1}</color> 효과를 부여하며, 디버프를 해제한다."
+            "name": "패션 하울링",
+            "description": "자신 외 아군에게 <color=#3487e0>{0}</color> 및 <color=#3487e0>{1}</color> 효과를 부여하고, 디버프를 정화한다."
         },
         {
             "id": 900234,
-            "name": "최고의 무용수",
-            "description": "최초로 부여된 <color=#f26c1c>3개</color>의 <color=#3487e0>{0}</color>를 기준으로, 아군 전체에서 <color=#3487e0>경쾌한 무도</color>가 1개당 최대 체력의 <color=#f26c1c>15%</color>를 회복하고, <color=#3487e0>열정의 무도</color>가 1개당 아군 전체의 디버프 1개를 해제한다. (만약 이번 턴에 <color=#3487e0>최고의 무용수</color> 효과가 이미 발동되었다면, 유희는 춤을 추지 않으나 효과는 적용된다.)"
+            "name": "베스트 댄서",
+            "description": "처음 부여한 <color=#f26c1c>3개</color> <color=#3487e0>{0}</color>에 따라서, <color=#3487e0>가벼운 스텝</color> <color=#f26c1c>1개</color>마다, 모든 아군을 최대체력 <color=#f26c1c>15%</color>만큼 회복시키고, <color=#3487e0>열정적인 스텝</color> <color=#f26c1c>1개</color>마다, 모든 아군의 디버프를 <color=#f26c1c>1개</color> 정화한다.\n(이번 턴에 이미 <color=#3487e0>베스트 댄서</color>를 발동한 경우 다시 춤을 추진 않지만 효과는 적용된다.)"
         },
         {
             "id": 900235,
-            "name": "무도",
-            "description": "<color=#3487e0>경쾌한 무도</color>와 <color=#3487e0>열정의 무도</color>를 포함한다."
+            "name": "스텝",
+            "description": "<color=#3487e0>가벼운 스텝</color>과 <color=#3487e0>열정적인 스텝</color>을 포함한다."
         },
         {
             "id": 900236,
-            "name": "쿠리치",
-            "description": "소환물. 니키타의 초기 체력 <color=#f26c1c>80%</color>, 초기 공격력 <color=#f26c1c>80%</color>, 초기 방어력 <color=#f26c1c>100%</color>를 계승한다. 이동할 수 없으며, 패시브 스킬 <color=#3487e0>{0}</color>를 가진다."
+            "name": "쿨리치",
+            "description": "소환물. 니키타의 초기 체력 <color=#f26c1c>80%</color>, 초기 공격력 <color=#f26c1c>80%</color>, 초기 방어력 <color=#f26c1c>100%</color>를 계승한다. 이동 불가, 패시브 스킬 <color=#3487e0>{0}</color> 보유."
         },
         {
             "id": 900237,
-            "name": "쿠리치",
-            "description": "소환물. 니키타의 초기 체력 <color=#f26c1c>100%</color>, 초기 공격력 <color=#f26c1c>80%</color>, 초기 방어력 <color=#f26c1c>100%</color>를 계승한다. 이동할 수 없으며, 패시브 스킬 <color=#3487e0>{0}</color> 효과와 <color=#3487e0>{1}</color>를 가진다."
+            "name": "쿨리치",
+            "description": "소환물. 니키타의 초기 체력 <color=#f26c1c>100%</color>, 초기 공격력 <color=#f26c1c>80%</color>, 초기 방어력 <color=#f26c1c>100%</color>를 계승한다. 이동 불가, 패시브 스킬 <color=#3487e0>{0}</color>, <color=#3487e0>{1}</color> 보유."
         },
         {
             "id": 900238,
-            "name": "쿠리치의 충성",
-            "description": "자신 주변에 있는 적 유닛이 피해를 발생시키면 해당 적에게 <color=#3487e0>반격</color>을 수행한다."
+            "name": "쿨리치의 충성",
+            "description": "자신 주위의 적 유닛이 피해를 주면 그 적에게 <color=#3487e0>반격</color>한다."
         },
         {
             "id": 900239,
-            "name": "쿠리치의 위협",
-            "description": "주변 적 유닛의 공격력이 감소한다."
+            "name": "쿨리치의 위협",
+            "description": "주위 적 유닛의 공격력 감소."
         },
         {
             "id": 900240,
             "name": "실체 소환물",
-            "description": "전장에서 칸을 점유하며 자체 능력치를 가진 소환물(예: 파파샤의 시티 가디언, 안도리스의 자율포, 니키타의 쿠리치 등)."
+            "description": "전장에서 타일을 차지하고 자신의 능력치를 가진 소환물(예: 파파샤의 캐슬 가디언, 안도리스의 자동포탑, 니키타의 쿨리치 등)"
         },
         {
             "id": 900241,
@@ -842,23 +842,23 @@
         },
         {
             "id": 901031,
-            "name": "기력 저장 구역",
-            "description": "행동 종료 후 해당 구역에 머무는 적에게 1회 <color=#3487e0>{0}</color> 효과를 부여하며, <color=#f26c1c>2턴</color> 동안 지속된다. 해당 구역의 적은 <color=#e67129>연소</color> 약점을 얻고, 연소 유형의 지형이 된다."
+            "name": "가스 저장소",
+            "description": "이 타일에서 행동 종료하는 적에게 <color=#3487e0>{0}</color> 효과를 1스택 <color=#f26c1c>2턴간</color> 부여한다. \n타일 위의 적에게 <color=#2caadb>연소</color> 약점을 부여한다, 연소계 타일."
         },
         {
             "id": 901032,
-            "name": "기력 저장 구역",
-            "description": "행동 종료 후 해당 구역에 머무는 적에게 1회 <color=#3487e0>{0}</color> 효과를 부여하며, <color=#f26c1c>2턴</color> 동안 지속된다. 해당 구역의 적은 <color=#e67129>연소</color> 약점을 얻고, 연소 유형의 지형이 된다."
+            "name": "가스 저장소",
+            "description": "이 타일에서 행동 종료하는 적에게 <color=#3487e0>{0}</color> 효과를 1스택 <color=#f26c1c>2턴간</color> 부여한다. \n타일 위의 적에게 <color=#2caadb>연소</color> 약점을 부여한다, 연소계 타일."
         },
         {
             "id": 901041,
             "name": "액화 유역",
-            "description": "행동 종료 후 해당 구역에 머무는 적에게 2회 <color=#3487e0>{0}</color> 효과를 제거하고, <color=#3487e0>{1}</color> 효과를 부여하며, <color=#f26c1c>2턴</color> 동안 지속된다. 해당 구역의 적은 <color=#2caadb>탁류</color> 약점을 얻고, 탁류 유형의 지형이 된다."
+            "description": "이 타일에서 행동 종료하는 적의 <color=#3487e0>{0}</color> 효과를 2스택 정화하고 <color=#3487e0>{1}</color> 효과를 <color=#f26c1c>2턴간</color> 부여한다. \n타일 위의 적에게 <color=#2caadb>탁류 </color> 약점을 부여한다. 탁류계 타일."
         },
         {
             "id": 901042,
             "name": "액화 유역",
-            "description": "행동 종료 후 해당 구역에 머무는 적에게 2회 <color=#3487e0>{0}</color> 효과를 제거하고, <color=#3487e0>{1}</color> 효과를 부여하며, <color=#f26c1c>2턴</color> 동안 지속된다. 해당 구역의 적은 <color=#2caadb>탁류</color> 약점을 얻고, 탁류 유형의 지형이 된다."
+            "description": "이 타일에서 행동 종료하는 적의 <color=#3487e0>{0}</color> 효과를 2스택 정화하고 <color=#3487e0>{1}</color> 효과를 <color=#f26c1c>2턴간</color> 부여한다. \n타일 위의 적에게 <color=#2caadb>탁류 </color> 약점을 부여한다. 탁류계 타일."
         }
     ]
 }
