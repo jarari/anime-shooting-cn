@@ -352,6 +352,12 @@
             "isLoop": "0"
         },
         {
+            "id": 424,
+            "name": "잔영-테스트",
+            "description": "등 뒤 잔영-테스트",
+            "iconName": "Buff_Nogoal"
+        },
+        {
             "id": 2001,
             "name": "",
             "description": "",
@@ -1391,7 +1397,7 @@
         {
             "id": 70001,
             "name": "개척 특화 연구",
-            "description": "아군 유닛의 <color=#d4ae08>전도 피해</color>가 <color=#f26c1c>30%</color> 증가하고, 공격이 상성일 때 주는 안정 피해가 <color=#f26c1c>4</color> 증가한다。\n라운드 종료 시 아군 유닛은 자신의 최대 체력 <color=#f26c1c>20%</color>만큼 체력을 회복하며, 자신이 안정 붕괴 상태라면 추가로 안정 지수를 <color=#f26c1c>3</color> 회복한다.",
+            "description": "아군 유닛의 <color=#d4ae08>전도 피해</color>가 <color=#f26c1c>30%</color> 증가하고, 약점 공격 시 주는 안정 피해가 <color=#f26c1c>4</color> 증가한다。\n라운드 종료 시 아군 유닛은 자신의 최대 체력 <color=#f26c1c>20%</color>만큼 체력을 회복하며, 자신이 안정 붕괴 상태라면 추가로 안정 지수를 <color=#f26c1c>3</color> 회복한다.",
             "iconName": "Buff_Strong",
             "isShow": true,
             "showPriorityIcon": 99
@@ -1399,7 +1405,7 @@
         {
             "id": 70002,
             "name": "개척 특화 연구",
-            "description": "아군 유닛의 <color=#2caadb>탁류 피해</color>가 <color=#f26c1c>30%</color> 증가하고, 공격이 상성일 때 주는 안정 피해가 <color=#f26c1c>4</color> 증가한다。\n아군 유닛의 방어력이 <color=#f26c1c>15%</color> 올라가며, 받는 안정 피해가 <color=#f26c1c>1</color> 감소한다.",
+            "description": "아군 유닛의 <color=#2caadb>탁류 피해</color>가 <color=#f26c1c>30%</color> 증가하고, 약점 공격 시 주는 안정 피해가 <color=#f26c1c>4</color> 증가한다。\n아군 유닛의 방어력이 <color=#f26c1c>15%</color> 올라가며, 받는 안정 피해가 <color=#f26c1c>1</color> 감소한다.",
             "iconName": "Buff_Strong",
             "isShow": true,
             "showPriorityIcon": 99
@@ -1407,7 +1413,7 @@
         {
             "id": 70003,
             "name": "개척 특화 연구",
-            "description": "아군 유닛의 <color=#e67129>연소 피해</color>가 <color=#f26c1c>30%</color> 증가하고, 공격이 상성일 때 주는 안정 피해가 <color=#f26c1c>4</color> 증가한다。\n아군 유닛이 받는 피해가 <color=#f26c1c>30%</color> 줄어들고, 받는 안정 피해가 <color=#f26c1c>1</color> 감소한다.",
+            "description": "아군 유닛의 <color=#e67129>연소 피해</color>가 <color=#f26c1c>30%</color> 증가하고, 약점 공격 시 주는 안정 피해가 <color=#f26c1c>4</color> 증가한다。\n아군 유닛이 받는 피해가 <color=#f26c1c>30%</color> 줄어들고, 받는 안정 피해가 <color=#f26c1c>1</color> 감소한다.",
             "iconName": "Buff_Strong",
             "isShow": true,
             "showPriorityIcon": 99
@@ -1507,6 +1513,68 @@
             "iconName": "Buff_Strong",
             "isShow": true,
             "showPriorityIcon": 99
+        },
+        {
+            "id": 70016,
+            "name": "개척 특화 연구",
+            "description": "아군 유닛의 물리 피해 <color=#f26c1c>100%</color> 증가, 약점 공격 시 대상 방어력 <color=#f26c1c>30%</color> 무시.\n아군 유닛이 받는 피해 <color=#f26c1c>40%</color> 감소, 방어력 <color=#f26c1c>20%</color> 증가.",
+            "iconName": "Buff_Strong",
+            "isShow": true,
+            "showPriorityIcon": 99
+        },
+        {
+            "id": 70017,
+            "name": "개척 특화 연구",
+            "description": "아군 유닛의 <color=#d4ae08>전도 피해</color> <color=#f26c1c>100%</color> 증가, 약점 공격 시 대상 방어력 <color=#f26c1c>30%</color> 무시.\n전체턴 종료 시, 아군 유닛은 자신의 최대 생명력 <color=#f26c1c>20%</color> 만큼 회복하고 안정 붕괴 상태라면 안정 지수 <color=#f26c1c>3점</color> 추가 회복.",
+            "iconName": "Buff_Strong",
+            "isShow": true,
+            "showPriorityIcon": 99
+        },
+        {
+            "id": 70018,
+            "name": "개척 특화 연구",
+            "description": "아군 유닛의 <color=#e67129>연소 피해</color> <color=#f26c1c>100%</color> 증가, 약점 공격 시 대상 방어력 <color=#f26c1c>30%</color> 무시.\n아군 유닛이 받는 피해 <color=#f26c1c>30%</color> 감소, 받는 안정 피해 <color=#f26c1c>1점</color> 감소.",
+            "iconName": "Buff_Strong",
+            "isShow": true,
+            "showPriorityIcon": 99
+        },
+        {
+            "id": 70019,
+            "name": "개척 특화 연구",
+            "description": "아군 유닛의 <color=#8679e8>산성 피해</color> <color=#f26c1c>100%</color> 증가, 약점 공격 시 대상 방어력 <color=#f26c1c>30%</color> 무시.\n아군 유닛이 받는 피해 <color=#f26c1c>40%</color> 감소, 방어력 <color=#f26c1c>20%</color> 증가.",
+            "iconName": "Buff_Strong",
+            "isShow": true,
+            "showPriorityIcon": 99
+        },
+        {
+            "id": 70020,
+            "name": "개척 특화 연구",
+            "description": "아군 유닛의 <color=#42cce0>빙결 피해</color> <color=#f26c1c>100%</color> 증가, 약점 공격 시 대상 방어력 <color=#f26c1c>30%</color> 무시.\n아군 유닛이 받는 피해 <color=#f26c1c>30%</color> 감소, 방어력 <color=#f26c1c>15%</color> 증가.",
+            "iconName": "Buff_Strong",
+            "isShow": true,
+            "showPriorityIcon": 99
+        },
+        {
+            "id": 70021,
+            "name": "개척 특화 연구",
+            "description": "아군 유닛의 <color=#2caadb>탁류 피해</color> <color=#f26c1c>100%</color> 증가, 약점 공격 시 대상 방어력 <color=#f26c1c>30%</color> 무시.\n아군 유닛의 방어력 <color=#f26c1c>15%</color> 증가, 받는 안정 피해 <color=#f26c1c>1점</color> 감소.",
+            "iconName": "Buff_Strong",
+            "isShow": true,
+            "showPriorityIcon": 99
+        },
+        {
+            "id": 80001,
+            "name": "노출 중상",
+            "description": "엄폐물 보호를 받지 않을 때 받는 피해 <color=#f26c1c>200%</color> 증가. 정화 불가.",
+            "iconName": "Buff_DefUpNeutral",
+            "isShow": true
+        },
+        {
+            "id": 80012,
+            "name": "이중 면역",
+            "description": "안정 지수가 0 초과일 때 매 턴 2회 피해 면역. 정화 불가.",
+            "iconName": "Buff_InvincibleNeutral",
+            "isShow": true
         },
         {
             "id": 99991,
@@ -10845,6 +10913,38 @@
             "isLoop": "1|1"
         },
         {
+            "id": 4300030,
+            "name": "허리케인",
+            "description": "바람 방향으로 공격을 받을 때, 자신이 바람 방향으로 <color=#f26c1c>2칸</color> 이동.\n턴 종료 시 안정 지수가 <color=#f26c1c>50%</color> 초과이면 <color=#f26c1c>1칸</color>, 50% 이하이면서 0 초과이면 <color=#f26c1c>3칸</color>, 0이면 <color=#f26c1c>5칸</color> 바람 방향으로 이동.",
+            "iconName": "Buff_Hurricane",
+            "isShow": true,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 4300040,
+            "name": "윈드필드 배리어",
+            "description": "받는 안정 피해 <color=#f26c1c>4점</color> 감소, 피해 면역. 정화 불가 버프.",
+            "iconName": "Buff_WillAdd",
+            "isShow": true,
+            "buffHeadShow": 1
+        },
+        {
+            "id": 4300050,
+            "name": "얕은 안개",
+            "description": "사거리 <color=#f26c1c>2칸</color> 감소.",
+            "iconName": "Buff_Mist",
+            "isShow": true,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 4300060,
+            "name": "짙은 안개",
+            "description": "사거리 <color=#f26c1c>3칸</color> 감소.",
+            "iconName": "Buff_DenseFog",
+            "isShow": true,
+            "showPriorityIcon": 10
+        },
+        {
             "id": 5104831,
             "name": "번지는 장작불",
             "description": "주는 연소 피해 <color=#f26c1c>+2%</color>.",
@@ -10998,12 +11098,6 @@
                 3
             ],
             "effectFadeTime": "0|90",
-            "cameraPlayTime": [
-                1
-            ],
-            "cameraTime": [
-                60
-            ],
             "effectFollowType": "1|1",
             "effectBirthType": "104|104",
             "effectTypeGroup": "0|0",
@@ -12414,6 +12508,45 @@
             "isLoop": "1"
         },
         {
+            "id": 6250220,
+            "name": "검은 안개",
+            "description": "자신 주위 5칸 범위 이내의 모든 적이 받는 치료는 같은 수치의 피해로 변한다.",
+            "buffEffect": "Skill/6250201_Halo",
+            "effectPlayTime": [
+                1
+            ],
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "109",
+            "isLoop": "1"
+        },
+        {
+            "id": 6250221,
+            "name": "검은 안개",
+            "description": "받는 치료 효과가 같은 수치의 고정 피해로 변한다. 정화 불가 디버프.",
+            "buffEffect": "Buff/TreatmentReversal",
+            "effectPlayTime": [
+                1
+            ],
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "104",
+            "iconName": "Buff_WaterDrown",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "1"
+        },
+        {
             "id": 6250301,
             "name": "피해반사",
             "description": "공격자는 이번에 준 피해의 <color=#f26c1c>80%</color> 고정 피해를 받는다. 정화 불가.",
@@ -13433,6 +13566,44 @@
             "buffHeadShow": 1
         },
         {
+            "id": 6487101,
+            "name": "사투수렵계-137",
+            "description": "행동력 <color=#f26c1c>1칸</color> 감소, <color=#f26c1c>벨라토-137</color>에게 우선 표적이 됨.",
+            "buffEffect": "Buff/6487101_Buff",
+            "effectPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "2",
+            "effectBirthType": "103",
+            "iconName": "Buff_Hammer2",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 99,
+            "isLoop": "1"
+        },
+        {
+            "id": 6487201,
+            "name": "사투수렵계-212",
+            "description": "행동력 <color=#f26c1c>1칸</color> 감소, <color=#f26c1c>벨라토-212</color>에게 우선 표적이 됨.",
+            "buffEffect": "Buff/6487201_Buff",
+            "effectPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "2",
+            "effectBirthType": "103",
+            "iconName": "Buff_Hammer1",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 99,
+            "isLoop": "1"
+        },
+        {
             "id": 6501301,
             "name": "증식 파종",
             "description": "가진 <color=#3487e0>증식 파종</color> <color=#f26c1c>1스택</color>마다 받는 피해 <color=#f26c1c>-30%</color> 최대 중첩 <color=#f26c1c>3스택</color>. 약점 공격을 받은 후 <color=#3487e0>증식 파종</color> <color=#f26c1c>-1스택</color> 감소. 정화 불가 버프.",
@@ -14265,6 +14436,96 @@
             "effectBirthType": "103",
             "effectTypeGroup": "2",
             "iconName": "Buff_Tank5",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "1"
+        },
+        {
+            "id": 6781000,
+            "name": "혼란 궤흔",
+            "description": "가하는 단일 피해 <color=#f26c1c>15%</color> 감소, 최대 <color=#f26c1c>3스택</color>. <color=#f26c1c>3스택</color> 시 <color=#3487e0>{0}</color> 발동, <color=#f26c1c>1턴</color> 지속. <color=#3487e0>{0}</color> 종료 시 스택이 초기화되며 기간 중 다시 발동하지 않음. 디버프 해제 가능.",
+            "descriptionTips": "0:401021",
+            "buffEffect": "Skill/6781001_Virus",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "104",
+            "effectTypeGroup": "0",
+            "iconName": "Buff_DamageDown",
+            "isShow": true,
+            "buffHeadShow": 17,
+            "isLoop": "1"
+        },
+        {
+            "id": 6781001,
+            "name": "혼선 활성",
+            "description": "공격력 <color=#f26c1c>15%</color> 증가. 이 효과가 부여된 아군이 이동할 때마다 <color=#3487e0>{0}</color> 1스택 획득, <color=#3487e0>{0}</color>이 <color=#f26c1c>3스택</color>이 되면 <color=#3487e0>{1}</color> 획득. 정화 불가.",
+            "descriptionTips": "0:67810011;0:67810012",
+            "buffEffect": "Skill/6781301_Link_Down,Skill/6781301_Link_Hit",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0,0",
+            "effectFollowType": "1,1",
+            "effectBirthType": "109,109",
+            "effectTypeGroup": "0,0",
+            "iconName": "Buff_UnsearchableGirl1",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 1,
+            "isLoop": "1,0"
+        },
+        {
+            "id": 6781501,
+            "name": "구속 프로토콜",
+            "description": "이동 불가, 받는 치유량 <color=#f26c1c>50%</color> 감소. 이동계 디버프, 해제 가능.",
+            "buffEffect": "Skill/6781501_Buff",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "104",
+            "effectTypeGroup": "0",
+            "iconName": "Buff_Unmove",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "1"
+        },
+        {
+            "id": 6781502,
+            "name": "환영 동조",
+            "description": "공격력 <color=#f26c1c>15%</color> 증가, 방어력 <color=#f26c1c>15%</color> 감소, 적 스킬의 직접 대상이 되지 않음. 정화 불가 버프.",
+            "buffEffect": "Skill/6781501_Disapper",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "109",
+            "effectTypeGroup": "0",
+            "buffFix": 4,
+            "iconName": "Buff_Invincible",
             "isShow": true,
             "buffHeadShow": 1,
             "isLoop": "1"
@@ -16198,6 +16459,14 @@
             "isShow": true,
             "buffHeadShow": 1,
             "isLoop": "0|0"
+        },
+        {
+            "id": 7030111,
+            "name": "동결",
+            "description": "이동 불가, 강제 이동 불가, 자가 이동 불가. 정화 불가 디버프.",
+            "iconName": "Buff_IceUnmove",
+            "isShow": true,
+            "buffHeadShow": 17
         },
         {
             "id": 8010202,
@@ -18250,6 +18519,162 @@
             "isShow": true,
             "buffHeadShow": 1,
             "showPriorityIcon": 10
+        },
+        {
+            "id": 10580411,
+            "name": "유대의 가능성",
+            "description": "가하는 안정 피해 <color=#f26c1c>3점</color> 증가. 정화 불가 버프.",
+            "buffEffect": "Buff/AtkU|Buff/AtkU",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_SuppressAdd",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 10580413,
+            "name": "유대의 가능성",
+            "description": "가하는 안정 피해 <color=#f26c1c>6점</color> 증가. 정화 불가 버프.",
+            "buffEffect": "Buff/AtkU|Buff/AtkU",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_SuppressAdd",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 10580423,
+            "name": "유대의 힘",
+            "description": "공격력 <color=#f26c1c>15%</color> 증가. 방어력이 0 초과인 대상에게 피해를 주면 효과 제거. 정화 불가 버프.",
+            "buffEffect": "Buff/AtkU|Buff/AtkU",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_AtkUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 10580801,
+            "name": "우산 아래 보살핌",
+            "description": "라이니 및 라이니·심상에게서 피해를 받을 때 방어력 <color=#f26c1c>15%</color> 감소, 최대 <color=#f26c1c>3스택</color>. 방어계 정화 불가 디버프.",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_DefLow",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 10580802,
+            "name": "우산 아래 보살핌",
+            "description": "라이니 및 라이니·심상에게서 피해를 받을 때 방어력 <color=#f26c1c>15%</color> 감소, 최대 <color=#f26c1c>6스택</color>. 방어계 정화 불가 디버프.",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_DefLow",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 10580831,
+            "name": "선제 탐지",
+            "description": "물리 공격을 받을 때 방어력 <color=#f26c1c>10%</color> 감소. 방어계 정화 불가 디버프.",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_DefLow",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 10580832,
+            "name": "선제 탐지",
+            "description": "물리 공격을 받을 때 방어력 <color=#f26c1c>20%</color> 감소. 방어계 정화 불가 디버프.",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_DefLow",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
         },
         {
             "id": 20200016,
@@ -20865,6 +21290,48 @@
             "buffHeadShow": 1
         },
         {
+            "id": 60008501,
+            "name": "면역",
+            "description": "모든 피해를 받지 않는다. 정화 불가.",
+            "iconName": "Buff_InvincibleNeutral",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 60008502,
+            "name": "한정 방호",
+            "description": "일반 공격과 스킬 피해를 받지 않음. 일반/스킬 공격을 <color=#f26c1c>1회</color> 받을 때마다 1스택 감소, <color=#f26c1c>2턴</color> 지속. 정화 불가 버프, 최대 2스택.",
+            "buffEffect": "Buff/61152201_Invincible2|Buff/61152201_Invincible",
+            "effectPlayTime": [
+                1,
+                3
+            ],
+            "effectFadeTime": "0|90",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "104|104",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_Invincible",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "1|0"
+        },
+        {
+            "id": 60008601,
+            "name": "반응 면역",
+            "description": "기절·도발 등의 제어 효과, 스킬 금지 효과, 결빙 효과를 받지 않게 된다. 정화 불가.",
+            "iconName": "Buff_InvincibleNeutral",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
             "id": 61000010,
             "name": "치명 화력",
             "description": "센티널 인형이 주는 피해 <color=#f26c1c>+20%</color>.",
@@ -21144,7 +21611,7 @@
         {
             "id": 61000440,
             "name": "공적 축적",
-            "description": "적이 고정 피해를 <color=#f26c1c>1</color>번 받을 때마다 우리 편 전체가 주는 피해가 영구적으로 <color=#f26c1c>2%</color> 증가한다. 최대 <color=#f26c1c>15스택</color> 중첩 가능.",
+            "description": "적이 고정 피해를 <color=#f26c1c>1회</color> 받을 때마다 아군 전체의 피해가 영구히 <color=#f26c1c>2%</color> 증가. 최대 15스택.",
             "iconName": "Buff_Guild_64",
             "showPriorityIcon": 10
         },
@@ -21162,6 +21629,41 @@
             "name": "피로 충만",
             "description": "자신 생명력이 <color=#f26c1c>100% 이상</color>일 때 공격 시 대상 방어력의 <color=#f26c1c>30%</color>를 무시한다.",
             "iconName": "Buff_Guild_65",
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 61000460,
+            "name": "절연 파괴",
+            "description": "마비가 걸리지 않는 대상에게 가하는 전도 피해 <color=#f26c1c>20%</color> 증가.",
+            "iconName": "Buff_Guild_66",
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 61000470,
+            "name": "실드 관통",
+            "description": "대상이 실드를 보유하면 공격 시 방어력 <color=#f26c1c>30%</color> 무시.",
+            "iconName": "Buff_Guild_67",
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 61000480,
+            "name": "초과 협동전",
+            "description": "아군 소환물이 가하는 피해 <color=#f26c1c>50%</color> 증가.",
+            "iconName": "Buff_Guild_68",
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 61000490,
+            "name": "협동 누적력",
+            "description": "자신 주변 <color=#f26c1c>5</color>칸 내 아군이 <color=#f26c1c>1</color>명 있을 때마다 가하는 피해 <color=#f26c1c>6%</color> 증가.",
+            "iconName": "Buff_Guild_69",
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 61000500,
+            "name": "안정 파괴 처형",
+            "description": "안정 지수가 <color=#f26c1c>0</color>인 대상에게 치명타 피해 <color=#f26c1c>25%</color> 증가.",
+            "iconName": "Buff_Guild_70",
             "showPriorityIcon": 10
         },
         {
@@ -21682,7 +22184,7 @@
         {
             "id": 62002551,
             "name": "이동 상승I",
-            "description": "이동력 <color=#f26c1c>1칸</color> 증가. 중첩 가능, 버프.",
+            "description": "행동력 <color=#f26c1c>1칸</color> 증가, 스택 가능, 각 층 지속 시간 독립. 버프.",
             "buffEffect": "Buff/SpeedU|Buff/SpeedU",
             "effectPlayTime": [
                 1,
@@ -21706,7 +22208,7 @@
         {
             "id": 62002552,
             "name": "이동 상승II",
-            "description": "이동력 <color=#f26c1c>2칸</color> 증가. 중첩 가능, 버프.",
+            "description": "행동력 <color=#f26c1c>2칸</color> 증가, 스택 가능, 각 층 지속 시간 독립. 버프.",
             "buffEffect": "Buff/SpeedU|Buff/SpeedU",
             "effectPlayTime": [
                 1,
@@ -21724,7 +22226,7 @@
         {
             "id": 62002553,
             "name": "이동 상승III",
-            "description": "이동력 <color=#f26c1c>3칸</color> 증가. 중첩 가능, 버프.",
+            "description": "행동력 <color=#f26c1c>3칸</color> 증가, 스택 가능, 각 층 지속 시간 독립. 버프.",
             "buffEffect": "Buff/SpeedU|Buff/SpeedU",
             "effectPlayTime": [
                 1,
@@ -22278,6 +22780,203 @@
             "buffHeadShow": 1
         },
         {
+            "id": 64871101,
+            "name": "방어 감소II",
+            "description": "방어력이 <color=#f26c1c>30%</color> 감소하며, 최대 2회 중첩된다. 정화 불가 디버프.",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_DefLow",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 80,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 64871102,
+            "name": "이동 감소II",
+            "description": "이동력이 <color=#f26c1c>2칸</color> 감소한다. 디버프.",
+            "buffEffect": "Buff/SpeedD|Buff/SpeedD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_SpeedLow",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 50,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 64871201,
+            "name": "이동 감소I",
+            "description": "행동력 <color=#f26c1c>1칸</color> 감소, 최대 3스택. 디버프.",
+            "buffEffect": "Buff/SpeedD|Buff/SpeedD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_SpeedLow",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 50,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 64871301,
+            "name": "이동 감소II",
+            "description": "이동력이 <color=#f26c1c>2칸</color> 감소한다. 디버프.",
+            "buffEffect": "Buff/SpeedD|Buff/SpeedD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_SpeedLow",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 50,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 64871403,
+            "name": "이행 전조",
+            "description": "<color=#f26c1c>벨라토-137</color>과 <color=#f26c1c>벨라토-212</color>가 곧 위치를 교환한다.",
+            "iconName": "Buff_Tank5",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 99
+        },
+        {
+            "id": 64881101,
+            "name": "방어 감소III",
+            "description": "방어력 <color=#f26c1c>50%</color> 감소, 최대 2스택. 정화 불가 디버프.",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_DefLow",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 80,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 64881102,
+            "name": "이동 감소II",
+            "description": "행동력 <color=#f26c1c>3칸</color> 감소. 디버프.",
+            "buffEffect": "Buff/SpeedD|Buff/SpeedD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_SpeedLow",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 50,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 64881505,
+            "name": "이동 상승I",
+            "description": "이동력 <color=#f26c1c>+1칸</color>. 버프.",
+            "buffEffect": "Buff/SpeedU|Buff/SpeedU",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_SpeedUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 90,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 64882505,
+            "name": "이동 상승I",
+            "description": "행동력 <color=#f26c1c>1칸</color> 증가. 해제 가능.",
+            "buffEffect": "Buff/SpeedU|Buff/SpeedU",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_SpeedUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 90,
+            "isLoop": "0|0"
+        },
+        {
             "id": 65031201,
             "name": "근시II",
             "description": "최대 사거리가 <color=#f26c1c>4칸</color>을 넘지 못한다. 디버프.",
@@ -22678,6 +23377,38 @@
             ],
             "effectFollowType": "1",
             "effectBirthType": "109"
+        },
+        {
+            "id": 67810011,
+            "name": "혼선 오버로드",
+            "description": "사망 시 자신 주변 <color=#f26c1c>3×3칸</color> 내 모든 적에게 자신의 공격력 <color=#f26c1c>30%</color>의 고정 피해. 이 효과 <color=#f26c1c>1층</color>마다 피해 계수 <color=#f26c1c>30%</color> 증가, 최대 <color=#f26c1c>3층</color>. 정화 불가.",
+            "iconName": "Buff_Tank5",
+            "isShow": true,
+            "buffHeadShow": 17,
+            "showPriorityIcon": 1
+        },
+        {
+            "id": 67810012,
+            "name": "밈 초제어",
+            "description": "일반 공격이 주는 안정 피해 <color=#f26c1c>6점</color> 증가, 적의 리몰딩 지수 <color=#f26c1c>2점</color> 감소. 일반 공격 후 제거. 정화 불가 버프.",
+            "buffEffect": "Skill/6781301_ControlEnd",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "103",
+            "effectTypeGroup": "1",
+            "iconName": "Buff_SuppressAdd",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "1"
         },
         {
             "id": 68521011,
@@ -23944,6 +24675,31 @@
             "effectBirthType": "109",
             "effectTypeGroup": "0",
             "isLoop": "1"
+        },
+        {
+            "id": 70351017,
+            "name": "기절",
+            "description": "행동 불가.",
+            "buffEffect": "Buff/Debuff_stun|Buff/Debuff_stun",
+            "effectPlayTime": [
+                1,
+                6
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "103|103",
+            "effectTypeGroup": "0|0",
+            "buffFix": 1,
+            "iconName": "Buff_Stun",
+            "isShow": true,
+            "buffHeadShow": 17,
+            "isLoop": "1|1"
         },
         {
             "id": 72011201,
@@ -26464,6 +27220,42 @@
             "buffHeadShow": 1
         },
         {
+            "id": 105808212,
+            "name": "선기 감지",
+            "description": "물리 공격을 받을 때 방어력 <color=#f26c1c>10%</color> 감소. 방어계 정화 불가 디버프.",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_DefLow",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 105808222,
+            "name": "선기 감지",
+            "description": "물리 공격을 받을 때 방어력 <color=#f26c1c>20%</color> 감소. 방어계 정화 불가 디버프.",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_DefLow",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
+        },
+        {
             "id": 201000041,
             "name": "이어진 봉화",
             "description": "주는 안정피해 <color=#f26c1c>+1점</color>, 최대 중첩 <color=#f26c1c>6스택</color>. 정화 불가 버프.",
@@ -26995,7 +27787,7 @@
         },
         {
             "id": 207000131,
-            "name": "방어력 무시 초과 돌격",
+            "name": "과관통 돌격",
             "description": "자신의 방어력이 <color=#f26c1c>30%</color> 상승하고, 공격 시 적 대상 방어력 <color=#f26c1c>30%</color>를 무시하며 추가로 안정 피해 <color=#f26c1c>6점</color>을 준다. 정화 불가 버프.",
             "iconName": "Buff_DamageUp",
             "isShow": true,
@@ -27027,7 +27819,7 @@
         },
         {
             "id": 207100011,
-            "name": "방어력 무시 초과 피해I",
+            "name": "과관통 보너스I",
             "description": "<color=#3487e0>{0}</color>의 피해 증가 비율:\n<color=#f26c1c>300%≤</color>추가 방어력 감소율<color=#f26c1c><400%</color>: <color=#f26c1c>1.5%</color>\n추가 방어력 감소율<color=#f26c1c>≥400%</color>: <color=#f26c1c>2%</color>",
             "descriptionTips": "0:262403",
             "buffEffect": "Buff/AtkU|Buff/AtkU",
@@ -27053,7 +27845,7 @@
         },
         {
             "id": 207100021,
-            "name": "방어력 무시 초과 피해II",
+            "name": "과관통 보너스II",
             "description": "<color=#3487e0>{0}</color>의 피해 증가 비율:\n<color=#f26c1c>300%≤</color>추가 방어력 감소율<color=#f26c1c><400%</color>: <color=#f26c1c>1.5%</color>\n<color=#f26c1c>400%≤</color>추가 방어력 감소율<color=#f26c1c><600%</color>: <color=#f26c1c>2%</color>\n추가 방어력 감소율<color=#f26c1c>≥600%</color>: <color=#f26c1c>3%</color>",
             "descriptionTips": "0:262403",
             "buffEffect": "Buff/AtkU|Buff/AtkU",
@@ -27079,7 +27871,7 @@
         },
         {
             "id": 207100031,
-            "name": "방어력 무시 초과 피해III",
+            "name": "과관통 보너스III",
             "description": "<color=#3487e0>{0}</color>의 피해 증가 비율:\n<color=#f26c1c>300%≤</color>추가 방어력 감소율<color=#f26c1c><400%</color>: <color=#f26c1c>1.5%</color>\n<color=#f26c1c>400%≤</color>추가 방어력 감소율<color=#f26c1c><600%</color>: <color=#f26c1c>2%</color>\n<color=#f26c1c>600%≤</color>추가 방어력 감소율<color=#f26c1c><1000%</color>: <color=#f26c1c>3%</color>\n추가 방어력 감소율<color=#f26c1c>≥1000%</color>: <color=#f26c1c>5%</color>",
             "descriptionTips": "0:262403",
             "buffEffect": "Buff/AtkU|Buff/AtkU",
@@ -28189,6 +28981,42 @@
             "isLoop": "0"
         },
         {
+            "id": 648715011,
+            "name": "위상 사냥",
+            "description": "<color=#f26c1c>위상</color> 피해 면역.",
+            "iconName": "Buff_Invincible",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 99
+        },
+        {
+            "id": 648725011,
+            "name": "실병 숙청",
+            "description": "<color=#f26c1c>물리</color> 피해 면역.",
+            "iconName": "Buff_Invincible",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 99
+        },
+        {
+            "id": 648815011,
+            "name": "위상 사냥",
+            "description": "<color=#f26c1c>위상</color> 피해 면역.",
+            "iconName": "Buff_Invincible",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 99
+        },
+        {
+            "id": 648825011,
+            "name": "실병 숙청",
+            "description": "<color=#f26c1c>물리</color> 피해 면역.",
+            "iconName": "Buff_Invincible",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 99
+        },
+        {
             "id": 655280102,
             "name": "환각의 몸뚱이",
             "description": "받는 피해 <color=#f26c1c>-100%</color>, 정화 불가 버프.",
@@ -28227,6 +29055,44 @@
             "iconName": "Buff_SelfHeal",
             "isShow": true,
             "buffHeadShow": 1
+        },
+        {
+            "id": 677914021,
+            "name": "",
+            "description": "",
+            "buffEffect": "Skill/6779401_Control1",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "2",
+            "effectBirthType": "202",
+            "isLoop": "1"
+        },
+        {
+            "id": 678014021,
+            "name": "",
+            "description": "",
+            "buffEffect": "Skill/6780401_Control1",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "2",
+            "effectBirthType": "203",
+            "isLoop": "1"
         },
         {
             "id": 686350151,

@@ -2628,6 +2628,58 @@
             "weaponTag": 8
         },
         {
+            "id": 2063,
+            "enemyCamp": 1099,
+            "duty": 1,
+            "skillNormalAttack": 5063101,
+            "rank": 1,
+            "propertyGroup": 209201,
+            "name": "UMP40",
+            "joke": "",
+            "trapDescription": "",
+            "description": "마인드맵 기록에서 다시 ‘탄생’한 인형은 활발하고 명랑한 작은 태양이자, 굳세고 단호한 전사다. 겉모습과 성격은 예전과 똑같아 보이지만 UMP40은 안다. 시뮬레이션된 과거가 전부가 아니며 눈앞의 미래엔 무한한 가능성이 있다는 것을. 마인드맵 속 커다란 공백은 새로운 경험으로 채워지길 기다리고, 이미 기록된 부분엔 그녀가 리바, 당신, 모두와 맺은 인연이 소중히 적혀 있다.\n“지휘관, 오늘도 같이 햇볕 좀 쬐자~”",
+            "textIndex": [
+                3
+            ],
+            "characterPic": "LeneSSR",
+            "modelCode": 5063,
+            "moveCode": 27,
+            "occupySize": 1,
+            "aiOrder": 200,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "enemyType": 2,
+            "dzOpenBattle": 10470101,
+            "btPath": "BT/GunBT/1058/MainBT_1058.bt",
+            "weakTag": "2",
+            "supressGroup": [
+                6,
+                4,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "UMP40",
+            "nonMultimove": true,
+            "showPotential": true,
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "defaultClothId": 1105800,
+            "weakWeaponTag": 2,
+            "weaponTag": 2
+        },
+        {
             "id": 6141,
             "enemyCamp": 1001,
             "duty": 1,
@@ -3659,6 +3711,7 @@
                 8
             ],
             "idleType": 1,
+            "enemyType": 1,
             "dzOpenBattle": 61751101,
             "btPath": "BT/BOSSBT/6175/BOSSBT_Berserker.bt",
             "weakTag": "5,1",
@@ -7472,6 +7525,76 @@
             "guardRadius": 500,
             "guardRadiusShow": 1,
             "weakWeaponTag": 14
+        },
+        {
+            "id": 6781,
+            "enemyCamp": 1099,
+            "duty": 1,
+            "skillNormalAttack": 6781101,
+            "skillActive": 6781201,
+            "skillTalent": 6781601,
+            "skillActiveExtra": [
+                6781202,
+                6781203,
+                6781301,
+                6781401,
+                6781501
+            ],
+            "skillTalentExtra": [
+                6781701,
+                6151501,
+                910000012,
+                910000015,
+                6781901
+            ],
+            "aiList": [
+                678101
+            ],
+            "rank": 3,
+            "propertyGroup": 209301,
+            "name": "神秘女孩",
+            "joke": "때로는 결핍이 더 효율적이다. 쓸모없는 감정과 논리를 버린 이 인격에 남은 것은 숙주를 갉아먹는 본능적 갈망뿐.",
+            "trapDescription": "",
+            "description": "리바의 마인드맵에서 오류 데이터가 재조합돼 생긴 가상 인격. 리바의 마인드맵을 개변하는 것을 사명으로 삼으며, 다른 잉여 데이터 창조물을 조종할 수 있다. 불안정한 마인드맵 공간 탓에 감정 기복이 심하고 지능도 결핍되어 대부분 본능에 따라 움직인다.",
+            "textIndex": [
+                7,
+                13,
+                14,
+                23
+            ],
+            "characterPic": "UnsearchableGirl",
+            "modelCode": 6781,
+            "moveCode": 1,
+            "occupySize": 3,
+            "aiOrder": 25,
+            "useFakeAttack": true,
+            "shieldType": 2,
+            "attackType": 1,
+            "beSupressedConfig": [
+                80000001,
+                2,
+                1000,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "enemyType": 1,
+            "dzOpenBattle": 6781101,
+            "btPath": "BT/BOSSBT/6781/BOSSBT_6781.bt",
+            "weakTag": "2,3",
+            "supressGroup": [
+                3,
+                4,
+                0,
+                2,
+                1,
+                0,
+                0
+            ],
+            "nameOnBar": "神秘女孩",
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 2
         },
         {
             "id": 6784,
@@ -13676,7 +13799,7 @@
             "trapDescription": "암류 잔류",
             "description": "성격이 괴팍하고 사나우며 혼자 있는 것을 좋아합니다. 최대한 방해하지 않도록 하세요.",
             "textIndex": [
-                9
+                17
             ],
             "characterPic": "JerricanWater",
             "modelCode": 7010,
@@ -13726,7 +13849,7 @@
             "trapDescription": "암류 잔류",
             "description": "성격이 괴팍하고 사나우며 혼자 있는 것을 좋아합니다. 최대한 방해하지 않도록 하세요.",
             "textIndex": [
-                9
+                17
             ],
             "characterPic": "JerricanWater",
             "modelCode": 7010,
@@ -13770,13 +13893,13 @@
                 80000002
             ],
             "rank": 1,
-            "propertyGroup": 300801,
-            "name": "응결체 (고정판)",
-            "joke": "성질 완전 더러워. 툭하면 폭발해.",
-            "trapDescription": "암류 잔류",
-            "description": "성격이 괴팍하고 사나우며 혼자 있는 것을 좋아합니다. 최대한 방해하지 않도록 하세요.",
+            "propertyGroup": 301701,
+            "name": "영도 결정체",
+            "joke": "살짝만 스쳐도 마인드맵이 감기에 걸릴 지경이다.",
+            "trapDescription": "빙결 유발",
+            "description": "통제 불능의 환경 개조 장치가 낳은 산물로, 늘 한 구역에 무더기로 모여 희박한 열을 탐욕스럽게 흡수한다. 외로이 지나던 여행자가 건드리면 좀처럼 빠져나오기 어렵다.",
             "textIndex": [
-                9
+                17
             ],
             "characterPic": "Toad_Ice",
             "modelCode": 96345,
@@ -13803,7 +13926,7 @@
                 0,
                 0
             ],
-            "nameOnBar": "빙결체",
+            "nameOnBar": "영도 결정체",
             "guardRadius": 100,
             "guardRadiusShow": 1,
             "feature": 1
@@ -13826,7 +13949,7 @@
             "trapDescription": "암류 잔류",
             "description": "성격이 괴팍하고 사나우며 혼자 있는 것을 좋아합니다. 최대한 방해하지 않도록 하세요.",
             "textIndex": [
-                9
+                17
             ],
             "characterPic": "JerricanWater",
             "modelCode": 7010,
@@ -13876,7 +13999,7 @@
             "trapDescription": "암류 잔류",
             "description": "성격이 괴팍하고 사나우며 혼자 있는 것을 좋아합니다. 최대한 방해하지 않도록 하세요.",
             "textIndex": [
-                9
+                17
             ],
             "characterPic": "JerricanWater",
             "modelCode": 7010,
@@ -13920,13 +14043,13 @@
                 80000002
             ],
             "rank": 1,
-            "propertyGroup": 300801,
-            "name": "응결체 (고정판)",
-            "joke": "성질 완전 더러워. 툭하면 폭발해.",
-            "trapDescription": "암류 잔류",
-            "description": "성격이 괴팍하고 사나우며 혼자 있는 것을 좋아합니다. 최대한 방해하지 않도록 하세요.",
+            "propertyGroup": 301702,
+            "name": "영도 결정체",
+            "joke": "살짝만 스쳐도 마인드맵이 감기에 걸릴 지경이다.",
+            "trapDescription": "빙결 유발",
+            "description": "통제 불능의 환경 개조 장치가 낳은 산물로, 늘 한 구역에 무더기로 모여 희박한 열을 탐욕스럽게 흡수한다. 외로이 지나던 여행자가 건드리면 좀처럼 빠져나오기 어렵다.",
             "textIndex": [
-                9
+                17
             ],
             "characterPic": "Toad_Ice",
             "modelCode": 96345,
@@ -13953,10 +14076,114 @@
                 0,
                 0
             ],
-            "nameOnBar": "빙결체",
+            "nameOnBar": "영도 결정체",
             "guardRadius": 100,
             "guardRadiusShow": 1,
             "feature": 1
+        },
+        {
+            "id": 7034,
+            "enemyCamp": 1099,
+            "duty": 1,
+            "skillTalent": 7034101,
+            "skillTalentExtra": [
+                910000011,
+                910000010,
+                910000013,
+                910000014,
+                70110701
+            ],
+            "rank": 1,
+            "propertyGroup": 300601,
+            "name": "화학 오일통",
+            "joke": "멀리 떨어져. 날아가고 싶지 않다면 말이야.",
+            "trapDescription": "반응 폭발",
+            "description": "폭발하기 전까지는 조용하고 무해한 화학 액체 저장통일 뿐이다. 폭발하기 전까지.",
+            "textIndex": [
+                6
+            ],
+            "characterPic": "Jerrican",
+            "modelCode": 7004,
+            "occupySize": 1,
+            "aiOrder": 250,
+            "trap": true,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "btPath": "BT/MainBT/MainBT_0.bt",
+            "supressGroup": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "화학 오일통",
+            "guardRadius": 100,
+            "guardRadiusShow": 1,
+            "feature": 1
+        },
+        {
+            "id": 7035,
+            "enemyCamp": 1003,
+            "duty": 1,
+            "skillNormalAttack": 6312000,
+            "skillTalent": 7035101,
+            "skillTalentExtra": [
+                7035111
+            ],
+            "rank": 1,
+            "propertyGroup": 100701,
+            "name": "골리앗·진동형",
+            "joke": "웅덩이에 빠지고 싶지 않다면 절대 그 옆에 서지 마.",
+            "trapDescription": "",
+            "description": "철혈 공조 기술의 대표작을 특화한 버전으로, 자폭 시 거대한 충격파를 내뿜어 주변 적을 밀어낸다.",
+            "textIndex": [
+                1
+            ],
+            "characterPic": "Golyat",
+            "modelCode": 6312,
+            "moveCode": 1,
+            "occupySize": 1,
+            "aiOrder": 350,
+            "shieldType": 1,
+            "attackType": 2,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "dzOpenBattle": 6312900,
+            "btPath": "BT/MainBT/MainBT_6312.bt",
+            "weakTag": "5",
+            "supressGroup": [
+                3,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "골리앗·진동형",
+            "guardRadius": 300,
+            "guardRadiusShow": 1,
+            "ignorePlayer1Skill": true,
+            "weakWeaponTag": 12,
+            "weakMap": 63121
         },
         {
             "id": 7101,
@@ -15949,6 +16176,7 @@
                 8
             ],
             "idleType": 1,
+            "enemyType": 1,
             "dzOpenBattle": 61751101,
             "btPath": "BT/BOSSBT/6175/BOSSBT_Berserker.bt",
             "weakTag": "5,1",
@@ -16021,6 +16249,7 @@
                 8
             ],
             "idleType": 1,
+            "enemyType": 1,
             "dzOpenBattle": 61751101,
             "btPath": "BT/BOSSBT/61752/BOSSBT_Berserker_expand_31.bt",
             "weakTag": "5",
@@ -17513,6 +17742,63 @@
             "guardRadiusShow": 1,
             "weakWeaponTag": 56,
             "weakMap": 62452
+        },
+        {
+            "id": 62501,
+            "enemyCamp": 1002,
+            "duty": 3,
+            "skillNormalAttack": 6250101,
+            "skillTalent": 6250221,
+            "skillTalentExtra": [
+                6250301,
+                910000019,
+                80000002
+            ],
+            "rank": 2,
+            "propertyGroup": 151701,
+            "name": "검은안개나비",
+            "joke": "나비가 날갯짓하니, 검은 안개 내려오네.",
+            "trapDescription": "",
+            "description": "거대한 복강에 의지해 떠다니는 대형 나비. 복강 내 변이된 소화기관에서 분비한 검은 부식성 액체가, 수분과 섞인 후 '불길한' 기운을 풍기는 검은 물안개처럼 체외로 내뿜어집니다.",
+            "textIndex": [
+                1,
+                12,
+                28,
+                48
+            ],
+            "characterPic": "EliteButterfly",
+            "modelCode": 6250,
+            "moveCode": 7,
+            "occupySize": 1,
+            "aiOrder": 180,
+            "useFakeAttack": true,
+            "shieldType": 1,
+            "attackType": 2,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 2,
+            "dzOpenBattle": 6250101,
+            "btPath": "BT/MainBT/MainBT_6114.bt",
+            "weakTag": "2",
+            "supressGroup": [
+                4,
+                2,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "정예·검은안개나비",
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 8
         },
         {
             "id": 62821,
@@ -22363,6 +22649,258 @@
             "weakWeaponTag": 34
         },
         {
+            "id": 64871,
+            "enemyCamp": 1004,
+            "duty": 1,
+            "skillActive": 64871101,
+            "skillTalent": 6481500,
+            "skillActiveExtra": [
+                64871201,
+                64871301,
+                64871401,
+                64871402,
+                64871403
+            ],
+            "skillTalentExtra": [
+                6481501,
+                64871501,
+                64871502,
+                64871601,
+                6151501,
+                80000002,
+                910000015
+            ],
+            "aiList": [
+                6487101
+            ],
+            "dzAiList": [
+                6487101
+            ],
+            "rank": 3,
+            "propertyGroup": 209401,
+            "name": "벨라토-137",
+            "joke": "팀워크가 끈끈합니다 (벨라토-212와 있을 때 한정).",
+            "trapDescription": "",
+            "description": "거친 피부, 비대한 살집, 가장 큰 덩치를 자랑하는 전사입니다.",
+            "textIndex": [
+                13,
+                41
+            ],
+            "characterPic": "Bellator",
+            "modelCode": 6481,
+            "moveCode": 11,
+            "occupySize": 1,
+            "aiOrder": 50,
+            "useFakeAttack": true,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                2,
+                1000,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "dzOpenBattle": 6481102,
+            "btPath": "BT/BOSSBT/64871/BOSSBT_64871.bt",
+            "nameOnBar": "벨라토-137",
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 10
+        },
+        {
+            "id": 64872,
+            "enemyCamp": 1004,
+            "duty": 1,
+            "skillActive": 64872101,
+            "skillTalent": 6482500,
+            "skillActiveExtra": [
+                64872201,
+                64872301,
+                64872401,
+                64871403,
+                64871404
+            ],
+            "skillTalentExtra": [
+                6482501,
+                6484600,
+                64872501,
+                64872502,
+                6151501,
+                80000002,
+                910000015
+            ],
+            "aiList": [
+                6487201
+            ],
+            "dzAiList": [
+                6487201
+            ],
+            "rank": 3,
+            "propertyGroup": 209402,
+            "name": "벨라토-212",
+            "joke": "자주적 사고에 있어서는 벨라토-137과 막상막하입니다.",
+            "trapDescription": "",
+            "description": "벨라토-137처럼 매우 거대하고 튼튼한 몸뚱이를 가졌지만, 오히려 그것이 그의 죽음을 앞당겼습니다.",
+            "textIndex": [
+                13,
+                41
+            ],
+            "characterPic": "BellatorBlack",
+            "modelCode": 6482,
+            "moveCode": 11,
+            "occupySize": 1,
+            "aiOrder": 60,
+            "useFakeAttack": true,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                2,
+                1000,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "dzOpenBattle": 6482102,
+            "btPath": "BT/BOSSBT/64872/BOSSBT_64872.bt",
+            "weakTag": "1,3",
+            "nameOnBar": "벨라토-212",
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 10
+        },
+        {
+            "id": 64881,
+            "enemyCamp": 1004,
+            "duty": 1,
+            "skillActive": 64881101,
+            "skillTalent": 6481500,
+            "skillActiveExtra": [
+                64881201,
+                64881301,
+                64881401,
+                64881402,
+                64871403,
+                64881503
+            ],
+            "skillTalentExtra": [
+                6481501,
+                64881501,
+                64871502,
+                64881601,
+                6151501,
+                80000002,
+                910000015
+            ],
+            "aiList": [
+                6488101
+            ],
+            "dzAiList": [
+                6488101
+            ],
+            "rank": 3,
+            "propertyGroup": 209403,
+            "name": "벨라토-137",
+            "joke": "팀워크가 끈끈합니다 (벨라토-212와 있을 때 한정).",
+            "trapDescription": "",
+            "description": "거친 피부, 비대한 살집, 가장 큰 덩치를 자랑하는 전사입니다.",
+            "textIndex": [
+                13,
+                41
+            ],
+            "characterPic": "Bellator",
+            "modelCode": 6481,
+            "moveCode": 11,
+            "occupySize": 1,
+            "aiOrder": 50,
+            "useFakeAttack": true,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                2,
+                1000,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "dzOpenBattle": 6481102,
+            "btPath": "BT/BOSSBT/64881/BOSSBT_64881.bt",
+            "nameOnBar": "벨라토-137",
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 10
+        },
+        {
+            "id": 64882,
+            "enemyCamp": 1004,
+            "duty": 1,
+            "skillActive": 64882101,
+            "skillTalent": 6482500,
+            "skillActiveExtra": [
+                64882201,
+                64882301,
+                64882401,
+                64871403,
+                64871404,
+                64882503
+            ],
+            "skillTalentExtra": [
+                6482501,
+                6484600,
+                64882501,
+                64872502,
+                6151501,
+                80000002,
+                910000015
+            ],
+            "aiList": [
+                6488201
+            ],
+            "dzAiList": [
+                6488201
+            ],
+            "rank": 3,
+            "propertyGroup": 209404,
+            "name": "벨라토-212",
+            "joke": "자주적 사고에 있어서는 벨라토-137과 막상막하입니다.",
+            "trapDescription": "",
+            "description": "벨라토-137처럼 매우 거대하고 튼튼한 몸뚱이를 가졌지만, 오히려 그것이 그의 죽음을 앞당겼습니다.",
+            "textIndex": [
+                13,
+                41
+            ],
+            "characterPic": "BellatorBlack",
+            "modelCode": 6482,
+            "moveCode": 11,
+            "occupySize": 1,
+            "aiOrder": 60,
+            "useFakeAttack": true,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                2,
+                1000,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "dzOpenBattle": 6482102,
+            "btPath": "BT/BOSSBT/64882/BOSSBT_64882.bt",
+            "weakTag": "2,3",
+            "nameOnBar": "벨라토-212",
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 10
+        },
+        {
             "id": 65011,
             "enemyCamp": 1005,
             "duty": 1,
@@ -25389,6 +25927,387 @@
             "guardRadius": 500,
             "guardRadiusShow": 1,
             "weakWeaponTag": 14
+        },
+        {
+            "id": 67791,
+            "enemyCamp": 1099,
+            "duty": 1,
+            "skillNormalAttack": 67791101,
+            "skillTalent": 67791401,
+            "skillTalentExtra": [
+                67791501
+            ],
+            "rank": 1,
+            "propertyGroup": 115801,
+            "name": "무질서 유령 I형",
+            "joke": "끊임없는 붕괴와 재결합—서투른 자아 구축의 모방일 뿐.",
+            "trapDescription": "",
+            "description": "잉여 데이터로 형성된 데이터 생명체. 초기에는 질서가 없고 지성도 목적도 없어 레벨 2 플랫폼을 무작위로 떠돌 뿐이다. 하지만 관측되는 순간 순수한 공격성을 드러낸다.",
+            "textIndex": [
+                1
+            ],
+            "characterPic": "DisorderGhost",
+            "modelCode": 6779,
+            "moveCode": 3,
+            "occupySize": 1,
+            "aiOrder": 50,
+            "useFakeAttack": true,
+            "shieldType": 2,
+            "attackType": 2,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "dzOpenBattle": 67791101,
+            "btPath": "BT/MainBT/MainBT_6779.bt",
+            "weakTag": "2,3",
+            "supressGroup": [
+                3,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "무질서 유령 I형",
+            "guardRadius": 700,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 2
+        },
+        {
+            "id": 67792,
+            "enemyCamp": 1099,
+            "duty": 1,
+            "skillNormalAttack": 67791101,
+            "skillTalent": 67792201,
+            "skillTalentExtra": [
+                67791401,
+                67791501
+            ],
+            "rank": 1,
+            "propertyGroup": 115802,
+            "name": "무질서 유령 II형",
+            "joke": "끊임없는 붕괴와 재결합—서투른 자아 구축의 모방일 뿐.",
+            "trapDescription": "",
+            "description": "잉여 데이터로 형성된 데이터 생명체. 초기에는 질서가 없고 지성도 목적도 없어 레벨 2 플랫폼을 무작위로 떠돌 뿐이다. 하지만 관측되는 순간 순수한 공격성을 드러낸다.",
+            "textIndex": [
+                1
+            ],
+            "characterPic": "DisorderGhost",
+            "modelCode": 6779,
+            "moveCode": 3,
+            "occupySize": 1,
+            "aiOrder": 50,
+            "useFakeAttack": true,
+            "shieldType": 2,
+            "attackType": 2,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "dzOpenBattle": 67791101,
+            "btPath": "BT/MainBT/MainBT_6779.bt",
+            "weakTag": "2,3",
+            "supressGroup": [
+                3,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "무질서 유령 II형",
+            "guardRadius": 700,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 2
+        },
+        {
+            "id": 67793,
+            "enemyCamp": 1099,
+            "duty": 1,
+            "skillNormalAttack": 67791101,
+            "skillTalent": 67792201,
+            "skillTalentExtra": [
+                67793301,
+                67791401,
+                67791501
+            ],
+            "rank": 1,
+            "propertyGroup": 115803,
+            "name": "무질서 유령 III형",
+            "joke": "끊임없는 붕괴와 재결합—서투른 자아 구축의 모방일 뿐.",
+            "trapDescription": "",
+            "description": "잉여 데이터로 형성된 데이터 생명체. 초기에는 질서가 없고 지성도 목적도 없어 레벨 2 플랫폼을 무작위로 떠돌 뿐이다. 하지만 관측되는 순간 순수한 공격성을 드러낸다.",
+            "textIndex": [
+                1
+            ],
+            "characterPic": "DisorderGhost",
+            "modelCode": 6779,
+            "moveCode": 3,
+            "occupySize": 1,
+            "aiOrder": 50,
+            "useFakeAttack": true,
+            "shieldType": 2,
+            "attackType": 2,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "dzOpenBattle": 67791101,
+            "btPath": "BT/MainBT/MainBT_6779.bt",
+            "weakTag": "2,3",
+            "supressGroup": [
+                3,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "무질서 유령 III형",
+            "guardRadius": 700,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 2
+        },
+        {
+            "id": 67801,
+            "enemyCamp": 1099,
+            "duty": 1,
+            "skillNormalAttack": 67801101,
+            "skillTalent": 67801201,
+            "skillTalentExtra": [
+                67801401
+            ],
+            "rank": 1,
+            "propertyGroup": 115901,
+            "name": "정렬 유령 I형",
+            "joke": "언젠가 자신도 디지털 화신을 지닌 여주인공으로 승격될 수 있을 거라 상상하곤 한다.",
+            "trapDescription": "",
+            "description": "무질서 유령의 자기 복제 과정에서 우연히 나타난 비교적 안정적인 단계. 일정한 자율 행동 논리가 생겨 안전 거리를 유지하며 공격하는 자기 보존 의식이 발달했다.",
+            "textIndex": [
+                2
+            ],
+            "characterPic": "SequenceGhost",
+            "modelCode": 6780,
+            "moveCode": 3,
+            "occupySize": 1,
+            "aiOrder": 100,
+            "useFakeAttack": true,
+            "shieldType": 2,
+            "attackType": 2,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "dzOpenBattle": 67801101,
+            "btPath": "BT/MainBT/MainBT_6780.bt",
+            "weakTag": "2,3",
+            "supressGroup": [
+                4,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "정렬 유령 I형",
+            "guardRadius": 700,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 2
+        },
+        {
+            "id": 67802,
+            "enemyCamp": 1099,
+            "duty": 1,
+            "skillNormalAttack": 67801101,
+            "skillTalent": 67801201,
+            "skillTalentExtra": [
+                67802301,
+                67801401
+            ],
+            "rank": 1,
+            "propertyGroup": 115902,
+            "name": "정렬 유령 II형",
+            "joke": "언젠가 자신도 디지털 화신을 지닌 여주인공으로 승격될 수 있을 거라 상상하곤 한다.",
+            "trapDescription": "",
+            "description": "무질서 유령의 자기 복제 과정에서 우연히 나타난 비교적 안정적인 단계. 일정한 자율 행동 논리가 생겨 안전 거리를 유지하며 공격하는 자기 보존 의식이 발달했다.",
+            "textIndex": [
+                2
+            ],
+            "characterPic": "SequenceGhost",
+            "modelCode": 6780,
+            "moveCode": 3,
+            "occupySize": 1,
+            "aiOrder": 100,
+            "useFakeAttack": true,
+            "shieldType": 2,
+            "attackType": 2,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "dzOpenBattle": 67801101,
+            "btPath": "BT/MainBT/MainBT_6780.bt",
+            "weakTag": "2,3",
+            "supressGroup": [
+                4,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "정렬 유령 II형",
+            "guardRadius": 700,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 2
+        },
+        {
+            "id": 67803,
+            "enemyCamp": 1099,
+            "duty": 1,
+            "skillNormalAttack": 67801101,
+            "skillTalent": 67803201,
+            "skillTalentExtra": [
+                67802301,
+                67801401
+            ],
+            "rank": 1,
+            "propertyGroup": 115903,
+            "name": "정렬 유령 III형",
+            "joke": "언젠가 자신도 디지털 화신을 지닌 여주인공으로 승격될 수 있을 거라 상상하곤 한다.",
+            "trapDescription": "",
+            "description": "무질서 유령의 자기 복제 과정에서 우연히 나타난 비교적 안정적인 단계. 일정한 자율 행동 논리가 생겨 안전 거리를 유지하며 공격하는 자기 보존 의식이 발달했다.",
+            "textIndex": [
+                2
+            ],
+            "characterPic": "SequenceGhost",
+            "modelCode": 6780,
+            "moveCode": 3,
+            "occupySize": 1,
+            "aiOrder": 100,
+            "useFakeAttack": true,
+            "shieldType": 2,
+            "attackType": 2,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "dzOpenBattle": 67801101,
+            "btPath": "BT/MainBT/MainBT_6780.bt",
+            "weakTag": "2,3",
+            "supressGroup": [
+                4,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "정렬 유령 III형",
+            "guardRadius": 700,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 2
+        },
+        {
+            "id": 67811,
+            "enemyCamp": 1099,
+            "duty": 1,
+            "skillNormalAttack": 6781101,
+            "skillActive": 67811201,
+            "skillTalent": 6781601,
+            "skillActiveExtra": [
+                67811202,
+                67811203,
+                6781301,
+                67811401,
+                6781501
+            ],
+            "skillTalentExtra": [
+                67811701,
+                6151501,
+                910000012,
+                910000015,
+                67811901
+            ],
+            "aiList": [
+                6781101
+            ],
+            "rank": 3,
+            "propertyGroup": 209302,
+            "name": "神秘女孩",
+            "joke": "때로는 결핍이 더 효율적이다. 쓸모없는 감정과 논리를 버린 이 인격에 남은 것은 숙주를 갉아먹는 본능적 갈망뿐.",
+            "trapDescription": "",
+            "description": "리바의 마인드맵에서 오류 데이터가 재조합돼 생긴 가상 인격. 리바의 마인드맵을 개변하는 것을 사명으로 삼으며, 다른 잉여 데이터 창조물을 조종할 수 있다. 불안정한 마인드맵 공간 탓에 감정 기복이 심하고 지능도 결핍되어 대부분 본능에 따라 움직인다.",
+            "textIndex": [
+                7,
+                13,
+                14,
+                23
+            ],
+            "characterPic": "UnsearchableGirl",
+            "modelCode": 6781,
+            "moveCode": 1,
+            "occupySize": 3,
+            "aiOrder": 25,
+            "useFakeAttack": true,
+            "shieldType": 2,
+            "attackType": 1,
+            "beSupressedConfig": [
+                80000001,
+                2,
+                1000,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "enemyType": 1,
+            "dzOpenBattle": 6781101,
+            "btPath": "BT/BOSSBT/67811/BOSSBT_67811.bt",
+            "weakTag": "2,3",
+            "supressGroup": [
+                3,
+                4,
+                0,
+                2,
+                1,
+                0,
+                0
+            ],
+            "nameOnBar": "神秘女孩",
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 2
         },
         {
             "id": 68512,
@@ -28532,6 +29451,72 @@
             "guardRadius": 500,
             "guardRadiusShow": 1,
             "weakWeaponTag": 6
+        },
+        {
+            "id": 286175,
+            "enemyCamp": 1001,
+            "duty": 1,
+            "skillNormalAttack": 261751101,
+            "skillActive": 261751301,
+            "skillTalent": 61751501,
+            "skillActiveExtra": [
+                261751401,
+                617515011
+            ],
+            "skillTalentExtra": [
+                61751701
+            ],
+            "aiList": [
+                617501,
+                617502
+            ],
+            "dzAiList": [
+                617501,
+                617502
+            ],
+            "rank": 3,
+            "propertyGroup": 208204,
+            "name": "배섀르크",
+            "joke": "이걸 몰겠다고요? 사는 게 지겨우신가 보군요.",
+            "trapDescription": "",
+            "description": "약탈해온 반자동 기계를 개조해서 만든 공포의 병기. 바랴그단의 이른바 \"스타일리시한 개조\"를 받은 결과 지금의 가시곰 같은 모습이 되었습니다. 이런저런 측면에서 열화판이 되고 말았지만, 기존의 우수한 품질 덕분에 화력과 전투력은 여전히 기본 수준 이상입니다.",
+            "textIndex": [
+                13,
+                14
+            ],
+            "characterPic": "Berserker",
+            "modelCode": 6175,
+            "moveCode": 1,
+            "occupySize": 3,
+            "aiOrder": 50,
+            "useFakeAttack": true,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                2,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "enemyType": 1,
+            "dzOpenBattle": 61751101,
+            "btPath": "BT/BOSSBT/286175/BOSSBT_Berserker_expand_35.bt",
+            "weakTag": "5,1",
+            "supressGroup": [
+                3,
+                3,
+                4,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "배섀르크",
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 10
         },
         {
             "id": 611011,
@@ -34705,6 +35690,111 @@
             "weakWeaponTag": 4
         },
         {
+            "id": 2162013,
+            "enemyCamp": 1002,
+            "duty": 1,
+            "skillNormalAttack": 62011101,
+            "skillActive": 216201201,
+            "skillTalent": 6201200,
+            "skillTalentExtra": [
+                6201301,
+                910000020
+            ],
+            "rank": 2,
+            "propertyGroup": 602025,
+            "name": "변종 바위치꺼비·빙결",
+            "joke": "쉿, 건드리지 마! 네 안정 지수를 도매로 사왔나?!",
+            "trapDescription": "",
+            "description": "언뜻 보면 평범한 바위치꺼비와 다를 바 없고, 미세한 도약으로 굳은 몸을 옮길 따름이다. 하지만 이 어설퍼 보이는 생물은 전장에서 안정 지수를 갉아먹는 사신이다.",
+            "textIndex": [
+                17
+            ],
+            "characterPic": "Thutoad_Ice",
+            "modelCode": 6201,
+            "moveCode": 1,
+            "occupySize": 1,
+            "aiOrder": 510,
+            "attackType": 2,
+            "element": 7,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "dzOpenBattle": 62011101,
+            "btPath": "BT/MainBT/MainBT_62113.bt",
+            "weakTag": "5",
+            "supressGroup": [
+                4,
+                3,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "변종 바위치꺼비·빙결",
+            "guardRadius": 700,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 40,
+            "weakMap": 62013,
+            "feature": 1
+        },
+        {
+            "id": 2162113,
+            "enemyCamp": 1002,
+            "duty": 1,
+            "skillNormalAttack": 6211201,
+            "skillActive": 216211321,
+            "skillTalent": 910000020,
+            "rank": 2,
+            "propertyGroup": 602026,
+            "name": "변종 바위치꺼비·산성",
+            "joke": "쉿, 건드리지 마! 네 안정 지수를 도매로 사왔나?!",
+            "trapDescription": "",
+            "description": "언뜻 보면 평범한 바위치꺼비와 다를 바 없고, 미세한 도약으로 굳은 몸을 옮길 따름이다. 하지만 이 어설퍼 보이는 생물은 전장에서 안정 지수를 갉아먹는 사신이다.",
+            "textIndex": [
+                2,
+                9
+            ],
+            "characterPic": "Thutoad_Poison",
+            "modelCode": 6211,
+            "moveCode": 1,
+            "occupySize": 1,
+            "aiOrder": 250,
+            "attackType": 2,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "dzOpenBattle": 6211201,
+            "btPath": "BT/MainBT/MainBT_62112.bt",
+            "weakTag": "3",
+            "supressGroup": [
+                4,
+                2,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "변종 바위치꺼비·산성",
+            "guardRadius": 700,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 10,
+            "weakMap": 62113,
+            "feature": 1
+        },
+        {
             "id": 2164203,
             "enemyCamp": 1004,
             "duty": 1,
@@ -35367,7 +36457,7 @@
             "aiOrder": 200,
             "shieldType": 1,
             "attackType": 1,
-            "element": 4,
+            "element": 1,
             "beSupressedConfig": [
                 80000001,
                 9999,
@@ -35426,7 +36516,7 @@
             "aiOrder": 200,
             "shieldType": 1,
             "attackType": 1,
-            "element": 4,
+            "element": 1,
             "beSupressedConfig": [
                 80000001,
                 9999,
@@ -35485,7 +36575,7 @@
             "aiOrder": 200,
             "shieldType": 1,
             "attackType": 1,
-            "element": 2,
+            "element": 1,
             "beSupressedConfig": [
                 80000001,
                 9999,
@@ -35544,7 +36634,7 @@
             "aiOrder": 200,
             "shieldType": 1,
             "attackType": 1,
-            "element": 2,
+            "element": 1,
             "beSupressedConfig": [
                 80000001,
                 9999,

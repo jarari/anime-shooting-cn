@@ -352,6 +352,12 @@
             "isLoop": "0"
         },
         {
+            "id": 424,
+            "name": "残影-测试",
+            "description": "身后挂残影-测试",
+            "iconName": "Buff_Nogoal"
+        },
+        {
             "id": 2001,
             "name": "",
             "description": "",
@@ -1507,6 +1513,68 @@
             "iconName": "Buff_Strong",
             "isShow": true,
             "showPriorityIcon": 99
+        },
+        {
+            "id": 70016,
+            "name": "拓域专研",
+            "description": "我方单位物理伤害提高<color=#f26c1c>100%</color>，攻击产生克制时，无视目标<color=#f26c1c>30%</color>防御力。\n我方单位受到的伤害降低<color=#f26c1c>40%</color>，防御力提高<color=#f26c1c>20%</color>。",
+            "iconName": "Buff_Strong",
+            "isShow": true,
+            "showPriorityIcon": 99
+        },
+        {
+            "id": 70017,
+            "name": "拓域专研",
+            "description": "我方单位<color=#d4ae08>电导伤害</color>提高<color=#f26c1c>100%</color>，攻击产生克制时，无视目标<color=#f26c1c>30%</color>防御力。\n大回合结束时，我方单位恢复自身<color=#f26c1c>20%</color>最大生命值的生命值，若自身处于稳态崩溃状态，则额外恢复<color=#f26c1c>3点</color>稳态指数。",
+            "iconName": "Buff_Strong",
+            "isShow": true,
+            "showPriorityIcon": 99
+        },
+        {
+            "id": 70018,
+            "name": "拓域专研",
+            "description": "我方单位<color=#e67129>燃烧伤害</color>提高<color=#f26c1c>100%</color>，攻击产生克制时，无视目标<color=#f26c1c>30%</color>防御力。\n我方单位受到的伤害降低<color=#f26c1c>30%</color>，受到的稳态伤害降低<color=#f26c1c>1点</color>。",
+            "iconName": "Buff_Strong",
+            "isShow": true,
+            "showPriorityIcon": 99
+        },
+        {
+            "id": 70019,
+            "name": "拓域专研",
+            "description": "我方单位<color=#8679e8>酸蚀伤害</color>提高<color=#f26c1c>100%</color>，攻击产生克制时，无视目标<color=#f26c1c>30%</color>防御力。\n我方单位受到的伤害降低<color=#f26c1c>40%</color>，防御力提高<color=#f26c1c>20%</color>。",
+            "iconName": "Buff_Strong",
+            "isShow": true,
+            "showPriorityIcon": 99
+        },
+        {
+            "id": 70020,
+            "name": "拓域专研",
+            "description": "我方单位<color=#42cce0>冷凝伤害</color>提高<color=#f26c1c>100%</color>，攻击产生克制时，无视目标<color=#f26c1c>30%</color>防御力。\n我方单位受到的伤害降低<color=#f26c1c>30%</color>，防御力提高<color=#f26c1c>15%</color>。",
+            "iconName": "Buff_Strong",
+            "isShow": true,
+            "showPriorityIcon": 99
+        },
+        {
+            "id": 70021,
+            "name": "拓域专研",
+            "description": "我方单位<color=#2caadb>浊刻伤害</color>提高<color=#f26c1c>100%</color>，攻击产生克制时，无视目标<color=#f26c1c>30%</color>防御力。\n我方单位的防御力提高<color=#f26c1c>15%</color>，受到的稳态伤害降低<color=#f26c1c>1点</color>。",
+            "iconName": "Buff_Strong",
+            "isShow": true,
+            "showPriorityIcon": 99
+        },
+        {
+            "id": 80001,
+            "name": "明靶重创",
+            "description": "未受到掩体保护时，受到伤害提高<color=#f26c1c>200%</color>。不可驱散。",
+            "iconName": "Buff_DefUpNeutral",
+            "isShow": true
+        },
+        {
+            "id": 80012,
+            "name": "双重豁免",
+            "description": "稳态指数大于0时，每回合免疫2次伤害。不可驱散。",
+            "iconName": "Buff_InvincibleNeutral",
+            "isShow": true
         },
         {
             "id": 99991,
@@ -10845,6 +10913,38 @@
             "isLoop": "1|1"
         },
         {
+            "id": 4300030,
+            "name": "飓风",
+            "description": "被顺着风向的单位攻击时，自身沿风向位移<color=#f26c1c>2格</color>。回合结束时，如果自身稳态大于<color=#f26c1c>50%</color>，沿风向位移<color=#f26c1c>1格</color>；如果自身稳态小于等于<color=#f26c1c>50%</color>且大于<color=#f26c1c>0</color>时，沿风向位移<color=#f26c1c>3格</color>；如果自身稳态为<color=#f26c1c>0</color>时，沿风向位移<color=#f26c1c>5格</color>。",
+            "iconName": "Buff_Hurricane",
+            "isShow": true,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 4300040,
+            "name": "风场防护",
+            "description": "受到的稳态伤害降低<color=#f26c1c>4点</color>，免疫伤害。增益不可驱散。",
+            "iconName": "Buff_WillAdd",
+            "isShow": true,
+            "buffHeadShow": 1
+        },
+        {
+            "id": 4300050,
+            "name": "淡雾",
+            "description": "射程减少<color=#f26c1c>2格</color>。",
+            "iconName": "Buff_Mist",
+            "isShow": true,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 4300060,
+            "name": "浓雾",
+            "description": "射程减少<color=#f26c1c>3格</color>。",
+            "iconName": "Buff_DenseFog",
+            "isShow": true,
+            "showPriorityIcon": 10
+        },
+        {
             "id": 5104831,
             "name": "薪火燎原",
             "description": "造成的燃烧伤害提高<color=#f26c1c>2%</color>。",
@@ -10998,12 +11098,6 @@
                 3
             ],
             "effectFadeTime": "0|90",
-            "cameraPlayTime": [
-                1
-            ],
-            "cameraTime": [
-                60
-            ],
             "effectFollowType": "1|1",
             "effectBirthType": "104|104",
             "effectTypeGroup": "0|0",
@@ -12414,6 +12508,45 @@
             "isLoop": "1"
         },
         {
+            "id": 6250220,
+            "name": "黑色雾霭",
+            "description": "在自身5格范围内的所有敌方受到的治疗会转化成等量的伤害。",
+            "buffEffect": "Skill/6250201_Halo",
+            "effectPlayTime": [
+                1
+            ],
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "109",
+            "isLoop": "1"
+        },
+        {
+            "id": 6250221,
+            "name": "黑色雾霭",
+            "description": "受到的治疗会转化成等量的固定伤害。减益不可驱散。",
+            "buffEffect": "Buff/TreatmentReversal",
+            "effectPlayTime": [
+                1
+            ],
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "104",
+            "iconName": "Buff_WaterDrown",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "1"
+        },
+        {
             "id": 6250301,
             "name": "反伤",
             "description": "攻击者受到相当于本次造成伤害<color=#f26c1c>80%</color>的固定伤害。不可驱散。",
@@ -13433,6 +13566,44 @@
             "buffHeadShow": 1
         },
         {
+            "id": 6487101,
+            "name": "死斗狩契-137",
+            "description": "行动力降低<color=#f26c1c>1格</color>，优先被<color=#f26c1c>徒士-137</color>索敌。",
+            "buffEffect": "Buff/6487101_Buff",
+            "effectPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "2",
+            "effectBirthType": "103",
+            "iconName": "Buff_Hammer2",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 99,
+            "isLoop": "1"
+        },
+        {
+            "id": 6487201,
+            "name": "死斗狩契-212",
+            "description": "行动力降低<color=#f26c1c>1格</color>，优先被<color=#f26c1c>徒士-212</color>索敌。",
+            "buffEffect": "Buff/6487201_Buff",
+            "effectPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "2",
+            "effectBirthType": "103",
+            "iconName": "Buff_Hammer1",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 99,
+            "isLoop": "1"
+        },
+        {
             "id": 6501301,
             "name": "增殖基种",
             "description": "每拥有<color=#f26c1c>1层</color><color=#3487e0>增殖基种</color>，减少<color=#f26c1c>30%</color>受到的伤害，最大叠加<color=#f26c1c>3层</color>。每次受到克制攻击后，减少<color=#f26c1c>1层</color><color=#3487e0>增殖基种</color>。增益不可驱散。",
@@ -14265,6 +14436,96 @@
             "effectBirthType": "103",
             "effectTypeGroup": "2",
             "iconName": "Buff_Tank5",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "1"
+        },
+        {
+            "id": 6781000,
+            "name": "紊乱疽痕",
+            "description": "造成的精准伤害降低<color=#f26c1c>15%</color>，至多叠加<color=#f26c1c>3层</color>。叠加至<color=#f26c1c>3层</color>时，触发<color=#3487e0>{0}</color>，持续<color=#f26c1c>1回合</color>。<color=#3487e0>{0}</color>结束时层数重置，期间不会再次触发<color=#3487e0>{0}</color>。减益可驱散。",
+            "descriptionTips": "0:401021",
+            "buffEffect": "Skill/6781001_Virus",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "104",
+            "effectTypeGroup": "0",
+            "iconName": "Buff_DamageDown",
+            "isShow": true,
+            "buffHeadShow": 17,
+            "isLoop": "1"
+        },
+        {
+            "id": 6781001,
+            "name": "乱序激活",
+            "description": "攻击力提高<color=#f26c1c>15%</color>。被施加该效果的友方单位每移动一次，获得1层<color=#3487e0>{0}</color>，<color=#3487e0>{0}</color>叠加至<color=#f26c1c>3层</color>时获得<color=#3487e0>{1}</color>。不可驱散。",
+            "descriptionTips": "0:67810011;0:67810012",
+            "buffEffect": "Skill/6781301_Link_Down,Skill/6781301_Link_Hit",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0,0",
+            "effectFollowType": "1,1",
+            "effectBirthType": "109,109",
+            "effectTypeGroup": "0,0",
+            "iconName": "Buff_UnsearchableGirl1",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 1,
+            "isLoop": "1,0"
+        },
+        {
+            "id": 6781501,
+            "name": "禁锢协议",
+            "description": "无法移动且受到治疗量降低<color=#f26c1c>50%</color>。移动类减益效果，可驱散。",
+            "buffEffect": "Skill/6781501_Buff",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "104",
+            "effectTypeGroup": "0",
+            "iconName": "Buff_Unmove",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "1"
+        },
+        {
+            "id": 6781502,
+            "name": "幻影同调",
+            "description": "攻击力提高<color=#f26c1c>15%</color>但防御力降低<color=#f26c1c>15%</color>，不可作为直接目标被敌方技能选中，增益不可驱散。",
+            "buffEffect": "Skill/6781501_Disapper",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "109",
+            "effectTypeGroup": "0",
+            "buffFix": 4,
+            "iconName": "Buff_Invincible",
             "isShow": true,
             "buffHeadShow": 1,
             "isLoop": "1"
@@ -16198,6 +16459,14 @@
             "isShow": true,
             "buffHeadShow": 1,
             "isLoop": "0|0"
+        },
+        {
+            "id": 7030111,
+            "name": "冻僵",
+            "description": "无法移动、无法被位移、无法主动位移。减益不可驱散。",
+            "iconName": "Buff_IceUnmove",
+            "isShow": true,
+            "buffHeadShow": 17
         },
         {
             "id": 8010202,
@@ -18250,6 +18519,162 @@
             "isShow": true,
             "buffHeadShow": 1,
             "showPriorityIcon": 10
+        },
+        {
+            "id": 10580411,
+            "name": "羁绊的可能",
+            "description": "造成的稳态伤害提高<color=#f26c1c>3点</color>。增益不可驱散。",
+            "buffEffect": "Buff/AtkU|Buff/AtkU",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_SuppressAdd",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 10580413,
+            "name": "羁绊的可能",
+            "description": "造成的稳态伤害提高<color=#f26c1c>6点</color>。增益不可驱散。",
+            "buffEffect": "Buff/AtkU|Buff/AtkU",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_SuppressAdd",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 10580423,
+            "name": "羁绊的力量",
+            "description": "攻击力提高<color=#f26c1c>15%</color>，对防御力<color=#f26c1c>大于</color>0的目标造成伤害后，移除此效果。增益不可驱散。",
+            "buffEffect": "Buff/AtkU|Buff/AtkU",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_AtkUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 10580801,
+            "name": "伞下关照",
+            "description": "受到来自莱妮和莱妮·心像的伤害时，防御力降低<color=#f26c1c>15%</color>，至多叠加<color=#f26c1c>3层</color>。防御类减益不可驱散。",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_DefLow",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 10580802,
+            "name": "伞下关照",
+            "description": "受到来自莱妮和莱妮·心像的伤害时，防御力降低<color=#f26c1c>15%</color>，至多叠加<color=#f26c1c>6层</color>。防御类减益不可驱散。",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_DefLow",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 10580831,
+            "name": "先机探知",
+            "description": "受到物理攻击时防御力降低<color=#f26c1c>10%</color>。防御类减益不可驱散。",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_DefLow",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 10580832,
+            "name": "先机探知",
+            "description": "受到物理攻击时防御力降低<color=#f26c1c>20%</color>。防御类减益不可驱散。",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_DefLow",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
         },
         {
             "id": 20200016,
@@ -20865,6 +21290,48 @@
             "buffHeadShow": 1
         },
         {
+            "id": 60008501,
+            "name": "免疫",
+            "description": "免疫所有伤害。不可驱散。",
+            "iconName": "Buff_InvincibleNeutral",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 60008502,
+            "name": "有限防护",
+            "description": "不会受到普通攻击和技能伤害，每受到<color=#f26c1c>1次</color>普通攻击或技能攻击减少1层，持续2回合。增益效果不可驱散，至多叠加2层。",
+            "buffEffect": "Buff/61152201_Invincible2|Buff/61152201_Invincible",
+            "effectPlayTime": [
+                1,
+                3
+            ],
+            "effectFadeTime": "0|90",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "104|104",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_Invincible",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "1|0"
+        },
+        {
+            "id": 60008601,
+            "name": "应激免疫",
+            "description": "不会再受到眩晕，嘲讽等控制效果、指令禁止效果以及僵冷影响。不可驱散。",
+            "iconName": "Buff_InvincibleNeutral",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
             "id": 61000010,
             "name": "致命火力",
             "description": "火力人形造成的伤害提高<color=#f26c1c>20%</color>。",
@@ -21144,7 +21611,7 @@
         {
             "id": 61000440,
             "name": "攻敌蓄势",
-            "description": "敌方每受到<color=#f26c1c>1</color>次固定伤害后，我方全体造成伤害永久提高<color=#f26c1c>2%</color>。最大叠加<color=#f26c1c>15</color>层。",
+            "description": "敌方每受到<color=#f26c1c>1</color>次固定伤害后，我方全体造成伤害永久提高<color=#f26c1c>2%</color>。最大叠加15层。",
             "iconName": "Buff_Guild_64",
             "showPriorityIcon": 10
         },
@@ -21162,6 +21629,41 @@
             "name": "血盈无阻",
             "description": "自身生命值<color=#f26c1c>大于等于100%</color>时，攻击无视目标<color=#f26c1c>30%</color>防御。",
             "iconName": "Buff_Guild_65",
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 61000460,
+            "name": "绝缘击穿",
+            "description": "对无法受到麻痹效果的单位造成的电导伤害提高<color=#f26c1c>20%</color>。",
+            "iconName": "Buff_Guild_66",
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 61000470,
+            "name": "护盾穿透",
+            "description": "目标持有护盾时，攻击无视其<color=#f26c1c>30%</color>防御。",
+            "iconName": "Buff_Guild_67",
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 61000480,
+            "name": "超限协战",
+            "description": "我方召唤物造成的伤害提高<color=#f26c1c>50%</color>。",
+            "iconName": "Buff_Guild_68",
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 61000490,
+            "name": "协同累势",
+            "description": "自身周围<color=#f26c1c>5</color>格范围内每存在<color=#f26c1c>1</color>名友方单位，造成伤害提高<color=#f26c1c>6%</color>。",
+            "iconName": "Buff_Guild_69",
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 61000500,
+            "name": "破稳处决",
+            "description": "对稳态为<color=#f26c1c>0</color>的目标暴击伤害提高<color=#f26c1c>25%</color>。",
+            "iconName": "Buff_Guild_70",
             "showPriorityIcon": 10
         },
         {
@@ -21682,7 +22184,7 @@
         {
             "id": 62002551,
             "name": "移动提升I",
-            "description": "行动力提高<color=#f26c1c>1格</color>，可叠加。增益效果。",
+            "description": "行动力提高<color=#f26c1c>1格</color>，可叠加，每层持续时间独立计算。增益效果。",
             "buffEffect": "Buff/SpeedU|Buff/SpeedU",
             "effectPlayTime": [
                 1,
@@ -21706,7 +22208,7 @@
         {
             "id": 62002552,
             "name": "移动提升II",
-            "description": "行动力提高<color=#f26c1c>2格</color>，可叠加。增益效果。",
+            "description": "行动力提高<color=#f26c1c>2格</color>，可叠加，每层持续时间独立计算。增益效果。",
             "buffEffect": "Buff/SpeedU|Buff/SpeedU",
             "effectPlayTime": [
                 1,
@@ -21724,7 +22226,7 @@
         {
             "id": 62002553,
             "name": "移动提升III",
-            "description": "行动力提高<color=#f26c1c>3格</color>，可叠加。增益效果。",
+            "description": "行动力提高<color=#f26c1c>3格</color>，可叠加，每层持续时间独立计算。增益效果。",
             "buffEffect": "Buff/SpeedU|Buff/SpeedU",
             "effectPlayTime": [
                 1,
@@ -22278,6 +22780,203 @@
             "buffHeadShow": 1
         },
         {
+            "id": 64871101,
+            "name": "防御降低II",
+            "description": "防御力降低<color=#f26c1c>30%</color>，至多叠加2层，减益不可驱散。",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_DefLow",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 80,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 64871102,
+            "name": "移动降低II",
+            "description": "行动力降低<color=#f26c1c>2格</color>。减益效果。",
+            "buffEffect": "Buff/SpeedD|Buff/SpeedD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_SpeedLow",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 50,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 64871201,
+            "name": "移动降低I",
+            "description": "行动力降低<color=#f26c1c>1格</color>，至多叠加3层，减益效果。",
+            "buffEffect": "Buff/SpeedD|Buff/SpeedD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_SpeedLow",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 50,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 64871301,
+            "name": "移动降低II",
+            "description": "行动力降低<color=#f26c1c>2格</color>。减益效果。",
+            "buffEffect": "Buff/SpeedD|Buff/SpeedD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_SpeedLow",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 50,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 64871403,
+            "name": "移行预兆",
+            "description": "徒士-137与徒士212即将互换位置。",
+            "iconName": "Buff_Tank5",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 99
+        },
+        {
+            "id": 64881101,
+            "name": "防御降低III",
+            "description": "防御力降低<color=#f26c1c>50%</color>，至多叠加2层，减益不可驱散。",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_DefLow",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 80,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 64881102,
+            "name": "移动降低II",
+            "description": "行动力降低<color=#f26c1c>3格</color>。减益效果。",
+            "buffEffect": "Buff/SpeedD|Buff/SpeedD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_SpeedLow",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 50,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 64881505,
+            "name": "移动提升I",
+            "description": "行动力提高<color=#f26c1c>1格</color>。增益效果。",
+            "buffEffect": "Buff/SpeedU|Buff/SpeedU",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_SpeedUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 90,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 64882505,
+            "name": "移动提升I",
+            "description": "行动力提高<color=#f26c1c>1格</color>。可被驱散。",
+            "buffEffect": "Buff/SpeedU|Buff/SpeedU",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_SpeedUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 90,
+            "isLoop": "0|0"
+        },
+        {
             "id": 65031201,
             "name": "短视I",
             "description": "最大射程不高于<color=#f26c1c>4格</color>。减益效果。",
@@ -22678,6 +23377,38 @@
             ],
             "effectFollowType": "1",
             "effectBirthType": "109"
+        },
+        {
+            "id": 67810011,
+            "name": "乱序过载",
+            "description": "死亡时对<color=#f26c1c>自身周围3×3格</color>内的所有敌方目标造成自身<color=#f26c1c>30%</color>攻击力的固定伤害，每有<color=#f26c1c>1层</color>该效果，伤害系数提高<color=#f26c1c>30%</color>，至多叠加<color=#f26c1c>3层</color>。不可驱散。",
+            "iconName": "Buff_Tank5",
+            "isShow": true,
+            "buffHeadShow": 17,
+            "showPriorityIcon": 1
+        },
+        {
+            "id": 67810012,
+            "name": "模因超控",
+            "description": "普通攻击造成的稳态伤害提高<color=#f26c1c>6点</color>，并减少敌方目标<color=#f26c1c>2点</color>导染指数。施放普通攻击后移除。增益不可驱散。",
+            "buffEffect": "Skill/6781301_ControlEnd",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "103",
+            "effectTypeGroup": "1",
+            "iconName": "Buff_SuppressAdd",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "1"
         },
         {
             "id": 68521011,
@@ -23944,6 +24675,31 @@
             "effectBirthType": "109",
             "effectTypeGroup": "0",
             "isLoop": "1"
+        },
+        {
+            "id": 70351017,
+            "name": "眩晕",
+            "description": "无法行动。",
+            "buffEffect": "Buff/Debuff_stun|Buff/Debuff_stun",
+            "effectPlayTime": [
+                1,
+                6
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "103|103",
+            "effectTypeGroup": "0|0",
+            "buffFix": 1,
+            "iconName": "Buff_Stun",
+            "isShow": true,
+            "buffHeadShow": 17,
+            "isLoop": "1|1"
         },
         {
             "id": 72011201,
@@ -26464,6 +27220,42 @@
             "buffHeadShow": 1
         },
         {
+            "id": 105808212,
+            "name": "先机察觉",
+            "description": "受到物理攻击时防御力降低<color=#f26c1c>10%</color>。防御类减益不可驱散。",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_DefLow",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 105808222,
+            "name": "先机察觉",
+            "description": "受到物理攻击时防御力降低<color=#f26c1c>20%</color>。防御类减益不可驱散。",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_DefLow",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
+        },
+        {
             "id": 201000041,
             "name": "烽火连绵",
             "description": "造成的稳态伤害提高<color=#f26c1c>1点</color>，至多叠加<color=#f26c1c>6层</color>。增益不可驱散。",
@@ -28189,6 +28981,42 @@
             "isLoop": "0"
         },
         {
+            "id": 648715011,
+            "name": "异位猎杀",
+            "description": "免疫<color=#f26c1c>异位</color>伤害。",
+            "iconName": "Buff_Invincible",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 99
+        },
+        {
+            "id": 648725011,
+            "name": "实兵逐戮",
+            "description": "免疫<color=#f26c1c>物理</color>伤害。",
+            "iconName": "Buff_Invincible",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 99
+        },
+        {
+            "id": 648815011,
+            "name": "异位猎杀",
+            "description": "免疫<color=#f26c1c>异位</color>伤害。",
+            "iconName": "Buff_Invincible",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 99
+        },
+        {
+            "id": 648825011,
+            "name": "实兵逐戮",
+            "description": "免疫<color=#f26c1c>物理</color>伤害。",
+            "iconName": "Buff_Invincible",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 99
+        },
+        {
             "id": 655280102,
             "name": "幻光躯壳",
             "description": "受到伤害降低<color=#f26c1c>100%</color>，增益不可驱散。",
@@ -28227,6 +29055,44 @@
             "iconName": "Buff_SelfHeal",
             "isShow": true,
             "buffHeadShow": 1
+        },
+        {
+            "id": 677914021,
+            "name": "",
+            "description": "",
+            "buffEffect": "Skill/6779401_Control1",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "2",
+            "effectBirthType": "202",
+            "isLoop": "1"
+        },
+        {
+            "id": 678014021,
+            "name": "",
+            "description": "",
+            "buffEffect": "Skill/6780401_Control1",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "2",
+            "effectBirthType": "203",
+            "isLoop": "1"
         },
         {
             "id": 686350151,

@@ -2628,6 +2628,58 @@
             "weaponTag": 8
         },
         {
+            "id": 2063,
+            "enemyCamp": 1099,
+            "duty": 1,
+            "skillNormalAttack": 5063101,
+            "rank": 1,
+            "propertyGroup": 209201,
+            "name": "UMP40",
+            "joke": "",
+            "trapDescription": "",
+            "description": "从心智记录中重新“诞生”出的人形，是活泼开朗的小太阳，也是坚强果断的战士。虽然外貌与性格看似和从前别无二致，但UMP40清楚，模拟出的过去并不是她的全部，眼前的未来还有着无限可能。心智中的大量空白，正等待她用新的体验填满；而已经写入数据的那部分，她好好记录着她和莱娅、和你、和大家的羁绊。\n“指挥官，今天也来一起晒太阳吧~”",
+            "textIndex": [
+                3
+            ],
+            "characterPic": "LeneSSR",
+            "modelCode": 5063,
+            "moveCode": 27,
+            "occupySize": 1,
+            "aiOrder": 200,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "enemyType": 2,
+            "dzOpenBattle": 10470101,
+            "btPath": "BT/GunBT/1058/MainBT_1058.bt",
+            "weakTag": "2",
+            "supressGroup": [
+                6,
+                4,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "UMP40",
+            "nonMultimove": true,
+            "showPotential": true,
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "defaultClothId": 1105800,
+            "weakWeaponTag": 2,
+            "weaponTag": 2
+        },
+        {
             "id": 6141,
             "enemyCamp": 1001,
             "duty": 1,
@@ -3659,6 +3711,7 @@
                 8
             ],
             "idleType": 1,
+            "enemyType": 1,
             "dzOpenBattle": 61751101,
             "btPath": "BT/BOSSBT/6175/BOSSBT_Berserker.bt",
             "weakTag": "5,1",
@@ -7472,6 +7525,76 @@
             "guardRadius": 500,
             "guardRadiusShow": 1,
             "weakWeaponTag": 14
+        },
+        {
+            "id": 6781,
+            "enemyCamp": 1099,
+            "duty": 1,
+            "skillNormalAttack": 6781101,
+            "skillActive": 6781201,
+            "skillTalent": 6781601,
+            "skillActiveExtra": [
+                6781202,
+                6781203,
+                6781301,
+                6781401,
+                6781501
+            ],
+            "skillTalentExtra": [
+                6781701,
+                6151501,
+                910000012,
+                910000015,
+                6781901
+            ],
+            "aiList": [
+                678101
+            ],
+            "rank": 3,
+            "propertyGroup": 209301,
+            "name": "神秘女孩",
+            "joke": "有时候残缺会更具效率，这个丢弃了多余的感情和逻辑的人格，只剩下侵蚀宿主的本能热望。",
+            "trapDescription": "",
+            "description": "莱娅心智中由故障数据重组而成的虚拟人格，以改写莱娅的心智为使命，具有驱使其他冗余数据造物的能力。受心智空间的不稳定影响，该人格情绪波动较大，智力也有所残缺，大多数时间仅依凭本能而行动。",
+            "textIndex": [
+                7,
+                13,
+                14,
+                23
+            ],
+            "characterPic": "UnsearchableGirl",
+            "modelCode": 6781,
+            "moveCode": 1,
+            "occupySize": 3,
+            "aiOrder": 25,
+            "useFakeAttack": true,
+            "shieldType": 2,
+            "attackType": 1,
+            "beSupressedConfig": [
+                80000001,
+                2,
+                1000,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "enemyType": 1,
+            "dzOpenBattle": 6781101,
+            "btPath": "BT/BOSSBT/6781/BOSSBT_6781.bt",
+            "weakTag": "2,3",
+            "supressGroup": [
+                3,
+                4,
+                0,
+                2,
+                1,
+                0,
+                0
+            ],
+            "nameOnBar": "神秘女孩",
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 2
         },
         {
             "id": 6784,
@@ -13676,7 +13799,7 @@
             "trapDescription": "残留暗流",
             "description": "性格孤僻暴烈，钟爱独处，没事最好不要去打扰它。",
             "textIndex": [
-                9
+                17
             ],
             "characterPic": "JerricanWater",
             "modelCode": 7010,
@@ -13726,7 +13849,7 @@
             "trapDescription": "残留暗流",
             "description": "性格孤僻暴烈，钟爱独处，没事最好不要去打扰它。",
             "textIndex": [
-                9
+                17
             ],
             "characterPic": "JerricanWater",
             "modelCode": 7010,
@@ -13770,13 +13893,13 @@
                 80000002
             ],
             "rank": 1,
-            "propertyGroup": 300801,
-            "name": "冷凝体（定身版）",
-            "joke": "脾气不好，易燃易爆。",
-            "trapDescription": "残留暗流",
-            "description": "性格孤僻暴烈，钟爱独处，没事最好不要去打扰它。",
+            "propertyGroup": 301701,
+            "name": "零度结晶体",
+            "joke": "轻轻碰一下，心智都快要感冒了。",
+            "trapDescription": "造成冻僵",
+            "description": "由失控的环境改造装置催生的产物，因此总是成堆出现在同一个区域中，贪婪地吞噬着周遭环境中的稀薄热量，一旦独行的旅人误触，往往难以脱困。",
             "textIndex": [
-                9
+                17
             ],
             "characterPic": "Toad_Ice",
             "modelCode": 96345,
@@ -13803,7 +13926,7 @@
                 0,
                 0
             ],
-            "nameOnBar": "冷凝体",
+            "nameOnBar": "零度结晶体",
             "guardRadius": 100,
             "guardRadiusShow": 1,
             "feature": 1
@@ -13826,7 +13949,7 @@
             "trapDescription": "残留暗流",
             "description": "性格孤僻暴烈，钟爱独处，没事最好不要去打扰它。",
             "textIndex": [
-                9
+                17
             ],
             "characterPic": "JerricanWater",
             "modelCode": 7010,
@@ -13876,7 +13999,7 @@
             "trapDescription": "残留暗流",
             "description": "性格孤僻暴烈，钟爱独处，没事最好不要去打扰它。",
             "textIndex": [
-                9
+                17
             ],
             "characterPic": "JerricanWater",
             "modelCode": 7010,
@@ -13920,13 +14043,13 @@
                 80000002
             ],
             "rank": 1,
-            "propertyGroup": 300801,
-            "name": "冷凝体（定身版）",
-            "joke": "脾气不好，易燃易爆。",
-            "trapDescription": "残留暗流",
-            "description": "性格孤僻暴烈，钟爱独处，没事最好不要去打扰它。",
+            "propertyGroup": 301702,
+            "name": "零度结晶体",
+            "joke": "轻轻碰一下，心智都快要感冒了。",
+            "trapDescription": "造成冻僵",
+            "description": "由失控的环境改造装置催生的产物，因此总是成堆出现在同一个区域中，贪婪地吞噬着周遭环境中的稀薄热量，一旦独行的旅人误触，往往难以脱困。",
             "textIndex": [
-                9
+                17
             ],
             "characterPic": "Toad_Ice",
             "modelCode": 96345,
@@ -13953,10 +14076,114 @@
                 0,
                 0
             ],
-            "nameOnBar": "冷凝体",
+            "nameOnBar": "零度结晶体",
             "guardRadius": 100,
             "guardRadiusShow": 1,
             "feature": 1
+        },
+        {
+            "id": 7034,
+            "enemyCamp": 1099,
+            "duty": 1,
+            "skillTalent": 7034101,
+            "skillTalentExtra": [
+                910000011,
+                910000010,
+                910000013,
+                910000014,
+                70110701
+            ],
+            "rank": 1,
+            "propertyGroup": 300601,
+            "name": "化学油桶",
+            "joke": "离它远点，除非你想用它起飞。",
+            "trapDescription": "触发爆炸",
+            "description": "被引爆前，它只是一个安静的、无害的、装满化学液体的储液桶。被引爆前。",
+            "textIndex": [
+                6
+            ],
+            "characterPic": "Jerrican",
+            "modelCode": 7004,
+            "occupySize": 1,
+            "aiOrder": 250,
+            "trap": true,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "btPath": "BT/MainBT/MainBT_0.bt",
+            "supressGroup": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "化学油桶",
+            "guardRadius": 100,
+            "guardRadiusShow": 1,
+            "feature": 1
+        },
+        {
+            "id": 7035,
+            "enemyCamp": 1003,
+            "duty": 1,
+            "skillNormalAttack": 6312000,
+            "skillTalent": 7035101,
+            "skillTalentExtra": [
+                7035111
+            ],
+            "rank": 1,
+            "propertyGroup": 100701,
+            "name": "歌利亚·震荡型",
+            "joke": "要是不想落到坑里，就千万不要站在它身边。",
+            "trapDescription": "",
+            "description": "铁血工造技术代表作的特化版本，会在自爆时释放巨大的冲击波，将周围的敌人击退。",
+            "textIndex": [
+                1
+            ],
+            "characterPic": "Golyat",
+            "modelCode": 6312,
+            "moveCode": 1,
+            "occupySize": 1,
+            "aiOrder": 350,
+            "shieldType": 1,
+            "attackType": 2,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "dzOpenBattle": 6312900,
+            "btPath": "BT/MainBT/MainBT_6312.bt",
+            "weakTag": "5",
+            "supressGroup": [
+                3,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "歌利亚·震荡型",
+            "guardRadius": 300,
+            "guardRadiusShow": 1,
+            "ignorePlayer1Skill": true,
+            "weakWeaponTag": 12,
+            "weakMap": 63121
         },
         {
             "id": 7101,
@@ -15949,6 +16176,7 @@
                 8
             ],
             "idleType": 1,
+            "enemyType": 1,
             "dzOpenBattle": 61751101,
             "btPath": "BT/BOSSBT/6175/BOSSBT_Berserker.bt",
             "weakTag": "5,1",
@@ -16021,6 +16249,7 @@
                 8
             ],
             "idleType": 1,
+            "enemyType": 1,
             "dzOpenBattle": 61751101,
             "btPath": "BT/BOSSBT/61752/BOSSBT_Berserker_expand_31.bt",
             "weakTag": "5",
@@ -17513,6 +17742,63 @@
             "guardRadiusShow": 1,
             "weakWeaponTag": 56,
             "weakMap": 62452
+        },
+        {
+            "id": 62501,
+            "enemyCamp": 1002,
+            "duty": 3,
+            "skillNormalAttack": 6250101,
+            "skillTalent": 6250221,
+            "skillTalentExtra": [
+                6250301,
+                910000019,
+                80000002
+            ],
+            "rank": 2,
+            "propertyGroup": 151701,
+            "name": "黑水哭蝶",
+            "joke": "蝴蝶扇动翅膀，降下黑色灾雾。",
+            "trapDescription": "",
+            "description": "依靠巨大腹腔漂浮的大型蝴蝶。腹腔内异变的消化系统让它可以分泌黑色的腐蚀性液体，混合着水分排出体外，化为弥散着“不祥”氛围的黑色水雾。",
+            "textIndex": [
+                1,
+                12,
+                28,
+                48
+            ],
+            "characterPic": "EliteButterfly",
+            "modelCode": 6250,
+            "moveCode": 7,
+            "occupySize": 1,
+            "aiOrder": 180,
+            "useFakeAttack": true,
+            "shieldType": 1,
+            "attackType": 2,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 2,
+            "dzOpenBattle": 6250101,
+            "btPath": "BT/MainBT/MainBT_6114.bt",
+            "weakTag": "2",
+            "supressGroup": [
+                4,
+                2,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "精锐·黑水哭蝶",
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 8
         },
         {
             "id": 62821,
@@ -22363,6 +22649,258 @@
             "weakWeaponTag": 34
         },
         {
+            "id": 64871,
+            "enemyCamp": 1004,
+            "duty": 1,
+            "skillActive": 64871101,
+            "skillTalent": 6481500,
+            "skillActiveExtra": [
+                64871201,
+                64871301,
+                64871401,
+                64871402,
+                64871403
+            ],
+            "skillTalentExtra": [
+                6481501,
+                64871501,
+                64871502,
+                64871601,
+                6151501,
+                80000002,
+                910000015
+            ],
+            "aiList": [
+                6487101
+            ],
+            "dzAiList": [
+                6487101
+            ],
+            "rank": 3,
+            "propertyGroup": 209401,
+            "name": "徒士-137",
+            "joke": "擅长团队合作，对象仅限徒士--212。",
+            "trapDescription": "",
+            "description": "皮糙肉厚，膘肥体壮，是体型最庞大的战士。",
+            "textIndex": [
+                13,
+                41
+            ],
+            "characterPic": "Bellator",
+            "modelCode": 6481,
+            "moveCode": 11,
+            "occupySize": 1,
+            "aiOrder": 50,
+            "useFakeAttack": true,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                2,
+                1000,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "dzOpenBattle": 6481102,
+            "btPath": "BT/BOSSBT/64871/BOSSBT_64871.bt",
+            "nameOnBar": "徒士-137",
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 10
+        },
+        {
+            "id": 64872,
+            "enemyCamp": 1004,
+            "duty": 1,
+            "skillActive": 64872101,
+            "skillTalent": 6482500,
+            "skillActiveExtra": [
+                64872201,
+                64872301,
+                64872401,
+                64871403,
+                64871404
+            ],
+            "skillTalentExtra": [
+                6482501,
+                6484600,
+                64872501,
+                64872502,
+                6151501,
+                80000002,
+                910000015
+            ],
+            "aiList": [
+                6487201
+            ],
+            "dzAiList": [
+                6487201
+            ],
+            "rank": 3,
+            "propertyGroup": 209402,
+            "name": "徒士-212",
+            "joke": "在独立思考这方面，他和徒士--137不相上下。",
+            "trapDescription": "",
+            "description": "与徒士--137一样，拥有极其强壮的身体。但这并没有为他带来安全，反而加速了他的死亡。",
+            "textIndex": [
+                13,
+                41
+            ],
+            "characterPic": "BellatorBlack",
+            "modelCode": 6482,
+            "moveCode": 11,
+            "occupySize": 1,
+            "aiOrder": 60,
+            "useFakeAttack": true,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                2,
+                1000,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "dzOpenBattle": 6482102,
+            "btPath": "BT/BOSSBT/64872/BOSSBT_64872.bt",
+            "weakTag": "1,3",
+            "nameOnBar": "徒士-212",
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 10
+        },
+        {
+            "id": 64881,
+            "enemyCamp": 1004,
+            "duty": 1,
+            "skillActive": 64881101,
+            "skillTalent": 6481500,
+            "skillActiveExtra": [
+                64881201,
+                64881301,
+                64881401,
+                64881402,
+                64871403,
+                64881503
+            ],
+            "skillTalentExtra": [
+                6481501,
+                64881501,
+                64871502,
+                64881601,
+                6151501,
+                80000002,
+                910000015
+            ],
+            "aiList": [
+                6488101
+            ],
+            "dzAiList": [
+                6488101
+            ],
+            "rank": 3,
+            "propertyGroup": 209403,
+            "name": "徒士-137",
+            "joke": "擅长团队合作，对象仅限徒士--212。",
+            "trapDescription": "",
+            "description": "皮糙肉厚，膘肥体壮，是体型最庞大的战士。",
+            "textIndex": [
+                13,
+                41
+            ],
+            "characterPic": "Bellator",
+            "modelCode": 6481,
+            "moveCode": 11,
+            "occupySize": 1,
+            "aiOrder": 50,
+            "useFakeAttack": true,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                2,
+                1000,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "dzOpenBattle": 6481102,
+            "btPath": "BT/BOSSBT/64881/BOSSBT_64881.bt",
+            "nameOnBar": "徒士-137",
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 10
+        },
+        {
+            "id": 64882,
+            "enemyCamp": 1004,
+            "duty": 1,
+            "skillActive": 64882101,
+            "skillTalent": 6482500,
+            "skillActiveExtra": [
+                64882201,
+                64882301,
+                64882401,
+                64871403,
+                64871404,
+                64882503
+            ],
+            "skillTalentExtra": [
+                6482501,
+                6484600,
+                64882501,
+                64872502,
+                6151501,
+                80000002,
+                910000015
+            ],
+            "aiList": [
+                6488201
+            ],
+            "dzAiList": [
+                6488201
+            ],
+            "rank": 3,
+            "propertyGroup": 209404,
+            "name": "徒士-212",
+            "joke": "在独立思考这方面，他和徒士--137不相上下。",
+            "trapDescription": "",
+            "description": "与徒士--137一样，拥有极其强壮的身体。但这并没有为他带来安全，反而加速了他的死亡。",
+            "textIndex": [
+                13,
+                41
+            ],
+            "characterPic": "BellatorBlack",
+            "modelCode": 6482,
+            "moveCode": 11,
+            "occupySize": 1,
+            "aiOrder": 60,
+            "useFakeAttack": true,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                2,
+                1000,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "dzOpenBattle": 6482102,
+            "btPath": "BT/BOSSBT/64882/BOSSBT_64882.bt",
+            "weakTag": "2,3",
+            "nameOnBar": "徒士-212",
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 10
+        },
+        {
             "id": 65011,
             "enemyCamp": 1005,
             "duty": 1,
@@ -25389,6 +25927,387 @@
             "guardRadius": 500,
             "guardRadiusShow": 1,
             "weakWeaponTag": 14
+        },
+        {
+            "id": 67791,
+            "enemyCamp": 1099,
+            "duty": 1,
+            "skillNormalAttack": 67791101,
+            "skillTalent": 67791401,
+            "skillTalentExtra": [
+                67791501
+            ],
+            "rank": 1,
+            "propertyGroup": 115801,
+            "name": "无序幽灵一型",
+            "joke": "重复进行的崩溃与拼接，是对自我建构的拙劣模仿。",
+            "trapDescription": "",
+            "description": "由冗余数据所形成的数据生命。在初期它不具备有序性，也不存在知性或行为目的，只会无序地游荡于二级平层中。然而一旦被观测，它就会立即展现出纯粹的攻击性。",
+            "textIndex": [
+                1
+            ],
+            "characterPic": "DisorderGhost",
+            "modelCode": 6779,
+            "moveCode": 3,
+            "occupySize": 1,
+            "aiOrder": 50,
+            "useFakeAttack": true,
+            "shieldType": 2,
+            "attackType": 2,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "dzOpenBattle": 67791101,
+            "btPath": "BT/MainBT/MainBT_6779.bt",
+            "weakTag": "2,3",
+            "supressGroup": [
+                3,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "无序幽灵Ⅰ",
+            "guardRadius": 700,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 2
+        },
+        {
+            "id": 67792,
+            "enemyCamp": 1099,
+            "duty": 1,
+            "skillNormalAttack": 67791101,
+            "skillTalent": 67792201,
+            "skillTalentExtra": [
+                67791401,
+                67791501
+            ],
+            "rank": 1,
+            "propertyGroup": 115802,
+            "name": "无序幽灵二型",
+            "joke": "重复进行的崩溃与拼接，是对自我建构的拙劣模仿。",
+            "trapDescription": "",
+            "description": "由冗余数据所形成的数据生命。在初期它不具备有序性，也不存在知性或行为目的，只会无序地游荡于二级平层中。然而一旦被观测，它就会立即展现出纯粹的攻击性。",
+            "textIndex": [
+                1
+            ],
+            "characterPic": "DisorderGhost",
+            "modelCode": 6779,
+            "moveCode": 3,
+            "occupySize": 1,
+            "aiOrder": 50,
+            "useFakeAttack": true,
+            "shieldType": 2,
+            "attackType": 2,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "dzOpenBattle": 67791101,
+            "btPath": "BT/MainBT/MainBT_6779.bt",
+            "weakTag": "2,3",
+            "supressGroup": [
+                3,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "无序幽灵Ⅱ",
+            "guardRadius": 700,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 2
+        },
+        {
+            "id": 67793,
+            "enemyCamp": 1099,
+            "duty": 1,
+            "skillNormalAttack": 67791101,
+            "skillTalent": 67792201,
+            "skillTalentExtra": [
+                67793301,
+                67791401,
+                67791501
+            ],
+            "rank": 1,
+            "propertyGroup": 115803,
+            "name": "无序幽灵三型",
+            "joke": "重复进行的崩溃与拼接，是对自我建构的拙劣模仿。",
+            "trapDescription": "",
+            "description": "由冗余数据所形成的数据生命。在初期它不具备有序性，也不存在知性或行为目的，只会无序地游荡于二级平层中。然而一旦被观测，它就会立即展现出纯粹的攻击性。",
+            "textIndex": [
+                1
+            ],
+            "characterPic": "DisorderGhost",
+            "modelCode": 6779,
+            "moveCode": 3,
+            "occupySize": 1,
+            "aiOrder": 50,
+            "useFakeAttack": true,
+            "shieldType": 2,
+            "attackType": 2,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "dzOpenBattle": 67791101,
+            "btPath": "BT/MainBT/MainBT_6779.bt",
+            "weakTag": "2,3",
+            "supressGroup": [
+                3,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "无序幽灵III",
+            "guardRadius": 700,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 2
+        },
+        {
+            "id": 67801,
+            "enemyCamp": 1099,
+            "duty": 1,
+            "skillNormalAttack": 67801101,
+            "skillTalent": 67801201,
+            "skillTalentExtra": [
+                67801401
+            ],
+            "rank": 1,
+            "propertyGroup": 115901,
+            "name": "定序幽灵一型",
+            "joke": "它时常幻想，或许有一天自己也能升格为拥有数字化身的女主角。",
+            "trapDescription": "",
+            "description": "在无序幽灵自我复制过程中，偶然出现的相对稳定阶段。具有一定的自主行为逻辑，演化出了在安全距离进行攻击的自保意识。",
+            "textIndex": [
+                2
+            ],
+            "characterPic": "SequenceGhost",
+            "modelCode": 6780,
+            "moveCode": 3,
+            "occupySize": 1,
+            "aiOrder": 100,
+            "useFakeAttack": true,
+            "shieldType": 2,
+            "attackType": 2,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "dzOpenBattle": 67801101,
+            "btPath": "BT/MainBT/MainBT_6780.bt",
+            "weakTag": "2,3",
+            "supressGroup": [
+                4,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "定序幽灵Ⅰ",
+            "guardRadius": 700,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 2
+        },
+        {
+            "id": 67802,
+            "enemyCamp": 1099,
+            "duty": 1,
+            "skillNormalAttack": 67801101,
+            "skillTalent": 67801201,
+            "skillTalentExtra": [
+                67802301,
+                67801401
+            ],
+            "rank": 1,
+            "propertyGroup": 115902,
+            "name": "定序幽灵二型",
+            "joke": "它时常幻想，或许有一天自己也能升格为拥有数字化身的女主角。",
+            "trapDescription": "",
+            "description": "在无序幽灵自我复制过程中，偶然出现的相对稳定阶段。具有一定的自主行为逻辑，演化出了在安全距离进行攻击的自保意识。",
+            "textIndex": [
+                2
+            ],
+            "characterPic": "SequenceGhost",
+            "modelCode": 6780,
+            "moveCode": 3,
+            "occupySize": 1,
+            "aiOrder": 100,
+            "useFakeAttack": true,
+            "shieldType": 2,
+            "attackType": 2,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "dzOpenBattle": 67801101,
+            "btPath": "BT/MainBT/MainBT_6780.bt",
+            "weakTag": "2,3",
+            "supressGroup": [
+                4,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "定序幽灵Ⅱ",
+            "guardRadius": 700,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 2
+        },
+        {
+            "id": 67803,
+            "enemyCamp": 1099,
+            "duty": 1,
+            "skillNormalAttack": 67801101,
+            "skillTalent": 67803201,
+            "skillTalentExtra": [
+                67802301,
+                67801401
+            ],
+            "rank": 1,
+            "propertyGroup": 115903,
+            "name": "定序幽灵三型",
+            "joke": "它时常幻想，或许有一天自己也能升格为拥有数字化身的女主角。",
+            "trapDescription": "",
+            "description": "在无序幽灵自我复制过程中，偶然出现的相对稳定阶段。具有一定的自主行为逻辑，演化出了在安全距离进行攻击的自保意识。",
+            "textIndex": [
+                2
+            ],
+            "characterPic": "SequenceGhost",
+            "modelCode": 6780,
+            "moveCode": 3,
+            "occupySize": 1,
+            "aiOrder": 100,
+            "useFakeAttack": true,
+            "shieldType": 2,
+            "attackType": 2,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "dzOpenBattle": 67801101,
+            "btPath": "BT/MainBT/MainBT_6780.bt",
+            "weakTag": "2,3",
+            "supressGroup": [
+                4,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "定序幽灵III",
+            "guardRadius": 700,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 2
+        },
+        {
+            "id": 67811,
+            "enemyCamp": 1099,
+            "duty": 1,
+            "skillNormalAttack": 6781101,
+            "skillActive": 67811201,
+            "skillTalent": 6781601,
+            "skillActiveExtra": [
+                67811202,
+                67811203,
+                6781301,
+                67811401,
+                6781501
+            ],
+            "skillTalentExtra": [
+                67811701,
+                6151501,
+                910000012,
+                910000015,
+                67811901
+            ],
+            "aiList": [
+                6781101
+            ],
+            "rank": 3,
+            "propertyGroup": 209302,
+            "name": "神秘女孩",
+            "joke": "有时候残缺会更具效率，这个丢弃了多余的感情和逻辑的人格，只剩下侵蚀宿主的本能热望。",
+            "trapDescription": "",
+            "description": "莱娅心智中由故障数据重组而成的虚拟人格，以改写莱娅的心智为使命，具有驱使其他冗余数据造物的能力。受心智空间的不稳定影响，该人格情绪波动较大，智力也有所残缺，大多数时间仅依凭本能而行动。",
+            "textIndex": [
+                7,
+                13,
+                14,
+                23
+            ],
+            "characterPic": "UnsearchableGirl",
+            "modelCode": 6781,
+            "moveCode": 1,
+            "occupySize": 3,
+            "aiOrder": 25,
+            "useFakeAttack": true,
+            "shieldType": 2,
+            "attackType": 1,
+            "beSupressedConfig": [
+                80000001,
+                2,
+                1000,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "enemyType": 1,
+            "dzOpenBattle": 6781101,
+            "btPath": "BT/BOSSBT/67811/BOSSBT_67811.bt",
+            "weakTag": "2,3",
+            "supressGroup": [
+                3,
+                4,
+                0,
+                2,
+                1,
+                0,
+                0
+            ],
+            "nameOnBar": "神秘女孩",
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 2
         },
         {
             "id": 68512,
@@ -28532,6 +29451,72 @@
             "guardRadius": 500,
             "guardRadiusShow": 1,
             "weakWeaponTag": 6
+        },
+        {
+            "id": 286175,
+            "enemyCamp": 1001,
+            "duty": 1,
+            "skillNormalAttack": 261751101,
+            "skillActive": 261751301,
+            "skillTalent": 61751501,
+            "skillActiveExtra": [
+                261751401,
+                617515011
+            ],
+            "skillTalentExtra": [
+                61751701
+            ],
+            "aiList": [
+                617501,
+                617502
+            ],
+            "dzAiList": [
+                617501,
+                617502
+            ],
+            "rank": 3,
+            "propertyGroup": 208204,
+            "name": "狂战者",
+            "joke": "只有活腻了的家伙，才会去驾驶这玩意！",
+            "trapDescription": "",
+            "description": "由劫掠而来的半自律型机械改装而成的骇人武器。在历经瓦良格帮所谓的风格化改装折腾下变成了如今棘熊的样子。尽管从各个层面来看都是负优化，但得益赖于其原有的卓越品质，其火力及战斗力仍处于基本水准之上。",
+            "textIndex": [
+                13,
+                14
+            ],
+            "characterPic": "Berserker",
+            "modelCode": 6175,
+            "moveCode": 1,
+            "occupySize": 3,
+            "aiOrder": 50,
+            "useFakeAttack": true,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                2,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "enemyType": 1,
+            "dzOpenBattle": 61751101,
+            "btPath": "BT/BOSSBT/286175/BOSSBT_Berserker_expand_35.bt",
+            "weakTag": "5,1",
+            "supressGroup": [
+                3,
+                3,
+                4,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "狂战者",
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 10
         },
         {
             "id": 611011,
@@ -34705,6 +35690,111 @@
             "weakWeaponTag": 4
         },
         {
+            "id": 2162013,
+            "enemyCamp": 1002,
+            "duty": 1,
+            "skillNormalAttack": 62011101,
+            "skillActive": 216201201,
+            "skillTalent": 6201200,
+            "skillTalentExtra": [
+                6201301,
+                910000020
+            ],
+            "rank": 2,
+            "propertyGroup": 602025,
+            "name": "疫变锤岩蟾蜍·冷凝",
+            "joke": "嘘，不要惊扰它！难道你的稳态是批发的？！",
+            "trapDescription": "",
+            "description": "乍看之下，它与寻常锤岩蟾蜍无异，仅能通过微小的跃动来挪移其僵硬的躯体。然而，这看似笨拙的生物实则是战场上的稳态收割者。",
+            "textIndex": [
+                17
+            ],
+            "characterPic": "Thutoad_Ice",
+            "modelCode": 6201,
+            "moveCode": 1,
+            "occupySize": 1,
+            "aiOrder": 510,
+            "attackType": 2,
+            "element": 7,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "dzOpenBattle": 62011101,
+            "btPath": "BT/MainBT/MainBT_62113.bt",
+            "weakTag": "5",
+            "supressGroup": [
+                4,
+                3,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "疫变锤岩蟾蜍·冷凝",
+            "guardRadius": 700,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 40,
+            "weakMap": 62013,
+            "feature": 1
+        },
+        {
+            "id": 2162113,
+            "enemyCamp": 1002,
+            "duty": 1,
+            "skillNormalAttack": 6211201,
+            "skillActive": 216211321,
+            "skillTalent": 910000020,
+            "rank": 2,
+            "propertyGroup": 602026,
+            "name": "疫变锤岩蟾蜍·酸蚀",
+            "joke": "嘘，不要惊扰它！难道你的稳态是批发的？！",
+            "trapDescription": "",
+            "description": "乍看之下，它与寻常锤岩蟾蜍无异，仅能通过微小的跃动来挪移其僵硬的躯体。然而，这看似笨拙的生物实则是战场上的稳态收割者。",
+            "textIndex": [
+                2,
+                9
+            ],
+            "characterPic": "Thutoad_Poison",
+            "modelCode": 6211,
+            "moveCode": 1,
+            "occupySize": 1,
+            "aiOrder": 250,
+            "attackType": 2,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "dzOpenBattle": 6211201,
+            "btPath": "BT/MainBT/MainBT_62112.bt",
+            "weakTag": "3",
+            "supressGroup": [
+                4,
+                2,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "疫变锤岩蟾蜍·酸蚀",
+            "guardRadius": 700,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 10,
+            "weakMap": 62113,
+            "feature": 1
+        },
+        {
             "id": 2164203,
             "enemyCamp": 1004,
             "duty": 1,
@@ -35367,7 +36457,7 @@
             "aiOrder": 200,
             "shieldType": 1,
             "attackType": 1,
-            "element": 4,
+            "element": 1,
             "beSupressedConfig": [
                 80000001,
                 9999,
@@ -35426,7 +36516,7 @@
             "aiOrder": 200,
             "shieldType": 1,
             "attackType": 1,
-            "element": 4,
+            "element": 1,
             "beSupressedConfig": [
                 80000001,
                 9999,
@@ -35485,7 +36575,7 @@
             "aiOrder": 200,
             "shieldType": 1,
             "attackType": 1,
-            "element": 2,
+            "element": 1,
             "beSupressedConfig": [
                 80000001,
                 9999,
@@ -35544,7 +36634,7 @@
             "aiOrder": 200,
             "shieldType": 1,
             "attackType": 1,
-            "element": 2,
+            "element": 1,
             "beSupressedConfig": [
                 80000001,
                 9999,
