@@ -2680,6 +2680,162 @@
             "weaponTag": 2
         },
         {
+            "id": 2064,
+            "enemyCamp": 1099,
+            "duty": 2,
+            "skillNormalAttack": 10010101,
+            "skillActive": 10010501,
+            "skillTalent": 10010801,
+            "skillActiveExtra": [
+                10010701,
+                10010401
+            ],
+            "skillTalentExtra": [
+                10010811,
+                100105011
+            ],
+            "rank": 3,
+            "propertyGroup": 80010,
+            "name": "캐롤릭",
+            "joke": "",
+            "trapDescription": "",
+            "description": "성격이 약간 까칠한 인형. 자신과 상관 없는 일에는 흥미가 없지만, 책임감만큼은 흠잡을 곳이 없습니다. \"네메시스 전속 통역사\" 같은, 내키지 않는 임무에도 노력을 아끼지 않을 정도로 말이죠.",
+            "textIndex": [
+                3,
+                7
+            ],
+            "characterPic": "CharolicSR",
+            "modelCode": 5031,
+            "moveCode": 27,
+            "occupySize": 1,
+            "aiOrder": 200,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "enemyType": 2,
+            "dzOpenBattle": 10010101,
+            "btPath": "BT/GunBT/1001/MainBT_1001.bt",
+            "weakTag": "4",
+            "supressGroup": [
+                6,
+                4,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "캐롤릭",
+            "nonMultimove": true,
+            "showPotential": true,
+            "guardRadius": 300,
+            "guardRadiusShow": 1,
+            "defaultClothId": 1100100,
+            "weakWeaponTag": 32,
+            "weaponTag": 16
+        },
+        {
+            "id": 2065,
+            "enemyCamp": 1099,
+            "duty": 3,
+            "skillNormalAttack": 5064101,
+            "rank": 1,
+            "propertyGroup": 209202,
+            "name": "芙洛伦",
+            "joke": "",
+            "trapDescription": "",
+            "description": "热衷于追求刺激与愉悦的医疗人形，性格坦率而又擅于引诱。同时兼备高超的医疗技术与对于药剂调配的热忱，只不过，由于其性格原因，这份热情往往令人难以承受。\n“这颗药，和这支注射器，以及我的惩罚，你想选哪一个呢？不论哪个都会非常舒服的哦。”",
+            "textIndex": [
+                3
+            ],
+            "characterPic": "FlorenceSSR",
+            "modelCode": 5064,
+            "moveCode": 27,
+            "occupySize": 1,
+            "aiOrder": 200,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "enemyType": 2,
+            "dzOpenBattle": 10470101,
+            "btPath": "BT/GunBT/1064/MainBT_1064.bt",
+            "weakTag": "4",
+            "supressGroup": [
+                6,
+                4,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "芙洛伦",
+            "nonMultimove": true,
+            "showPotential": true,
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "defaultClothId": 1106400,
+            "weakWeaponTag": 32,
+            "weaponTag": 2
+        },
+        {
+            "id": 2066,
+            "enemyCamp": 1099,
+            "skillNormalAttack": 106410101,
+            "rank": 1,
+            "propertyGroup": 209202,
+            "name": "阿利奥斯",
+            "joke": "",
+            "trapDescription": "",
+            "description": "",
+            "modelCode": 10641,
+            "moveCode": 27,
+            "occupySize": 1,
+            "aiOrder": 200,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "btPath": "BT/MainBT/MainBT_0.bt",
+            "supressGroup": [
+                6,
+                4,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "阿利奥斯",
+            "nonMultimove": true,
+            "showPotential": true,
+            "guardRadius": 500,
+            "guardRadiusShow": 1
+        },
+        {
             "id": 6141,
             "enemyCamp": 1001,
             "duty": 1,
@@ -3673,7 +3829,8 @@
             "skillTalentExtra": [
                 61751601,
                 6151501,
-                61751701
+                61751701,
+                910000012
             ],
             "aiList": [
                 617501,
@@ -7404,7 +7561,8 @@
             "skillTalentExtra": [
                 6773601,
                 6773701,
-                6151501
+                6151501,
+                910000012
             ],
             "aiList": [
                 677301
@@ -10275,7 +10433,7 @@
             "enemyType": 1,
             "dzOpenBattle": 6894101,
             "btPath": "BT/BOSSBT/6894/BOSSBT_BerserkerII.bt",
-            "weakTag": "2,4",
+            "weakTag": "1,5",
             "supressGroup": [
                 3,
                 3,
@@ -12820,6 +12978,62 @@
             "guardRadius": 700,
             "guardRadiusShow": 1,
             "weakWeaponTag": 12
+        },
+        {
+            "id": 6978,
+            "enemyCamp": 1005,
+            "duty": 1,
+            "skillNormalAttack": 6541101,
+            "skillTalent": 6978101,
+            "skillTalentExtra": [
+                910000019
+            ],
+            "dzAiList": [
+                611002
+            ],
+            "rank": 2,
+            "propertyGroup": 208904,
+            "name": "생산 장인",
+            "joke": "그녀가 든 채찍을 똑똑히 보세요. 그 뒷모습에 현혹되면 안 됩니다.",
+            "trapDescription": "",
+            "description": "어느 정도 지휘 능력을 가진 특수 방어 기계. 전자 패널로 다른 하급 방어 기계에 명령을 내리고, 자신도 강한 전투 능력을 가지고 있습니다.",
+            "textIndex": [
+                3,
+                12,
+                48
+            ],
+            "characterPic": "HackerGuard",
+            "modelCode": 6541,
+            "moveCode": 11,
+            "occupySize": 1,
+            "aiOrder": 195,
+            "useFakeAttack": true,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "dzOpenBattle": 6541101,
+            "btPath": "BT/MainBT/MainBT_6541.bt",
+            "weakTag": "3",
+            "supressGroup": [
+                3,
+                4,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "생산 장인",
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 16
         },
         {
             "id": 7001,
@@ -16138,7 +16352,8 @@
             "skillTalentExtra": [
                 61751601,
                 6151501,
-                61751701
+                61751701,
+                910000012
             ],
             "aiList": [
                 617503,
@@ -16211,7 +16426,8 @@
                 6151501,
                 61751701,
                 61752401,
-                617522011
+                617522011,
+                910000012
             ],
             "aiList": [
                 6175201,
@@ -25806,7 +26022,8 @@
             "skillTalentExtra": [
                 6773601,
                 6773701,
-                6151501
+                6151501,
+                910000012
             ],
             "aiList": [
                 677301
@@ -25857,6 +26074,74 @@
             "guardRadius": 500,
             "guardRadiusShow": 1,
             "weakWeaponTag": 42
+        },
+        {
+            "id": 67732,
+            "enemyCamp": 1100,
+            "duty": 1,
+            "skillNormalAttack": 6773101,
+            "skillActive": 6773221,
+            "skillTalent": 6773501,
+            "skillActiveExtra": [
+                6773421,
+                6773521
+            ],
+            "skillTalentExtra": [
+                6773601,
+                6773721,
+                6773821,
+                6151501,
+                910000012
+            ],
+            "aiList": [
+                6773201
+            ],
+            "dzAiList": [
+                611002
+            ],
+            "rank": 3,
+            "propertyGroup": 208903,
+            "name": "카오스",
+            "joke": "얼마나 오래 벽에 매달려 있었는지 모른다. 족쇄가 풀리는 순간, 억눌린 광기가 분출하듯 터져 나온다.",
+            "trapDescription": "",
+            "description": "금속 골격과 무장 기계가 결합된, 미지의 지하 연구소가 비밀리에 개발한 3세대 인형 프로토타입. 날카로운 촉수가 여러 갈래 도검을 치켜들고, 치명타를 노린다.",
+            "textIndex": [
+                13,
+                14
+            ],
+            "characterPic": "Chaos",
+            "modelCode": 6773,
+            "moveCode": 1,
+            "occupySize": 3,
+            "aiOrder": 50,
+            "useFakeAttack": true,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                2,
+                1000,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "enemyType": 1,
+            "dzOpenBattle": 6110101,
+            "btPath": "BT/BOSSBT/67732/BOSSBT_Chaos_Expand_37.bt",
+            "weakTag": "5",
+            "supressGroup": [
+                4,
+                2,
+                5,
+                5,
+                3,
+                0
+            ],
+            "nameOnBar": "카오스",
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 40
         },
         {
             "id": 67761,
@@ -28067,6 +28352,59 @@
             "weakWeaponTag": 12
         },
         {
+            "id": 69781,
+            "enemyCamp": 1005,
+            "duty": 1,
+            "skillTalent": 69781101,
+            "skillTalentExtra": [
+                910000023
+            ],
+            "rank": 1,
+            "propertyGroup": 208905,
+            "name": "배양 학자",
+            "joke": "재배와 방어, 어느 것 하나 부족함 없지.",
+            "trapDescription": "",
+            "description": "농업용 자동 무인기를 개조하여 만든 방어 기계. 첨단 재배 기술을 탑재했으며 적을 상대하는 데도 일가견이 있습니다.",
+            "textIndex": [
+                1,
+                7,
+                28
+            ],
+            "characterPic": "ProfFertilizer",
+            "modelCode": 6501,
+            "moveCode": 4,
+            "occupySize": 1,
+            "aiOrder": 560,
+            "shieldType": 1,
+            "attackType": 2,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 2,
+            "displacement": 1,
+            "dzOpenBattle": 6501101,
+            "btPath": "BT/MainBT/69781/MainBT_69781.bt",
+            "weakTag": "1,3",
+            "supressGroup": [
+                3,
+                1,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "배양 학자",
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 12,
+            "weakMap": 65013
+        },
+        {
             "id": 72011,
             "enemyCamp": 1099,
             "duty": 1,
@@ -29464,7 +29802,8 @@
                 617515011
             ],
             "skillTalentExtra": [
-                61751701
+                61751701,
+                910000012
             ],
             "aiList": [
                 617501,
@@ -30450,7 +30789,8 @@
             "skillTalentExtra": [
                 61751601,
                 6151501,
-                61751701
+                61751701,
+                910000012
             ],
             "aiList": [
                 617501,
@@ -35629,6 +35969,60 @@
             "guardRadiusShow": 1,
             "weakWeaponTag": 36,
             "weakMap": 64333
+        },
+        {
+            "id": 2072011,
+            "enemyCamp": 1099,
+            "duty": 1,
+            "skillNormalAttack": 2072011101,
+            "skillTalent": 72011401,
+            "skillTalentExtra": [
+                6151501,
+                910000012,
+                2072011201
+            ],
+            "aiList": [
+                2072011
+            ],
+            "rank": 3,
+            "propertyGroup": 601009,
+            "name": "全能大师",
+            "joke": "大师没有大意，因为不需要闪。",
+            "trapDescription": "",
+            "description": "在危机四伏的污染区，历经了无数的挑战之后，全能大师现已完全掌握了各种作战技巧，领悟了战斗的真谛。",
+            "textIndex": [
+                50,
+                13,
+                14
+            ],
+            "characterPic": "TrainingBot",
+            "modelCode": 7201,
+            "occupySize": 3,
+            "aiOrder": 550,
+            "useFakeAttack": true,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                1000,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "enemyType": 1,
+            "btPath": "BT/BOSSBT/2072011/BOSSBT_2072011.bt",
+            "supressGroup": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "全能大师",
+            "weakWeaponTag": 62
         },
         {
             "id": 2106442,

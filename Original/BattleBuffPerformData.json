@@ -352,9 +352,10 @@
             "isLoop": "0"
         },
         {
-            "id": 424,
-            "name": "残影-测试",
-            "description": "身后挂残影-测试",
+            "id": 441,
+            "name": "米什缇睡觉-测试",
+            "description": "米什缇睡觉-测试",
+            "buffFix": 8,
             "iconName": "Buff_Nogoal"
         },
         {
@@ -1563,6 +1564,54 @@
             "showPriorityIcon": 99
         },
         {
+            "id": 70022,
+            "name": "拓域专研",
+            "description": "场上每有<color=#f26c1c>1名</color>友方单位，友方单位<color=#2caadb>浊刻伤害</color>提高<color=#f26c1c>25%</color>。\n友方单位的防御力提高<color=#f26c1c>15%</color>，受到的稳态伤害降低<color=#f26c1c>1点</color>。",
+            "iconName": "Buff_Strong",
+            "isShow": true,
+            "showPriorityIcon": 99
+        },
+        {
+            "id": 70023,
+            "name": "拓域专研",
+            "description": "场上每有<color=#f26c1c>1名</color>友方单位，友方单位<color=#d4ae08>电导伤害</color>提高<color=#f26c1c>25%</color>。\n大回合结束时，友方单位恢复自身<color=#f26c1c>20%</color>最大生命值的生命值，若自身处于稳态崩溃状态，则额外恢复<color=#f26c1c>3点</color>稳态指数。",
+            "iconName": "Buff_Strong",
+            "isShow": true,
+            "showPriorityIcon": 99
+        },
+        {
+            "id": 70024,
+            "name": "拓域专研",
+            "description": "场上每有<color=#f26c1c>1名</color>友方单位，友方单位<color=#42cce0>冷凝伤害</color>提高<color=#f26c1c>25%</color>。\n友方单位受到的伤害降低<color=#f26c1c>30%</color>，防御力提高<color=#f26c1c>15%</color>。",
+            "iconName": "Buff_Strong",
+            "isShow": true,
+            "showPriorityIcon": 99
+        },
+        {
+            "id": 70025,
+            "name": "拓域专研",
+            "description": "场上每有<color=#f26c1c>1名</color>友方单位，友方单位<color=#8679e8>酸蚀伤害</color>提高<color=#f26c1c>25%</color>。\n友方单位受到的伤害降低<color=#f26c1c>40%</color>，防御力提高<color=#f26c1c>20%</color>。",
+            "iconName": "Buff_Strong",
+            "isShow": true,
+            "showPriorityIcon": 99
+        },
+        {
+            "id": 70026,
+            "name": "拓域专研",
+            "description": "场上每有<color=#f26c1c>1名</color>友方单位，友方单位物理伤害提高<color=#f26c1c>25%</color>。\n友方单位受到的伤害降低<color=#f26c1c>40%</color>，防御力提高<color=#f26c1c>20%</color>。",
+            "iconName": "Buff_Strong",
+            "isShow": true,
+            "showPriorityIcon": 99
+        },
+        {
+            "id": 70027,
+            "name": "拓域专研",
+            "description": "场上每有<color=#f26c1c>1名</color>友方单位，友方单位<color=#e67129>燃烧伤害</color>提高<color=#f26c1c>25%</color>。\n友方单位受到的伤害降低<color=#f26c1c>30%</color>，受到的稳态伤害降低<color=#f26c1c>1点</color>。",
+            "iconName": "Buff_Strong",
+            "isShow": true,
+            "showPriorityIcon": 99
+        },
+        {
             "id": 80001,
             "name": "明靶重创",
             "description": "未受到掩体保护时，受到伤害提高<color=#f26c1c>200%</color>。不可驱散。",
@@ -1574,6 +1623,50 @@
             "name": "双重豁免",
             "description": "稳态指数大于0时，每回合免疫2次伤害。不可驱散。",
             "iconName": "Buff_InvincibleNeutral",
+            "isShow": true
+        },
+        {
+            "id": 80021,
+            "name": "数据蚀溃",
+            "description": "行动结束时，受到<color=#f26c1c>15%</color>最大生命值的固定伤害；且若<color=#f26c1c>2格</color>范围内没有友方时，额外受到<color=#f26c1c>20%</color>最大生命值的固定伤害。",
+            "iconName": "Buff_Eber10",
+            "isShow": true
+        },
+        {
+            "id": 80031,
+            "name": "回路干扰",
+            "description": "回合开始时，获得<color=#3487e0>{0}</color>。",
+            "descriptionTips": "0:80033",
+            "iconName": "Buff_Darture1",
+            "isShow": true
+        },
+        {
+            "id": 80033,
+            "name": "断链",
+            "description": "攻击力降低<color=#f26c1c>80%</color>，主动攻击造成<color=#f26c1c>1次</color>精准伤害后解除。减益不可驱散。",
+            "iconName": "Buff_AtkDown",
+            "isShow": true
+        },
+        {
+            "id": 80041,
+            "name": "丧钟协议",
+            "description": "每有1个友方死亡，恢复<color=#f26c1c>20%</color>最大生命值，并叠加1层<color=#3487e0>{0}</color>。",
+            "descriptionTips": "0:80042",
+            "iconName": "Buff_AtkUpNeutral",
+            "isShow": true
+        },
+        {
+            "id": 80042,
+            "name": "丧锋",
+            "description": "造成稳态伤害加<color=#f26c1c>1点</color>，攻击力提高<color=#f26c1c>20%</color>。最大可叠加<color=#f26c1c>10层</color>，增益不可驱散。",
+            "iconName": "Buff_AtkUp",
+            "isShow": true
+        },
+        {
+            "id": 80051,
+            "name": "暴戾冲锋",
+            "description": "攻击力、防御力、最大生命值、稳态指数均提高<color=#f26c1c>100%</color>。",
+            "iconName": "Buff_CountUp",
             "isShow": true
         },
         {
@@ -12489,7 +12582,7 @@
         {
             "id": 6250201,
             "name": "黑色雾霭",
-            "description": "受到的治疗会转化成等量的固定伤害。减益不可驱散。",
+            "description": "无法受到治疗效果。减益不可驱散。",
             "buffEffect": "Buff/TreatmentReversal",
             "effectPlayTime": [
                 1
@@ -14399,6 +14492,42 @@
             "buffHeadShow": 1,
             "showPriorityIcon": 10,
             "isLoop": "1,1,1,1,1,1,1,1,1"
+        },
+        {
+            "id": 6773221,
+            "name": "错乱信号",
+            "description": "移动力减少<color=#f26c1c>1格</color>，减益效果，可叠加。叠加到<color=#f26c1c>3层</color>时消除，然后获得<color=#3487e0>{0}</color>。",
+            "descriptionTips": "0:401022",
+            "iconName": "Buff_SpeedLow",
+            "isShow": true,
+            "buffHeadShow": 1
+        },
+        {
+            "id": 6773222,
+            "name": "错乱信号",
+            "description": "移动力减少<color=#f26c1c>2格</color>，减益效果，可叠加。叠加到<color=#f26c1c>3层</color>时消除，然后获得<color=#3487e0>{0}</color>。",
+            "descriptionTips": "0:401022",
+            "iconName": "Buff_SpeedLow",
+            "isShow": true,
+            "buffHeadShow": 1
+        },
+        {
+            "id": 6773223,
+            "name": "错乱信号",
+            "description": "移动力减少<color=#f26c1c>3格</color>，减益效果，可叠加。叠加到<color=#f26c1c>3层</color>时消除，然后获得<color=#3487e0>{0}</color>。",
+            "descriptionTips": "0:401022",
+            "iconName": "Buff_SpeedLow",
+            "isShow": true,
+            "buffHeadShow": 1
+        },
+        {
+            "id": 6773224,
+            "name": "错乱信号",
+            "description": "移动力减少<color=#f26c1c>4格</color>，减益效果，可叠加。叠加到<color=#f26c1c>3层</color>时消除，然后获得<color=#3487e0>{0}</color>。",
+            "descriptionTips": "0:401022",
+            "iconName": "Buff_SpeedLow",
+            "isShow": true,
+            "buffHeadShow": 1
         },
         {
             "id": 6773401,
@@ -18677,6 +18806,60 @@
             "isLoop": "0|0"
         },
         {
+            "id": 10640400,
+            "name": "",
+            "description": "",
+            "buffEffect": "Skill/FlorenceSSR01/1064Summon_Born|Skill/FlorenceSSR01/1064Summon_Born",
+            "effectPlayTime": [
+                1,
+                2
+            ],
+            "effectFadeTime": "0|90",
+            "shaderType": 3,
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "isLoop": "0|0"
+        },
+        {
+            "id": 10640401,
+            "name": "紊乱剂",
+            "description": "受到<color=#2caadb>浊刻伤害</color>提高<color=#f26c1c>10%</color>，行动结束时对<color=#f26c1c>周围半径5格内</color>的所有敌方单位造成<color=#f26c1c>1%</color>攻击力的范围物理伤害。浊刻类减益不可驱散。",
+            "iconName": "Buff_EnemyHurtUp",
+            "isShow": true,
+            "buffHeadShow": 1
+        },
+        {
+            "id": 10640402,
+            "name": "紊乱剂",
+            "description": "受到<color=#2caadb>浊刻伤害</color>提高<color=#f26c1c>15%</color>，回合开始、行动结束时对<color=#f26c1c>周围半径5格内</color>的所有敌方单位造成<color=#f26c1c>1%</color>攻击力的范围物理伤害。浊刻类减益不可驱散。",
+            "iconName": "Buff_EnemyHurtUp",
+            "isShow": true,
+            "buffHeadShow": 1
+        },
+        {
+            "id": 10640701,
+            "name": "兴奋剂",
+            "description": "行动结束时，扣除自身<color=#f26c1c>20%</color>初始最大生命值的生命值。持续时间内，每损失<color=#f26c1c>1%</color>初始最大生命值的生命，造成的伤害提高<color=#f26c1c>0.5%</color>，造成的<color=#2caadb>浊刻伤害</color>提高<color=#f26c1c>0.5%</color>，分别至多提高<color=#f26c1c>20%</color>。浊刻类增益不可驱散。",
+            "iconName": "Buff_DamageUp",
+            "isShow": true,
+            "buffHeadShow": 1
+        },
+        {
+            "id": 10640702,
+            "name": "兴奋剂",
+            "description": "行动结束时，扣除自身<color=#f26c1c>20%</color>初始最大生命值的生命值。若生命值低于<color=#f26c1c>30%</color>，则回复芙洛伦<color=#f26c1c>100%</color>攻击力的生命，效果持续时间内生效<color=#f26c1c>1次</color>。持续时间内，每损失<color=#f26c1c>1%</color>初始最大生命值的生命，造成的伤害提高<color=#f26c1c>0.5%</color>，造成的<color=#2caadb>浊刻伤害</color>提高<color=#f26c1c>0.5%</color>，分别至多提高<color=#f26c1c>20%</color>。浊刻类增益不可驱散。",
+            "iconName": "Buff_DamageUp",
+            "isShow": true,
+            "buffHeadShow": 1
+        },
+        {
             "id": 20200016,
             "name": "",
             "description": "",
@@ -21660,6 +21843,15 @@
             "showPriorityIcon": 10
         },
         {
+            "id": 61000491,
+            "name": "协同累势",
+            "description": "造成伤害提高<color=#f26c1c>6%</color>。",
+            "iconName": "Buff_DamageUp",
+            "isShow": true,
+            "buffHeadShow": 9,
+            "showPriorityIcon": 10
+        },
+        {
             "id": 61000500,
             "name": "破稳处决",
             "description": "对稳态为<color=#f26c1c>0</color>的目标暴击伤害提高<color=#f26c1c>25%</color>。",
@@ -22104,7 +22296,7 @@
         {
             "id": 61752701,
             "name": "狂飙",
-            "description": "受到的稳态伤害降低<color=#f26c1c>2点</color>，受到伤害减少<color=#f26c1c>50%</color>，行动力提高<color=#f26c1c>2格</color>。行动结束时恢复10点稳态。稳态崩溃时移除该效果，并获得<color=#3487e0>{0}</color>。增益不可驱散。",
+            "description": "受到的稳态伤害降低<color=#f26c1c>1点</color>，受到伤害减少<color=#f26c1c>50%</color>，行动力提高<color=#f26c1c>2格</color>。行动结束时恢复<color=#f26c1c>5点</color>稳态。稳态崩溃时移除该效果，并获得<color=#3487e0>{0}</color>。增益不可驱散。",
             "descriptionTips": "0:61752703",
             "buffEffect": "Skill/6175401_Loop",
             "effectPlayTime": [
@@ -22137,7 +22329,7 @@
         {
             "id": 61752801,
             "name": "血涟",
-            "description": "行动结束时，受到施加者<color=#f26c1c>170%</color>攻击力的固定伤害和<color=#f26c1c>5</color>点稳态伤害。受到的治疗效果降低<color=#f26c1c>30%</color>。若自身生命值大于等于<color=#f26c1c>100%</color>，则移除该效果。减益效果。",
+            "description": "行动结束时，受到施加者<color=#f26c1c>30%</color>攻击力的固定伤害和<color=#f26c1c>3</color>点稳态伤害。受到的治疗效果降低<color=#f26c1c>15%</color>。若自身生命值大于等于<color=#f26c1c>100%</color>，则移除该效果。减益效果。",
             "iconName": "Buff_ContinueHurt",
             "isShow": true,
             "buffHeadShow": 1
@@ -22145,21 +22337,21 @@
         {
             "id": 61752811,
             "name": "血涟",
-            "description": "行动结束时，受到施加者<color=#f26c1c>170%</color>攻击力的固定伤害和<color=#f26c1c>5</color>点稳态伤害。受到的治疗效果降低<color=#f26c1c>40%</color>。若自身生命值大于等于<color=#f26c1c>100%</color>，则移除该效果。减益效果。",
+            "description": "行动结束时，受到施加者<color=#f26c1c>30%</color>攻击力的固定伤害和<color=#f26c1c>3</color>点稳态伤害。受到的治疗效果降低<color=#f26c1c>20%</color>。若自身生命值大于等于<color=#f26c1c>100%</color>，则移除该效果。减益效果。",
             "iconName": "Buff_ContinueHurt",
             "isShow": true
         },
         {
             "id": 61752821,
             "name": "血涟",
-            "description": "行动结束时，受到施加者<color=#f26c1c>170%</color>攻击力的固定伤害和<color=#f26c1c>5</color>点稳态伤害。受到的治疗效果降低<color=#f26c1c>50%</color>。若自身生命值大于等于<color=#f26c1c>100%</color>，则移除该效果。减益效果。",
+            "description": "行动结束时，受到施加者<color=#f26c1c>30%</color>攻击力的固定伤害和<color=#f26c1c>3</color>点稳态伤害。受到的治疗效果降低<color=#f26c1c>25%</color>。若自身生命值大于等于<color=#f26c1c>100%</color>，则移除该效果。减益效果。",
             "iconName": "Buff_ContinueHurt",
             "isShow": true
         },
         {
             "id": 61752831,
             "name": "血涟",
-            "description": "行动结束时，受到施加者<color=#f26c1c>170%</color>攻击力的固定伤害和<color=#f26c1c>5</color>点稳态伤害。受到的治疗效果降低<color=#f26c1c>70%</color>。若自身生命值大于等于<color=#f26c1c>100%</color>，则移除该效果。减益效果。",
+            "description": "行动结束时，受到施加者<color=#f26c1c>30%</color>攻击力的固定伤害和<color=#f26c1c>3</color>点稳态伤害。受到的治疗效果降低<color=#f26c1c>30%</color>。若自身生命值大于等于<color=#f26c1c>100%</color>，则移除该效果。减益效果。",
             "iconName": "Buff_ContinueHurt",
             "isShow": true
         },
@@ -22339,6 +22531,147 @@
             "effectFadeTime": "0",
             "effectFollowType": "2",
             "effectBirthType": "109"
+        },
+        {
+            "id": 62101315,
+            "name": "持续失去生命值I",
+            "description": "行动结束后，受到最大生命<color=#f26c1c>10%</color>的固定伤害。不可驱散。",
+            "buffEffect": "Buff/Dot_burn_break",
+            "effectPlayTime": [
+                3
+            ],
+            "effectFadeTime": "60",
+            "cameraPlayTime": [
+                3
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "104",
+            "effectTypeGroup": "0",
+            "iconName": "Buff_Tank5",
+            "isShow": true,
+            "showPriorityIcon": 10,
+            "isLoop": "0"
+        },
+        {
+            "id": 62101316,
+            "name": "持续失去生命值II",
+            "description": "行动结束后，受到最大生命<color=#f26c1c>20%</color>的固定伤害。不可驱散。",
+            "buffEffect": "Buff/Dot_burn_break",
+            "effectPlayTime": [
+                3
+            ],
+            "effectFadeTime": "60",
+            "cameraPlayTime": [
+                3
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "104",
+            "effectTypeGroup": "0",
+            "iconName": "Buff_Tank5",
+            "isShow": true,
+            "showPriorityIcon": 10,
+            "isLoop": "0"
+        },
+        {
+            "id": 62101317,
+            "name": "持续失去生命值III",
+            "description": "行动结束后，受到最大生命<color=#f26c1c>35%</color>的固定伤害。不可驱散。",
+            "buffEffect": "Buff/Dot_burn_break",
+            "effectPlayTime": [
+                3
+            ],
+            "effectFadeTime": "60",
+            "cameraPlayTime": [
+                3
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "104",
+            "effectTypeGroup": "0",
+            "iconName": "Buff_Tank5",
+            "isShow": true,
+            "showPriorityIcon": 10,
+            "isLoop": "0"
+        },
+        {
+            "id": 62101341,
+            "name": "持续恢复生命值I",
+            "description": "行动结束后，治疗<color=#f26c1c>5%</color>最大生命值。不可驱散。",
+            "buffEffect": "Buff/StableHPRecover",
+            "effectPlayTime": [
+                3
+            ],
+            "effectFadeTime": "100",
+            "effectFollowType": "1",
+            "effectBirthType": "109",
+            "effectTypeGroup": "0",
+            "iconName": "Buff_CountUp",
+            "isShow": true,
+            "showPriorityIcon": 10,
+            "isLoop": "0"
+        },
+        {
+            "id": 62101342,
+            "name": "持续恢复生命值II",
+            "description": "行动结束后，治疗<color=#f26c1c>10%</color>最大生命值。不可驱散。",
+            "buffEffect": "Buff/StableHPRecover",
+            "effectPlayTime": [
+                3
+            ],
+            "effectFadeTime": "100",
+            "effectFollowType": "1",
+            "effectBirthType": "109",
+            "effectTypeGroup": "0",
+            "iconName": "Buff_CountUp",
+            "isShow": true,
+            "showPriorityIcon": 10,
+            "isLoop": "0"
+        },
+        {
+            "id": 62101343,
+            "name": "持续恢复生命值III",
+            "description": "行动结束后，治疗<color=#f26c1c>20%</color>最大生命值。不可驱散。",
+            "buffEffect": "Buff/StableHPRecover",
+            "effectPlayTime": [
+                3
+            ],
+            "effectFadeTime": "100",
+            "effectFollowType": "1",
+            "effectBirthType": "109",
+            "effectTypeGroup": "0",
+            "iconName": "Buff_CountUp",
+            "isShow": true,
+            "showPriorityIcon": 10,
+            "isLoop": "0"
+        },
+        {
+            "id": 62102304,
+            "name": "防御提升I",
+            "description": "防御力提高<color=#f26c1c>50%</color>。增益效果。",
+            "iconName": "Buff_DefUp",
+            "isShow": true
+        },
+        {
+            "id": 62102305,
+            "name": "防御提升II",
+            "description": "防御力提高<color=#f26c1c>100%</color>。增益效果。",
+            "iconName": "Buff_DefUp",
+            "isShow": true
+        },
+        {
+            "id": 62102306,
+            "name": "防御提升III",
+            "description": "防御力提高<color=#f26c1c>200%</color>。增益效果。",
+            "iconName": "Buff_DefUp",
+            "isShow": true
         },
         {
             "id": 62111010,
@@ -23307,6 +23640,102 @@
             "isShow": true,
             "buffHeadShow": 1,
             "showPriorityIcon": 10
+        },
+        {
+            "id": 67738213,
+            "name": "魔魇",
+            "description": "造成伤害提升<color=#f26c1c>20%</color>。增益效果。",
+            "buffEffect": "Buff/AtkU|Buff/AtkU",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_DamageUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 67738214,
+            "name": "魔魇",
+            "description": "造成伤害提升<color=#f26c1c>30%</color>。增益效果。",
+            "buffEffect": "Buff/AtkU|Buff/AtkU",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_DamageUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 67738215,
+            "name": "魔魇",
+            "description": "造成伤害提升<color=#f26c1c>40%</color>。增益效果。",
+            "buffEffect": "Buff/AtkU|Buff/AtkU",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_DamageUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 67738216,
+            "name": "魔魇",
+            "description": "造成伤害提升<color=#f26c1c>60%</color>。增益效果。",
+            "buffEffect": "Buff/AtkU|Buff/AtkU",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_DamageUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
         },
         {
             "id": 67768011,
@@ -27256,6 +27685,135 @@
             "isLoop": "0|0"
         },
         {
+            "id": 106404031,
+            "name": "肾上腺素",
+            "description": "攻击力提高<color=#f26c1c>10%</color>，防御力提高<color=#f26c1c>30%</color>。增益不可驱散。",
+            "iconName": "Buff_AtkUp",
+            "isShow": true,
+            "buffHeadShow": 1
+        },
+        {
+            "id": 106410800,
+            "name": "耻辱标记",
+            "description": "每受到<color=#f26c1c>1次</color>伤害叠加<color=#f26c1c>1层</color>，叠加至<color=#f26c1c>5层</color>时，转化为<color=#3487e0>{0}</color>。不可驱散。",
+            "descriptionTips": "0:106410810",
+            "buffEffect": "Skill/FlorenceSSR01/1064Summon_Behit|Skill/FlorenceSSR01/1064Summon_Behit",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_FlorenceSSR1",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 106410801,
+            "name": "",
+            "description": "",
+            "buffEffect": "Skill/FlorenceSSR01/1064Summon_Born|Skill/FlorenceSSR01/1064Summon_Born",
+            "effectPlayTime": [
+                1,
+                2
+            ],
+            "effectFadeTime": "0|90",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "isLoop": "0|0"
+        },
+        {
+            "id": 106410810,
+            "name": "绝望震颤",
+            "description": "攻击力提高<color=#f26c1c>20%</color>。主动技能伤害系数翻倍，对被诱导的目标，造成伤害提高<color=#f26c1c>10%</color>。不可驱散。",
+            "buffEffect": "Skill/FlorenceSSR01/1064Summon_idle,Skill/FlorenceSSR01/1064Summon_Midle",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0,0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1,1",
+            "effectBirthType": "109,109",
+            "effectTypeGroup": "0,0",
+            "iconName": "Buff_FlorenceSSR2",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10,
+            "isLoop": "0,1"
+        },
+        {
+            "id": 106410830,
+            "name": "耻辱标记",
+            "description": "每受到<color=#f26c1c>1次</color>伤害叠加<color=#f26c1c>1层</color>，叠加至<color=#f26c1c>5层</color>时，转化为<color=#3487e0>{0}</color>。不可驱散。",
+            "descriptionTips": "0:106410840",
+            "buffEffect": "Skill/FlorenceSSR01/1064Summon_Behit|Skill/FlorenceSSR01/1064Summon_Behit",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_FlorenceSSR1",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 106410840,
+            "name": "绝望震颤",
+            "description": "攻击力提高<color=#f26c1c>35%</color>。所有攻击伤害系数翻倍，对被诱导的目标，造成伤害提高<color=#f26c1c>10%</color>。造成伤害后，恢复自身此次造成伤害<color=#f26c1c>30%</color>的生命。不可驱散。",
+            "buffEffect": "Skill/FlorenceSSR01/1064Summon_idle,Skill/FlorenceSSR01/1064Summon_Midle",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0,0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1,1",
+            "effectBirthType": "109,109",
+            "effectTypeGroup": "0,0",
+            "iconName": "Buff_FlorenceSSR2",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10,
+            "isLoop": "0,1"
+        },
+        {
             "id": 201000041,
             "name": "烽火连绵",
             "description": "造成的稳态伤害提高<color=#f26c1c>1点</color>，至多叠加<color=#f26c1c>6层</color>。增益不可驱散。",
@@ -29656,6 +30214,40 @@
             "buffHeadShow": 1,
             "showPriorityIcon": 30,
             "isLoop": "0|0"
+        },
+        {
+            "id": 720114011,
+            "name": "大师的韧性",
+            "description": "行动结束后治疗<color=#f26c1c>6%</color>最大生命值、恢复<color=#f26c1c>62点</color>稳态。稳态大于0时，自身防御提升<color=#f26c1c>662%</color>\n不可驱散，直到发生<color=#f26c1c>大师的认可</color>。",
+            "iconName": "Buff_SelfHeal",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 98
+        },
+        {
+            "id": 720114012,
+            "name": "大师的妙语",
+            "description": "行动结束后随机对场上<color=#f26c1c>2名</color>敌人施加<color=#f26c1c>1个</color>从<color=#3487e0>{0}</color>、<color=#3487e0>{1}</color>、<color=#3487e0>{2}</color>、<color=#3487e0>{3}</color>中随机选取的效果，持续<color=#f26c1c>3回合</color>。\n不可驱散，直到发生<color=#f26c1c>大师的认可</color>。",
+            "descriptionTips": "0:401013;0:401023;0:401033;0:401043",
+            "iconName": "Buff_MechaGuard3",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 98
+        },
+        {
+            "id": 720114013,
+            "name": "大师的谦逊",
+            "description": "降低自身<color=#f26c1c>66.2%</color>防御，攻击，最大生命值。",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "iconName": "Buff_DefLow",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 98
         },
         {
             "id": 910000002,

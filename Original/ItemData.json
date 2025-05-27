@@ -1710,6 +1710,18 @@
             "iconPath": "Character"
         },
         {
+            "id": 1064,
+            "name": "芙洛伦",
+            "introduction": "热衷于追求刺激与愉悦的医疗人形，性格坦率而又擅于引诱。同时兼备高超的医疗技术与对于药剂调配的热忱，只不过，由于其性格原因，这份热情往往令人难以承受。\n“这颗药，和这支注射器，以及我的惩罚，你想选哪一个呢？不论哪个都会非常舒服的哦。”",
+            "description": "人形整卡",
+            "type": 10,
+            "icon": "Item_Icon_Gun_FlorenceSSR",
+            "rank": 5,
+            "sort": 34,
+            "argsStr": "1064",
+            "iconPath": "Character"
+        },
+        {
             "id": 4001,
             "name": "克罗丽科心智存档",
             "introduction": "这份心智存档的主人看上去有些暴躁，但交给她的任务，都被无可指摘地完成了呢。\n克罗丽科的心智存档，可用于该人形的云图强固。",
@@ -2400,6 +2412,23 @@
             "howToGet": "3",
             "showType": 2,
             "argsStr": "1058",
+            "iconPath": "Item",
+            "dismantlingList": {
+                "2": 5000
+            }
+        },
+        {
+            "id": 4064,
+            "name": "芙洛伦心智存档",
+            "introduction": "这份心智存档看上去十分兴奋，据说，被触碰时，它会发出怪异的声响。\n芙洛伦的心智存档，可用于该人形的云图强固。",
+            "description": "人形碎片",
+            "type": 11,
+            "icon": "Item_Icon_Core_FlorenceSSR",
+            "rank": 5,
+            "sort": 34,
+            "howToGet": "3",
+            "showType": 2,
+            "argsStr": "1064",
             "iconPath": "Item",
             "dismantlingList": {
                 "2": 5000
@@ -6461,6 +6490,54 @@
             }
         },
         {
+            "id": 10641,
+            "name": "旧式15型自动手枪",
+            "introduction": "黄区随处可见的廉价武器，十分破旧，只能勉强满足使用需求。",
+            "description": "武器",
+            "type": 20,
+            "icon": "Weapon_PA15_3",
+            "rank": 3,
+            "sort": 77,
+            "showType": 2,
+            "argsStr": "10641",
+            "iconPath": "Weapon",
+            "dismantlingList": {
+                "16": 2
+            }
+        },
+        {
+            "id": 10642,
+            "name": "15型自动手枪",
+            "introduction": "与芙洛伦契合度高的枪械，针对芙洛伦的作战偏好进行了一些改造，加强了火力的同时提高了使用耐久度。",
+            "description": "武器",
+            "type": 20,
+            "icon": "Weapon_PA15_4",
+            "rank": 4,
+            "sort": 77,
+            "showType": 2,
+            "argsStr": "10642",
+            "iconPath": "Weapon",
+            "dismantlingList": {
+                "47": 18
+            }
+        },
+        {
+            "id": 10643,
+            "name": "伊阿索",
+            "introduction": "芙洛伦被配给的高性能手枪，以15式自动手枪为原型，提升了射速的同时保证了安全性与便利性，十分强力。在它的帮助下，芙洛伦得以发挥出全部实力。",
+            "description": "武器",
+            "type": 20,
+            "icon": "Weapon_PA15_5",
+            "rank": 5,
+            "sort": 77,
+            "showType": 2,
+            "argsStr": "10643",
+            "iconPath": "Weapon",
+            "dismantlingList": {
+                "47": 90
+            }
+        },
+        {
             "id": 11007,
             "name": "野兔",
             "introduction": "与克罗丽科契合度高的近战武器，针对克罗丽科的作战偏好进行了一定的改造，涂装上采用了与克罗丽科相配的颜色。",
@@ -9165,6 +9242,54 @@
             }
         },
         {
+            "id": 15641,
+            "name": "武器蓝图·旧式15型自动手枪",
+            "introduction": "常见的武器蓝图，简洁的线条勾勒出武器的轮廓。\n可用于组装旧式15型自动手枪。",
+            "description": "武器碎片",
+            "type": 38,
+            "icon": "Weapon_PA15_Core_3",
+            "rank": 3,
+            "sort": 77,
+            "showType": 2,
+            "argsStr": "10641",
+            "iconPath": "WeaponCore",
+            "dismantlingList": {
+                "2": 5000
+            }
+        },
+        {
+            "id": 15642,
+            "name": "武器蓝图·15型自动手枪",
+            "introduction": "少见的武器蓝图，简洁的线条勾勒出武器的轮廓。\n可用于组装15型自动手枪。",
+            "description": "武器碎片",
+            "type": 38,
+            "icon": "Weapon_PA15_Core_4",
+            "rank": 4,
+            "sort": 77,
+            "showType": 2,
+            "argsStr": "10642",
+            "iconPath": "WeaponCore",
+            "dismantlingList": {
+                "2": 5000
+            }
+        },
+        {
+            "id": 15643,
+            "name": "武器蓝图·伊阿索",
+            "introduction": "稀有的武器蓝图，简洁的线条勾勒出武器的轮廓。\n可用于组装伊阿索。",
+            "description": "武器碎片",
+            "type": 38,
+            "icon": "Weapon_PA15_Core_5",
+            "rank": 5,
+            "sort": 77,
+            "showType": 2,
+            "argsStr": "10643",
+            "iconPath": "WeaponCore",
+            "dismantlingList": {
+                "2": 5000
+            }
+        },
+        {
             "id": 21000,
             "name": "绘像·白刃疾光",
             "introduction": "以常见着装出现的克罗丽科，标志性的兔耳格外显眼。\n获得克罗丽科后解锁。",
@@ -10133,6 +10258,18 @@
             "iconPath": "Avatar"
         },
         {
+            "id": 21098,
+            "name": "绘像·魅惑白羽",
+            "introduction": "以常见着装出现的芙洛伦，她露出微笑，似乎在期待着你的行动。\n获得芙洛伦以解锁。",
+            "description": "头像",
+            "type": 12,
+            "icon": "Avatar_Head_FlorenceSSR",
+            "rank": 5,
+            "sort": 102,
+            "argsStr": "21098",
+            "iconPath": "Avatar"
+        },
+        {
             "id": 21105,
             "name": "绘像·赛场火花",
             "introduction": "火花对奇塔来说从来不是比喻，准备好吧，竞速的赛场即将绽放。\n获得奇塔的衣装·赛场火花后解锁。",
@@ -10454,6 +10591,18 @@
             "rank": 5,
             "sort": 102,
             "argsStr": "21131",
+            "iconPath": "Avatar"
+        },
+        {
+            "id": 21132,
+            "name": "绘像·专属止痛药",
+            "introduction": "抚平你的伤痛，带来舒适与欢愉。\n人形回赠的心意赠礼，与人形铭契后获得。",
+            "description": "头像",
+            "type": 12,
+            "icon": "Avatar_Head_FlorenceLove",
+            "rank": 5,
+            "sort": 102,
+            "argsStr": "21132",
             "iconPath": "Avatar"
         },
         {
@@ -10922,6 +11071,42 @@
             "rank": 4,
             "sort": 102,
             "argsStr": "21195",
+            "iconPath": "Avatar"
+        },
+        {
+            "id": 21196,
+            "name": "绘像·奇妙山药饼",
+            "introduction": "看似宁静的夜晚，会在她入睡之前，上演最刺激的游戏。\n获得芙洛伦的衣装·奇妙山药饼后解锁。",
+            "description": "头像",
+            "type": 12,
+            "icon": "Avatar_Head_FlorenceSSR01",
+            "rank": 4,
+            "sort": 102,
+            "argsStr": "21196",
+            "iconPath": "Avatar"
+        },
+        {
+            "id": 21197,
+            "name": "绘像·乐园之槛",
+            "introduction": "内心深处的乐园，只为一人而修建。\n领取心跳游乐园·观光火车最后一档奖励以解锁。",
+            "description": "头像",
+            "type": 12,
+            "icon": "Avatar_Head_ActivityFlorence1",
+            "rank": 5,
+            "sort": 102,
+            "argsStr": "21197",
+            "iconPath": "Avatar"
+        },
+        {
+            "id": 21198,
+            "name": "绘像·最后赢家",
+            "introduction": "她始终注视着，直到胜负分晓。\n通关所有心跳游乐园剧情关卡以解锁。",
+            "description": "头像",
+            "type": 12,
+            "icon": "Avatar_Head_ActivityFlorence2",
+            "rank": 5,
+            "sort": 102,
+            "argsStr": "21198",
             "iconPath": "Avatar"
         },
         {
@@ -11636,6 +11821,17 @@
             "rank": 5,
             "sort": 1,
             "argsStr": "22071",
+            "iconPath": "Item"
+        },
+        {
+            "id": 22072,
+            "name": "徽记·裂变狂潮",
+            "introduction": "当能量阈值突破临界，狼藉的战场已成勋章——B.R.I.E.F.于此见证。\n在兵棋推演赛季·裂变狂潮中获得前80%排名后解锁。",
+            "type": 36,
+            "icon": "Item_Icon_Medal_HighPVP_Season16",
+            "rank": 5,
+            "sort": 1,
+            "argsStr": "22072",
             "iconPath": "Item"
         },
         {
@@ -12445,6 +12641,19 @@
             "iconPath": "PlayerTitlePic"
         },
         {
+            "id": 23085,
+            "name": "芙洛伦·入队",
+            "introduction": "由B.R.I.E.F.授予的称号，纪念芙洛伦的登车时刻，请小心她的注射器与不知名的药丸。\n获得人形芙洛伦后解锁。",
+            "description": "称号",
+            "type": 37,
+            "icon": "Img_Title_GunGet_Florence",
+            "rank": 5,
+            "sort": 1,
+            "howToGet": "0",
+            "argsStr": "23085",
+            "iconPath": "PlayerTitlePic"
+        },
+        {
             "id": 23092,
             "name": "危局渗透",
             "introduction": "由B.R.I.E.F.授予的称号，精准的行动迅速突破敌人的防御。\n在兵棋推演赛季·危局渗透中获得前80%排名后解锁。",
@@ -12770,6 +12979,19 @@
             "iconPath": "PlayerTitlePic"
         },
         {
+            "id": 23117,
+            "name": "恶魔的契约者",
+            "introduction": "永恒的契约已经成立，现在，你准备好满足她的胃口了吗？\n与人形契合的证明，契合度达到8级解锁。",
+            "description": "称号",
+            "type": 37,
+            "icon": "Img_Title_Love_Florence",
+            "rank": 5,
+            "sort": 1,
+            "howToGet": "0",
+            "argsStr": "23117",
+            "iconPath": "PlayerTitlePic"
+        },
+        {
             "id": 23141,
             "name": "百炼荣光",
             "introduction": "由B.R.I.E.F.授予的称号，久经磨炼的实战技巧无人可当。\n在兵棋推演赛季·百炼荣光中获得前80%排名后解锁。",
@@ -12975,6 +13197,19 @@
             "sort": 1,
             "howToGet": "0",
             "argsStr": "23156",
+            "iconPath": "PlayerTitlePic"
+        },
+        {
+            "id": 23157,
+            "name": "裂变狂潮",
+            "introduction": "由B.R.I.E.F.授予的称号，对手的防线如枯叶般溃败。\n在兵棋推演赛季·裂变狂潮中获得前80%排名后解锁。",
+            "description": "称号",
+            "type": 37,
+            "icon": "Img_Title_HighPVP_Season16",
+            "rank": 5,
+            "sort": 1,
+            "howToGet": "0",
+            "argsStr": "23157",
             "iconPath": "PlayerTitlePic"
         },
         {
@@ -13785,6 +14020,19 @@
             "iconPath": "Item"
         },
         {
+            "id": 24088,
+            "name": "绘像框·特别看护",
+            "introduction": "最特别的护理，只提供给最特殊的人。\n人形回赠的心意赠礼，与人形铭契后获得。",
+            "description": "好感度头像框",
+            "type": 39,
+            "icon": "Item_HeadFrame_Love_Florence",
+            "rank": 5,
+            "sort": 1,
+            "howToGet": "0",
+            "argsStr": "24088",
+            "iconPath": "Item"
+        },
+        {
             "id": 24107,
             "name": "绘像框·迷境交锋",
             "introduction": "精妙的布阵，势在必得——B.R.I.E.F.特此颁发。\n在兵棋推演赛季·迷境交锋中获得前50%排名后解锁。",
@@ -13952,6 +14200,19 @@
             "iconPath": "Item"
         },
         {
+            "id": 24120,
+            "name": "绘像框·呜蜩远客",
+            "introduction": "朝夕日月，观花远行。\n购买当期远航巡录付费档位后解锁。",
+            "description": "BP头像框",
+            "type": 39,
+            "icon": "Item_HeadFrame_Bp2_5",
+            "rank": 5,
+            "sort": 1,
+            "howToGet": "0",
+            "argsStr": "24120",
+            "iconPath": "Item"
+        },
+        {
             "id": 24128,
             "name": "绘像框·失序洪流",
             "introduction": "稳健的战术，攻克难关——B.R.I.E.F.特此颁发。\n在兵棋推演赛季·失序洪流中获得前50%排名后解锁",
@@ -14035,6 +14296,18 @@
             "sort": 1,
             "howToGet": "0",
             "argsStr": "24134",
+            "iconPath": "Item"
+        },
+        {
+            "id": 24135,
+            "name": "绘像框·裂变狂潮",
+            "introduction": "爆发的力量，压倒一切抵抗——B.R.I.E.F.特此颁发。\n在兵棋推演赛季·裂变狂潮中获得前50%排名后解锁。",
+            "type": 39,
+            "icon": "Item_HeadFrame_HighPVP_Season16",
+            "rank": 5,
+            "sort": 1,
+            "howToGet": "0",
+            "argsStr": "24135",
             "iconPath": "Item"
         },
         {
@@ -14142,6 +14415,19 @@
             "iconPath": "Item"
         },
         {
+            "id": 24148,
+            "name": "绘像框·笼中滞梦",
+            "introduction": "绝望的牢笼消失不见，梦境的残片却滞留在永远。\n通关心跳游乐园挑战模式关卡以解锁。",
+            "description": "芙洛伦活动头像框",
+            "type": 39,
+            "icon": "Item_HeadFrame_ActivityFlorence",
+            "rank": 5,
+            "sort": 1,
+            "howToGet": "0",
+            "argsStr": "24148",
+            "iconPath": "Item"
+        },
+        {
             "id": 25000,
             "name": "班组称号",
             "introduction": "加入一个班组",
@@ -14201,6 +14487,32 @@
             "sort": 1,
             "howToGet": "0",
             "argsStr": "25004",
+            "iconPath": "Item"
+        },
+        {
+            "id": 25005,
+            "name": "乐园残像",
+            "introduction": "她肆意张扬的笑声，连同着呼啸的风一起，飘过你的耳畔。\n购买当期远航巡录付费档位获取的个人名片背景，可用于名片背景更换。",
+            "description": "暂未使用名片卡",
+            "type": 40,
+            "icon": "Item_Icon_CommanderInfo_Florence",
+            "rank": 5,
+            "sort": 1,
+            "howToGet": "0",
+            "argsStr": "25005",
+            "iconPath": "Item"
+        },
+        {
+            "id": 25006,
+            "name": "深入敌腹",
+            "introduction": "战役中捕捉的瞬间，她们锁定目标，等待进攻的时机。\n个人名片背景，可用于名片背景更换。",
+            "description": "暂未使用名片卡",
+            "type": 40,
+            "icon": "Item_Icon_CommanderInfo_Achievement01",
+            "rank": 5,
+            "sort": 1,
+            "howToGet": "0",
+            "argsStr": "25006",
             "iconPath": "Item"
         },
         {
@@ -15100,6 +15412,18 @@
             "rank": 4,
             "sort": 86,
             "argsStr": "1102102",
+            "iconPath": "Item"
+        },
+        {
+            "id": 31078,
+            "name": "衣装·奇妙山药饼",
+            "introduction": "芙洛伦的衣装盒，里面是一套可爱的居家睡衣。\n舒适的纯棉面料，被剪裁成了轻便的样式，蓝色的心型图案则增加了俏皮可爱的感觉。\n获取后，可在换装界面解锁奇妙山药饼。",
+            "description": "衣装·佩里缇亚",
+            "type": 13,
+            "icon": "Item_Icon_Skin_FlorenceSSR01",
+            "rank": 4,
+            "sort": 86,
+            "argsStr": "1106401",
             "iconPath": "Item"
         },
         {
@@ -16966,7 +17290,7 @@
         {
             "id": 89074,
             "name": "浊流返潮",
-            "introduction": "受到攻击时，若攻击者处于浊刻类地格，则对攻击者造成1次80%自身最大生命值的浊刻伤害和6点稳态伤害",
+            "introduction": "造成治疗时，额外恢复1次本次治疗量50%的生命值",
             "description": "新肉鸽展示用",
             "type": 4,
             "icon": "Item_Rogue_Chip_88",
@@ -18502,6 +18826,20 @@
             }
         },
         {
+            "id": 91023,
+            "name": "共键·恶作剧探索者",
+            "introduction": "一个衍生键，装备后可获得相应技能。",
+            "description": "天赋插拔技能道具",
+            "type": 31,
+            "icon": "Skill_Chrtalent_ActivitySR23",
+            "rank": 4,
+            "argsStr": "91023",
+            "iconPath": "Skill",
+            "dismantlingList": {
+                "2": 5000
+            }
+        },
+        {
             "id": 92001,
             "name": "共键·绕梁清乐",
             "introduction": "一个衍生键，装备后可获得相应技能。",
@@ -18810,6 +19148,20 @@
             }
         },
         {
+            "id": 92023,
+            "name": "共键·激进疗法",
+            "introduction": "一个衍生键，装备后可获得相应技能。",
+            "description": "天赋插拔技能道具",
+            "type": 31,
+            "icon": "Skill_Chrtalent_ActivityR23",
+            "rank": 3,
+            "argsStr": "92023",
+            "iconPath": "Skill",
+            "dismantlingList": {
+                "2": 5000
+            }
+        },
+        {
             "id": 93001,
             "name": "共键·醇香守护",
             "introduction": "一个衍生键，装备后可获得相应技能。",
@@ -19098,6 +19450,20 @@
             "icon": "Skill_Chrtalent_OperationActivitySR21",
             "rank": 4,
             "argsStr": "93021",
+            "iconPath": "Skill",
+            "dismantlingList": {
+                "2": 5000
+            }
+        },
+        {
+            "id": 93022,
+            "name": "共键·魅惑白天使",
+            "introduction": "一个衍生键，装备后可获得相应技能。",
+            "description": "天赋插拔技能道具",
+            "type": 31,
+            "icon": "Skill_Chrtalent_OperationActivitySR22",
+            "rank": 4,
+            "argsStr": "93022",
             "iconPath": "Skill",
             "dismantlingList": {
                 "2": 5000
@@ -20465,6 +20831,28 @@
             "iconPath": "Item"
         },
         {
+            "id": 111001,
+            "name": "班组祝福必得奖励",
+            "introduction": "班组祝福必得奖励",
+            "type": 5,
+            "icon": "Unknow",
+            "rank": 5,
+            "sort": 3,
+            "argsStr": "10040",
+            "iconPath": "Item"
+        },
+        {
+            "id": 111002,
+            "name": "班组祝福随机奖励",
+            "introduction": "班组祝福随机奖励",
+            "type": 5,
+            "icon": "Unknow",
+            "rank": 5,
+            "sort": 3,
+            "argsStr": "10041",
+            "iconPath": "Item"
+        },
+        {
             "id": 121001,
             "name": "突击步枪高阶配件箱·黛烟Ⅰ",
             "introduction": "打开后必定获得精密级稀有度的突击枪口*1，该宝箱产出的配件基础属性更高，黛烟主题活动专供，外观为任意基础外观中的一种，请注意使用！",
@@ -21606,6 +21994,58 @@
             "sort": 5,
             "showType": 2,
             "argsStr": "7023",
+            "iconPath": "Item"
+        },
+        {
+            "id": 121089,
+            "name": "手枪高阶配件箱·芙洛伦Ⅰ",
+            "introduction": "打开后必定获得精密级稀有度的手枪枪口*1，该宝箱产出的配件基础属性更高，芙洛伦主题活动专供，外观为任意基础外观中的一种，请注意使用！",
+            "description": "活动专用配件箱",
+            "type": 105,
+            "icon": "Item_Icon_WeaponPartBox_HR_Florence01",
+            "rank": 5,
+            "sort": 5,
+            "showType": 2,
+            "argsStr": "7037",
+            "iconPath": "Item"
+        },
+        {
+            "id": 121090,
+            "name": "手枪高阶配件箱·芙洛伦Ⅱ",
+            "introduction": "打开后必定获得精密级稀有度的手枪瞄准*1，该宝箱产出的配件基础属性更高，芙洛伦主题活动专供，外观为任意基础外观中的一种，请注意使用！",
+            "description": "活动专用配件箱",
+            "type": 105,
+            "icon": "Item_Icon_WeaponPartBox_HR_Florence02",
+            "rank": 5,
+            "sort": 5,
+            "showType": 2,
+            "argsStr": "7039",
+            "iconPath": "Item"
+        },
+        {
+            "id": 121091,
+            "name": "手枪高阶配件箱·芙洛伦Ⅲ",
+            "introduction": "打开后必定获得精密级稀有度的手枪链接*1，该宝箱产出的配件基础属性更高，芙洛伦主题活动专供，外观为任意基础外观中的一种，请注意使用！",
+            "description": "活动专用配件箱",
+            "type": 105,
+            "icon": "Item_Icon_WeaponPartBox_HR_Florence03",
+            "rank": 5,
+            "sort": 5,
+            "showType": 2,
+            "argsStr": "7040",
+            "iconPath": "Item"
+        },
+        {
+            "id": 121092,
+            "name": "手枪高阶配件箱·芙洛伦Ⅳ",
+            "introduction": "打开后必定获得精密级稀有度的手枪卡榫*1，该宝箱产出的配件基础属性更高，芙洛伦主题活动专供，外观为任意基础外观中的一种，请注意使用！",
+            "description": "活动专用配件箱",
+            "type": 105,
+            "icon": "Item_Icon_WeaponPartBox_HR_Florence04",
+            "rank": 5,
+            "sort": 5,
+            "showType": 2,
+            "argsStr": "7038",
             "iconPath": "Item"
         },
         {
@@ -25288,6 +25728,45 @@
             "iconPath": "Item"
         },
         {
+            "id": 177101,
+            "name": "纪念胶卷",
+            "introduction": "记录着乐园游玩过程的胶卷，还未冲洗成片，但已经被血渍所污染。\n可用于在纪念品商店兑换奖励。",
+            "description": "芙洛伦版本兑换材料",
+            "type": 4,
+            "icon": "Item_Icon_Florence_exchange",
+            "rank": 4,
+            "sort": 102,
+            "howToGet": "0",
+            "iconPath": "Item"
+        },
+        {
+            "id": 177102,
+            "name": "车票副券",
+            "introduction": "乐园观光车的车票副券，不规则的边缘像是被不明生物撕扯过。\n观光火车任务积分，累计积分可以领取积分奖励。",
+            "description": "芙洛伦版本任务进度点数",
+            "type": 4,
+            "icon": "Item_Icon_Jiangyu_preheat",
+            "rank": 4,
+            "sort": 102,
+            "howToGet": "0",
+            "timeLimit": "1750118399",
+            "iconPath": "Item"
+        },
+        {
+            "id": 177103,
+            "name": "演出券",
+            "introduction": "观看乐园特别演出所需要的门票，奇怪的是，上面并未表明具体的演出内容。\n可用于开启物资模式关卡。\n在活动期间每天恢复3张券，每日恢复的券最多储存6张。",
+            "description": "芙洛伦门票",
+            "type": 130,
+            "icon": "Item_Icon_Florence_ticket",
+            "rank": 4,
+            "sort": 102,
+            "howToGet": "0",
+            "argsStr": "3:3:6",
+            "timeLimit": "1750118399",
+            "iconPath": "Item"
+        },
+        {
             "id": 178003,
             "name": "狂想券",
             "introduction": "愿这杯咖啡能为您提供一个闲适的午后。\n可用于开启物资模式关卡。\n在活动期间每天恢复3张券，最多储存6张券",
@@ -25762,6 +26241,31 @@
             "icon": "Item_Icon_Free_Skin_Mosinnagant",
             "rank": 5,
             "sort": 1,
+            "iconPath": "Item"
+        },
+        {
+            "id": 190033,
+            "name": "喵封物资",
+            "introduction": "印有猫爪标志的小型物资包，被封得严严实实，不知道里面是什么。“一定不可以打开我的封印喵！老老实实拿来兑换就好了喵！”\n可在格琳喵的委托活动中，兑换所需物资。",
+            "description": "运营用(19xxxx)-红宝石",
+            "type": 120,
+            "icon": "Item_Icon_event_shop",
+            "rank": 5,
+            "sort": 1,
+            "iconPath": "Item"
+        },
+        {
+            "id": 190034,
+            "name": "宝藏线索",
+            "introduction": "关于污染区中那些无主的贵重物资的情报，是游历过程中的意外发现。“拿这个抵报酬？保真吗？”\n可在险境挖掘中，用于解锁对应奖励。",
+            "description": "海外运营活动道具-bingo币",
+            "type": 4,
+            "icon": "Item_Icon_Clue_1",
+            "rank": 5,
+            "sort": 102,
+            "howToGet": "0",
+            "showType": 2,
+            "timeLimit": "1753822799",
             "iconPath": "Item"
         },
         {
@@ -28700,6 +29204,78 @@
             "iconPath": "Skill"
         },
         {
+            "id": 206401,
+            "name": "固键·致命刺激",
+            "introduction": "一个进阶键，装备后可获得相应技能。",
+            "description": "天赋专属技能",
+            "type": 31,
+            "icon": "Skill_Chrtalent_Florence01",
+            "rank": 4,
+            "getList": "341064",
+            "argsStr": "206401",
+            "iconPath": "Skill"
+        },
+        {
+            "id": 206402,
+            "name": "固键·自我愉悦",
+            "introduction": "一个进阶键，装备后可获得相应技能。",
+            "description": "天赋专属技能",
+            "type": 31,
+            "icon": "Skill_Chrtalent_Florence02",
+            "rank": 4,
+            "getList": "341064",
+            "argsStr": "206402",
+            "iconPath": "Skill"
+        },
+        {
+            "id": 206403,
+            "name": "固键·敏感度上升",
+            "introduction": "一个进阶键，装备后可获得相应技能。",
+            "description": "天赋专属技能",
+            "type": 31,
+            "icon": "Skill_Chrtalent_Florence03",
+            "rank": 4,
+            "getList": "341064",
+            "argsStr": "206403",
+            "iconPath": "Skill"
+        },
+        {
+            "id": 206404,
+            "name": "固键·反攻的奖赏",
+            "introduction": "一个进阶键，装备后可获得相应技能。",
+            "description": "天赋专属技能",
+            "type": 31,
+            "icon": "Skill_Chrtalent_Florence04",
+            "rank": 4,
+            "getList": "341064",
+            "argsStr": "206404",
+            "iconPath": "Skill"
+        },
+        {
+            "id": 206405,
+            "name": "固键·紧缚欲",
+            "introduction": "一个进阶键，装备后可获得相应技能。",
+            "description": "天赋专属技能",
+            "type": 31,
+            "icon": "Skill_Chrtalent_Florence05",
+            "rank": 4,
+            "getList": "341064",
+            "argsStr": "206405",
+            "iconPath": "Skill"
+        },
+        {
+            "id": 206406,
+            "name": "固键·甜蜜的诱引",
+            "introduction": "一个进阶键，装备后可获得相应技能。",
+            "description": "天赋专属技能",
+            "type": 31,
+            "icon": "Skill_Chrtalent_Florence06",
+            "rank": 4,
+            "getList": "341064",
+            "argsStr": "206406",
+            "iconPath": "Skill"
+        },
+        {
             "id": 300001,
             "name": "铭契之环",
             "introduction": "即使遭遇了分离和阻碍，蕴含着宝贵记忆的人形也能将其跨越。在指挥官的亲自操作下，自愿接受的人形心智底层会被写入专属代码，那无法忘怀的身影也将被永远铭刻在心智之中。\n储存着专属协议代码的环状存储设备，用于与人形铭契。",
@@ -29806,6 +30382,19 @@
             "iconPath": "Item"
         },
         {
+            "id": 300090,
+            "name": "特别赠礼·芙洛伦",
+            "introduction": "专属于芙洛伦的礼物，让她感受到你的心意吧。\n打开后，获得芙洛伦专属的契合度礼物。",
+            "description": "好感度礼物宝箱",
+            "type": 105,
+            "icon": "Item_Icon_GiftBox_Florence",
+            "rank": 5,
+            "sort": 5,
+            "showType": 2,
+            "argsStr": "10033",
+            "iconPath": "Item"
+        },
+        {
             "id": 800001,
             "name": "声望",
             "introduction": "是时候享受劳动的成果了。\n班组声望商店专用货币，可通过班组补给、每日要务、尘烟前线获得。",
@@ -30630,6 +31219,21 @@
             }
         },
         {
+            "id": 901064,
+            "name": "共键·主人的指令",
+            "introduction": "一个衍生键，装备后可获得相应技能。",
+            "description": "天赋插拔技能道具",
+            "type": 31,
+            "icon": "Skill_Chrtalent_FlorenceSSR",
+            "rank": 5,
+            "getList": "341064",
+            "argsStr": "901064",
+            "iconPath": "Skill",
+            "dismantlingList": {
+                "2": 5000
+            }
+        },
+        {
             "id": 911001,
             "name": "共键·灼热守护",
             "introduction": "一个衍生键，装备后可获得相应技能。",
@@ -31190,6 +31794,20 @@
             }
         },
         {
+            "id": 911064,
+            "name": "共键·恶作剧处方",
+            "introduction": "一个衍生键，装备后可获得相应技能。",
+            "description": "天赋插拔技能道具",
+            "type": 31,
+            "icon": "Skill_Chrtalent_FlorenceSSR_love",
+            "rank": 4,
+            "argsStr": "911064",
+            "iconPath": "Skill",
+            "dismantlingList": {
+                "2": 5001
+            }
+        },
+        {
             "id": 921001,
             "name": "跃键·兔袭苍穹",
             "introduction": "一个峰位键，装备后可获得相应技能。",
@@ -31514,6 +32132,21 @@
             "rank": 5,
             "getList": "341041",
             "argsStr": "921041",
+            "iconPath": "Skill",
+            "dismantlingList": {
+                "2": 5000
+            }
+        },
+        {
+            "id": 921042,
+            "name": "跃键·不渝守望",
+            "introduction": "一个峰位键，装备后可获得相应技能。",
+            "description": "天赋插拔技能道具",
+            "type": 31,
+            "icon": "Skill_Chrtalent_AndorisSSR_expand",
+            "rank": 5,
+            "getList": "341042",
+            "argsStr": "921042",
             "iconPath": "Skill",
             "dismantlingList": {
                 "2": 5000
@@ -31980,6 +32613,46 @@
             "iconPath": "PatternData"
         },
         {
+            "id": 994117,
+            "name": "酸蚀·穹顶之花β",
+            "introduction": "优质生长数据，装备后将赋予拟态核心指定的特化形态与显像因子。",
+            "description": "生长数据",
+            "type": 99,
+            "icon": "RemouldingPattern_Data_Suppress_01_4",
+            "rank": 4,
+            "iconPath": "PatternData"
+        },
+        {
+            "id": 994118,
+            "name": "浊流·锋锐之茎β",
+            "introduction": "优质生长数据，装备后将赋予拟态核心指定的特化形态与显像因子。",
+            "description": "生长数据",
+            "type": 99,
+            "icon": "RemouldingPattern_Data_Scout_03_4",
+            "rank": 4,
+            "iconPath": "PatternData"
+        },
+        {
+            "id": 994119,
+            "name": "点火·逆棘之叶β",
+            "introduction": "优质生长数据，装备后将赋予拟态核心指定的特化形态与显像因子。",
+            "description": "生长数据",
+            "type": 99,
+            "icon": "RemouldingPattern_Data_Assist_04_4",
+            "rank": 4,
+            "iconPath": "PatternData"
+        },
+        {
+            "id": 994120,
+            "name": "围剿·髓柱之根β",
+            "introduction": "优质生长数据，装备后将赋予拟态核心指定的特化形态与显像因子。",
+            "description": "生长数据",
+            "type": 99,
+            "icon": "RemouldingPattern_Data_Guard_03_4",
+            "rank": 4,
+            "iconPath": "PatternData"
+        },
+        {
             "id": 994200,
             "name": "胚珠之茎β",
             "introduction": "优质生长数据，装备后将赋予拟态核心指定的特化形态与显像因子。",
@@ -32360,6 +33033,86 @@
             "iconPath": "PatternData"
         },
         {
+            "id": 995134,
+            "name": "酸蚀·穹顶之花γ",
+            "introduction": "顶级生长数据，装备后将赋予拟态核心指定的特化形态与显像因子。",
+            "description": "生长数据",
+            "type": 99,
+            "icon": "RemouldingPattern_Data_Suppress_01_5",
+            "rank": 5,
+            "iconPath": "PatternData"
+        },
+        {
+            "id": 995135,
+            "name": "燃放·裂隙之茎γ",
+            "introduction": "顶级生长数据，装备后将赋予拟态核心指定的特化形态与显像因子。",
+            "description": "生长数据",
+            "type": 99,
+            "icon": "RemouldingPattern_Data_Scout_04_5",
+            "rank": 5,
+            "iconPath": "PatternData"
+        },
+        {
+            "id": 995136,
+            "name": "冷凝·瓣鞘之花γ",
+            "introduction": "顶级生长数据，装备后将赋予拟态核心指定的特化形态与显像因子。",
+            "description": "生长数据",
+            "type": 99,
+            "icon": "RemouldingPattern_Data_Suppress_03_5",
+            "rank": 5,
+            "iconPath": "PatternData"
+        },
+        {
+            "id": 995137,
+            "name": "浊流·鞘钉之茎γ",
+            "introduction": "顶级生长数据，装备后将赋予拟态核心指定的特化形态与显像因子。",
+            "description": "生长数据",
+            "type": 99,
+            "icon": "RemouldingPattern_Data_Scout_02_5",
+            "rank": 5,
+            "iconPath": "PatternData"
+        },
+        {
+            "id": 995138,
+            "name": "催化·碧络之叶γ",
+            "introduction": "顶级生长数据，装备后将赋予拟态核心指定的特化形态与显像因子。",
+            "description": "生长数据",
+            "type": 99,
+            "icon": "RemouldingPattern_Data_Assist_01_5",
+            "rank": 5,
+            "iconPath": "PatternData"
+        },
+        {
+            "id": 995139,
+            "name": "坚壁·叠岩之根γ",
+            "introduction": "顶级生长数据，装备后将赋予拟态核心指定的特化形态与显像因子。",
+            "description": "生长数据",
+            "type": 99,
+            "icon": "RemouldingPattern_Data_Guard_02_5",
+            "rank": 5,
+            "iconPath": "PatternData"
+        },
+        {
+            "id": 995140,
+            "name": "霜环·晨露之叶γ",
+            "introduction": "顶级生长数据，装备后将赋予拟态核心指定的特化形态与显像因子。",
+            "description": "生长数据",
+            "type": 99,
+            "icon": "RemouldingPattern_Data_Assist_03_5",
+            "rank": 5,
+            "iconPath": "PatternData"
+        },
+        {
+            "id": 995141,
+            "name": "单骑·磐脉之根γ",
+            "introduction": "顶级生长数据，装备后将赋予拟态核心指定的特化形态与显像因子。",
+            "description": "生长数据",
+            "type": 99,
+            "icon": "RemouldingPattern_Data_Guard_01_5",
+            "rank": 5,
+            "iconPath": "PatternData"
+        },
+        {
             "id": 995200,
             "name": "胚珠之茎γ",
             "introduction": "顶级生长数据，装备后将赋予拟态核心指定的特化形态与显像因子。",
@@ -32552,6 +33305,32 @@
             "rank": 5,
             "sort": 1,
             "argsStr": "110205",
+            "iconPath": "Item"
+        },
+        {
+            "id": 996014,
+            "name": "顶级生长数据礼箱",
+            "introduction": "B.R.I.E.F.特供，内含16LAB研究组采集与重塑的顶级生长数据。是提升作战效能的不二之选。",
+            "description": "拟态积分奖励",
+            "type": 8,
+            "icon": "Item_Icon_RemouldingPattern_Box_5",
+            "rank": 5,
+            "sort": 5,
+            "showType": 2,
+            "argsStr": "1;995134:1,995135:1,995136:1,995137:1,995138:1,995139:1,995140:1,995141:1;",
+            "iconPath": "Item"
+        },
+        {
+            "id": 996015,
+            "name": "优质生长数据礼箱",
+            "introduction": "B.R.I.E.F.特供，内含16LAB研究组采集与重塑的优质生长数据。是提升作战效能的不二之选。",
+            "description": "拟态积分奖励",
+            "type": 8,
+            "icon": "Item_Icon_RemouldingPattern_Box_5",
+            "rank": 4,
+            "sort": 4,
+            "showType": 2,
+            "argsStr": "1;994117:1,994118:1,994119:1,994120:1;",
             "iconPath": "Item"
         },
         {
@@ -32792,7 +33571,7 @@
             "rank": 5,
             "sort": 1,
             "howToGet": "0",
-            "getList": "190012",
+            "getList": "190012,190013",
             "showType": 2,
             "iconPath": "Item"
         },
@@ -32806,7 +33585,7 @@
             "rank": 5,
             "sort": 1,
             "howToGet": "0",
-            "getList": "190012",
+            "getList": "190012,190013",
             "showType": 2,
             "iconPath": "Item"
         },
@@ -32886,7 +33665,7 @@
             "icon": "Item_Icon_Handmade_Bellator",
             "rank": 5,
             "sort": 1,
-            "getList": "190012",
+            "getList": "190012,190013",
             "showType": 2,
             "iconPath": "Item"
         },
@@ -32899,7 +33678,7 @@
             "icon": "Item_Icon_Handmade_BellatorBlack",
             "rank": 5,
             "sort": 1,
-            "getList": "190012",
+            "getList": "190012,190013",
             "showType": 2,
             "iconPath": "Item"
         },
@@ -33294,7 +34073,7 @@
         {
             "id": 1340001,
             "name": "奇忆甄选·火线",
-            "introduction": "杂糅了各种记忆的宝盒，谁会是你最印象深刻的那位呢？\n打开后，可随机从以下奇忆造物中获得1个，还有概率获得精雕奇忆造物：奇忆·要塞伯爵、奇忆·冰海舰骸、奇忆·壁瘤棘虫、奇忆·蓝雪球、奇忆·羊头恐蜥、奇忆·诡异人形。",
+            "introduction": "杂糅了各种记忆的宝盒，谁会是你最印象深刻的那位呢？\n打开后，可随机从以下奇忆造物中获得1个：奇忆·要塞伯爵、奇忆·冰海舰骸、奇忆·壁瘤棘虫、奇忆·蓝雪球、奇忆·羊头恐蜥、奇忆·诡异人形；还有概率获得精雕奇忆造物。",
             "description": "活动专用配件箱",
             "type": 105,
             "icon": "Item_Icon_Handmade_Blind_Box1",
@@ -33309,7 +34088,7 @@
         {
             "id": 1340002,
             "name": "奇忆甄选·暗流",
-            "introduction": "杂糅了各种记忆的宝盒，谁会是你最印象深刻的那位呢？\n打开后，可随机从以下奇忆造物中获得1个，还有概率获得精雕奇忆造物：奇忆·超级兵蚁、奇忆·铁壁圣盾、奇忆·锤岩蟾蜍·冷凝、奇忆·锤岩蟾蜍·酸蚀、奇忆·锤岩蟾蜍·浊刻、奇忆·棘熊",
+            "introduction": "杂糅了各种记忆的宝盒，谁会是你最印象深刻的那位呢？\n打开后，可随机从以下奇忆造物中获得1个：奇忆·超级兵蚁、奇忆·铁壁圣盾、奇忆·锤岩蟾蜍·冷凝、奇忆·锤岩蟾蜍·酸蚀、奇忆·锤岩蟾蜍·浊刻、奇忆·棘熊；还有概率获得精雕奇忆造物。",
             "description": "活动专用配件箱",
             "type": 105,
             "icon": "Item_Icon_Handmade_Blind_Box2",
@@ -33324,7 +34103,7 @@
         {
             "id": 1340003,
             "name": "奇忆甄选·火线",
-            "introduction": "杂糅了各种记忆的宝盒，谁会是你最印象深刻的那位呢？\n打开后，可随机从以下奇忆造物中获得1个，还有概率获得精雕奇忆造物：奇忆·要塞伯爵、奇忆·冰海舰骸、奇忆·壁瘤棘虫、奇忆·蓝雪球、奇忆·羊头恐蜥、奇忆·诡异人形。",
+            "introduction": "杂糅了各种记忆的宝盒，谁会是你最印象深刻的那位呢？\n打开后，可随机从以下奇忆造物中获得1个：奇忆·要塞伯爵、奇忆·冰海舰骸、奇忆·壁瘤棘虫、奇忆·蓝雪球、奇忆·羊头恐蜥、奇忆·诡异人形；还有概率获得精雕奇忆造物。",
             "description": "活动专用配件箱",
             "type": 105,
             "icon": "Item_Icon_Handmade_Blind_Box1",
@@ -33339,7 +34118,7 @@
         {
             "id": 1340004,
             "name": "奇忆甄选·暗流",
-            "introduction": "杂糅了各种记忆的宝盒，谁会是你最印象深刻的那位呢？\n打开后，可随机从以下奇忆造物中获得1个，还有概率获得精雕奇忆造物：奇忆·超级兵蚁、奇忆·铁壁圣盾、奇忆·锤岩蟾蜍·冷凝、奇忆·锤岩蟾蜍·酸蚀、奇忆·锤岩蟾蜍·浊刻、奇忆·棘熊",
+            "introduction": "杂糅了各种记忆的宝盒，谁会是你最印象深刻的那位呢？\n打开后，可随机从以下奇忆造物中获得1个：奇忆·超级兵蚁、奇忆·铁壁圣盾、奇忆·锤岩蟾蜍·冷凝、奇忆·锤岩蟾蜍·酸蚀、奇忆·锤岩蟾蜍·浊刻、奇忆·棘熊；还有概率获得精雕奇忆造物。",
             "description": "活动专用配件箱",
             "type": 105,
             "icon": "Item_Icon_Handmade_Blind_Box2",
@@ -33354,7 +34133,7 @@
         {
             "id": 1340005,
             "name": "奇忆甄选·信念",
-            "introduction": "杂糅了各种记忆的宝盒，谁会是你最印象深刻的那位呢？\n打开后，可随机从以下奇忆造物中获得1个，还有概率获得精雕奇忆造物：奇忆·除草学者、奇忆·生产大师、奇忆·妮特No.249、奇忆·徒士-137、奇忆·徒士-212、奇忆·菲瑞普1.0",
+            "introduction": "杂糅了各种记忆的宝盒，谁会是你最印象深刻的那位呢？\n打开后，可随机从以下奇忆造物中获得1个：奇忆·除草学者、奇忆·生产大师、奇忆·妮特No.249、奇忆·徒士-137、奇忆·徒士-212、奇忆·菲瑞普1.0；还有概率获得精雕奇忆造物。",
             "description": "活动专用配件箱",
             "type": 105,
             "icon": "Item_Icon_Handmade_Blind_Box3",
@@ -33364,6 +34143,19 @@
             "getList": "190013",
             "showType": 2,
             "argsStr": "10039",
+            "iconPath": "Item"
+        },
+        {
+            "id": 1500001,
+            "name": "胜利的铭刻",
+            "introduction": "恭喜你到达了梦景彼岸！这真是一场值得所有人铭记的战斗，不是吗？\n获取后，<color=#f26c1c>所有人形</color>可永久于全局获得以下提升：\n<color=#f26c1c>攻击+1</color>\n<color=#f26c1c>防御+1</color>\n<color=#f26c1c>生命+1</color>",
+            "description": "属性道具",
+            "type": 150,
+            "icon": "Item_Icon_Darkzone_Attr",
+            "rank": 5,
+            "sort": 5,
+            "howToGet": "0",
+            "showType": 2,
             "iconPath": "Item"
         },
         {
@@ -33403,6 +34195,28 @@
             "iconPath": "Item"
         },
         {
+            "id": 3111045,
+            "name": "涂装·伊阿索",
+            "introduction": "依照伊阿索设计的武器涂装方案。\n可用于更换相应的武器涂装。",
+            "description": "武器皮肤",
+            "type": 60,
+            "icon": "Weapon_PA15_5",
+            "rank": 5,
+            "argsStr": "3111045",
+            "iconPath": "Weapon"
+        },
+        {
+            "id": 3111214,
+            "name": "涂装·15型自动手枪",
+            "introduction": "依照15型自动手枪设计的武器涂装方案。\n可用于更换相应的武器涂装。",
+            "description": "武器皮肤",
+            "type": 60,
+            "icon": "Weapon_PA15_4",
+            "rank": 4,
+            "argsStr": "3111214",
+            "iconPath": "Weapon"
+        },
+        {
             "id": 3111215,
             "name": "涂装·喧闹恶灵",
             "introduction": "依照喧闹恶灵设计的武器涂装方案。\n可用于更换相应的武器涂装。",
@@ -33433,6 +34247,17 @@
             "icon": "Weapon_MP5_4",
             "rank": 4,
             "argsStr": "3111324",
+            "iconPath": "Weapon"
+        },
+        {
+            "id": 3111393,
+            "name": "涂装·旧式15型自动手枪",
+            "introduction": "依照旧式15型自动手枪设计的武器涂装方案。\n可用于更换相应的武器涂装。",
+            "description": "武器皮肤",
+            "type": 60,
+            "icon": "Weapon_PA15_3",
+            "rank": 3,
+            "argsStr": "3111393",
             "iconPath": "Weapon"
         },
         {
@@ -34748,6 +35573,30 @@
             "iconPath": "Weapon"
         },
         {
+            "id": 4131544,
+            "name": "涂装·爆能枪",
+            "introduction": "现在，它应该可以释放出等离子束了吧？\n可用于更换相应的武器涂装。",
+            "description": "武器皮肤",
+            "type": 60,
+            "icon": "Weapon_HRClaS101_4",
+            "rank": 5,
+            "getList": "190010",
+            "argsStr": "4131544",
+            "iconPath": "Weapon"
+        },
+        {
+            "id": 4131574,
+            "name": "涂装·回旋心率",
+            "introduction": "转啊转，转啊转——\n在预设的追逐游戏中，她观察着彼此起伏的身姿，还有那按耐不住的躁动心跳。\n可用于更换相应的武器涂装。",
+            "description": "武器皮肤",
+            "type": 60,
+            "icon": "Weapon_HRClaB020_4",
+            "rank": 4,
+            "getList": "290032",
+            "argsStr": "4131574",
+            "iconPath": "Weapon"
+        },
+        {
             "id": 4132015,
             "name": "涂装·灵海潮汐",
             "introduction": "清凉时节，忘记烦恼，享受阳光与水吧。\n可用于更换相应的武器涂装。",
@@ -34938,6 +35787,18 @@
             "iconPath": "Weapon"
         },
         {
+            "id": 4132564,
+            "name": "涂装·危险电工",
+            "introduction": "无论如何，总会有人想要用它做些多余的事情。\n可用于更换相应的武器涂装。",
+            "description": "武器皮肤",
+            "type": 60,
+            "icon": "Weapon_SMGClaD017_4",
+            "rank": 4,
+            "getList": "190012",
+            "argsStr": "4132564",
+            "iconPath": "Weapon"
+        },
+        {
             "id": 4132704,
             "name": "涂装·迷彩矩阵",
             "introduction": "隐藏在伪装之下。\n可用于更换相应的武器涂装。",
@@ -35053,6 +35914,30 @@
             "rank": 4,
             "getList": "290027",
             "argsStr": "4133424",
+            "iconPath": "Weapon"
+        },
+        {
+            "id": 4133554,
+            "name": "涂装·太素",
+            "introduction": "光滑的表面带来了极致的握感，挥动时，连风声都令人心潮澎湃，毫无疑问，这是一柄万里挑一的笔直树枝——\n可用于更换相应的武器涂装。",
+            "description": "武器皮肤",
+            "type": 60,
+            "icon": "Weapon_RFClaD019_4",
+            "rank": 4,
+            "getList": "190012",
+            "argsStr": "4133554",
+            "iconPath": "Weapon"
+        },
+        {
+            "id": 4133584,
+            "name": "涂装·幻光星轨",
+            "introduction": "亿万星辰的轨道，被刻画于幽暗的夜空之中，光影流转间，恍若银河落于其上。\n可用于更换相应的武器涂装。",
+            "description": "武器皮肤",
+            "type": 60,
+            "icon": "Weapon_RFClaC013_4",
+            "rank": 4,
+            "getList": "270015",
+            "argsStr": "4133584",
             "iconPath": "Weapon"
         },
         {
@@ -35380,7 +36265,7 @@
             "type": 60,
             "icon": "Weapon_SGClaB014_4",
             "rank": 4,
-            "getList": "290025",
+            "getList": "312004",
             "argsStr": "4136384",
             "iconPath": "Weapon"
         },
@@ -35510,6 +36395,18 @@
             "icon": "Weapon_KnifeSpE001_4",
             "rank": 4,
             "argsStr": "4237064",
+            "iconPath": "Weapon"
+        },
+        {
+            "id": 4331295,
+            "name": "涂装·清纯之心",
+            "introduction": "以芙洛伦为主题的武器涂装。多年来，她的心从未改变。\n可用于更换相应的武器涂装。",
+            "description": "武器皮肤",
+            "type": 60,
+            "icon": "Weapon_HRClaFlorence_5",
+            "rank": 5,
+            "getList": "351064",
+            "argsStr": "4331295",
             "iconPath": "Weapon"
         },
         {
@@ -36822,7 +37719,7 @@
             "type": 61,
             "icon": "WeaponPart_1_ClaC013_3",
             "rank": 4,
-            "getList": "290025",
+            "getList": "312004",
             "argsStr": "7331104",
             "iconPath": "WeaponPart"
         },
@@ -37079,6 +37976,18 @@
             "iconPath": "WeaponPart"
         },
         {
+            "id": 7331274,
+            "name": "涂装·太素瞄准",
+            "introduction": "是温暖潮湿的环境孕育了这个生命？不，或许一切都只是它迷幻的玩笑。\n可用于更换相应的配件涂装。",
+            "description": "配件皮肤",
+            "type": 61,
+            "icon": "WeaponPart_1_ClaE012_3",
+            "rank": 4,
+            "getList": "190012",
+            "argsStr": "7331274",
+            "iconPath": "WeaponPart"
+        },
+        {
             "id": 7331275,
             "name": "涂装·共沐日光",
             "introduction": "莱妮造型的配件。“真是难得的好天气呢，您也一起来晒太阳吧！”\n与人形铭契后，契合度达到一定等级后获得。",
@@ -37100,6 +38009,30 @@
             "rank": 5,
             "getList": "351001",
             "argsStr": "7331285",
+            "iconPath": "WeaponPart"
+        },
+        {
+            "id": 7331295,
+            "name": "涂装·魅惑白羽",
+            "introduction": "芙洛伦造型的配件。“我在实验室等你，这是我们两个的秘密哦……”\n与人形铭契后，契合度达到一定等级后获得。",
+            "description": "配件皮肤",
+            "type": 61,
+            "icon": "WeaponPart_1_ClaFlorence_3",
+            "rank": 5,
+            "getList": "351064",
+            "argsStr": "7331295",
+            "iconPath": "WeaponPart"
+        },
+        {
+            "id": 7331304,
+            "name": "涂装·回旋心率瞄准",
+            "introduction": "转啊转，转啊转——\n在预设的追逐游戏中，她观察着彼此起伏的身姿，还有那按耐不住的躁动心跳。\n可用于更换相应的配件涂装。",
+            "description": "配件皮肤",
+            "type": 61,
+            "icon": "WeaponPart_1_ClaC019_3",
+            "rank": 4,
+            "getList": "290032",
+            "argsStr": "7331304",
             "iconPath": "WeaponPart"
         },
         {
@@ -37218,7 +38151,7 @@
             "type": 61,
             "icon": "WeaponPart_2_ClaD013_3",
             "rank": 4,
-            "getList": "290025",
+            "getList": "312004",
             "argsStr": "7332094",
             "iconPath": "WeaponPart"
         },
@@ -37328,6 +38261,18 @@
             "rank": 5,
             "getList": "312003",
             "argsStr": "7332265",
+            "iconPath": "WeaponPart"
+        },
+        {
+            "id": 7332294,
+            "name": "涂装·回旋心率枪口",
+            "introduction": "转啊转，转啊转——\n在预设的追逐游戏中，她观察着彼此起伏的身姿，还有那按耐不住的躁动心跳。\n可用于更换相应的配件涂装。",
+            "description": "配件皮肤",
+            "type": 61,
+            "icon": "WeaponPart_2_ClaD019_3",
+            "rank": 4,
+            "getList": "290032",
+            "argsStr": "7332294",
             "iconPath": "WeaponPart"
         },
         {
@@ -37879,6 +38824,18 @@
             "iconPath": "WeaponPart"
         },
         {
+            "id": 7336284,
+            "name": "涂装·危险电工握把",
+            "introduction": "能源充沛，足以保证三十小时不间断的作业！\n可用于更换相应的配件涂装。",
+            "description": "配件皮肤",
+            "type": 61,
+            "icon": "WeaponPart_12_ClaE010_3",
+            "rank": 4,
+            "getList": "190012",
+            "argsStr": "7336284",
+            "iconPath": "WeaponPart"
+        },
+        {
             "id": 7336285,
             "name": "涂装·穹线流光握把",
             "introduction": "曳光划过天际，子弹所至，皆为终点！\n可用于更换相应的配件涂装。",
@@ -38087,6 +39044,30 @@
             "icon": "RemouldingPattern_Data_Guard_03_5",
             "rank": 5,
             "iconPath": "PatternData"
+        },
+        {
+            "id": 9960051,
+            "name": "胚珠生长数据β",
+            "introduction": "优质生长数据，装备后将赋予拟态核心指定的特化形态与显像因子。",
+            "description": "新峰值投放",
+            "type": 5,
+            "icon": "RemouldingPattern_Data_Unknown_4",
+            "rank": 4,
+            "sort": 51,
+            "argsStr": "110206",
+            "iconPath": "Item"
+        },
+        {
+            "id": 9960061,
+            "name": "胚珠生长数据γ",
+            "introduction": "顶级生长数据，装备后将赋予拟态核心指定的特化形态与显像因子。",
+            "description": "新峰值投放",
+            "type": 5,
+            "icon": "RemouldingPattern_Data_Unknown_5",
+            "rank": 5,
+            "sort": 51,
+            "argsStr": "110201",
+            "iconPath": "Item"
         },
         {
             "id": 9990101,
@@ -45159,6 +46140,114 @@
             "dismantlingList": {
                 "2": 100
             }
+        },
+        {
+            "id": 39010101,
+            "name": "海风轻语",
+            "introduction": "蓝绿色的外套滑落肩膀，轻盈的面料随风飘动，夏日的自在与活力展露无遗。",
+            "description": "索米头1",
+            "type": 14,
+            "icon": "Item_ClothesMod_SuomiSSR01_P1_Coat",
+            "rank": 4,
+            "sort": 86,
+            "argsStr": "39010101",
+            "iconPath": "Item"
+        },
+        {
+            "id": 39010102,
+            "name": "经典衬衫",
+            "introduction": "似乎是指挥官借给索米的衬衫，被她当作了外套。袖口即便折了几折，依旧有些松垮，显得慵懒又性感。",
+            "description": "索米头2",
+            "type": 14,
+            "icon": "Item_ClothesMod_SuomiSSR01_P2_Coat",
+            "rank": 4,
+            "sort": 86,
+            "argsStr": "39010102",
+            "iconPath": "Item"
+        },
+        {
+            "id": 39010103,
+            "name": "炽焰流光",
+            "introduction": "热烈的红与沉稳的黑相碰撞，如同盛夏阳光般耀眼，展现出无限的热情与活力。",
+            "description": "索米头3",
+            "type": 14,
+            "icon": "Item_ClothesMod_SuomiSSR01_P3_Coat",
+            "rank": 4,
+            "sort": 86,
+            "argsStr": "39010103",
+            "iconPath": "Item"
+        },
+        {
+            "id": 39010201,
+            "name": "浪舞波光",
+            "introduction": "精致的荷叶边饰如同海浪的泡沫，每一道褶皱都诉说着浪漫与柔美。",
+            "description": "索米衣服1",
+            "type": 14,
+            "icon": "Item_ClothesMod_SuomiSSR01_P1_Cloth",
+            "rank": 4,
+            "sort": 86,
+            "argsStr": "39010201",
+            "iconPath": "Item"
+        },
+        {
+            "id": 39010202,
+            "name": "夏日涟漪",
+            "introduction": "胸前的立体褶皱层次分明，仿佛夏日海边的涟漪，勾勒出青春与活力的风采。",
+            "description": "索米衣服2",
+            "type": 14,
+            "icon": "Item_ClothesMod_SuomiSSR01_P2_Cloth",
+            "rank": 4,
+            "sort": 86,
+            "argsStr": "39010202",
+            "iconPath": "Item"
+        },
+        {
+            "id": 39010203,
+            "name": "纱舞盈梦",
+            "introduction": "雪白带纱的泳装上衣，轻薄的纱质覆盖在肌肤上，微风下素体的曲线若隐若现，增添了几分性感与神秘。",
+            "description": "索米衣服3",
+            "type": 14,
+            "icon": "Item_ClothesMod_SuomiSSR01_P3_Cloth",
+            "rank": 4,
+            "sort": 86,
+            "argsStr": "39010203",
+            "iconPath": "Item"
+        },
+        {
+            "id": 39010301,
+            "name": "荷波粼粼",
+            "introduction": "俏皮的荷叶边灵动可爱，配色清新，是夏日海边最美丽的风景。",
+            "description": "索米腿1",
+            "type": 14,
+            "icon": "Item_ClothesMod_SuomiSSR01_P1_Body",
+            "rank": 4,
+            "sort": 86,
+            "argsStr": "39010301",
+            "iconPath": "Item"
+        },
+        {
+            "id": 39010302,
+            "name": "纯白恋语",
+            "introduction": "简洁的裁剪加上高弹力布料勾勒出素体完美的曲线，轻薄的材质更是极大地降低了水阻。",
+            "description": "索米腿2",
+            "type": 14,
+            "icon": "Item_ClothesMod_SuomiSSR01_P2_Body",
+            "rank": 4,
+            "sort": 86,
+            "argsStr": "39010302",
+            "iconPath": "Item"
+        },
+        {
+            "id": 39010303,
+            "name": "织梦缚心",
+            "introduction": "独特的绑带精巧又可爱，极具设计感的同时，悄然流露出不动声色的魅力。",
+            "description": "索米腿3",
+            "type": 14,
+            "icon": "Item_ClothesMod_SuomiSSR01_P3_Body",
+            "rank": 4,
+            "sort": 86,
+            "argsStr": "39010303",
+            "iconPath": "Item"
         },
         {
             "id": 40111121,
