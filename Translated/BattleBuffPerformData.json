@@ -1763,7 +1763,7 @@
         {
             "id": 80121,
             "name": "견고 프로토콜",
-            "description": "기절·도발 등 제어 효과와 명령 금지 효과에 면역. 피해를 받은 후 <color=#3487e0>{0}</color>·<color=#3487e0>{1}</color>·<color=#3487e0>{2}</color> 효과를 해제하며, 이후 일반 유닛은 최대 체력의 <color=#f26c1c>20%</color>, 정예 유닛은 <color=#f26c1c>10%</color>, 보스 유닛은 <color=#f26c1c>5%</color>를 회복한다.",
+            "description": "기절·도발 등 제어 및 명령 금지 효과에 영향을 받지 않는다. 피해를 입으면 <color=#3487e0>{0}</color>, <color=#3487e0>{1}</color>, <color=#3487e0>{2}</color>을 정화하고, 이후 일반 유닛은 최대 생명력의 <color=#f26c1c>20%</color>, 정예 유닛은 <color=#f26c1c>10%</color>, 보스 유닛은 <color=#f26c1c>0.5%</color>를 회복한다.",
             "descriptionTips": "0:320001;0:301201;0:320101",
             "iconName": "Buff_DefUpNeutral",
             "isShow": true
@@ -18832,7 +18832,7 @@
         {
             "id": 10510908,
             "name": "몽유",
-            "description": "이동과 액티브 스킬 사용이 불가능하며, 엄폐 보호를 받지 않고 제어 효과에 면역이다. 해당 상태에 진입 시 모든 아군에게 <color=#3487e0>{0}</color> 및 <color=#3487e0>{3}</color> 효과를 부여하고 <color=#3487e0>{2}</color>에 진입한다. 리몰딩 지수 <color=#f26c1c>10점</color>을 소모할 때마다 모든 아군에게 <color=#f26c1c>1회</color> <color=#3487e0>{0}</color> 효과를 부여한다.",
+            "description": "행동 불가, 엄폐 보호 없음, 제어 효과 면역. 이 상태에 진입하면 모든 아군에게 <color=#3487e0>{0}</color>와 <color=#3487e0>{3}</color> 효과를 부여하고 <color=#3487e0>{2}</color>에 돌입한다. 리몰딩 지수 <color=#f26c1c>10점</color>을 소모할 때마다 모든 아군에게 <color=#f26c1c>1회</color> <color=#3487e0>{0}</color>을 부여한다.",
             "descriptionTips": "0:-1,10510401,1;0:-1,10510800,1;0:-1,10510700,1;0:1051091812",
             "buffEffect": "Skill/MishtySSR01/10510908_sleep|Skill/MishtySSR01/10510908_wakeup",
             "effectPlayTime": [
