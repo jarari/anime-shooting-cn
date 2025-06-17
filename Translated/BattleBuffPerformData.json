@@ -377,7 +377,7 @@
         {
             "id": 3001,
             "name": "확대편성 임시효과",
-            "description": "턴 시작 시, 스킬가진캐릭에게안정buff",
+            "description": "턴 시작 시, 스킬을 보유한 캐릭터에게 공고 버프를 부여한다.",
             "iconName": "Buff_AtkUp",
             "isShow": true,
             "buffHeadShow": 1
@@ -1763,7 +1763,7 @@
         {
             "id": 80121,
             "name": "견고 프로토콜",
-            "description": "기절·도발 등 제어 및 명령 금지 효과에 영향을 받지 않는다. 피해를 입으면 <color=#3487e0>{0}</color>, <color=#3487e0>{1}</color>, <color=#3487e0>{2}</color>을 정화하고, 이후 일반 유닛은 최대 생명력의 <color=#f26c1c>20%</color>, 정예 유닛은 <color=#f26c1c>10%</color>, 보스 유닛은 <color=#f26c1c>0.5%</color>를 회복한다.",
+            "description": "기절·도발 등 제어 및 명령 금지 효과에 영향을 받지 않는다. 피해를 입으면 <color=#3487e0>{0}</color>, <color=#3487e0>{1}</color>, <color=#3487e0>{2}</color>를 정화하고, 이후 일반 유닛은 최대 생명력의 <color=#f26c1c>20%</color>, 정예 유닛은 <color=#f26c1c>10%</color>, 보스 유닛은 <color=#f26c1c>0.5%</color>를 회복한다.",
             "descriptionTips": "0:320001;0:301201;0:320101",
             "iconName": "Buff_DefUpNeutral",
             "isShow": true
@@ -18473,7 +18473,7 @@
         {
             "id": 10420832,
             "name": "자가진단복구",
-            "description": "쓰러질 피해를 받을 때 이를 버티고 모든 디버프를 정화한다. 그리고 자신 최대 체력 <color=#f26c1c>60%</color>만큼 체력을 회복하고, 안정 지수를 전부 회복한다. 그 다음 <color=#3487e0>{0}</color> 효과를 <color=#f26c1c>2전체턴</color>간 얻는다. <color=#f26c1c>1회</color> 적용. 정화 불가.",
+            "description": "쓰러질 피해를 받을 때 이를 버티고 모든 디버프를 정화한다. 그리고 자신 최대 체력 <color=#f26c1c>60%</color>만큼 체력을 회복하고, 안정 지수를 전부 회복한다. 그 다음 <color=#3487e0>{0}</color> 효과를 <color=#f26c1c>2개 전체턴</color> 동안 얻는다. <color=#f26c1c>1회</color> 적용. 정화 불가.",
             "descriptionTips": "0:10420401",
             "buffEffect": "Buff/10420401_avoid_death",
             "effectPlayTime": [
@@ -18675,7 +18675,7 @@
         {
             "id": 10450402,
             "name": "지속 방전",
-            "description": "행동 종료 시 <color=#f26c1c>주위 반경 8칸</color> 내 가장 가까운 적 대상에게 <color=#f26c1c>1회</color> 공격력 <color=#f26c1c>80%</color>의 <color=#d4ae08>전도 피해</color>와 안정 피해 <color=#f26c1c>2점</color>을 준다. 만약 해당 대상이 결전기 <color=#3487e0>호핑 아크</color>의 대상과 동일하다면, 공격 전에 <color=#3487e0>{0}</color>을 부여하고 <color=#f26c1c>2턴</color> 유지한다. 정화 불가.",
+            "description": "행동 종료 시 <color=#f26c1c>주위 반경 8칸</color> 내 가장 가까운 적 대상에게 <color=#f26c1c>1회</color> 공격력 <color=#f26c1c>80%</color>의 <color=#d4ae08>전도 피해</color>와 안정 피해 <color=#f26c1c>2점</color>을 준다. 만약 해당 대상이 결전기 <color=#3487e0>호핑 아크</color>의 대상과 동일하다면, 공격 전에 <color=#3487e0>{0}</color> 효과를 부여하고 <color=#f26c1c>2턴</color> 유지한다. 정화 불가.",
             "descriptionTips": "0:1045040221",
             "iconName": "Buff_BiyocaSSR1",
             "isShow": true,
@@ -18685,7 +18685,7 @@
         {
             "id": 10450403,
             "name": "지속 방전",
-            "description": "행동 종료 시 <color=#f26c1c>주위 반경 8칸</color> 내 가장 가까운 적 대상에게 <color=#f26c1c>1회</color> 공격력 <color=#f26c1c>110%</color>의 <color=#d4ae08>전도 피해</color>와 안정 피해 <color=#f26c1c>2점</color>을 준다. 만약 해당 대상이 결전기 <color=#3487e0>호핑 아크</color>의 대상과 동일하다면, 공격 전에 <color=#3487e0>{0}</color>을 부여하고 <color=#f26c1c>2턴</color> 유지한다. 정화 불가.",
+            "description": "행동 종료 시 <color=#f26c1c>주위 반경 8칸</color> 내 가장 가까운 적 대상에게 <color=#f26c1c>1회</color> 공격력 <color=#f26c1c>110%</color>의 <color=#d4ae08>전도 피해</color>와 안정 피해 <color=#f26c1c>2점</color>을 준다. 만약 해당 대상이 결전기 <color=#3487e0>호핑 아크</color>의 대상과 동일하다면, 공격 전에 <color=#3487e0>{0}</color> 효과를 부여하고 <color=#f26c1c>2턴</color> 유지한다. 정화 불가.",
             "descriptionTips": "0:1045040321",
             "iconName": "Buff_BiyocaSSR1",
             "isShow": true,
@@ -18832,7 +18832,7 @@
         {
             "id": 10510908,
             "name": "몽유",
-            "description": "행동 불가, 엄폐 보호 없음, 제어 효과 면역. 이 상태에 진입하면 모든 아군에게 <color=#3487e0>{0}</color>와 <color=#3487e0>{3}</color> 효과를 부여하고 <color=#3487e0>{2}</color>에 돌입한다. 리몰딩 지수 <color=#f26c1c>10점</color>을 소모할 때마다 모든 아군에게 <color=#f26c1c>1회</color> <color=#3487e0>{0}</color>을 부여한다.",
+            "description": "행동 불가, 엄폐 보호 없음, 제어 효과 면역. 이 상태에 진입하면 모든 아군에게 <color=#3487e0>{0}</color>와 <color=#3487e0>{3}</color> 효과를 부여하고 <color=#3487e0>{2}</color>에 돌입한다. 리몰딩 지수 <color=#f26c1c>10점</color>을 소모할 때마다 모든 아군에게 <color=#f26c1c>1회</color> <color=#3487e0>{0}</color> 효과를 부여한다.",
             "descriptionTips": "0:-1,10510401,1;0:-1,10510800,1;0:-1,10510700,1;0:1051091812",
             "buffEffect": "Skill/MishtySSR01/10510908_sleep|Skill/MishtySSR01/10510908_wakeup",
             "effectPlayTime": [
@@ -19146,13 +19146,13 @@
         {
             "id": 10560011,
             "name": "초전도 섬멸",
-            "description": "주변 반경 <color=#f26c1c>7칸</color> 내 적 1기를 선택해 근접 전도 피해(공격력 <color=#f26c1c>50%</color>)를 준다. 스킬 사용 전 대상 주변 반경 <color=#f26c1c>1칸</color>에 <color=#3487e0>{0}</color> 지형을 생성하며, <color=#f26c1c>3턴</color> 동안 유지된다。\n<color=#3487e0>{1}</color> 효과를 모두 소모하면, 소모한 중첩 수에 따라 피해 계수는 <color=#f26c1c>60%</color>/<color=#f26c1c>70%</color>/<color=#f26c1c>85%</color>/<color=#f26c1c>120%</color>로 바뀌고, 안정 피해는 각각 <color=#f26c1c>1</color>/<color=#f26c1c>2</color>/<color=#f26c1c>3</color>/<color=#f26c1c>6</color>으로 변경된다.",
+            "description": "주변 반경 <color=#f26c1c>7칸</color> 내 적 1기를 선택해 근접 전도 피해(공격력 <color=#f26c1c>50%</color>)를 준다. 스킬 사용 전 대상 주변 반경 <color=#f26c1c>1칸</color>에 <color=#3487e0>{0}</color> 지형을 생성하며, <color=#f26c1c>3턴</color> 동안 유지된다.\n<color=#3487e0>{1}</color> 효과를 모두 소모하면, 소모한 중첩 수에 따라 피해 계수는 <color=#f26c1c>60%</color>/<color=#f26c1c>70%</color>/<color=#f26c1c>85%</color>/<color=#f26c1c>120%</color>로 바뀌고, 안정 피해는 각각 <color=#f26c1c>1</color>/<color=#f26c1c>2</color>/<color=#f26c1c>3</color>/<color=#f26c1c>6</color>으로 변경된다.",
             "descriptionTips": "1:90115;0:10560001"
         },
         {
             "id": 10560012,
             "name": "초전도 섬멸",
-            "description": "주변 반경 <color=#f26c1c>7칸</color> 내 적 1기를 선택해 근접 전도 피해(공격력 <color=#f26c1c>50%</color>)를 준다. 스킬 사용 전 대상 주변 반경 <color=#f26c1c>1칸</color>에 <color=#3487e0>{0}</color> 지형을 생성하며, <color=#f26c1c>3턴</color> 동안 유지된다。\n<color=#3487e0>{1}</color> 효과를 모두 소모하면, 소모 개수에 따라 피해 계수는 <color=#f26c1c>75%</color>/<color=#f26c1c>90%</color>/<color=#f26c1c>120%</color>/<color=#f26c1c>180%</color>가 되고, 안정 피해는 각각 <color=#f26c1c>1</color>/<color=#f26c1c>2</color>/<color=#f26c1c>4</color>/<color=#f26c1c>8</color>로 변경된다. 이번 공격은 대상 방어력의 <color=#f26c1c>15%</color>를 무시한다. 스킬 사용 후 <color=#3487e0>{1}</color> 1중첩을 획득한다.",
+            "description": "주변 반경 <color=#f26c1c>7칸</color> 내 적 1기를 선택해 근접 전도 피해(공격력 <color=#f26c1c>50%</color>)를 준다. 스킬 사용 전 대상 주변 반경 <color=#f26c1c>1칸</color>에 <color=#3487e0>{0}</color> 지형을 생성하며, <color=#f26c1c>3턴</color> 동안 유지된다.\n<color=#3487e0>{1}</color> 효과를 모두 소모하면, 소모 개수에 따라 피해 계수는 <color=#f26c1c>75%</color>/<color=#f26c1c>90%</color>/<color=#f26c1c>120%</color>/<color=#f26c1c>180%</color>가 되고, 안정 피해는 각각 <color=#f26c1c>1</color>/<color=#f26c1c>2</color>/<color=#f26c1c>4</color>/<color=#f26c1c>8</color>로 변경된다. 이번 공격은 대상 방어력의 <color=#f26c1c>15%</color>를 무시한다. 스킬 사용 후 <color=#3487e0>{1}</color> 1중첩을 획득한다.",
             "descriptionTips": "1:90115;0:10560001"
         },
         {
@@ -23055,7 +23055,7 @@
         {
             "id": 61752701,
             "name": "폭주족",
-            "description": "받는 안정 피해가 <color=#f26c1c>1점</color> 감소하고, 받는 피해가 <color=#f26c1c>50%</color> 줄어들며, 이동력이 <color=#f26c1c>2칸</color> 증가한다. 행동 종료 시 <color=#f26c1c>5점</color> 안정이 회복된다. 안정 붕괴 시 이 효과가 사라지고 <color=#3487e0>{0}</color> 효과를 획득한다. 정화 불가 버프.",
+            "description": "받는 안정 피해가 <color=#f26c1c>1점</color> 감소하고, 받는 피해가 <color=#f26c1c>50%</color> 줄어들며, 이동력이 <color=#f26c1c>2칸</color> 증가한다. 행동 종료 시 <color=#f26c1c>5점</color> 안정 지수가 회복된다. 안정 붕괴 시 이 효과가 사라지고 <color=#3487e0>{0}</color> 효과를 획득한다. 정화 불가 버프.",
             "descriptionTips": "0:61752703",
             "buffEffect": "Skill/6175401_Loop",
             "effectPlayTime": [
@@ -28029,7 +28029,7 @@
         },
         {
             "id": 105004034,
-            "name": "청명 도약",
+            "name": "고공 도약",
             "description": "공격력 <color=#f26c1c>+10%</color>, 최대 중첩 <color=#f26c1c>3스택</color>. 정화 불가 버프.",
             "iconName": "Buff_AtkUp",
             "isShow": true,
@@ -28560,7 +28560,7 @@
         {
             "id": 105908011,
             "name": "허니 트랩",
-            "description": "<color=#3487e0>허니 트랩</color> 발동 시 린드는 보유자에게 <color=#f26c1c>3개</color>의 무작위 강력 디버프를 부여하고 <color=#f26c1c>1개</color> 버프를 정화하며 <color=#3487e0>{0}</color>을(를) 사용해 공격력 <color=#f26c1c>80%</color>의 범위 <color=#8679e8>산성 피해</color>와 <color=#f26c1c>1</color>점 안정 피해를 준다. 산성계 정화 불가 디버프.",
+            "description": "<color=#3487e0>허니 트랩</color> 발동 시 린드는 보유자에게 <color=#f26c1c>3개</color>의 무작위 강력한 디버프를 부여하고 <color=#f26c1c>1개</color> 버프를 정화하며 <color=#3487e0>{0}</color>을 사용해 공격력 <color=#f26c1c>80%</color>의 범위 <color=#8679e8>산성 피해</color>와 <color=#f26c1c>1</color>점 안정 피해를 준다. 산성계 정화 불가 디버프.",
             "descriptionTips": "1:90109",
             "buffEffect": "Skill/LindSSR01/10590801_SugarBorn",
             "effectPlayTime": [
@@ -28583,7 +28583,7 @@
         },
         {
             "id": 105908014,
-            "name": "설탕 코팅",
+            "name": "슈가 코팅",
             "description": "가하는 산성 피해가 <color=#f26c1c>1%</color> 증가한다. 최대 <color=#f26c1c>10스택</color>. 정화 불가.",
             "buffEffect": "Skill/LindSSR01/10590801_Candy",
             "effectPlayTime": [
@@ -28607,7 +28607,7 @@
         },
         {
             "id": 105908024,
-            "name": "설탕 코팅",
+            "name": "슈가 코팅",
             "description": "가하는 산성 피해가 <color=#f26c1c>2%</color> 증가한다. 최대 <color=#f26c1c>30스택</color>. 정화 불가.",
             "buffEffect": "Skill/LindSSR01/10590801_Candy",
             "effectPlayTime": [
@@ -28632,7 +28632,7 @@
         {
             "id": 105908031,
             "name": "허니 트랩",
-            "description": "<color=#3487e0>허니 트랩</color> 발동 시 린드는 보유자에게 <color=#f26c1c>6개</color>의 무작위 강력 디버프를 부여하고 <color=#f26c1c>1개</color> 버프를 정화하며 <color=#3487e0>{0}</color>을 사용해 공격력 <color=#f26c1c>120%</color>의 범위 <color=#8679e8>산성 피해</color>와 <color=#f26c1c>1</color>점 안정 피해를 준다. 이번 공격의 치명타 피해가 <color=#f26c1c>15%</color> 증가한다. 산성계 정화 불가 디버프.",
+            "description": "<color=#3487e0>허니 트랩</color> 발동 시 린드는 보유자에게 <color=#f26c1c>6개</color>의 무작위 강력한 디버프를 부여하고 <color=#f26c1c>1개</color> 버프를 정화하며 <color=#3487e0>{0}</color>을 사용해 공격력 <color=#f26c1c>120%</color>의 범위 <color=#8679e8>산성 피해</color>와 <color=#f26c1c>1</color>점 안정 피해를 준다. 이번 공격의 치명타 피해가 <color=#f26c1c>15%</color> 증가한다. 산성계 정화 불가 디버프.",
             "descriptionTips": "1:90109",
             "buffEffect": "Skill/LindSSR01/10590801_SugarBorn",
             "effectPlayTime": [
@@ -30627,7 +30627,7 @@
         {
             "id": 655350101,
             "name": "백트랙 코드",
-            "description": "받는 피해 <color=#f26c1c>-90%</color>. 턴 시작 시, 자신 최대체력 <color=#f26c1c>8%</color>만큼 회복한다. 정화 불가 버프.",
+            "description": "받는 피해 <color=#f26c1c>-90%</color>. 턴 시작 시, 자신 최대체력 <color=#f26c1c>8%</color>만큼 최력을 회복한다. 정화 불가 버프.",
             "iconName": "Buff_SelfHeal",
             "isShow": true,
             "buffHeadShow": 1
@@ -30748,7 +30748,7 @@
         {
             "id": 689801002,
             "name": "재충전",
-            "description": "방어력이 <color=#f26c1c>50%</color> 증가한다. 스택 가능. 정화 불가 버프.",
+            "description": "방어력이 <color=#f26c1c>50%</color> 증가한다. 중첩 가능. 정화 불가 버프.",
             "iconName": "Buff_DefUp",
             "isShow": true,
             "buffHeadShow": 1,
@@ -31281,7 +31281,7 @@
         {
             "id": 720114011,
             "name": "마스터의 강인함",
-            "description": "행동 종료 후 최대 체력의 <color=#f26c1c>6%</color>를 회복하고 안정 <color=#f26c1c>62점</color>을 회복한다. 안정이 0보다 크면 자신의 방어력이 <color=#f26c1c>662%</color> 증가한다.\n<color=#f26c1c>마스터의 인정</color>이 발생할 때까지 정화 불가.",
+            "description": "행동 종료 후 최대 체력의 <color=#f26c1c>6%</color>를 회복하고 안정 <color=#f26c1c>62점</color>을 회복한다. 안정 지수가 0보다 크면 자신의 방어력이 <color=#f26c1c>662%</color> 증가한다.\n<color=#f26c1c>마스터의 인정</color>이 발생할 때까지 정화 불가.",
             "iconName": "Buff_SelfHeal",
             "isShow": true,
             "buffHeadShow": 1,
@@ -31716,7 +31716,7 @@
         {
             "id": 1051091815,
             "name": "몽환 과흥분",
-            "description": "가하는 산성 피해가 <color=#f26c1c>5%</color> 증가한다. 스택 가능. 버프.",
+            "description": "가하는 산성 피해가 <color=#f26c1c>5%</color> 증가한다. 중첩 가능. 버프.",
             "iconName": "Buff_DamageUp",
             "isShow": true,
             "buffHeadShow": 1

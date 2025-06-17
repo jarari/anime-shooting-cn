@@ -1,0 +1,4369 @@
+﻿{
+    "data": [
+        {
+            "id": 10101,
+            "group": 101,
+            "name": "",
+            "text": "战役按钮高亮",
+            "textFemale": "战役按钮高亮",
+            "clickType": 10,
+            "clickAreaPosition": "Canvas/Default/CommandCenterPanelV4(Clone)/Root/Btn_Battle/Root/Cast:1",
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 10201,
+            "group": 102,
+            "name": "",
+            "text": "选章节界面确认按钮高亮",
+            "textFemale": "选章节界面确认按钮高亮",
+            "clickType": 10,
+            "clickAreaPositionNew": [
+                "Default/BattleIndexPanelV2(Clone)/Root/GrpStoryMode_0/BattleIndexStoryModeItem(Clone)/GrpStoryMode_0/GrpBottom/BtnOk/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 10301,
+            "group": 103,
+            "name": "",
+            "text": "选章节界面确认按钮高亮",
+            "textFemale": "选章节界面确认按钮高亮",
+            "clickType": 10,
+            "clickAreaPositionNew": [
+                "Default/BattleIndexPanelV2(Clone)/Root/GrpStoryMode_0/BattleIndexStoryModeItem(Clone)/GrpStoryMode_0/GrpBottom/BtnOk/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 20101,
+            "group": 201,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-150",
+            "text": "指挥官，<color=#f0af14>招募</color>已开启。在这里，我们可以访问萨迩数据库，快速扩充人力和军备。",
+            "textFemale": "指挥官，<color=#f0af14>招募</color>已开启。在这里，我们可以访问萨迩数据库，快速扩充人力和军备。",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "awakePath": "StoryChapterPanel",
+            "clickAreaPositionNew": [
+                "Default/StoryChapterPanel(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content:0"
+            ],
+            "clickAreaPosition": "Canvas/Default/StoryChapterPanel(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content/Cast:1",
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 20201,
+            "group": 202,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "请点击<color=#f0af14>招募</color>。",
+            "textFemale": "请点击<color=#f0af14>招募</color>。",
+            "clickType": 4,
+            "clickActionType": 13,
+            "clickActionTypeParam": 522,
+            "clickAreaPosition": "Canvas/Default/CommandCenterPanelV4(Clone)/Root/GrpRightTab:1,Btn_CommandCenterLeftTabItem(Clone)/Root/Cast:5",
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 20301,
+            "group": 203,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,314,-250",
+            "text": "请点击<color=#f0af14>常规采购</color>。",
+            "textFemale": "请点击<color=#f0af14>常规采购</color>。",
+            "clickType": 4,
+            "clickActionType": 13,
+            "clickActionTypeParam": 522,
+            "clickActionTypeParam2": "1",
+            "awakePath": "GashaponMainPanelV2",
+            "globalTab": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 20302,
+            "group": 203,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "请点击<color=#f0af14>访问一次</color>。",
+            "textFemale": "请点击<color=#f0af14>访问一次</color>。",
+            "clickType": 1,
+            "clickActionType": 7,
+            "awakePath": "GashaponMainPanelV2",
+            "clickAreaPositionNew": [
+                "Default/GashaponMainPanelV2(Clone)/Root/GrpOrder/GrpRight/GrpAction/Btn_OrderOne:0"
+            ],
+            "clickAreaPosition": "Canvas/Default/GashaponMainPanelV2(Clone)/Root/GrpOrder/GrpRight/GrpAction/Btn_OrderOne/Root/Cast:1",
+            "giveItem": {
+                "12": 1
+            },
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 30101,
+            "group": 301,
+            "name": "",
+            "text": "点击关闭",
+            "textFemale": "点击关闭",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 522,
+            "clickAreaPosition": "Canvas/Default/GashaponResultPanel(Clone)/Root/GrpClose/Btn_Content/Cast:1",
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 30102,
+            "group": 301,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-100",
+            "text": "<color=#f0af14>克罗丽科</color>现可加入小队。现在，请返回指挥室。",
+            "textFemale": "<color=#f0af14>克罗丽科</color>现可加入小队。现在，请返回指挥室。",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "awakePath": "GashaponMainPanelV2",
+            "clickAreaPosition": "Canvas/Default/GashaponMainPanelV2(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content/Cast:1",
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 30201,
+            "group": 302,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "请前往<color=#f0af14>整备室</color>。",
+            "textFemale": "请前往<color=#f0af14>整备室</color>。",
+            "clickType": 4,
+            "clickActionType": 13,
+            "clickActionTypeParam": 1304,
+            "clickAreaPositionNew": [
+                "Default/CommandCenterPanelV4(Clone)/Root/GrpRightTab:3"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 30202,
+            "group": 302,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,194,-480",
+            "text": "请选择<color=#f0af14>克罗丽科</color>。",
+            "textFemale": "请选择<color=#f0af14>克罗丽科</color>。",
+            "clickType": 1,
+            "awakePath": "ChrPowerUpPanelV3",
+            "clickAreaPositionByid": "Canvas/Default/ChrScreenPanelV3(Clone)/Root/GrpChrSelectList/GrpChrList/GrpList/Viewport/Content:1001:Cast",
+            "virtualListItemId": {
+                "Canvas/Default/ChrPowerUpPanelV3(Clone)/Root/Trans_Overview_0/ChrPowerUp_OverviewItem(Clone)/Root/Trans_ChrSelectList_T/GrpChrList": "1001|1"
+            },
+            "clickAreaEffectType": 1
+        },
+        {
+            "id": 30203,
+            "group": 302,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "请点击<color=#f0af14>等级提升</color>。",
+            "textFemale": "请点击<color=#f0af14>等级提升</color>。",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 918,
+            "awakePath": "ChrPowerUpPanelV3",
+            "clickAreaPositionNew": [
+                "Default/ChrPowerUpPanelV3(Clone)/Root/Trans_Overview_0/ChrPowerUp_OverviewItem(Clone)/Root/GrpRight/GrpAction/Trans_BtnLevelUp:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 30204,
+            "group": 302,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "在这里，指挥官可根据当前持有的<color=#f0af14>战场报告</color>数量，为克罗丽科设定对应的训练目标，以提升人形的<color=#f0af14>作战效能</color>。",
+            "textFemale": "在这里，指挥官可根据当前持有的<color=#f0af14>战场报告</color>数量，为克罗丽科设定对应的训练目标，以提升人形的<color=#f0af14>作战效能</color>。",
+            "awakePath": "ChrRangePanelV3",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 30205,
+            "group": 302,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "请点击<color=#f0af14>开始训练</color>。",
+            "textFemale": "请点击<color=#f0af14>开始训练</color>。",
+            "clickType": 1,
+            "clickActionType": 1,
+            "clickActionTypeParam": 1001,
+            "awakePath": "ChrRangePanelV3",
+            "clickAreaPosition": "Canvas/Default/ChrRangePanelV3(Clone)/Root/GrpTrain/GrpAction/Trans_BtnConfirm/Root/Cast:1",
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 30206,
+            "group": 302,
+            "canSkip": true,
+            "name": "",
+            "text": "点击任意处",
+            "textFemale": "点击任意处",
+            "awakePath": "ChrLevelUpDialogV3",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 30301,
+            "group": 303,
+            "canSkip": true,
+            "name": "",
+            "text": "人形升级ppt",
+            "textFemale": "人形升级ppt",
+            "awakePath": "ChrRangePanelV3",
+            "delay": 1.0,
+            "finishPage": 1,
+            "pptGroup": 1101,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 50101,
+            "group": 501,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-100",
+            "text": "指挥官，<color=#f0af14>武器</color>已开启。请返回指挥室。",
+            "textFemale": "指挥官，<color=#f0af14>武器</color>已开启。请返回指挥室。",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/ComBatWinShowDialogV2(Clone)/Root/GrpSettlement_1/Content/GrpAction/BtnConfirm/Btn_Content:0"
+            ],
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 50201,
+            "group": 502,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-150",
+            "text": "B.R.I.E.F.的部分<color=#f0af14>委托</color>已完成。",
+            "textFemale": "B.R.I.E.F.的部分<color=#f0af14>委托</color>已完成。",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 891,
+            "awakePath": "CommandCenterPanelV4",
+            "clickAreaPositionNew": [
+                "Default/CommandCenterPanelV4(Clone)/Root/GrpLeftTab/GrpList/Viewport/Content/Btn_NewTask/Root:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 50202,
+            "group": 502,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-100",
+            "text": "请领取<color=#f0af14>报酬</color>。",
+            "textFemale": "请领取<color=#f0af14>报酬</color>。",
+            "clickType": 1,
+            "clickActionType": 8,
+            "clickActionTypeParam": 1,
+            "awakePath": "NewTaskPanel",
+            "clickAreaPositionNew": [
+                "Default/NewTaskPanel(Clone)/Root/GrpContent/GrpRight/GrpCurrentTask/GrpState/Trans_Btn_Receive/Btn_Content:0"
+            ],
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 50203,
+            "group": 502,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-100",
+            "text": "请返回<color=#f0af14>指挥室</color>。",
+            "textFemale": "请返回<color=#f0af14>指挥室</color>。",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "awakePath": "NewTaskPanel",
+            "clickAreaPositionNew": [
+                "Default/NewTaskPanel(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnBack/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 50301,
+            "group": 503,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "现在，请前往整备室，为我装备<color=#f0af14>新武器</color>。",
+            "textFemale": "现在，请前往整备室，为我装备<color=#f0af14>新武器</color>。",
+            "clickType": 4,
+            "clickActionType": 13,
+            "clickActionTypeParam": 1304,
+            "clickAreaPositionNew": [
+                "Default/CommandCenterPanelV4(Clone)/Root/GrpRightTab:3"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 50302,
+            "group": 503,
+            "canSkip": true,
+            "name": "",
+            "text": "点击武器",
+            "textFemale": "点击武器",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 609,
+            "awakePath": "ChrPowerUpPanelV3",
+            "clickAreaPositionNew": [
+                "Default/ChrPowerUpPanelV3(Clone)/Root/Trans_Overview_0/ChrPowerUp_OverviewItem(Clone)/Root/GrpRight/GrpInfo/GrpLayout/GrpWeaponEntrance/GrpContent/Btn_ChrWeaponItemV3(Clone):0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 50303,
+            "group": 503,
+            "canSkip": true,
+            "name": "",
+            "text": "点击替换",
+            "textFemale": "点击替换",
+            "clickType": 1,
+            "awakePath": "ChrWeaponPanelV4",
+            "clickAreaPositionNew": [
+                "Default/ChrWeaponPanelV4(Clone)/Root/Trans_Overview_0/ChrWeaponOverviewItem/GrpLeft/GrpBottomBtn/Btn_WeaponReplace/Root:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 50304,
+            "group": 503,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "请选择<color=#f0af14>新武器</color>。",
+            "textFemale": "请选择<color=#f0af14>新武器</color>。",
+            "clickType": 4,
+            "awakePath": "ChrWeaponPanelV4",
+            "virtualListItemId": {
+                "Canvas/Default/ChrWeaponPanelV4(Clone)/Root/Trans_Overview_0/ChrWeaponOverviewItem/Trans_GrpWeaponList/Trans_WeaponList/GrpList": "1|2"
+            },
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 50305,
+            "group": 503,
+            "canSkip": true,
+            "name": "",
+            "text": "点击<color=#f0af14>替换</color>",
+            "textFemale": "点击<color=#f0af14>替换</color>",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/ChrWeaponPanelV4(Clone)/Root/Trans_Overview_0/ChrWeaponOverviewItem/Trans_GrpWeaponList/Trans_WeaponList/GrpAction/Trans_BtnBreak/Btn_Content:0"
+            ],
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 50401,
+            "group": 504,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "现在，请前往整备室，为我装备<color=#f0af14>新武器</color>。",
+            "textFemale": "现在，请前往整备室，为我装备<color=#f0af14>新武器</color>。",
+            "clickType": 4,
+            "clickActionType": 13,
+            "clickActionTypeParam": 1304,
+            "clickAreaPositionNew": [
+                "Default/CommandCenterPanelV4(Clone)/Root/GrpRightTab:3"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 50402,
+            "group": 504,
+            "canSkip": true,
+            "name": "",
+            "text": "请点击闪电",
+            "textFemale": "请点击闪电",
+            "clickType": 4,
+            "awakePath": "ChrPowerUpPanelV3",
+            "virtualListItemId": {
+                "Canvas/Default/ChrPowerUpPanelV3(Clone)/Root/Trans_Overview_0/ChrPowerUp_OverviewItem(Clone)/Root/Trans_ChrSelectList_T/GrpChrList": "1017|1"
+            },
+            "clickAreaEffectType": 1
+        },
+        {
+            "id": 50403,
+            "group": 504,
+            "canSkip": true,
+            "name": "",
+            "text": "请点击武器",
+            "textFemale": "请点击武器",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 609,
+            "awakePath": "ChrPowerUpPanelV3",
+            "clickAreaPositionNew": [
+                "Default/ChrPowerUpPanelV3(Clone)/Root/Trans_Overview_0/ChrPowerUp_OverviewItem(Clone)/Root/GrpRight/GrpInfo/GrpLayout/GrpWeaponEntrance/GrpContent/Btn_ChrWeaponItemV3(Clone):0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 50404,
+            "group": 504,
+            "canSkip": true,
+            "name": "",
+            "text": "点击替换",
+            "textFemale": "点击替换",
+            "clickType": 1,
+            "awakePath": "ChrWeaponPanelV4",
+            "clickAreaPositionNew": [
+                "Default/ChrWeaponPanelV4(Clone)/Root/Trans_Overview_0/ChrWeaponOverviewItem/GrpLeft/GrpBottomBtn/Btn_WeaponReplace/Root:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 50405,
+            "group": 504,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "请选择<color=#f0af14>新武器</color>。",
+            "textFemale": "请选择<color=#f0af14>新武器</color>。",
+            "clickType": 4,
+            "awakePath": "ChrWeaponPanelV4",
+            "virtualListItemId": {
+                "Canvas/Default/ChrWeaponPanelV4(Clone)/Root/Trans_Overview_0/ChrWeaponOverviewItem/Trans_GrpWeaponList/Trans_WeaponList/GrpList": "1|2"
+            },
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 50406,
+            "group": 504,
+            "canSkip": true,
+            "name": "",
+            "text": "点击替换",
+            "textFemale": "点击替换",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/ChrWeaponPanelV4(Clone)/Root/Trans_Overview_0/ChrWeaponOverviewItem/Trans_GrpWeaponList/Trans_WeaponList/GrpAction/Trans_BtnBreak/Btn_Content:0"
+            ],
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 50501,
+            "group": 505,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-100",
+            "text": "指挥官，<color=#f0af14>武器升级</color>已开启。请返回指挥室。",
+            "textFemale": "指挥官，<color=#f0af14>武器升级</color>已开启。请返回指挥室。",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "awakePath": "BattleIndexPanel",
+            "clickAreaPositionNew": [
+                "Default/BattleIndexPanelV2(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content:0"
+            ],
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 50601,
+            "group": 506,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-100",
+            "text": "请进入<color=#f0af14>整备室</color>。",
+            "textFemale": "请进入<color=#f0af14>整备室</color>。",
+            "clickType": 4,
+            "clickActionType": 13,
+            "clickActionTypeParam": 1304,
+            "clickAreaPositionNew": [
+                "Default/CommandCenterPanelV4(Clone)/Root/GrpRightTab:3"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 50602,
+            "group": 506,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "请点击<color=#f0af14>武器</color>。",
+            "textFemale": "请点击<color=#f0af14>武器</color>。",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 609,
+            "awakePath": "ChrPowerUpPanelV3",
+            "clickAreaPositionNew": [
+                "Default/ChrPowerUpPanelV3(Clone)/Root/Trans_Overview_0/ChrPowerUp_OverviewItem(Clone)/Root/GrpRight/GrpInfo/GrpLayout/GrpWeaponEntrance/GrpContent/Btn_ChrWeaponItemV3(Clone):0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 50603,
+            "group": 506,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-100",
+            "text": "请点击<color=#f0af14>提升</color>。",
+            "textFemale": "请点击<color=#f0af14>提升</color>。",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 1557,
+            "awakePath": "ChrWeaponPanelV4",
+            "clickAreaPositionNew": [
+                "Default/ChrWeaponPanelV4(Clone)/Root/Trans_Overview_0/ChrWeaponOverviewItem/GrpAction/Trans_BtnPowerUp/BtnLvUp/Btn_Content:0"
+            ],
+            "delay": 0.2,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 50604,
+            "group": 506,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-100",
+            "text": "指挥官，可在此处提升<color=#f0af14>武器熟练度</color>。",
+            "textFemale": "指挥官，可在此处提升<color=#f0af14>武器熟练度</color>。",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 50605,
+            "group": 506,
+            "canSkip": true,
+            "name": "",
+            "text": "枪械ppt",
+            "textFemale": "枪械ppt",
+            "clickType": 1,
+            "delay": 0.5,
+            "finishPage": 1,
+            "pptGroup": 1201,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 51001,
+            "group": 510,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "通过<color=#f0af14>智能导航光屏</color>，指挥官可快速前往各区域。",
+            "textFemale": "通过<color=#f0af14>智能导航光屏</color>，指挥官可快速前往各区域。",
+            "awakePath": "CommandCenterHudPanel",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 51002,
+            "group": 510,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "在这里，也可查看<color=#f0af14>邮件</color>、<color=#f0af14>公告</color>等。",
+            "textFemale": "在这里，也可查看<color=#f0af14>邮件</color>、<color=#f0af14>公告</color>等。",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 51003,
+            "group": 510,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "现在，指挥官可以前往<color=#f0af14>仓库</color>清点物资。",
+            "textFemale": "现在，指挥官可以前往<color=#f0af14>仓库</color>清点物资。",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 523,
+            "clickAreaPositionNew": [
+                "Default/CommandCenterHudPanel(Clone)/Root/GrpDialog/GrpCenter/Btn_Repository:0"
+            ],
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 51101,
+            "group": 511,
+            "canSkip": true,
+            "name": "",
+            "text": "仓库ppt",
+            "textFemale": "仓库ppt",
+            "delay": 0.5,
+            "finishPage": 1,
+            "pptGroup": 2401,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 59901,
+            "group": 599,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-100",
+            "text": "请前往<color=#f0af14>指挥室</color>。",
+            "textFemale": "请前往<color=#f0af14>指挥室</color>。",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "awakePath": "StoryChapterPanel",
+            "clickAreaPositionNew": [
+                "Default/StoryChapterPanel(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content:0"
+            ],
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 100101,
+            "group": 1001,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "指挥官，新的<color=#f0af14>剧情章节</color>已开启。",
+            "textFemale": "指挥官，新的<color=#f0af14>剧情章节</color>已开启。",
+            "clickType": 4,
+            "awakePath": "CommandCenterPanelV4",
+            "clickAreaPosition": "Canvas/Default/CommandCenterPanelV4(Clone)/Root/Btn_Battle/Root/Cast:1",
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 100102,
+            "group": 1001,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "请点击<color=#f0af14>确认</color>。",
+            "textFemale": "请点击<color=#f0af14>确认</color>。",
+            "clickType": 1,
+            "awakePath": "BattleIndexPanelV2",
+            "clickAreaPosition": "Canvas/Default/BattleIndexPanelV2(Clone)/Root/GrpStoryMode_0/BattleIndexStoryModeItem(Clone)/GrpStoryMode_0/GrpBottom/BtnOk/Btn_Content/Root/Cast:1",
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 100201,
+            "group": 1002,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "请进入<color=#f0af14>SL-2-2</color>。",
+            "textFemale": "请进入<color=#f0af14>SL-2-2</color>。",
+            "clickType": 1,
+            "awakePath": "StoryChapterPanel",
+            "clickAreaPositionNew": [
+                "Default/StoryChapterPanel(Clone)/Root/GrpCenter/GrpDetailsList/Viewport/Content:12"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 100202,
+            "group": 1002,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "请点击<color=#f0af14>观看</color>。",
+            "textFemale": "请点击<color=#f0af14>观看</color>。",
+            "clickType": 1,
+            "clickActionType": 6,
+            "awakePath": "BattleDetailDialog",
+            "clickAreaPosition": "Canvas/Default/BattleDetailDialog(Clone)/Root/GrpContent/GrpAction/BtnStart/Btn_Content/Root/Cast:1",
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 110101,
+            "group": 1101,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-100",
+            "text": "指挥官，<color=#f0af14>寇尔芙</color>加入了队伍，我们来带她熟悉下艾莫号吧。",
+            "textFemale": "指挥官，<color=#f0af14>寇尔芙</color>加入了队伍，我们来带她熟悉下艾莫号吧。",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "awakePath": "StoryChapterPanel",
+            "clickAreaPositionNew": [
+                "Default/StoryChapterPanel(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 110201,
+            "group": 1102,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-100",
+            "text": "先前往<color=#f0af14>整备室</color>。",
+            "textFemale": "先前往<color=#f0af14>整备室</color>。",
+            "clickType": 4,
+            "clickActionType": 13,
+            "clickActionTypeParam": 1304,
+            "clickAreaPositionNew": [
+                "Default/CommandCenterPanelV4(Clone)/Root/GrpRightTab:3"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 110301,
+            "group": 1103,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-100",
+            "text": "先前往<color=#f0af14>整备室</color>。",
+            "textFemale": "先前往<color=#f0af14>整备室</color>。",
+            "clickType": 4,
+            "clickActionType": 13,
+            "clickActionTypeParam": 1304,
+            "clickAreaPositionNew": [
+                "Default/CommandCenterPanelV4(Clone)/Root/GrpRightTab:3"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 110303,
+            "group": 1103,
+            "canSkip": true,
+            "name": "",
+            "text": "请选择<color=#f0af14>寇尔芙</color>。",
+            "textFemale": "请选择<color=#f0af14>寇尔芙</color>。",
+            "clickType": 4,
+            "awakePath": "ChrPowerUpPanelV3",
+            "virtualListItemId": {
+                "Canvas/Default/ChrPowerUpPanelV3(Clone)/Root/Trans_Overview_0/ChrPowerUp_OverviewItem(Clone)/Root/Trans_ChrSelectList_T/GrpChrList": "1009|1"
+            },
+            "clickAreaEffectType": 1
+        },
+        {
+            "id": 110401,
+            "group": 1104,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "寇尔芙刚刚加入，记得协助她提升一下<color=#f0af14>作战效能</color>哦。",
+            "textFemale": "寇尔芙刚刚加入，记得协助她提升一下<color=#f0af14>作战效能</color>哦。",
+            "nextButton": true,
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 110402,
+            "group": 1104,
+            "canSkip": true,
+            "name": "",
+            "text": "人形升级ppt",
+            "textFemale": "人形升级ppt",
+            "delay": 0.1,
+            "pptGroup": 1101,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 110403,
+            "group": 1104,
+            "canSkip": true,
+            "avatar": "Avatar_Head_ColphneSR",
+            "avatarFemale": "Avatar_Head_ColphneSR",
+            "name": "寇尔芙",
+            "textPosition": "7,200,-400",
+            "text": "指挥官，快过来啦~要让人家变得超厉害哦！",
+            "textFemale": "指挥官，快过来啦~要让人家变得超厉害哦！",
+            "nextButton": true,
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 130101,
+            "group": 1301,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-400",
+            "text": "完成军备解析关卡，能够获得解析图纸，提升人形对<color=#f0af14>武器的熟练度</color>。",
+            "textFemale": "完成军备解析关卡，能够获得解析图纸，提升人形对<color=#f0af14>武器的熟练度</color>。",
+            "awakePath": "BattleIndexPanelV2",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 130102,
+            "group": 1301,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-400",
+            "text": "完成深度搜索，可获取战场报告，以快速提升人形们的<color=#f0af14>作战能力</color>。",
+            "textFemale": "完成深度搜索，可获取战场报告，以快速提升人形们的<color=#f0af14>作战能力</color>。",
+            "awakePath": "BattleIndexPanelV2",
+            "nextButton": true,
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 130103,
+            "group": 1301,
+            "canSkip": true,
+            "name": "",
+            "text": "补给作战ppt",
+            "textFemale": "补给作战ppt",
+            "nextButton": true,
+            "pptGroup": 2001,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 150101,
+            "group": 1501,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "指挥官，请先前往整备室，帮我完成<color=#f0af14>心智增域</color>。",
+            "textFemale": "指挥官，请先前往整备室，帮我完成<color=#f0af14>心智增域</color>。",
+            "clickType": 4,
+            "clickActionType": 13,
+            "clickActionTypeParam": 1304,
+            "clickAreaPositionNew": [
+                "Default/CommandCenterPanelV4(Clone)/Root/GrpRightTab:3"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 150201,
+            "group": 1502,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "指挥官，请先前往整备室，帮我完成<color=#f0af14>心智增域</color>。",
+            "textFemale": "指挥官，请先前往整备室，帮我完成<color=#f0af14>心智增域</color>。",
+            "clickType": 4,
+            "clickActionType": 13,
+            "clickActionTypeParam": 1304,
+            "clickAreaPositionNew": [
+                "Default/CommandCenterPanelV4(Clone)/Root/GrpRightTab:3"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 150202,
+            "group": 1502,
+            "canSkip": true,
+            "name": "",
+            "text": "请点击闪电",
+            "textFemale": "请点击闪电",
+            "clickType": 4,
+            "awakePath": "ChrPowerUpPanelV3",
+            "virtualListItemId": {
+                "Canvas/Default/ChrPowerUpPanelV3(Clone)/Root/Trans_Overview_0/ChrPowerUp_OverviewItem(Clone)/Root/Trans_ChrSelectList_T/GrpChrList": "1017|1"
+            },
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 150301,
+            "group": 1503,
+            "canSkip": true,
+            "name": "",
+            "text": "点击等级提升",
+            "textFemale": "点击等级提升",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 918,
+            "awakePath": "ChrPowerUpPanelV3",
+            "clickAreaPositionNew": [
+                "Default/ChrPowerUpPanelV3(Clone)/Root/Trans_Overview_0/ChrPowerUp_OverviewItem(Clone)/Root/GrpRight/GrpAction/Trans_BtnLevelUp:0"
+            ],
+            "giveItem": {
+                "25": 5165
+            },
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 150302,
+            "group": 1503,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "人形的心智域格达到性能上限后，即可进行<color=#f0af14>心智增域</color>。",
+            "textFemale": "人形的心智域格达到性能上限后，即可进行<color=#f0af14>心智增域</color>。",
+            "clickType": 1,
+            "clickActionType": 1,
+            "clickActionTypeParam": 1017,
+            "awakePath": "ChrRangePanelV3",
+            "clickAreaPosition": "Canvas/Default/ChrRangePanelV3(Clone)/Root/GrpTrain/GrpAction/Trans_BtnConfirm/Root/Cast:1",
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 150303,
+            "group": 1503,
+            "canSkip": true,
+            "name": "",
+            "text": "升级完成",
+            "textFemale": "升级完成",
+            "clickType": 4,
+            "awakePath": "ChrLevelUpDialogV3",
+            "clickAreaPosition": "Canvas/Default/ChrLevelUpDialogV3(Clone)/Root/GrpBg/Btn_Close/ImgBlackBg:1",
+            "clickAreaEffectHide": true,
+            "clickAreaEffectType": 2,
+            "clickAreaEffectRate": 120
+        },
+        {
+            "id": 150401,
+            "group": 1504,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "心智增域需要用到<color=#f0af14>存量条</color>。",
+            "textFemale": "心智增域需要用到<color=#f0af14>存量条</color>。",
+            "awakePath": "ChrRangePanelV3",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 150402,
+            "group": 1504,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "这里恰好有一些。",
+            "textFemale": "这里恰好有一些。",
+            "nextButton": true,
+            "giveItem": {
+                "8328": 4
+            },
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 150403,
+            "group": 1504,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "请点击<color=#f0af14>增域</color>。",
+            "textFemale": "请点击<color=#f0af14>增域</color>。",
+            "clickType": 1,
+            "clickActionType": 2,
+            "clickActionTypeParam": 1017,
+            "clickAreaPosition": "Canvas/Default/ChrRangePanelV3(Clone)/Root/GrpBreak/Trans_BtnConfirm/Root/Cast:1",
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 150404,
+            "group": 1504,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "心智增域完成。",
+            "textFemale": "心智增域完成。",
+            "clickType": 4,
+            "awakePath": "ChrBreakDialogV3",
+            "clickAreaPosition": "Canvas/Default/ChrBreakDialogV3(Clone)/Root/GrpBg/Btn_Close/ImgBlackBg:1",
+            "clickAreaEffectHide": true,
+            "clickAreaEffectType": 2,
+            "clickAreaEffectRate": 120
+        },
+        {
+            "id": 150405,
+            "group": 1504,
+            "canSkip": true,
+            "name": "",
+            "text": "心智增域复盘ppt",
+            "textFemale": "心智增域复盘ppt",
+            "pptGroup": 1102,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 151101,
+            "group": 1511,
+            "canSkip": true,
+            "name": "",
+            "text": "点击确定",
+            "textFemale": "点击确定",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/ComBatWinShowDialogV2(Clone)/Root/GrpSettlement_1/Content/GrpAction/BtnConfirm/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 151201,
+            "group": 1512,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-100",
+            "text": "指挥官，<color=#f0af14>心智增域</color>已开启。请返回指挥室。",
+            "textFemale": "指挥官，<color=#f0af14>心智增域</color>已开启。请返回指挥室。",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "awakePath": "StoryChapterPanel",
+            "clickAreaPositionNew": [
+                "Default/StoryChapterPanel(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 151301,
+            "group": 1513,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-100",
+            "text": "指挥官，<color=#f0af14>心智增域</color>已开启。请返回指挥室。",
+            "textFemale": "指挥官，<color=#f0af14>心智增域</color>已开启。请返回指挥室。",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "awakePath": "SimCombatComPanel",
+            "clickAreaPositionNew": [
+                "Default/SimCombatComPanel(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 151401,
+            "group": 1514,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-100",
+            "text": "指挥官，<color=#f0af14>心智增域</color>已开启。请返回指挥室。",
+            "textFemale": "指挥官，<color=#f0af14>心智增域</color>已开启。请返回指挥室。",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "awakePath": "SimCombatComPanel",
+            "clickAreaPositionNew": [
+                "Default/SimCombatComPanel(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 151501,
+            "group": 1515,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-100",
+            "text": "指挥官，<color=#f0af14>心智增域</color>已开启。请返回指挥室。",
+            "textFemale": "指挥官，<color=#f0af14>心智增域</color>已开启。请返回指挥室。",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "awakePath": "SimCombatComPanel",
+            "clickAreaPositionNew": [
+                "Default/SimCombatComPanel(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 151601,
+            "group": 1516,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-100",
+            "text": "指挥官，<color=#f0af14>心智增域</color>已开启。请返回指挥室。",
+            "textFemale": "指挥官，<color=#f0af14>心智增域</color>已开启。请返回指挥室。",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "awakePath": "SimCombatComPanel",
+            "clickAreaPositionNew": [
+                "Default/SimCombatComPanel(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 151701,
+            "group": 1517,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-100",
+            "text": "指挥官，<color=#f0af14>心智增域</color>已开启。请返回指挥室。",
+            "textFemale": "指挥官，<color=#f0af14>心智增域</color>已开启。请返回指挥室。",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "awakePath": "SimComBatHardBattlePanel",
+            "clickAreaPositionNew": [
+                "Default/SimComBatHardBattlePanel(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 151801,
+            "group": 1518,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-100",
+            "text": "指挥官，<color=#f0af14>心智增域</color>已开启。请返回指挥室。",
+            "textFemale": "指挥官，<color=#f0af14>心智增域</color>已开启。请返回指挥室。",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "awakePath": "SimCombatComPanel",
+            "clickAreaPositionNew": [
+                "Default/SimCombatComPanel(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 151901,
+            "group": 1519,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-100",
+            "text": "指挥官，<color=#f0af14>心智增域</color>已开启。请返回指挥室。",
+            "textFemale": "指挥官，<color=#f0af14>心智增域</color>已开启。请返回指挥室。",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "awakePath": "QuestPanel",
+            "clickAreaPositionNew": [
+                "Default/QuestPanel(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 160101,
+            "group": 1601,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-100",
+            "text": "指挥官，<color=#f0af14>决策构像</color>已开启。请返回指挥室。",
+            "textFemale": "指挥官，<color=#f0af14>决策构像</color>已开启。请返回指挥室。",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "awakePath": "ChrRangePanelV3",
+            "clickAreaPositionNew": [
+                "Default/ChrRangePanelV3(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content:0"
+            ],
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 160201,
+            "group": 1602,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "请点击<color=#f0af14>战役推进</color>。",
+            "textFemale": "请点击<color=#f0af14>战役推进</color>。",
+            "clickType": 4,
+            "clickActionType": 13,
+            "clickActionTypeParam": 596,
+            "clickAreaPosition": "Canvas/Default/CommandCenterPanelV4(Clone)/Root/Btn_Battle/Root/Cast:1",
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 160202,
+            "group": 1602,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "请点击<color=#f0af14>补给作战</color>。",
+            "textFemale": "请点击<color=#f0af14>补给作战</color>。",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 596,
+            "clickActionTypeParam2": "23",
+            "awakePath": "BattleIndexPanelV2",
+            "clickAreaPositionNew": [
+                "Default/BattleIndexPanelV2(Clone)/Root/GrpTop/TabModeList/Content:4"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 160203,
+            "group": 1602,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "请点击<color=#f0af14>决策构象</color>。",
+            "textFemale": "请点击<color=#f0af14>决策构象</color>。",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 924,
+            "awakePath": "BattleIndexPanelV2",
+            "virtualListItemId": {
+                "Canvas/Default/BattleIndexPanelV2(Clone)/Root/GrpSimCombatDaily_2/BattleIndexSimCombatDailyItem(Clone)/GrpList": "2|2"
+            },
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 160204,
+            "group": 1602,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-400",
+            "text": "完成关卡即可获得心智增域所需的<color=#f0af14>存量条</color>。",
+            "textFemale": "完成关卡即可获得心智增域所需的<color=#f0af14>存量条</color>。",
+            "awakePath": "SimCombatComPanel",
+            "nextButton": true,
+            "delay": 0.5,
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 170101,
+            "group": 1701,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "请点击<color=#f0af14>整备室</color>。",
+            "textFemale": "请点击<color=#f0af14>整备室</color>。",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 1304,
+            "clickAreaPositionNew": [
+                "Default/CommandCenterPanelV4(Clone)/Root/GrpRightTab:3"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 170102,
+            "group": 1701,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "请点击<color=#f0af14>心智螺旋</color>。",
+            "textFemale": "请点击<color=#f0af14>心智螺旋</color>。",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 1304,
+            "clickActionTypeParam2": "33",
+            "awakePath": "ChrPowerUpPanelV3",
+            "clickAreaPosition": "Canvas/Default/ChrPowerUpPanelV3(Clone)/Root/GrpTop/GrpTopRightBtn:1,Btn_ChrBarrackTopBarItemV3(Clone)/Cast:3",
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 170103,
+            "group": 1701,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "之前获得的报酬中，包含一些<color=#f0af14>转录导体</color>。",
+            "textFemale": "之前获得的报酬中，包含一些<color=#f0af14>转录导体</color>。",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 170104,
+            "group": 1701,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "转录导体可用于激活人形的<color=#f0af14>增效位点</color>。",
+            "textFemale": "转录导体可用于激活人形的<color=#f0af14>增效位点</color>。",
+            "nextButton": true,
+            "giveItem": {
+                "9006": 24
+            },
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 170105,
+            "group": 1701,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "请点击<color=#f0af14>激活</color>。",
+            "textFemale": "请点击<color=#f0af14>激活</color>。",
+            "clickType": 1,
+            "clickActionType": 11,
+            "clickAreaPositionNew": [
+                "Default/ChrPowerUpPanelV3(Clone)/Root/Trans_ChrTalent_1/ChrPowerUp_ChrTalentItem(Clone)/Root/GrpRightInfo/Root/GrpAction/Trans_BtnActivated:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 170201,
+            "group": 1702,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "请点击<color=#f0af14>整备室</color>。",
+            "textFemale": "请点击<color=#f0af14>整备室</color>。",
+            "clickType": 4,
+            "clickActionType": 13,
+            "clickActionTypeParam": 1304,
+            "clickAreaPositionNew": [
+                "Default/CommandCenterPanelV4(Clone)/Root/GrpRightTab:3"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 170202,
+            "group": 1702,
+            "canSkip": true,
+            "name": "",
+            "text": "点击闪电",
+            "textFemale": "点击闪电",
+            "clickType": 4,
+            "awakePath": "ChrPowerUpPanelV3",
+            "virtualListItemId": {
+                "Canvas/Default/ChrPowerUpPanelV3(Clone)/Root/Trans_Overview_0/ChrPowerUp_OverviewItem(Clone)/Root/Trans_ChrSelectList_T/GrpChrList": "1017|1"
+            },
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 170205,
+            "group": 1702,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "请点击<color=#f0af14>心智螺旋</color>。",
+            "textFemale": "请点击<color=#f0af14>心智螺旋</color>。",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 1304,
+            "clickActionTypeParam2": "33",
+            "awakePath": "ChrPowerUpPanelV3",
+            "clickAreaPosition": "Canvas/Default/ChrPowerUpPanelV3(Clone)/Root/GrpTop/GrpTopRightBtn:1,Btn_ChrBarrackTopBarItemV3(Clone)/Cast:3",
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 170206,
+            "group": 1702,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "之前获得的报酬中，包含一些<color=#f0af14>转录导体</color>。",
+            "textFemale": "之前获得的报酬中，包含一些<color=#f0af14>转录导体</color>。",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 170207,
+            "group": 1702,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "转录导体可用于激活人形的<color=#f0af14>增效位点</color>。",
+            "textFemale": "转录导体可用于激活人形的<color=#f0af14>增效位点</color>。",
+            "nextButton": true,
+            "giveItem": {
+                "9006": 24
+            },
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 170208,
+            "group": 1702,
+            "canSkip": true,
+            "name": "",
+            "text": "点击激活",
+            "textFemale": "点击激活",
+            "clickType": 1,
+            "clickActionType": 11,
+            "clickAreaPositionNew": [
+                "Default/ChrPowerUpPanelV3(Clone)/Root/Trans_ChrTalent_1/ChrPowerUp_ChrTalentItem(Clone)/Root/GrpRightInfo/Root/GrpAction/Trans_BtnActivated:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 170301,
+            "group": 1703,
+            "canSkip": true,
+            "name": "",
+            "text": "心智螺旋ppt",
+            "textFemale": "心智螺旋ppt",
+            "delay": 1.5,
+            "finishPage": 1,
+            "pptGroup": 1208,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 171101,
+            "group": 1711,
+            "canSkip": true,
+            "name": "",
+            "text": "点击确定",
+            "textFemale": "点击确定",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/ComBatWinShowDialogV2(Clone)/Root/GrpSettlement_1/Content/GrpAction/BtnConfirm/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 171201,
+            "group": 1712,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-100",
+            "text": "指挥官，<color=#f0af14>心智螺旋</color>已开启。请返回指挥室。",
+            "textFemale": "指挥官，<color=#f0af14>心智螺旋</color>已开启。请返回指挥室。",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "awakePath": "StoryChapterPanel",
+            "clickAreaPositionNew": [
+                "Default/StoryChapterPanel(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 171301,
+            "group": 1713,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-100",
+            "text": "指挥官，<color=#f0af14>心智螺旋</color>已开启。请返回指挥室。",
+            "textFemale": "指挥官，<color=#f0af14>心智螺旋</color>已开启。请返回指挥室。",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "awakePath": "SimCombatComPanel",
+            "clickAreaPositionNew": [
+                "Default/SimCombatComPanel(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 171401,
+            "group": 1714,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-100",
+            "text": "指挥官，<color=#f0af14>心智螺旋</color>已开启。请返回指挥室。",
+            "textFemale": "指挥官，<color=#f0af14>心智螺旋</color>已开启。请返回指挥室。",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "awakePath": "SimCombatComPanel",
+            "clickAreaPositionNew": [
+                "Default/SimCombatComPanel(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 171501,
+            "group": 1715,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-100",
+            "text": "指挥官，<color=#f0af14>心智螺旋</color>已开启。请返回指挥室。",
+            "textFemale": "指挥官，<color=#f0af14>心智螺旋</color>已开启。请返回指挥室。",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "awakePath": "SimCombatComPanel",
+            "clickAreaPositionNew": [
+                "Default/SimCombatComPanel(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 171601,
+            "group": 1716,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-100",
+            "text": "指挥官，<color=#f0af14>心智螺旋</color>已开启。请返回指挥室。",
+            "textFemale": "指挥官，<color=#f0af14>心智螺旋</color>已开启。请返回指挥室。",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "awakePath": "SimCombatComPanel",
+            "clickAreaPositionNew": [
+                "Default/SimCombatComPanel(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 171701,
+            "group": 1717,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-100",
+            "text": "指挥官，<color=#f0af14>心智螺旋</color>已开启。请返回指挥室。",
+            "textFemale": "指挥官，<color=#f0af14>心智螺旋</color>已开启。请返回指挥室。",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "awakePath": "SimComBatHardBattlePanel",
+            "clickAreaPositionNew": [
+                "Default/SimComBatHardBattlePanel(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 171801,
+            "group": 1718,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-100",
+            "text": "指挥官，<color=#f0af14>心智螺旋</color>已开启。请返回指挥室。",
+            "textFemale": "指挥官，<color=#f0af14>心智螺旋</color>已开启。请返回指挥室。",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "awakePath": "SimCombatComPanel",
+            "clickAreaPositionNew": [
+                "Default/SimCombatComPanel(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 171901,
+            "group": 1719,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-100",
+            "text": "指挥官，<color=#f0af14>心智螺旋</color>已开启。请返回指挥室。",
+            "textFemale": "指挥官，<color=#f0af14>心智螺旋</color>已开启。请返回指挥室。",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "awakePath": "QuestPanel",
+            "clickAreaPositionNew": [
+                "Default/QuestPanel(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 180101,
+            "group": 1801,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-100",
+            "text": "更多转录导体可以在<color=#f0af14>心智勘测</color>获取，请指挥官随我前往。",
+            "textFemale": "更多转录导体可以在<color=#f0af14>心智勘测</color>获取，请指挥官随我前往。",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "clickAreaPosition": "Canvas/Default/ChrPowerUpPanelV3(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content/Cast:1",
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 180201,
+            "group": 1802,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "请点击<color=#f0af14>战役推进</color>。",
+            "textFemale": "请点击<color=#f0af14>战役推进</color>。",
+            "clickType": 1,
+            "clickAreaPosition": "Canvas/Default/CommandCenterPanelV4(Clone)/Root/Btn_Battle/Root/Cast:1",
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 180202,
+            "group": 1802,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "请点击<color=#f0af14>模拟作战</color>。",
+            "textFemale": "请点击<color=#f0af14>模拟作战</color>。",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 596,
+            "clickActionTypeParam2": "24",
+            "awakePath": "BattleIndexPanelV2",
+            "clickAreaPositionNew": [
+                "Default/BattleIndexPanelV2(Clone)/Root/GrpTop/TabModeList/Content:5"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 180203,
+            "group": 1802,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "请点击<color=#f0af14>心智勘测</color>。",
+            "textFemale": "请点击<color=#f0af14>心智勘测</color>。",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 588,
+            "clickAreaPosition": "Canvas/Default/BattleIndexPanelV2(Clone)/Root/GrpSimCombat_1/BattleIndexSimCombatItem(Clone)/GrpList/Viewport/Content:1,Btn_BattleIndexSimCombatItem(Clone)/Root/Cast:1",
+            "virtualListItemId": {
+                "Canvas/Default/BattleIndexPanelV2(Clone)/Root/GrpSimCombat_1/BattleIndexSimCombatItem(Clone)/GrpList": "0|2"
+            },
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 180204,
+            "group": 1802,
+            "canSkip": true,
+            "name": "",
+            "text": "心智勘测ppt",
+            "textFemale": "心智勘测ppt",
+            "delay": 1.0,
+            "pptGroup": 1801,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 180301,
+            "group": 1803,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-78",
+            "text": "“战地线索”可用于解析对应的<color=#f0af14>战地回声</color>，比如“一本旧书”。",
+            "textFemale": "“战地线索”可用于解析对应的<color=#f0af14>战地回声</color>，比如“一本旧书”。",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 180302,
+            "group": 1803,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-78",
+            "text": "请点击<color=#f0af14>解析</color>。",
+            "textFemale": "请点击<color=#f0af14>解析</color>。",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 1650,
+            "clickAreaPosition": "Canvas/Default/SimComBatHardBattlePanel(Clone)/Root/GrpContent/Trans_GrpAnalysis/Btn_Description/Cast:1",
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 190101,
+            "group": 1901,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "请点击<color=#f0af14>整备室</color>。",
+            "textFemale": "请点击<color=#f0af14>整备室</color>。",
+            "clickType": 4,
+            "clickActionType": 13,
+            "clickActionTypeParam": 1304,
+            "clickAreaPositionNew": [
+                "Default/CommandCenterPanelV4(Clone)/Root/GrpRightTab:3"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 190102,
+            "group": 1901,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "请点击<color=#f0af14>武器</color>。",
+            "textFemale": "请点击<color=#f0af14>武器</color>。",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 609,
+            "awakePath": "ChrPowerUpPanelV3",
+            "clickAreaPositionNew": [
+                "Default/ChrPowerUpPanelV3(Clone)/Root/Trans_Overview_0/ChrPowerUp_OverviewItem(Clone)/Root/GrpRight/GrpInfo/GrpLayout/GrpWeaponEntrance/GrpContent/Btn_ChrWeaponItemV3(Clone):0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 190103,
+            "group": 1901,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "如需为武器加装配件，请点击进入<color=#f0af14>配件</color>页面。",
+            "textFemale": "如需为武器加装配件，请点击进入<color=#f0af14>配件</color>页面。",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 609,
+            "clickActionTypeParam2": "42",
+            "awakePath": "ChrWeaponPanelV4",
+            "clickAreaPosition": "Canvas/Default/ChrWeaponPanelV4(Clone)/Root/GrpTop/GrpTopRightBtn:1,Btn_ComTopBarItem(Clone)/Cast:2",
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 190104,
+            "group": 1901,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "我们获得了1个<color=#f0af14>消音器</color>。",
+            "textFemale": "我们获得了1个<color=#f0af14>消音器</color>。",
+            "nextButton": true,
+            "giveItem": {
+                "20111443": 1
+            },
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 190105,
+            "group": 1901,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "请点击对应的<color=#f0af14>装配口</color>，为武器加装该配件。",
+            "textFemale": "请点击对应的<color=#f0af14>装配口</color>，为武器加装该配件。",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 1802,
+            "clickAreaPositionNew": [
+                "Default/ChrWeaponPanelV4(Clone)/Root/Trans_WeaponParts_1/ChrWeaponPartsOverViewItem/GrpAttribute:1"
+            ],
+            "delay": 0.2,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 190106,
+            "group": 1901,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "请点击<color=#f0af14>加装</color>。",
+            "textFemale": "请点击<color=#f0af14>加装</color>。",
+            "clickType": 1,
+            "awakePath": "ChrWeaponPartsReplacePanel",
+            "clickAreaPosition": "Canvas/Default/ChrWeaponPartsReplacePanel(Clone)/Root/GrpPartsReplaceList/GrpBtn/GrpAction/GrpPartsState/Trans_BtnEquip/Btn_Content/Root/Cast:1",
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 190107,
+            "group": 1901,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "请点击<color=#f0af14>精调</color>。",
+            "textFemale": "请点击<color=#f0af14>精调</color>。",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 1803,
+            "awakePath": "ChrWeaponPartsReplacePanel",
+            "clickAreaPositionNew": [
+                "Default/ChrWeaponPartsReplacePanel(Clone)/Root/GrpPartsReplaceList/GrpBtn/GrpAction/GrpPartsPowerUp/Trans_BtnPolarity/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 190108,
+            "group": 1901,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "精调后，配件效果将得到<color=#f0af14>强化</color>。",
+            "textFemale": "精调后，配件效果将得到<color=#f0af14>强化</color>。",
+            "nextButton": true,
+            "delay": 0.5,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 190201,
+            "group": 1902,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "请点击<color=#f0af14>整备室</color>。",
+            "textFemale": "请点击<color=#f0af14>整备室</color>。",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 1304,
+            "clickAreaPositionNew": [
+                "Default/CommandCenterPanelV4(Clone)/Root/GrpRightTab:3"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 190202,
+            "group": 1902,
+            "canSkip": true,
+            "name": "",
+            "text": "请点击闪电",
+            "textFemale": "请点击闪电",
+            "clickType": 4,
+            "awakePath": "ChrPowerUpPanelV3",
+            "virtualListItemId": {
+                "Canvas/Default/ChrPowerUpPanelV3(Clone)/Root/Trans_Overview_0/ChrPowerUp_OverviewItem(Clone)/Root/Trans_ChrSelectList_T/GrpChrList": "1017|1"
+            },
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 190203,
+            "group": 1902,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "请点击<color=#f0af14>武器</color>。",
+            "textFemale": "请点击<color=#f0af14>武器</color>。",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 609,
+            "awakePath": "ChrPowerUpPanelV3",
+            "clickAreaPositionNew": [
+                "Default/ChrPowerUpPanelV3(Clone)/Root/Trans_Overview_0/ChrPowerUp_OverviewItem(Clone)/Root/GrpRight/GrpInfo/GrpLayout/GrpWeaponEntrance/GrpContent/Btn_ChrWeaponItemV3(Clone):0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 190204,
+            "group": 1902,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "如需为武器加装配件，请点击进入<color=#f0af14>配件</color>页面。",
+            "textFemale": "如需为武器加装配件，请点击进入<color=#f0af14>配件</color>页面。",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 609,
+            "clickActionTypeParam2": "42",
+            "awakePath": "ChrWeaponPanelV4",
+            "clickAreaPosition": "Canvas/Default/ChrWeaponPanelV4(Clone)/Root/GrpTop/GrpTopRightBtn:1,Btn_ComTopBarItem(Clone)/Cast:2",
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 190205,
+            "group": 1902,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "我们获得了1个<color=#f0af14>消音器</color>。",
+            "textFemale": "我们获得了1个<color=#f0af14>消音器</color>。",
+            "nextButton": true,
+            "giveItem": {
+                "20111443": 1
+            },
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 190206,
+            "group": 1902,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "请点击对应的<color=#f0af14>装配口</color>，为武器加装该配件。",
+            "textFemale": "请点击对应的<color=#f0af14>装配口</color>，为武器加装该配件。",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 1802,
+            "clickAreaPositionNew": [
+                "Default/ChrWeaponPanelV4(Clone)/Root/Trans_WeaponParts_1/ChrWeaponPartsOverViewItem/GrpAttribute:1"
+            ],
+            "delay": 0.2,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 190207,
+            "group": 1902,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "请点击<color=#f0af14>加装</color>。",
+            "textFemale": "请点击<color=#f0af14>加装</color>。",
+            "clickType": 1,
+            "awakePath": "ChrWeaponPartsReplacePanel",
+            "clickAreaPosition": "Canvas/Default/ChrWeaponPartsReplacePanel(Clone)/Root/GrpPartsReplaceList/GrpBtn/GrpAction/GrpPartsState/Trans_BtnEquip/Btn_Content/Root/Cast:1",
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 190208,
+            "group": 1902,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "请点击<color=#f0af14>精调</color>。",
+            "textFemale": "请点击<color=#f0af14>精调</color>。",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 1803,
+            "awakePath": "ChrWeaponPartsReplacePanel",
+            "clickAreaPositionNew": [
+                "Default/ChrWeaponPartsReplacePanel(Clone)/Root/GrpPartsReplaceList/GrpBtn/GrpAction/GrpPartsPowerUp/Trans_BtnPolarity/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 190209,
+            "group": 1902,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "精调后，配件效果将得到<color=#f0af14>强化</color>。",
+            "textFemale": "精调后，配件效果将得到<color=#f0af14>强化</color>。",
+            "nextButton": true,
+            "delay": 0.5,
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 190301,
+            "group": 1903,
+            "canSkip": true,
+            "name": "",
+            "text": "配件介绍ppt",
+            "textFemale": "配件介绍ppt",
+            "finishPage": 1,
+            "pptGroup": 1203,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 191101,
+            "group": 1911,
+            "canSkip": true,
+            "name": "",
+            "text": "点击确定",
+            "textFemale": "点击确定",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/ComBatWinShowDialogV2(Clone)/Root/GrpSettlement_1/Content/GrpAction/BtnConfirm/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 191201,
+            "group": 1912,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-100",
+            "text": "指挥官，<color=#f0af14>武器配件</color>已开启。请返回指挥室。",
+            "textFemale": "指挥官，<color=#f0af14>武器配件</color>已开启。请返回指挥室。",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "awakePath": "StoryChapterPanel",
+            "clickAreaPositionNew": [
+                "Default/StoryChapterPanel(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 191301,
+            "group": 1913,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-100",
+            "text": "指挥官，<color=#f0af14>武器配件</color>已开启。请返回指挥室。",
+            "textFemale": "指挥官，<color=#f0af14>武器配件</color>已开启。请返回指挥室。",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "awakePath": "SimCombatComPanel",
+            "clickAreaPositionNew": [
+                "Default/SimCombatComPanel(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 191401,
+            "group": 1914,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-100",
+            "text": "指挥官，<color=#f0af14>武器配件</color>已开启。请返回指挥室。",
+            "textFemale": "指挥官，<color=#f0af14>武器配件</color>已开启。请返回指挥室。",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "awakePath": "SimCombatComPanel",
+            "clickAreaPositionNew": [
+                "Default/SimCombatComPanel(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 191501,
+            "group": 1915,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-100",
+            "text": "指挥官，<color=#f0af14>武器配件</color>已开启。请返回指挥室。",
+            "textFemale": "指挥官，<color=#f0af14>武器配件</color>已开启。请返回指挥室。",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "awakePath": "SimCombatComPanel",
+            "clickAreaPositionNew": [
+                "Default/SimCombatComPanel(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 191601,
+            "group": 1916,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-100",
+            "text": "指挥官，<color=#f0af14>武器配件</color>已开启。请返回指挥室。",
+            "textFemale": "指挥官，<color=#f0af14>武器配件</color>已开启。请返回指挥室。",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "awakePath": "SimCombatComPanel",
+            "clickAreaPositionNew": [
+                "Default/SimCombatComPanel(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 191701,
+            "group": 1917,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-100",
+            "text": "指挥官，<color=#f0af14>武器配件</color>已开启。请返回指挥室。",
+            "textFemale": "指挥官，<color=#f0af14>武器配件</color>已开启。请返回指挥室。",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "awakePath": "SimComBatHardBattlePanel",
+            "clickAreaPositionNew": [
+                "Default/SimComBatHardBattlePanel(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 191801,
+            "group": 1918,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-100",
+            "text": "指挥官，<color=#f0af14>武器配件</color>已开启。请返回指挥室。",
+            "textFemale": "指挥官，<color=#f0af14>武器配件</color>已开启。请返回指挥室。",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "awakePath": "SimCombatComPanel",
+            "clickAreaPositionNew": [
+                "Default/SimCombatComPanel(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 191901,
+            "group": 1919,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-100",
+            "text": "指挥官，<color=#f0af14>武器配件</color>已开启。请返回指挥室。",
+            "textFemale": "指挥官，<color=#f0af14>武器配件</color>已开启。请返回指挥室。",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "awakePath": "QuestPanel",
+            "clickAreaPositionNew": [
+                "Default/QuestPanel(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 200101,
+            "group": 2001,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-100",
+            "text": "指挥官，<color=#f0af14>定向精研</color>已开启。请返回指挥室。",
+            "textFemale": "指挥官，<color=#f0af14>定向精研</color>已开启。请返回指挥室。",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "awakePath": "ChrRangePanelV3",
+            "clickAreaPositionNew": [
+                "Default/ChrWeaponPartsPowerUpPanelV4(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 200201,
+            "group": 2002,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "请点击<color=#f0af14>战役推进</color>。",
+            "textFemale": "请点击<color=#f0af14>战役推进</color>。",
+            "clickType": 4,
+            "clickActionType": 13,
+            "clickActionTypeParam": 596,
+            "clickAreaPosition": "Canvas/Default/CommandCenterPanelV4(Clone)/Root/Btn_Battle/Root/Cast:1",
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 200202,
+            "group": 2002,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "请点击<color=#f0af14>补给作战</color>。",
+            "textFemale": "请点击<color=#f0af14>补给作战</color>。",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 596,
+            "clickActionTypeParam2": "23",
+            "awakePath": "BattleIndexPanel",
+            "clickAreaPositionNew": [
+                "Default/BattleIndexPanelV2(Clone)/Root/GrpTop/TabModeList/Content:4"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 200203,
+            "group": 2002,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "请点击<color=#f0af14>定向精研</color>。",
+            "textFemale": "请点击<color=#f0af14>定向精研</color>。",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 930,
+            "awakePath": "BattleIndexPanelV2",
+            "virtualListItemId": {
+                "Canvas/Default/BattleIndexPanelV2(Clone)/Root/GrpSimCombatDaily_2/BattleIndexSimCombatDailyItem(Clone)/GrpList": "3|2"
+            },
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 200204,
+            "group": 2002,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-400",
+            "text": "完成对应关卡，即可获得各种<color=#f0af14>武器配件</color>。",
+            "textFemale": "完成对应关卡，即可获得各种<color=#f0af14>武器配件</color>。",
+            "awakePath": "SimCombatComPanel",
+            "nextButton": true,
+            "delay": 0.5,
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 200205,
+            "group": 2002,
+            "canSkip": true,
+            "name": "",
+            "text": "配件本ppt",
+            "textFemale": "配件本ppt",
+            "finishPage": 1,
+            "pptGroup": 2701,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 210201,
+            "group": 2102,
+            "canSkip": true,
+            "name": "",
+            "text": "标准同调ppt",
+            "textFemale": "标准同调ppt",
+            "finishPage": 1,
+            "pptGroup": 2201,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 220201,
+            "group": 2202,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "指挥官，我们每周都可以在<color=#f0af14>首领挑战</color>中挑战虚拟强敌，获取采集点数。",
+            "textFemale": "指挥官，我们每周都可以在<color=#f0af14>首领挑战</color>中挑战虚拟强敌，获取采集点数。",
+            "nextButton": true,
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 220202,
+            "group": 2202,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "<color=#f0af14>采集点数</color>越高，获得的嘉奖越丰厚。",
+            "textFemale": "<color=#f0af14>采集点数</color>越高，获得的嘉奖越丰厚。",
+            "nextButton": true,
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 220203,
+            "group": 2202,
+            "canSkip": true,
+            "name": "",
+            "text": "首领挑战ppt",
+            "textFemale": "首领挑战ppt",
+            "finishPage": 1,
+            "pptGroup": 1601,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 230201,
+            "group": 2302,
+            "canSkip": true,
+            "name": "",
+            "text": "实兵演习ppt",
+            "textFemale": "实兵演习ppt",
+            "finishPage": 1,
+            "pptGroup": 1701,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 230301,
+            "group": 2303,
+            "canSkip": true,
+            "name": "",
+            "text": "弱引导点击进攻",
+            "textFemale": "弱引导点击进攻",
+            "clickType": 10,
+            "clickAreaPosition": "Canvas/Default/PVPMainPanel(Clone)/Root/GrpAction/BtnStart/Btn_Content/Root/Cast:1",
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 230401,
+            "group": 2304,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "请观察对手的信息，选择并挑战合适的对手。达成<color=#f0af14>连胜</color>时，指挥官还将获得额外奖励。",
+            "textFemale": "请观察对手的信息，选择并挑战合适的对手。达成<color=#f0af14>连胜</color>时，指挥官还将获得额外奖励。",
+            "awakePath": "PVPChallengeDialog",
+            "nextButton": true,
+            "delay": 0.5,
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 230501,
+            "group": 2305,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "请点击<color=#f0af14>布设防御</color>。",
+            "textFemale": "请点击<color=#f0af14>布设防御</color>。",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 1010,
+            "clickAreaPosition": "Canvas/Default/PVPMainPanel(Clone)/Root/GrpAction/BtnDefenseFleet/Btn_Content/Root/Cast:1",
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 230502,
+            "group": 2305,
+            "canSkip": true,
+            "name": "",
+            "text": "点击布防",
+            "textFemale": "点击布防",
+            "clickType": 1,
+            "awakePath": "PVPDefenseTeamDialog",
+            "clickAreaPosition": "Canvas/Default/PVPDefenseTeamDialog(Clone)/Root/GrpContent/GrpMapCard/GrpAction/GrpLeft/Trans_Edit/Btn_Content/Root/Cast:1",
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 240101,
+            "group": 2401,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "在<color=#f0af14>峰值推定</color>中，指挥官需要通过每个阶群中的所有子群，才能不断前进，获得奖励。",
+            "textFemale": "在<color=#f0af14>峰值推定</color>中，指挥官需要通过每个阶群中的所有子群，才能不断前进，获得奖励。",
+            "nextButton": true,
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 240102,
+            "group": 2401,
+            "name": "",
+            "text": "峰值推定ppt",
+            "textFemale": "峰值推定ppt",
+            "finishPage": 1,
+            "pptGroup": 1501,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 250101,
+            "group": 2501,
+            "name": "",
+            "text": "档案室ppt",
+            "textFemale": "档案室ppt",
+            "nextButton": true,
+            "finishPage": 1,
+            "pptGroup": 1901,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 260101,
+            "group": 2601,
+            "name": "",
+            "text": "位键调控ppt",
+            "textFemale": "位键调控ppt",
+            "finishPage": 1,
+            "pptGroup": 1209,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 270101,
+            "group": 2701,
+            "name": "",
+            "text": "黛烟预热PPT",
+            "textFemale": "黛烟预热PPT",
+            "finishPage": 1,
+            "pptGroup": 3004,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 280101,
+            "group": 2801,
+            "name": "",
+            "text": "黛烟正式主界面PPT",
+            "textFemale": "黛烟正式主界面PPT",
+            "pptGroup": 3005,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 280102,
+            "group": 2801,
+            "canSkip": true,
+            "avatar": "Avatar_Head_LennaSSR",
+            "avatarFemale": "Avatar_Head_LennaSSR",
+            "name": "莱娜",
+            "textPosition": "7,58,-100",
+            "text": "<color=#f0af14>庆典</color>即将开始，该出发了。",
+            "textFemale": "<color=#f0af14>庆典</color>即将开始，该出发了。",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 2105,
+            "clickAreaPositionNew": [
+                "Default/DaiyanMainPanel(Clone)/Root/GrpUI/GrpBottom/Btn_ChapterEntry:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 280103,
+            "group": 2801,
+            "canSkip": true,
+            "avatar": "Avatar_Head_LennaSSR",
+            "avatarFemale": "Avatar_Head_LennaSSR",
+            "name": "莱娜",
+            "textPosition": "7,58,-100",
+            "text": "张灯结彩的美景，或许能带来创作乐曲的灵感，去看看吧。",
+            "textFemale": "张灯结彩的美景，或许能带来创作乐曲的灵感，去看看吧。",
+            "nextButton": true,
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 290101,
+            "group": 2901,
+            "name": "",
+            "text": "黛烟扭蛋PPT",
+            "textFemale": "黛烟扭蛋PPT",
+            "finishPage": 1,
+            "pptGroup": 2302,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 300101,
+            "group": 3001,
+            "canSkip": true,
+            "avatar": "Avatar_Head_LennaSSR",
+            "avatarFemale": "Avatar_Head_LennaSSR",
+            "name": "莱娜",
+            "textPosition": "7,58,-100",
+            "text": "集齐<color=#f0af14>5种不同</color>的灵感，即可通过灵感汇聚获得奖励。",
+            "textFemale": "集齐<color=#f0af14>5种不同</color>的灵感，即可通过灵感汇聚获得奖励。",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 300102,
+            "group": 3001,
+            "name": "",
+            "text": "黛烟灵感奖池PPT",
+            "textFemale": "黛烟灵感奖池PPT",
+            "finishPage": 1,
+            "pptGroup": 3006,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 350101,
+            "group": 3501,
+            "canSkip": true,
+            "avatar": "Avatar_Head_CentaureissiSSR",
+            "avatarFemale": "Avatar_Head_CentaureissiSSR",
+            "name": "桑朵莱希",
+            "textPosition": "7,58,-72",
+            "text": "长官，感谢您百忙之中来到咖啡馆支援<color=#f0af14>特调沙龙</color>活动，现在就由我来为您讲解支援工作。",
+            "textFemale": "长官，感谢您百忙之中来到咖啡馆支援<color=#f0af14>特调沙龙</color>活动，现在就由我来为您讲解支援工作。",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 350102,
+            "group": 3501,
+            "name": "",
+            "text": "桑朵莱希模拟经营PPT",
+            "textFemale": "桑朵莱希模拟经营PPT",
+            "pptGroup": 3011,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 350103,
+            "group": 3501,
+            "canSkip": true,
+            "avatar": "Avatar_Head_CentaureissiSSR",
+            "avatarFemale": "Avatar_Head_CentaureissiSSR",
+            "name": "桑朵莱希",
+            "textPosition": "7,58,-72",
+            "text": "首先，我们必须保证位于营业区的<color=#f0af14>自助吧台</color>持续运转。",
+            "textFemale": "首先，我们必须保证位于营业区的<color=#f0af14>自助吧台</color>持续运转。",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 350104,
+            "group": 3501,
+            "canSkip": true,
+            "avatar": "Avatar_Head_CentaureissiSSR",
+            "avatarFemale": "Avatar_Head_CentaureissiSSR",
+            "name": "桑朵莱希",
+            "textPosition": "7,58,-72",
+            "text": "只要<color=#f0af14>原料充沛</color>，自助吧台就可以自动运转。我们提前储备了一些原料，可以支撑一段时间。",
+            "textFemale": "只要<color=#f0af14>原料充沛</color>，自助吧台就可以自动运转。我们提前储备了一些原料，可以支撑一段时间。",
+            "nextButton": true,
+            "giveItem": {
+                "170027": 3,
+                "170011": 150,
+                "170012": 150,
+                "170013": 150,
+                "170032": 3,
+                "170037": 3
+            },
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 350105,
+            "group": 3501,
+            "canSkip": true,
+            "avatar": "Avatar_Head_CentaureissiSSR",
+            "avatarFemale": "Avatar_Head_CentaureissiSSR",
+            "name": "桑朵莱希",
+            "textPosition": "7,58,-72",
+            "text": "如需获取更多原料，则要前往办公区，通过完成<color=#f0af14>醇香委托</color>来获取，这部分的工作就需要麻烦您多帮忙了。",
+            "textFemale": "如需获取更多原料，则要前往办公区，通过完成<color=#f0af14>醇香委托</color>来获取，这部分的工作就需要麻烦您多帮忙了。",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 360101,
+            "group": 3601,
+            "canSkip": true,
+            "avatar": "Avatar_Head_CentaureissiSSR",
+            "avatarFemale": "Avatar_Head_CentaureissiSSR",
+            "name": "桑朵莱希",
+            "textPosition": "7,58,-72",
+            "text": "长官，这个是<color=#f0af14>方糖小助手</color>，可以协助您实时掌握咖啡馆的经营情况。",
+            "textFemale": "长官，这个是<color=#f0af14>方糖小助手</color>，可以协助您实时掌握咖啡馆的经营情况。",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 53,
+            "clickAreaPositionNew": [
+                "Default/ActivityCafeMainPanel(Clone)/Root/GrpBottom/Btn_Pad/Root:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 360102,
+            "group": 3601,
+            "canSkip": true,
+            "avatar": "Avatar_Head_CentaureissiSSR",
+            "avatarFemale": "Avatar_Head_CentaureissiSSR",
+            "name": "桑朵莱希",
+            "textPosition": "7,58,-72",
+            "text": "在方糖小助手的主页中，您可以看到当前咖啡馆的<color=#f0af14>店铺评级</color>，以及<color=#f0af14>考核任务</color>。完成考核任务，就能够提升店铺评级。",
+            "textFemale": "在方糖小助手的主页中，您可以看到当前咖啡馆的<color=#f0af14>店铺评级</color>，以及<color=#f0af14>考核任务</color>。完成考核任务，就能够提升店铺评级。",
+            "nextButton": true,
+            "delay": 2.0,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 360103,
+            "group": 3601,
+            "canSkip": true,
+            "name": "",
+            "text": "引导点击饮品单",
+            "textFemale": "引导点击饮品单",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/ActivityCafePadPanel(Clone)/Root/GrpPad/GrpTopTab/TabLeftModeList/Content:2"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 360104,
+            "group": 3601,
+            "canSkip": true,
+            "avatar": "Avatar_Head_CentaureissiSSR",
+            "avatarFemale": "Avatar_Head_CentaureissiSSR",
+            "name": "桑朵莱希",
+            "textPosition": "7,58,-72",
+            "text": "在饮品单页签中，记录着可在特调沙龙活动中出售的饮品，通过<color=#f0af14>提升饮品单等级</color>，能够增加可销售的饮品种类，提高销量。",
+            "textFemale": "在饮品单页签中，记录着可在特调沙龙活动中出售的饮品，通过<color=#f0af14>提升饮品单等级</color>，能够增加可销售的饮品种类，提高销量。",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 360105,
+            "group": 3601,
+            "canSkip": true,
+            "name": "",
+            "text": "引导点击意见墙",
+            "textFemale": "引导点击意见墙",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/ActivityCafePadPanel(Clone)/Root/GrpPad/GrpTopTab/TabLeftModeList/Content:3"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 360106,
+            "group": 3601,
+            "canSkip": true,
+            "avatar": "Avatar_Head_CentaureissiSSR",
+            "avatarFemale": "Avatar_Head_CentaureissiSSR",
+            "name": "桑朵莱希",
+            "textPosition": "7,58,-72",
+            "text": "在<color=#f0af14>意见墙</color>页签中，您可以查看顾客留下的便签，并进行意见统合，这也是咖啡馆考核任务之一。",
+            "textFemale": "在<color=#f0af14>意见墙</color>页签中，您可以查看顾客留下的便签，并进行意见统合，这也是咖啡馆考核任务之一。",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 360107,
+            "group": 3601,
+            "canSkip": true,
+            "name": "",
+            "text": "引导点击周边",
+            "textFemale": "引导点击周边",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/ActivityCafePadPanel(Clone)/Root/GrpPad/GrpTopTab/TabLeftModeList/Content:4"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 360108,
+            "group": 3601,
+            "canSkip": true,
+            "avatar": "Avatar_Head_CentaureissiSSR",
+            "avatarFemale": "Avatar_Head_CentaureissiSSR",
+            "name": "桑朵莱希",
+            "textPosition": "7,58,-72",
+            "text": "在方糖周边页签中，您可以使用<color=#f0af14>印花贴纸</color>兑换所需物资。方糖周边的等级越高，能够兑换到的物资就越丰厚。",
+            "textFemale": "在方糖周边页签中，您可以使用<color=#f0af14>印花贴纸</color>兑换所需物资。方糖周边的等级越高，能够兑换到的物资就越丰厚。",
+            "nextButton": true,
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 370101,
+            "group": 3701,
+            "canSkip": true,
+            "avatar": "Avatar_Head_CentaureissiSSR",
+            "avatarFemale": "Avatar_Head_CentaureissiSSR",
+            "name": "桑朵莱希",
+            "textPosition": "7,58,-72",
+            "text": "我们再来看看<color=#f0af14>醇香委托</color>和<color=#f0af14>货运机械</color>吧。",
+            "textFemale": "我们再来看看<color=#f0af14>醇香委托</color>和<color=#f0af14>货运机械</color>吧。",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 370102,
+            "group": 3701,
+            "canSkip": true,
+            "avatar": "Avatar_Head_CentaureissiSSR",
+            "avatarFemale": "Avatar_Head_CentaureissiSSR",
+            "name": "桑朵莱希",
+            "textPosition": "7,58,-72",
+            "text": "长官请到这边来。",
+            "textFemale": "长官请到这边来。",
+            "clickType": 4,
+            "clickAreaPositionNew": [
+                "Default/ActivityCafeMainPanel(Clone)/Root/GrpViewSwitch/Btn_ActivityCafeArrowItem(Clone)/BtnLeft/Btn_Left:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 370103,
+            "group": 3701,
+            "canSkip": true,
+            "avatar": "Avatar_Head_CentaureissiSSR",
+            "avatarFemale": "Avatar_Head_CentaureissiSSR",
+            "name": "桑朵莱希",
+            "textPosition": "7,58,-72",
+            "text": "长官，这里可以接取<color=#f0af14>醇香委托</color>。委托中搜集到的物资可通过<color=#f0af14>物资置换</color>，转化为特调沙龙活动所需的各类资源。",
+            "textFemale": "长官，这里可以接取<color=#f0af14>醇香委托</color>。委托中搜集到的物资可通过<color=#f0af14>物资置换</color>，转化为特调沙龙活动所需的各类资源。",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 370104,
+            "group": 3701,
+            "name": "",
+            "text": "奖励和货运PPT",
+            "textFemale": "奖励和货运PPT",
+            "finishPage": 1,
+            "pptGroup": 3012,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 410101,
+            "group": 4101,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "指挥官，可以进行<color=#f0af14>扩编实练</color>了，在扩编实练中我们可以上阵更多人形。",
+            "textFemale": "指挥官，可以进行<color=#f0af14>扩编实练</color>了，在扩编实练中我们可以上阵更多人形。",
+            "nextButton": true,
+            "delay": 0.5,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 410102,
+            "group": 4101,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "扩编实练会<color=#f0af14>周期性重置</color>通关状态和全部奖励，每期敌方强度和实练奖励都会在重置时根据指挥官的等级确定。",
+            "textFemale": "扩编实练会<color=#f0af14>周期性重置</color>通关状态和全部奖励，每期敌方强度和实练奖励都会在重置时根据指挥官的等级确定。",
+            "nextButton": true,
+            "delay": 0.5,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 410103,
+            "group": 4101,
+            "name": "",
+            "text": "扩编战PPT",
+            "textFemale": "扩编战PPT",
+            "finishPage": 1,
+            "pptGroup": 2801,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 430101,
+            "group": 4301,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "指挥官，现在可以使用增幅芯片来进行<color=#f0af14>增幅精调</color>了。",
+            "textFemale": "指挥官，现在可以使用增幅芯片来进行<color=#f0af14>增幅精调</color>了。",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/ChrWeaponPartsPowerUpPanelV4(Clone)/Root/Trans_PartsPowerUp_0/GrpPowerUpRightInfo/Trans_GrpPolarity/Btn_Increase/Root/Btn_Increase:0"
+            ],
+            "nextButton": true,
+            "delay": 0.5,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 430102,
+            "group": 4301,
+            "name": "",
+            "text": "配件增幅PPT",
+            "textFemale": "配件增幅PPT",
+            "finishPage": 1,
+            "pptGroup": 1212,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 440101,
+            "group": 4401,
+            "name": "",
+            "text": "桑朵莱希预热PPT",
+            "textFemale": "桑朵莱希预热PPT",
+            "pptGroup": 3010,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 440102,
+            "group": 4401,
+            "canSkip": true,
+            "avatar": "Avatar_Head_CentaureissiSSR",
+            "avatarFemale": "Avatar_Head_CentaureissiSSR",
+            "name": "桑朵莱希",
+            "textPosition": "7,58,-72",
+            "text": "长官，点击这里可以打开<color=#f0af14>小助手</color>，查看开业筹备任务，完成任务就可以<color=#f0af14>提高店铺热度</color>，获得奖励。",
+            "textFemale": "长官，点击这里可以打开<color=#f0af14>小助手</color>，查看开业筹备任务，完成任务就可以<color=#f0af14>提高店铺热度</color>，获得奖励。",
+            "clickType": 1,
+            "awakePath": "ActivityCafeMainPanel",
+            "clickAreaPositionNew": [
+                "Default/ActivityCafeMainPanel(Clone)/Root/GrpBottom/Btn_Pad/Root:0"
+            ],
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 450101,
+            "group": 4501,
+            "name": "",
+            "text": "高位竞技场PPT",
+            "textFemale": "高位竞技场PPT",
+            "pptGroup": 3201,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 450102,
+            "group": 4501,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "在参加兵棋推演之前，请先<color=#f0af14>布设防守阵型</color>。",
+            "textFemale": "在参加兵棋推演之前，请先<color=#f0af14>布设防守阵型</color>。",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 2902,
+            "clickAreaPositionNew": [
+                "Default/HigherPVPMainPanel(Clone)/Root/Btn_Defense/Root:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 450103,
+            "group": 4501,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "请点击<color=#f0af14>布设防御</color>。",
+            "textFemale": "请点击<color=#f0af14>布设防御</color>。",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/HigherPVPDefenseTeamDialog(Clone)/Root/GrpContent/GrpMapCard/GrpAction/Trans_GrpBtn/Trans_Edit/Btn_Content:0"
+            ],
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 470101,
+            "group": 4701,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "指挥官，<color=#f0af14>无尽映射</color>中存在多个映射空间，每个映射空间将单独计算积分奖励。",
+            "textFemale": "指挥官，<color=#f0af14>无尽映射</color>中存在多个映射空间，每个映射空间将单独计算积分奖励。",
+            "nextButton": true,
+            "delay": 0.5,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 470102,
+            "group": 4701,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,384,-80",
+            "text": "<color=#f0af14>映射空间01</color>已开启，请点击进入。",
+            "textFemale": "<color=#f0af14>映射空间01</color>已开启，请点击进入。",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/ControlFightChapterPanel(Clone)/Root/GrpList/Viewport/Content:1"
+            ],
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 470201,
+            "group": 4702,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "每个映射空间，都包含多场<color=#f0af14>连续作战</color>，请指挥官注意合理部署人形，参与战斗。",
+            "textFemale": "每个映射空间，都包含多场<color=#f0af14>连续作战</color>，请指挥官注意合理部署人形，参与战斗。",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 470202,
+            "group": 4702,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "映射空间内，部署人形需<color=#f0af14>消耗能量</color>。能量不足的人形将无法参与作战。",
+            "textFemale": "映射空间内，部署人形需<color=#f0af14>消耗能量</color>。能量不足的人形将无法参与作战。",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 470203,
+            "group": 4702,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "这里可查看每场战斗的信息，但作战时，必须从<color=#f0af14>第一场</color>开始。",
+            "textFemale": "这里可查看每场战斗的信息，但作战时，必须从<color=#f0af14>第一场</color>开始。",
+            "clickType": 4,
+            "clickAreaPositionNew": [
+                "Default/ControlFightBattleDialog(Clone)/Root/GrpDialog/GrpCenter/GrpTabList/Viewport/Content:0"
+            ],
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 470204,
+            "group": 4702,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "指挥官，这里可以查看当前映射空间的<color=#f0af14>积分奖励</color>。",
+            "textFemale": "指挥官，这里可以查看当前映射空间的<color=#f0af14>积分奖励</color>。",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 89,
+            "clickAreaPositionNew": [
+                "Default/ControlFightBattleDialog(Clone)/Root/GrpControlFightChapter/Btn_ControlFightChapterItem(Clone)/BtnScoresReward/Btn_ScoresReward:0"
+            ],
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 470301,
+            "group": 4703,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "完成特定任务，可积累任务得分，进而增加我们的<color=#f0af14>映射积分</color>。",
+            "textFemale": "完成特定任务，可积累任务得分，进而增加我们的<color=#f0af14>映射积分</color>。",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 470302,
+            "group": 4703,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "在极端映射中挑战头目单位时，完成特定的<color=#f0af14>战术动作</color>，可累积战术得分。我们的映射积分也会随之增加。",
+            "textFemale": "在极端映射中挑战头目单位时，完成特定的<color=#f0af14>战术动作</color>，可累积战术得分。我们的映射积分也会随之增加。",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 470303,
+            "group": 4703,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "当<color=#f0af14>映射积分</color>累积至一定程度时，即可领取奖励。",
+            "textFemale": "当<color=#f0af14>映射积分</color>累积至一定程度时，即可领取奖励。",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 470304,
+            "group": 4703,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "现在请<color=#f0af14>开始作战</color>吧，指挥官。",
+            "textFemale": "现在请<color=#f0af14>开始作战</color>吧，指挥官。",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 95,
+            "clickAreaPositionNew": [
+                "Default/ControlFightScoresQuestDialog(Clone)/Root/GrpDialog/GrpClose/Btn_Content:0"
+            ],
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 470305,
+            "group": 4703,
+            "name": "",
+            "text": "连战塔结构PPT",
+            "textFemale": "连战塔结构PPT",
+            "finishPage": 1,
+            "pptGroup": 3301,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 480001,
+            "group": 4800,
+            "canSkip": true,
+            "name": "",
+            "text": "沙盘ppt",
+            "textFemale": "沙盘ppt",
+            "pptGroup": 3501,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 480002,
+            "group": 4800,
+            "canSkip": true,
+            "avatar": "Avatar_Head_UllridSSR",
+            "avatarFemale": "Avatar_Head_UllridSSR",
+            "name": "乌尔丽德",
+            "textPosition": "7,58,-72",
+            "text": "未开拓地块上可能分布着敌方头目，也可能存在物资。每个地块可能存在的事件有3种——<color=#f0af14>远行勘察</color>、<color=#f0af14>物资搜索</color>和<color=#f0af14>环境清理</color>。",
+            "textFemale": "未开拓地块上可能分布着敌方头目，也可能存在物资。每个地块可能存在的事件有3种——<color=#f0af14>远行勘察</color>、<color=#f0af14>物资搜索</color>和<color=#f0af14>环境清理</color>。",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 480003,
+            "group": 4800,
+            "canSkip": true,
+            "avatar": "Avatar_Head_UllridSSR",
+            "avatarFemale": "Avatar_Head_UllridSSR",
+            "name": "乌尔丽德",
+            "textPosition": "7,58,-72",
+            "text": "如果需要查看周围敌方头目和物资的分布情况，那就使用<color=#f0af14>常规模式</color>吧。",
+            "textFemale": "如果需要查看周围敌方头目和物资的分布情况，那就使用<color=#f0af14>常规模式</color>吧。",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 480004,
+            "group": 4800,
+            "canSkip": true,
+            "avatar": "Avatar_Head_UllridSSR",
+            "avatarFemale": "Avatar_Head_UllridSSR",
+            "name": "乌尔丽德",
+            "textPosition": "7,58,-72",
+            "text": "点击切换到<color=#f0af14>侦查模式</color>",
+            "textFemale": "点击切换到<color=#f0af14>侦查模式</color>",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/SandboxMainPanel(Clone)/Root/GrpBottom/Btn_Mode:0"
+            ],
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 480005,
+            "group": 4800,
+            "canSkip": true,
+            "avatar": "Avatar_Head_UllridSSR",
+            "avatarFemale": "Avatar_Head_UllridSSR",
+            "name": "乌尔丽德",
+            "textPosition": "7,58,-72",
+            "text": "如果想查看未开拓地块上的事件，可以切换到<color=#f0af14>侦查模式</color>。",
+            "textFemale": "如果想查看未开拓地块上的事件，可以切换到<color=#f0af14>侦查模式</color>。",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 490001,
+            "group": 4900,
+            "canSkip": true,
+            "name": "",
+            "text": "猎人ppt",
+            "textFemale": "猎人ppt",
+            "finishPage": 1,
+            "pptGroup": 1401,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 500101,
+            "group": 5001,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,314,-250",
+            "text": "指挥官，请进入<color=#f0af14>休息室</color>。",
+            "textFemale": "指挥官，请进入<color=#f0af14>休息室</color>。",
+            "clickType": 4,
+            "clickActionType": 13,
+            "clickActionTypeParam": 2310,
+            "clickAreaPositionNew": [
+                "Default/DormEnterPanel(Clone)/Root/GrpModeList:1"
+            ],
+            "delay": 0.2,
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 500201,
+            "group": 5002,
+            "canSkip": true,
+            "name": "",
+            "text": "休息室ppt",
+            "textFemale": "休息室ppt",
+            "pptGroup": 2601,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 500202,
+            "group": 5002,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "为人形<color=#f0af14>赠送礼物</color>吧。",
+            "textFemale": "为人形<color=#f0af14>赠送礼物</color>吧。",
+            "clickType": 4,
+            "clickActionType": 13,
+            "clickActionTypeParam": 10083,
+            "clickAreaPositionNew": [
+                "Default/DormMainPanelV2(Clone)/Root/TabFunctionList:5"
+            ],
+            "giveItem": {
+                "300003": 1
+            },
+            "delay": 0.2,
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 500301,
+            "group": 5003,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "这里可以查看<color=#f0af14>礼物详情</color>",
+            "textFemale": "这里可以查看<color=#f0af14>礼物详情</color>",
+            "clickType": 4,
+            "clickAreaPositionNew": [
+                "Default/DormGiftPanel(Clone)/Root/GrpRight/GrpGiftSend/GrpGiftInfo/Btn_Info:1"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 500302,
+            "group": 5003,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "指挥官，已经了解了详情吧，试着<color=#f0af14>送出礼物</color>吧。",
+            "textFemale": "指挥官，已经了解了详情吧，试着<color=#f0af14>送出礼物</color>吧。",
+            "clickType": 4,
+            "clickAreaPositionNew": [
+                "Default/DormGiftGetDialog(Clone)/Root/GrpDialog/GrpCenter/GrpAction/BtnConfirm:1"
+            ],
+            "delay": 0.2,
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 500401,
+            "group": 5004,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "请选择所赠送的礼物。",
+            "textFemale": "请选择所赠送的礼物。",
+            "clickType": 4,
+            "virtualListItemId": {
+                "Canvas/Default/DormGiftPanel(Clone)/Root/GrpRight/GrpGiftSend/GrpList": "0|2"
+            },
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 500402,
+            "group": 5004,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "赠送礼物，让人形感受到心意吧。",
+            "textFemale": "赠送礼物，让人形感受到心意吧。",
+            "clickType": 4,
+            "clickAreaPositionNew": [
+                "Default/DormGiftPanel(Clone)/Root/GrpRight/GrpGiftSend:5"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 500403,
+            "group": 5004,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "请指挥官继续前进吧。",
+            "textFemale": "请指挥官继续前进吧。",
+            "clickType": 4,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "clickAreaPositionNew": [
+                "Default/DormGiftPanel(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content:0"
+            ],
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 510101,
+            "group": 5101,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "指挥官，B.R.I.E.F.总会为了便于对订单和资源进行汇总分配，而开放了赏金猎人<color=#f0af14>班组</color>",
+            "textFemale": "指挥官，B.R.I.E.F.总会为了便于对订单和资源进行汇总分配，而开放了赏金猎人<color=#f0af14>班组</color>",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 510102,
+            "group": 5101,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "我们去看看吧",
+            "textFemale": "我们去看看吧",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/CommandCenterPanelV4(Clone)/Root/GrpRightBottom/GrpActivityEnter/Btn_GrpUnion:0"
+            ],
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 510103,
+            "group": 5101,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "指挥官可以<color=#f0af14>申请加入</color>现有班组",
+            "textFemale": "指挥官可以<color=#f0af14>申请加入</color>现有班组",
+            "clickType": 1,
+            "awakePath": "GuildEditPanel",
+            "clickAreaPositionNew": [
+                "Default/GuildEditPanel(Clone)/Root/GrpTop/GrpTopRightBtn:2"
+            ],
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 510104,
+            "group": 5101,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "或者<color=#f0af14>申请建立</color>一个新的班组",
+            "textFemale": "或者<color=#f0af14>申请建立</color>一个新的班组",
+            "clickType": 1,
+            "awakePath": "GuildEditPanel",
+            "clickAreaPositionNew": [
+                "Default/GuildEditPanel(Clone)/Root/GrpTop/GrpTopRightBtn:3"
+            ],
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 510105,
+            "group": 5101,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "希望指挥官可以在班组里找到更多志同道合的伙伴",
+            "textFemale": "希望指挥官可以在班组里找到更多志同道合的伙伴",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 510201,
+            "group": 5102,
+            "canSkip": true,
+            "name": "",
+            "text": "班组主界面弹出ppt",
+            "textFemale": "班组主界面弹出ppt",
+            "finishPage": 1,
+            "pptGroup": 3019,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 510301,
+            "group": 5103,
+            "canSkip": true,
+            "name": "",
+            "text": "补给界面弹出ppt",
+            "textFemale": "补给界面弹出ppt",
+            "finishPage": 1,
+            "pptGroup": 3020,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 510401,
+            "group": 5104,
+            "canSkip": true,
+            "name": "",
+            "text": "尘烟前线弹出ppt",
+            "textFemale": "尘烟前线弹出ppt",
+            "finishPage": 1,
+            "pptGroup": 3021,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 520101,
+            "group": 5201,
+            "canSkip": true,
+            "name": "",
+            "text": "调度室主界面弹出ppt",
+            "textFemale": "调度室主界面弹出ppt",
+            "pptGroup": 3018,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 520102,
+            "group": 5201,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "调度室中可以派遣人形参与<color=#f0af14>委托</color>，获取委托奖励。",
+            "textFemale": "调度室中可以派遣人形参与<color=#f0af14>委托</color>，获取委托奖励。",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 520103,
+            "group": 5201,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "但人形需要完成<color=#f0af14>调度考核</color>，才能参与委托派遣。",
+            "textFemale": "但人形需要完成<color=#f0af14>调度考核</color>，才能参与委托派遣。",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/ControlRoomMainPanel(Clone)/Root/GrpBottomInfo/GrpBtnList:1"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 520104,
+            "group": 5201,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "点击任意人形就可以查看该人形的<color=#f0af14>调度考核任务</color>。",
+            "textFemale": "点击任意人形就可以查看该人形的<color=#f0af14>调度考核任务</color>。",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 520105,
+            "group": 5201,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "接下来，请指挥官自由操作吧。",
+            "textFemale": "接下来，请指挥官自由操作吧。",
+            "nextButton": true,
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 570101,
+            "group": 5701,
+            "canSkip": true,
+            "name": "",
+            "text": "强袭演绎ppt",
+            "textFemale": "强袭演绎ppt",
+            "finishPage": 1,
+            "pptGroup": 3022,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 580101,
+            "group": 5801,
+            "canSkip": true,
+            "name": "",
+            "text": "险域巡查ppt",
+            "textFemale": "险域巡查ppt",
+            "finishPage": 1,
+            "pptGroup": 3023,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 590101,
+            "group": 5901,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,194,-480",
+            "text": "在这里，指挥官可以调整<color=#f0af14>生日日期</color>，一年仅能修改一次！",
+            "textFemale": "在这里，指挥官可以调整<color=#f0af14>生日日期</color>，一年仅能修改一次！",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/CommanderInfoPanelV4(Clone)/Root/Trans_GrpPlayerInfo_0/GrpContent/CommanderInfoItem(Clone)/GrpLeft/GrpInfo/GrpPlayerInfo/GrpBirthday/GrpNum/Btn_Remark:0"
+            ],
+            "nextButton": true,
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 600101,
+            "group": 6001,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "“域限突破”已解锁，请点击<color=#f0af14>前往探索</color>。",
+            "textFemale": "“域限突破”已解锁，请点击<color=#f0af14>前往探索</color>。",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/DarkzoneExploreMainPanel(Clone)/Root/Trans_GrpNormal/GrpAction/Btn_Start:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 600102,
+            "group": 6001,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "指挥官，小队已准备完毕，请<color=#f0af14>开始探索</color>。",
+            "textFemale": "指挥官，小队已准备完毕，请<color=#f0af14>开始探索</color>。",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/DarkzoneFleetPanelV2(Clone)/Root/GrpBottom/Btn_Confirm:0"
+            ],
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 600201,
+            "group": 6002,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "<color=#f0af14>“晶源采集”</color>已解锁，请点击查看。",
+            "textFemale": "<color=#f0af14>“晶源采集”</color>已解锁，请点击查看。",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 11243,
+            "clickAreaPositionNew": [
+                "Default/DarkzoneExploreMainPanel(Clone)/Root/Trans_GrpNormal/GrpAction/Btn_Explore/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 600202,
+            "group": 6002,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "指挥官，通过派遣人形至已勘测区域进行<color=#f0af14>晶源采集</color>，可获取电辐晶及其他物资奖励。",
+            "textFemale": "指挥官，通过派遣人形至已勘测区域进行<color=#f0af14>晶源采集</color>，可获取电辐晶及其他物资奖励。",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 600203,
+            "group": 6002,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "探索新区域，提高<color=#f0af14>突破深度</color>，可以解锁更多的晶源采集点。",
+            "textFemale": "探索新区域，提高<color=#f0af14>突破深度</color>，可以解锁更多的晶源采集点。",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 600204,
+            "group": 6002,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "解锁所有的晶源采集点后，指挥官通过晶源采集即可获得突破奖池的<color=#f0af14>所有奖励</color>。",
+            "textFemale": "解锁所有的晶源采集点后，指挥官通过晶源采集即可获得突破奖池的<color=#f0af14>所有奖励</color>。",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/DarkzoneExplorePutPanel(Clone)/Root/GrpContent/Trans_GrpBottomAction/Btn_Dispatch/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 600205,
+            "group": 6002,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "看看奖励",
+            "textFemale": "看看奖励",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/DarkzoneExplorePutPanel(Clone)/Root/GrpContent/Trans_GrpBottomAction/Btn_RewardView:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 600206,
+            "group": 6002,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "突破奖池内容以周为单位重置。指挥官可以通过<color=#f0af14>晶源采集</color>和<color=#f0af14>探索未勘测区域</color>，来获取突破奖池奖励。",
+            "textFemale": "突破奖池内容以周为单位重置。指挥官可以通过<color=#f0af14>晶源采集</color>和<color=#f0af14>探索未勘测区域</color>，来获取突破奖池奖励。",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 600207,
+            "group": 6002,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "不同的突破深度对应不同的奖励，突破深层级区域时，获得的奖励将<color=#f0af14>包含</color>浅层级区域的奖励。",
+            "textFemale": "不同的突破深度对应不同的奖励，突破深层级区域时，获得的奖励将<color=#f0af14>包含</color>浅层级区域的奖励。",
+            "nextButton": true,
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 600301,
+            "group": 6003,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "<color=#f0af14>“突破策略”</color>已解锁，请点击查看。",
+            "textFemale": "<color=#f0af14>“突破策略”</color>已解锁，请点击查看。",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/DarkzoneExploreMainPanel(Clone)/Root/Trans_GrpNormal/GrpLeft/GrpBottom/GrpTalent:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 600302,
+            "group": 6003,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "突破策略中包括多种<color=#f0af14>探索能力</color>，可以大幅强化人形在域限突破中的作战表现。",
+            "textFemale": "突破策略中包括多种<color=#f0af14>探索能力</color>，可以大幅强化人形在域限突破中的作战表现。",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 600303,
+            "group": 6003,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "探索待勘测区获取的<color=#f0af14>电辐晶</color>，可用于激活突破策略的限位。",
+            "textFemale": "探索待勘测区获取的<color=#f0af14>电辐晶</color>，可用于激活突破策略的限位。",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/DarkzoneExploreTalentPanel(Clone)/Root/GrpDetailsList/Viewport/Content/Node_1/Root:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 600304,
+            "group": 6003,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "请点击<color=#f0af14>激活</color>。",
+            "textFemale": "请点击<color=#f0af14>激活</color>。",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/DarkzoneExploreTalentPanel(Clone)/Root/Trans_GrpRightInfo/DarkzoneExploreTalentInfoItem(Clone)/Root/GrpAction/Trans_GrpActivation/Btn_Activation/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 600305,
+            "group": 6003,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "突破策略<color=#f0af14>已生效</color>，指挥官请前往探索检验成果",
+            "textFemale": "突破策略<color=#f0af14>已生效</color>，指挥官请前往探索检验成果",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/DarkzoneExploreTalentPanel(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnBack/Btn_Content:0"
+            ],
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 600401,
+            "group": 6004,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "闪电",
+            "textPosition": "7,58,-72",
+            "text": "<color=#f0af14>\"限区悬赏\"</color>已解锁。每周都会有新悬赏发布，指挥官请不要错过。",
+            "textFemale": "<color=#f0af14>\"限区悬赏\"</color>已解锁。每周都会有新悬赏发布，指挥官请不要错过。",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/DarkzoneExploreMainPanel(Clone)/Root/Trans_GrpNormal/GrpLeft/GrpBottom/GrpEntrust:0"
+            ],
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 700101,
+            "group": 7001,
+            "canSkip": true,
+            "avatar": "Avatar_Head_CentaureissiSSR",
+            "avatarFemale": "Avatar_Head_CentaureissiSSR",
+            "name": "桑朵莱希",
+            "textPosition": "7,58,-200",
+            "text": "长官，感谢您百忙之中来到咖啡馆支援<color=#f0af14>特调沙龙</color>活动，现在就由我来为您讲解支援工作。",
+            "textFemale": "长官，感谢您百忙之中来到咖啡馆支援<color=#f0af14>特调沙龙</color>活动，现在就由我来为您讲解支援工作。",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 700102,
+            "group": 7001,
+            "name": "",
+            "text": "桑朵莱希模拟经营PPT",
+            "textFemale": "桑朵莱希模拟经营PPT",
+            "pptGroup": 3030,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 700103,
+            "group": 7001,
+            "canSkip": true,
+            "avatar": "Avatar_Head_CentaureissiSSR",
+            "avatarFemale": "Avatar_Head_CentaureissiSSR",
+            "name": "桑朵莱希",
+            "textPosition": "7,58,-200",
+            "text": "经营沙龙，我们需要确保售卖的饮品供应充足。首先请长官打开饮品单，<color=#f0af14>制作饮品</color>吧。",
+            "textFemale": "经营沙龙，我们需要确保售卖的饮品供应充足。首先请长官打开饮品单，<color=#f0af14>制作饮品</color>吧。",
+            "clickType": 4,
+            "clickAreaPositionNew": [
+                "Default/ActivityCafeMainPanel(Clone)/Root/Trans_GrpFormal/NameRoot/Btn_ActivityCafeMachineInfoItem(Clone)/Root:0"
+            ],
+            "giveItem": {
+                "170086": 3,
+                "170081": 3,
+                "170012": 20,
+                "170091": 3
+            },
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 700104,
+            "group": 7001,
+            "canSkip": true,
+            "avatar": "Avatar_Head_CentaureissiSSR",
+            "avatarFemale": "Avatar_Head_CentaureissiSSR",
+            "name": "桑朵莱希",
+            "textPosition": "7,58,-200",
+            "text": "选择想要制作的饮品配方，点击<color=#f0af14>调制</color>，即可消耗原料制作饮品。",
+            "textFemale": "选择想要制作的饮品配方，点击<color=#f0af14>调制</color>，即可消耗原料制作饮品。",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/ActivityCafePadPanel(Clone)/Root/GrpPad/Sale_4/ActivityCafeSaleItem(Clone)/Root/GrpRight/GrpSale/GrpList/Viewport/Content/Btn_ActivityCafeSaleListItem(Clone)/Btn_Shelves:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 700105,
+            "group": 7001,
+            "canSkip": true,
+            "avatar": "Avatar_Head_CentaureissiSSR",
+            "avatarFemale": "Avatar_Head_CentaureissiSSR",
+            "name": "桑朵莱希",
+            "textPosition": "7,58,-200",
+            "text": "点击<color=#f0af14>调制</color>",
+            "textFemale": "点击<color=#f0af14>调制</color>",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/ActivityCafeSupplyDialog(Clone)/Root/GrpDialog/GrpRight/GrpState/Btn_Start:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 700106,
+            "group": 7001,
+            "canSkip": true,
+            "avatar": "Avatar_Head_CentaureissiSSR",
+            "avatarFemale": "Avatar_Head_CentaureissiSSR",
+            "name": "桑朵莱希",
+            "textPosition": "7,58,-200",
+            "text": "饮品调制成功后，将于<color=#f0af14>自动吧台</color>开始售卖，售卖完成后将获得奖励，并提升店铺评级。",
+            "textFemale": "饮品调制成功后，将于<color=#f0af14>自动吧台</color>开始售卖，售卖完成后将获得奖励，并提升店铺评级。",
+            "nextButton": true,
+            "giveItem": {
+                "170086": 3,
+                "170081": 3,
+                "170012": 300,
+                "170091": 3
+            },
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 700107,
+            "group": 7001,
+            "canSkip": true,
+            "avatar": "Avatar_Head_CentaureissiSSR",
+            "avatarFemale": "Avatar_Head_CentaureissiSSR",
+            "name": "桑朵莱希",
+            "textPosition": "7,58,-200",
+            "text": "如需获得更多原料，长官可前往<color=#f0af14>物资模式</color>完成关卡，这部分的工作就麻烦您多帮忙了。",
+            "textFemale": "如需获得更多原料，长官可前往<color=#f0af14>物资模式</color>完成关卡，这部分的工作就麻烦您多帮忙了。",
+            "nextButton": true,
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 710101,
+            "group": 7101,
+            "canSkip": true,
+            "avatar": "Avatar_Head_CentaureissiSSR",
+            "avatarFemale": "Avatar_Head_CentaureissiSSR",
+            "name": "桑朵莱希",
+            "textPosition": "7,58,-200",
+            "text": "长官，这个是<color=#f0af14>方糖小助手</color>，可以协助您实时掌握咖啡馆的经营情况。",
+            "textFemale": "长官，这个是<color=#f0af14>方糖小助手</color>，可以协助您实时掌握咖啡馆的经营情况。",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 53,
+            "clickAreaPositionNew": [
+                "Default/ActivityCafeMainPanel(Clone)/Root/GrpBottom/Btn_Pad/Root:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 710102,
+            "group": 7101,
+            "canSkip": true,
+            "avatar": "Avatar_Head_CentaureissiSSR",
+            "avatarFemale": "Avatar_Head_CentaureissiSSR",
+            "name": "桑朵莱希",
+            "textPosition": "7,58,-200",
+            "text": "在方糖小助手的主页中，您可以看到当前咖啡馆的<color=#f0af14>店铺评级</color>，以及<color=#f0af14>考核任务</color>。完成考核任务，就能够提升店铺评级。",
+            "textFemale": "在方糖小助手的主页中，您可以看到当前咖啡馆的<color=#f0af14>店铺评级</color>，以及<color=#f0af14>考核任务</color>。完成考核任务，就能够提升店铺评级。",
+            "nextButton": true,
+            "delay": 2.0,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 710103,
+            "group": 7101,
+            "canSkip": true,
+            "name": "",
+            "text": "引导点击意见墙",
+            "textFemale": "引导点击意见墙",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/ActivityCafePadPanel(Clone)/Root/GrpPad/GrpTopTab/TabLeftModeList/Content:3"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 710104,
+            "group": 7101,
+            "canSkip": true,
+            "avatar": "Avatar_Head_CentaureissiSSR",
+            "avatarFemale": "Avatar_Head_CentaureissiSSR",
+            "name": "桑朵莱希",
+            "textPosition": "7,58,-200",
+            "text": "在<color=#f0af14>意见墙</color>页签中，您可以查看顾客留下的便签，并进行意见统合，这也是咖啡馆考核任务之一。",
+            "textFemale": "在<color=#f0af14>意见墙</color>页签中，您可以查看顾客留下的便签，并进行意见统合，这也是咖啡馆考核任务之一。",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 710105,
+            "group": 7101,
+            "canSkip": true,
+            "name": "",
+            "text": "引导点击周边",
+            "textFemale": "引导点击周边",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/ActivityCafePadPanel(Clone)/Root/GrpPad/GrpTopTab/TabLeftModeList/Content:4"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 710106,
+            "group": 7101,
+            "canSkip": true,
+            "avatar": "Avatar_Head_CentaureissiSSR",
+            "avatarFemale": "Avatar_Head_CentaureissiSSR",
+            "name": "桑朵莱希",
+            "textPosition": "7,58,-200",
+            "text": "在方糖周边页签中，您可以使用<color=#f0af14>印花贴纸</color>兑换所需物资。方糖周边的等级越高，能够兑换到的物资就越丰厚。",
+            "textFemale": "在方糖周边页签中，您可以使用<color=#f0af14>印花贴纸</color>兑换所需物资。方糖周边的等级越高，能够兑换到的物资就越丰厚。",
+            "nextButton": true,
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 800101,
+            "group": 8001,
+            "canSkip": true,
+            "avatar": "Avatar_Head_SpringfieldSSR",
+            "avatarFemale": "Avatar_Head_SpringfieldSSR",
+            "name": "春田",
+            "textPosition": "7,58,-300",
+            "text": "欢迎来到度假村，活动期间由我来临时接管方糖猫咖馆的经营。当然经营初期是最忙碌的时候了，麻烦指挥官一起来帮忙接待客人吧。",
+            "textFemale": "欢迎来到度假村，活动期间由我来临时接管方糖猫咖馆的经营。当然经营初期是最忙碌的时候了，麻烦指挥官一起来帮忙接待客人吧。",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 800102,
+            "group": 8001,
+            "canSkip": true,
+            "avatar": "Avatar_Head_SpringfieldSSR",
+            "avatarFemale": "Avatar_Head_SpringfieldSSR",
+            "name": "春田",
+            "textPosition": "7,58,-300",
+            "text": "已经有一位客人在这里等候了，问问他有什么需要吧。",
+            "textFemale": "已经有一位客人在这里等候了，问问他有什么需要吧。",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/KittyCafeMainPanel(Clone)/Root/Trans_GrpFormal/FunctionRoot/Icon_KittyCafeMainfFunction_Make:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 800103,
+            "group": 8001,
+            "canSkip": true,
+            "avatar": "Avatar_Head_SpringfieldSSR",
+            "avatarFemale": "Avatar_Head_SpringfieldSSR",
+            "name": "春田",
+            "textPosition": "7,58,-100",
+            "text": "客人会告诉您想要的咖啡类型，比如这位客人想要便是<color=#f0af14>【丝绒拿铁】</color>。",
+            "textFemale": "客人会告诉您想要的咖啡类型，比如这位客人想要便是<color=#f0af14>【丝绒拿铁】</color>。",
+            "nextButton": true,
+            "delay": 2.0,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 800104,
+            "group": 8001,
+            "canSkip": true,
+            "avatar": "Avatar_Head_SpringfieldSSR",
+            "avatarFemale": "Avatar_Head_SpringfieldSSR",
+            "name": "春田",
+            "textPosition": "7,58,-100",
+            "text": "指挥官应该不熟悉咖啡的配方，不过不用担心，我已经将您需要的<color=#f0af14>配方</color>和<color=#f0af14>调配顺序</color>展示在这里了。",
+            "textFemale": "指挥官应该不熟悉咖啡的配方，不过不用担心，我已经将您需要的<color=#f0af14>配方</color>和<color=#f0af14>调配顺序</color>展示在这里了。",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 800105,
+            "group": 8001,
+            "canSkip": true,
+            "avatar": "Avatar_Head_SpringfieldSSR",
+            "avatarFemale": "Avatar_Head_SpringfieldSSR",
+            "name": "春田",
+            "textPosition": "7,58,-100",
+            "text": "参考配方，我们需要添加2份<color=#f0af14>牛乳</color>和<color=#f0af14>咖啡</color>。",
+            "textFemale": "参考配方，我们需要添加2份<color=#f0af14>牛乳</color>和<color=#f0af14>咖啡</color>。",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/KittyCafeMakePanel(Clone)/Root/GrpTable/GrpAction/BtnCoffee:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 800106,
+            "group": 8001,
+            "canSkip": true,
+            "avatar": "Avatar_Head_SpringfieldSSR",
+            "avatarFemale": "Avatar_Head_SpringfieldSSR",
+            "name": "春田",
+            "textPosition": "7,58,-100",
+            "text": "调配过程中难免会出现加错配料或顺序的情况，指挥官只需要点击<color=#f0af14>【垃圾桶】</color>就可以重新调制咖啡了。",
+            "textFemale": "调配过程中难免会出现加错配料或顺序的情况，指挥官只需要点击<color=#f0af14>【垃圾桶】</color>就可以重新调制咖啡了。",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/KittyCafeMakePanel(Clone)/Root/GrpTable/Btn_Delete:0"
+            ],
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 800107,
+            "group": 8001,
+            "canSkip": true,
+            "avatar": "Avatar_Head_SpringfieldSSR",
+            "avatarFemale": "Avatar_Head_SpringfieldSSR",
+            "name": "春田",
+            "textPosition": "7,58,-100",
+            "text": "指挥官，请先点击<color=#f0af14>牛乳</color>两次。",
+            "textFemale": "指挥官，请先点击<color=#f0af14>牛乳</color>两次。",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/KittyCafeMakePanel(Clone)/Root/GrpTable/GrpAction/BtnMilk/Btn_Milk:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 800108,
+            "group": 8001,
+            "canSkip": true,
+            "name": "",
+            "text": "",
+            "textFemale": "",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/KittyCafeMakePanel(Clone)/Root/GrpTable/GrpAction/BtnMilk/Btn_Milk:0"
+            ],
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 800109,
+            "group": 8001,
+            "canSkip": true,
+            "avatar": "Avatar_Head_SpringfieldSSR",
+            "avatarFemale": "Avatar_Head_SpringfieldSSR",
+            "name": "春田",
+            "textPosition": "7,58,-100",
+            "text": "好了，最后一步。让我们加入咖啡液。请点击<color=#f0af14>咖啡液</color>一次。",
+            "textFemale": "好了，最后一步。让我们加入咖啡液。请点击<color=#f0af14>咖啡液</color>一次。",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/KittyCafeMakePanel(Clone)/Root/GrpTable/GrpAction/BtnCoffee:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 800110,
+            "group": 8001,
+            "canSkip": true,
+            "avatar": "Avatar_Head_SpringfieldSSR",
+            "avatarFemale": "Avatar_Head_SpringfieldSSR",
+            "name": "春田",
+            "textPosition": "7,58,-100",
+            "text": "锵锵~<color=#f0af14>丝绒拿铁</color>就完成了，点击送出，快端给客人吧。",
+            "textFemale": "锵锵~<color=#f0af14>丝绒拿铁</color>就完成了，点击送出，快端给客人吧。",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/KittyCafeMakePanel(Clone)/Root/GrpTable/GrpCup/KittyCafeCupItem(Clone)/Btn_Action:0"
+            ],
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 809901,
+            "group": 8099,
+            "canSkip": true,
+            "name": "",
+            "text": "猫咖ppt",
+            "textFemale": "猫咖ppt",
+            "finishPage": 1,
+            "pptGroup": 3027,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 810101,
+            "group": 8101,
+            "canSkip": true,
+            "avatar": "Avatar_Head_SpringfieldSSR",
+            "avatarFemale": "Avatar_Head_SpringfieldSSR",
+            "name": "春田",
+            "textPosition": "7,58,-300",
+            "text": "指挥官，刚刚那位客人离开后，给我们留下了一根<color=#f0af14>逗猫棒</color>。这可是方糖喵们的最爱。我们去把它放在猫爬架上，看看会发生什么？",
+            "textFemale": "指挥官，刚刚那位客人离开后，给我们留下了一根<color=#f0af14>逗猫棒</color>。这可是方糖喵们的最爱。我们去把它放在猫爬架上，看看会发生什么？",
+            "clickType": 1,
+            "virtualListItemId": {
+                "Canvas/Default/KittyCafeCollectPanel(Clone)/Root/Content/GrpList": "1|2"
+            },
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 810102,
+            "group": 8101,
+            "canSkip": true,
+            "avatar": "Avatar_Head_SpringfieldSSR",
+            "avatarFemale": "Avatar_Head_SpringfieldSSR",
+            "name": "春田",
+            "textPosition": "7,58,-300",
+            "text": "啊呀，来了一只可爱的小猫呢！",
+            "textFemale": "啊呀，来了一只可爱的小猫呢！",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 810103,
+            "group": 8101,
+            "canSkip": true,
+            "avatar": "Avatar_Head_SpringfieldSSR",
+            "avatarFemale": "Avatar_Head_SpringfieldSSR",
+            "name": "春田",
+            "textPosition": "7,58,-300",
+            "text": "指挥官，我们快把她吸引进猫咖馆吧。",
+            "textFemale": "指挥官，我们快把她吸引进猫咖馆吧。",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/KittyCafeCollectPanel(Clone)/Root/GrpAction/Btn_Confirm/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 810104,
+            "group": 8101,
+            "canSkip": true,
+            "avatar": "Avatar_Head_SpringfieldSSR",
+            "avatarFemale": "Avatar_Head_SpringfieldSSR",
+            "name": "春田",
+            "textPosition": "7,58,-300",
+            "text": "心仪的装饰道具可以不用收起来",
+            "textFemale": "心仪的装饰道具可以不用收起来",
+            "clickType": 1,
+            "virtualListItemId": {
+                "Canvas/Default/KittyCafeCollectPanel(Clone)/Root/Content/GrpList": "1|2"
+            },
+            "delay": 0.5,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 810105,
+            "group": 8101,
+            "canSkip": true,
+            "avatar": "Avatar_Head_SpringfieldSSR",
+            "avatarFemale": "Avatar_Head_SpringfieldSSR",
+            "name": "春田",
+            "textPosition": "7,58,-300",
+            "text": "保留在这里作为猫爬架的装饰也是挺好的。",
+            "textFemale": "保留在这里作为猫爬架的装饰也是挺好的。",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/KittyCafeCollectPanel(Clone)/Root/GrpAction/Btn_Decorate/Btn_Content:0"
+            ],
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 820101,
+            "group": 8201,
+            "avatar": "Avatar_Head_SpringfieldSSR",
+            "avatarFemale": "Avatar_Head_SpringfieldSSR",
+            "name": "春田",
+            "textPosition": "7,58,-100",
+            "text": "啊呀，看来小猫咪，是有话想和您说呢。",
+            "textFemale": "啊呀，看来小猫咪，是有话想和您说呢。",
+            "clickType": 1,
+            "virtualListItemId": {
+                "Canvas/Default/KittyCafePutPanel(Clone)/Root/Trans_GrpAvatarList/GrpInfo/GrpList": "0|2"
+            },
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 820102,
+            "group": 8201,
+            "avatar": "Avatar_Head_SpringfieldSSR",
+            "avatarFemale": "Avatar_Head_SpringfieldSSR",
+            "name": "春田",
+            "textPosition": "7,58,-100",
+            "text": "在猫咖馆里，想和指挥官交流的小猫咪，可不止一只。",
+            "textFemale": "在猫咖馆里，想和指挥官交流的小猫咪，可不止一只。",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 820103,
+            "group": 8201,
+            "avatar": "Avatar_Head_SpringfieldSSR",
+            "avatarFemale": "Avatar_Head_SpringfieldSSR",
+            "name": "春田",
+            "textPosition": "7,58,-100",
+            "text": "指挥官感兴趣的话，不妨试试放置<color=#f0af14>不同的</color>猫咪组合在这。",
+            "textFemale": "指挥官感兴趣的话，不妨试试放置<color=#f0af14>不同的</color>猫咪组合在这。",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 820104,
+            "group": 8201,
+            "avatar": "Avatar_Head_SpringfieldSSR",
+            "avatarFemale": "Avatar_Head_SpringfieldSSR",
+            "name": "春田",
+            "textPosition": "7,58,-100",
+            "text": "这些猫咪，只有在<color=#f0af14>特定的</color>组合下，才会和您进行交流哦。",
+            "textFemale": "这些猫咪，只有在<color=#f0af14>特定的</color>组合下，才会和您进行交流哦。",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 820105,
+            "group": 8201,
+            "avatar": "Avatar_Head_KittyCafe_Qiongjiu",
+            "avatarFemale": "Avatar_Head_KittyCafe_Qiongjiu",
+            "name": "点墨",
+            "textPosition": "7,58,-100",
+            "text": "喵呜！",
+            "textFemale": "喵呜！",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/KittyCafePutPanel(Clone)/Root/Trans_GrpAvatarList/GrpAction/Btn_Confirm/Btn_Content:0"
+            ],
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 820201,
+            "group": 8202,
+            "avatar": "Avatar_Head_SpringfieldSSR",
+            "avatarFemale": "Avatar_Head_SpringfieldSSR",
+            "name": "春田",
+            "textPosition": "7,58,-100",
+            "text": "啊呀，看来在猫咖馆里这些猫咪还为您带来了特殊的礼物呢。",
+            "textFemale": "啊呀，看来在猫咖馆里这些猫咪还为您带来了特殊的礼物呢。",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 820202,
+            "group": 8202,
+            "avatar": "Avatar_Head_SpringfieldSSR",
+            "avatarFemale": "Avatar_Head_SpringfieldSSR",
+            "name": "春田",
+            "textPosition": "7,58,-100",
+            "text": "应该是很重要的信物，或许，可以用来<color=#f0af14>吸引</color>它们的同伴。",
+            "textFemale": "应该是很重要的信物，或许，可以用来<color=#f0af14>吸引</color>它们的同伴。",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 820203,
+            "group": 8202,
+            "avatar": "Avatar_Head_SpringfieldSSR",
+            "avatarFemale": "Avatar_Head_SpringfieldSSR",
+            "name": "春田",
+            "textPosition": "7,58,-100",
+            "text": "指挥官，要试试吗？",
+            "textFemale": "指挥官，要试试吗？",
+            "nextButton": true,
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 900101,
+            "group": 9001,
+            "canSkip": true,
+            "name": "",
+            "text": "遗珍回收ppt",
+            "textFemale": "遗珍回收ppt",
+            "finishPage": 1,
+            "pptGroup": 3026,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 910101,
+            "group": 9101,
+            "canSkip": true,
+            "name": "",
+            "text": "编队ppt",
+            "textFemale": "编队ppt",
+            "finishPage": 1,
+            "pptGroup": 3037,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 920101,
+            "group": 9201,
+            "canSkip": true,
+            "name": "",
+            "text": "拟态图谱ppt",
+            "textFemale": "拟态图谱ppt",
+            "finishPage": 1,
+            "pptGroup": 3039,
+            "clickAreaEffectType": 2
+        }
+    ]
+}

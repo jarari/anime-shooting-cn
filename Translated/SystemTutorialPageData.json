@@ -1,0 +1,4369 @@
+﻿{
+    "data": [
+        {
+            "id": 10101,
+            "group": 101,
+            "name": "",
+            "text": "전역 버튼 점등",
+            "textFemale": "전역 버튼 점등",
+            "clickType": 10,
+            "clickAreaPosition": "Canvas/Default/CommandCenterPanelV4(Clone)/Root/Btn_Battle/Root/Cast:1",
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 10201,
+            "group": 102,
+            "name": "",
+            "text": "챕터 선택 화면 확인 버튼 점등",
+            "textFemale": "챕터 선택 화면 확인 버튼 점등",
+            "clickType": 10,
+            "clickAreaPositionNew": [
+                "Default/BattleIndexPanelV2(Clone)/Root/GrpStoryMode_0/BattleIndexStoryModeItem(Clone)/GrpStoryMode_0/GrpBottom/BtnOk/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 10301,
+            "group": 103,
+            "name": "",
+            "text": "챕터 선택 화면 확인 버튼 점등",
+            "textFemale": "챕터 선택 화면 확인 버튼 점등",
+            "clickType": 10,
+            "clickAreaPositionNew": [
+                "Default/BattleIndexPanelV2(Clone)/Root/GrpStoryMode_0/BattleIndexStoryModeItem(Clone)/GrpStoryMode_0/GrpBottom/BtnOk/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 20101,
+            "group": 201,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-150",
+            "text": "지휘관, <color=#f0af14>모집</color>이 개방되었습니다. 여기서 사르 데이터베이스를 이용해 인력과 전력을 빠르게 확충할 수 있습니다.",
+            "textFemale": "지휘관, <color=#f0af14>모집</color>이 개방되었습니다. 여기서 사르 데이터베이스를 이용해 인력과 전력을 빠르게 확충할 수 있습니다.",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "awakePath": "StoryChapterPanel",
+            "clickAreaPositionNew": [
+                "Default/StoryChapterPanel(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content:0"
+            ],
+            "clickAreaPosition": "Canvas/Default/StoryChapterPanel(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content/Cast:1",
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 20201,
+            "group": 202,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "<color=#f0af14>모집</color>을 클릭하세요.",
+            "textFemale": "<color=#f0af14>모집</color>을 클릭하세요.",
+            "clickType": 4,
+            "clickActionType": 13,
+            "clickActionTypeParam": 522,
+            "clickAreaPosition": "Canvas/Default/CommandCenterPanelV4(Clone)/Root/GrpRightTab:1,Btn_CommandCenterLeftTabItem(Clone)/Root/Cast:5",
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 20301,
+            "group": 203,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,314,-250",
+            "text": "<color=#f0af14>일반 조달</color>을 클릭하세요.",
+            "textFemale": "<color=#f0af14>일반 조달</color>을 클릭하세요.",
+            "clickType": 4,
+            "clickActionType": 13,
+            "clickActionTypeParam": 522,
+            "clickActionTypeParam2": "1",
+            "awakePath": "GashaponMainPanelV2",
+            "globalTab": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 20302,
+            "group": 203,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "<color=#f0af14>한 번 방문</color>을 클릭하세요.",
+            "textFemale": "<color=#f0af14>한 번 방문</color>을 클릭하세요.",
+            "clickType": 1,
+            "clickActionType": 7,
+            "awakePath": "GashaponMainPanelV2",
+            "clickAreaPositionNew": [
+                "Default/GashaponMainPanelV2(Clone)/Root/GrpOrder/GrpRight/GrpAction/Btn_OrderOne:0"
+            ],
+            "clickAreaPosition": "Canvas/Default/GashaponMainPanelV2(Clone)/Root/GrpOrder/GrpRight/GrpAction/Btn_OrderOne/Root/Cast:1",
+            "giveItem": {
+                "12": 1
+            },
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 30101,
+            "group": 301,
+            "name": "",
+            "text": "닫기 터치",
+            "textFemale": "닫기 터치",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 522,
+            "clickAreaPosition": "Canvas/Default/GashaponResultPanel(Clone)/Root/GrpClose/Btn_Content/Cast:1",
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 30102,
+            "group": 301,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-100",
+            "text": "<color=#f0af14>캐롤릭</color>이 분대에 합류할 수 있습니다. 이제 지휘실로 돌아가 주세요.",
+            "textFemale": "<color=#f0af14>캐롤릭</color>이 분대에 합류할 수 있습니다. 이제 지휘실로 돌아가 주세요.",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "awakePath": "GashaponMainPanelV2",
+            "clickAreaPosition": "Canvas/Default/GashaponMainPanelV2(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content/Cast:1",
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 30201,
+            "group": 302,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "<color=#f0af14>정비실</color>로 이동하세요.",
+            "textFemale": "<color=#f0af14>정비실</color>로 이동하세요.",
+            "clickType": 4,
+            "clickActionType": 13,
+            "clickActionTypeParam": 1304,
+            "clickAreaPositionNew": [
+                "Default/CommandCenterPanelV4(Clone)/Root/GrpRightTab:3"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 30202,
+            "group": 302,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,194,-480",
+            "text": "<color=#f0af14>캐롤릭</color>을 선택하세요.",
+            "textFemale": "<color=#f0af14>캐롤릭</color>을 선택하세요.",
+            "clickType": 1,
+            "awakePath": "ChrPowerUpPanelV3",
+            "clickAreaPositionByid": "Canvas/Default/ChrScreenPanelV3(Clone)/Root/GrpChrSelectList/GrpChrList/GrpList/Viewport/Content:1001:Cast",
+            "virtualListItemId": {
+                "Canvas/Default/ChrPowerUpPanelV3(Clone)/Root/Trans_Overview_0/ChrPowerUp_OverviewItem(Clone)/Root/Trans_ChrSelectList_T/GrpChrList": "1001|1"
+            },
+            "clickAreaEffectType": 1
+        },
+        {
+            "id": 30203,
+            "group": 302,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "<color=#f0af14>레벨 업</color>을 클릭하세요.",
+            "textFemale": "<color=#f0af14>레벨 업</color>을 클릭하세요.",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 918,
+            "awakePath": "ChrPowerUpPanelV3",
+            "clickAreaPositionNew": [
+                "Default/ChrPowerUpPanelV3(Clone)/Root/Trans_Overview_0/ChrPowerUp_OverviewItem(Clone)/Root/GrpRight/GrpAction/Trans_BtnLevelUp:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 30204,
+            "group": 302,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "여기서 지휘관은 보유한 <color=#f0af14>전장 보고서</color> 수량에 따라 캐롤릭의 훈련 목표를 설정해 인형의 <color=#f0af14>전투 효율</color>을 올릴 수 있습니다.",
+            "textFemale": "여기서 지휘관은 보유한 <color=#f0af14>전장 보고서</color> 수량에 따라 캐롤릭의 훈련 목표를 설정해 인형의 <color=#f0af14>전투 효율</color>을 올릴 수 있습니다.",
+            "awakePath": "ChrRangePanelV3",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 30205,
+            "group": 302,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "<color=#f0af14>훈련 시작</color>을 클릭하세요.",
+            "textFemale": "<color=#f0af14>훈련 시작</color>을 클릭하세요.",
+            "clickType": 1,
+            "clickActionType": 1,
+            "clickActionTypeParam": 1001,
+            "awakePath": "ChrRangePanelV3",
+            "clickAreaPosition": "Canvas/Default/ChrRangePanelV3(Clone)/Root/GrpTrain/GrpAction/Trans_BtnConfirm/Root/Cast:1",
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 30206,
+            "group": 302,
+            "canSkip": true,
+            "name": "",
+            "text": "아무 곳이나 터치",
+            "textFemale": "아무 곳이나 터치",
+            "awakePath": "ChrLevelUpDialogV3",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 30301,
+            "group": 303,
+            "canSkip": true,
+            "name": "",
+            "text": "인형 레벨업PPt",
+            "textFemale": "인형 레벨업PPt",
+            "awakePath": "ChrRangePanelV3",
+            "delay": 1.0,
+            "finishPage": 1,
+            "pptGroup": 1101,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 50101,
+            "group": 501,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-100",
+            "text": "지휘관, <color=#f0af14>무기</color>가 개방되었습니다. 지휘실로 돌아가 주세요.",
+            "textFemale": "지휘관, <color=#f0af14>무기</color>가 개방되었습니다. 지휘실로 돌아가 주세요.",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/ComBatWinShowDialogV2(Clone)/Root/GrpSettlement_1/Content/GrpAction/BtnConfirm/Btn_Content:0"
+            ],
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 50201,
+            "group": 502,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-150",
+            "text": "B.R.I.E.F.의 일부 <color=#f0af14>의뢰</color>가 완료되었습니다.",
+            "textFemale": "B.R.I.E.F.의 일부 <color=#f0af14>의뢰</color>가 완료되었습니다.",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 891,
+            "awakePath": "CommandCenterPanelV4",
+            "clickAreaPositionNew": [
+                "Default/CommandCenterPanelV4(Clone)/Root/GrpLeftTab/GrpList/Viewport/Content/Btn_NewTask/Root:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 50202,
+            "group": 502,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-100",
+            "text": "<color=#f0af14>보수</color>를 수령하세요.",
+            "textFemale": "<color=#f0af14>보수</color>를 수령하세요.",
+            "clickType": 1,
+            "clickActionType": 8,
+            "clickActionTypeParam": 1,
+            "awakePath": "NewTaskPanel",
+            "clickAreaPositionNew": [
+                "Default/NewTaskPanel(Clone)/Root/GrpContent/GrpRight/GrpCurrentTask/GrpState/Trans_Btn_Receive/Btn_Content:0"
+            ],
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 50203,
+            "group": 502,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-100",
+            "text": "<color=#f0af14>지휘실</color>로 돌아가 주세요.",
+            "textFemale": "<color=#f0af14>지휘실</color>로 돌아가 주세요.",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "awakePath": "NewTaskPanel",
+            "clickAreaPositionNew": [
+                "Default/NewTaskPanel(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnBack/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 50301,
+            "group": 503,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "지금 정비실로 가서 <color=#f0af14>새 무기</color>를 장착해 주세요.",
+            "textFemale": "지금 정비실로 가서 <color=#f0af14>새 무기</color>를 장착해 주세요.",
+            "clickType": 4,
+            "clickActionType": 13,
+            "clickActionTypeParam": 1304,
+            "clickAreaPositionNew": [
+                "Default/CommandCenterPanelV4(Clone)/Root/GrpRightTab:3"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 50302,
+            "group": 503,
+            "canSkip": true,
+            "name": "",
+            "text": "무기 터치",
+            "textFemale": "무기 터치",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 609,
+            "awakePath": "ChrPowerUpPanelV3",
+            "clickAreaPositionNew": [
+                "Default/ChrPowerUpPanelV3(Clone)/Root/Trans_Overview_0/ChrPowerUp_OverviewItem(Clone)/Root/GrpRight/GrpInfo/GrpLayout/GrpWeaponEntrance/GrpContent/Btn_ChrWeaponItemV3(Clone):0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 50303,
+            "group": 503,
+            "canSkip": true,
+            "name": "",
+            "text": "교체 터치",
+            "textFemale": "교체 터치",
+            "clickType": 1,
+            "awakePath": "ChrWeaponPanelV4",
+            "clickAreaPositionNew": [
+                "Default/ChrWeaponPanelV4(Clone)/Root/Trans_Overview_0/ChrWeaponOverviewItem/GrpLeft/GrpBottomBtn/Btn_WeaponReplace/Root:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 50304,
+            "group": 503,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "<color=#f0af14>새 무기</color>를 선택하세요.",
+            "textFemale": "<color=#f0af14>새 무기</color>를 선택하세요.",
+            "clickType": 4,
+            "awakePath": "ChrWeaponPanelV4",
+            "virtualListItemId": {
+                "Canvas/Default/ChrWeaponPanelV4(Clone)/Root/Trans_Overview_0/ChrWeaponOverviewItem/Trans_GrpWeaponList/Trans_WeaponList/GrpList": "1|2"
+            },
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 50305,
+            "group": 503,
+            "canSkip": true,
+            "name": "",
+            "text": "<color=#f0af14>교체</color>를 클릭",
+            "textFemale": "<color=#f0af14>교체</color>를 클릭",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/ChrWeaponPanelV4(Clone)/Root/Trans_Overview_0/ChrWeaponOverviewItem/Trans_GrpWeaponList/Trans_WeaponList/GrpAction/Trans_BtnBreak/Btn_Content:0"
+            ],
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 50401,
+            "group": 504,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "지금 정비실로 가서 <color=#f0af14>새 무기</color>를 장착해 주세요.",
+            "textFemale": "지금 정비실로 가서 <color=#f0af14>새 무기</color>를 장착해 주세요.",
+            "clickType": 4,
+            "clickActionType": 13,
+            "clickActionTypeParam": 1304,
+            "clickAreaPositionNew": [
+                "Default/CommandCenterPanelV4(Clone)/Root/GrpRightTab:3"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 50402,
+            "group": 504,
+            "canSkip": true,
+            "name": "",
+            "text": "그로자 터치",
+            "textFemale": "그로자 터치",
+            "clickType": 4,
+            "awakePath": "ChrPowerUpPanelV3",
+            "virtualListItemId": {
+                "Canvas/Default/ChrPowerUpPanelV3(Clone)/Root/Trans_Overview_0/ChrPowerUp_OverviewItem(Clone)/Root/Trans_ChrSelectList_T/GrpChrList": "1017|1"
+            },
+            "clickAreaEffectType": 1
+        },
+        {
+            "id": 50403,
+            "group": 504,
+            "canSkip": true,
+            "name": "",
+            "text": "무기 터치",
+            "textFemale": "무기 터치",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 609,
+            "awakePath": "ChrPowerUpPanelV3",
+            "clickAreaPositionNew": [
+                "Default/ChrPowerUpPanelV3(Clone)/Root/Trans_Overview_0/ChrPowerUp_OverviewItem(Clone)/Root/GrpRight/GrpInfo/GrpLayout/GrpWeaponEntrance/GrpContent/Btn_ChrWeaponItemV3(Clone):0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 50404,
+            "group": 504,
+            "canSkip": true,
+            "name": "",
+            "text": "교체 터치",
+            "textFemale": "교체 터치",
+            "clickType": 1,
+            "awakePath": "ChrWeaponPanelV4",
+            "clickAreaPositionNew": [
+                "Default/ChrWeaponPanelV4(Clone)/Root/Trans_Overview_0/ChrWeaponOverviewItem/GrpLeft/GrpBottomBtn/Btn_WeaponReplace/Root:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 50405,
+            "group": 504,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "<color=#f0af14>새 무기</color>를 선택하세요.",
+            "textFemale": "<color=#f0af14>새 무기</color>를 선택하세요.",
+            "clickType": 4,
+            "awakePath": "ChrWeaponPanelV4",
+            "virtualListItemId": {
+                "Canvas/Default/ChrWeaponPanelV4(Clone)/Root/Trans_Overview_0/ChrWeaponOverviewItem/Trans_GrpWeaponList/Trans_WeaponList/GrpList": "1|2"
+            },
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 50406,
+            "group": 504,
+            "canSkip": true,
+            "name": "",
+            "text": "교체 터치",
+            "textFemale": "교체 터치",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/ChrWeaponPanelV4(Clone)/Root/Trans_Overview_0/ChrWeaponOverviewItem/Trans_GrpWeaponList/Trans_WeaponList/GrpAction/Trans_BtnBreak/Btn_Content:0"
+            ],
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 50501,
+            "group": 505,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-100",
+            "text": "지휘관, <color=#f0af14>무기 업그레이드</color>가 개방되었습니다. 지휘실로 돌아가 주세요.",
+            "textFemale": "지휘관, <color=#f0af14>무기 업그레이드</color>가 개방되었습니다. 지휘실로 돌아가 주세요.",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "awakePath": "BattleIndexPanel",
+            "clickAreaPositionNew": [
+                "Default/BattleIndexPanelV2(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content:0"
+            ],
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 50601,
+            "group": 506,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-100",
+            "text": "<color=#f0af14>정비실</color>로 진입하세요.",
+            "textFemale": "<color=#f0af14>정비실</color>로 진입하세요.",
+            "clickType": 4,
+            "clickActionType": 13,
+            "clickActionTypeParam": 1304,
+            "clickAreaPositionNew": [
+                "Default/CommandCenterPanelV4(Clone)/Root/GrpRightTab:3"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 50602,
+            "group": 506,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "<color=#f0af14>무기</color>를 클릭하세요.",
+            "textFemale": "<color=#f0af14>무기</color>를 클릭하세요.",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 609,
+            "awakePath": "ChrPowerUpPanelV3",
+            "clickAreaPositionNew": [
+                "Default/ChrPowerUpPanelV3(Clone)/Root/Trans_Overview_0/ChrPowerUp_OverviewItem(Clone)/Root/GrpRight/GrpInfo/GrpLayout/GrpWeaponEntrance/GrpContent/Btn_ChrWeaponItemV3(Clone):0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 50603,
+            "group": 506,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-100",
+            "text": "<color=#f0af14>강화</color>를 클릭하세요.",
+            "textFemale": "<color=#f0af14>강화</color>를 클릭하세요.",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 1557,
+            "awakePath": "ChrWeaponPanelV4",
+            "clickAreaPositionNew": [
+                "Default/ChrWeaponPanelV4(Clone)/Root/Trans_Overview_0/ChrWeaponOverviewItem/GrpAction/Trans_BtnPowerUp/BtnLvUp/Btn_Content:0"
+            ],
+            "delay": 0.2,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 50604,
+            "group": 506,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-100",
+            "text": "지휘관, 여기서 <color=#f0af14>무기 숙련도</color>를 올릴 수 있습니다.",
+            "textFemale": "지휘관, 여기서 <color=#f0af14>무기 숙련도</color>를 올릴 수 있습니다.",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 50605,
+            "group": 506,
+            "canSkip": true,
+            "name": "",
+            "text": "총기ppt",
+            "textFemale": "총기ppt",
+            "clickType": 1,
+            "delay": 0.5,
+            "finishPage": 1,
+            "pptGroup": 1201,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 51001,
+            "group": 510,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "<color=#f0af14>스마트 내비 패널</color>을 통해 지휘관은 각 구역으로 빠르게 이동할 수 있습니다.",
+            "textFemale": "<color=#f0af14>스마트 내비 패널</color>을 통해 지휘관은 각 구역으로 빠르게 이동할 수 있습니다.",
+            "awakePath": "CommandCenterHudPanel",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 51002,
+            "group": 510,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "여기서는 <color=#f0af14>메일</color>, <color=#f0af14>공지</color> 등을 확인할 수도 있습니다.",
+            "textFemale": "여기서는 <color=#f0af14>메일</color>, <color=#f0af14>공지</color> 등을 확인할 수도 있습니다.",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 51003,
+            "group": 510,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "이제 지휘관은 <color=#f0af14>창고</color>로 가서 물자를 확인할 수 있습니다.",
+            "textFemale": "이제 지휘관은 <color=#f0af14>창고</color>로 가서 물자를 확인할 수 있습니다.",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 523,
+            "clickAreaPositionNew": [
+                "Default/CommandCenterHudPanel(Clone)/Root/GrpDialog/GrpCenter/Btn_Repository:0"
+            ],
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 51101,
+            "group": 511,
+            "canSkip": true,
+            "name": "",
+            "text": "창고ppt",
+            "textFemale": "창고ppt",
+            "delay": 0.5,
+            "finishPage": 1,
+            "pptGroup": 2401,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 59901,
+            "group": 599,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-100",
+            "text": "<color=#f0af14>지휘실</color>로 이동해 주세요.",
+            "textFemale": "<color=#f0af14>지휘실</color>로 이동해 주세요.",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "awakePath": "StoryChapterPanel",
+            "clickAreaPositionNew": [
+                "Default/StoryChapterPanel(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content:0"
+            ],
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 100101,
+            "group": 1001,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "지휘관, 새로운 <color=#f0af14>스토리 장</color>이 개방되었습니다.",
+            "textFemale": "지휘관, 새로운 <color=#f0af14>스토리 장</color>이 개방되었습니다.",
+            "clickType": 4,
+            "awakePath": "CommandCenterPanelV4",
+            "clickAreaPosition": "Canvas/Default/CommandCenterPanelV4(Clone)/Root/Btn_Battle/Root/Cast:1",
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 100102,
+            "group": 1001,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "<color=#f0af14>확인</color>을 클릭하세요.",
+            "textFemale": "<color=#f0af14>확인</color>을 클릭하세요.",
+            "clickType": 1,
+            "awakePath": "BattleIndexPanelV2",
+            "clickAreaPosition": "Canvas/Default/BattleIndexPanelV2(Clone)/Root/GrpStoryMode_0/BattleIndexStoryModeItem(Clone)/GrpStoryMode_0/GrpBottom/BtnOk/Btn_Content/Root/Cast:1",
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 100201,
+            "group": 1002,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "<color=#f0af14>SL-2-2</color>에 진입해 주세요.",
+            "textFemale": "<color=#f0af14>SL-2-2</color>에 진입해 주세요.",
+            "clickType": 1,
+            "awakePath": "StoryChapterPanel",
+            "clickAreaPositionNew": [
+                "Default/StoryChapterPanel(Clone)/Root/GrpCenter/GrpDetailsList/Viewport/Content:12"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 100202,
+            "group": 1002,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "<color=#f0af14>시청</color>을 클릭해 주세요.",
+            "textFemale": "<color=#f0af14>시청</color>을 클릭해 주세요.",
+            "clickType": 1,
+            "clickActionType": 6,
+            "awakePath": "BattleDetailDialog",
+            "clickAreaPosition": "Canvas/Default/BattleDetailDialog(Clone)/Root/GrpContent/GrpAction/BtnStart/Btn_Content/Root/Cast:1",
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 110101,
+            "group": 1101,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-100",
+            "text": "지휘관, <color=#f0af14>콜펜</color>이 부대에 합류했습니다. 엘모호를 익힐 수 있도록 안내해 줍시다.",
+            "textFemale": "지휘관, <color=#f0af14>콜펜</color>이 부대에 합류했습니다. 엘모호를 익힐 수 있도록 안내해 줍시다.",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "awakePath": "StoryChapterPanel",
+            "clickAreaPositionNew": [
+                "Default/StoryChapterPanel(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 110201,
+            "group": 1102,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-100",
+            "text": "먼저 <color=#f0af14>정비실</color>로 이동하세요.",
+            "textFemale": "먼저 <color=#f0af14>정비실</color>로 이동하세요.",
+            "clickType": 4,
+            "clickActionType": 13,
+            "clickActionTypeParam": 1304,
+            "clickAreaPositionNew": [
+                "Default/CommandCenterPanelV4(Clone)/Root/GrpRightTab:3"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 110301,
+            "group": 1103,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-100",
+            "text": "먼저 <color=#f0af14>정비실</color>로 이동하세요.",
+            "textFemale": "먼저 <color=#f0af14>정비실</color>로 이동하세요.",
+            "clickType": 4,
+            "clickActionType": 13,
+            "clickActionTypeParam": 1304,
+            "clickAreaPositionNew": [
+                "Default/CommandCenterPanelV4(Clone)/Root/GrpRightTab:3"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 110303,
+            "group": 1103,
+            "canSkip": true,
+            "name": "",
+            "text": "<color=#f0af14>콜펜</color>을 선택하세요.",
+            "textFemale": "<color=#f0af14>콜펜</color>을 선택하세요.",
+            "clickType": 4,
+            "awakePath": "ChrPowerUpPanelV3",
+            "virtualListItemId": {
+                "Canvas/Default/ChrPowerUpPanelV3(Clone)/Root/Trans_Overview_0/ChrPowerUp_OverviewItem(Clone)/Root/Trans_ChrSelectList_T/GrpChrList": "1009|1"
+            },
+            "clickAreaEffectType": 1
+        },
+        {
+            "id": 110401,
+            "group": 1104,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "콜펜이 방금 합류했습니다. <color=#f0af14>전투 효율</color>을 높일 수 있도록 도와주세요.",
+            "textFemale": "콜펜이 방금 합류했습니다. <color=#f0af14>전투 효율</color>을 높일 수 있도록 도와주세요.",
+            "nextButton": true,
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 110402,
+            "group": 1104,
+            "canSkip": true,
+            "name": "",
+            "text": "인형 레벨업PPt",
+            "textFemale": "인형 레벨업PPt",
+            "delay": 0.1,
+            "pptGroup": 1101,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 110403,
+            "group": 1104,
+            "canSkip": true,
+            "avatar": "Avatar_Head_ColphneSR",
+            "avatarFemale": "Avatar_Head_ColphneSR",
+            "name": "콜펜",
+            "textPosition": "7,200,-400",
+            "text": "빨리 오세요, 지휘관님~ 콜펜을 강하게 만들어 주셔야죠!",
+            "textFemale": "빨리 오세요, 지휘관님~ 콜펜을 강하게 만들어 주셔야죠!",
+            "nextButton": true,
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 130101,
+            "group": 1301,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-400",
+            "text": "군비 해석 스테이지를 완료하면 해석 도면을 획득하여 인형의 <color=#f0af14>무기 숙련도</color>를 향상시킬 수 있습니다.",
+            "textFemale": "군비 해석 스테이지를 완료하면 해석 도면을 획득하여 인형의 <color=#f0af14>무기 숙련도</color>를 향상시킬 수 있습니다.",
+            "awakePath": "BattleIndexPanelV2",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 130102,
+            "group": 1301,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-400",
+            "text": "심층 수색을 완료하면 전장 보고서를 획득하여 인형들의 <color=#f0af14>전투 능력</color>을 빠르게 향상시킬 수 있습니다.",
+            "textFemale": "심층 수색을 완료하면 전장 보고서를 획득하여 인형들의 <color=#f0af14>전투 능력</color>을 빠르게 향상시킬 수 있습니다.",
+            "awakePath": "BattleIndexPanelV2",
+            "nextButton": true,
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 130103,
+            "group": 1301,
+            "canSkip": true,
+            "name": "",
+            "text": "보급 작전ppt",
+            "textFemale": "보급 작전ppt",
+            "nextButton": true,
+            "pptGroup": 2001,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 150101,
+            "group": 1501,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "지휘관, 먼저 정비실로 가서 <color=#f0af14>마인드맵 증역</color>을 완료하도록 도와주세요.",
+            "textFemale": "지휘관, 먼저 정비실로 가서 <color=#f0af14>마인드맵 증역</color>을 완료하도록 도와주세요.",
+            "clickType": 4,
+            "clickActionType": 13,
+            "clickActionTypeParam": 1304,
+            "clickAreaPositionNew": [
+                "Default/CommandCenterPanelV4(Clone)/Root/GrpRightTab:3"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 150201,
+            "group": 1502,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "지휘관, 먼저 정비실로 가서 <color=#f0af14>마인드맵 증역</color>을 완료하도록 도와주세요.",
+            "textFemale": "지휘관, 먼저 정비실로 가서 <color=#f0af14>마인드맵 증역</color>을 완료하도록 도와주세요.",
+            "clickType": 4,
+            "clickActionType": 13,
+            "clickActionTypeParam": 1304,
+            "clickAreaPositionNew": [
+                "Default/CommandCenterPanelV4(Clone)/Root/GrpRightTab:3"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 150202,
+            "group": 1502,
+            "canSkip": true,
+            "name": "",
+            "text": "그로자 터치",
+            "textFemale": "그로자 터치",
+            "clickType": 4,
+            "awakePath": "ChrPowerUpPanelV3",
+            "virtualListItemId": {
+                "Canvas/Default/ChrPowerUpPanelV3(Clone)/Root/Trans_Overview_0/ChrPowerUp_OverviewItem(Clone)/Root/Trans_ChrSelectList_T/GrpChrList": "1017|1"
+            },
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 150301,
+            "group": 1503,
+            "canSkip": true,
+            "name": "",
+            "text": "레벨업 터치",
+            "textFemale": "레벨업 터치",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 918,
+            "awakePath": "ChrPowerUpPanelV3",
+            "clickAreaPositionNew": [
+                "Default/ChrPowerUpPanelV3(Clone)/Root/Trans_Overview_0/ChrPowerUp_OverviewItem(Clone)/Root/GrpRight/GrpAction/Trans_BtnLevelUp:0"
+            ],
+            "giveItem": {
+                "25": 5165
+            },
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 150302,
+            "group": 1503,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "인형의 마인드 영역 슬롯이 성능 한계에 도달하면 <color=#f0af14>마인드맵 증역</color>을 진행할 수 있습니다.",
+            "textFemale": "인형의 마인드 영역 슬롯이 성능 한계에 도달하면 <color=#f0af14>마인드맵 증역</color>을 진행할 수 있습니다.",
+            "clickType": 1,
+            "clickActionType": 1,
+            "clickActionTypeParam": 1017,
+            "awakePath": "ChrRangePanelV3",
+            "clickAreaPosition": "Canvas/Default/ChrRangePanelV3(Clone)/Root/GrpTrain/GrpAction/Trans_BtnConfirm/Root/Cast:1",
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 150303,
+            "group": 1503,
+            "canSkip": true,
+            "name": "",
+            "text": "레벨업 완료",
+            "textFemale": "레벨업 완료",
+            "clickType": 4,
+            "awakePath": "ChrLevelUpDialogV3",
+            "clickAreaPosition": "Canvas/Default/ChrLevelUpDialogV3(Clone)/Root/GrpBg/Btn_Close/ImgBlackBg:1",
+            "clickAreaEffectHide": true,
+            "clickAreaEffectType": 2,
+            "clickAreaEffectRate": 120
+        },
+        {
+            "id": 150401,
+            "group": 1504,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "마인드맵 증역에는 <color=#f0af14>재고 게이지</color>가 필요합니다.",
+            "textFemale": "마인드맵 증역에는 <color=#f0af14>재고 게이지</color>가 필요합니다.",
+            "awakePath": "ChrRangePanelV3",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 150402,
+            "group": 1504,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "마침 여기에 있네.",
+            "textFemale": "마침 여기에 있네.",
+            "nextButton": true,
+            "giveItem": {
+                "8328": 4
+            },
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 150403,
+            "group": 1504,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "<color=#f0af14>증역</color>을 클릭하세요.",
+            "textFemale": "<color=#f0af14>증역</color>을 클릭하세요.",
+            "clickType": 1,
+            "clickActionType": 2,
+            "clickActionTypeParam": 1017,
+            "clickAreaPosition": "Canvas/Default/ChrRangePanelV3(Clone)/Root/GrpBreak/Trans_BtnConfirm/Root/Cast:1",
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 150404,
+            "group": 1504,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "마인드 부스트 완료.",
+            "textFemale": "마인드 부스트 완료.",
+            "clickType": 4,
+            "awakePath": "ChrBreakDialogV3",
+            "clickAreaPosition": "Canvas/Default/ChrBreakDialogV3(Clone)/Root/GrpBg/Btn_Close/ImgBlackBg:1",
+            "clickAreaEffectHide": true,
+            "clickAreaEffectType": 2,
+            "clickAreaEffectRate": 120
+        },
+        {
+            "id": 150405,
+            "group": 1504,
+            "canSkip": true,
+            "name": "",
+            "text": "마인드 부스트 복기ppt",
+            "textFemale": "마인드 부스트 복기ppt",
+            "pptGroup": 1102,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 151101,
+            "group": 1511,
+            "canSkip": true,
+            "name": "",
+            "text": "확인 터치",
+            "textFemale": "확인 터치",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/ComBatWinShowDialogV2(Clone)/Root/GrpSettlement_1/Content/GrpAction/BtnConfirm/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 151201,
+            "group": 1512,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-100",
+            "text": "지휘관, <color=#f0af14>마인드맵 증역</color>이 개방되었습니다. 지휘실로 돌아가 주세요.",
+            "textFemale": "지휘관, <color=#f0af14>마인드맵 증역</color>이 개방되었습니다. 지휘실로 돌아가 주세요.",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "awakePath": "StoryChapterPanel",
+            "clickAreaPositionNew": [
+                "Default/StoryChapterPanel(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 151301,
+            "group": 1513,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-100",
+            "text": "지휘관, <color=#f0af14>마인드맵 증역</color>이 개방되었습니다. 지휘실로 돌아가 주세요.",
+            "textFemale": "지휘관, <color=#f0af14>마인드맵 증역</color>이 개방되었습니다. 지휘실로 돌아가 주세요.",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "awakePath": "SimCombatComPanel",
+            "clickAreaPositionNew": [
+                "Default/SimCombatComPanel(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 151401,
+            "group": 1514,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-100",
+            "text": "지휘관, <color=#f0af14>마인드맵 증역</color>이 개방되었습니다. 지휘실로 돌아가 주세요.",
+            "textFemale": "지휘관, <color=#f0af14>마인드맵 증역</color>이 개방되었습니다. 지휘실로 돌아가 주세요.",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "awakePath": "SimCombatComPanel",
+            "clickAreaPositionNew": [
+                "Default/SimCombatComPanel(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 151501,
+            "group": 1515,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-100",
+            "text": "지휘관, <color=#f0af14>마인드맵 증역</color>이 개방되었습니다. 지휘실로 돌아가 주세요.",
+            "textFemale": "지휘관, <color=#f0af14>마인드맵 증역</color>이 개방되었습니다. 지휘실로 돌아가 주세요.",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "awakePath": "SimCombatComPanel",
+            "clickAreaPositionNew": [
+                "Default/SimCombatComPanel(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 151601,
+            "group": 1516,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-100",
+            "text": "지휘관, <color=#f0af14>마인드맵 증역</color>이 개방되었습니다. 지휘실로 돌아가 주세요.",
+            "textFemale": "지휘관, <color=#f0af14>마인드맵 증역</color>이 개방되었습니다. 지휘실로 돌아가 주세요.",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "awakePath": "SimCombatComPanel",
+            "clickAreaPositionNew": [
+                "Default/SimCombatComPanel(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 151701,
+            "group": 1517,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-100",
+            "text": "지휘관, <color=#f0af14>마인드맵 증역</color>이 개방되었습니다. 지휘실로 돌아가 주세요.",
+            "textFemale": "지휘관, <color=#f0af14>마인드맵 증역</color>이 개방되었습니다. 지휘실로 돌아가 주세요.",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "awakePath": "SimComBatHardBattlePanel",
+            "clickAreaPositionNew": [
+                "Default/SimComBatHardBattlePanel(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 151801,
+            "group": 1518,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-100",
+            "text": "지휘관, <color=#f0af14>마인드맵 증역</color>이 개방되었습니다. 지휘실로 돌아가 주세요.",
+            "textFemale": "지휘관, <color=#f0af14>마인드맵 증역</color>이 개방되었습니다. 지휘실로 돌아가 주세요.",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "awakePath": "SimCombatComPanel",
+            "clickAreaPositionNew": [
+                "Default/SimCombatComPanel(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 151901,
+            "group": 1519,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-100",
+            "text": "지휘관, <color=#f0af14>마인드맵 증역</color>이 개방되었습니다. 지휘실로 돌아가 주세요.",
+            "textFemale": "지휘관, <color=#f0af14>마인드맵 증역</color>이 개방되었습니다. 지휘실로 돌아가 주세요.",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "awakePath": "QuestPanel",
+            "clickAreaPositionNew": [
+                "Default/QuestPanel(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 160101,
+            "group": 1601,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-100",
+            "text": "지휘관, <color=#f0af14>결정 구상</color>이 개방되었습니다. 지휘실로 돌아가 주세요.",
+            "textFemale": "지휘관, <color=#f0af14>결정 구상</color>이 개방되었습니다. 지휘실로 돌아가 주세요.",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "awakePath": "ChrRangePanelV3",
+            "clickAreaPositionNew": [
+                "Default/ChrRangePanelV3(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content:0"
+            ],
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 160201,
+            "group": 1602,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "<color=#f0af14>전역 진행</color>을 클릭하세요.",
+            "textFemale": "<color=#f0af14>전역 진행</color>을 클릭하세요.",
+            "clickType": 4,
+            "clickActionType": 13,
+            "clickActionTypeParam": 596,
+            "clickAreaPosition": "Canvas/Default/CommandCenterPanelV4(Clone)/Root/Btn_Battle/Root/Cast:1",
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 160202,
+            "group": 1602,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "<color=#f0af14>보급 작전</color>을 클릭하세요.",
+            "textFemale": "<color=#f0af14>보급 작전</color>을 클릭하세요.",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 596,
+            "clickActionTypeParam2": "23",
+            "awakePath": "BattleIndexPanelV2",
+            "clickAreaPositionNew": [
+                "Default/BattleIndexPanelV2(Clone)/Root/GrpTop/TabModeList/Content:4"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 160203,
+            "group": 1602,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "<color=#f0af14>결정 구상</color>을 클릭하세요.",
+            "textFemale": "<color=#f0af14>결정 구상</color>을 클릭하세요.",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 924,
+            "awakePath": "BattleIndexPanelV2",
+            "virtualListItemId": {
+                "Canvas/Default/BattleIndexPanelV2(Clone)/Root/GrpSimCombatDaily_2/BattleIndexSimCombatDailyItem(Clone)/GrpList": "2|2"
+            },
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 160204,
+            "group": 1602,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-400",
+            "text": "스테이지를 완료하면 마인드맵 증역에 필요한 <color=#f0af14>재고 게이지</color>를 획득할 수 있습니다.",
+            "textFemale": "스테이지를 완료하면 마인드맵 증역에 필요한 <color=#f0af14>재고 게이지</color>를 획득할 수 있습니다.",
+            "awakePath": "SimCombatComPanel",
+            "nextButton": true,
+            "delay": 0.5,
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 170101,
+            "group": 1701,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "<color=#f0af14>정비실</color>을 클릭하세요.",
+            "textFemale": "<color=#f0af14>정비실</color>을 클릭하세요.",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 1304,
+            "clickAreaPositionNew": [
+                "Default/CommandCenterPanelV4(Clone)/Root/GrpRightTab:3"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 170102,
+            "group": 1701,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "<color=#f0af14>뉴럴 헬릭스</color>를 클릭하세요.",
+            "textFemale": "<color=#f0af14>뉴럴 헬릭스</color>를 클릭하세요.",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 1304,
+            "clickActionTypeParam2": "33",
+            "awakePath": "ChrPowerUpPanelV3",
+            "clickAreaPosition": "Canvas/Default/ChrPowerUpPanelV3(Clone)/Root/GrpTop/GrpTopRightBtn:1,Btn_ChrBarrackTopBarItemV3(Clone)/Cast:3",
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 170103,
+            "group": 1701,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "이전에 받은 보상에는 <color=#f0af14>전사 도체</color>가 포함되어 있습니다.",
+            "textFemale": "이전에 받은 보상에는 <color=#f0af14>전사 도체</color>가 포함되어 있습니다.",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 170104,
+            "group": 1701,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "전사 도체는 인형의 <color=#f0af14>증효 지점</color>을 활성화하는 데 사용됩니다.",
+            "textFemale": "전사 도체는 인형의 <color=#f0af14>증효 지점</color>을 활성화하는 데 사용됩니다.",
+            "nextButton": true,
+            "giveItem": {
+                "9006": 24
+            },
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 170105,
+            "group": 1701,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "<color=#f0af14>활성화</color>를 클릭하세요.",
+            "textFemale": "<color=#f0af14>활성화</color>를 클릭하세요.",
+            "clickType": 1,
+            "clickActionType": 11,
+            "clickAreaPositionNew": [
+                "Default/ChrPowerUpPanelV3(Clone)/Root/Trans_ChrTalent_1/ChrPowerUp_ChrTalentItem(Clone)/Root/GrpRightInfo/Root/GrpAction/Trans_BtnActivated:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 170201,
+            "group": 1702,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "<color=#f0af14>정비실</color>을 클릭하세요.",
+            "textFemale": "<color=#f0af14>정비실</color>을 클릭하세요.",
+            "clickType": 4,
+            "clickActionType": 13,
+            "clickActionTypeParam": 1304,
+            "clickAreaPositionNew": [
+                "Default/CommandCenterPanelV4(Clone)/Root/GrpRightTab:3"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 170202,
+            "group": 1702,
+            "canSkip": true,
+            "name": "",
+            "text": "그로자 터치",
+            "textFemale": "그로자 터치",
+            "clickType": 4,
+            "awakePath": "ChrPowerUpPanelV3",
+            "virtualListItemId": {
+                "Canvas/Default/ChrPowerUpPanelV3(Clone)/Root/Trans_Overview_0/ChrPowerUp_OverviewItem(Clone)/Root/Trans_ChrSelectList_T/GrpChrList": "1017|1"
+            },
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 170205,
+            "group": 1702,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "<color=#f0af14>뉴럴 헬릭스</color>를 클릭하세요.",
+            "textFemale": "<color=#f0af14>뉴럴 헬릭스</color>를 클릭하세요.",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 1304,
+            "clickActionTypeParam2": "33",
+            "awakePath": "ChrPowerUpPanelV3",
+            "clickAreaPosition": "Canvas/Default/ChrPowerUpPanelV3(Clone)/Root/GrpTop/GrpTopRightBtn:1,Btn_ChrBarrackTopBarItemV3(Clone)/Cast:3",
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 170206,
+            "group": 1702,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "이전에 받은 보상에는 <color=#f0af14>전사 도체</color>가 포함되어 있습니다.",
+            "textFemale": "이전에 받은 보상에는 <color=#f0af14>전사 도체</color>가 포함되어 있습니다.",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 170207,
+            "group": 1702,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "전사 도체는 인형의 <color=#f0af14>증효 지점</color>을 활성화하는 데 사용됩니다.",
+            "textFemale": "전사 도체는 인형의 <color=#f0af14>증효 지점</color>을 활성화하는 데 사용됩니다.",
+            "nextButton": true,
+            "giveItem": {
+                "9006": 24
+            },
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 170208,
+            "group": 1702,
+            "canSkip": true,
+            "name": "",
+            "text": "활성화 터치",
+            "textFemale": "활성화 터치",
+            "clickType": 1,
+            "clickActionType": 11,
+            "clickAreaPositionNew": [
+                "Default/ChrPowerUpPanelV3(Clone)/Root/Trans_ChrTalent_1/ChrPowerUp_ChrTalentItem(Clone)/Root/GrpRightInfo/Root/GrpAction/Trans_BtnActivated:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 170301,
+            "group": 1703,
+            "canSkip": true,
+            "name": "",
+            "text": "뉴럴 헬릭스ppt",
+            "textFemale": "뉴럴 헬릭스ppt",
+            "delay": 1.5,
+            "finishPage": 1,
+            "pptGroup": 1208,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 171101,
+            "group": 1711,
+            "canSkip": true,
+            "name": "",
+            "text": "확인 터치",
+            "textFemale": "확인 터치",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/ComBatWinShowDialogV2(Clone)/Root/GrpSettlement_1/Content/GrpAction/BtnConfirm/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 171201,
+            "group": 1712,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-100",
+            "text": "지휘관, <color=#f0af14>뉴럴 헬릭스</color>가 개방되었습니다. 지휘실로 돌아가 주세요.",
+            "textFemale": "지휘관, <color=#f0af14>뉴럴 헬릭스</color>가 개방되었습니다. 지휘실로 돌아가 주세요.",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "awakePath": "StoryChapterPanel",
+            "clickAreaPositionNew": [
+                "Default/StoryChapterPanel(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 171301,
+            "group": 1713,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-100",
+            "text": "지휘관, <color=#f0af14>뉴럴 헬릭스</color>가 개방되었습니다. 지휘실로 돌아가 주세요.",
+            "textFemale": "지휘관, <color=#f0af14>뉴럴 헬릭스</color>가 개방되었습니다. 지휘실로 돌아가 주세요.",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "awakePath": "SimCombatComPanel",
+            "clickAreaPositionNew": [
+                "Default/SimCombatComPanel(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 171401,
+            "group": 1714,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-100",
+            "text": "지휘관, <color=#f0af14>뉴럴 헬릭스</color>가 개방되었습니다. 지휘실로 돌아가 주세요.",
+            "textFemale": "지휘관, <color=#f0af14>뉴럴 헬릭스</color>가 개방되었습니다. 지휘실로 돌아가 주세요.",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "awakePath": "SimCombatComPanel",
+            "clickAreaPositionNew": [
+                "Default/SimCombatComPanel(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 171501,
+            "group": 1715,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-100",
+            "text": "지휘관, <color=#f0af14>뉴럴 헬릭스</color>가 개방되었습니다. 지휘실로 돌아가 주세요.",
+            "textFemale": "지휘관, <color=#f0af14>뉴럴 헬릭스</color>가 개방되었습니다. 지휘실로 돌아가 주세요.",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "awakePath": "SimCombatComPanel",
+            "clickAreaPositionNew": [
+                "Default/SimCombatComPanel(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 171601,
+            "group": 1716,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-100",
+            "text": "지휘관, <color=#f0af14>뉴럴 헬릭스</color>가 개방되었습니다. 지휘실로 돌아가 주세요.",
+            "textFemale": "지휘관, <color=#f0af14>뉴럴 헬릭스</color>가 개방되었습니다. 지휘실로 돌아가 주세요.",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "awakePath": "SimCombatComPanel",
+            "clickAreaPositionNew": [
+                "Default/SimCombatComPanel(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 171701,
+            "group": 1717,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-100",
+            "text": "지휘관, <color=#f0af14>뉴럴 헬릭스</color>가 개방되었습니다. 지휘실로 돌아가 주세요.",
+            "textFemale": "지휘관, <color=#f0af14>뉴럴 헬릭스</color>가 개방되었습니다. 지휘실로 돌아가 주세요.",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "awakePath": "SimComBatHardBattlePanel",
+            "clickAreaPositionNew": [
+                "Default/SimComBatHardBattlePanel(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 171801,
+            "group": 1718,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-100",
+            "text": "지휘관, <color=#f0af14>뉴럴 헬릭스</color>가 개방되었습니다. 지휘실로 돌아가 주세요.",
+            "textFemale": "지휘관, <color=#f0af14>뉴럴 헬릭스</color>가 개방되었습니다. 지휘실로 돌아가 주세요.",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "awakePath": "SimCombatComPanel",
+            "clickAreaPositionNew": [
+                "Default/SimCombatComPanel(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 171901,
+            "group": 1719,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-100",
+            "text": "지휘관, <color=#f0af14>뉴럴 헬릭스</color>가 개방되었습니다. 지휘실로 돌아가 주세요.",
+            "textFemale": "지휘관, <color=#f0af14>뉴럴 헬릭스</color>가 개방되었습니다. 지휘실로 돌아가 주세요.",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "awakePath": "QuestPanel",
+            "clickAreaPositionNew": [
+                "Default/QuestPanel(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 180101,
+            "group": 1801,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-100",
+            "text": "더 많은 전사 도체는 <color=#f0af14>심智勘测</color>에서 얻을 수 있습니다. 함께 가시죠.",
+            "textFemale": "더 많은 전사 도체는 <color=#f0af14>심智勘测</color>에서 얻을 수 있습니다. 함께 가시죠.",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "clickAreaPosition": "Canvas/Default/ChrPowerUpPanelV3(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content/Cast:1",
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 180201,
+            "group": 1802,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "<color=#f0af14>전역 진행</color>을 클릭하세요.",
+            "textFemale": "<color=#f0af14>전역 진행</color>을 클릭하세요.",
+            "clickType": 1,
+            "clickAreaPosition": "Canvas/Default/CommandCenterPanelV4(Clone)/Root/Btn_Battle/Root/Cast:1",
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 180202,
+            "group": 1802,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "<color=#f0af14>모의 전투</color>를 클릭하세요.",
+            "textFemale": "<color=#f0af14>모의 전투</color>를 클릭하세요.",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 596,
+            "clickActionTypeParam2": "24",
+            "awakePath": "BattleIndexPanelV2",
+            "clickAreaPositionNew": [
+                "Default/BattleIndexPanelV2(Clone)/Root/GrpTop/TabModeList/Content:5"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 180203,
+            "group": 1802,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "<color=#f0af14>심智勘测</color>을 클릭하세요.",
+            "textFemale": "<color=#f0af14>심智勘测</color>을 클릭하세요.",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 588,
+            "clickAreaPosition": "Canvas/Default/BattleIndexPanelV2(Clone)/Root/GrpSimCombat_1/BattleIndexSimCombatItem(Clone)/GrpList/Viewport/Content:1,Btn_BattleIndexSimCombatItem(Clone)/Root/Cast:1",
+            "virtualListItemId": {
+                "Canvas/Default/BattleIndexPanelV2(Clone)/Root/GrpSimCombat_1/BattleIndexSimCombatItem(Clone)/GrpList": "0|2"
+            },
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 180204,
+            "group": 1802,
+            "canSkip": true,
+            "name": "",
+            "text": "마인드 측량ppt",
+            "textFemale": "마인드 측량ppt",
+            "delay": 1.0,
+            "pptGroup": 1801,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 180301,
+            "group": 1803,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-78",
+            "text": "‘전장 단서’는 대응하는 <color=#f0af14>전장 에코</color>를 해석하는 데 사용됩니다. 예: ‘낡은 책’.",
+            "textFemale": "‘전장 단서’는 대응하는 <color=#f0af14>전장 에코</color>를 해석하는 데 사용됩니다. 예: ‘낡은 책’.",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 180302,
+            "group": 1803,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-78",
+            "text": "<color=#f0af14>해석</color>을 클릭하세요.",
+            "textFemale": "<color=#f0af14>해석</color>을 클릭하세요.",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 1650,
+            "clickAreaPosition": "Canvas/Default/SimComBatHardBattlePanel(Clone)/Root/GrpContent/Trans_GrpAnalysis/Btn_Description/Cast:1",
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 190101,
+            "group": 1901,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "<color=#f0af14>정비실</color>을 클릭하세요.",
+            "textFemale": "<color=#f0af14>정비실</color>을 클릭하세요.",
+            "clickType": 4,
+            "clickActionType": 13,
+            "clickActionTypeParam": 1304,
+            "clickAreaPositionNew": [
+                "Default/CommandCenterPanelV4(Clone)/Root/GrpRightTab:3"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 190102,
+            "group": 1901,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "<color=#f0af14>무기</color>를 클릭하세요.",
+            "textFemale": "<color=#f0af14>무기</color>를 클릭하세요.",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 609,
+            "awakePath": "ChrPowerUpPanelV3",
+            "clickAreaPositionNew": [
+                "Default/ChrPowerUpPanelV3(Clone)/Root/Trans_Overview_0/ChrPowerUp_OverviewItem(Clone)/Root/GrpRight/GrpInfo/GrpLayout/GrpWeaponEntrance/GrpContent/Btn_ChrWeaponItemV3(Clone):0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 190103,
+            "group": 1901,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "무기에 파츠를 장착하려면 <color=#f0af14>파츠</color> 페이지로 이동하세요.",
+            "textFemale": "무기에 파츠를 장착하려면 <color=#f0af14>파츠</color> 페이지로 이동하세요.",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 609,
+            "clickActionTypeParam2": "42",
+            "awakePath": "ChrWeaponPanelV4",
+            "clickAreaPosition": "Canvas/Default/ChrWeaponPanelV4(Clone)/Root/GrpTop/GrpTopRightBtn:1,Btn_ComTopBarItem(Clone)/Cast:2",
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 190104,
+            "group": 1901,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "<color=#f0af14>소음기</color> 1개를 획득했습니다.",
+            "textFemale": "<color=#f0af14>소음기</color> 1개를 획득했습니다.",
+            "nextButton": true,
+            "giveItem": {
+                "20111443": 1
+            },
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 190105,
+            "group": 1901,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "해당 <color=#f0af14>장착 슬롯</color>을 클릭하여 무기에 파츠를 장착하세요.",
+            "textFemale": "해당 <color=#f0af14>장착 슬롯</color>을 클릭하여 무기에 파츠를 장착하세요.",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 1802,
+            "clickAreaPositionNew": [
+                "Default/ChrWeaponPanelV4(Clone)/Root/Trans_WeaponParts_1/ChrWeaponPartsOverViewItem/GrpAttribute:1"
+            ],
+            "delay": 0.2,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 190106,
+            "group": 1901,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "<color=#f0af14>장착</color>을 클릭하세요.",
+            "textFemale": "<color=#f0af14>장착</color>을 클릭하세요.",
+            "clickType": 1,
+            "awakePath": "ChrWeaponPartsReplacePanel",
+            "clickAreaPosition": "Canvas/Default/ChrWeaponPartsReplacePanel(Clone)/Root/GrpPartsReplaceList/GrpBtn/GrpAction/GrpPartsState/Trans_BtnEquip/Btn_Content/Root/Cast:1",
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 190107,
+            "group": 1901,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "<color=#f0af14>정밀 조정</color>을 클릭하세요.",
+            "textFemale": "<color=#f0af14>정밀 조정</color>을 클릭하세요.",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 1803,
+            "awakePath": "ChrWeaponPartsReplacePanel",
+            "clickAreaPositionNew": [
+                "Default/ChrWeaponPartsReplacePanel(Clone)/Root/GrpPartsReplaceList/GrpBtn/GrpAction/GrpPartsPowerUp/Trans_BtnPolarity/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 190108,
+            "group": 1901,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "정밀 조정 후 파츠 효과가 <color=#f0af14>강화</color>됩니다.",
+            "textFemale": "정밀 조정 후 파츠 효과가 <color=#f0af14>강화</color>됩니다.",
+            "nextButton": true,
+            "delay": 0.5,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 190201,
+            "group": 1902,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "<color=#f0af14>정비실</color>을 클릭하세요.",
+            "textFemale": "<color=#f0af14>정비실</color>을 클릭하세요.",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 1304,
+            "clickAreaPositionNew": [
+                "Default/CommandCenterPanelV4(Clone)/Root/GrpRightTab:3"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 190202,
+            "group": 1902,
+            "canSkip": true,
+            "name": "",
+            "text": "그로자 터치",
+            "textFemale": "그로자 터치",
+            "clickType": 4,
+            "awakePath": "ChrPowerUpPanelV3",
+            "virtualListItemId": {
+                "Canvas/Default/ChrPowerUpPanelV3(Clone)/Root/Trans_Overview_0/ChrPowerUp_OverviewItem(Clone)/Root/Trans_ChrSelectList_T/GrpChrList": "1017|1"
+            },
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 190203,
+            "group": 1902,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "<color=#f0af14>무기</color>를 클릭하세요.",
+            "textFemale": "<color=#f0af14>무기</color>를 클릭하세요.",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 609,
+            "awakePath": "ChrPowerUpPanelV3",
+            "clickAreaPositionNew": [
+                "Default/ChrPowerUpPanelV3(Clone)/Root/Trans_Overview_0/ChrPowerUp_OverviewItem(Clone)/Root/GrpRight/GrpInfo/GrpLayout/GrpWeaponEntrance/GrpContent/Btn_ChrWeaponItemV3(Clone):0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 190204,
+            "group": 1902,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "무기에 파츠를 장착하려면 <color=#f0af14>파츠</color> 페이지로 이동하세요.",
+            "textFemale": "무기에 파츠를 장착하려면 <color=#f0af14>파츠</color> 페이지로 이동하세요.",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 609,
+            "clickActionTypeParam2": "42",
+            "awakePath": "ChrWeaponPanelV4",
+            "clickAreaPosition": "Canvas/Default/ChrWeaponPanelV4(Clone)/Root/GrpTop/GrpTopRightBtn:1,Btn_ComTopBarItem(Clone)/Cast:2",
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 190205,
+            "group": 1902,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "<color=#f0af14>소음기</color> 1개를 획득했습니다.",
+            "textFemale": "<color=#f0af14>소음기</color> 1개를 획득했습니다.",
+            "nextButton": true,
+            "giveItem": {
+                "20111443": 1
+            },
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 190206,
+            "group": 1902,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "해당 <color=#f0af14>장착 슬롯</color>을 클릭하여 무기에 파츠를 장착하세요.",
+            "textFemale": "해당 <color=#f0af14>장착 슬롯</color>을 클릭하여 무기에 파츠를 장착하세요.",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 1802,
+            "clickAreaPositionNew": [
+                "Default/ChrWeaponPanelV4(Clone)/Root/Trans_WeaponParts_1/ChrWeaponPartsOverViewItem/GrpAttribute:1"
+            ],
+            "delay": 0.2,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 190207,
+            "group": 1902,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "<color=#f0af14>장착</color>을 클릭하세요.",
+            "textFemale": "<color=#f0af14>장착</color>을 클릭하세요.",
+            "clickType": 1,
+            "awakePath": "ChrWeaponPartsReplacePanel",
+            "clickAreaPosition": "Canvas/Default/ChrWeaponPartsReplacePanel(Clone)/Root/GrpPartsReplaceList/GrpBtn/GrpAction/GrpPartsState/Trans_BtnEquip/Btn_Content/Root/Cast:1",
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 190208,
+            "group": 1902,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "<color=#f0af14>정밀 조정</color>을 클릭하세요.",
+            "textFemale": "<color=#f0af14>정밀 조정</color>을 클릭하세요.",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 1803,
+            "awakePath": "ChrWeaponPartsReplacePanel",
+            "clickAreaPositionNew": [
+                "Default/ChrWeaponPartsReplacePanel(Clone)/Root/GrpPartsReplaceList/GrpBtn/GrpAction/GrpPartsPowerUp/Trans_BtnPolarity/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 190209,
+            "group": 1902,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "정밀 조정 후 파츠 효과가 <color=#f0af14>강화</color>됩니다.",
+            "textFemale": "정밀 조정 후 파츠 효과가 <color=#f0af14>강화</color>됩니다.",
+            "nextButton": true,
+            "delay": 0.5,
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 190301,
+            "group": 1903,
+            "canSkip": true,
+            "name": "",
+            "text": "파츠 소개ppt",
+            "textFemale": "파츠 소개ppt",
+            "finishPage": 1,
+            "pptGroup": 1203,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 191101,
+            "group": 1911,
+            "canSkip": true,
+            "name": "",
+            "text": "확인 터치",
+            "textFemale": "확인 터치",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/ComBatWinShowDialogV2(Clone)/Root/GrpSettlement_1/Content/GrpAction/BtnConfirm/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 191201,
+            "group": 1912,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-100",
+            "text": "지휘관, <color=#f0af14>무기 파츠</color>가 개방되었습니다. 지휘실로 돌아가 주세요.",
+            "textFemale": "지휘관, <color=#f0af14>무기 파츠</color>가 개방되었습니다. 지휘실로 돌아가 주세요.",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "awakePath": "StoryChapterPanel",
+            "clickAreaPositionNew": [
+                "Default/StoryChapterPanel(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 191301,
+            "group": 1913,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-100",
+            "text": "지휘관, <color=#f0af14>무기 파츠</color>가 개방되었습니다. 지휘실로 돌아가 주세요.",
+            "textFemale": "지휘관, <color=#f0af14>무기 파츠</color>가 개방되었습니다. 지휘실로 돌아가 주세요.",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "awakePath": "SimCombatComPanel",
+            "clickAreaPositionNew": [
+                "Default/SimCombatComPanel(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 191401,
+            "group": 1914,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-100",
+            "text": "지휘관, <color=#f0af14>무기 파츠</color>가 개방되었습니다. 지휘실로 돌아가 주세요.",
+            "textFemale": "지휘관, <color=#f0af14>무기 파츠</color>가 개방되었습니다. 지휘실로 돌아가 주세요.",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "awakePath": "SimCombatComPanel",
+            "clickAreaPositionNew": [
+                "Default/SimCombatComPanel(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 191501,
+            "group": 1915,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-100",
+            "text": "지휘관, <color=#f0af14>무기 파츠</color>가 개방되었습니다. 지휘실로 돌아가 주세요.",
+            "textFemale": "지휘관, <color=#f0af14>무기 파츠</color>가 개방되었습니다. 지휘실로 돌아가 주세요.",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "awakePath": "SimCombatComPanel",
+            "clickAreaPositionNew": [
+                "Default/SimCombatComPanel(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 191601,
+            "group": 1916,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-100",
+            "text": "지휘관, <color=#f0af14>무기 파츠</color>가 개방되었습니다. 지휘실로 돌아가 주세요.",
+            "textFemale": "지휘관, <color=#f0af14>무기 파츠</color>가 개방되었습니다. 지휘실로 돌아가 주세요.",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "awakePath": "SimCombatComPanel",
+            "clickAreaPositionNew": [
+                "Default/SimCombatComPanel(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 191701,
+            "group": 1917,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-100",
+            "text": "지휘관, <color=#f0af14>무기 파츠</color>가 개방되었습니다. 지휘실로 돌아가 주세요.",
+            "textFemale": "지휘관, <color=#f0af14>무기 파츠</color>가 개방되었습니다. 지휘실로 돌아가 주세요.",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "awakePath": "SimComBatHardBattlePanel",
+            "clickAreaPositionNew": [
+                "Default/SimComBatHardBattlePanel(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 191801,
+            "group": 1918,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-100",
+            "text": "지휘관, <color=#f0af14>무기 파츠</color>가 개방되었습니다. 지휘실로 돌아가 주세요.",
+            "textFemale": "지휘관, <color=#f0af14>무기 파츠</color>가 개방되었습니다. 지휘실로 돌아가 주세요.",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "awakePath": "SimCombatComPanel",
+            "clickAreaPositionNew": [
+                "Default/SimCombatComPanel(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 191901,
+            "group": 1919,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-100",
+            "text": "지휘관, <color=#f0af14>무기 파츠</color>가 개방되었습니다. 지휘실로 돌아가 주세요.",
+            "textFemale": "지휘관, <color=#f0af14>무기 파츠</color>가 개방되었습니다. 지휘실로 돌아가 주세요.",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "awakePath": "QuestPanel",
+            "clickAreaPositionNew": [
+                "Default/QuestPanel(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 200101,
+            "group": 2001,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-100",
+            "text": "지휘관, <color=#f0af14>지정 정밀 연구</color>가 개방되었습니다. 지휘실로 돌아가 주세요.",
+            "textFemale": "지휘관, <color=#f0af14>지정 정밀 연구</color>가 개방되었습니다. 지휘실로 돌아가 주세요.",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "awakePath": "ChrRangePanelV3",
+            "clickAreaPositionNew": [
+                "Default/ChrWeaponPartsPowerUpPanelV4(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 200201,
+            "group": 2002,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "<color=#f0af14>전역 진행</color>을 클릭하세요.",
+            "textFemale": "<color=#f0af14>전역 진행</color>을 클릭하세요.",
+            "clickType": 4,
+            "clickActionType": 13,
+            "clickActionTypeParam": 596,
+            "clickAreaPosition": "Canvas/Default/CommandCenterPanelV4(Clone)/Root/Btn_Battle/Root/Cast:1",
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 200202,
+            "group": 2002,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "<color=#f0af14>보급 작전</color>을 클릭하세요.",
+            "textFemale": "<color=#f0af14>보급 작전</color>을 클릭하세요.",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 596,
+            "clickActionTypeParam2": "23",
+            "awakePath": "BattleIndexPanel",
+            "clickAreaPositionNew": [
+                "Default/BattleIndexPanelV2(Clone)/Root/GrpTop/TabModeList/Content:4"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 200203,
+            "group": 2002,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "<color=#f0af14>지정 정밀 연구</color>를 클릭하세요.",
+            "textFemale": "<color=#f0af14>지정 정밀 연구</color>를 클릭하세요.",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 930,
+            "awakePath": "BattleIndexPanelV2",
+            "virtualListItemId": {
+                "Canvas/Default/BattleIndexPanelV2(Clone)/Root/GrpSimCombatDaily_2/BattleIndexSimCombatDailyItem(Clone)/GrpList": "3|2"
+            },
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 200204,
+            "group": 2002,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-400",
+            "text": "해당 스테이지를 클리어하면 다양한 <color=#f0af14>무기 파츠</color>를 획득할 수 있습니다.",
+            "textFemale": "해당 스테이지를 클리어하면 다양한 <color=#f0af14>무기 파츠</color>를 획득할 수 있습니다.",
+            "awakePath": "SimCombatComPanel",
+            "nextButton": true,
+            "delay": 0.5,
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 200205,
+            "group": 2002,
+            "canSkip": true,
+            "name": "",
+            "text": "파츠 던전ppt",
+            "textFemale": "파츠 던전ppt",
+            "finishPage": 1,
+            "pptGroup": 2701,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 210201,
+            "group": 2102,
+            "canSkip": true,
+            "name": "",
+            "text": "표준 동기화 ppt",
+            "textFemale": "표준 동기화 ppt",
+            "finishPage": 1,
+            "pptGroup": 2201,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 220201,
+            "group": 2202,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "지휘관, 매주 <color=#f0af14>보스 도전</color>에서 가상 강적에 도전해 채집 점수를 획득할 수 있습니다.",
+            "textFemale": "지휘관, 매주 <color=#f0af14>보스 도전</color>에서 가상 강적에 도전해 채집 점수를 획득할 수 있습니다.",
+            "nextButton": true,
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 220202,
+            "group": 2202,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "<color=#f0af14>채집 점수</color>가 높을수록 획득 보상이 풍부해집니다.",
+            "textFemale": "<color=#f0af14>채집 점수</color>가 높을수록 획득 보상이 풍부해집니다.",
+            "nextButton": true,
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 220203,
+            "group": 2202,
+            "canSkip": true,
+            "name": "",
+            "text": "보스 도전ppt",
+            "textFemale": "보스 도전ppt",
+            "finishPage": 1,
+            "pptGroup": 1601,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 230201,
+            "group": 2302,
+            "canSkip": true,
+            "name": "",
+            "text": "실전 연습ppt",
+            "textFemale": "실전 연습ppt",
+            "finishPage": 1,
+            "pptGroup": 1701,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 230301,
+            "group": 2303,
+            "canSkip": true,
+            "name": "",
+            "text": "공격 터치 약하게 유도",
+            "textFemale": "공격 터치 약하게 유도",
+            "clickType": 10,
+            "clickAreaPosition": "Canvas/Default/PVPMainPanel(Clone)/Root/GrpAction/BtnStart/Btn_Content/Root/Cast:1",
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 230401,
+            "group": 2304,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "상대 정보를 확인하고 적절한 상대를 선택해 도전하세요. <color=#f0af14>연승</color>을 달성하면 추가 보상을 받을 수 있습니다.",
+            "textFemale": "상대 정보를 확인하고 적절한 상대를 선택해 도전하세요. <color=#f0af14>연승</color>을 달성하면 추가 보상을 받을 수 있습니다.",
+            "awakePath": "PVPChallengeDialog",
+            "nextButton": true,
+            "delay": 0.5,
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 230501,
+            "group": 2305,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "<color=#f0af14>방어 배치</color>를 클릭하세요.",
+            "textFemale": "<color=#f0af14>방어 배치</color>를 클릭하세요.",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 1010,
+            "clickAreaPosition": "Canvas/Default/PVPMainPanel(Clone)/Root/GrpAction/BtnDefenseFleet/Btn_Content/Root/Cast:1",
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 230502,
+            "group": 2305,
+            "canSkip": true,
+            "name": "",
+            "text": "수비 배치 터치",
+            "textFemale": "수비 배치 터치",
+            "clickType": 1,
+            "awakePath": "PVPDefenseTeamDialog",
+            "clickAreaPosition": "Canvas/Default/PVPDefenseTeamDialog(Clone)/Root/GrpContent/GrpMapCard/GrpAction/GrpLeft/Trans_Edit/Btn_Content/Root/Cast:1",
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 240101,
+            "group": 2401,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "<color=#f0af14>피크 추정</color>에서는 각 단계의 모든 하위 그룹을 돌파해야 앞으로 나아가며 보상을 받을 수 있습니다.",
+            "textFemale": "<color=#f0af14>피크 추정</color>에서는 각 단계의 모든 하위 그룹을 돌파해야 앞으로 나아가며 보상을 받을 수 있습니다.",
+            "nextButton": true,
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 240102,
+            "group": 2401,
+            "name": "",
+            "text": "한계 측정ppt",
+            "textFemale": "한계 측정ppt",
+            "finishPage": 1,
+            "pptGroup": 1501,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 250101,
+            "group": 2501,
+            "name": "",
+            "text": "자료실ppt",
+            "textFemale": "자료실ppt",
+            "nextButton": true,
+            "finishPage": 1,
+            "pptGroup": 1901,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 260101,
+            "group": 2601,
+            "name": "",
+            "text": "키 세팅ppt",
+            "textFemale": "키 세팅ppt",
+            "finishPage": 1,
+            "pptGroup": 1209,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 270101,
+            "group": 2701,
+            "name": "",
+            "text": "대연 예열ppt",
+            "textFemale": "대연 예열ppt",
+            "finishPage": 1,
+            "pptGroup": 3004,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 280101,
+            "group": 2801,
+            "name": "",
+            "text": "대연 메인 화면ppt",
+            "textFemale": "대연 메인 화면ppt",
+            "pptGroup": 3005,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 280102,
+            "group": 2801,
+            "canSkip": true,
+            "avatar": "Avatar_Head_LennaSSR",
+            "avatarFemale": "Avatar_Head_LennaSSR",
+            "name": "레나",
+            "textPosition": "7,58,-100",
+            "text": "<color=#f0af14>축제</color>가 곧 시작됩니다. 출발합시다.",
+            "textFemale": "<color=#f0af14>축제</color>가 곧 시작됩니다. 출발합시다.",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 2105,
+            "clickAreaPositionNew": [
+                "Default/DaiyanMainPanel(Clone)/Root/GrpUI/GrpBottom/Btn_ChapterEntry:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 280103,
+            "group": 2801,
+            "canSkip": true,
+            "avatar": "Avatar_Head_LennaSSR",
+            "avatarFemale": "Avatar_Head_LennaSSR",
+            "name": "레나",
+            "textPosition": "7,58,-100",
+            "text": "아름다운 풍경이 작곡에 영감을 줄지도 몰라요. 한번 가볼까요?",
+            "textFemale": "아름다운 풍경이 작곡에 영감을 줄지도 몰라요. 한번 가볼까요?",
+            "nextButton": true,
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 290101,
+            "group": 2901,
+            "name": "",
+            "text": "대연 가챠ppt",
+            "textFemale": "대연 가챠ppt",
+            "finishPage": 1,
+            "pptGroup": 2302,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 300101,
+            "group": 3001,
+            "canSkip": true,
+            "avatar": "Avatar_Head_LennaSSR",
+            "avatarFemale": "Avatar_Head_LennaSSR",
+            "name": "레나",
+            "textPosition": "7,58,-100",
+            "text": "<color=#f0af14>5가지 서로 다른</color> 영감을 모으면 영감 결집으로 보상을 획득할 수 있습니다.",
+            "textFemale": "<color=#f0af14>5가지 서로 다른</color> 영감을 모으면 영감 결집으로 보상을 획득할 수 있습니다.",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 300102,
+            "group": 3001,
+            "name": "",
+            "text": "대연 영감 보상풀ppt",
+            "textFemale": "대연 영감 보상풀ppt",
+            "finishPage": 1,
+            "pptGroup": 3006,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 350101,
+            "group": 3501,
+            "canSkip": true,
+            "avatar": "Avatar_Head_CentaureissiSSR",
+            "avatarFemale": "Avatar_Head_CentaureissiSSR",
+            "name": "센타우레이시",
+            "textPosition": "7,58,-72",
+            "text": "장관님, 바쁘신 와중에 카페의 <color=#f0af14>특조 살롱</color>을 지원해 주셔서 감사합니다. 지금부터 지원 업무를 설명해 드리겠습니다.",
+            "textFemale": "장관님, 바쁘신 와중에 카페의 <color=#f0af14>특조 살롱</color>을 지원해 주셔서 감사합니다. 지금부터 지원 업무를 설명해 드리겠습니다.",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 350102,
+            "group": 3501,
+            "name": "",
+            "text": "센타우레이시 모의 경영PPT",
+            "textFemale": "센타우레이시 모의 경영PPT",
+            "pptGroup": 3011,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 350103,
+            "group": 3501,
+            "canSkip": true,
+            "avatar": "Avatar_Head_CentaureissiSSR",
+            "avatarFemale": "Avatar_Head_CentaureissiSSR",
+            "name": "센타우레이시",
+            "textPosition": "7,58,-72",
+            "text": "우선, 영업 구역의 <color=#f0af14>셀프 바</color>가 계속 가동되도록 해야 합니다.",
+            "textFemale": "우선, 영업 구역의 <color=#f0af14>셀프 바</color>가 계속 가동되도록 해야 합니다.",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 350104,
+            "group": 3501,
+            "canSkip": true,
+            "avatar": "Avatar_Head_CentaureissiSSR",
+            "avatarFemale": "Avatar_Head_CentaureissiSSR",
+            "name": "센타우레이시",
+            "textPosition": "7,58,-72",
+            "text": "<color=#f0af14>원료가 충분</color>하기만 하면 셀프 바는 자동으로 운전됩니다. 미리 원료를 비축해 두었으니 한동안은 문제없습니다.",
+            "textFemale": "<color=#f0af14>원료가 충분</color>하기만 하면 셀프 바는 자동으로 운전됩니다. 미리 원료를 비축해 두었으니 한동안은 문제없습니다.",
+            "nextButton": true,
+            "giveItem": {
+                "170027": 3,
+                "170011": 150,
+                "170012": 150,
+                "170013": 150,
+                "170032": 3,
+                "170037": 3
+            },
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 350105,
+            "group": 3501,
+            "canSkip": true,
+            "avatar": "Avatar_Head_CentaureissiSSR",
+            "avatarFemale": "Avatar_Head_CentaureissiSSR",
+            "name": "센타우레이시",
+            "textPosition": "7,58,-72",
+            "text": "더 많은 원료가 필요하다면 사무 구역으로 가서 <color=#f0af14>향미 의뢰</color>를 완료해야 합니다. 이 부분은 장관님의 도움이 필요합니다.",
+            "textFemale": "더 많은 원료가 필요하다면 사무 구역으로 가서 <color=#f0af14>향미 의뢰</color>를 완료해야 합니다. 이 부분은 장관님의 도움이 필요합니다.",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 360101,
+            "group": 3601,
+            "canSkip": true,
+            "avatar": "Avatar_Head_CentaureissiSSR",
+            "avatarFemale": "Avatar_Head_CentaureissiSSR",
+            "name": "센타우레이시",
+            "textPosition": "7,58,-72",
+            "text": "장관님, 이것은 <color=#f0af14>슈가 큐브 어시스턴트</color>로 카페 운영 상황을 실시간으로 파악하도록 도와줍니다.",
+            "textFemale": "장관님, 이것은 <color=#f0af14>슈가 큐브 어시스턴트</color>로 카페 운영 상황을 실시간으로 파악하도록 도와줍니다.",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 53,
+            "clickAreaPositionNew": [
+                "Default/ActivityCafeMainPanel(Clone)/Root/GrpBottom/Btn_Pad/Root:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 360102,
+            "group": 3601,
+            "canSkip": true,
+            "avatar": "Avatar_Head_CentaureissiSSR",
+            "avatarFemale": "Avatar_Head_CentaureissiSSR",
+            "name": "센타우레이시",
+            "textPosition": "7,58,-72",
+            "text": "슈가 큐브 어시스턴트 메인 페이지에서 현재 카페의 <color=#f0af14>상점 등급</color>과 <color=#f0af14>평가 과제</color>를 확인할 수 있습니다. 과제를 완료하면 상점 등급이 상승합니다.",
+            "textFemale": "슈가 큐브 어시스턴트 메인 페이지에서 현재 카페의 <color=#f0af14>상점 등급</color>과 <color=#f0af14>평가 과제</color>를 확인할 수 있습니다. 과제를 완료하면 상점 등급이 상승합니다.",
+            "nextButton": true,
+            "delay": 2.0,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 360103,
+            "group": 3601,
+            "canSkip": true,
+            "name": "",
+            "text": "음료 메뉴 터치 유도",
+            "textFemale": "음료 메뉴 터치 유도",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/ActivityCafePadPanel(Clone)/Root/GrpPad/GrpTopTab/TabLeftModeList/Content:2"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 360104,
+            "group": 3601,
+            "canSkip": true,
+            "avatar": "Avatar_Head_CentaureissiSSR",
+            "avatarFemale": "Avatar_Head_CentaureissiSSR",
+            "name": "센타우레이시",
+            "textPosition": "7,58,-72",
+            "text": "음료 메뉴 탭에는 특조 살롱 이벤트에서 판매할 수 있는 음료가 기록되어 있습니다. <color=#f0af14>메뉴 레벨을 올리면</color> 판매 가능한 음료 종류가 늘어나고 판매량이 증가합니다.",
+            "textFemale": "음료 메뉴 탭에는 특조 살롱 이벤트에서 판매할 수 있는 음료가 기록되어 있습니다. <color=#f0af14>메뉴 레벨을 올리면</color> 판매 가능한 음료 종류가 늘어나고 판매량이 증가합니다.",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 360105,
+            "group": 3601,
+            "canSkip": true,
+            "name": "",
+            "text": "의견 게시판을 터치해 보세요.",
+            "textFemale": "의견 게시판을 터치해 보세요.",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/ActivityCafePadPanel(Clone)/Root/GrpPad/GrpTopTab/TabLeftModeList/Content:3"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 360106,
+            "group": 3601,
+            "canSkip": true,
+            "avatar": "Avatar_Head_CentaureissiSSR",
+            "avatarFemale": "Avatar_Head_CentaureissiSSR",
+            "name": "센타우레이시",
+            "textPosition": "7,58,-72",
+            "text": "<color=#f0af14>의견 벽</color> 탭에서 고객이 남긴 메모를 확인하고 의견을 통합할 수 있으며, 이는 카페 평가 과제 중 하나입니다.",
+            "textFemale": "<color=#f0af14>의견 벽</color> 탭에서 고객이 남긴 메모를 확인하고 의견을 통합할 수 있으며, 이는 카페 평가 과제 중 하나입니다.",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 360107,
+            "group": 3601,
+            "canSkip": true,
+            "name": "",
+            "text": "주변 클릭 가이드",
+            "textFemale": "주변 클릭 가이드",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/ActivityCafePadPanel(Clone)/Root/GrpPad/GrpTopTab/TabLeftModeList/Content:4"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 360108,
+            "group": 3601,
+            "canSkip": true,
+            "avatar": "Avatar_Head_CentaureissiSSR",
+            "avatarFemale": "Avatar_Head_CentaureissiSSR",
+            "name": "센타우레이시",
+            "textPosition": "7,58,-72",
+            "text": "슈가 큐브 굿즈 탭에서 <color=#f0af14>스탬프 스티커</color>로 필요한 물자를 교환할 수 있습니다. 굿즈 레벨이 높을수록 교환 가능한 물자가 더욱 풍부해집니다.",
+            "textFemale": "슈가 큐브 굿즈 탭에서 <color=#f0af14>스탬프 스티커</color>로 필요한 물자를 교환할 수 있습니다. 굿즈 레벨이 높을수록 교환 가능한 물자가 더욱 풍부해집니다.",
+            "nextButton": true,
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 370101,
+            "group": 3701,
+            "canSkip": true,
+            "avatar": "Avatar_Head_CentaureissiSSR",
+            "avatarFemale": "Avatar_Head_CentaureissiSSR",
+            "name": "센타우레이시",
+            "textPosition": "7,58,-72",
+            "text": "이번에는 <color=#f0af14>향미 의뢰</color>와 <color=#f0af14>화물 기계</color>를 살펴보죠.",
+            "textFemale": "이번에는 <color=#f0af14>향미 의뢰</color>와 <color=#f0af14>화물 기계</color>를 살펴보죠.",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 370102,
+            "group": 3701,
+            "canSkip": true,
+            "avatar": "Avatar_Head_CentaureissiSSR",
+            "avatarFemale": "Avatar_Head_CentaureissiSSR",
+            "name": "센타우레이시",
+            "textPosition": "7,58,-72",
+            "text": "주인님, 이쪽으로 오시지요.",
+            "textFemale": "주인님, 이쪽으로 오시지요.",
+            "clickType": 4,
+            "clickAreaPositionNew": [
+                "Default/ActivityCafeMainPanel(Clone)/Root/GrpViewSwitch/Btn_ActivityCafeArrowItem(Clone)/BtnLeft/Btn_Left:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 370103,
+            "group": 3701,
+            "canSkip": true,
+            "avatar": "Avatar_Head_CentaureissiSSR",
+            "avatarFemale": "Avatar_Head_CentaureissiSSR",
+            "name": "센타우레이시",
+            "textPosition": "7,58,-72",
+            "text": "장관님, 여기서 <color=#f0af14>향미 의뢰</color>를 수주할 수 있습니다. 의뢰에서 수집한 물자는 <color=#f0af14>물자 교환</color>을 통해 특조 살롱 이벤트에 필요한 자원으로 전환할 수 있습니다.",
+            "textFemale": "장관님, 여기서 <color=#f0af14>향미 의뢰</color>를 수주할 수 있습니다. 의뢰에서 수집한 물자는 <color=#f0af14>물자 교환</color>을 통해 특조 살롱 이벤트에 필요한 자원으로 전환할 수 있습니다.",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 370104,
+            "group": 3701,
+            "name": "",
+            "text": "보상 및 화물 수송ppt",
+            "textFemale": "보상 및 화물 수송ppt",
+            "finishPage": 1,
+            "pptGroup": 3012,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 410101,
+            "group": 4101,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "지휘관, 이제 <color=#f0af14>확장 실전</color>을 진행할 수 있습니다. 이 모드에서는 더 많은 인형을 투입할 수 있습니다.",
+            "textFemale": "지휘관, 이제 <color=#f0af14>확장 실전</color>을 진행할 수 있습니다. 이 모드에서는 더 많은 인형을 투입할 수 있습니다.",
+            "nextButton": true,
+            "delay": 0.5,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 410102,
+            "group": 4101,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "확장 실전은 <color=#f0af14>주기적으로 초기화</color>되어 클리어 상태와 보상이 리셋됩니다. 리셋 시기에 따라 적의 강도와 보상은 지휘관 레벨에 맞춰 조정됩니다.",
+            "textFemale": "확장 실전은 <color=#f0af14>주기적으로 초기화</color>되어 클리어 상태와 보상이 리셋됩니다. 리셋 시기에 따라 적의 강도와 보상은 지휘관 레벨에 맞춰 조정됩니다.",
+            "nextButton": true,
+            "delay": 0.5,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 410103,
+            "group": 4101,
+            "name": "",
+            "text": "확장 훈련PPT",
+            "textFemale": "확장 훈련PPT",
+            "finishPage": 1,
+            "pptGroup": 2801,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 430101,
+            "group": 4301,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "지휘관, 이제 증폭 칩을 사용해 <color=#f0af14>증폭 정밀 조정</color>을 할 수 있습니다.",
+            "textFemale": "지휘관, 이제 증폭 칩을 사용해 <color=#f0af14>증폭 정밀 조정</color>을 할 수 있습니다.",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/ChrWeaponPartsPowerUpPanelV4(Clone)/Root/Trans_PartsPowerUp_0/GrpPowerUpRightInfo/Trans_GrpPolarity/Btn_Increase/Root/Btn_Increase:0"
+            ],
+            "nextButton": true,
+            "delay": 0.5,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 430102,
+            "group": 4301,
+            "name": "",
+            "text": "파츠 증폭PPT",
+            "textFemale": "파츠 증폭PPT",
+            "finishPage": 1,
+            "pptGroup": 1212,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 440101,
+            "group": 4401,
+            "name": "",
+            "text": "센타우레이시 예열PPT",
+            "textFemale": "센타우레이시 예열PPT",
+            "pptGroup": 3010,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 440102,
+            "group": 4401,
+            "canSkip": true,
+            "avatar": "Avatar_Head_CentaureissiSSR",
+            "avatarFemale": "Avatar_Head_CentaureissiSSR",
+            "name": "센타우레이시",
+            "textPosition": "7,58,-72",
+            "text": "장관님, 여기를 눌러 <color=#f0af14>어시스턴트</color>를 열고 개업 준비 과제를 확인하세요. 과제를 완료하면 <color=#f0af14>상점 인기도</color>가 올라 보상을 받을 수 있습니다.",
+            "textFemale": "장관님, 여기를 눌러 <color=#f0af14>어시스턴트</color>를 열고 개업 준비 과제를 확인하세요. 과제를 완료하면 <color=#f0af14>상점 인기도</color>가 올라 보상을 받을 수 있습니다.",
+            "clickType": 1,
+            "awakePath": "ActivityCafeMainPanel",
+            "clickAreaPositionNew": [
+                "Default/ActivityCafeMainPanel(Clone)/Root/GrpBottom/Btn_Pad/Root:0"
+            ],
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 450101,
+            "group": 4501,
+            "name": "",
+            "text": "고위 아레나PPT",
+            "textFemale": "고위 아레나PPT",
+            "pptGroup": 3201,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 450102,
+            "group": 4501,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "워게임에 참여하기 전에 먼저 <color=#f0af14>방어 진형을 배치</color>하세요.",
+            "textFemale": "워게임에 참여하기 전에 먼저 <color=#f0af14>방어 진형을 배치</color>하세요.",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 2902,
+            "clickAreaPositionNew": [
+                "Default/HigherPVPMainPanel(Clone)/Root/Btn_Defense/Root:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 450103,
+            "group": 4501,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "<color=#f0af14>방어 배치</color>를 클릭하세요.",
+            "textFemale": "<color=#f0af14>방어 배치</color>를 클릭하세요.",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/HigherPVPDefenseTeamDialog(Clone)/Root/GrpContent/GrpMapCard/GrpAction/Trans_GrpBtn/Trans_Edit/Btn_Content:0"
+            ],
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 470101,
+            "group": 4701,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "지휘관, <color=#f0af14>무한 투영</color>에는 여러 투영 공간이 있으며 각 공간마다 점수 보상이 별도로 계산됩니다.",
+            "textFemale": "지휘관, <color=#f0af14>무한 투영</color>에는 여러 투영 공간이 있으며 각 공간마다 점수 보상이 별도로 계산됩니다.",
+            "nextButton": true,
+            "delay": 0.5,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 470102,
+            "group": 4701,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,384,-80",
+            "text": "<color=#f0af14>투영 공간 01</color>이 열렸습니다. 클릭하여 진입하세요.",
+            "textFemale": "<color=#f0af14>투영 공간 01</color>이 열렸습니다. 클릭하여 진입하세요.",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/ControlFightChapterPanel(Clone)/Root/GrpList/Viewport/Content:1"
+            ],
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 470201,
+            "group": 4702,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "각 투영 공간에는 여러 번의 <color=#f0af14>연속 전투</color>가 포함되어 있으니 인형을 적절히 배치해 전투에 참여해 주세요.",
+            "textFemale": "각 투영 공간에는 여러 번의 <color=#f0af14>연속 전투</color>가 포함되어 있으니 인형을 적절히 배치해 전투에 참여해 주세요.",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 470202,
+            "group": 4702,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "투영 공간에서 인형을 배치하려면 <color=#f0af14>에너지</color>가 소모됩니다. 에너지가 부족한 인형은 전투에 참여할 수 없습니다.",
+            "textFemale": "투영 공간에서 인형을 배치하려면 <color=#f0af14>에너지</color>가 소모됩니다. 에너지가 부족한 인형은 전투에 참여할 수 없습니다.",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 470203,
+            "group": 4702,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "여기서 각 전투 정보를 볼 수 있지만, 작전은 <color=#f0af14>첫 번째</color> 전투부터 시작해야 합니다.",
+            "textFemale": "여기서 각 전투 정보를 볼 수 있지만, 작전은 <color=#f0af14>첫 번째</color> 전투부터 시작해야 합니다.",
+            "clickType": 4,
+            "clickAreaPositionNew": [
+                "Default/ControlFightBattleDialog(Clone)/Root/GrpDialog/GrpCenter/GrpTabList/Viewport/Content:0"
+            ],
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 470204,
+            "group": 4702,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "지휘관, 여기서 현재 투영 공간의 <color=#f0af14>점수 보상</color>을 확인할 수 있습니다.",
+            "textFemale": "지휘관, 여기서 현재 투영 공간의 <color=#f0af14>점수 보상</color>을 확인할 수 있습니다.",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 89,
+            "clickAreaPositionNew": [
+                "Default/ControlFightBattleDialog(Clone)/Root/GrpControlFightChapter/Btn_ControlFightChapterItem(Clone)/BtnScoresReward/Btn_ScoresReward:0"
+            ],
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 470301,
+            "group": 4703,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "특정 임무를 완료하면 임무 점수를 쌓아 <color=#f0af14>투영 점수</color>를 올릴 수 있습니다.",
+            "textFemale": "특정 임무를 완료하면 임무 점수를 쌓아 <color=#f0af14>투영 점수</color>를 올릴 수 있습니다.",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 470302,
+            "group": 4703,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "극한 투영에서 보스 유닛을 상대할 때 특정 <color=#f0af14>전술 행동</color>을 수행하면 전술 점수가 누적되며, 투영 점수도 함께 증가합니다.",
+            "textFemale": "극한 투영에서 보스 유닛을 상대할 때 특정 <color=#f0af14>전술 행동</color>을 수행하면 전술 점수가 누적되며, 투영 점수도 함께 증가합니다.",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 470303,
+            "group": 4703,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "<color=#f0af14>투영 점수</color>가 일정 수치에 도달하면 보상을 받을 수 있습니다.",
+            "textFemale": "<color=#f0af14>투영 점수</color>가 일정 수치에 도달하면 보상을 받을 수 있습니다.",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 470304,
+            "group": 4703,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "이제 <color=#f0af14>전투를 시작</color>합시다, 지휘관.",
+            "textFemale": "이제 <color=#f0af14>전투를 시작</color>합시다, 지휘관.",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 95,
+            "clickAreaPositionNew": [
+                "Default/ControlFightScoresQuestDialog(Clone)/Root/GrpDialog/GrpClose/Btn_Content:0"
+            ],
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 470305,
+            "group": 4703,
+            "name": "",
+            "text": "연전탑 구조PPT",
+            "textFemale": "연전탑 구조PPT",
+            "finishPage": 1,
+            "pptGroup": 3301,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 480001,
+            "group": 4800,
+            "canSkip": true,
+            "name": "",
+            "text": "샌드박스 ppt",
+            "textFemale": "샌드박스 ppt",
+            "pptGroup": 3501,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 480002,
+            "group": 4800,
+            "canSkip": true,
+            "avatar": "Avatar_Head_UllridSSR",
+            "avatarFemale": "Avatar_Head_UllridSSR",
+            "name": "울리드",
+            "textPosition": "7,58,-72",
+            "text": "미개척 타일에는 적 보스가 있을 수도, 물자가 있을 수도 있습니다. 각 타일에는 <color=#f0af14>원정 탐사</color>, <color=#f0af14>물자 수색</color>, <color=#f0af14>환경 정리</color> 중 하나의 이벤트가 존재합니다.",
+            "textFemale": "미개척 타일에는 적 보스가 있을 수도, 물자가 있을 수도 있습니다. 각 타일에는 <color=#f0af14>원정 탐사</color>, <color=#f0af14>물자 수색</color>, <color=#f0af14>환경 정리</color> 중 하나의 이벤트가 존재합니다.",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 480003,
+            "group": 4800,
+            "canSkip": true,
+            "avatar": "Avatar_Head_UllridSSR",
+            "avatarFemale": "Avatar_Head_UllridSSR",
+            "name": "울리드",
+            "textPosition": "7,58,-72",
+            "text": "주변 보스와 물자 분포를 확인하려면 <color=#f0af14>일반 모드</color>를 사용하세요.",
+            "textFemale": "주변 보스와 물자 분포를 확인하려면 <color=#f0af14>일반 모드</color>를 사용하세요.",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 480004,
+            "group": 4800,
+            "canSkip": true,
+            "avatar": "Avatar_Head_UllridSSR",
+            "avatarFemale": "Avatar_Head_UllridSSR",
+            "name": "울리드",
+            "textPosition": "7,58,-72",
+            "text": "<color=#f0af14>정찰 모드</color>로 전환 클릭",
+            "textFemale": "<color=#f0af14>정찰 모드</color>로 전환 클릭",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/SandboxMainPanel(Clone)/Root/GrpBottom/Btn_Mode:0"
+            ],
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 480005,
+            "group": 4800,
+            "canSkip": true,
+            "avatar": "Avatar_Head_UllridSSR",
+            "avatarFemale": "Avatar_Head_UllridSSR",
+            "name": "울리드",
+            "textPosition": "7,58,-72",
+            "text": "미개척 타일의 이벤트를 보려면 <color=#f0af14>정찰 모드</color>로 전환하세요.",
+            "textFemale": "미개척 타일의 이벤트를 보려면 <color=#f0af14>정찰 모드</color>로 전환하세요.",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 490001,
+            "group": 4900,
+            "canSkip": true,
+            "name": "",
+            "text": "사냥꾼 ppt",
+            "textFemale": "사냥꾼 ppt",
+            "finishPage": 1,
+            "pptGroup": 1401,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 500101,
+            "group": 5001,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,314,-250",
+            "text": "지휘관, <color=#f0af14>휴게실</color>로 들어가 주세요.",
+            "textFemale": "지휘관, <color=#f0af14>휴게실</color>로 들어가 주세요.",
+            "clickType": 4,
+            "clickActionType": 13,
+            "clickActionTypeParam": 2310,
+            "clickAreaPositionNew": [
+                "Default/DormEnterPanel(Clone)/Root/GrpModeList:1"
+            ],
+            "delay": 0.2,
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 500201,
+            "group": 5002,
+            "canSkip": true,
+            "name": "",
+            "text": "숙소ppt",
+            "textFemale": "숙소ppt",
+            "pptGroup": 2601,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 500202,
+            "group": 5002,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "인형에게 <color=#f0af14>선물을 증정</color>해 보세요.",
+            "textFemale": "인형에게 <color=#f0af14>선물을 증정</color>해 보세요.",
+            "clickType": 4,
+            "clickActionType": 13,
+            "clickActionTypeParam": 10083,
+            "clickAreaPositionNew": [
+                "Default/DormMainPanelV2(Clone)/Root/TabFunctionList:5"
+            ],
+            "giveItem": {
+                "300003": 1
+            },
+            "delay": 0.2,
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 500301,
+            "group": 5003,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "여기서 <color=#f0af14>선물 상세</color>를 확인할 수 있습니다",
+            "textFemale": "여기서 <color=#f0af14>선물 상세</color>를 확인할 수 있습니다",
+            "clickType": 4,
+            "clickAreaPositionNew": [
+                "Default/DormGiftPanel(Clone)/Root/GrpRight/GrpGiftSend/GrpGiftInfo/Btn_Info:1"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 500302,
+            "group": 5003,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "지휘관, 상세 정보를 확인했으니 <color=#f0af14>선물을 보내</color> 보세요.",
+            "textFemale": "지휘관, 상세 정보를 확인했으니 <color=#f0af14>선물을 보내</color> 보세요.",
+            "clickType": 4,
+            "clickAreaPositionNew": [
+                "Default/DormGiftGetDialog(Clone)/Root/GrpDialog/GrpCenter/GrpAction/BtnConfirm:1"
+            ],
+            "delay": 0.2,
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 500401,
+            "group": 5004,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "선물할 아이템을 선택해 봐.",
+            "textFemale": "선물할 아이템을 선택해 봐.",
+            "clickType": 4,
+            "virtualListItemId": {
+                "Canvas/Default/DormGiftPanel(Clone)/Root/GrpRight/GrpGiftSend/GrpList": "0|2"
+            },
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 500402,
+            "group": 5004,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "선물로 인형에게 마음을 전달하는 거야.",
+            "textFemale": "선물로 인형에게 마음을 전달하는 거야.",
+            "clickType": 4,
+            "clickAreaPositionNew": [
+                "Default/DormGiftPanel(Clone)/Root/GrpRight/GrpGiftSend:5"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 500403,
+            "group": 5004,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "잘 했어. 이제 계속 전진하자.",
+            "textFemale": "잘 했어. 이제 계속 전진하자.",
+            "clickType": 4,
+            "clickActionType": 13,
+            "clickActionTypeParam": 554,
+            "clickAreaPositionNew": [
+                "Default/DormGiftPanel(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnHome/Btn_Content:0"
+            ],
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 510101,
+            "group": 5101,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "지휘관, B.R.I.E.F. 본부에서는 주문과 자원 관리를 효율화하기 위해 현상금 사냥꾼 <color=#f0af14>팀</color>을 개방했습니다.",
+            "textFemale": "지휘관, B.R.I.E.F. 본부에서는 주문과 자원 관리를 효율화하기 위해 현상금 사냥꾼 <color=#f0af14>팀</color>을 개방했습니다.",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 510102,
+            "group": 5101,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "가서 확인해 보자.",
+            "textFemale": "가서 확인해 보자.",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/CommandCenterPanelV4(Clone)/Root/GrpRightBottom/GrpActivityEnter/Btn_GrpUnion:0"
+            ],
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 510103,
+            "group": 5101,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "지휘관은 기존 팀에 <color=#f0af14>가입 신청</color>할 수 있습니다",
+            "textFemale": "지휘관은 기존 팀에 <color=#f0af14>가입 신청</color>할 수 있습니다",
+            "clickType": 1,
+            "awakePath": "GuildEditPanel",
+            "clickAreaPositionNew": [
+                "Default/GuildEditPanel(Clone)/Root/GrpTop/GrpTopRightBtn:2"
+            ],
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 510104,
+            "group": 5101,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "또는 새로운 팀을 <color=#f0af14>설립 신청</color>할 수 있습니다",
+            "textFemale": "또는 새로운 팀을 <color=#f0af14>설립 신청</color>할 수 있습니다",
+            "clickType": 1,
+            "awakePath": "GuildEditPanel",
+            "clickAreaPositionNew": [
+                "Default/GuildEditPanel(Clone)/Root/GrpTop/GrpTopRightBtn:3"
+            ],
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 510105,
+            "group": 5101,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "서클에서 마음이 맞는 파트너를 찾았으면 좋겠네.",
+            "textFemale": "서클에서 마음이 맞는 파트너를 찾았으면 좋겠네.",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 510201,
+            "group": 5102,
+            "canSkip": true,
+            "name": "",
+            "text": "서클 메인 화면 ppt 팝업",
+            "textFemale": "서클 메인 화면 ppt 팝업",
+            "finishPage": 1,
+            "pptGroup": 3019,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 510301,
+            "group": 5103,
+            "canSkip": true,
+            "name": "",
+            "text": "보급 화면 ppt 팝업",
+            "textFemale": "보급 화면 ppt 팝업",
+            "finishPage": 1,
+            "pptGroup": 3020,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 510401,
+            "group": 5104,
+            "canSkip": true,
+            "name": "",
+            "text": "격전의 최전선 PPT 팝업",
+            "textFemale": "격전의 최전선 PPT 팝업",
+            "finishPage": 1,
+            "pptGroup": 3021,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 520101,
+            "group": 5201,
+            "canSkip": true,
+            "name": "",
+            "text": "관리실 메인 화면 ppt 팝업",
+            "textFemale": "관리실 메인 화면 ppt 팝업",
+            "pptGroup": 3018,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 520102,
+            "group": 5201,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "배치실에서 인형을 <color=#f0af14>의뢰</color>에 파견하여 의뢰 보상을 획득할 수 있습니다.",
+            "textFemale": "배치실에서 인형을 <color=#f0af14>의뢰</color>에 파견하여 의뢰 보상을 획득할 수 있습니다.",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 520103,
+            "group": 5201,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "하지만 인형은 <color=#f0af14>배치 평가</color>를 완료해야 의뢰 파견에 참여할 수 있습니다.",
+            "textFemale": "하지만 인형은 <color=#f0af14>배치 평가</color>를 완료해야 의뢰 파견에 참여할 수 있습니다.",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/ControlRoomMainPanel(Clone)/Root/GrpBottomInfo/GrpBtnList:1"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 520104,
+            "group": 5201,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "아무 인형을 클릭하면 해당 인형의 <color=#f0af14>배치 평가 과제</color>를 확인할 수 있습니다.",
+            "textFemale": "아무 인형을 클릭하면 해당 인형의 <color=#f0af14>배치 평가 과제</color>를 확인할 수 있습니다.",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 520105,
+            "group": 5201,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "이제 직접 조종해 봐.",
+            "textFemale": "이제 직접 조종해 봐.",
+            "nextButton": true,
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 570101,
+            "group": 5701,
+            "canSkip": true,
+            "name": "",
+            "text": "강습 연역 ppt",
+            "textFemale": "강습 연역 ppt",
+            "finishPage": 1,
+            "pptGroup": 3022,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 580101,
+            "group": 5801,
+            "canSkip": true,
+            "name": "",
+            "text": "험지 순찰 ppt",
+            "textFemale": "험지 순찰 ppt",
+            "finishPage": 1,
+            "pptGroup": 3023,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 590101,
+            "group": 5901,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,194,-480",
+            "text": "여기서 지휘관의 <color=#f0af14>생일 날짜</color>를 조정할 수 있습니다. 1년에 한 번만 수정 가능합니다!",
+            "textFemale": "여기서 지휘관의 <color=#f0af14>생일 날짜</color>를 조정할 수 있습니다. 1년에 한 번만 수정 가능합니다!",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/CommanderInfoPanelV4(Clone)/Root/Trans_GrpPlayerInfo_0/GrpContent/CommanderInfoItem(Clone)/GrpLeft/GrpInfo/GrpPlayerInfo/GrpBirthday/GrpNum/Btn_Remark:0"
+            ],
+            "nextButton": true,
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 600101,
+            "group": 6001,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "‘영역 돌파’가 해금되었습니다. <color=#f0af14>탐사하러 가기</color>를 클릭하세요.",
+            "textFemale": "‘영역 돌파’가 해금되었습니다. <color=#f0af14>탐사하러 가기</color>를 클릭하세요.",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/DarkzoneExploreMainPanel(Clone)/Root/Trans_GrpNormal/GrpAction/Btn_Start:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 600102,
+            "group": 6001,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "지휘관, 분대 준비가 완료되었습니다. <color=#f0af14>탐사 시작</color>해주세요.",
+            "textFemale": "지휘관, 분대 준비가 완료되었습니다. <color=#f0af14>탐사 시작</color>해주세요.",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/DarkzoneFleetPanelV2(Clone)/Root/GrpBottom/Btn_Confirm:0"
+            ],
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 600201,
+            "group": 6002,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "<color=#f0af14>“크리스탈 소스 채집”</color>이 해금되었습니다. 클릭해 확인하세요.",
+            "textFemale": "<color=#f0af14>“크리스탈 소스 채집”</color>이 해금되었습니다. 클릭해 확인하세요.",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 11243,
+            "clickAreaPositionNew": [
+                "Default/DarkzoneExploreMainPanel(Clone)/Root/Trans_GrpNormal/GrpAction/Btn_Explore/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 600202,
+            "group": 6002,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "지휘관, 탐사 완료 지역에 인형을 파견해 <color=#f0af14>크리스탈 소스 채집</color>을 진행하면 전기 방사 크리스탈과 다양한 물자 보상을 획득할 수 있습니다.",
+            "textFemale": "지휘관, 탐사 완료 지역에 인형을 파견해 <color=#f0af14>크리스탈 소스 채집</color>을 진행하면 전기 방사 크리스탈과 다양한 물자 보상을 획득할 수 있습니다.",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 600203,
+            "group": 6002,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "새 구역을 탐사해 <color=#f0af14>돌파 깊이</color>를 높이면 더 많은 크리스탈 소스 채집 지점을 해금할 수 있습니다.",
+            "textFemale": "새 구역을 탐사해 <color=#f0af14>돌파 깊이</color>를 높이면 더 많은 크리스탈 소스 채집 지점을 해금할 수 있습니다.",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 600204,
+            "group": 6002,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "모든 크리스탈 소스 채집 지점을 해금하면 지휘관은 채집만으로도 돌파 보상 풀의 <color=#f0af14>모든 보상</color>을 획득할 수 있습니다.",
+            "textFemale": "모든 크리스탈 소스 채집 지점을 해금하면 지휘관은 채집만으로도 돌파 보상 풀의 <color=#f0af14>모든 보상</color>을 획득할 수 있습니다.",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/DarkzoneExplorePutPanel(Clone)/Root/GrpContent/Trans_GrpBottomAction/Btn_Dispatch/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 600205,
+            "group": 6002,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "보상을 확인해 봐.",
+            "textFemale": "보상을 확인해 봐.",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/DarkzoneExplorePutPanel(Clone)/Root/GrpContent/Trans_GrpBottomAction/Btn_RewardView:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 600206,
+            "group": 6002,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "돌파 보상 풀은 주 단위로 초기화됩니다. 지휘관은 <color=#f0af14>크리스탈 소스 채집</color>과 <color=#f0af14>미탐사 구역 탐사</color>를 통해 보상을 획득할 수 있습니다.",
+            "textFemale": "돌파 보상 풀은 주 단위로 초기화됩니다. 지휘관은 <color=#f0af14>크리스탈 소스 채집</color>과 <color=#f0af14>미탐사 구역 탐사</color>를 통해 보상을 획득할 수 있습니다.",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 600207,
+            "group": 6002,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "돌파 깊이에 따라 보상이 달라지며, 깊은 단계 구역을 돌파하면 얕은 단계 구역 보상도 <color=#f0af14>포함</color>됩니다.",
+            "textFemale": "돌파 깊이에 따라 보상이 달라지며, 깊은 단계 구역을 돌파하면 얕은 단계 구역 보상도 <color=#f0af14>포함</color>됩니다.",
+            "nextButton": true,
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 600301,
+            "group": 6003,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "<color=#f0af14>“돌파 전략”</color>이 해금되었습니다. 클릭해 확인하세요.",
+            "textFemale": "<color=#f0af14>“돌파 전략”</color>이 해금되었습니다. 클릭해 확인하세요.",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/DarkzoneExploreMainPanel(Clone)/Root/Trans_GrpNormal/GrpLeft/GrpBottom/GrpTalent:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 600302,
+            "group": 6003,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "돌파 전략에는 여러 <color=#f0af14>탐사 능력</color>이 포함되어 있어 인형의 영역 돌파 전투 성능을 대폭 강화합니다.",
+            "textFemale": "돌파 전략에는 여러 <color=#f0af14>탐사 능력</color>이 포함되어 있어 인형의 영역 돌파 전투 성능을 대폭 강화합니다.",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 600303,
+            "group": 6003,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "미탐사 구역 탐사로 획득한 <color=#f0af14>전기 방사 크리스탈</color>은 돌파 전략의 제한을 활성화하는 데 사용됩니다.",
+            "textFemale": "미탐사 구역 탐사로 획득한 <color=#f0af14>전기 방사 크리스탈</color>은 돌파 전략의 제한을 활성화하는 데 사용됩니다.",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/DarkzoneExploreTalentPanel(Clone)/Root/GrpDetailsList/Viewport/Content/Node_1/Root:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 600304,
+            "group": 6003,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "<color=#f0af14>활성화</color>를 클릭하세요.",
+            "textFemale": "<color=#f0af14>활성화</color>를 클릭하세요.",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/DarkzoneExploreTalentPanel(Clone)/Root/Trans_GrpRightInfo/DarkzoneExploreTalentInfoItem(Clone)/Root/GrpAction/Trans_GrpActivation/Btn_Activation/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 600305,
+            "group": 6003,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "돌파 전략이 <color=#f0af14>적용되었습니다</color>. 지휘관은 탐사로 결과를 확인해 주세요.",
+            "textFemale": "돌파 전략이 <color=#f0af14>적용되었습니다</color>. 지휘관은 탐사로 결과를 확인해 주세요.",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/DarkzoneExploreTalentPanel(Clone)/Root/GrpTop/GrpTopLeftBtn/BtnBack/Btn_Content:0"
+            ],
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 600401,
+            "group": 6004,
+            "canSkip": true,
+            "avatar": "Avatar_Head_GrozaSR",
+            "avatarFemale": "Avatar_Head_GrozaSR",
+            "name": "그로자",
+            "textPosition": "7,58,-72",
+            "text": "<color=#f0af14>“구역 현상금”</color>이 해금되었습니다. 매주 새로운 현상금이 갱신되니 놓치지 마세요.",
+            "textFemale": "<color=#f0af14>“구역 현상금”</color>이 해금되었습니다. 매주 새로운 현상금이 갱신되니 놓치지 마세요.",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/DarkzoneExploreMainPanel(Clone)/Root/Trans_GrpNormal/GrpLeft/GrpBottom/GrpEntrust:0"
+            ],
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 700101,
+            "group": 7001,
+            "canSkip": true,
+            "avatar": "Avatar_Head_CentaureissiSSR",
+            "avatarFemale": "Avatar_Head_CentaureissiSSR",
+            "name": "센타우레이시",
+            "textPosition": "7,58,-200",
+            "text": "장관님, 바쁘신 와중에 카페의 <color=#f0af14>특조 살롱</color>을 지원해 주셔서 감사합니다. 지금부터 지원 업무를 설명해 드리겠습니다.",
+            "textFemale": "장관님, 바쁘신 와중에 카페의 <color=#f0af14>특조 살롱</color>을 지원해 주셔서 감사합니다. 지금부터 지원 업무를 설명해 드리겠습니다.",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 700102,
+            "group": 7001,
+            "name": "",
+            "text": "센타우레이시 모의 경영PPT",
+            "textFemale": "센타우레이시 모의 경영PPT",
+            "pptGroup": 3030,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 700103,
+            "group": 7001,
+            "canSkip": true,
+            "avatar": "Avatar_Head_CentaureissiSSR",
+            "avatarFemale": "Avatar_Head_CentaureissiSSR",
+            "name": "센타우레이시",
+            "textPosition": "7,58,-200",
+            "text": "살롱을 운영하려면 판매 음료의 공급이 충분해야 합니다. 먼저 장관님, 음료 메뉴를 열어 <color=#f0af14>음료를 제작</color>해 주세요.",
+            "textFemale": "살롱을 운영하려면 판매 음료의 공급이 충분해야 합니다. 먼저 장관님, 음료 메뉴를 열어 <color=#f0af14>음료를 제작</color>해 주세요.",
+            "clickType": 4,
+            "clickAreaPositionNew": [
+                "Default/ActivityCafeMainPanel(Clone)/Root/Trans_GrpFormal/NameRoot/Btn_ActivityCafeMachineInfoItem(Clone)/Root:0"
+            ],
+            "giveItem": {
+                "170086": 3,
+                "170081": 3,
+                "170012": 20,
+                "170091": 3
+            },
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 700104,
+            "group": 7001,
+            "canSkip": true,
+            "avatar": "Avatar_Head_CentaureissiSSR",
+            "avatarFemale": "Avatar_Head_CentaureissiSSR",
+            "name": "센타우레이시",
+            "textPosition": "7,58,-200",
+            "text": "제작할 음료 레시피를 선택하고 <color=#f0af14>조합</color>을 클릭하면 원료를 소비해 음료를 만들 수 있습니다.",
+            "textFemale": "제작할 음료 레시피를 선택하고 <color=#f0af14>조합</color>을 클릭하면 원료를 소비해 음료를 만들 수 있습니다.",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/ActivityCafePadPanel(Clone)/Root/GrpPad/Sale_4/ActivityCafeSaleItem(Clone)/Root/GrpRight/GrpSale/GrpList/Viewport/Content/Btn_ActivityCafeSaleListItem(Clone)/Btn_Shelves:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 700105,
+            "group": 7001,
+            "canSkip": true,
+            "avatar": "Avatar_Head_CentaureissiSSR",
+            "avatarFemale": "Avatar_Head_CentaureissiSSR",
+            "name": "센타우레이시",
+            "textPosition": "7,58,-200",
+            "text": "<color=#f0af14>조합</color> 클릭",
+            "textFemale": "<color=#f0af14>조합</color> 클릭",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/ActivityCafeSupplyDialog(Clone)/Root/GrpDialog/GrpRight/GrpState/Btn_Start:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 700106,
+            "group": 7001,
+            "canSkip": true,
+            "avatar": "Avatar_Head_CentaureissiSSR",
+            "avatarFemale": "Avatar_Head_CentaureissiSSR",
+            "name": "센타우레이시",
+            "textPosition": "7,58,-200",
+            "text": "음료 조합에 성공하면 <color=#f0af14>자동 바</color>에서 판매가 시작되며, 판매가 완료되면 보상을 받고 상점 등급이 상승합니다.",
+            "textFemale": "음료 조합에 성공하면 <color=#f0af14>자동 바</color>에서 판매가 시작되며, 판매가 완료되면 보상을 받고 상점 등급이 상승합니다.",
+            "nextButton": true,
+            "giveItem": {
+                "170086": 3,
+                "170081": 3,
+                "170012": 300,
+                "170091": 3
+            },
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 700107,
+            "group": 7001,
+            "canSkip": true,
+            "avatar": "Avatar_Head_CentaureissiSSR",
+            "avatarFemale": "Avatar_Head_CentaureissiSSR",
+            "name": "센타우레이시",
+            "textPosition": "7,58,-200",
+            "text": "더 많은 원료가 필요하면 <color=#f0af14>물자 모드</color> 스테이지를 클리어해 주세요. 이 작업은 장관님의 도움이 필요합니다.",
+            "textFemale": "더 많은 원료가 필요하면 <color=#f0af14>물자 모드</color> 스테이지를 클리어해 주세요. 이 작업은 장관님의 도움이 필요합니다.",
+            "nextButton": true,
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 710101,
+            "group": 7101,
+            "canSkip": true,
+            "avatar": "Avatar_Head_CentaureissiSSR",
+            "avatarFemale": "Avatar_Head_CentaureissiSSR",
+            "name": "센타우레이시",
+            "textPosition": "7,58,-200",
+            "text": "장관님, 이것은 <color=#f0af14>슈가 큐브 어시스턴트</color>로 카페 운영 상황을 실시간으로 파악하도록 도와줍니다.",
+            "textFemale": "장관님, 이것은 <color=#f0af14>슈가 큐브 어시스턴트</color>로 카페 운영 상황을 실시간으로 파악하도록 도와줍니다.",
+            "clickType": 1,
+            "clickActionType": 13,
+            "clickActionTypeParam": 53,
+            "clickAreaPositionNew": [
+                "Default/ActivityCafeMainPanel(Clone)/Root/GrpBottom/Btn_Pad/Root:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 710102,
+            "group": 7101,
+            "canSkip": true,
+            "avatar": "Avatar_Head_CentaureissiSSR",
+            "avatarFemale": "Avatar_Head_CentaureissiSSR",
+            "name": "센타우레이시",
+            "textPosition": "7,58,-200",
+            "text": "슈가 큐브 어시스턴트 메인 페이지에서 현재 카페의 <color=#f0af14>상점 등급</color>과 <color=#f0af14>평가 과제</color>를 확인할 수 있습니다. 과제를 완료하면 상점 등급이 상승합니다.",
+            "textFemale": "슈가 큐브 어시스턴트 메인 페이지에서 현재 카페의 <color=#f0af14>상점 등급</color>과 <color=#f0af14>평가 과제</color>를 확인할 수 있습니다. 과제를 완료하면 상점 등급이 상승합니다.",
+            "nextButton": true,
+            "delay": 2.0,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 710103,
+            "group": 7101,
+            "canSkip": true,
+            "name": "",
+            "text": "의견 게시판을 터치해 보세요.",
+            "textFemale": "의견 게시판을 터치해 보세요.",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/ActivityCafePadPanel(Clone)/Root/GrpPad/GrpTopTab/TabLeftModeList/Content:3"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 710104,
+            "group": 7101,
+            "canSkip": true,
+            "avatar": "Avatar_Head_CentaureissiSSR",
+            "avatarFemale": "Avatar_Head_CentaureissiSSR",
+            "name": "센타우레이시",
+            "textPosition": "7,58,-200",
+            "text": "<color=#f0af14>의견 벽</color> 탭에서 고객이 남긴 메모를 확인하고 의견을 통합할 수 있으며, 이는 카페 평가 과제 중 하나입니다.",
+            "textFemale": "<color=#f0af14>의견 벽</color> 탭에서 고객이 남긴 메모를 확인하고 의견을 통합할 수 있으며, 이는 카페 평가 과제 중 하나입니다.",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 710105,
+            "group": 7101,
+            "canSkip": true,
+            "name": "",
+            "text": "주변 클릭 가이드",
+            "textFemale": "주변 클릭 가이드",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/ActivityCafePadPanel(Clone)/Root/GrpPad/GrpTopTab/TabLeftModeList/Content:4"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 710106,
+            "group": 7101,
+            "canSkip": true,
+            "avatar": "Avatar_Head_CentaureissiSSR",
+            "avatarFemale": "Avatar_Head_CentaureissiSSR",
+            "name": "센타우레이시",
+            "textPosition": "7,58,-200",
+            "text": "슈가 큐브 굿즈 탭에서 <color=#f0af14>스탬프 스티커</color>로 필요한 물자를 교환할 수 있습니다. 굿즈 레벨이 높을수록 교환 가능한 물자가 더욱 풍부해집니다.",
+            "textFemale": "슈가 큐브 굿즈 탭에서 <color=#f0af14>스탬프 스티커</color>로 필요한 물자를 교환할 수 있습니다. 굿즈 레벨이 높을수록 교환 가능한 물자가 더욱 풍부해집니다.",
+            "nextButton": true,
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 800101,
+            "group": 8001,
+            "canSkip": true,
+            "avatar": "Avatar_Head_SpringfieldSSR",
+            "avatarFemale": "Avatar_Head_SpringfieldSSR",
+            "name": "스프링필드",
+            "textPosition": "7,58,-300",
+            "text": "리조트에 오신 것을 환영합니다! 행사 기간 동안 임시로 냥케로 카페의 운영을 맡게 됐어요. 물론 운영 초기가 가장 바쁜 기간이니만큼, 지휘관님께서 접객을 좀 도와주시면 감사하겠습니다.",
+            "textFemale": "리조트에 오신 것을 환영합니다! 행사 기간 동안 임시로 냥케로 카페의 운영을 맡게 됐어요. 물론 운영 초기가 가장 바쁜 기간이니만큼, 지휘관님께서 접객을 좀 도와주시면 감사하겠습니다.",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 800102,
+            "group": 8001,
+            "canSkip": true,
+            "avatar": "Avatar_Head_SpringfieldSSR",
+            "avatarFemale": "Avatar_Head_SpringfieldSSR",
+            "name": "스프링필드",
+            "textPosition": "7,58,-300",
+            "text": "벌써 손님이 한 분 대기중이시네요. 어떤 메뉴를 원하시는지 물어볼까요?",
+            "textFemale": "벌써 손님이 한 분 대기중이시네요. 어떤 메뉴를 원하시는지 물어볼까요?",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/KittyCafeMainPanel(Clone)/Root/Trans_GrpFormal/FunctionRoot/Icon_KittyCafeMainfFunction_Make:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 800103,
+            "group": 8001,
+            "canSkip": true,
+            "avatar": "Avatar_Head_SpringfieldSSR",
+            "avatarFemale": "Avatar_Head_SpringfieldSSR",
+            "name": "스프링필드",
+            "textPosition": "7,58,-100",
+            "text": "손님은 원하는 커피 종류를 알려 줍니다. 예를 들어 이 손님은 <color=#f0af14>【벨벳 라테】</color>를 원하네요.",
+            "textFemale": "손님은 원하는 커피 종류를 알려 줍니다. 예를 들어 이 손님은 <color=#f0af14>【벨벳 라테】</color>를 원하네요.",
+            "nextButton": true,
+            "delay": 2.0,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 800104,
+            "group": 8001,
+            "canSkip": true,
+            "avatar": "Avatar_Head_SpringfieldSSR",
+            "avatarFemale": "Avatar_Head_SpringfieldSSR",
+            "name": "스프링필드",
+            "textPosition": "7,58,-100",
+            "text": "지휘관은 커피 레시피에 익숙하지 않으실 테지만 걱정 마세요, 필요한 <color=#f0af14>레시피</color>와 <color=#f0af14>조합 순서</color>를 여기 표시해 두었습니다.",
+            "textFemale": "지휘관은 커피 레시피에 익숙하지 않으실 테지만 걱정 마세요, 필요한 <color=#f0af14>레시피</color>와 <color=#f0af14>조합 순서</color>를 여기 표시해 두었습니다.",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 800105,
+            "group": 8001,
+            "canSkip": true,
+            "avatar": "Avatar_Head_SpringfieldSSR",
+            "avatarFemale": "Avatar_Head_SpringfieldSSR",
+            "name": "스프링필드",
+            "textPosition": "7,58,-100",
+            "text": "레시피에 따라 <color=#f0af14>우유</color> 두 번과 <color=#f0af14>커피</color>를 넣어야 합니다.",
+            "textFemale": "레시피에 따라 <color=#f0af14>우유</color> 두 번과 <color=#f0af14>커피</color>를 넣어야 합니다.",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/KittyCafeMakePanel(Clone)/Root/GrpTable/GrpAction/BtnCoffee:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 800106,
+            "group": 8001,
+            "canSkip": true,
+            "avatar": "Avatar_Head_SpringfieldSSR",
+            "avatarFemale": "Avatar_Head_SpringfieldSSR",
+            "name": "스프링필드",
+            "textPosition": "7,58,-100",
+            "text": "조합 과정에서 재료나 순서를 잘못 넣을 수 있는데, 지휘관은 <color=#f0af14>【휴지통】</color>을 눌러 다시 만들면 됩니다.",
+            "textFemale": "조합 과정에서 재료나 순서를 잘못 넣을 수 있는데, 지휘관은 <color=#f0af14>【휴지통】</color>을 눌러 다시 만들면 됩니다.",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/KittyCafeMakePanel(Clone)/Root/GrpTable/Btn_Delete:0"
+            ],
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 800107,
+            "group": 8001,
+            "canSkip": true,
+            "avatar": "Avatar_Head_SpringfieldSSR",
+            "avatarFemale": "Avatar_Head_SpringfieldSSR",
+            "name": "스프링필드",
+            "textPosition": "7,58,-100",
+            "text": "지휘관, 먼저 <color=#f0af14>우유</color>를 두 번 클릭해 주세요.",
+            "textFemale": "지휘관, 먼저 <color=#f0af14>우유</color>를 두 번 클릭해 주세요.",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/KittyCafeMakePanel(Clone)/Root/GrpTable/GrpAction/BtnMilk/Btn_Milk:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 800108,
+            "group": 8001,
+            "canSkip": true,
+            "name": "",
+            "text": "",
+            "textFemale": "",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/KittyCafeMakePanel(Clone)/Root/GrpTable/GrpAction/BtnMilk/Btn_Milk:0"
+            ],
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 800109,
+            "group": 8001,
+            "canSkip": true,
+            "avatar": "Avatar_Head_SpringfieldSSR",
+            "avatarFemale": "Avatar_Head_SpringfieldSSR",
+            "name": "스프링필드",
+            "textPosition": "7,58,-100",
+            "text": "좋습니다, 마지막 단계입니다. <color=#f0af14>커피 원액</color>을 한 번 클릭해 주세요.",
+            "textFemale": "좋습니다, 마지막 단계입니다. <color=#f0af14>커피 원액</color>을 한 번 클릭해 주세요.",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/KittyCafeMakePanel(Clone)/Root/GrpTable/GrpAction/BtnCoffee:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 800110,
+            "group": 8001,
+            "canSkip": true,
+            "avatar": "Avatar_Head_SpringfieldSSR",
+            "avatarFemale": "Avatar_Head_SpringfieldSSR",
+            "name": "스프링필드",
+            "textPosition": "7,58,-100",
+            "text": "짠~ <color=#f0af14>벨벳 라테</color>가 완성됐습니다. 클릭해 전달하고 손님께 빠르게 가져다 주세요.",
+            "textFemale": "짠~ <color=#f0af14>벨벳 라테</color>가 완성됐습니다. 클릭해 전달하고 손님께 빠르게 가져다 주세요.",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/KittyCafeMakePanel(Clone)/Root/GrpTable/GrpCup/KittyCafeCupItem(Clone)/Btn_Action:0"
+            ],
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 809901,
+            "group": 8099,
+            "canSkip": true,
+            "name": "",
+            "text": "냥카페ppt",
+            "textFemale": "냥카페ppt",
+            "finishPage": 1,
+            "pptGroup": 3027,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 810101,
+            "group": 8101,
+            "canSkip": true,
+            "avatar": "Avatar_Head_SpringfieldSSR",
+            "avatarFemale": "Avatar_Head_SpringfieldSSR",
+            "name": "스프링필드",
+            "textPosition": "7,58,-300",
+            "text": "지휘관, 방금 그 손님이 떠나면서 <color=#f0af14>낚싯대 장난감</color>을 두고 갔어요. 슈가 캣들이 가장 좋아하는 거랍니다. 캣타워에 놓고 무슨 일이 일어나는지 볼까요?",
+            "textFemale": "지휘관, 방금 그 손님이 떠나면서 <color=#f0af14>낚싯대 장난감</color>을 두고 갔어요. 슈가 캣들이 가장 좋아하는 거랍니다. 캣타워에 놓고 무슨 일이 일어나는지 볼까요?",
+            "clickType": 1,
+            "virtualListItemId": {
+                "Canvas/Default/KittyCafeCollectPanel(Clone)/Root/Content/GrpList": "1|2"
+            },
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 810102,
+            "group": 8101,
+            "canSkip": true,
+            "avatar": "Avatar_Head_SpringfieldSSR",
+            "avatarFemale": "Avatar_Head_SpringfieldSSR",
+            "name": "스프링필드",
+            "textPosition": "7,58,-300",
+            "text": "어머나, 귀여운 고양이가 한 마리 왔네요!",
+            "textFemale": "어머나, 귀여운 고양이가 한 마리 왔네요!",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 810103,
+            "group": 8101,
+            "canSkip": true,
+            "avatar": "Avatar_Head_SpringfieldSSR",
+            "avatarFemale": "Avatar_Head_SpringfieldSSR",
+            "name": "스프링필드",
+            "textPosition": "7,58,-300",
+            "text": "지휘관님, 어서 저 아이를 냥카페로 데려오죠.",
+            "textFemale": "지휘관님, 어서 저 아이를 냥카페로 데려오죠.",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/KittyCafeCollectPanel(Clone)/Root/GrpAction/Btn_Confirm/Btn_Content:0"
+            ],
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 810104,
+            "group": 8101,
+            "canSkip": true,
+            "avatar": "Avatar_Head_SpringfieldSSR",
+            "avatarFemale": "Avatar_Head_SpringfieldSSR",
+            "name": "스프링필드",
+            "textPosition": "7,58,-300",
+            "text": "장식품이 마음에 드시면 거둬들일 필요 없어요.",
+            "textFemale": "장식품이 마음에 드시면 거둬들일 필요 없어요.",
+            "clickType": 1,
+            "virtualListItemId": {
+                "Canvas/Default/KittyCafeCollectPanel(Clone)/Root/Content/GrpList": "1|2"
+            },
+            "delay": 0.5,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 810105,
+            "group": 8101,
+            "canSkip": true,
+            "avatar": "Avatar_Head_SpringfieldSSR",
+            "avatarFemale": "Avatar_Head_SpringfieldSSR",
+            "name": "스프링필드",
+            "textPosition": "7,58,-300",
+            "text": "여기 남겨놓고 캣타워 장식용으로 쓰는 것도 좋겠네요.",
+            "textFemale": "여기 남겨놓고 캣타워 장식용으로 쓰는 것도 좋겠네요.",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/KittyCafeCollectPanel(Clone)/Root/GrpAction/Btn_Decorate/Btn_Content:0"
+            ],
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 820101,
+            "group": 8201,
+            "avatar": "Avatar_Head_SpringfieldSSR",
+            "avatarFemale": "Avatar_Head_SpringfieldSSR",
+            "name": "스프링필드",
+            "textPosition": "7,58,-100",
+            "text": "어머나, 아무래도 고양이가 지휘관님께 할 말이 있나봐요.",
+            "textFemale": "어머나, 아무래도 고양이가 지휘관님께 할 말이 있나봐요.",
+            "clickType": 1,
+            "virtualListItemId": {
+                "Canvas/Default/KittyCafePutPanel(Clone)/Root/Trans_GrpAvatarList/GrpInfo/GrpList": "0|2"
+            },
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 820102,
+            "group": 8201,
+            "avatar": "Avatar_Head_SpringfieldSSR",
+            "avatarFemale": "Avatar_Head_SpringfieldSSR",
+            "name": "스프링필드",
+            "textPosition": "7,58,-100",
+            "text": "냥카페에는 지휘관님과 소통하고 싶어하는 고양이가 많아요.",
+            "textFemale": "냥카페에는 지휘관님과 소통하고 싶어하는 고양이가 많아요.",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 820103,
+            "group": 8201,
+            "avatar": "Avatar_Head_SpringfieldSSR",
+            "avatarFemale": "Avatar_Head_SpringfieldSSR",
+            "name": "스프링필드",
+            "textPosition": "7,58,-100",
+            "text": "지휘관이 관심이 있다면 <color=#f0af14>다른</color> 고양이 조합을 여기 배치해 보세요.",
+            "textFemale": "지휘관이 관심이 있다면 <color=#f0af14>다른</color> 고양이 조합을 여기 배치해 보세요.",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 820104,
+            "group": 8201,
+            "avatar": "Avatar_Head_SpringfieldSSR",
+            "avatarFemale": "Avatar_Head_SpringfieldSSR",
+            "name": "스프링필드",
+            "textPosition": "7,58,-100",
+            "text": "이 고양이들은 <color=#f0af14>특정</color> 조합일 때만 교류합니다.",
+            "textFemale": "이 고양이들은 <color=#f0af14>특정</color> 조합일 때만 교류합니다.",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 820105,
+            "group": 8201,
+            "avatar": "Avatar_Head_KittyCafe_Qiongjiu",
+            "avatarFemale": "Avatar_Head_KittyCafe_Qiongjiu",
+            "name": "잉크",
+            "textPosition": "7,58,-100",
+            "text": "냐아!",
+            "textFemale": "냐아!",
+            "clickType": 1,
+            "clickAreaPositionNew": [
+                "Default/KittyCafePutPanel(Clone)/Root/Trans_GrpAvatarList/GrpAction/Btn_Confirm/Btn_Content:0"
+            ],
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 820201,
+            "group": 8202,
+            "avatar": "Avatar_Head_SpringfieldSSR",
+            "avatarFemale": "Avatar_Head_SpringfieldSSR",
+            "name": "스프링필드",
+            "textPosition": "7,58,-100",
+            "text": "어머, 냥카페에 있는 이 고양이들, 우리에게 특별한 선물을 준 것 같네요.",
+            "textFemale": "어머, 냥카페에 있는 이 고양이들, 우리에게 특별한 선물을 준 것 같네요.",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 820202,
+            "group": 8202,
+            "avatar": "Avatar_Head_SpringfieldSSR",
+            "avatarFemale": "Avatar_Head_SpringfieldSSR",
+            "name": "스프링필드",
+            "textPosition": "7,58,-100",
+            "text": "꽤 중요한 증표인 듯합니다. 아마 동료를 <color=#f0af14>유인</color>하는 데 쓸 수 있을지도 모릅니다.",
+            "textFemale": "꽤 중요한 증표인 듯합니다. 아마 동료를 <color=#f0af14>유인</color>하는 데 쓸 수 있을지도 모릅니다.",
+            "nextButton": true,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 820203,
+            "group": 8202,
+            "avatar": "Avatar_Head_SpringfieldSSR",
+            "avatarFemale": "Avatar_Head_SpringfieldSSR",
+            "name": "스프링필드",
+            "textPosition": "7,58,-100",
+            "text": "지휘관님, 한번 해보시겠어요?",
+            "textFemale": "지휘관님, 한번 해보시겠어요?",
+            "nextButton": true,
+            "finishPage": 1,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 900101,
+            "group": 9001,
+            "canSkip": true,
+            "name": "",
+            "text": "유물 회수 ppt",
+            "textFemale": "유물 회수 ppt",
+            "finishPage": 1,
+            "pptGroup": 3026,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 910101,
+            "group": 9101,
+            "canSkip": true,
+            "name": "",
+            "text": "편성ppt",
+            "textFemale": "편성ppt",
+            "finishPage": 1,
+            "pptGroup": 3037,
+            "clickAreaEffectType": 2
+        },
+        {
+            "id": 920101,
+            "group": 9201,
+            "canSkip": true,
+            "name": "",
+            "text": "리몰딩 패턴 ppt",
+            "textFemale": "리몰딩 패턴 ppt",
+            "finishPage": 1,
+            "pptGroup": 3039,
+            "clickAreaEffectType": 2
+        }
+    ]
+}
