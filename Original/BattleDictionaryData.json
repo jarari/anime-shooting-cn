@@ -831,6 +831,36 @@
             "description": "召唤物。继承芙洛伦<color=#f26c1c>120%</color>初始生命值，<color=#f26c1c>100%</color>初始攻击力和<color=#f26c1c>120%</color>初始防御力。有对敌方单位施加<color=#3487e0>{0}</color>的能力，能替芙洛伦承担伤害，且芙洛伦或自身受到伤害后，会进行<color=#3487e0>{1}</color>。"
         },
         {
+            "id": 90253,
+            "name": "重力震荡",
+            "description": "对所有敌方目标造成<color=#f26c1c>90%</color>攻击力的范围物理伤害，并击退该目标<color=#f26c1c>4</color>格。"
+        },
+        {
+            "id": 90254,
+            "name": "哨戒模式",
+            "description": "受到最终伤害降低<color=#f26c1c>60%</color>。\n回合开始时，召唤<color=#f26c1c>2</color>个哨兵。选取<color=#f26c1c>攻击力最高</color>的敌方目标，对其施加<color=#3487e0>{0}</color>，持续<color=#f26c1c>2</color>回合。"
+        },
+        {
+            "id": 90255,
+            "name": "跃升模式",
+            "description": "受到最终伤害降低<color=#f26c1c>99%</color>。\n大回合开始时，召唤<color=#f26c1c>2</color>个堡垒装置。回合开始时驱散自身<color=#f26c1c>1</color>个减益效果，获得<color=#f26c1c>100%</color>最大生命值的护盾。回合结束时释放<color=#3487e0>{0}</color>。\n任务完成后，从<color=#f26c1c>跃升模式</color>切换为<color=#f26c1c>哨戒模式</color>。"
+        },
+        {
+            "id": 90256,
+            "name": "重力震荡",
+            "description": "对所有敌方目标造成<color=#f26c1c>120%</color>攻击力的范围物理伤害，施加<color=#3487e0>{0}</color>和<color=#3487e0>{1}</color>，持续<color=#f26c1c>2</color>回合，并击退该目标<color=#f26c1c>4</color>格。"
+        },
+        {
+            "id": 90257,
+            "name": "哨戒模式",
+            "description": "受到最终伤害降低<color=#f26c1c>80%</color>，行动力增加<color=#f26c1c>1</color>格。\n回合开始时，召唤<color=#f26c1c>3</color>个哨兵。选取<color=#f26c1c>攻击力最高</color>的敌方目标，对其施加<color=#3487e0>{0}</color>，持续<color=#f26c1c>2</color>回合。"
+        },
+        {
+            "id": 90258,
+            "name": "跃升模式",
+            "description": "受到最终伤害降低<color=#f26c1c>99%</color>，行动力增加<color=#f26c1c>1</color>格。\n大回合开始时，召唤<color=#f26c1c>3</color>个堡垒装置。回合开始时驱散自身<color=#f26c1c>2</color>个减益效果，获得<color=#f26c1c>100%</color>最大生命值的护盾。回合结束时释放<color=#3487e0>{0}</color>。\n任务完成后，从<color=#f26c1c>跃升模式</color>切换为<color=#f26c1c>哨戒模式</color>。"
+        },
+        {
             "id": 900229,
             "name": "回溯代码",
             "description": "受到伤害降低<color=#f26c1c>90%</color>。回合开始时，恢复自身<color=#f26c1c>8%</color>最大生命值的生命值。增益不可驱散。"
@@ -899,6 +929,26 @@
             "id": 900242,
             "name": "护盾穿透率",
             "description": "对拥有护盾的目标造成伤害时，无视目标对应比例的护盾，直接对其生命值造成伤害。"
+        },
+        {
+            "id": 900243,
+            "name": "苏醒指令",
+            "description": "解除<color=#3487e0>{0}</color>，获得<color=#f26c1c>5格</color>移动追加。"
+        },
+        {
+            "id": 900244,
+            "name": "残梦流弹",
+            "description": "交替触发主动技能<color=#3487e0>爆裂梦潮</color>和普攻<color=#3487e0>睡前热身</color>，攻击前对生效范围内的敌方单位施加<color=#3487e0>{0}</color>，持续<color=#f26c1c>1回合</color>。其中<color=#3487e0>爆裂梦潮</color>的生效范围增加2格，<color=#3487e0>睡前热身</color>的伤害系数提高至<color=#f26c1c>130%</color>。"
+        },
+        {
+            "id": 900245,
+            "name": "爆裂梦潮",
+            "description": "实际效果与主动技能<color=#3487e0>爆裂梦潮</color>一致，伤害范围提高至半径<color=#f26c1c>3格</color>，可被视为主动技能<color=#3487e0>爆裂梦潮</color>。"
+        },
+        {
+            "id": 900246,
+            "name": "睡前热身",
+            "description": "实际效果与普攻<color=#3487e0>睡前热身</color>一致，伤害系数提高至<color=#f26c1c>130%</color>，可被视为普攻<color=#3487e0>睡前热身</color>。"
         },
         {
             "id": 901031,

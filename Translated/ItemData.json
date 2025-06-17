@@ -1710,6 +1710,18 @@
             "iconPath": "Character"
         },
         {
+            "id": 1059,
+            "name": "린드",
+            "introduction": "外表看似暴躁、实则内心敏感的人形，常常勉强自己做不擅长的事又陷入自我厌恶。喜欢熬夜听深夜电台，如果不及时摄取糖分的话就容易犯恶心。非常讨厌野蛮的暴力，不过她认为武器只是一种文明有效的解决手段，所以用枪并不在这个范畴内。\n“摄入糖分过多会故障，但不摄入的话我现在立刻就会报废，所以还是吃吧……唔姆。指挥官也要来一块吗？”",
+            "description": "人形整卡",
+            "type": 10,
+            "icon": "Item_Icon_Gun_LindSSR",
+            "rank": 5,
+            "sort": 34,
+            "argsStr": "1059",
+            "iconPath": "Character"
+        },
+        {
             "id": 1064,
             "name": "플로렌스",
             "introduction": "자극과 즐거움을 추구하는 의료 인형으로, 성격은 솔직하지만 유혹에 능하다. 동시에 뛰어난 의료 기술과 약제 조제에 대한 열정을 겸비했지만, 그 성격 탓에 이 열정은 종종 감당하기 어렵다.\n“이 알약이든, 이 주사기든, 아니면 내 ‘벌’이든, 어느 걸 고를래? 어느 쪽이든 굉장히 기분 좋을 거야.”",
@@ -2412,6 +2424,23 @@
             "howToGet": "3",
             "showType": 2,
             "argsStr": "1058",
+            "iconPath": "Item",
+            "dismantlingList": {
+                "2": 5000
+            }
+        },
+        {
+            "id": 4059,
+            "name": "琳德心智存档",
+            "introduction": "“哈啊……麻烦死了，为什么人形也要有这么多胡思乱想的时候啊……”这份心智存档似乎有些莫名的焦虑。\n琳德的心智存档，可用于该人形的云图强固。",
+            "description": "人形碎片",
+            "type": 11,
+            "icon": "Item_Icon_Core_LindSSR",
+            "rank": 5,
+            "sort": 34,
+            "howToGet": "3",
+            "showType": 2,
+            "argsStr": "1059",
             "iconPath": "Item",
             "dismantlingList": {
                 "2": 5000
@@ -6490,6 +6519,54 @@
             }
         },
         {
+            "id": 10591,
+            "name": "旧式艾奇逊12自动霰弹枪",
+            "introduction": "从暗商处采购的廉价武器，射速虽快但精度欠佳，长时间射击会导致过热和卡壳。",
+            "description": "武器",
+            "type": 20,
+            "icon": "Weapon_AA12_3",
+            "rank": 3,
+            "sort": 77,
+            "showType": 2,
+            "argsStr": "10591",
+            "iconPath": "Weapon",
+            "dismantlingList": {
+                "16": 2
+            }
+        },
+        {
+            "id": 10592,
+            "name": "艾奇逊12自动霰弹枪",
+            "introduction": "与琳德契合度高的枪械，针对琳德的作战偏好进行了一定的改造，先进的缓冲系统有效降低了后坐力，同时优化了弹道的稳定性。",
+            "description": "武器",
+            "type": 20,
+            "icon": "Weapon_AA12_4",
+            "rank": 4,
+            "sort": 77,
+            "showType": 2,
+            "argsStr": "10592",
+            "iconPath": "Weapon",
+            "dismantlingList": {
+                "47": 18
+            }
+        },
+        {
+            "id": 10593,
+            "name": "刺棘法则",
+            "introduction": "琳德被配给的高性能霰弹枪，以艾奇逊12自动霰弹枪为原型，经过全面的改造升级，在近距离作战中展现出毁灭性的破坏力。竖起尖刺，是保护自我的手段，也是反击的利器。",
+            "description": "武器",
+            "type": 20,
+            "icon": "Weapon_AA12_5",
+            "rank": 5,
+            "sort": 77,
+            "showType": 2,
+            "argsStr": "10593",
+            "iconPath": "Weapon",
+            "dismantlingList": {
+                "47": 90
+            }
+        },
+        {
             "id": 10641,
             "name": "구형 15형 자동권총",
             "introduction": "옐로우존 어디에서나 볼 수 있는 값싼 무기. 심하게 낡아 겨우 사용 요구를 충족한다.",
@@ -9242,6 +9319,54 @@
             }
         },
         {
+            "id": 15591,
+            "name": "武器蓝图·旧式艾奇逊12自动霰弹枪",
+            "introduction": "常见的武器蓝图，简洁的线条勾勒出武器的轮廓。\n可用于组装旧式艾奇逊12自动霰弹枪。",
+            "description": "武器碎片",
+            "type": 38,
+            "icon": "Weapon_AA12_Core_3",
+            "rank": 3,
+            "sort": 77,
+            "showType": 2,
+            "argsStr": "10591",
+            "iconPath": "WeaponCore",
+            "dismantlingList": {
+                "2": 5000
+            }
+        },
+        {
+            "id": 15592,
+            "name": "武器蓝图·艾奇逊12自动霰弹枪",
+            "introduction": "少见的武器蓝图，简洁的线条勾勒出武器的轮廓。\n可用于组装艾奇逊12自动霰弹枪。",
+            "description": "武器碎片",
+            "type": 38,
+            "icon": "Weapon_AA12_Core_4",
+            "rank": 4,
+            "sort": 77,
+            "showType": 2,
+            "argsStr": "10592",
+            "iconPath": "WeaponCore",
+            "dismantlingList": {
+                "2": 5000
+            }
+        },
+        {
+            "id": 15593,
+            "name": "武器蓝图·刺棘法则",
+            "introduction": "稀有的武器蓝图，简洁的线条勾勒出武器的轮廓。\n可用于组装刺棘法则。",
+            "description": "武器碎片",
+            "type": 38,
+            "icon": "Weapon_AA12_Core_5",
+            "rank": 5,
+            "sort": 77,
+            "showType": 2,
+            "argsStr": "10593",
+            "iconPath": "WeaponCore",
+            "dismantlingList": {
+                "2": 5000
+            }
+        },
+        {
             "id": 15641,
             "name": "무기 청사진·구형 15형 자동권총",
             "introduction": "흔한 무기 청사진. 간결한 선으로 무기의 윤곽을 그려냅니다.\n「구형 15형 자동권총」 조립에 사용할 수 있습니다.",
@@ -9578,7 +9703,7 @@
         {
             "id": 21033,
             "name": "아이콘·교차 돌진",
-            "introduction": "서로 다른 곳에서 각자의 어려움에 직면합니다. 그 작은 반딧불이 눈부신 빛을 모아 앞으로 나아갈 길을 밝혀줄 것입니다.\n[교차 돌진] 이벤트의 노멀 모드 클리어 시 해금.",
+            "introduction": "在不同的地点，各自面对困境。那点点萤火，终将汇聚成耀眼的光芒，照亮前进的路。\n通关交织突进剧情战役普通模式后解锁。",
             "description": "头像",
             "type": 12,
             "icon": "Avatar_Head_ActivityLenna",
@@ -10258,6 +10383,18 @@
             "iconPath": "Avatar"
         },
         {
+            "id": 21093,
+            "name": "绘像·空想白昼",
+            "introduction": "以常见着装出现的琳德，从这个角度可以更清楚地看到她的黑眼圈，不过据本人声称只是烟熏妆而已。\n获得琳德后解锁。",
+            "description": "头像",
+            "type": 12,
+            "icon": "Avatar_Head_LindSSR",
+            "rank": 5,
+            "sort": 102,
+            "argsStr": "21093",
+            "iconPath": "Avatar"
+        },
+        {
             "id": 21098,
             "name": "아이콘·매혹의 백우",
             "introduction": "평상복 차림의 플로렌스가 미소를 지으며 당신의 행동을 기다리는 듯하다.\n플로렌스를 획득하면 해금.",
@@ -10603,6 +10740,30 @@
             "rank": 5,
             "sort": 102,
             "argsStr": "21132",
+            "iconPath": "Avatar"
+        },
+        {
+            "id": 21133,
+            "name": "绘像·共响频率",
+            "introduction": "原本是独属于一人的电台时光，此后，有了你的陪伴，寂静的夜晚不再孤单。\n人形回赠的心意赠礼，与人形铭契后获得。",
+            "description": "头像",
+            "type": 12,
+            "icon": "Avatar_Head_LindLove",
+            "rank": 5,
+            "sort": 102,
+            "argsStr": "21133",
+            "iconPath": "Avatar"
+        },
+        {
+            "id": 21134,
+            "name": "绘像·天才儿童",
+            "introduction": "“无论是什么心愿，只要本天才动动脑筋，就能轻松帮你实现！”\n人形回赠的心意赠礼，与人形铭契后获得。",
+            "description": "头像",
+            "type": 12,
+            "icon": "Avatar_Head_CheetaLove",
+            "rank": 5,
+            "sort": 102,
+            "argsStr": "21134",
             "iconPath": "Avatar"
         },
         {
@@ -11107,6 +11268,42 @@
             "rank": 5,
             "sort": 102,
             "argsStr": "21198",
+            "iconPath": "Avatar"
+        },
+        {
+            "id": 21199,
+            "name": "绘像·太阳永不升起",
+            "introduction": "她听着静静的海浪声，逐渐淡忘了心中的焦虑，因为值得依赖的人就在身边。\n获得琳德的衣装·太阳永不升起后解锁。",
+            "description": "头像",
+            "type": 12,
+            "icon": "Avatar_Head_LindSSR01",
+            "rank": 4,
+            "sort": 102,
+            "argsStr": "21199",
+            "iconPath": "Avatar"
+        },
+        {
+            "id": 21200,
+            "name": "绘像·午夜电波",
+            "introduction": "原来直面自我的感觉，竟是这般如释重负。\n领取沉没夜潮·深渊绝赌最后一档奖励以解锁。",
+            "description": "头像",
+            "type": 12,
+            "icon": "Avatar_Head_ActivityLind1",
+            "rank": 5,
+            "sort": 102,
+            "argsStr": "21200",
+            "iconPath": "Avatar"
+        },
+        {
+            "id": 21201,
+            "name": "绘像·苦痛砂糖",
+            "introduction": "即便背负着过去的苦痛，也可以为了保护他人，继续前行。\n通关所有沉没夜潮剧情关卡以解锁。",
+            "description": "头像",
+            "type": 12,
+            "icon": "Avatar_Head_ActivityLind2",
+            "rank": 5,
+            "sort": 102,
+            "argsStr": "21201",
             "iconPath": "Avatar"
         },
         {
@@ -11832,6 +12029,17 @@
             "rank": 5,
             "sort": 1,
             "argsStr": "22072",
+            "iconPath": "Item"
+        },
+        {
+            "id": 22073,
+            "name": "徽记·悖论重构",
+            "introduction": "当齿轮停止转动，斗争才真正开始——B.R.I.E.F.于此见证。\n在兵棋推演赛季·悖论重构中获得前80%排名后解锁。",
+            "type": 36,
+            "icon": "Item_Icon_Medal_HighPVP_Season17",
+            "rank": 5,
+            "sort": 1,
+            "argsStr": "22073",
             "iconPath": "Item"
         },
         {
@@ -12641,6 +12849,19 @@
             "iconPath": "PlayerTitlePic"
         },
         {
+            "id": 23080,
+            "name": "琳德·入队",
+            "introduction": "由B.R.I.E.F.授予的称号，纪念琳德的登车时刻，谁说艾莫号没有夜生活？\n获得人形琳德后解锁。",
+            "description": "称号",
+            "type": 37,
+            "icon": "Img_Title_GunGet_Lind",
+            "rank": 5,
+            "sort": 1,
+            "howToGet": "0",
+            "argsStr": "23080",
+            "iconPath": "PlayerTitlePic"
+        },
+        {
             "id": 23085,
             "name": "플로렌스·영입",
             "introduction": "B.R.I.E.F.가 수여한 칭호로, 플로렌스의 탑승 순간을 기념한다. 그녀의 주사기와 정체 불명의 알약을 조심하라.\n인형 플로렌스 획득 시 해금.",
@@ -12992,6 +13213,32 @@
             "iconPath": "PlayerTitlePic"
         },
         {
+            "id": 23118,
+            "name": "深夜电台特邀嘉宾",
+            "introduction": "不是任何人都能走进她的深夜世界，而你，是她愿意分享心事的最佳听众。\n与人形契合的证明，契合度达到8级解锁。",
+            "description": "称号",
+            "type": 37,
+            "icon": "Img_Title_Love_Lind",
+            "rank": 5,
+            "sort": 1,
+            "howToGet": "0",
+            "argsStr": "23118",
+            "iconPath": "PlayerTitlePic"
+        },
+        {
+            "id": 23119,
+            "name": "本世纪最伟大的饲养员",
+            "introduction": "“锵锵——恭喜饲养员获得了本天才的最高嘉奖！”\n与人形契合的证明，契合度达到8级解锁。",
+            "description": "称号",
+            "type": 37,
+            "icon": "Img_Title_Love_Cheeta",
+            "rank": 5,
+            "sort": 1,
+            "howToGet": "0",
+            "argsStr": "23119",
+            "iconPath": "PlayerTitlePic"
+        },
+        {
             "id": 23141,
             "name": "백련영광",
             "introduction": "B.R.I.E.F.에서 수여하는 칭호. 오랫동안 갈고 닦은 실전 기술은 누구도 따라올 자 없으니.\n「워게임 매치·백련영광 시즌」에서 상위 80% 달성 시 해금.",
@@ -13210,6 +13457,19 @@
             "sort": 1,
             "howToGet": "0",
             "argsStr": "23157",
+            "iconPath": "PlayerTitlePic"
+        },
+        {
+            "id": 23158,
+            "name": "悖论重构",
+            "introduction": "由B.R.I.E.F.授予的称号，逻辑死锁的战术，比子弹更为致命。\n在兵棋推演赛季·悖论重构中获得前80%排名后解锁。",
+            "description": "称号",
+            "type": 37,
+            "icon": "Img_Title_HighPVP_Season17",
+            "rank": 5,
+            "sort": 1,
+            "howToGet": "0",
+            "argsStr": "23158",
             "iconPath": "PlayerTitlePic"
         },
         {
@@ -14022,7 +14282,7 @@
         {
             "id": 24088,
             "name": "액자·특별 간호",
-            "introduction": "가장 특별한 간호는 가장 특별한 이에게만 제공된다.\n인형이 답례로 선물한 마음의 표시. 인형과의 결합도를 올려 획득.",
+            "introduction": "最特别的护理，只提供给最特殊的人。\n人形回赠的心意赠礼，与人形提升契合度后获得。",
             "description": "好感度头像框",
             "type": 39,
             "icon": "Item_HeadFrame_Love_Florence",
@@ -14030,6 +14290,32 @@
             "sort": 1,
             "howToGet": "0",
             "argsStr": "24088",
+            "iconPath": "Item"
+        },
+        {
+            "id": 24089,
+            "name": "绘像框·共响频率",
+            "introduction": "交织的电波，共振为永恒的频率。\n人形回赠的心意赠礼，与人形提升契合度后获得。",
+            "description": "好感度头像框",
+            "type": 39,
+            "icon": "Item_HeadFrame_Love_Lind",
+            "rank": 5,
+            "sort": 1,
+            "howToGet": "0",
+            "argsStr": "24089",
+            "iconPath": "Item"
+        },
+        {
+            "id": 24090,
+            "name": "绘像框·天才儿童",
+            "introduction": "“无论是什么心愿，只要本天才动动脑筋，就能轻松帮你实现！”\n人形回赠的心意赠礼，与人形提升契合度后获得。",
+            "description": "好感度头像框",
+            "type": 39,
+            "icon": "Item_HeadFrame_Love_Cheeta",
+            "rank": 5,
+            "sort": 1,
+            "howToGet": "0",
+            "argsStr": "24090",
             "iconPath": "Item"
         },
         {
@@ -14210,6 +14496,19 @@
             "sort": 1,
             "howToGet": "0",
             "argsStr": "24120",
+            "iconPath": "Item"
+        },
+        {
+            "id": 24121,
+            "name": "绘像框·林钟风荷",
+            "introduction": "아침 저녁, 해와 달, 꽃 구경 여행. \n해당 [원정 일지]의 유료 보상 구매 시 해금.",
+            "description": "BP头像框",
+            "type": 39,
+            "icon": "Item_HeadFrame_Bp2_6",
+            "rank": 5,
+            "sort": 1,
+            "howToGet": "0",
+            "argsStr": "24121",
             "iconPath": "Item"
         },
         {
@@ -14415,6 +14714,18 @@
             "iconPath": "Item"
         },
         {
+            "id": 24145,
+            "name": "绘像框·悖论重构",
+            "introduction": "缜密的推演，预判所有变数——B.R.I.E.F.特此颁发。\n在兵棋推演赛季·悖论重构中获得前50%排名后解锁。",
+            "type": 39,
+            "icon": "Item_HeadFrame_HighPVP_Season17",
+            "rank": 5,
+            "sort": 1,
+            "howToGet": "0",
+            "argsStr": "24145",
+            "iconPath": "Item"
+        },
+        {
             "id": 24148,
             "name": "액자·새장 속 머문 꿈",
             "introduction": "절망의 감옥은 사라졌지만, 꿈의 잔해는 영원히 머문다.\n두근두근 놀이공원 챌린지 모드 클리어 시 해금.",
@@ -14425,6 +14736,19 @@
             "sort": 1,
             "howToGet": "0",
             "argsStr": "24148",
+            "iconPath": "Item"
+        },
+        {
+            "id": 24149,
+            "name": "绘像框·缓释依赖",
+            "introduction": "糖分，是止痛的良药，也是成瘾的毒剂。\n通关沉没夜潮挑战模式关卡以解锁。",
+            "description": "琳德活动头像框",
+            "type": 39,
+            "icon": "Item_HeadFrame_ActivityLind",
+            "rank": 5,
+            "sort": 1,
+            "howToGet": "0",
+            "argsStr": "24149",
             "iconPath": "Item"
         },
         {
@@ -14513,6 +14837,19 @@
             "sort": 1,
             "howToGet": "0",
             "argsStr": "25006",
+            "iconPath": "Item"
+        },
+        {
+            "id": 25007,
+            "name": "晦乱的思绪",
+            "introduction": "晦暗的长夜过后，黎明终将照亮天窗，映出心中坚韧的本色。\n购买当期远航巡录付费档位获取的个人名片背景，可用于名片背景更换。",
+            "description": "暂未使用名片卡",
+            "type": 40,
+            "icon": "Item_Icon_CommanderInfo_Lind",
+            "rank": 5,
+            "sort": 1,
+            "howToGet": "0",
+            "argsStr": "25007",
             "iconPath": "Item"
         },
         {
@@ -15418,12 +15755,24 @@
             "id": 31078,
             "name": "코스튬·기묘한 고구마칩",
             "introduction": "플로렌스의 의상 상자 안에는 귀여운 홈 파자마가 들어 있다.\n편안한 순면 소재를 가볍게 재단했고, 파란 하트 무늬가 발랄함을 더한다.\n획득 후 갈아입기 화면에서 ‘기묘한 고구마칩’ 의상을 해금할 수 있다.",
-            "description": "衣装·佩里缇亚",
+            "description": "衣装·芙洛伦",
             "type": 13,
             "icon": "Item_Icon_Skin_FlorenceSSR01",
             "rank": 4,
             "sort": 86,
             "argsStr": "1106401",
+            "iconPath": "Item"
+        },
+        {
+            "id": 31079,
+            "name": "衣装·太阳永不升起",
+            "introduction": "琳德的衣装盒，里面是一套海滩度假用的服装。\n轻便贴身，非常适合在沙滩上休息。配套的护目镜既能抵挡紫外线，也能当做泳镜使用。\n获取后，可在换装界面解锁太阳永不升起。",
+            "description": "衣装·芙洛伦",
+            "type": 13,
+            "icon": "Item_Icon_Skin_LindSSR01",
+            "rank": 4,
+            "sort": 86,
+            "argsStr": "1105901",
             "iconPath": "Item"
         },
         {
@@ -18840,6 +19189,20 @@
             }
         },
         {
+            "id": 91024,
+            "name": "共键·暴力厌恶者",
+            "introduction": "장착 후 해당 스킬을 획득할 수 있는 파생키.",
+            "description": "天赋插拔技能道具",
+            "type": 31,
+            "icon": "Skill_Chrtalent_ActivitySR24",
+            "rank": 4,
+            "argsStr": "91024",
+            "iconPath": "Skill",
+            "dismantlingList": {
+                "2": 5000
+            }
+        },
+        {
             "id": 92001,
             "name": "공용키·요량청악",
             "introduction": "장착 후 해당 스킬을 획득할 수 있는 파생키.",
@@ -19162,6 +19525,20 @@
             }
         },
         {
+            "id": 92024,
+            "name": "共键·临床术式",
+            "introduction": "장착 후 해당 스킬을 획득할 수 있는 파생키.",
+            "description": "天赋插拔技能道具",
+            "type": 31,
+            "icon": "Skill_Chrtalent_ActivityR24",
+            "rank": 3,
+            "argsStr": "92024",
+            "iconPath": "Skill",
+            "dismantlingList": {
+                "2": 5000
+            }
+        },
+        {
             "id": 93001,
             "name": "공용키·아로마 가드",
             "introduction": "장착 후 해당 스킬을 획득할 수 있는 파생키.",
@@ -19464,6 +19841,20 @@
             "icon": "Skill_Chrtalent_OperationActivitySR22",
             "rank": 4,
             "argsStr": "93022",
+            "iconPath": "Skill",
+            "dismantlingList": {
+                "2": 5000
+            }
+        },
+        {
+            "id": 93023,
+            "name": "共键·嗜甜成瘾",
+            "introduction": "장착 후 해당 스킬을 획득할 수 있는 파생키.",
+            "description": "天赋插拔技能道具",
+            "type": 31,
+            "icon": "Skill_Chrtalent_OperationActivitySR23",
+            "rank": 4,
+            "argsStr": "93023",
             "iconPath": "Skill",
             "dismantlingList": {
                 "2": 5000
@@ -22046,6 +22437,71 @@
             "sort": 5,
             "showType": 2,
             "argsStr": "7038",
+            "iconPath": "Item"
+        },
+        {
+            "id": 121093,
+            "name": "霰弹枪高阶配件箱·琳德Ⅰ",
+            "introduction": "打开后必定获得精密级稀有度的霰弹枪口*1，该宝箱产出的配件基础属性更高，琳德主题活动专供，外观为任意基础外观中的一种，请注意使用！",
+            "description": "活动专用配件箱",
+            "type": 105,
+            "icon": "Item_Icon_WeaponPartBox_SG_Lind01",
+            "rank": 5,
+            "sort": 5,
+            "showType": 2,
+            "argsStr": "7041",
+            "iconPath": "Item"
+        },
+        {
+            "id": 121094,
+            "name": "霰弹枪高阶配件箱·琳德Ⅱ",
+            "introduction": "打开后必定获得精密级稀有度的霰弹瞄准*1，该宝箱产出的配件基础属性更高，琳德主题活动专供，外观为任意基础外观中的一种，请注意使用！",
+            "description": "活动专用配件箱",
+            "type": 105,
+            "icon": "Item_Icon_WeaponPartBox_SG_Lind02",
+            "rank": 5,
+            "sort": 5,
+            "showType": 2,
+            "argsStr": "7043",
+            "iconPath": "Item"
+        },
+        {
+            "id": 121095,
+            "name": "霰弹枪高阶配件箱·琳德Ⅲ",
+            "introduction": "打开后必定获得精密级稀有度的霰弹卡榫*1，该宝箱产出的配件基础属性更高，琳德主题活动专供，外观为任意基础外观中的一种，请注意使用！",
+            "description": "活动专用配件箱",
+            "type": 105,
+            "icon": "Item_Icon_WeaponPartBox_SG_Lind03",
+            "rank": 5,
+            "sort": 5,
+            "showType": 2,
+            "argsStr": "7042",
+            "iconPath": "Item"
+        },
+        {
+            "id": 121096,
+            "name": "霰弹枪高阶配件箱·琳德Ⅳ",
+            "introduction": "打开后必定获得精密级稀有度的霰弹链接*1，该宝箱产出的配件基础属性更高，琳德主题活动专供，外观为任意基础外观中的一种，请注意使用！",
+            "description": "活动专用配件箱",
+            "type": 105,
+            "icon": "Item_Icon_WeaponPartBox_SG_Lind04",
+            "rank": 5,
+            "sort": 5,
+            "showType": 2,
+            "argsStr": "7044",
+            "iconPath": "Item"
+        },
+        {
+            "id": 124115,
+            "name": "绘像框·辞良辰吉市",
+            "introduction": "相逢聚散，五味俱全。\n通关烟火重燃之时挑战模式关卡以解锁。",
+            "description": "海外秋桦活动头像框",
+            "type": 39,
+            "icon": "Item_HeadFrame_ActivityQiuhua",
+            "rank": 5,
+            "sort": 1,
+            "howToGet": "0",
+            "argsStr": "24115",
             "iconPath": "Item"
         },
         {
@@ -25485,7 +25941,7 @@
             "id": 176401,
             "name": "주케로 스티커",
             "introduction": "카페 주케로의 로고가 인쇄된 스티커. 친목 경기에서 보상을 수령하기 위한 필수품입니다.\n\n[안전가옥·상편]에서 보상으로 교환할 수 있습니다.",
-            "description": "春田版本兑换材料",
+            "description": "海外春田版本兑换材料",
             "type": 4,
             "icon": "Item_Icon_Springfield_exchange",
             "rank": 4,
@@ -25546,8 +26002,8 @@
         },
         {
             "id": 176503,
-            "name": "봄맞이 티켓",
-            "introduction": "열심히 노력한다면 봄도 조금 더 일찍 찾아올까요?\n\n[수확 모드] 스테이지 입장에 사용할 수 있습니다.\n이벤트 기간 동안 매일 3장 회복, 최대 6장 보유 가능.",
+            "name": "烟花券",
+            "introduction": "重燃希望的烟花，干瘪漫长的冬季。\n可用于开启物资模式关卡。\n在活动期间每天恢复3张券，最多储存6张券",
             "description": "秋桦门票",
             "type": 130,
             "icon": "Item_Icon_Qiuhua_ticket",
@@ -25764,6 +26220,84 @@
             "howToGet": "0",
             "argsStr": "3:3:6",
             "timeLimit": "1750118399",
+            "iconPath": "Item"
+        },
+        {
+            "id": 177104,
+            "name": "时光硬币",
+            "introduction": "那些柔和温馨的时光，值得被好好收藏。\n可用于在时光小筑·上篇兑换奖励。",
+            "description": "海外比悠卡&安朵丝版本兑换材料",
+            "type": 4,
+            "icon": "Item_Icon_Biyoca_Global_exchange",
+            "rank": 4,
+            "sort": 102,
+            "howToGet": "0",
+            "iconPath": "Item"
+        },
+        {
+            "id": 177105,
+            "name": "雀跃音符",
+            "introduction": "记忆中的鼓点，化为雀跃的音符，印于心间。\n可用于在时光小筑·下篇兑换奖励。",
+            "description": "海外绛雨版本兑换材料",
+            "type": 4,
+            "icon": "Item_Icon_Jiangyu_Global_exchange",
+            "rank": 4,
+            "sort": 102,
+            "howToGet": "0",
+            "iconPath": "Item"
+        },
+        {
+            "id": 177106,
+            "name": "时光券",
+            "introduction": "历经时间的洗礼而采撷的果实，才会更显甜美。\n可用于开启物资模式关卡。",
+            "description": "海外安比悠卡&安多丝&绛雨门票",
+            "type": 130,
+            "icon": "Item_Icon_Biyoca_Global_ticket",
+            "rank": 4,
+            "sort": 102,
+            "howToGet": "0",
+            "argsStr": "3:3:6",
+            "timeLimit": "1746489599",
+            "iconPath": "Item"
+        },
+        {
+            "id": 177201,
+            "name": "白金筹码",
+            "introduction": "由白金制成的筹码，唯有以决心为注，才能扭转这不公的赌局。\n可用于在筹码兑换处中兑换奖励。",
+            "description": "琳德版本兑换材料",
+            "type": 4,
+            "icon": "Item_Icon_Lind_exchange",
+            "rank": 4,
+            "sort": 102,
+            "howToGet": "0",
+            "iconPath": "Item"
+        },
+        {
+            "id": 177202,
+            "name": "彩票积分",
+            "introduction": "包装成幸运的符号，终将在真相揭露之时，化作审判的佐证。\n深渊绝赌任务积分，累计积分可以领取积分奖励。",
+            "description": "琳德版本任务进度点数",
+            "type": 4,
+            "icon": "Item_Icon_Jiangyu_preheat",
+            "rank": 4,
+            "sort": 102,
+            "howToGet": "0",
+            "timeLimit": "1751925599",
+            "iconPath": "Item"
+        },
+        {
+            "id": 177203,
+            "name": "暗潮券",
+            "introduction": "欲望的船票，罪恶的契约。\n可用于开启物资模式关卡。",
+            "description": "琳德门票",
+            "type": 130,
+            "icon": "Item_Icon_Lind_ticket",
+            "rank": 4,
+            "sort": 102,
+            "howToGet": "0",
+            "getList": "291001",
+            "argsStr": "3:3:6",
+            "timeLimit": "1751925599",
             "iconPath": "Item"
         },
         {
@@ -26136,7 +26670,7 @@
         {
             "id": 190024,
             "name": "마음 쿠폰",
-            "introduction": "마음 쿠폰 한 장마다 솔직한 감정이 담겨 있고, 서로 사이의 끊을 수 없는 유대를 상징합니다.",
+            "introduction": "每一张心意券凝聚着真挚的情感，象征着彼此间不可割舍的纽带。",
             "description": "绯赠送活动",
             "type": 4,
             "icon": "Item_Icon_Free_Gun",
@@ -26266,6 +26800,20 @@
             "howToGet": "0",
             "showType": 2,
             "timeLimit": "1753822799",
+            "iconPath": "Item"
+        },
+        {
+            "id": 190035,
+            "name": "보물 단서",
+            "introduction": "오염지대의 주인 없는 귀중한 물자에 대한 정보. 여행 중 예상치 못하게 발견했습니다. \"이게 보수라고? 진품인 거 확실해?\"\n「위험지대 발굴」에서 보상을 해금할 수 있습니다.",
+            "description": "运营用(19xxxx)-bingo币",
+            "type": 4,
+            "icon": "Item_Icon_Clue_1",
+            "rank": 5,
+            "sort": 102,
+            "howToGet": "0",
+            "showType": 2,
+            "timeLimit": "1751925599",
             "iconPath": "Item"
         },
         {
@@ -29204,6 +29752,78 @@
             "iconPath": "Skill"
         },
         {
+            "id": 205901,
+            "name": "固键·痛觉感知",
+            "introduction": "장착 후 해당 스킬을 얻을 수 있는 강화키.",
+            "description": "天赋专属技能",
+            "type": 31,
+            "icon": "Skill_Chrtalent_Lind01",
+            "rank": 4,
+            "getList": "341059",
+            "argsStr": "205901",
+            "iconPath": "Skill"
+        },
+        {
+            "id": 205902,
+            "name": "固键·夜猫子的敏锐",
+            "introduction": "장착 후 해당 스킬을 얻을 수 있는 강화키.",
+            "description": "天赋专属技能",
+            "type": 31,
+            "icon": "Skill_Chrtalent_Lind02",
+            "rank": 4,
+            "getList": "341059",
+            "argsStr": "205902",
+            "iconPath": "Skill"
+        },
+        {
+            "id": 205903,
+            "name": "固键·电台邀约",
+            "introduction": "장착 후 해당 스킬을 얻을 수 있는 강화키.",
+            "description": "天赋专属技能",
+            "type": 31,
+            "icon": "Skill_Chrtalent_Lind03",
+            "rank": 4,
+            "getList": "341059",
+            "argsStr": "205903",
+            "iconPath": "Skill"
+        },
+        {
+            "id": 205904,
+            "name": "固键·文明的裁决",
+            "introduction": "장착 후 해당 스킬을 얻을 수 있는 강화키.",
+            "description": "天赋专属技能",
+            "type": 31,
+            "icon": "Skill_Chrtalent_Lind04",
+            "rank": 4,
+            "getList": "341059",
+            "argsStr": "205904",
+            "iconPath": "Skill"
+        },
+        {
+            "id": 205905,
+            "name": "固键·甜食疗愈",
+            "introduction": "장착 후 해당 스킬을 얻을 수 있는 강화키.",
+            "description": "天赋专属技能",
+            "type": 31,
+            "icon": "Skill_Chrtalent_Lind05",
+            "rank": 4,
+            "getList": "341059",
+            "argsStr": "205905",
+            "iconPath": "Skill"
+        },
+        {
+            "id": 205906,
+            "name": "固键·戒断反应",
+            "introduction": "장착 후 해당 스킬을 얻을 수 있는 강화키.",
+            "description": "天赋专属技能",
+            "type": 31,
+            "icon": "Skill_Chrtalent_Lind06",
+            "rank": 4,
+            "getList": "341059",
+            "argsStr": "205906",
+            "iconPath": "Skill"
+        },
+        {
             "id": 206401,
             "name": "고유키·치명적 자극",
             "introduction": "장착 후 해당 스킬을 얻을 수 있는 강화키.",
@@ -30395,6 +31015,19 @@
             "iconPath": "Item"
         },
         {
+            "id": 300091,
+            "name": "特别赠礼·琳德",
+            "introduction": "专属于琳德的礼物，让她感受到你的心意吧。\n打开后，获得琳德专属的契合度礼物。",
+            "description": "好感度礼物宝箱",
+            "type": 105,
+            "icon": "Item_Icon_GiftBox_Lind",
+            "rank": 5,
+            "sort": 5,
+            "showType": 2,
+            "argsStr": "10038",
+            "iconPath": "Item"
+        },
+        {
             "id": 800001,
             "name": "명성",
             "introduction": "노동의 달콤한 과실을 즐길 시간입니다.\n「서클 명성 상점」 전용 화폐. 서클 보급, 일일 과업, 흙먼지 전선을 통해 얻을 수 있습니다.",
@@ -31219,6 +31852,21 @@
             }
         },
         {
+            "id": 901059,
+            "name": "共键·深夜永不结束",
+            "introduction": "장착 후 해당 스킬을 획득할 수 있는 파생키.",
+            "description": "天赋插拔技能道具",
+            "type": 31,
+            "icon": "Skill_Chrtalent_LindSSR",
+            "rank": 5,
+            "getList": "341059",
+            "argsStr": "901059",
+            "iconPath": "Skill",
+            "dismantlingList": {
+                "2": 5000
+            }
+        },
+        {
             "id": 901064,
             "name": "공용키·주인의 명령",
             "introduction": "장착 후 해당 스킬을 획득할 수 있는 파생키.",
@@ -31794,6 +32442,20 @@
             }
         },
         {
+            "id": 911059,
+            "name": "共键·长夜的尽头",
+            "introduction": "장착 후 해당 스킬을 획득할 수 있는 파생키.",
+            "description": "天赋插拔技能道具",
+            "type": 31,
+            "icon": "Skill_Chrtalent_LindSSR_love",
+            "rank": 4,
+            "argsStr": "911059",
+            "iconPath": "Skill",
+            "dismantlingList": {
+                "2": 5001
+            }
+        },
+        {
             "id": 911064,
             "name": "공용키·짓궂은 처방",
             "introduction": "장착 후 해당 스킬을 획득할 수 있는 파생키.",
@@ -32177,6 +32839,21 @@
             "rank": 5,
             "getList": "341050",
             "argsStr": "921050",
+            "iconPath": "Skill",
+            "dismantlingList": {
+                "2": 5000
+            }
+        },
+        {
+            "id": 921051,
+            "name": "跃键·梦游暴走症",
+            "introduction": "일종의 도약키. 장착 후 해당 스킬을 얻습니다.",
+            "description": "天赋插拔技能道具",
+            "type": 31,
+            "icon": "Skill_Chrtalent_Mechty_expand",
+            "rank": 5,
+            "getList": "341051",
+            "argsStr": "921051",
             "iconPath": "Skill",
             "dismantlingList": {
                 "2": 5000
@@ -32653,6 +33330,46 @@
             "iconPath": "PatternData"
         },
         {
+            "id": 994121,
+            "name": "燃烧·穹顶之花β",
+            "introduction": "고급 성장 데이터로, 장착 시 리몰딩 코어에 지정된 특화 형태와 현상 인자를 부여한다.",
+            "description": "生长数据",
+            "type": 99,
+            "icon": "RemouldingPattern_Data_Suppress_01_4",
+            "rank": 4,
+            "iconPath": "PatternData"
+        },
+        {
+            "id": 994122,
+            "name": "冰结·锋锐之茎β",
+            "introduction": "고급 성장 데이터로, 장착 시 리몰딩 코어에 지정된 특화 형태와 현상 인자를 부여한다.",
+            "description": "生长数据",
+            "type": 99,
+            "icon": "RemouldingPattern_Data_Scout_03_4",
+            "rank": 4,
+            "iconPath": "PatternData"
+        },
+        {
+            "id": 994123,
+            "name": "催化·源栅之叶β",
+            "introduction": "고급 성장 데이터로, 장착 시 리몰딩 코어에 지정된 특화 형태와 현상 인자를 부여한다.",
+            "description": "生长数据",
+            "type": 99,
+            "icon": "RemouldingPattern_Data_Assist_02_4",
+            "rank": 4,
+            "iconPath": "PatternData"
+        },
+        {
+            "id": 994124,
+            "name": "单骑·叠岩之根β",
+            "introduction": "고급 성장 데이터로, 장착 시 리몰딩 코어에 지정된 특화 형태와 현상 인자를 부여한다.",
+            "description": "生长数据",
+            "type": 99,
+            "icon": "RemouldingPattern_Data_Guard_02_4",
+            "rank": 4,
+            "iconPath": "PatternData"
+        },
+        {
             "id": 994200,
             "name": "배아구슬의 줄기 β",
             "introduction": "고급 성장 데이터로, 장착 시 리몰딩 코어에 지정된 특화 형태와 현상 인자를 부여한다.",
@@ -33113,6 +33830,86 @@
             "iconPath": "PatternData"
         },
         {
+            "id": 995142,
+            "name": "燃烧·穹顶之花γ",
+            "introduction": "최상급 성장 데이터로, 장착 시 리몰딩 코어에 지정된 특화 형태와 현상 인자를 부여한다.",
+            "description": "生长数据",
+            "type": 99,
+            "icon": "RemouldingPattern_Data_Suppress_01_5",
+            "rank": 5,
+            "iconPath": "PatternData"
+        },
+        {
+            "id": 995143,
+            "name": "용해·열극의 줄기 γ",
+            "introduction": "최상급 성장 데이터로, 장착 시 리몰딩 코어에 지정된 특화 형태와 현상 인자를 부여한다.",
+            "description": "生长数据",
+            "type": 99,
+            "icon": "RemouldingPattern_Data_Scout_04_5",
+            "rank": 5,
+            "iconPath": "PatternData"
+        },
+        {
+            "id": 995144,
+            "name": "电导·戮冠之花γ",
+            "introduction": "최상급 성장 데이터로, 장착 시 리몰딩 코어에 지정된 특화 형태와 현상 인자를 부여한다.",
+            "description": "生长数据",
+            "type": 99,
+            "icon": "RemouldingPattern_Data_Suppress_02_5",
+            "rank": 5,
+            "iconPath": "PatternData"
+        },
+        {
+            "id": 995145,
+            "name": "강습·예리한 줄기 γ",
+            "introduction": "최상급 성장 데이터로, 장착 시 리몰딩 코어에 지정된 특화 형태와 현상 인자를 부여한다.",
+            "description": "生长数据",
+            "type": 99,
+            "icon": "RemouldingPattern_Data_Scout_03_5",
+            "rank": 5,
+            "iconPath": "PatternData"
+        },
+        {
+            "id": 995146,
+            "name": "霜环·碧络之叶γ",
+            "introduction": "최상급 성장 데이터로, 장착 시 리몰딩 코어에 지정된 특화 형태와 현상 인자를 부여한다.",
+            "description": "生长数据",
+            "type": 99,
+            "icon": "RemouldingPattern_Data_Assist_01_5",
+            "rank": 5,
+            "iconPath": "PatternData"
+        },
+        {
+            "id": 995147,
+            "name": "견벽·반맥의 뿌리 γ",
+            "introduction": "최상급 성장 데이터로, 장착 시 리몰딩 코어에 지정된 특화 형태와 현상 인자를 부여한다.",
+            "description": "生长数据",
+            "type": 99,
+            "icon": "RemouldingPattern_Data_Guard_01_5",
+            "rank": 5,
+            "iconPath": "PatternData"
+        },
+        {
+            "id": 995148,
+            "name": "点火·逆棘之叶γ",
+            "introduction": "최상급 성장 데이터로, 장착 시 리몰딩 코어에 지정된 특화 형태와 현상 인자를 부여한다.",
+            "description": "生长数据",
+            "type": 99,
+            "icon": "RemouldingPattern_Data_Assist_04_5",
+            "rank": 5,
+            "iconPath": "PatternData"
+        },
+        {
+            "id": 995149,
+            "name": "解毒·髓柱之根γ",
+            "introduction": "최상급 성장 데이터로, 장착 시 리몰딩 코어에 지정된 특화 형태와 현상 인자를 부여한다.",
+            "description": "生长数据",
+            "type": 99,
+            "icon": "RemouldingPattern_Data_Guard_03_5",
+            "rank": 5,
+            "iconPath": "PatternData"
+        },
+        {
             "id": 995200,
             "name": "배아구슬의 줄기 γ",
             "introduction": "최상급 성장 데이터로, 장착 시 리몰딩 코어에 지정된 특화 형태와 현상 인자를 부여한다.",
@@ -33331,6 +34128,32 @@
             "sort": 4,
             "showType": 2,
             "argsStr": "1;994117:1,994118:1,994119:1,994120:1;",
+            "iconPath": "Item"
+        },
+        {
+            "id": 996016,
+            "name": "최상급 성장 데이터 선물 상자",
+            "introduction": "B.R.I.E.F. 특공품으로, 16LAB 연구팀이 수집·재가공한 최상급 성장 데이터가 들어 있다. 전투 효율을 높이는 데 최고의 선택.",
+            "description": "拟态积分奖励",
+            "type": 8,
+            "icon": "Item_Icon_RemouldingPattern_Box_5",
+            "rank": 5,
+            "sort": 5,
+            "showType": 2,
+            "argsStr": "1;995142:1,995143:1,995144:1,995145:1,995146:1,995147:1,995148:1,995149:1;",
+            "iconPath": "Item"
+        },
+        {
+            "id": 996017,
+            "name": "고급 성장 데이터 선물 상자",
+            "introduction": "B.R.I.E.F. 특공품으로, 16LAB 연구팀이 수집·재가공한 고급 성장 데이터가 들어 있다. 전투 효율을 높이는 데 최고의 선택.",
+            "description": "拟态积分奖励",
+            "type": 8,
+            "icon": "Item_Icon_RemouldingPattern_Box_5",
+            "rank": 4,
+            "sort": 4,
+            "showType": 2,
+            "argsStr": "1;994121:1,994122:1,994123:1,994124:1;",
             "iconPath": "Item"
         },
         {
@@ -33711,6 +34534,19 @@
             "iconPath": "Item"
         },
         {
+            "id": 1325012,
+            "name": "精雕奇忆·堡垒泰坦",
+            "introduction": "“战斗套组包含霰弹枪和近战装置，并加装了力场盾、力场增幅装置和能量生成器。进攻和防守能力都极为强悍。”\n大体积，细节更显丰富……某人对它的记忆真的很深刻呢。",
+            "description": "藏品",
+            "type": 132,
+            "icon": "Item_Icon_Handmade_MechaMelee",
+            "rank": 5,
+            "sort": 1,
+            "howToGet": "0",
+            "showType": 2,
+            "iconPath": "Item"
+        },
+        {
             "id": 1325101,
             "name": "조각상·슈퍼 디너게이트",
             "introduction": "“저 빨간 눈동자를 똑바로 볼 수가 없어. 카메라 뒤에서 자꾸 뭔가가 쳐다보는 것 같아...”",
@@ -34015,6 +34851,20 @@
             "sort": 1,
             "howToGet": "0",
             "getList": "290029",
+            "showType": 2,
+            "iconPath": "Item"
+        },
+        {
+            "id": 1325123,
+            "name": "奇忆·堡垒泰坦",
+            "introduction": "“战斗套组包含霰弹枪和近战装置，并加装了力场盾、力场增幅装置和能量生成器。进攻和防守能力都极为强悍。”",
+            "description": "藏品",
+            "type": 132,
+            "icon": "Item_Icon_Handmade_MechaMelee",
+            "rank": 4,
+            "sort": 1,
+            "howToGet": "0",
+            "getList": "240001",
             "showType": 2,
             "iconPath": "Item"
         },
@@ -34401,6 +35251,17 @@
             "icon": "Weapon_KSVK_3",
             "rank": 3,
             "argsStr": "3112243",
+            "iconPath": "Weapon"
+        },
+        {
+            "id": 3112264,
+            "name": "涂装·艾奇逊12自动霰弹枪",
+            "introduction": "依照艾奇逊12自动霰弹枪设计的武器涂装方案。\n可用于更换相应的武器涂装。",
+            "description": "武器皮肤",
+            "type": 60,
+            "icon": "Weapon_AA12_4",
+            "rank": 4,
+            "argsStr": "3112264",
             "iconPath": "Weapon"
         },
         {
@@ -34822,6 +35683,17 @@
             "iconPath": "Weapon"
         },
         {
+            "id": 3114085,
+            "name": "涂装·刺棘法则",
+            "introduction": "依照刺棘法则设计的武器涂装方案。\n可用于更换相应的武器涂装。",
+            "description": "武器皮肤",
+            "type": 60,
+            "icon": "Weapon_AA12_5",
+            "rank": 5,
+            "argsStr": "3114085",
+            "iconPath": "Weapon"
+        },
+        {
             "id": 3114135,
             "name": "도색·블레이징 스파크",
             "introduction": "「블레이징 스파크」의 도색 플랜.\n해당 무기의 도색을 바꿀 수 있습니다.",
@@ -34962,6 +35834,17 @@
             "icon": "Weapon_QBZ97_5",
             "rank": 5,
             "argsStr": "3114385",
+            "iconPath": "Weapon"
+        },
+        {
+            "id": 3114443,
+            "name": "涂装·旧式艾奇逊12自动霰弹枪",
+            "introduction": "依照旧式艾奇逊12自动霰弹枪设计的武器涂装方案。\n可用于更换相应的武器涂装。",
+            "description": "武器皮肤",
+            "type": 60,
+            "icon": "Weapon_AA12_3",
+            "rank": 3,
+            "argsStr": "3114443",
             "iconPath": "Weapon"
         },
         {
@@ -36114,7 +36997,7 @@
             "type": 60,
             "icon": "Weapon_ARClaB015_4",
             "rank": 4,
-            "getList": "290026",
+            "getList": "312004",
             "argsStr": "4134414",
             "iconPath": "Weapon"
         },
@@ -36140,6 +37023,18 @@
             "rank": 4,
             "getList": "190012",
             "argsStr": "4134524",
+            "iconPath": "Weapon"
+        },
+        {
+            "id": 4134614,
+            "name": "涂装·悖论三角",
+            "introduction": "无法闭合的锋芒，正如永续的几何囚笼。\n可用于更换相应的武器涂装。",
+            "description": "武器皮肤",
+            "type": 60,
+            "icon": "Weapon_ARClaC014_4",
+            "rank": 4,
+            "getList": "270016",
+            "argsStr": "4134614",
             "iconPath": "Weapon"
         },
         {
@@ -36236,6 +37131,18 @@
             "iconPath": "Weapon"
         },
         {
+            "id": 4136095,
+            "name": "涂装·毁灭电弧",
+            "introduction": "听说在有些故事里，这道电弧总是会被光剑反弹。\n可用于更换相应的武器涂装。",
+            "description": "武器皮肤",
+            "type": 60,
+            "icon": "Weapon_SGClaS106_4",
+            "rank": 5,
+            "getList": "190010",
+            "argsStr": "4136095",
+            "iconPath": "Weapon"
+        },
+        {
             "id": 4136124,
             "name": "도색·수호자의 출발선",
             "introduction": "소중한 사람을 지킬 힘이 생길 듯한 느낌이 듭니다.\n해당 무기의 도색을 바꿀 수 있습니다.",
@@ -36291,6 +37198,18 @@
             "rank": 4,
             "getList": "270013",
             "argsStr": "4136484",
+            "iconPath": "Weapon"
+        },
+        {
+            "id": 4136604,
+            "name": "涂装·暮海诡影",
+            "introduction": "夕阳沉没时，帆影与暗潮一同苏醒。\n可用于更换相应的武器涂装。",
+            "description": "武器皮肤",
+            "type": 60,
+            "icon": "Weapon_SGClaB021_4",
+            "rank": 4,
+            "getList": "290033",
+            "argsStr": "4136604",
             "iconPath": "Weapon"
         },
         {
@@ -36518,6 +37437,18 @@
             "iconPath": "Weapon"
         },
         {
+            "id": 4332315,
+            "name": "涂装·专属发明",
+            "introduction": "以奇塔为主题的武器涂装。为了将这份独一无二的发明呈现给你，天才甚至动用了她为数不多的积蓄。\n可用于更换相应的武器涂装。",
+            "description": "武器皮肤",
+            "type": 60,
+            "icon": "Weapon_SMGClaCheeta_5",
+            "rank": 5,
+            "getList": "351024",
+            "argsStr": "4332315",
+            "iconPath": "Weapon"
+        },
+        {
             "id": 4333105,
             "name": "도색·다람쥐의 선물",
             "introduction": "비욜카를 테마로 한 무기 도색. 밝은 미소는 분위기를 명랑하게 만드는 비결이겠죠.\n해당 무기의 도색을 바꿀 수 있습니다.",
@@ -36719,6 +37650,18 @@
             "rank": 5,
             "getList": "351048",
             "argsStr": "4336185",
+            "iconPath": "Weapon"
+        },
+        {
+            "id": 4336305,
+            "name": "涂装·认同自我的理由",
+            "introduction": "以琳德为主题的武器涂装。即便有种种自我厌恶的时刻，有你的鼓励，就有了认同自我的理由。\n可用于更换相应的武器涂装。",
+            "description": "武器皮肤",
+            "type": 60,
+            "icon": "Weapon_SGClaLind_5",
+            "rank": 5,
+            "getList": "351059",
+            "argsStr": "4336305",
             "iconPath": "Weapon"
         },
         {
@@ -37755,7 +38698,7 @@
             "type": 61,
             "icon": "WeaponPart_1_ClaC014_3",
             "rank": 4,
-            "getList": "290026",
+            "getList": "312004",
             "argsStr": "7331124",
             "iconPath": "WeaponPart"
         },
@@ -38036,6 +38979,42 @@
             "iconPath": "WeaponPart"
         },
         {
+            "id": 7331305,
+            "name": "涂装·空想白昼",
+            "introduction": "琳德造型的配件。“别把它带到大太阳下面，因为会褪色……你会好好珍惜它的，对吧？”\n与人形铭契后，契合度达到一定等级后获得。",
+            "description": "配件皮肤",
+            "type": 61,
+            "icon": "WeaponPart_1_ClaLind_3",
+            "rank": 5,
+            "getList": "351059",
+            "argsStr": "7331305",
+            "iconPath": "WeaponPart"
+        },
+        {
+            "id": 7331315,
+            "name": "涂装·奇想军装",
+            "introduction": "奇塔造型的配件。别害怕，这个应该没有那么容易爆炸……大概吧？\n与人形铭契后，契合度达到一定等级后获得。",
+            "description": "配件皮肤",
+            "type": 61,
+            "icon": "WeaponPart_1_ClaCheeta_3",
+            "rank": 5,
+            "getList": "351024",
+            "argsStr": "7331315",
+            "iconPath": "WeaponPart"
+        },
+        {
+            "id": 7331324,
+            "name": "涂装·暮海瞄准",
+            "introduction": "夕阳沉没时，帆影与暗潮一同苏醒。\n可用于更换相应的配件涂装。",
+            "description": "配件皮肤",
+            "type": 61,
+            "icon": "WeaponPart_1_ClaC020_3",
+            "rank": 4,
+            "getList": "290033",
+            "argsStr": "7331324",
+            "iconPath": "WeaponPart"
+        },
+        {
             "id": 7331744,
             "name": "도색·레드 스틸 사이트",
             "introduction": "매우 견고해 보이는 소재로 제작된 조준경.\n해당 파츠의 도색을 바꿀 수 있습니다.",
@@ -38285,6 +39264,18 @@
             "rank": 5,
             "getList": "312003",
             "argsStr": "7332305",
+            "iconPath": "WeaponPart"
+        },
+        {
+            "id": 7332314,
+            "name": "涂装·暮海枪口",
+            "introduction": "夕阳沉没时，帆影与暗潮一同苏醒。\n可用于更换相应的配件涂装。",
+            "description": "配件皮肤",
+            "type": 61,
+            "icon": "WeaponPart_2_ClaD020_3",
+            "rank": 4,
+            "getList": "290033",
+            "argsStr": "7332314",
             "iconPath": "WeaponPart"
         },
         {
@@ -38759,7 +39750,7 @@
             "type": 61,
             "icon": "WeaponPart_12_ClaD014_3",
             "rank": 4,
-            "getList": "290026",
+            "getList": "312004",
             "argsStr": "7336114",
             "iconPath": "WeaponPart"
         },
@@ -40948,6 +41939,20 @@
             }
         },
         {
+            "id": 10311355,
+            "name": "【SG】소형 홀로사이트",
+            "introduction": "SG 전용 조준기 파츠. 홀로그램 광학 기술을 사용하여 정확한 조준을 서포트하는 소형 조준경입니다. 눈부심과 반사광의 영향을 줄이기 위해 조준선의 위치를 자동으로 조정하여, 근접전과 신속한 대응에 적합합니다.",
+            "description": "配件",
+            "type": 21,
+            "icon": "WeaponPart_1_sghg1_3",
+            "rank": 5,
+            "argsStr": "10311355",
+            "iconPath": "WeaponPart",
+            "dismantlingList": {
+                "2": 100
+            }
+        },
+        {
             "id": 10312121,
             "name": "【SG】소형 리플렉스 사이트",
             "introduction": "SG 전용 소형 조준기. 정밀 광학 기술이 적용되어 있으며, 개방형 설계를 통해 주변 시야를 더 잘 확보할 수 있습니다. 다양한 조준 모드가 있어 여러 전장과 목표에 대해 범용성이 좋습니다. 신속 대응과 정확한 사격에 유용한, 실용적인 파츠입니다.",
@@ -41012,6 +42017,20 @@
             "icon": "WeaponPart_1_sghg2_3",
             "rank": 5,
             "argsStr": "10312354",
+            "iconPath": "WeaponPart",
+            "dismantlingList": {
+                "2": 100
+            }
+        },
+        {
+            "id": 10312355,
+            "name": "【SG】소형 리플렉스 사이트",
+            "introduction": "SG 전용 소형 조준기. 정밀 광학 기술이 적용되어 있으며, 개방형 설계를 통해 주변 시야를 더 잘 확보할 수 있습니다. 다양한 조준 모드가 있어 여러 전장과 목표에 대해 범용성이 좋습니다. 신속 대응과 정확한 사격에 유용한, 실용적인 파츠입니다.",
+            "description": "配件",
+            "type": 21,
+            "icon": "WeaponPart_1_sghg2_3",
+            "rank": 5,
+            "argsStr": "10312355",
             "iconPath": "WeaponPart",
             "dismantlingList": {
                 "2": 100
@@ -41088,6 +42107,20 @@
             }
         },
         {
+            "id": 10313355,
+            "name": "【SG】소형 레드닷",
+            "introduction": "SG 전용 레드닷. 빠르고 정확한 조준 서포트를 위한 소형 조준경입니다. 작고 가벼우며 부착이 간단하고, 조준점이 선명하고 밝아 다양한 환경에 적합합니다. 사격 정확도와 반응 속도를 높여주는 실용적인 파츠입니다.",
+            "description": "配件",
+            "type": 21,
+            "icon": "WeaponPart_1_sghg3_3",
+            "rank": 5,
+            "argsStr": "10313355",
+            "iconPath": "WeaponPart",
+            "dismantlingList": {
+                "2": 100
+            }
+        },
+        {
             "id": 10314121,
             "name": "【SG】접이식 레드닷",
             "introduction": "SG 전용 접이식 레드닷. 작고 가벼우며 부착이 간단하고, 조준점이 선명하고 밝아 다양한 환경에 적합합니다. 사격 정확도와 반응 속도를 높여주는 실용적인 파츠입니다.",
@@ -41152,6 +42185,20 @@
             "icon": "WeaponPart_1_sghg4_3",
             "rank": 5,
             "argsStr": "10314354",
+            "iconPath": "WeaponPart",
+            "dismantlingList": {
+                "2": 100
+            }
+        },
+        {
+            "id": 10314355,
+            "name": "【SG】접이식 레드닷",
+            "introduction": "SG 전용 접이식 레드닷. 작고 가벼우며 부착이 간단하고, 조준점이 선명하고 밝아 다양한 환경에 적합합니다. 사격 정확도와 반응 속도를 높여주는 실용적인 파츠입니다.",
+            "description": "配件",
+            "type": 21,
+            "icon": "WeaponPart_1_sghg4_3",
+            "rank": 5,
+            "argsStr": "10314355",
             "iconPath": "WeaponPart",
             "dismantlingList": {
                 "2": 100
@@ -41228,6 +42275,20 @@
             }
         },
         {
+            "id": 10315355,
+            "name": "【SG】마이크로 레드닷",
+            "introduction": "SG 전용 조준기 파츠. 일반적인 레드닷보다 작고 정교하여 휴대 및 교체가 용이합니다.",
+            "description": "配件",
+            "type": 21,
+            "icon": "WeaponPart_1_sghg5_3",
+            "rank": 5,
+            "argsStr": "10315355",
+            "iconPath": "WeaponPart",
+            "dismantlingList": {
+                "2": 100
+            }
+        },
+        {
             "id": 10316121,
             "name": "【SG】원형 레드닷",
             "introduction": "SG 전용 조준기 파츠. 일반적인 레드닷보다 둥근 모양이며, 마이크로 레드닷만큼 콤팩트해서 휴대 및 교체가 용이합니다.",
@@ -41292,6 +42353,20 @@
             "icon": "WeaponPart_1_sghg6_3",
             "rank": 5,
             "argsStr": "10316354",
+            "iconPath": "WeaponPart",
+            "dismantlingList": {
+                "2": 100
+            }
+        },
+        {
+            "id": 10316355,
+            "name": "【SG】원형 레드닷",
+            "introduction": "SG 전용 조준기 파츠. 일반적인 레드닷보다 둥근 모양이며, 마이크로 레드닷만큼 콤팩트해서 휴대 및 교체가 용이합니다.",
+            "description": "配件",
+            "type": 21,
+            "icon": "WeaponPart_1_sghg6_3",
+            "rank": 5,
+            "argsStr": "10316355",
             "iconPath": "WeaponPart",
             "dismantlingList": {
                 "2": 100
@@ -43538,6 +44613,20 @@
             }
         },
         {
+            "id": 20311455,
+            "name": "【SG】덕빌 초크",
+            "introduction": "SG 전용 총구 파츠. 산탄이 분사되는 형태를 기존의 원형에서 가로로 넓은 타원형으로 바꿔 줍니다. 즉, 적을 '쓸어버리고' 싶을 때 적합합니다.",
+            "description": "配件",
+            "type": 21,
+            "icon": "WeaponPart_2_sgdba_3",
+            "rank": 5,
+            "argsStr": "20311455",
+            "iconPath": "WeaponPart",
+            "dismantlingList": {
+                "2": 100
+            }
+        },
+        {
             "id": 20312121,
             "name": "【SG】전용 제동기",
             "introduction": "SG 전용 제동기. 장약의 연소로 발생한 가스를 총구의 특정 방향으로 배출시켜, 총기의 반동을 감쇄하고 총구가 들리는 현상을 효과적으로 줄일 수 있습니다.",
@@ -43602,6 +44691,20 @@
             "icon": "WeaponPart_2_sgretractor_3",
             "rank": 5,
             "argsStr": "20312454",
+            "iconPath": "WeaponPart",
+            "dismantlingList": {
+                "2": 100
+            }
+        },
+        {
+            "id": 20312455,
+            "name": "【SG】전용 제동기",
+            "introduction": "SG 전용 제동기. 장약의 연소로 발생한 가스를 총구의 특정 방향으로 배출시켜, 총기의 반동을 감쇄하고 총구가 들리는 현상을 효과적으로 줄일 수 있습니다.",
+            "description": "配件",
+            "type": 21,
+            "icon": "WeaponPart_2_sgretractor_3",
+            "rank": 5,
+            "argsStr": "20312455",
             "iconPath": "WeaponPart",
             "dismantlingList": {
                 "2": 100
@@ -43678,6 +44781,20 @@
             }
         },
         {
+            "id": 20313455,
+            "name": "【SG】전용 소염기",
+            "introduction": "SG 전용 총구 파츠. 사격 시 총구 화염을 줄여줍니다. 나선형 홈을 채용하여 더 견고합니다.",
+            "description": "配件",
+            "type": 21,
+            "icon": "WeaponPart_2_sgflamesup_3",
+            "rank": 5,
+            "argsStr": "20313455",
+            "iconPath": "WeaponPart",
+            "dismantlingList": {
+                "2": 100
+            }
+        },
+        {
             "id": 20314121,
             "name": "【SG】전용 소음기",
             "introduction": "SG 전용 소음기. 소음 효과가 우수하지만, 완벽하게 소리를 지우는 것은 아니고 많이 줄여줄 뿐입니다.",
@@ -43742,6 +44859,20 @@
             "icon": "WeaponPart_2_salvo12_3",
             "rank": 5,
             "argsStr": "20314454",
+            "iconPath": "WeaponPart",
+            "dismantlingList": {
+                "2": 100
+            }
+        },
+        {
+            "id": 20314455,
+            "name": "【SG】전용 소음기",
+            "introduction": "SG 전용 소음기. 소음 효과가 우수하지만, 완벽하게 소리를 지우는 것은 아니고 많이 줄여줄 뿐입니다.",
+            "description": "配件",
+            "type": 21,
+            "icon": "WeaponPart_2_salvo12_3",
+            "rank": 5,
+            "argsStr": "20314455",
             "iconPath": "WeaponPart",
             "dismantlingList": {
                 "2": 100
@@ -43818,6 +44949,20 @@
             }
         },
         {
+            "id": 20315455,
+            "name": "【SG】튤립 소염기",
+            "introduction": "SG 전용 소염기. 반동을 확실히 잡아주는 동시에 근접 공격과 창문 브리칭에도 적합합니다.",
+            "description": "配件",
+            "type": 21,
+            "icon": "WeaponPart_2_Freno_3",
+            "rank": 5,
+            "argsStr": "20315455",
+            "iconPath": "WeaponPart",
+            "dismantlingList": {
+                "2": 100
+            }
+        },
+        {
             "id": 20316121,
             "name": "【SG】연장 총구",
             "introduction": "SG 전용 총구 파츠. 거리에 따른 탄환의 살상력 손실을 줄이고, 사거리를 효과적으로 향상시킵니다.",
@@ -43882,6 +45027,20 @@
             "icon": "WeaponPart_2_demoniclong_3",
             "rank": 5,
             "argsStr": "20316454",
+            "iconPath": "WeaponPart",
+            "dismantlingList": {
+                "2": 100
+            }
+        },
+        {
+            "id": 20316455,
+            "name": "【SG】연장 총구",
+            "introduction": "SG 전용 총구 파츠. 거리에 따른 탄환의 살상력 손실을 줄이고, 사거리를 효과적으로 향상시킵니다.",
+            "description": "配件",
+            "type": 21,
+            "icon": "WeaponPart_2_demoniclong_3",
+            "rank": 5,
+            "argsStr": "20316455",
             "iconPath": "WeaponPart",
             "dismantlingList": {
                 "2": 100
@@ -44306,6 +45465,114 @@
             "dismantlingList": {
                 "2": 100
             }
+        },
+        {
+            "id": 22010101,
+            "name": "机巧械能",
+            "introduction": "灵巧的黑色机械臂，既保留了战斗实用性，又为泳装造型增添了科技风反差感。",
+            "description": "夏克里头1",
+            "type": 14,
+            "icon": "Item_ClothesMod_SharkrySSR01_P1_Weapon",
+            "rank": 4,
+            "sort": 86,
+            "argsStr": "22010101",
+            "iconPath": "Item"
+        },
+        {
+            "id": 22010102,
+            "name": "童趣虹彩",
+            "introduction": "由七彩气球编织成的梦幻装饰，随着动作轻盈晃动，彩球在泳池的碧波中荡漾。",
+            "description": "夏克里头2",
+            "type": 14,
+            "icon": "Item_ClothesMod_SharkrySSR01_P2_Weapon",
+            "rank": 4,
+            "sort": 86,
+            "argsStr": "22010102",
+            "iconPath": "Item"
+        },
+        {
+            "id": 22010103,
+            "name": "星愿荧光",
+            "introduction": "缀满了各种霓虹星星灯装饰的机械臂，荧光闪烁在泳池，为偶像的演出热场。",
+            "description": "夏克里头3",
+            "type": 14,
+            "icon": "Item_ClothesMod_SharkrySSR01_P3_Weapon",
+            "rank": 4,
+            "sort": 86,
+            "argsStr": "22010103",
+            "iconPath": "Item"
+        },
+        {
+            "id": 22010201,
+            "name": "深蓝律动",
+            "introduction": "采用合成纤维材料制成的竞速泳装，朴实无华，在水波的冲刷下折射出蓝宝石般的光泽。",
+            "description": "夏克里衣服1",
+            "type": 14,
+            "icon": "Item_ClothesMod_SharkrySSR01_P1_Cloth",
+            "rank": 4,
+            "sort": 86,
+            "argsStr": "22010201",
+            "iconPath": "Item"
+        },
+        {
+            "id": 22010202,
+            "name": "浪花领结",
+            "introduction": "将领结元素融入泳装后的创意设计，缎带随水流灵活飘动，宛如浪花的轻吻。",
+            "description": "夏克里衣服2",
+            "type": 14,
+            "icon": "Item_ClothesMod_SharkrySSR01_P2_Cloth",
+            "rank": 4,
+            "sort": 86,
+            "argsStr": "22010202",
+            "iconPath": "Item"
+        },
+        {
+            "id": 22010203,
+            "name": "暗水迷纱",
+            "introduction": "半透明黑纱与竞技泳装的大胆组合。若隐若现的镂空剪裁如夜晚泳池的静谧月色，引人遐想。",
+            "description": "夏克里衣服3",
+            "type": 14,
+            "icon": "Item_ClothesMod_SharkrySSR01_P3_Cloth",
+            "rank": 4,
+            "sort": 86,
+            "argsStr": "22010203",
+            "iconPath": "Item"
+        },
+        {
+            "id": 22010301,
+            "name": "碧波无瑕",
+            "introduction": "想游得更快？那最好去掉所有会产生阻力的装饰。游泳时这就够了，但离开泳池后记得要穿鞋。",
+            "description": "夏克里腿1",
+            "type": 14,
+            "icon": "Item_ClothesMod_SharkrySSR01_P1_Body",
+            "rank": 4,
+            "sort": 86,
+            "argsStr": "22010301",
+            "iconPath": "Item"
+        },
+        {
+            "id": 22010302,
+            "name": "雪浪轻缠",
+            "introduction": "薄薄的白色过膝袜，在夏日阳光下映透出红润的皮肤，衬托着雪白浪花更显耀眼。",
+            "description": "夏克里腿2",
+            "type": 14,
+            "icon": "Item_ClothesMod_SharkrySSR01_P2_Body",
+            "rank": 4,
+            "sort": 86,
+            "argsStr": "22010302",
+            "iconPath": "Item"
+        },
+        {
+            "id": 22010303,
+            "name": "夜色曲线",
+            "introduction": "半透明的设计让腿部曲线更显修长，在泳池若隐若现的水流中，暗藏夏克里的致命吸引力。",
+            "description": "夏克里腿3",
+            "type": 14,
+            "icon": "Item_ClothesMod_SharkrySSR01_P3_Body",
+            "rank": 4,
+            "sort": 86,
+            "argsStr": "22010303",
+            "iconPath": "Item"
         },
         {
             "id": 30111121,
@@ -47382,6 +48649,20 @@
             }
         },
         {
+            "id": 90111355,
+            "name": "【SG】강화 리벳",
+            "introduction": "강철로 만든 패스너입니다. 총기 및 각종 장비를 영구적으로 고정시켜 안정성 및 강도를 향상시킵니다.",
+            "description": "配件",
+            "type": 21,
+            "icon": "WeaponPart_9_allsteel_3",
+            "rank": 5,
+            "argsStr": "90111355",
+            "iconPath": "WeaponPart",
+            "dismantlingList": {
+                "2": 100
+            }
+        },
+        {
             "id": 90112121,
             "name": "【SG】합금 리벳",
             "introduction": "금속 또는 합금 분말이 볼 밀 속에서 장기간 격렬한 충격과 충돌을 일으키면, 분말의 냉간압접 및 파괴가 반복되면서 원자들이 확산되어, 이를 통해 합금화 분말을 얻어내는 합금 제조 기술입니다. 총기 및 각종 장비를 영구적으로 고정시켜 안정성 및 강도를 향상시킵니다.",
@@ -47452,6 +48733,20 @@
             }
         },
         {
+            "id": 90112355,
+            "name": "【SG】합금 리벳",
+            "introduction": "금속 또는 합금 분말이 볼 밀 속에서 장기간 격렬한 충격과 충돌을 일으키면, 분말의 냉간압접 및 파괴가 반복되면서 원자들이 확산되어, 이를 통해 합금화 분말을 얻어내는 합금 제조 기술입니다. 총기 및 각종 장비를 영구적으로 고정시켜 안정성 및 강도를 향상시킵니다.",
+            "description": "配件",
+            "type": 21,
+            "icon": "WeaponPart_9_allalloy_3",
+            "rank": 5,
+            "argsStr": "90112355",
+            "iconPath": "WeaponPart",
+            "dismantlingList": {
+                "2": 100
+            }
+        },
+        {
             "id": 90113121,
             "name": "【SG】탄소섬유 리벳",
             "introduction": "강도와 탄성계수가 높은 고급 내열섬유로 만든 리벳. 총기 및 각종 장비를 영구적으로 고정시켜 안정성 및 강도를 향상시킵니다.",
@@ -47516,6 +48811,20 @@
             "icon": "WeaponPart_9_allcarbon_3",
             "rank": 5,
             "argsStr": "90113354",
+            "iconPath": "WeaponPart",
+            "dismantlingList": {
+                "2": 100
+            }
+        },
+        {
+            "id": 90113355,
+            "name": "【SG】탄소섬유 리벳",
+            "introduction": "강도와 탄성계수가 높은 고급 내열섬유로 만든 리벳. 총기 및 각종 장비를 영구적으로 고정시켜 안정성 및 강도를 향상시킵니다.",
+            "description": "配件",
+            "type": 21,
+            "icon": "WeaponPart_9_allcarbon_3",
+            "rank": 5,
+            "argsStr": "90113355",
             "iconPath": "WeaponPart",
             "dismantlingList": {
                 "2": 100
@@ -48012,6 +49321,20 @@
             }
         },
         {
+            "id": 110111355,
+            "name": "【SG】단면 걸쇠",
+            "introduction": "총기와 각종 장비에 사용되는 모듈형 부품. 안정적인 구조를 형성하는 데 효과적입니다.",
+            "description": "配件",
+            "type": 21,
+            "icon": "WeaponPart_11_orbment1_3",
+            "rank": 5,
+            "argsStr": "110111355",
+            "iconPath": "WeaponPart",
+            "dismantlingList": {
+                "2": 100
+            }
+        },
+        {
             "id": 110112121,
             "name": "【SG】제비꽁지 걸쇠",
             "introduction": "총기와 각종 장비에 사용되는 모듈형 부품. 안정적인 구조를 형성하는 데 효과적입니다.",
@@ -48082,6 +49405,20 @@
             }
         },
         {
+            "id": 110112355,
+            "name": "【SG】제비꽁지 걸쇠",
+            "introduction": "총기와 각종 장비에 사용되는 모듈형 부품. 안정적인 구조를 형성하는 데 효과적입니다.",
+            "description": "配件",
+            "type": 21,
+            "icon": "WeaponPart_11_orbment4_3",
+            "rank": 5,
+            "argsStr": "110112355",
+            "iconPath": "WeaponPart",
+            "dismantlingList": {
+                "2": 100
+            }
+        },
+        {
             "id": 110113121,
             "name": "【SG】반개방 걸쇠",
             "introduction": "총기와 각종 장비에 사용되는, 숨겨진 연결부를 갖춘 모듈형 부품. 안정적인 구조를 형성하는 데 효과적입니다.",
@@ -48146,6 +49483,20 @@
             "icon": "WeaponPart_11_orbment6_3",
             "rank": 5,
             "argsStr": "110113354",
+            "iconPath": "WeaponPart",
+            "dismantlingList": {
+                "2": 100
+            }
+        },
+        {
+            "id": 110113355,
+            "name": "【SG】반개방 걸쇠",
+            "introduction": "총기와 각종 장비에 사용되는, 숨겨진 연결부를 갖춘 모듈형 부품. 안정적인 구조를 형성하는 데 효과적입니다.",
+            "description": "配件",
+            "type": 21,
+            "icon": "WeaponPart_11_orbment6_3",
+            "rank": 5,
+            "argsStr": "110113355",
             "iconPath": "WeaponPart",
             "dismantlingList": {
                 "2": 100

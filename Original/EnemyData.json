@@ -2695,11 +2695,11 @@
                 100105011
             ],
             "rank": 3,
-            "propertyGroup": 80010,
-            "name": "克罗丽科",
+            "propertyGroup": 209203,
+            "name": "克罗丽科K-09",
             "joke": "",
             "trapDescription": "",
-            "description": "性格稍显暴躁，对与自己无关的事务没什么兴趣，但拥有无可指摘的责任心。就算是类似“纳美西丝专属翻译官”这样完全不喜欢的任务，克罗丽科也会尽心完成。",
+            "description": "吉拉尔集团制造出的克罗丽科复刻体人形，专用于人形角斗场。该复刻体最大程度地还原了克罗丽科的战斗风格，甚至连挥刀力度都进行了一比一的修正。",
             "textIndex": [
                 3,
                 7
@@ -2733,7 +2733,7 @@
                 0,
                 0
             ],
-            "nameOnBar": "克罗丽科",
+            "nameOnBar": "克罗丽科K-09",
             "nonMultimove": true,
             "showPotential": true,
             "guardRadius": 300,
@@ -2880,6 +2880,70 @@
             "guardRadius": 500,
             "guardRadiusShow": 1,
             "weakWeaponTag": 32
+        },
+        {
+            "id": 2068,
+            "enemyCamp": 1099,
+            "duty": 2,
+            "skillNormalAttack": 10010101,
+            "skillActive": 10010501,
+            "skillTalent": 10010801,
+            "skillActiveExtra": [
+                10010701,
+                10010401
+            ],
+            "skillTalentExtra": [
+                10010811,
+                100105011,
+                2068001
+            ],
+            "rank": 3,
+            "propertyGroup": 209203,
+            "name": "克罗丽科K-09",
+            "joke": "",
+            "trapDescription": "",
+            "description": "吉拉尔集团制造出的克罗丽科复刻体人形，专用于人形角斗场。该复刻体最大程度地还原了克罗丽科的战斗风格，甚至连挥刀力度都进行了一比一的修正。",
+            "textIndex": [
+                3,
+                7
+            ],
+            "characterPic": "CharolicSR",
+            "modelCode": 5031,
+            "moveCode": 27,
+            "occupySize": 1,
+            "aiOrder": 200,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "enemyType": 2,
+            "dzOpenBattle": 10010101,
+            "btPath": "BT/GunBT/1001/MainBT_1001.bt",
+            "weakTag": "4",
+            "supressGroup": [
+                6,
+                4,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "克罗丽科K-09",
+            "nonMultimove": true,
+            "showPotential": true,
+            "guardRadius": 300,
+            "guardRadiusShow": 1,
+            "defaultClothId": 1100100,
+            "weakWeaponTag": 32,
+            "weaponTag": 16
         },
         {
             "id": 6141,
@@ -6383,7 +6447,8 @@
             "skillTalent": 6541202,
             "skillTalentExtra": [
                 6541301,
-                910000019
+                910000019,
+                80000002
             ],
             "dzAiList": [
                 611002
@@ -7804,18 +7869,6 @@
             "id": 6784,
             "enemyCamp": 1100,
             "duty": 1,
-            "skillNormalAttack": 6773101,
-            "skillActive": 6773201,
-            "skillTalent": 6773501,
-            "skillActiveExtra": [
-                6773301,
-                6773401
-            ],
-            "skillTalentExtra": [
-                6773601,
-                6773701,
-                6151501
-            ],
             "aiList": [
                 677301
             ],
@@ -7832,9 +7885,9 @@
                 13,
                 14
             ],
-            "characterPic": "Chaos",
-            "modelCode": 6773,
-            "moveCode": 1,
+            "characterPic": "NeedleGalaxy01",
+            "modelCode": 6784,
+            "moveCode": 11,
             "occupySize": 3,
             "aiOrder": 50,
             "useFakeAttack": true,
@@ -7849,7 +7902,6 @@
                 8
             ],
             "idleType": 1,
-            "enemyType": 1,
             "dzOpenBattle": 6110101,
             "btPath": "BT/BOSSBT/6773/BOSSBT_Chaos.bt",
             "weakTag": "2,3,1",
@@ -7861,7 +7913,7 @@
                 3,
                 0
             ],
-            "nameOnBar": "卡俄斯",
+            "nameOnBar": "针",
             "guardRadius": 500,
             "guardRadiusShow": 1,
             "weakWeaponTag": 42
@@ -7870,18 +7922,6 @@
             "id": 6787,
             "enemyCamp": 1100,
             "duty": 1,
-            "skillNormalAttack": 6773101,
-            "skillActive": 6773201,
-            "skillTalent": 6773501,
-            "skillActiveExtra": [
-                6773301,
-                6773401
-            ],
-            "skillTalentExtra": [
-                6773601,
-                6773701,
-                6151501
-            ],
             "aiList": [
                 677301
             ],
@@ -7898,8 +7938,8 @@
                 13,
                 14
             ],
-            "characterPic": "Chaos",
-            "modelCode": 6773,
+            "characterPic": "NeedleGalaxy03",
+            "modelCode": 6787,
             "moveCode": 1,
             "occupySize": 3,
             "aiOrder": 50,
@@ -7927,10 +7967,60 @@
                 3,
                 0
             ],
-            "nameOnBar": "卡俄斯",
+            "nameOnBar": "针",
             "guardRadius": 500,
             "guardRadiusShow": 1,
             "weakWeaponTag": 42
+        },
+        {
+            "id": 6793,
+            "enemyCamp": 1010,
+            "duty": 1,
+            "skillTalent": 6793101,
+            "skillTalentExtra": [
+                910000020
+            ],
+            "dzAiList": [
+                611002
+            ],
+            "rank": 1,
+            "propertyGroup": 105301,
+            "name": "狂欢库比克",
+            "joke": "狂欢库比克提醒您：疯狂点击不会增加您的胜算，只会让您的手指更酸痛。",
+            "trapDescription": "",
+            "description": "吉拉尔集团自主研发的一款线上赌场程序，为不方便在线下赌博中露面的客户提供掷骰子等赌博游戏服务。",
+            "textIndex": [
+                51
+            ],
+            "characterPic": "CarnivalCubiq",
+            "modelCode": 6793,
+            "moveCode": 11,
+            "occupySize": 1,
+            "aiOrder": 550,
+            "useFakeAttack": true,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                2,
+                1000,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "btPath": "BT/MainBT/MainBT_0.bt",
+            "supressGroup": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "狂欢库比克",
+            "guardRadius": 500,
+            "guardRadiusShow": 1
         },
         {
             "id": 6851,
@@ -10568,6 +10658,193 @@
             "weakWeaponTag": 28
         },
         {
+            "id": 6896,
+            "enemyCamp": 1003,
+            "duty": 1,
+            "skillActive": 6896101,
+            "skillTalent": 6896401,
+            "skillActiveExtra": [
+                6896201,
+                6896301
+            ],
+            "skillTalentExtra": [
+                6896304,
+                6896403,
+                6896501,
+                6873700,
+                6151501,
+                910000012,
+                910000015
+            ],
+            "aiList": [
+                689601,
+                689602
+            ],
+            "rank": 3,
+            "propertyGroup": 209501,
+            "name": "堡垒泰坦·械跃",
+            "joke": "要想击败它需要智谋，又或是绝对的力量。",
+            "trapDescription": "",
+            "description": "堡垒泰坦的特殊型号，在两种模式的切换下，释放出不同的辅助机械，从而达到全方面的性能飞跃。",
+            "textIndex": [
+                13,
+                7,
+                14
+            ],
+            "characterPic": "Mecha_Guard",
+            "modelCode": 6873,
+            "moveCode": 1,
+            "occupySize": 3,
+            "aiOrder": 50,
+            "useFakeAttack": true,
+            "shieldType": 2,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                910000007,
+                2,
+                1000,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "enemyType": 1,
+            "dzOpenBattle": 6873101,
+            "btPath": "BT/BOSSBT/6896/BOSSBT_6896.bt",
+            "weakTag": "4,5",
+            "nameOnBar": "堡垒泰坦·械跃",
+            "guardRadius": 700,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 34
+        },
+        {
+            "id": 6897,
+            "enemyCamp": 1003,
+            "duty": 1,
+            "skillActive": 6897101,
+            "skillTalent": 6897401,
+            "skillActiveExtra": [
+                6897201,
+                6897301
+            ],
+            "skillTalentExtra": [
+                6897304,
+                6897403,
+                6897501,
+                6873700,
+                6151501,
+                910000012,
+                910000015
+            ],
+            "aiList": [
+                689701,
+                689702
+            ],
+            "rank": 3,
+            "propertyGroup": 209503,
+            "name": "堡垒泰坦·械跃",
+            "joke": "要想击败它需要智谋，又或是绝对的力量。",
+            "trapDescription": "",
+            "description": "堡垒泰坦的特殊型号，在两种模式的切换下，释放出不同的辅助机械，从而达到全方面的性能飞跃。",
+            "textIndex": [
+                13,
+                7,
+                14
+            ],
+            "characterPic": "Mecha_Guard",
+            "modelCode": 6873,
+            "moveCode": 1,
+            "occupySize": 3,
+            "aiOrder": 50,
+            "useFakeAttack": true,
+            "shieldType": 2,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                910000007,
+                2,
+                1000,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "enemyType": 1,
+            "dzOpenBattle": 6873101,
+            "btPath": "BT/BOSSBT/6897/BOSSBT_6897.bt",
+            "weakTag": "4,5",
+            "nameOnBar": "堡垒泰坦·械跃",
+            "guardRadius": 700,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 34
+        },
+        {
+            "id": 6898,
+            "enemyCamp": 1003,
+            "duty": 1,
+            "skillNormalAttack": 6898101,
+            "skillActive": 6898103,
+            "skillTalent": 6898001,
+            "skillActiveExtra": [
+                6898201,
+                6898301
+            ],
+            "skillTalentExtra": [
+                6898102,
+                68981011,
+                6898002,
+                6898003,
+                6898004,
+                6151501,
+                910000012,
+                910000015
+            ],
+            "aiList": [
+                689801
+            ],
+            "rank": 3,
+            "propertyGroup": 207305,
+            "name": "要塞伯爵·垒狱",
+            "joke": "这位伯爵大人一定很怕痛，所以全点了防御。",
+            "trapDescription": "",
+            "description": "将尖端的能量场技术，融入要塞伯爵后所诞生的恐怖兵器。拥有无与伦比的防御与火力性能。当它出现在战场上时，就像是矗立了一道通往地狱的壁垒。",
+            "textIndex": [
+                13,
+                7
+            ],
+            "characterPic": "Tank",
+            "modelCode": 6902,
+            "moveCode": 1,
+            "occupySize": 3,
+            "aiOrder": 50,
+            "useFakeAttack": true,
+            "shieldType": 2,
+            "attackType": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "enemyType": 1,
+            "dzOpenBattle": 6898101,
+            "btPath": "BT/BOSSBT/6898/BOSSBT_6898.bt",
+            "weakTag": "3,4",
+            "supressGroup": [
+                4,
+                2,
+                2,
+                1,
+                0,
+                0
+            ],
+            "nameOnBar": "要塞伯爵·垒狱",
+            "guardRadius": 700,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 44
+        },
+        {
             "id": 6901,
             "enemyCamp": 1003,
             "duty": 1,
@@ -13032,7 +13309,8 @@
             "skillNormalAttack": 6541101,
             "skillTalent": 6978101,
             "skillTalentExtra": [
-                910000019
+                910000019,
+                80000002
             ],
             "dzAiList": [
                 611002
@@ -14444,6 +14722,96 @@
             "ignorePlayer1Skill": true,
             "weakWeaponTag": 12,
             "weakMap": 63121
+        },
+        {
+            "id": 7036,
+            "enemyCamp": 1003,
+            "duty": 1,
+            "skillTalentExtra": [
+                7036101
+            ],
+            "rank": 1,
+            "propertyGroup": 209506,
+            "name": "歌利亚·治疗",
+            "joke": "远看有点像个足球，近看……不好快跑！",
+            "trapDescription": "",
+            "description": "铁血工造技术代表作的定制版，涂装经过特殊设计，歌利亚宠物化、家用化趋势愈加明显的一个版本。",
+            "characterPic": "GolyatRed",
+            "modelCode": 63121,
+            "moveCode": 1,
+            "occupySize": 1,
+            "aiOrder": 50,
+            "shieldType": 1,
+            "attackType": 2,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "btPath": "BT/MainBT/MainBT_0.bt",
+            "weakTag": "5",
+            "supressGroup": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "歌利亚·治疗",
+            "guardRadius": 300,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 8
+        },
+        {
+            "id": 7037,
+            "enemyCamp": 1003,
+            "duty": 1,
+            "skillTalentExtra": [
+                7037101
+            ],
+            "rank": 1,
+            "propertyGroup": 209505,
+            "name": "歌利亚·民用",
+            "joke": "远看有点像个足球，近看……不好快跑！",
+            "trapDescription": "",
+            "description": "铁血工造技术代表作的定制版，涂装经过特殊设计，歌利亚宠物化、家用化趋势愈加明显的一个版本。",
+            "characterPic": "Golyat",
+            "modelCode": 6312,
+            "moveCode": 1,
+            "occupySize": 1,
+            "aiOrder": 50,
+            "shieldType": 1,
+            "attackType": 2,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "btPath": "BT/MainBT/MainBT_0.bt",
+            "weakTag": "5",
+            "supressGroup": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "歌利亚·民用",
+            "guardRadius": 300,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 8
         },
         {
             "id": 7101,
@@ -26641,6 +27009,596 @@
             "weakWeaponTag": 2
         },
         {
+            "id": 67841,
+            "enemyCamp": 1100,
+            "duty": 1,
+            "aiList": [
+                677301
+            ],
+            "dzAiList": [
+                611002
+            ],
+            "rank": 3,
+            "propertyGroup": 208901,
+            "name": "针一形态",
+            "joke": "不知被挂在墙上多久了。枷锁松动的瞬息，滞压的疯狂必然会迸发倾泻而出。",
+            "trapDescription": "",
+            "description": "金属素体与武装机械结合的产物，由不知名地下研究所秘密研发的第三代人形原型机。张牙舞爪的触手高举各色屠刀，伺机降下致命的一击。",
+            "textIndex": [
+                13,
+                14
+            ],
+            "characterPic": "NeedleGalaxy01",
+            "modelCode": 6784,
+            "moveCode": 11,
+            "occupySize": 3,
+            "aiOrder": 50,
+            "useFakeAttack": true,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                2,
+                1000,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "dzOpenBattle": 6110101,
+            "btPath": "BT/BOSSBT/6773/BOSSBT_Chaos.bt",
+            "weakTag": "2,3,1",
+            "supressGroup": [
+                4,
+                2,
+                5,
+                5,
+                3,
+                0
+            ],
+            "nameOnBar": "针",
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 42
+        },
+        {
+            "id": 67871,
+            "enemyCamp": 1100,
+            "duty": 1,
+            "aiList": [
+                677301
+            ],
+            "dzAiList": [
+                611002
+            ],
+            "rank": 3,
+            "propertyGroup": 208901,
+            "name": "针三形态",
+            "joke": "不知被挂在墙上多久了。枷锁松动的瞬息，滞压的疯狂必然会迸发倾泻而出。",
+            "trapDescription": "",
+            "description": "金属素体与武装机械结合的产物，由不知名地下研究所秘密研发的第三代人形原型机。张牙舞爪的触手高举各色屠刀，伺机降下致命的一击。",
+            "textIndex": [
+                13,
+                14
+            ],
+            "characterPic": "NeedleGalaxy03",
+            "modelCode": 6787,
+            "moveCode": 1,
+            "occupySize": 3,
+            "aiOrder": 50,
+            "useFakeAttack": true,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                2,
+                1000,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "enemyType": 1,
+            "dzOpenBattle": 6110101,
+            "btPath": "BT/BOSSBT/6773/BOSSBT_Chaos.bt",
+            "weakTag": "2,3,1",
+            "supressGroup": [
+                4,
+                2,
+                5,
+                5,
+                3,
+                0
+            ],
+            "nameOnBar": "针",
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 42
+        },
+        {
+            "id": 67901,
+            "enemyCamp": 1001,
+            "duty": 1,
+            "skillNormalAttack": 6110101,
+            "dzAiList": [
+                611002
+            ],
+            "rank": 1,
+            "propertyGroup": 101201,
+            "name": "傀儡人形·暴风猎手一型",
+            "joke": "只要开枪次数够多，总有命中的时候。",
+            "trapDescription": "",
+            "description": "究竟是什么，能让他们从人类变成只会在战场上横冲直撞的大猩猩？",
+            "textIndex": [
+                1
+            ],
+            "characterPic": "Felade",
+            "modelCode": 6110,
+            "moveCode": 11,
+            "occupySize": 1,
+            "aiOrder": 600,
+            "useFakeAttack": true,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                1,
+                1000,
+                0,
+                32
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "dzOpenBattle": 6110101,
+            "btPath": "BT/EnemyBT/EnemyBT_002+002.bt",
+            "weakTag": "5,1",
+            "supressGroup": [
+                4,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "冲锋兵Ⅰ",
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 14,
+            "weakMap": 61101
+        },
+        {
+            "id": 67902,
+            "enemyCamp": 1001,
+            "duty": 1,
+            "skillNormalAttack": 6110101,
+            "skillTalent": 61101200,
+            "dzAiList": [
+                611002
+            ],
+            "rank": 1,
+            "propertyGroup": 101202,
+            "name": "傀儡人形·暴风猎手二型",
+            "joke": "只要开枪次数够多，总有命中的时候。",
+            "trapDescription": "",
+            "description": "究竟是什么，能让他们从人类变成只会在战场上横冲直撞的大猩猩？",
+            "textIndex": [
+                1
+            ],
+            "characterPic": "Felade",
+            "modelCode": 6110,
+            "moveCode": 11,
+            "occupySize": 1,
+            "aiOrder": 550,
+            "useFakeAttack": true,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                1,
+                1000,
+                0,
+                32
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "dzOpenBattle": 6110101,
+            "btPath": "BT/EnemyBT/EnemyBT_002+002.bt",
+            "weakTag": "5,1",
+            "supressGroup": [
+                3,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "冲锋兵Ⅱ",
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 14,
+            "weakMap": 61102
+        },
+        {
+            "id": 67903,
+            "enemyCamp": 1001,
+            "duty": 1,
+            "skillNormalAttack": 6110101,
+            "skillTalent": 61103200,
+            "skillTalentExtra": [
+                61102300
+            ],
+            "dzAiList": [
+                611002
+            ],
+            "rank": 1,
+            "propertyGroup": 101203,
+            "name": "傀儡人形·暴风猎手三型",
+            "joke": "只要开枪次数够多，总有命中的时候。",
+            "trapDescription": "",
+            "description": "究竟是什么，能让他们从人类变成只会在战场上横冲直撞的大猩猩？",
+            "textIndex": [
+                1
+            ],
+            "characterPic": "Felade",
+            "modelCode": 6110,
+            "moveCode": 11,
+            "occupySize": 1,
+            "aiOrder": 550,
+            "useFakeAttack": true,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                1,
+                1000,
+                0,
+                32
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "dzOpenBattle": 6110101,
+            "btPath": "BT/EnemyBT/EnemyBT_003+003.bt",
+            "weakTag": "1",
+            "supressGroup": [
+                2,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "冲锋兵Ⅲ",
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 12,
+            "weakMap": 61103
+        },
+        {
+            "id": 67911,
+            "enemyCamp": 1001,
+            "duty": 1,
+            "skillNormalAttack": 6110101,
+            "dzAiList": [
+                611002
+            ],
+            "rank": 1,
+            "propertyGroup": 101201,
+            "name": "傀儡人形·精准脉冲一型",
+            "joke": "只要开枪次数够多，总有命中的时候。",
+            "trapDescription": "",
+            "description": "究竟是什么，能让他们从人类变成只会在战场上横冲直撞的大猩猩？",
+            "textIndex": [
+                1
+            ],
+            "characterPic": "Felade",
+            "modelCode": 6110,
+            "moveCode": 11,
+            "occupySize": 1,
+            "aiOrder": 600,
+            "useFakeAttack": true,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                1,
+                1000,
+                0,
+                32
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "dzOpenBattle": 6110101,
+            "btPath": "BT/EnemyBT/EnemyBT_002+002.bt",
+            "weakTag": "5,1",
+            "supressGroup": [
+                4,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "冲锋兵Ⅰ",
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 14,
+            "weakMap": 61101
+        },
+        {
+            "id": 67912,
+            "enemyCamp": 1001,
+            "duty": 1,
+            "skillNormalAttack": 6110101,
+            "skillTalent": 61101200,
+            "dzAiList": [
+                611002
+            ],
+            "rank": 1,
+            "propertyGroup": 101202,
+            "name": "傀儡人形·精准脉冲二型",
+            "joke": "只要开枪次数够多，总有命中的时候。",
+            "trapDescription": "",
+            "description": "究竟是什么，能让他们从人类变成只会在战场上横冲直撞的大猩猩？",
+            "textIndex": [
+                1
+            ],
+            "characterPic": "Felade",
+            "modelCode": 6110,
+            "moveCode": 11,
+            "occupySize": 1,
+            "aiOrder": 550,
+            "useFakeAttack": true,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                1,
+                1000,
+                0,
+                32
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "dzOpenBattle": 6110101,
+            "btPath": "BT/EnemyBT/EnemyBT_002+002.bt",
+            "weakTag": "5,1",
+            "supressGroup": [
+                3,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "冲锋兵Ⅱ",
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 14,
+            "weakMap": 61102
+        },
+        {
+            "id": 67913,
+            "enemyCamp": 1001,
+            "duty": 1,
+            "skillNormalAttack": 6110101,
+            "skillTalent": 61103200,
+            "skillTalentExtra": [
+                61102300
+            ],
+            "dzAiList": [
+                611002
+            ],
+            "rank": 1,
+            "propertyGroup": 101203,
+            "name": "傀儡人形·精准脉冲三型",
+            "joke": "只要开枪次数够多，总有命中的时候。",
+            "trapDescription": "",
+            "description": "究竟是什么，能让他们从人类变成只会在战场上横冲直撞的大猩猩？",
+            "textIndex": [
+                1
+            ],
+            "characterPic": "Felade",
+            "modelCode": 6110,
+            "moveCode": 11,
+            "occupySize": 1,
+            "aiOrder": 550,
+            "useFakeAttack": true,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                1,
+                1000,
+                0,
+                32
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "dzOpenBattle": 6110101,
+            "btPath": "BT/EnemyBT/EnemyBT_003+003.bt",
+            "weakTag": "1",
+            "supressGroup": [
+                2,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "冲锋兵Ⅲ",
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 12,
+            "weakMap": 61103
+        },
+        {
+            "id": 67921,
+            "enemyCamp": 1001,
+            "duty": 1,
+            "skillNormalAttack": 6110101,
+            "dzAiList": [
+                611002
+            ],
+            "rank": 1,
+            "propertyGroup": 101201,
+            "name": "傀儡人形·刀锋行者一型",
+            "joke": "只要开枪次数够多，总有命中的时候。",
+            "trapDescription": "",
+            "description": "究竟是什么，能让他们从人类变成只会在战场上横冲直撞的大猩猩？",
+            "textIndex": [
+                1
+            ],
+            "characterPic": "Felade",
+            "modelCode": 6110,
+            "moveCode": 11,
+            "occupySize": 1,
+            "aiOrder": 600,
+            "useFakeAttack": true,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                1,
+                1000,
+                0,
+                32
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "dzOpenBattle": 6110101,
+            "btPath": "BT/EnemyBT/EnemyBT_002+002.bt",
+            "weakTag": "5,1",
+            "supressGroup": [
+                4,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "冲锋兵Ⅰ",
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 14,
+            "weakMap": 61101
+        },
+        {
+            "id": 67922,
+            "enemyCamp": 1001,
+            "duty": 1,
+            "skillNormalAttack": 6110101,
+            "skillTalent": 61101200,
+            "dzAiList": [
+                611002
+            ],
+            "rank": 1,
+            "propertyGroup": 101202,
+            "name": "傀儡人形·刀锋行者二型",
+            "joke": "只要开枪次数够多，总有命中的时候。",
+            "trapDescription": "",
+            "description": "究竟是什么，能让他们从人类变成只会在战场上横冲直撞的大猩猩？",
+            "textIndex": [
+                1
+            ],
+            "characterPic": "Felade",
+            "modelCode": 6110,
+            "moveCode": 11,
+            "occupySize": 1,
+            "aiOrder": 550,
+            "useFakeAttack": true,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                1,
+                1000,
+                0,
+                32
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "dzOpenBattle": 6110101,
+            "btPath": "BT/EnemyBT/EnemyBT_002+002.bt",
+            "weakTag": "5,1",
+            "supressGroup": [
+                3,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "冲锋兵Ⅱ",
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 14,
+            "weakMap": 61102
+        },
+        {
+            "id": 67923,
+            "enemyCamp": 1001,
+            "duty": 1,
+            "skillNormalAttack": 6110101,
+            "skillTalent": 61103200,
+            "skillTalentExtra": [
+                61102300
+            ],
+            "dzAiList": [
+                611002
+            ],
+            "rank": 1,
+            "propertyGroup": 101203,
+            "name": "傀儡人形·刀锋行者三型",
+            "joke": "只要开枪次数够多，总有命中的时候。",
+            "trapDescription": "",
+            "description": "究竟是什么，能让他们从人类变成只会在战场上横冲直撞的大猩猩？",
+            "textIndex": [
+                1
+            ],
+            "characterPic": "Felade",
+            "modelCode": 6110,
+            "moveCode": 11,
+            "occupySize": 1,
+            "aiOrder": 550,
+            "useFakeAttack": true,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                1,
+                1000,
+                0,
+                32
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "dzOpenBattle": 6110101,
+            "btPath": "BT/EnemyBT/EnemyBT_003+003.bt",
+            "weakTag": "1",
+            "supressGroup": [
+                2,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "冲锋兵Ⅲ",
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 12,
+            "weakMap": 61103
+        },
+        {
             "id": 68512,
             "enemyCamp": 1100,
             "duty": 1,
@@ -27908,6 +28866,142 @@
             "weakWeaponTag": 28
         },
         {
+            "id": 68921,
+            "enemyCamp": 1002,
+            "duty": 1,
+            "skillNormalAttack": 6892101,
+            "skillActive": 6892201,
+            "skillTalent": 6892001,
+            "skillActiveExtra": [
+                6892103,
+                6892301,
+                6892401
+            ],
+            "skillTalentExtra": [
+                6892102,
+                6892202,
+                6892203,
+                6246901,
+                6151501,
+                910000012
+            ],
+            "aiList": [
+                689201
+            ],
+            "rank": 3,
+            "propertyGroup": 207302,
+            "name": "纽虫·异种",
+            "joke": "如噩梦中逃逸的怪物，以畸形的缝合身躯挑战理性边界。",
+            "trapDescription": "",
+            "description": "依旧是那个熟悉“缝合体”。但相比同类而言，眼前子个体不仅顶冠更加硕大，其分泌的汁液也异常粘稠。",
+            "textIndex": [
+                13,
+                7,
+                14
+            ],
+            "characterPic": "Nemertea",
+            "modelCode": 6248,
+            "moveCode": 1,
+            "occupySize": 3,
+            "aiOrder": 50,
+            "useFakeAttack": true,
+            "shieldType": 2,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                910000007,
+                2,
+                1000,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "enemyType": 1,
+            "dzOpenBattle": 6248101,
+            "btPath": "BT/BOSSBT/6892/BOSSBT_Nemertea6892.bt",
+            "weakTag": "1,4",
+            "supressGroup": [
+                2,
+                3,
+                0,
+                2,
+                0,
+                0
+            ],
+            "nameOnBar": "纽虫·异种",
+            "guardRadius": 700,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 12
+        },
+        {
+            "id": 68922,
+            "enemyCamp": 1002,
+            "duty": 1,
+            "skillNormalAttack": 6892101,
+            "skillActive": 6892201,
+            "skillTalent": 6892001,
+            "skillActiveExtra": [
+                6892103,
+                6892301,
+                6892401
+            ],
+            "skillTalentExtra": [
+                6892102,
+                6892202,
+                6892203,
+                6246901,
+                6151501,
+                910000012
+            ],
+            "aiList": [
+                689201
+            ],
+            "rank": 3,
+            "propertyGroup": 207302,
+            "name": "纽虫·异种",
+            "joke": "如噩梦中逃逸的怪物，以畸形的缝合身躯挑战理性边界。",
+            "trapDescription": "",
+            "description": "依旧是那个熟悉“缝合体”。但相比同类而言，眼前子个体不仅顶冠更加硕大，其分泌的汁液也异常粘稠。",
+            "textIndex": [
+                13,
+                7,
+                14
+            ],
+            "characterPic": "Nemertea",
+            "modelCode": 6248,
+            "moveCode": 1,
+            "occupySize": 3,
+            "aiOrder": 50,
+            "useFakeAttack": true,
+            "shieldType": 2,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                910000007,
+                2,
+                1000,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "enemyType": 1,
+            "dzOpenBattle": 6248101,
+            "btPath": "BT/BOSSBT/6892/BOSSBT_Nemertea6892.bt",
+            "weakTag": "1,5",
+            "supressGroup": [
+                2,
+                3,
+                0,
+                2,
+                0,
+                0
+            ],
+            "nameOnBar": "纽虫·异种",
+            "guardRadius": 700,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 12
+        },
+        {
             "id": 69021,
             "enemyCamp": 1003,
             "duty": 1,
@@ -28449,6 +29543,96 @@
             "guardRadiusShow": 1,
             "weakWeaponTag": 12,
             "weakMap": 65013
+        },
+        {
+            "id": 70361,
+            "enemyCamp": 1003,
+            "duty": 1,
+            "skillTalentExtra": [
+                7036101
+            ],
+            "rank": 1,
+            "propertyGroup": 209508,
+            "name": "歌利亚·治疗",
+            "joke": "远看有点像个足球，近看……不好快跑！",
+            "trapDescription": "",
+            "description": "铁血工造技术代表作的定制版，涂装经过特殊设计，歌利亚宠物化、家用化趋势愈加明显的一个版本。",
+            "characterPic": "GolyatRed",
+            "modelCode": 63121,
+            "moveCode": 1,
+            "occupySize": 1,
+            "aiOrder": 50,
+            "shieldType": 1,
+            "attackType": 2,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "btPath": "BT/MainBT/MainBT_0.bt",
+            "weakTag": "5",
+            "supressGroup": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "歌利亚·治疗",
+            "guardRadius": 300,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 8
+        },
+        {
+            "id": 70371,
+            "enemyCamp": 1003,
+            "duty": 1,
+            "skillTalentExtra": [
+                7037101
+            ],
+            "rank": 1,
+            "propertyGroup": 209507,
+            "name": "歌利亚·民用",
+            "joke": "远看有点像个足球，近看……不好快跑！",
+            "trapDescription": "",
+            "description": "铁血工造技术代表作的定制版，涂装经过特殊设计，歌利亚宠物化、家用化趋势愈加明显的一个版本。",
+            "characterPic": "Golyat",
+            "modelCode": 6312,
+            "moveCode": 1,
+            "occupySize": 1,
+            "aiOrder": 50,
+            "shieldType": 1,
+            "attackType": 2,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "btPath": "BT/MainBT/MainBT_0.bt",
+            "weakTag": "5",
+            "supressGroup": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "歌利亚·民用",
+            "guardRadius": 300,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 8
         },
         {
             "id": 72011,
@@ -29954,6 +31138,130 @@
             "nameOnBar": "技能测试用冲锋兵",
             "guardRadius": 500,
             "guardRadiusShow": 1
+        },
+        {
+            "id": 689801,
+            "enemyCamp": 1003,
+            "duty": 1,
+            "skillTalent": 689801001,
+            "skillTalentExtra": [
+                689801002,
+                689801003
+            ],
+            "rank": 1,
+            "propertyGroup": 207306,
+            "name": "壁垒链端",
+            "joke": "伯爵大人忠实的仆从一号。",
+            "trapDescription": "",
+            "description": "要塞伯爵·垒狱的力场链端I型，主要用于生成防御力场。",
+            "characterPic": "Mecha_Device2",
+            "modelCode": 68731,
+            "moveCode": 1,
+            "occupySize": 1,
+            "aiOrder": 100,
+            "useFakeAttack": true,
+            "shieldType": 2,
+            "attackType": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "btPath": "BT/BOSSBT/6898/BOSSBT_689801.bt",
+            "weakTag": "2",
+            "supressGroup": [
+                3,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "壁垒链端",
+            "guardRadius": 700,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 18
+        },
+        {
+            "id": 689802,
+            "enemyCamp": 1003,
+            "duty": 1,
+            "skillTalent": 689802001,
+            "skillTalentExtra": [
+                689802002,
+                689802003,
+                689802004
+            ],
+            "rank": 1,
+            "propertyGroup": 207307,
+            "name": "干扰链端",
+            "joke": "伯爵大人忠实的仆从二号。",
+            "trapDescription": "",
+            "description": "要塞伯爵·垒狱的力场链端II型，主要用于干扰范围攻击。",
+            "characterPic": "Mecha_Device2",
+            "modelCode": 68731,
+            "moveCode": 1,
+            "occupySize": 1,
+            "aiOrder": 100,
+            "useFakeAttack": true,
+            "shieldType": 2,
+            "attackType": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "btPath": "BT/BOSSBT/6898/BOSSBT_689801.bt",
+            "weakTag": "3,5",
+            "nameOnBar": "干扰链端",
+            "guardRadius": 700,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 14
+        },
+        {
+            "id": 689803,
+            "enemyCamp": 1003,
+            "duty": 1,
+            "skillTalent": 689803001,
+            "skillTalentExtra": [
+                689803002,
+                689803003,
+                689803004
+            ],
+            "rank": 1,
+            "propertyGroup": 207308,
+            "name": "侦测链端",
+            "joke": "伯爵大人忠实的仆从三号。",
+            "trapDescription": "",
+            "description": "要塞伯爵·垒狱的力场链端II型，主要用于侦测精准攻击。",
+            "characterPic": "Mecha_Device2",
+            "modelCode": 68731,
+            "moveCode": 1,
+            "occupySize": 1,
+            "aiOrder": 100,
+            "useFakeAttack": true,
+            "shieldType": 2,
+            "attackType": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "btPath": "BT/BOSSBT/6898/BOSSBT_689801.bt",
+            "weakTag": "1,4",
+            "nameOnBar": "侦测链端",
+            "guardRadius": 700,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 44
         },
         {
             "id": 697101,
@@ -37106,6 +38414,322 @@
             "weaponTag": 4
         },
         {
+            "id": 2839100,
+            "enemyCamp": 1004,
+            "duty": 1,
+            "skillNormalAttack": 6858101,
+            "skillActive": 6858201,
+            "skillTalent": 6853601,
+            "skillActiveExtra": [
+                6858301,
+                6859401,
+                6858501
+            ],
+            "skillTalentExtra": [
+                6859601,
+                6859602,
+                6859603,
+                6151501,
+                80000002,
+                910000015
+            ],
+            "aiList": [
+                685901
+            ],
+            "rank": 3,
+            "propertyGroup": 201604,
+            "name": "六分仪？",
+            "joke": "告……诉……我……我……是……谁？",
+            "trapDescription": "",
+            "description": "遗忘了自己名姓的棋手，是否还能从容执子、窥探未来？",
+            "textIndex": [
+                13,
+                19
+            ],
+            "characterPic": "LoseSextans",
+            "modelCode": 6858,
+            "moveCode": 11,
+            "occupySize": 1,
+            "aiOrder": 50,
+            "useFakeAttack": true,
+            "shieldType": 2,
+            "attackType": 2,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                2,
+                1000,
+                0,
+                2
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "dzOpenBattle": 6858101,
+            "btPath": "BT/BOSSBT/6859/BOSSBT_Sextans.bt",
+            "weakTag": "2,3",
+            "supressGroup": [
+                4,
+                2,
+                3,
+                0,
+                0,
+                1
+            ],
+            "nameOnBar": "六分仪？",
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 12
+        },
+        {
+            "id": 2839101,
+            "enemyCamp": 1099,
+            "duty": 2,
+            "skillNormalAttack": 10010101,
+            "skillActive": 10010501,
+            "skillTalent": 10010801,
+            "skillActiveExtra": [
+                10010701,
+                10010401
+            ],
+            "skillTalentExtra": [
+                10010811,
+                100105011
+            ],
+            "rank": 1,
+            "propertyGroup": 80010,
+            "name": "克罗丽科",
+            "joke": "",
+            "trapDescription": "",
+            "description": "性格稍显暴躁，对与自己无关的事务没什么兴趣，但拥有无可指摘的责任心。就算是类似“纳美西丝专属翻译官”这样完全不喜欢的任务，克罗丽科也会尽心完成。",
+            "textIndex": [
+                3,
+                7
+            ],
+            "characterPic": "CharolicSR",
+            "modelCode": 5031,
+            "moveCode": 27,
+            "occupySize": 1,
+            "aiOrder": 200,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "enemyType": 2,
+            "dzOpenBattle": 10010101,
+            "btPath": "BT/GunBT/1001/MainBT_1001.bt",
+            "weakTag": "4",
+            "supressGroup": [
+                6,
+                4,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "克罗丽科",
+            "nonMultimove": true,
+            "showPotential": true,
+            "guardRadius": 300,
+            "guardRadiusShow": 1,
+            "defaultClothId": 1100100,
+            "weakWeaponTag": 36,
+            "weaponTag": 16
+        },
+        {
+            "id": 2839102,
+            "enemyCamp": 1099,
+            "duty": 1,
+            "skillNormalAttack": 10170101,
+            "skillActive": 10170501,
+            "skillTalent": 10170801,
+            "skillActiveExtra": [
+                10170701,
+                10170401
+            ],
+            "rank": 1,
+            "propertyGroup": 80050,
+            "name": "闪电",
+            "joke": "",
+            "trapDescription": "",
+            "description": "如何统合性格迥异的小队成员共同完成各项任务，一直是闪电首先需要考虑的事情。要充分了解成员们的各项能力，然后做出合理的规划安排——虽然存在各种意外，但好在大家还算配合。",
+            "textIndex": [
+                3,
+                15,
+                29
+            ],
+            "characterPic": "GrozaSR",
+            "modelCode": 5035,
+            "moveCode": 27,
+            "occupySize": 1,
+            "aiOrder": 200,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "enemyType": 2,
+            "dzOpenBattle": 10170101,
+            "btPath": "BT/GunBT/1017/MainBT_1017.bt",
+            "weakTag": "4",
+            "supressGroup": [
+                6,
+                4,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "闪电",
+            "nonMultimove": true,
+            "showPotential": true,
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "defaultClothId": 1101700,
+            "weakWeaponTag": 36,
+            "weaponTag": 4
+        },
+        {
+            "id": 2839103,
+            "enemyCamp": 1099,
+            "duty": 3,
+            "skillNormalAttack": 10090101,
+            "skillActive": 10090501,
+            "skillTalent": 10090801,
+            "skillActiveExtra": [
+                10090701,
+                10090401
+            ],
+            "skillTalentExtra": [
+                100907011
+            ],
+            "rank": 1,
+            "propertyGroup": 80030,
+            "name": "寇尔芙",
+            "joke": "",
+            "trapDescription": "",
+            "description": "现在所付出的一切，都是为了那个最终的结果。就这样，维持这个状态……扬起微笑，继续下去。",
+            "textIndex": [
+                3,
+                8
+            ],
+            "characterPic": "ColphneSR",
+            "modelCode": 5033,
+            "moveCode": 27,
+            "occupySize": 1,
+            "aiOrder": 200,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "enemyType": 2,
+            "dzOpenBattle": 10090101,
+            "btPath": "BT/GunBT/1009/MainBT_1009.bt",
+            "weakTag": "4",
+            "supressGroup": [
+                6,
+                4,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "寇尔芙",
+            "nonMultimove": true,
+            "showPotential": true,
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "defaultClothId": 1100900,
+            "weakWeaponTag": 36,
+            "weaponTag": 2
+        },
+        {
+            "id": 2839104,
+            "enemyCamp": 1099,
+            "duty": 4,
+            "skillNormalAttack": 10080101,
+            "skillActive": 10080501,
+            "skillTalent": 10080801,
+            "skillActiveExtra": [
+                10080701,
+                10080401
+            ],
+            "skillTalentExtra": [
+                100804011,
+                100807011,
+                100805011
+            ],
+            "rank": 1,
+            "propertyGroup": 80020,
+            "name": "纳美西丝",
+            "joke": "",
+            "trapDescription": "",
+            "description": "热衷神秘学与占卜，随身携带神奇的占卜道具“棱镜”。而占卜的结果，通常会被她用充满神秘色彩、令人费解的语言风格表达出来。但是纳美西丝仍然是个非常可靠的同伴——除了难以沟通之外。",
+            "textIndex": [
+                3,
+                16
+            ],
+            "characterPic": "NemesisSR",
+            "modelCode": 5032,
+            "moveCode": 27,
+            "occupySize": 1,
+            "aiOrder": 200,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "enemyType": 2,
+            "dzOpenBattle": 10080101,
+            "btPath": "BT/GunBT/1008/MainBT_1008.bt",
+            "weakTag": "4",
+            "supressGroup": [
+                6,
+                4,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "纳美西丝",
+            "nonMultimove": true,
+            "showPotential": true,
+            "guardRadius": 700,
+            "guardRadiusShow": 1,
+            "defaultClothId": 1100800,
+            "weakWeaponTag": 36,
+            "weaponTag": 8
+        },
+        {
             "id": 2862012,
             "enemyCamp": 1002,
             "duty": 1,
@@ -38550,7 +40174,8 @@
             "skillTalent": 6541202,
             "skillTalentExtra": [
                 6541301,
-                910000019
+                910000019,
+                80000002
             ],
             "dzAiList": [
                 611002
@@ -48717,6 +50342,418 @@
             "guardRadius": 300,
             "guardRadiusShow": 1,
             "weakWeaponTag": 12
+        },
+        {
+            "id": 9963142,
+            "addLevel": 5,
+            "enemyCamp": 1003,
+            "duty": 1,
+            "skillNormalAttack": 6314101,
+            "skillTalent": 6314201,
+            "skillTalentExtra": [
+                6314401,
+                910000015
+            ],
+            "rank": 1,
+            "propertyGroup": 101002,
+            "name": "铁壁圣盾二型",
+            "joke": "如果准星圣盾攻击铁壁圣盾，谁会赢？",
+            "trapDescription": "",
+            "description": "铁血工造技术的又一泛用实例！结实、耐用，抛弃华而不实的素体，换上更厚的板甲，防御力加倍，价格减半！",
+            "textIndex": [
+                1,
+                18
+            ],
+            "characterPic": "AegisWall",
+            "modelCode": 6314,
+            "moveCode": 11,
+            "occupySize": 1,
+            "aiOrder": 540,
+            "useFakeAttack": true,
+            "shieldType": 2,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                2,
+                1000,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "dzOpenBattle": 6314101,
+            "btPath": "BT/EnemyBT/EnemyBT_002+002.bt",
+            "weakTag": "4",
+            "supressGroup": [
+                3,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "铁壁圣盾Ⅱ",
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 24,
+            "weakMap": 63142
+        },
+        {
+            "id": 9991745,
+            "enemyCamp": 1099,
+            "duty": 2,
+            "skillNormalAttack": 10010101,
+            "skillActive": 10010501,
+            "skillTalent": 10010801,
+            "skillActiveExtra": [
+                10010701,
+                10010401
+            ],
+            "skillTalentExtra": [
+                10010811,
+                100105011
+            ],
+            "rank": 1,
+            "propertyGroup": 80010,
+            "name": "克罗丽科",
+            "joke": "",
+            "trapDescription": "",
+            "description": "性格稍显暴躁，对与自己无关的事务没什么兴趣，但拥有无可指摘的责任心。就算是类似“纳美西丝专属翻译官”这样完全不喜欢的任务，克罗丽科也会尽心完成。",
+            "textIndex": [
+                3,
+                7
+            ],
+            "characterPic": "CharolicSR",
+            "modelCode": 5031,
+            "moveCode": 27,
+            "occupySize": 1,
+            "aiOrder": 200,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "enemyType": 2,
+            "dzOpenBattle": 10010101,
+            "btPath": "BT/GunBT/1001/MainBT_1001.bt",
+            "weakTag": "4",
+            "supressGroup": [
+                6,
+                4,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "克罗丽科",
+            "nonMultimove": true,
+            "showPotential": true,
+            "guardRadius": 300,
+            "guardRadiusShow": 1,
+            "defaultClothId": 1100100,
+            "weakWeaponTag": 32,
+            "weaponTag": 16
+        },
+        {
+            "id": 9992745,
+            "enemyCamp": 1099,
+            "duty": 1,
+            "skillNormalAttack": 10170101,
+            "skillActive": 10170501,
+            "skillTalent": 10170801,
+            "skillActiveExtra": [
+                10170701,
+                10170401
+            ],
+            "rank": 1,
+            "propertyGroup": 80050,
+            "name": "闪电",
+            "joke": "",
+            "trapDescription": "",
+            "description": "如何统合性格迥异的小队成员共同完成各项任务，一直是闪电首先需要考虑的事情。要充分了解成员们的各项能力，然后做出合理的规划安排——虽然存在各种意外，但好在大家还算配合。",
+            "textIndex": [
+                3,
+                15,
+                29
+            ],
+            "characterPic": "GrozaSR",
+            "modelCode": 5035,
+            "moveCode": 27,
+            "occupySize": 1,
+            "aiOrder": 200,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "enemyType": 2,
+            "dzOpenBattle": 10170101,
+            "btPath": "BT/GunBT/1017/MainBT_1017.bt",
+            "weakTag": "1",
+            "supressGroup": [
+                6,
+                4,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "闪电",
+            "nonMultimove": true,
+            "showPotential": true,
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "defaultClothId": 1101700,
+            "weakWeaponTag": 8,
+            "weaponTag": 4
+        },
+        {
+            "id": 9993745,
+            "enemyCamp": 1099,
+            "duty": 3,
+            "skillNormalAttack": 10090101,
+            "skillActive": 10090501,
+            "skillTalent": 10090801,
+            "skillActiveExtra": [
+                10090701,
+                10090401
+            ],
+            "skillTalentExtra": [
+                100907011
+            ],
+            "rank": 1,
+            "propertyGroup": 80030,
+            "name": "寇尔芙",
+            "joke": "",
+            "trapDescription": "",
+            "description": "现在所付出的一切，都是为了那个最终的结果。就这样，维持这个状态……扬起微笑，继续下去。",
+            "textIndex": [
+                3,
+                8
+            ],
+            "characterPic": "ColphneSR",
+            "modelCode": 5033,
+            "moveCode": 27,
+            "occupySize": 1,
+            "aiOrder": 200,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "enemyType": 2,
+            "dzOpenBattle": 10090101,
+            "btPath": "BT/GunBT/1009/MainBT_1009.bt",
+            "weakTag": "4",
+            "supressGroup": [
+                6,
+                4,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "寇尔芙",
+            "nonMultimove": true,
+            "showPotential": true,
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "defaultClothId": 1100900,
+            "weakWeaponTag": 32,
+            "weaponTag": 2
+        },
+        {
+            "id": 9994745,
+            "enemyCamp": 1099,
+            "duty": 4,
+            "skillNormalAttack": 10080101,
+            "skillActive": 10080501,
+            "skillTalent": 10080801,
+            "skillActiveExtra": [
+                10080701,
+                10080401
+            ],
+            "skillTalentExtra": [
+                100804011,
+                100807011,
+                100805011
+            ],
+            "rank": 1,
+            "propertyGroup": 80020,
+            "name": "纳美西丝",
+            "joke": "",
+            "trapDescription": "",
+            "description": "热衷神秘学与占卜，随身携带神奇的占卜道具“棱镜”。而占卜的结果，通常会被她用充满神秘色彩、令人费解的语言风格表达出来。但是纳美西丝仍然是个非常可靠的同伴——除了难以沟通之外。",
+            "textIndex": [
+                3,
+                16
+            ],
+            "characterPic": "NemesisSR",
+            "modelCode": 5032,
+            "moveCode": 27,
+            "occupySize": 1,
+            "aiOrder": 200,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "enemyType": 2,
+            "dzOpenBattle": 10080101,
+            "btPath": "BT/GunBT/1008/MainBT_1008.bt",
+            "weakTag": "5",
+            "supressGroup": [
+                6,
+                4,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "纳美西丝",
+            "nonMultimove": true,
+            "showPotential": true,
+            "guardRadius": 700,
+            "guardRadiusShow": 1,
+            "defaultClothId": 1100800,
+            "weakWeaponTag": 2,
+            "weaponTag": 8
+        },
+        {
+            "id": 93006243,
+            "enemyCamp": 1002,
+            "duty": 1,
+            "skillNormalAttack": 6243101,
+            "skillTalent": 6243201,
+            "skillTalentExtra": [
+                6243102,
+                6243301,
+                6243302,
+                6243401,
+                6243901,
+                910000019
+            ],
+            "rank": 2,
+            "propertyGroup": 450401,
+            "name": "噩耗棘熊",
+            "joke": "手变成这样的话，就算能砸开栗子壳，应该也没办法剥栗子吃了吧？",
+            "trapDescription": "",
+            "description": "前肢异变程度更高的棘熊。那些更加坚硬的“刺”和结晶，使它在近距离攻击时，具有了更强的杀伤力。",
+            "textIndex": [
+                1,
+                12,
+                48
+            ],
+            "characterPic": "HammerThornElite",
+            "modelCode": 6243,
+            "moveCode": 11,
+            "occupySize": 1,
+            "aiOrder": 160,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "dzOpenBattle": 6243101,
+            "btPath": "BT/MainBT/MainBT_6243.bt",
+            "weakTag": "1",
+            "supressGroup": [
+                4,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "精锐·噩耗棘熊",
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 8
+        },
+        {
+            "id": 93062202,
+            "addLevel": 3,
+            "enemyCamp": 1002,
+            "duty": 1,
+            "skillNormalAttack": 6220102,
+            "skillActive": 6220201,
+            "rank": 1,
+            "propertyGroup": 400505,
+            "name": "棘熊·浊刻二型",
+            "joke": "熟练掌握捶、打、远程爆破等各种拆家方式，不收钱，要命。",
+            "trapDescription": "",
+            "description": "能够直立行走的棕熊，坍塌结晶刺破了它的表皮，混着灰尘、泥土、石块，形成了荆棘一样的尖刺。持续的疼痛会让它想方设法地攻击周围的一切。",
+            "textIndex": [
+                1,
+                9
+            ],
+            "characterPic": "HammerThorn_Blue",
+            "modelCode": 6220,
+            "moveCode": 11,
+            "occupySize": 1,
+            "aiOrder": 500,
+            "attackType": 1,
+            "element": 5,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "dzOpenBattle": 6220101,
+            "btPath": "BT/MainBT/MainBT_6220.bt",
+            "weakTag": "1",
+            "supressGroup": [
+                3,
+                3,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "棘熊·浊刻Ⅱ",
+            "guardRadius": 300,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 24,
+            "weakMap": 62202
         }
     ]
 }
