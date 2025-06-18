@@ -68,23 +68,15 @@
         {
           "rowIndex": 2,
           "strings": [
-            "CharacterOff"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 3,
-          "strings": [
             "Bg",
             "BG_None_Black_01",
             "",
             "BgDefault",
             "",
             "",
-            ".2",
+            "0.2",
             "0",
-            "",
+            "Linear",
             "",
             "",
             "",
@@ -100,15 +92,15 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 4,
+          "rowIndex": 3,
           "strings": [
             "Bg",
-            "BG_Yellow_Bolidaonature_Day_01",
+            "BG_Yellow_Wilderness_Day_01",
             "",
             "BgDefault",
             "",
             "",
-            "1.5",
+            "2",
             "0",
             "EaseInSine",
             "",
@@ -126,16 +118,42 @@
           "isCommentOut": 0
         },
         {
+          "rowIndex": 4,
+          "strings": [
+            "Tween",
+            "BG_Yellow_Wilderness_Day_01",
+            "PunchPosition",
+            "time=0.5 delay=0.5 x=0 y=5 start=0",
+            "",
+            "loop=0",
+            "",
+            "",
+            "",
+            "NoWait",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
           "rowIndex": 5,
           "strings": [
-            "Bgm",
-            "黄区人文",
+            "Particle",
+            "速度线",
             "",
-            "1",
+            "EffectLayer",
+            "",
+            "",
             "",
             "0",
-            "2",
-            "",
             "",
             "",
             "",
@@ -154,9 +172,87 @@
         {
           "rowIndex": 6,
           "strings": [
-            "Se",
-            "2016024",
-            "TRUE",
+            "Tween",
+            "速度线",
+            "MoveTo",
+            "time=0.5 start=0 x=0 y=0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "NoWait",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 7,
+          "strings": [
+            "Tween",
+            "速度线",
+            "ScaleTo",
+            "time=0 start=0 x=1.8 y=1.8",
+            "Linear",
+            "",
+            "",
+            "0",
+            "",
+            "NoWait",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 8,
+          "strings": [
+            "Tween",
+            "速度线",
+            "MoveTo",
+            "time=0 start=0 x=0 y=0 islocal=true",
+            "Linear",
+            "",
+            "",
+            "0",
+            "",
+            "NoWait",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 9,
+          "strings": [
+            "Bgm",
+            "积极诙谐",
+            "",
             "1",
             "",
             "0",
@@ -178,7 +274,33 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 7,
+          "rowIndex": 10,
+          "strings": [
+            "Se",
+            "2010123",
+            "True",
+            "1",
+            "",
+            "0",
+            "2",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 11,
           "strings": [
             "Text",
             "",
@@ -187,7 +309,7 @@
             "",
             "",
             "",
-            "1",
+            "",
             "",
             "",
             "208009001"
@@ -196,7 +318,25 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 8,
+          "rowIndex": 12,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "208009002"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 13,
           "strings": [
             "ChangeMessageWindow",
             "AVGWindow",
@@ -222,85 +362,15 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 9,
-          "strings": [
-            "Character",
-            "黛烟SSR",
-            "Happy,0",
-            "中",
-            "",
-            "",
-            ".5",
-            ".5"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 10,
-          "strings": [
-            "Text",
-            "52",
-            "黛烟SSR",
-            "",
-            "",
-            "",
-            "",
-            "1.5",
-            "",
-            "",
-            "208009002"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 11,
-          "strings": [
-            "ChangeLayer",
-            "黛烟SSR",
-            "KeepLocal",
-            "左"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 12,
-          "strings": [
-            "Character",
-            "绛雨SSR",
-            "Idle,0|Smile,0.5|Idle,5",
-            "右"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 13,
-          "strings": [
-            "Text",
-            "51",
-            "绛雨SSR",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "208009003"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
           "rowIndex": 14,
           "strings": [
             "Character",
-            "黛烟SSR",
-            "Eager,0.5",
-            "左"
+            "绛雨SSR",
+            "Awkward,0",
+            "中",
+            "",
+            "",
+            "0.5"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -309,8 +379,104 @@
           "rowIndex": 15,
           "strings": [
             "Text",
-            "52",
-            "黛烟SSR",
+            "51",
+            "绛雨SSR",
+            "",
+            "",
+            "",
+            "",
+            "1",
+            "",
+            "",
+            "208009003"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 16,
+          "strings": [
+            "ChangeMessageWindow",
+            "AVGNarrator",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 17,
+          "strings": [
+            "CharacterOff",
+            "绛雨SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 18,
+          "strings": [
+            "Se",
+            "2010193",
+            "False",
+            "1",
+            "",
+            "0",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 19,
+          "strings": [
+            "Text",
+            "",
+            "",
             "",
             "",
             "",
@@ -324,62 +490,10 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 16,
-          "strings": [
-            "Character",
-            "绛雨SSR",
-            "Awkward,0.5",
-            "右"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 17,
-          "strings": [
-            "Character",
-            "黛烟SSR",
-            "Idle,0|Eager,2",
-            "左"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 18,
-          "strings": [
-            "Text",
-            "51",
-            "绛雨SSR",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "208009005"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 19,
-          "strings": [
-            "Character",
-            "绛雨SSR",
-            "Serious,0.5",
-            "右"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
           "rowIndex": 20,
           "strings": [
-            "Text",
-            "51",
-            "绛雨SSR",
+            "ChangeMessageWindow",
+            "AVGWindow",
             "",
             "",
             "",
@@ -387,7 +501,16 @@
             "",
             "",
             "",
-            "208009006"
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -397,8 +520,8 @@
           "strings": [
             "Character",
             "黛烟SSR",
-            "Sad,0.5",
-            "左"
+            "Serious,0",
+            "中"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -416,7 +539,7 @@
             "",
             "",
             "",
-            "208009007"
+            "208009005"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -450,7 +573,25 @@
         {
           "rowIndex": 24,
           "strings": [
-            "CharacterOff"
+            "CharacterOff",
+            "黛烟SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -459,8 +600,8 @@
           "rowIndex": 25,
           "strings": [
             "Se",
-            "2010138",
-            "",
+            "2010163",
+            "False",
             "1",
             "",
             "0",
@@ -494,7 +635,7 @@
             "",
             "",
             "",
-            "208009008"
+            "208009006"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -529,8 +670,8 @@
           "rowIndex": 28,
           "strings": [
             "Character",
-            "朝晖SSR",
-            "Idle,0",
+            "绛雨SSR",
+            "Awkward,0",
             "中"
           ],
           "isEmpty": 0,
@@ -540,8 +681,77 @@
           "rowIndex": 29,
           "strings": [
             "Text",
-            "69",
-            "朝晖SSR",
+            "51",
+            "绛雨SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "208009007"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 30,
+          "strings": [
+            "Character",
+            "绛雨SSR",
+            "Awkward,0|Idle,0.5",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 31,
+          "strings": [
+            "Text",
+            "51",
+            "绛雨SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "208009008"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 32,
+          "strings": [
+            "Character",
+            "绛雨SSR",
+            "Idle,0",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 33,
+          "strings": [
+            "Character",
+            "黛烟SSR",
+            "Serious,0",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 34,
+          "strings": [
+            "Text",
+            "52",
+            "黛烟SSR",
             "",
             "",
             "",
@@ -555,29 +765,29 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 30,
-          "strings": [
-            "ChangeLayer",
-            "朝晖SSR",
-            "KeepLocal",
-            "左"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 31,
+          "rowIndex": 35,
           "strings": [
             "Character",
-            "绛雨SSR",
-            "Serious,0|Idle,0.5",
+            "黛烟SSR",
+            "Serious,0",
             "右"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
         },
         {
-          "rowIndex": 32,
+          "rowIndex": 36,
+          "strings": [
+            "Character",
+            "绛雨SSR",
+            "Idle,0|Eager,0.5",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 37,
           "strings": [
             "Text",
             "51",
@@ -595,11 +805,33 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 33,
+          "rowIndex": 38,
+          "strings": [
+            "Character",
+            "绛雨SSR",
+            "Eager,0",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 39,
+          "strings": [
+            "Character",
+            "黛烟SSR",
+            "Serious,0",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 40,
           "strings": [
             "Text",
-            "69",
-            "朝晖SSR",
+            "51",
+            "绛雨SSR",
             "",
             "",
             "",
@@ -613,11 +845,33 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 34,
+          "rowIndex": 41,
+          "strings": [
+            "Character",
+            "绛雨SSR",
+            "Eager,0",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 42,
+          "strings": [
+            "Character",
+            "黛烟SSR",
+            "Serious,0|Sad,0.5",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 43,
           "strings": [
             "Text",
-            "69",
-            "朝晖SSR",
+            "52",
+            "黛烟SSR",
             "",
             "",
             "",
@@ -631,37 +885,33 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 35,
+          "rowIndex": 44,
           "strings": [
-            "Se",
-            "2010017",
-            "",
-            "1",
-            "",
-            "0",
-            "0",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "Character",
+            "黛烟SSR",
+            "Sad,0",
+            "右"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
         },
         {
-          "rowIndex": 36,
+          "rowIndex": 45,
+          "strings": [
+            "Character",
+            "绛雨SSR",
+            "Eager,0|Serious,0.5",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 46,
           "strings": [
             "Text",
-            "69",
-            "朝晖SSR",
+            "51",
+            "绛雨SSR",
             "",
             "",
             "",
@@ -675,7 +925,127 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 37,
+          "rowIndex": 47,
+          "strings": [
+            "Character",
+            "绛雨SSR",
+            "Serious,0",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 48,
+          "strings": [
+            "Character",
+            "黛烟SSR",
+            "Sad,0|Serious,0.5",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 49,
+          "strings": [
+            "Text",
+            "52",
+            "黛烟SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "208009014"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 50,
+          "strings": [
+            "Character",
+            "黛烟SSR",
+            "Serious,0",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 51,
+          "strings": [
+            "Character",
+            "绛雨SSR",
+            "Serious,0|Mad,0.5",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 52,
+          "strings": [
+            "Text",
+            "51",
+            "绛雨SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "208009015"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 53,
+          "strings": [
+            "Character",
+            "绛雨SSR",
+            "Mad,0",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 54,
+          "strings": [
+            "Character",
+            "黛烟SSR",
+            "Serious,0",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 55,
+          "strings": [
+            "Text",
+            "52",
+            "黛烟SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "208009016"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 56,
           "strings": [
             "ChangeMessageWindow",
             "AVGNarrator",
@@ -701,36 +1071,10 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 38,
+          "rowIndex": 57,
           "strings": [
-            "CharacterOff"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 39,
-          "strings": [
-            "Text",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "208009014"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 40,
-          "strings": [
-            "ChangeMessageWindow",
-            "AVGWindow",
+            "CharacterOff",
+            "绛雨SSR",
             "",
             "",
             "",
@@ -753,61 +1097,9 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 41,
+          "rowIndex": 58,
           "strings": [
-            "Character",
-            "朝晖SSR",
-            "Idle,0",
-            "中"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 42,
-          "strings": [
-            "Text",
-            "69",
-            "朝晖SSR",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "208009015"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 43,
-          "strings": [
-            "ChangeLayer",
-            "朝晖SSR",
-            "KeepLocal",
-            "左"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 44,
-          "strings": [
-            "Character",
-            "黛烟SSR",
-            "Sad,0|Idle,0.5",
-            "右"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 45,
-          "strings": [
-            "Text",
-            "52",
+            "CharacterOff",
             "黛烟SSR",
             "",
             "",
@@ -816,16 +1108,25 @@
             "",
             "",
             "",
-            "208009016"
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
           ],
           "isEmpty": 0,
           "isCommentOut": 0
         },
         {
-          "rowIndex": 46,
+          "rowIndex": 59,
           "strings": [
             "Text",
-            "68",
+            "",
             "",
             "",
             "",
@@ -840,26 +1141,171 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 47,
+          "rowIndex": 60,
           "strings": [
-            "Character",
-            "绛雨SSR",
-            "Idle,0|Smile,0.5",
-            "右"
+            "Se",
+            "2010193",
+            "False",
+            "1",
+            "",
+            "0",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
           ],
           "isEmpty": 0,
           "isCommentOut": 0
         },
         {
-          "rowIndex": 48,
+          "rowIndex": 61,
+          "strings": [
+            "Param",
+            "fuzhu1=(4+1)",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 62,
+          "strings": [
+            "BgOff",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "2",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 63,
+          "strings": [
+            "CharacterOff",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "2",
+            "4",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 64,
+          "strings": [
+            "StopBgm",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "2",
+            "4",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 65,
+          "strings": [
+            "StopSe",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "2",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 66,
           "strings": [
             "Text",
-            "51",
-            "绛雨SSR",
             "",
             "",
             "",
             "",
+            "",
+            "Next",
             "",
             "",
             "",
@@ -869,199 +1315,7 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 49,
-          "strings": [
-            "Text",
-            "69",
-            "朝晖SSR",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "208009019"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 50,
-          "strings": [
-            "CharacterOff",
-            "朝晖SSR",
-            "",
-            "",
-            "",
-            "",
-            "2",
-            "6",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 51,
-          "strings": [
-            "CharacterOff",
-            "绛雨SSR",
-            "",
-            "",
-            "",
-            "",
-            "2",
-            "6",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 52,
-          "strings": [
-            "BgOff",
-            "BgCGBackGround",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 53,
-          "strings": [
-            "BgOff",
-            "BG_Yellow_Bolidaonature_Day_01",
-            "",
-            "",
-            "",
-            "",
-            "2",
-            "7",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 54,
-          "strings": [
-            "StopBgm",
-            "黄区人文",
-            "",
-            "",
-            "",
-            "",
-            "2",
-            "6",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 55,
-          "strings": [
-            "StopSe",
-            "2016024",
-            "",
-            "",
-            "",
-            "",
-            "2",
-            "7",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 56,
-          "strings": [
-            "Text",
-            "69",
-            "朝晖SSR",
-            "",
-            "",
-            "",
-            "Next",
-            "",
-            "",
-            "",
-            "208009020"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 57,
+          "rowIndex": 67,
           "strings": [
             "EndScenario"
           ],
@@ -1069,12 +1323,62 @@
           "isCommentOut": 0
         }
       ],
-      "name": "Assets/Utage/BuildResources/Activity/ChapterActivity08/A08009.xls:A08009",
+      "name": "Assets/Utage/BuildResources/NewAVG_Activity/ChapterActivity08/A08009.xls:A08009",
       "type": 1,
-      "textLength": 1378,
+      "textLength": 1731,
       "headerRow": 0,
-      "entityIndexTbl": [],
-      "entityDataList": []
+      "entityIndexTbl": [
+        62,
+        65
+      ],
+      "entityDataList": [
+        {
+          "originalStrings": [
+            "BgOff",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "2",
+            "&fuzhu1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "originalStrings": [
+            "StopSe",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "2",
+            "&fuzhu1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        }
+      ]
     }
   ]
 }

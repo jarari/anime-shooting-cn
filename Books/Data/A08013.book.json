@@ -68,23 +68,15 @@
         {
           "rowIndex": 2,
           "strings": [
-            "CharacterOff"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 3,
-          "strings": [
             "Bg",
             "BG_None_Black_01",
             "",
             "BgDefault",
             "",
             "",
-            ".2",
+            "0.2",
             "0",
-            "",
+            "Linear",
             "",
             "",
             "",
@@ -100,15 +92,15 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 4,
+          "rowIndex": 3,
           "strings": [
             "Bg",
-            "BG_Yellow_Bolidaonature_Day_01",
+            "BG_Yellow_Bridge_Day_01",
             "",
             "BgDefault",
             "",
             "",
-            "1.5",
+            "2",
             "0",
             "EaseInSine",
             "",
@@ -126,11 +118,11 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 5,
+          "rowIndex": 4,
           "strings": [
-            "Bgm",
-            "黄区人文",
-            "",
+            "Se",
+            "2016027",
+            "True",
             "1",
             "",
             "0",
@@ -152,15 +144,33 @@
           "isCommentOut": 0
         },
         {
+          "rowIndex": 5,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "208013001"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
           "rowIndex": 6,
           "strings": [
             "Se",
-            "2016024",
-            "TRUE",
+            "2010060",
+            "False",
             "1",
             "",
             "0",
-            "2",
+            "0",
             "",
             "",
             "",
@@ -180,16 +190,16 @@
         {
           "rowIndex": 7,
           "strings": [
-            "Se",
-            "2021006",
+            "Tween",
+            "BG_Yellow_Bridge_Day_01",
+            "PunchPosition",
+            "time=0.2 delay=0 x=5 y=0 start=0",
             "",
-            "1",
-            "",
-            "0",
-            "0",
-            "",
+            "loop=10",
             "",
             "",
+            "",
+            "NoWait",
             "",
             "",
             "",
@@ -216,7 +226,7 @@
             "",
             "",
             "",
-            "208013001"
+            "208013002"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -224,13 +234,13 @@
         {
           "rowIndex": 9,
           "strings": [
-            "ChangeMessageWindow",
-            "AVGWindow",
+            "Se",
+            "2010120",
+            "False",
+            "1",
             "",
-            "",
-            "",
-            "",
-            "",
+            "0",
+            "0",
             "",
             "",
             "",
@@ -250,42 +260,8 @@
         {
           "rowIndex": 10,
           "strings": [
-            "CharacterOff"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 11,
-          "strings": [
             "Text",
-            "75",
             "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "208013002"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 12,
-          "strings": [
-            "CharacterOff"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 13,
-          "strings": [
-            "Text",
-            "76",
             "",
             "",
             "",
@@ -300,43 +276,10 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 14,
-          "strings": [
-            "Character",
-            "中年女性",
-            "Smile,0",
-            "中",
-            "",
-            "",
-            ".5",
-            ".5"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 15,
-          "strings": [
-            "Text",
-            "72",
-            "中年女性",
-            "",
-            "",
-            "",
-            "",
-            "1.5",
-            "",
-            "",
-            "208013004"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 16,
+          "rowIndex": 11,
           "strings": [
             "ChangeMessageWindow",
-            "AVGNarrator",
+            "AVGWindow",
             "",
             "",
             "",
@@ -359,18 +302,68 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 17,
+          "rowIndex": 12,
           "strings": [
-            "CharacterOff"
+            "Character",
+            "绯SSR",
+            "Idle,0",
+            "中",
+            "",
+            "",
+            "0.5"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
         },
         {
-          "rowIndex": 18,
+          "rowIndex": 13,
           "strings": [
             "Text",
+            "68",
+            "绯SSR",
             "",
+            "",
+            "",
+            "",
+            "1",
+            "",
+            "",
+            "208013004"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 14,
+          "strings": [
+            "CharacterOff",
+            "绯SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 15,
+          "strings": [
+            "Text",
+            "14",
             "",
             "",
             "",
@@ -385,36 +378,10 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 19,
-          "strings": [
-            "ChangeMessageWindow",
-            "AVGWindow",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 20,
+          "rowIndex": 16,
           "strings": [
             "Character",
-            "中年女性",
+            "绯SSR",
             "Smile,0",
             "中"
           ],
@@ -422,11 +389,11 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 21,
+          "rowIndex": 17,
           "strings": [
             "Text",
-            "72",
-            "中年女性",
+            "68",
+            "绯SSR",
             "",
             "",
             "",
@@ -440,11 +407,22 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 22,
+          "rowIndex": 18,
+          "strings": [
+            "Character",
+            "绯SSR",
+            "Smile,0",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 19,
           "strings": [
             "Text",
-            "50",
-            "",
+            "68",
+            "绯SSR",
             "",
             "",
             "",
@@ -458,25 +436,7 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 23,
-          "strings": [
-            "Text",
-            "50",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "208013008"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 24,
+          "rowIndex": 20,
           "strings": [
             "ChangeMessageWindow",
             "AVGNarrator",
@@ -502,15 +462,70 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 25,
+          "rowIndex": 21,
           "strings": [
-            "CharacterOff"
+            "Character",
+            "绯SSR",
+            "Smile,0",
+            "中"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
         },
         {
-          "rowIndex": 26,
+          "rowIndex": 22,
+          "strings": [
+            "Se",
+            "20110070",
+            "False",
+            "1",
+            "",
+            "0",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 23,
+          "strings": [
+            "StopSe",
+            "20110070",
+            "",
+            "",
+            "",
+            "",
+            "0",
+            "2",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 24,
           "strings": [
             "Text",
             "",
@@ -522,13 +537,13 @@
             "",
             "",
             "",
-            "208013009"
+            "208013008"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
         },
         {
-          "rowIndex": 27,
+          "rowIndex": 25,
           "strings": [
             "ChangeMessageWindow",
             "AVGWindow",
@@ -554,12 +569,41 @@
           "isCommentOut": 0
         },
         {
+          "rowIndex": 26,
+          "strings": [
+            "Character",
+            "绯SSR",
+            "Smile,0|Surprised,0.5",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 27,
+          "strings": [
+            "Text",
+            "68",
+            "绯SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "208013009"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
           "rowIndex": 28,
           "strings": [
             "Character",
-            "朝晖SSR",
-            "Idle,0",
-            "中"
+            "绯SSR",
+            "Surprised,0",
+            "左"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -567,9 +611,46 @@
         {
           "rowIndex": 29,
           "strings": [
+            "Character",
+            "绛雨SSR",
+            "Idle,0",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 30,
+          "strings": [
+            "Bgm",
+            "积极诙谐",
+            "",
+            "1",
+            "",
+            "0",
+            "2",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 31,
+          "strings": [
             "Text",
-            "69",
-            "朝晖SSR",
+            "51",
+            "绛雨SSR",
             "",
             "",
             "",
@@ -583,48 +664,27 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 30,
-          "strings": [
-            "Text",
-            "69",
-            "朝晖SSR",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "208013011"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 31,
-          "strings": [
-            "Text",
-            "69",
-            "朝晖SSR",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "208013012"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
           "rowIndex": 32,
           "strings": [
-            "ChangeLayer",
-            "朝晖SSR",
-            "KeepLocal",
-            "左"
+            "CharacterOff",
+            "绯SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -634,8 +694,8 @@
           "strings": [
             "Character",
             "绛雨SSR",
-            "Idle,0|Awkward,2",
-            "右"
+            "Idle,0",
+            "中"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -653,13 +713,86 @@
             "",
             "",
             "",
-            "208013013"
+            "208013011"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
         },
         {
           "rowIndex": 35,
+          "strings": [
+            "Character",
+            "闪电SR",
+            "Smile,0",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 36,
+          "strings": [
+            "Text",
+            "59",
+            "闪电SR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "208013012"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 37,
+          "strings": [
+            "CharacterOff",
+            "闪电SR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 38,
+          "strings": [
+            "Text",
+            "50",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "208013013"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 39,
           "strings": [
             "ChangeMessageWindow",
             "AVGNarrator",
@@ -685,15 +818,59 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 36,
+          "rowIndex": 40,
           "strings": [
-            "CharacterOff"
+            "Se",
+            "2010057",
+            "False",
+            "1",
+            "",
+            "0",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
           ],
           "isEmpty": 0,
           "isCommentOut": 0
         },
         {
-          "rowIndex": 37,
+          "rowIndex": 41,
+          "strings": [
+            "StopSe",
+            "2010057",
+            "",
+            "",
+            "",
+            "",
+            "0",
+            "4",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 42,
           "strings": [
             "Text",
             "",
@@ -711,7 +888,25 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 38,
+          "rowIndex": 43,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "208013015"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 44,
           "strings": [
             "ChangeMessageWindow",
             "AVGWindow",
@@ -737,48 +932,11 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 39,
-          "strings": [
-            "CharacterOff"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 40,
+          "rowIndex": 45,
           "strings": [
             "Text",
-            "75",
+            "50",
             "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "208013015"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 41,
-          "strings": [
-            "Character",
-            "绛雨SSR",
-            "Awkward,0|Idle,0.5",
-            "中"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 42,
-          "strings": [
-            "Text",
-            "51",
-            "绛雨SSR",
             "",
             "",
             "",
@@ -792,22 +950,11 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 43,
-          "strings": [
-            "Character",
-            "中年女性",
-            "Smile,0",
-            "中"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 44,
+          "rowIndex": 46,
           "strings": [
             "Text",
-            "72",
-            "中年女性",
+            "50",
+            "",
             "",
             "",
             "",
@@ -821,22 +968,37 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 45,
+          "rowIndex": 47,
           "strings": [
-            "Character",
-            "朝晖SSR",
-            "Idle,0",
-            "中"
+            "ChangeMessageWindow",
+            "AVGNarrator",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
           ],
           "isEmpty": 0,
           "isCommentOut": 0
         },
         {
-          "rowIndex": 46,
+          "rowIndex": 48,
           "strings": [
             "Text",
-            "69",
-            "朝晖SSR",
+            "",
+            "",
             "",
             "",
             "",
@@ -850,33 +1012,11 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 47,
-          "strings": [
-            "ChangeLayer",
-            "朝晖SSR",
-            "KeepLocal",
-            "左"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 48,
-          "strings": [
-            "Character",
-            "中年女性",
-            "Smile,0|Idle,0.5",
-            "右"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
           "rowIndex": 49,
           "strings": [
             "Text",
-            "72",
-            "中年女性",
+            "",
+            "",
             "",
             "",
             "",
@@ -893,7 +1033,7 @@
           "rowIndex": 50,
           "strings": [
             "ChangeMessageWindow",
-            "AVGNarrator",
+            "AVGWindow",
             "",
             "",
             "",
@@ -918,7 +1058,10 @@
         {
           "rowIndex": 51,
           "strings": [
-            "CharacterOff"
+            "Character",
+            "绯SSR",
+            "Shy,0",
+            "中"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -926,34 +1069,16 @@
         {
           "rowIndex": 52,
           "strings": [
-            "Text",
+            "Tween",
+            "绯SSR",
+            "ShakePosition",
+            "time=0.2 delay=0 x=3 y=0 start=0",
+            "",
+            "loop=0",
             "",
             "",
             "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "208013020"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 53,
-          "strings": [
-            "ChangeMessageWindow",
-            "AVGWindow",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
+            "NoWait",
             "",
             "",
             "",
@@ -968,9 +1093,30 @@
           "isCommentOut": 0
         },
         {
+          "rowIndex": 53,
+          "strings": [
+            "Text",
+            "68",
+            "绯SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "208013020"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
           "rowIndex": 54,
           "strings": [
-            "CharacterOff"
+            "Character",
+            "绯SSR",
+            "Shy,0|Surprised,0.5",
+            "中"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -979,8 +1125,8 @@
           "rowIndex": 55,
           "strings": [
             "Text",
-            "50",
-            "",
+            "68",
+            "绯SSR",
             "",
             "",
             "",
@@ -995,75 +1141,6 @@
         },
         {
           "rowIndex": 56,
-          "strings": [
-            "Character",
-            "朝晖SSR",
-            "Idle,0",
-            "中"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 57,
-          "strings": [
-            "Text",
-            "69",
-            "朝晖SSR",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "208013022"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 58,
-          "strings": [
-            "ChangeLayer",
-            "朝晖SSR",
-            "KeepLocal",
-            "左"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 59,
-          "strings": [
-            "Character",
-            "中年女性",
-            "Idle,0|Smile,0.5",
-            "右"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 60,
-          "strings": [
-            "Text",
-            "72",
-            "中年女性",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "208013023"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 61,
           "strings": [
             "ChangeMessageWindow",
             "AVGNarrator",
@@ -1089,15 +1166,18 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 62,
+          "rowIndex": 57,
           "strings": [
-            "CharacterOff"
+            "Character",
+            "绯SSR",
+            "Surprised,0",
+            "中"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
         },
         {
-          "rowIndex": 63,
+          "rowIndex": 58,
           "strings": [
             "Text",
             "",
@@ -1109,7 +1189,122 @@
             "",
             "",
             "",
-            "208013024"
+            "208013022"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 59,
+          "strings": [
+            "ChangeMessageWindow",
+            "AVGWindow",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 60,
+          "strings": [
+            "Character",
+            "绯SSR",
+            "Surprised,0|Freeze,0.5",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 61,
+          "strings": [
+            "Tween",
+            "绯SSR",
+            "ScaleTo",
+            "time=0.2 start=0 x=1 y=1",
+            "Linear",
+            "",
+            "",
+            "0",
+            "",
+            "NoWait",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 62,
+          "strings": [
+            "Tween",
+            "绯SSR",
+            "MoveTo",
+            "time=0.2 start=0 x=0 y=40 islocal=true",
+            "Linear",
+            "",
+            "",
+            "0",
+            "",
+            "NoWait",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 63,
+          "strings": [
+            "Tween",
+            "绯SSR",
+            "ScaleTo",
+            "time=0.2 start=0.2 x=1 y=1",
+            "Linear",
+            "",
+            "",
+            "0.2",
+            "",
+            "NoWait",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -1117,7 +1312,25 @@
         {
           "rowIndex": 64,
           "strings": [
-            "CharacterOff"
+            "Tween",
+            "绯SSR",
+            "MoveTo",
+            "time=0.2 start=0.2 x=0 y=-10 islocal=true",
+            "Linear",
+            "",
+            "",
+            "0.2",
+            "",
+            "NoWait",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -1125,14 +1338,14 @@
         {
           "rowIndex": 65,
           "strings": [
-            "Se",
-            "2010057",
+            "TweenOff",
+            "绯SSR",
             "",
-            "1",
+            "",
+            "",
+            "",
             "",
             "0",
-            "0",
-            "",
             "",
             "",
             "",
@@ -1152,6 +1365,8 @@
           "rowIndex": 66,
           "strings": [
             "Text",
+            "68",
+            "绯SSR",
             "",
             "",
             "",
@@ -1159,9 +1374,7 @@
             "",
             "",
             "",
-            "",
-            "",
-            "208013025"
+            "208013023"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -1170,7 +1383,7 @@
           "rowIndex": 67,
           "strings": [
             "ChangeMessageWindow",
-            "AVGWindow",
+            "AVGNarrator",
             "",
             "",
             "",
@@ -1195,164 +1408,8 @@
         {
           "rowIndex": 68,
           "strings": [
-            "CharacterOff"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 69,
-          "strings": [
-            "Text",
-            "50",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "208013026"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 70,
-          "strings": [
-            "Character",
-            "朝晖SSR",
-            "Idle,0",
-            "中"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 71,
-          "strings": [
-            "Text",
-            "69",
-            "朝晖SSR",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "208013027"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 72,
-          "strings": [
-            "Text",
-            "50",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "208013028"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 73,
-          "strings": [
-            "Text",
-            "69",
-            "朝晖SSR",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "208013029"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 74,
-          "strings": [
-            "Text",
-            "50",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "208013030"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 75,
-          "strings": [
-            "Text",
-            "50",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "208013031"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 76,
-          "strings": [
-            "Character",
-            "朝晖SSR",
-            "Serious,0.5",
-            "中"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 77,
-          "strings": [
-            "Text",
-            "69",
-            "朝晖SSR",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "208013032"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 78,
-          "strings": [
-            "ChangeMessageWindow",
-            "AVGNarrator",
+            "CharacterOff",
+            "绯SSR",
             "",
             "",
             "",
@@ -1375,41 +1432,33 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 79,
+          "rowIndex": 69,
           "strings": [
-            "CharacterOff"
+            "Se",
+            "2010135",
+            "False",
+            "1",
+            "",
+            "0",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
           ],
           "isEmpty": 0,
           "isCommentOut": 0
         },
         {
-          "rowIndex": 80,
-          "strings": [
-            "Text",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "208013033"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 81,
-          "strings": [
-            "CharacterOff"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 82,
+          "rowIndex": 70,
           "strings": [
             "Text",
             "",
@@ -1421,13 +1470,31 @@
             "",
             "",
             "",
-            "208013034"
+            "208013024"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
         },
         {
-          "rowIndex": 83,
+          "rowIndex": 71,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "208013025"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 72,
           "strings": [
             "ChangeMessageWindow",
             "AVGWindow",
@@ -1453,22 +1520,22 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 84,
+          "rowIndex": 73,
           "strings": [
             "Character",
-            "朝晖SSR",
-            "Serious,0|Idle,0.5",
+            "绯SSR",
+            "Freeze,0",
             "中"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
         },
         {
-          "rowIndex": 85,
+          "rowIndex": 74,
           "strings": [
             "Text",
-            "69",
-            "朝晖SSR",
+            "68",
+            "绯SSR",
             "",
             "",
             "",
@@ -1476,31 +1543,24 @@
             "",
             "",
             "",
-            "208013035"
+            "208013026"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
         },
         {
-          "rowIndex": 86,
+          "rowIndex": 75,
           "strings": [
-            "Text",
-            "69",
-            "朝晖SSR",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "208013036"
+            "Character",
+            "绯SSR",
+            "Freeze,0",
+            "中"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
         },
         {
-          "rowIndex": 87,
+          "rowIndex": 76,
           "strings": [
             "Text",
             "50",
@@ -1512,7 +1572,201 @@
             "",
             "",
             "",
-            "208013037"
+            "208013027"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 77,
+          "strings": [
+            "ChangeMessageWindow",
+            "AVGNarrator",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 78,
+          "strings": [
+            "CharacterOff",
+            "绯SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 79,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "208013028"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 80,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "208013029"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 81,
+          "strings": [
+            "ChangeMessageWindow",
+            "AVGWindow",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 82,
+          "strings": [
+            "Character",
+            "绯SSR",
+            "Freeze,0",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 83,
+          "strings": [
+            "Text",
+            "68",
+            "绯SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "208013030"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 84,
+          "strings": [
+            "Character",
+            "绯SSR",
+            "Freeze,0",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 85,
+          "strings": [
+            "Character",
+            "绛雨SSR",
+            "Idle,0",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 86,
+          "strings": [
+            "Text",
+            "51",
+            "绛雨SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "208013031"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 87,
+          "strings": [
+            "Character",
+            "绯SSR",
+            "Freeze,0",
+            "左"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -1520,25 +1774,10 @@
         {
           "rowIndex": 88,
           "strings": [
-            "CharacterOff",
-            "朝晖SSR",
-            "",
-            "",
-            "",
-            "",
-            "2",
-            "4",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "Character",
+            "绛雨SSR",
+            "Idle,0",
+            "右"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -1546,8 +1785,9 @@
         {
           "rowIndex": 89,
           "strings": [
-            "BgOff",
-            "BgCGBackGround",
+            "Text",
+            "51",
+            "绛雨SSR",
             "",
             "",
             "",
@@ -1555,16 +1795,7 @@
             "",
             "",
             "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "208013032"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -1572,14 +1803,14 @@
         {
           "rowIndex": 90,
           "strings": [
-            "BgOff",
-            "BG_Yellow_Bolidaonature_Day_01",
+            "CharacterOff",
+            "绯SSR",
             "",
             "",
             "",
             "",
-            "2",
-            "5",
+            "",
+            "",
             "",
             "",
             "",
@@ -1598,8 +1829,2358 @@
         {
           "rowIndex": 91,
           "strings": [
+            "CharacterOff",
+            "绛雨SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 92,
+          "strings": [
+            "Text",
+            "50",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "208013033"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 93,
+          "strings": [
+            "ChangeMessageWindow",
+            "AVGNarrator",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 94,
+          "strings": [
+            "Se",
+            "2024054",
+            "False",
+            "1",
+            "",
+            "0",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 95,
+          "strings": [
+            "Se",
+            "2024054",
+            "False",
+            "1",
+            "",
+            "0.8",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 96,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "208013034"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 97,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "208013035"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 98,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "208013036"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 99,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "208013037"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 100,
+          "strings": [
+            "ChangeMessageWindow",
+            "AVGWindow",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 101,
+          "strings": [
+            "Character",
+            "绯SSR",
+            "Shy,0",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 102,
+          "strings": [
+            "Text",
+            "68",
+            "绯SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "208013038"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 103,
+          "strings": [
+            "Character",
+            "绯SSR",
+            "Shy,0|Surprised,0.5",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 104,
+          "strings": [
+            "Text",
+            "68",
+            "绯SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "208013039"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 105,
+          "strings": [
+            "Character",
+            "绯SSR",
+            "Surprised,0",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 106,
+          "strings": [
+            "Text",
+            "50",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "208013040"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 107,
+          "strings": [
+            "Character",
+            "绯SSR",
+            "Surprised,0",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 108,
+          "strings": [
+            "Text",
+            "50",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "208013041"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 109,
+          "strings": [
+            "Character",
+            "绯SSR",
+            "Surprised,0",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 110,
+          "strings": [
+            "Text",
+            "50",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "208013042"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 111,
+          "strings": [
+            "Character",
+            "绯SSR",
+            "Surprised,0|Think,0.5",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 112,
+          "strings": [
+            "Text",
+            "68",
+            "绯SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "208013043"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 113,
+          "strings": [
+            "Character",
+            "绯SSR",
+            "Think,0",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 114,
+          "strings": [
+            "Text",
+            "50",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "208013044"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 115,
+          "strings": [
+            "Character",
+            "绯SSR",
+            "Think,0|Idle,0.5",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 116,
+          "strings": [
             "StopBgm",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "2",
+            "3",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 117,
+          "strings": [
+            "StopSe",
+            "2016027",
+            "",
+            "",
+            "",
+            "",
+            "2",
+            "3",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 118,
+          "strings": [
+            "Text",
+            "50",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "208013045"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 119,
+          "strings": [
+            "ChangeMessageWindow",
+            "AVGNarrator",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 120,
+          "strings": [
+            "CharacterOff",
+            "绯SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 121,
+          "strings": [
+            "Bgm",
             "黄区人文",
+            "",
+            "1",
+            "",
+            "0",
+            "2",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 122,
+          "strings": [
+            "Se",
+            "2016024",
+            "True",
+            "1",
+            "",
+            "0",
+            "2",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 123,
+          "strings": [
+            "Se",
+            "2010093",
+            "False",
+            "1",
+            "",
+            "1",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 124,
+          "strings": [
+            "Sprite",
+            "BG_None_Black_02",
+            "",
+            "黑屏",
+            "0",
+            "0",
+            "0.8",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 125,
+          "strings": [
+            "Wait",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "1.5",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 126,
+          "strings": [
+            "BgOff",
+            "BG_Yellow_Bridge_Day_01",
+            "",
+            "",
+            "",
+            "",
+            "0",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 127,
+          "strings": [
+            "Bg",
+            "BG_Yellow_Bolidaonature_Day_01",
+            "",
+            "BgDefault",
+            "",
+            "",
+            "0",
+            "",
+            "Linear",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 128,
+          "strings": [
+            "SpriteOff",
+            "BG_None_Black_02",
+            "",
+            "",
+            "",
+            "",
+            "0.8",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 129,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "2",
+            "",
+            "",
+            "208013046"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 130,
+          "strings": [
+            "ChangeMessageWindow",
+            "AVGWindow",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 131,
+          "strings": [
+            "Character",
+            "绛雨SSR",
+            "Idle,0",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 132,
+          "strings": [
+            "Text",
+            "51",
+            "绛雨SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "208013047"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 133,
+          "strings": [
+            "ChangeMessageWindow",
+            "AVGNarrator",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 134,
+          "strings": [
+            "CharacterOff",
+            "绛雨SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 135,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "208013048"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 136,
+          "strings": [
+            "ChangeMessageWindow",
+            "AVGWindow",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 137,
+          "strings": [
+            "Character",
+            "黛烟SSR",
+            "Happy,0",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 138,
+          "strings": [
+            "Text",
+            "52",
+            "黛烟SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "208013049"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 139,
+          "strings": [
+            "ChangeMessageWindow",
+            "AVGNarrator",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 140,
+          "strings": [
+            "CharacterOff",
+            "黛烟SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 141,
+          "strings": [
+            "Se",
+            "2010089",
+            "False",
+            "1",
+            "",
+            "1",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 142,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "208013050"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 143,
+          "strings": [
+            "Se",
+            "2010158",
+            "False",
+            "1",
+            "",
+            "0",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 144,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "208013051"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 145,
+          "strings": [
+            "ChangeMessageWindow",
+            "AVGWindow",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 146,
+          "strings": [
+            "Character",
+            "朝晖SSR",
+            "Idle,0",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 147,
+          "strings": [
+            "Text",
+            "69",
+            "朝晖SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "208013052"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 148,
+          "strings": [
+            "ChangeMessageWindow",
+            "AVGNarrator",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 149,
+          "strings": [
+            "CharacterOff",
+            "朝晖SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 150,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "208013053"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 151,
+          "strings": [
+            "ChangeMessageWindow",
+            "AVGWindow",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 152,
+          "strings": [
+            "Text",
+            "50",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "208013054"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 153,
+          "strings": [
+            "ChangeMessageWindow",
+            "AVGNarrator",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 154,
+          "strings": [
+            "Se",
+            "2010057",
+            "False",
+            "1",
+            "",
+            "0",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 155,
+          "strings": [
+            "StopSe",
+            "2010057",
+            "",
+            "",
+            "",
+            "",
+            "1",
+            "3",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 156,
+          "strings": [
+            "Se",
+            "2015005",
+            "False",
+            "1",
+            "",
+            "3",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 157,
+          "strings": [
+            "Tween",
+            "BG_Yellow_Bolidaonature_Day_01",
+            "PunchPosition",
+            "time=1 delay=0 x=0 y=15 start=3",
+            "",
+            "loop=1",
+            "",
+            "",
+            "",
+            "NoWait",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 158,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "208013055"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 159,
+          "strings": [
+            "ChangeMessageWindow",
+            "AVGWindow",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 160,
+          "strings": [
+            "Character",
+            "绯SSR",
+            "Idle,0",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 161,
+          "strings": [
+            "Text",
+            "68",
+            "绯SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "208013056"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 162,
+          "strings": [
+            "Character",
+            "朝晖SSR",
+            "Surprised,0",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 163,
+          "strings": [
+            "Text",
+            "69",
+            "朝晖SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "208013057"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 164,
+          "strings": [
+            "ChangeMessageWindow",
+            "AVGNarrator",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 165,
+          "strings": [
+            "CharacterOff",
+            "朝晖SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 166,
+          "strings": [
+            "Se",
+            "2010135",
+            "False",
+            "1",
+            "",
+            "1.5",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 167,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "208013058"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 168,
+          "strings": [
+            "ChangeMessageWindow",
+            "AVGWindow",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 169,
+          "strings": [
+            "Character",
+            "黛烟SSR",
+            "Helpless,0",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 170,
+          "strings": [
+            "Text",
+            "52",
+            "黛烟SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "208013059"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 171,
+          "strings": [
+            "Character",
+            "绛雨SSR",
+            "Smile,0",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 172,
+          "strings": [
+            "Text",
+            "51",
+            "绛雨SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "208013060"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 173,
+          "strings": [
+            "CharacterOff",
+            "绛雨SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 174,
+          "strings": [
+            "Text",
+            "50",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "208013061"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 175,
+          "strings": [
+            "Character",
+            "朝晖SSR",
+            "Serious,0",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 176,
+          "strings": [
+            "Text",
+            "69",
+            "朝晖SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "208013062"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 177,
+          "strings": [
+            "ChangeMessageWindow",
+            "AVGNarrator",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 178,
+          "strings": [
+            "Character",
+            "朝晖SSR",
+            "Serious,0",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 179,
+          "strings": [
+            "Se",
+            "2010158",
+            "False",
+            "1",
+            "",
+            "0",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 180,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "208013063"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 181,
+          "strings": [
+            "ChangeMessageWindow",
+            "AVGWindow",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 182,
+          "strings": [
+            "Character",
+            "朝晖SSR",
+            "Serious,0|Idle,0.5",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 183,
+          "strings": [
+            "Text",
+            "69",
+            "朝晖SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "208013064"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 184,
+          "strings": [
+            "Character",
+            "绛雨SSR",
+            "Awkward,0",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 185,
+          "strings": [
+            "Text",
+            "51",
+            "绛雨SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "208013065"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 186,
+          "strings": [
+            "Character",
+            "绛雨SSR",
+            "Awkward,0",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 187,
+          "strings": [
+            "Character",
+            "绯SSR",
+            "Think,0",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 188,
+          "strings": [
+            "Text",
+            "68",
+            "绯SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "208013066"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 189,
+          "strings": [
+            "Character",
+            "黛烟SSR",
+            "Idle,0",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 190,
+          "strings": [
+            "Character",
+            "绯SSR",
+            "Think,0",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 191,
+          "strings": [
+            "Text",
+            "52",
+            "黛烟SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "208013067"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 192,
+          "strings": [
+            "Character",
+            "黛烟SSR",
+            "Idle,0",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 193,
+          "strings": [
+            "Character",
+            "绯SSR",
+            "Think,0",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 194,
+          "strings": [
+            "Text",
+            "52",
+            "黛烟SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "208013068"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 195,
+          "strings": [
+            "Character",
+            "黛烟SSR",
+            "Idle,0",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 196,
+          "strings": [
+            "Character",
+            "绯SSR",
+            "Think,0|Idle,0.5",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 197,
+          "strings": [
+            "Text",
+            "68",
+            "绯SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "208013069"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 198,
+          "strings": [
+            "Character",
+            "绛雨SSR",
+            "Smile,0",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 199,
+          "strings": [
+            "Character",
+            "绯SSR",
+            "Idle,0",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 200,
+          "strings": [
+            "Text",
+            "51",
+            "绛雨SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "208013070"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 201,
+          "strings": [
+            "ChangeMessageWindow",
+            "AVGNarrator",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 202,
+          "strings": [
+            "CharacterOff",
+            "绛雨SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 203,
+          "strings": [
+            "CharacterOff",
+            "绯SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 204,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "208013071"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 205,
+          "strings": [
+            "Se",
+            "2010158",
+            "False",
+            "1",
+            "",
+            "0",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 206,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "208013072"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 207,
+          "strings": [
+            "ChangeMessageWindow",
+            "AVGWindow",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 208,
+          "strings": [
+            "Character",
+            "朝晖SSR",
+            "Idle,0",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 209,
+          "strings": [
+            "Param",
+            "fuzhu1=(4+1)",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 210,
+          "strings": [
+            "BgOff",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "2",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 211,
+          "strings": [
+            "CharacterOff",
+            "",
             "",
             "",
             "",
@@ -1622,16 +4203,16 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 92,
+          "rowIndex": 212,
           "strings": [
-            "StopSe",
-            "2016024",
+            "StopBgm",
+            "",
             "",
             "",
             "",
             "",
             "2",
-            "5",
+            "4",
             "",
             "",
             "",
@@ -1648,11 +4229,37 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 93,
+          "rowIndex": 213,
+          "strings": [
+            "StopSe",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "2",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 214,
           "strings": [
             "Text",
-            "50",
-            "",
+            "69",
+            "朝晖SSR",
             "",
             "",
             "",
@@ -1660,13 +4267,13 @@
             "",
             "",
             "",
-            "208013038"
+            "208013073"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
         },
         {
-          "rowIndex": 94,
+          "rowIndex": 215,
           "strings": [
             "EndScenario"
           ],
@@ -1674,12 +4281,62 @@
           "isCommentOut": 0
         }
       ],
-      "name": "Assets/Utage/BuildResources/Activity/ChapterActivity08/A08013.xls:A08013",
+      "name": "Assets/Utage/BuildResources/NewAVG_Activity/ChapterActivity08/A08013.xls:A08013",
       "type": 1,
-      "textLength": 1988,
+      "textLength": 4855,
       "headerRow": 0,
-      "entityIndexTbl": [],
-      "entityDataList": []
+      "entityIndexTbl": [
+        210,
+        213
+      ],
+      "entityDataList": [
+        {
+          "originalStrings": [
+            "BgOff",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "2",
+            "&fuzhu1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "originalStrings": [
+            "StopSe",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "2",
+            "&fuzhu1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        }
+      ]
     }
   ]
 }
