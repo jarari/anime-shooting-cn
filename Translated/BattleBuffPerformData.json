@@ -16101,7 +16101,7 @@
         {
             "id": 6898101,
             "name": "징벌 표식",
-            "description": "받는 피해가 <color=#f26c1c>5%</color> 증가하고 공격력이 <color=#f26c1c>5%</color> 증가한다. 중첩 가능. 자신의 턴 중 액티브 공격 후 요새 백작의 반격을 받아 요새 백작 공격력 <color=#f26c1c>100%</color>의 물리 피해를 입는다(매복·반격 재발동 가능). 정화 불가 중립.",
+            "description": "받는 피해가 <color=#f26c1c>5%</color> 증가하고 공격력이 <color=#f26c1c>5%</color> 증가한다. 중첩 가능. 자신의 턴 중 액티브 공격 후 다이시그라프의 반격을 받아 다이시그라프 공격력 <color=#f26c1c>100%</color>의 물리 피해를 입는다(매복·반격 재발동 가능). 정화 불가 중립 효과.",
             "iconName": "Buff_Felaskju1Neutral",
             "isShow": true,
             "buffHeadShow": 1,
@@ -16110,7 +16110,7 @@
         {
             "id": 6898102,
             "name": "징벌 누적",
-            "description": "방어력이 <color=#f26c1c>1%</color> 감소하고 공격력이 <color=#f26c1c>1%</color> 증가한다. 중첩 가능, 정화 불가 중립.",
+            "description": "방어력이 <color=#f26c1c>1%</color> 감소하고 공격력이 <color=#f26c1c>1%</color> 증가한다. 중첩 가능, 정화 불가 중립 효과.",
             "iconName": "Buff_AtkUpNeutral",
             "isShow": true,
             "buffHeadShow": 1,
@@ -16119,7 +16119,7 @@
         {
             "id": 6898201,
             "name": "포격 교정",
-            "description": "받는 피해가 <color=#f26c1c>10%</color> 증가한다. 디버프, 중첩 가능. 해제되면 <color=#3487e0>{0}</color> 효과를 얻으며 <color=#f26c1c>2개 전체턴</color> 동안 지속된다.",
+            "description": "받는 피해가 <color=#f26c1c>10%</color> 증가한다. 디버프, 중첩 가능. 해제되면 <color=#3487e0>{0}</color> 효과를 <color=#f26c1c>2 전체턴</color>간 얻는다.",
             "descriptionTips": "0:68982011",
             "iconName": "Buff_EnemyHurtUp",
             "isShow": true,
@@ -16128,8 +16128,8 @@
         },
         {
             "id": 6898301,
-            "name": "종옥 구금",
-            "description": "이동력이 <color=#f26c1c>4</color>칸 감소한다. 디버프, 중첩 가능. 해제되면 아군 전원이 <color=#3487e0>{0}</color> 효과를 얻고 <color=#f26c1c>2개 전체턴</color> 동안 지속된다.",
+            "name": "무너진 감옥의 구금",
+            "description": "이동력이 <color=#f26c1c>4</color>칸 감소한다. 디버프, 중첩 가능. 해제되면 아군 전원이 <color=#3487e0>{0}</color> 효과를 <color=#f26c1c>2 전체턴</color>간 얻는다.",
             "descriptionTips": "0:6898302",
             "iconName": "Buff_SpeedLow",
             "isShow": true,
@@ -18473,7 +18473,7 @@
         {
             "id": 10420832,
             "name": "자가진단복구",
-            "description": "쓰러질 피해를 받을 때 이를 버티고 모든 디버프를 정화한다. 그리고 자신 최대 체력 <color=#f26c1c>60%</color>만큼 체력을 회복하고, 안정 지수를 전부 회복한다. 그 다음 <color=#3487e0>{0}</color> 효과를 <color=#f26c1c>2개 전체턴</color> 동안 얻는다. <color=#f26c1c>1회</color> 적용. 정화 불가.",
+            "description": "쓰러질 피해를 받을 때 이를 버티고 모든 디버프를 정화한다. 그리고 자신 최대 체력 <color=#f26c1c>60%</color>만큼 체력을 회복하고, 안정 지수를 전부 회복한다. 그 다음 <color=#3487e0>{0}</color> 효과를 <color=#f26c1c>2 전체턴</color> 동안 얻는다. <color=#f26c1c>1회</color> 적용. 정화 불가.",
             "descriptionTips": "0:10420401",
             "buffEffect": "Buff/10420401_avoid_death",
             "effectPlayTime": [
@@ -19529,7 +19529,7 @@
         {
             "id": 10590502,
             "name": "완화 의존",
-            "description": "디버프가 정화될 수 없으며, 정화를 <color=#f26c1c>1회</color> 방어할 때마다 <color=#f26c1c>1스택</color>을 소모한다. 정화 불가 중립.",
+            "description": "디버프가 정화될 수 없으며, 정화를 <color=#f26c1c>1회</color> 방어할 때마다 <color=#f26c1c>1스택</color>을 소모한다. 정화 불가 중립 효과.",
             "buffEffect": "Skill/LindSSR01/10590501_depend",
             "effectPlayTime": [
                 1
@@ -30766,7 +30766,7 @@
         {
             "id": 689802002,
             "name": "간섭 스트레스",
-            "description": "받는 피해가 <color=#f26c1c>15%</color> 증가하고, 가하는 범위 피해가 <color=#f26c1c>15%</color> 증가하며, 치명타 피해가 <color=#f26c1c>15%</color> 증가한다. 중립 효과이며 정화 불가.",
+            "description": "받는 피해가 <color=#f26c1c>15%</color> 증가하고, 가하는 범위 피해가 <color=#f26c1c>15%</color> 증가하며, 치명타 피해가 <color=#f26c1c>15%</color> 증가한다. 정화 불가 중립 효과.",
             "iconName": "Buff_AtkUpNeutral",
             "isShow": true,
             "buffHeadShow": 1,
@@ -30784,7 +30784,7 @@
         {
             "id": 689803002,
             "name": "정찰 스트레스",
-            "description": "받는 피해가 <color=#f26c1c>15%</color> 증가하고, 공격 시 대상 방어력의 <color=#f26c1c>20%</color>를 무시한다. 중립 효과이며 정화 불가.",
+            "description": "받는 피해가 <color=#f26c1c>15%</color> 증가하고, 공격 시 대상 방어력의 <color=#f26c1c>20%</color>를 무시한다. 정화 불가 중립 효과.",
             "iconName": "Buff_AtkUpNeutral",
             "isShow": true,
             "buffHeadShow": 1,
