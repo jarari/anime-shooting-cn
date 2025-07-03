@@ -12,8 +12,8 @@
         },
         {
             "id": 51111,
-            "name": "파도 복원",
-            "description": "해당 구역의 적 유닛에게 <color=#2caadb>탁류</color> 약점을 부여하고, 행동 종료 후 그 구역에 머무르는 아군 유닛에게 <color=#3487e0>{0}</color> 효과를 부여하며 <color=#f26c1c>2턴</color> 지속된다. 탁류계 지형이다."
+            "name": "썰물",
+            "description": "타일 위 적 유닛에게 <color=#2caadb>탁류</color> 약점을 부여한다.\n이 타일에서 행동을 종료한 아군 유닛에게 <color=#3487e0>{0}</color> 효과를 <color=#f26c1c>2턴 간</color> 부여한다. 탁류계 타일."
         },
         {
             "id": 90001,
@@ -713,62 +713,62 @@
         {
             "id": 90229,
             "name": "뱀가시",
-            "description": "<color=#3487e0>{0}</color> 및 <color=#3487e0>{1}</color> 패시브 스킬을 보유한다."
+            "description": "패시브 스킬 <color=#3487e0>{0}</color> 및 <color=#3487e0>{1}</color> 보유."
         },
         {
             "id": 90230,
             "name": "자극 받음",
-            "description": "공격을 받은 뒤 자신이 <color=#f26c1c>1</color>중첩의 <color=#3487e0>{0}</color> 효과를 얻으며, <color=#3487e0>{1}</color> 지형에 있을 경우 추가로 <color=#f26c1c>2</color>중첩을 더 얻는다."
+            "description": "공격을 받은 후 <color=#3487e0>{0}</color> <color=#f26c1c>1스택</color>을 얻는다. 자신이 <color=#3487e0>{1}</color> 타일 위에 있을 경우, 추가로 <color=#3487e0>{0}</color> <color=#f26c1c>2스택</color>을 얻는다."
         },
         {
             "id": 90231,
-            "name": "독성 꿀",
-            "description": "공격 후 대상에게 <color=#f26c1c>1</color>중첩의 <color=#3487e0>{0}</color> 효과를 부여한다. 자신의 체력이 <color=#f26c1c>80%</color> 이상이면 추가로 <color=#f26c1c>3</color>중첩을 더 부여한다."
+            "name": "독꿀",
+            "description": "공격 후 대상에게 <color=#3487e0>{0}</color> <color=#f26c1c>1스택</color>을 부여한다.\n자신 체력이 <color=#f26c1c>80%</color>보다 높을 경우 추가로 <color=#3487e0>{0}</color> <color=#f26c1c>3스택</color>을 부여한다."
         },
         {
             "id": 90232,
-            "name": "초전도 섬멸",
-            "description": "<color=#3487e0>긴급 지원</color> 1회로 간주된다. 만약 처치에 성공하면 자신과 가장 가까운 적 유닛에게 <color=#3487e0>{0}</color> 효과를 부여한다."
+            "name": "초전도 섬격",
+            "description": "1회 <color=#3487e0>긴급 지원</color>으로 취급한다. 대상을 처치하면 가장 가까운 적에게 <color=#3487e0>{0}</color> 효과를 부여한다."
         },
         {
             "id": 90233,
             "name": "지원 공격",
-            "description": "<color=#3487e0>{0}</color> 효과와 <color=#3487e0>{1}</color> 효과를 포함한다."
+            "description": "<color=#3487e0>{0}</color>과 <color=#3487e0>{1}</color>을 포함한다."
         },
         {
             "id": 90234,
-            "name": "개척 폭탄 I",
-            "description": "자신이 정지해 있거나 행동을 마칠 때, <color=#f26c1c>십자 방향 5칸</color> 내 모든 적 유닛에게 자신의 위상 속성으로 공격력 <color=#f26c1c>120%</color>에 해당하는 피해를 준다."
+            "name": "착암 폭탄I",
+            "description": "자신이 머물거나 행동 종료 시, <color=#f26c1c>십자 방향 5칸 안</color>의 모든 적에게 공격력 <color=#f26c1c>120%</color>만큼의 대응 위상 속성 피해를 준다."
         },
         {
             "id": 90235,
-            "name": "개척 폭탄 II",
-            "description": "자신이 정지해 있거나 행동 종료 시, <color=#f26c1c>십자 방향 8칸</color> 내 모든 적 유닛에게 자신의 위상 속성으로 공격력 <color=#f26c1c>180%</color>에 해당하는 피해를 주고, 적 대상에게 <color=#3487e0>{0}</color> <color=#f26c1c>1스택</color>과 <color=#3487e0>{1}</color> 효과를 <color=#f26c1c>1턴</color>간 부여한다."
+            "name": "착암 폭탄II",
+            "description": "자신이 머물거나 행동 종료 시, <color=#f26c1c>십자 방향 5칸 안</color>의 모든 적에게 공격력 <color=#f26c1c>120%</color>만큼의 대응 위상 속성 피해를 주고, 적에게 <color=#3487e0>{0}</color>, <color=#3487e0>{1}</color> 효과를 <color=#f26c1c>1턴 간</color> 부여한다."
         },
         {
             "id": 90236,
             "name": "위상 폭파",
-            "description": "자신의 공격력을 기반으로 <color=#e67129>연소</color>·<color=#3487e0>빙결</color>·<color=#d4ae08>전도</color>·<color=#8679e8>산성</color>·<color=#2caadb>탁류</color>·물리 피해를 1회 추가로 준다. (지원 공격 등은 발동되지 않음)"
+            "description": "추가로 자신의 공격력에 기반한 <color=#e67129>연소</color>, <color=#3487e0>빙결</color>, <color=#d4ae08>전도</color>, <color=#8679e8>산성</color>, <color=#2caadb>탁류</color> 및 물리 피해를 1회 준다.(지원 공격 등 효과는 발동 안 한다.)"
         },
         {
             "id": 90237,
-            "name": "전역 개척 폭탄",
-            "description": "소환자의 현재 공격력 <color=#f26c1c>300%</color>를 계승하며, 소환자가 속한 진영의 턴 종료 시 전장 전체의 모든 적 유닛에게 공격력 <color=#f26c1c>3000%</color>에 해당하는 범위 고정 피해를 준다."
+            "name": "전역 착암 폭탄",
+            "description": "소환자의 현재 공격력을 <color=#f26c1c>300%</color> 계승한다. 소환자의 진영 턴이 종료 시 필드 위 모든 적에게 공격력 <color=#f26c1c>3000%</color> 고정 피해를 준다."
         },
         {
             "id": 90238,
-            "name": "배양 학자",
-            "description": "소환물. 소환자의 공격력 <color=#f26c1c>200%</color>와 그 외 초기 스탯 <color=#f26c1c>100%</color>를 계승한다."
+            "name": "배양학자",
+            "description": "소환물. 소환자의 공격력을 <color=#f26c1c>200%</color>, 다른 초기 능력치를 <color=#f26c1c>100%</color> 계승한다."
         },
         {
             "id": 90239,
             "name": "생산 장인",
-            "description": "소환물. 소환자의 초기 생명력 <color=#f26c1c>2000%</color>와 다른 초기 스탯 <color=#f26c1c>100%</color>를 계승한다."
+            "description": "소환물. 소환자의 공격력을 <color=#f26c1c>2000%</color>, 다른 초기 능력치를 <color=#f26c1c>100%</color> 계승한다."
         },
         {
             "id": 90240,
             "name": "순찰 감독",
-            "description": "소환물. 초기 생명력은 <color=#f26c1c>1000</color>이며, 초기 공격력과 방어력은 <color=#f26c1c>1</color>이다."
+            "description": "소환물. 초기 체력은 <color=#f26c1c>1000점</color>. 초기 공격력과 방어력은 <color=#f26c1c>1점</color>."
         },
         {
             "id": 90241,
@@ -863,7 +863,7 @@
         {
             "id": 900229,
             "name": "백트랙 코드",
-            "description": "받는 피해 <color=#f26c1c>-90%</color>. 턴 시작 시, 자신 최대체력 <color=#f26c1c>8%</color>만큼 최력을 회복한다. 정화 불가 버프."
+            "description": "받는 피해 <color=#f26c1c>-90%</color>. 턴 시작 시, 자신의 최대 체력 <color=#f26c1c>8%</color>만큼 회복한다. 정화 불가 버프."
         },
         {
             "id": 900230,
@@ -922,13 +922,13 @@
         },
         {
             "id": 900241,
-            "name": "매서운 침식",
-            "description": "공격을 1회 수행해, 적 대상에게 공격력 <color=#f26c1c>150%</color>의 <color=#42cce0>빙결 피해</color>와 안정 피해 <color=#f26c1c>2점</color>을 준다."
+            "name": "찬바람 침습",
+            "description": "공격을 1회 가하여 대상에게 공격력 <color=#f26c1c>150%</color> <color=#42cce0>빙결 피해</color>와 <color=#f26c1c>2점</color> 안정 피해를 준다."
         },
         {
             "id": 900242,
-            "name": "실드 관통률",
-            "description": "실드가 있는 적에게 피해를 줄 때, 해당 비율만큼 실드를 무시하고 직접 생명력에 피해를 입힌다."
+            "name": "보호막 관통율",
+            "description": "보호막을 가진 대상에게 피해를 줄 때, 해당 비율만큼 보호막을 무시하고 체력에 직접 피해를 준다."
         },
         {
             "id": 900243,
