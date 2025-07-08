@@ -1,6 +1,81 @@
 ﻿{
     "data": [
         {
+            "id": 21100,
+            "name": "陨冰",
+            "description": "中立单位。继承召唤者<color=#f26c1c>200%</color>的攻击力。受到攻击后，向攻击者的相反方向持续冲锋，直到碰到障碍物。若未受到攻击，则向随机目标所在方向冲锋。碰撞到障碍物时，对自身<color=#f26c1c>周围半径3格内</color>的所有目标造成<color=#f26c1c>300%</color>攻击力的范围<color=#42cce0>冷凝伤害</color>并施加<color=#3487e0>{0}</color>，持续<color=#f26c1c>1回合</color>。若碰撞到另一个<color=#3487e0>陨冰</color>，则合成<color=#3487e0>{1}</color>。自身撞击后死亡。"
+        },
+        {
+            "id": 21101,
+            "name": "陨冰",
+            "description": "中立单位。继承召唤者<color=#f26c1c>200%</color>的攻击力。受到攻击后，向攻击者的相反方向持续冲锋，直到碰到障碍物。若未受到攻击，则向随机目标所在方向冲锋。碰撞到障碍物时，对自身<color=#f26c1c>周围半径3格内</color>的所有目标造成<color=#f26c1c>300%</color>攻击力的范围<color=#42cce0>冷凝伤害</color>并施加<color=#3487e0>{0}</color>，持续<color=#f26c1c>1回合</color>。若碰撞到另一个<color=#3487e0>陨冰</color>，则合成<color=#3487e0>{1}</color>。自身撞击<color=#f26c1c>3次</color>后死亡。"
+        },
+        {
+            "id": 21102,
+            "name": "大陨冰",
+            "description": "中立单位。继承召唤者<color=#f26c1c>300%</color>的攻击力。受到攻击后，向攻击者的相反方向持续冲锋，直到碰到障碍物。若未受到攻击，则向随机目标所在方向冲锋。碰撞到障碍物时，对自身<color=#f26c1c>周围半径3格内</color>的所有目标造成<color=#f26c1c>300%</color>攻击力的范围<color=#42cce0>冷凝伤害</color>并施加<color=#3487e0>{0}</color>，持续<color=#f26c1c>1回合</color>。自身撞击后死亡。"
+        },
+        {
+            "id": 21103,
+            "name": "大陨冰",
+            "description": "友方单位。继承召唤者<color=#f26c1c>400%</color>的攻击力。行动结束时，向随机敌方目标所在方向冲锋。碰撞到障碍物时，对自身<color=#f26c1c>周围半径3格内</color>的所有目标造成<color=#f26c1c>300%</color>攻击力的范围<color=#42cce0>冷凝伤害</color>并施加<color=#3487e0>{0}</color>，持续<color=#f26c1c>1回合</color>。自身撞击<color=#f26c1c>3次</color>后死亡。"
+        },
+        {
+            "id": 21104,
+            "name": "霜噬地格",
+            "description": "对处于地格上的敌方单位造成攻击时暴击率提高<color=#f26c1c>30%</color>，受到冷凝伤害增加<color=#f26c1c>30%</color>。对行动结束后停留在区域上的敌方单位施加<color=#3487e0>{0}</color>，持续<color=#f26c1c>2回合</color>。对区域上的敌方单位附加<color=#42cce0>冷凝</color>弱点，冷凝类地格。"
+        },
+        {
+            "id": 21200,
+            "name": "火势",
+            "description": "所有友方单位造成燃烧伤害或回合外伤害时，获得<color=#f26c1c>1点</color>能量。"
+        },
+        {
+            "id": 21210,
+            "name": "炎狱I",
+            "description": "对区域上的敌方单位附加<color=#e67129>燃烧</color>弱点，并使其受到的燃烧伤害提高<color=#f26c1c>25%</color>，防御力降低<color=#f26c1c>15%</color>，对行动结束后停留在区域上的敌方单位施加<color=#3487e0>{0}</color>。对区域上的我方单位，使其造成的伤害提高<color=#f26c1c>25%</color>，防御力提高<color=#f26c1c>15%</color>；若该人形为燃烧属性，则攻击力额外提高<color=#f26c1c>25%</color>，造成的燃烧伤害额外提高<color=#f26c1c>15%</color>。燃烧类地格。"
+        },
+        {
+            "id": 21213,
+            "name": "炎劫天陨",
+            "description": "对全场敌方单位造成<color=#f26c1c>500%</color>攻击力的范围<color=#e67129>燃烧伤害</color>，并额外对目标造成<color=#3487e0>{0}</color><color=#f26c1c>层数x0.3%</color>目标最大生命值的固定伤害。"
+        },
+        {
+            "id": 21220,
+            "name": "炎狱II",
+            "description": "对区域上的敌方单位附加<color=#e67129>燃烧</color>弱点，并使其受到的燃烧伤害提高<color=#f26c1c>45%</color>，防御力降低<color=#f26c1c>30%</color>，对行动结束后停留在区域上的敌方单位施加<color=#3487e0>{0}</color>。对区域上的我方单位，使其造成的伤害提高<color=#f26c1c>45%</color>，防御力提高<color=#f26c1c>30%</color>；若该人形为燃烧属性，则攻击力额外提高<color=#f26c1c>45%</color>，造成的燃烧伤害额外提高<color=#f26c1c>30%</color>。燃烧类地格。"
+        },
+        {
+            "id": 21230,
+            "name": "炎狱III",
+            "description": "对区域上的敌方单位附加<color=#e67129>燃烧</color>弱点，并使其受到的燃烧伤害提高<color=#f26c1c>75%</color>，防御力降低<color=#f26c1c>45%</color>，对行动结束后停留在区域上的敌方单位施加<color=#3487e0>{0}</color>。对区域上的我方单位，使其造成的伤害提高<color=#f26c1c>75%</color>，防御力提高<color=#f26c1c>45%</color>；若该人形为燃烧属性，则攻击力额外提高<color=#f26c1c>75%</color>，造成的燃烧伤害额外提高<color=#f26c1c>45%</color>。燃烧类地格。"
+        },
+        {
+            "id": 21300,
+            "name": "毒卵",
+            "description": "使用各种召唤物进行攻击，自身的召唤物会在攻击后立即消亡。免疫伤害、控制与指令禁止效果。"
+        },
+        {
+            "id": 21301,
+            "name": "强化腐沼",
+            "description": "对行动结束后停留在区域上的敌方单位造成施加者<color=#f26c1c>20%</color>攻击力的固定伤害。对区域上的敌方单位附加<color=#8679e8>酸蚀</color>弱点。每个回合开始时<color=#3487e0>腐沼</color>会朝各方向扩散<color=#f26c1c>1格</color>，酸蚀类地格。"
+        },
+        {
+            "id": 21302,
+            "name": "侵蚀",
+            "description": "对目标造成<color=#f26c1c>200%</color>攻击力的精准<color=#8679e8>酸蚀伤害</color>。"
+        },
+        {
+            "id": 21303,
+            "name": "棘瘤",
+            "description": "继承召唤者<color=#f26c1c>20%</color>最大生命值，无法攻击或移动，自身受到<color=#8679e8>酸蚀伤害</color>时对召唤者造成自身受到伤害值<color=#f26c1c>100%</color>的固定伤害。"
+        },
+        {
+            "id": 21401,
+            "name": "水汽浓度",
+            "description": "水汽浓度到达<color=#f26c1c>60</color>后，大回合结束时，所有单位受到<color=#f26c1c>15%</color>自身初始最大生命值的固定伤害。\n水汽浓度到达<color=#f26c1c>120</color>后，所有单位的最大生命值降低<color=#f26c1c>30%</color>。\n水汽浓度到达<color=#f26c1c>180</color>后，所有单位防御力降低<color=#f26c1c>30%</color>，攻击力提高<color=#f26c1c>30%</color>。"
+        },
+        {
             "id": 51015,
             "name": "焚化",
             "description": "对区域上的敌方单位附加燃烧弱点。对行动结束后停留在区域上的敌方单位施加<color=#3487e0>{0}</color>和<color=#3487e0>{1}</color>，持续2回合。燃烧类地格。"
@@ -949,6 +1024,46 @@
             "id": 900246,
             "name": "睡前热身",
             "description": "实际效果与普攻<color=#3487e0>睡前热身</color>一致，伤害系数提高至<color=#f26c1c>130%</color>，可被视为普攻<color=#3487e0>睡前热身</color>。"
+        },
+        {
+            "id": 900247,
+            "name": "液氮毒刺",
+            "description": "对<color=#f26c1c>周围半径4格内</color>的敌方单位施加<color=#3487e0>{1}</color>。范围内的敌方单位受到攻击前，若未持有<color=#3487e0>{0}</color>，则扣除其<color=#f26c1c>500%</color>埃芙攻击力的生命值并转化为等量的<color=#3487e0>{0}</color>，至多将生命值扣至<color=#f26c1c>1点</color>，每个大回合每个单位至多触发<color=#f26c1c>1次</color>。同时至多存在<color=#f26c1c>1个</color>。范围内的敌方单位护盾被击破时若处于埃芙<color=#f26c1c>周围半径8格内</color>，埃芙对其进行<color=#f26c1c>1次</color>攻击，造成该护盾累积吸收量<color=#f26c1c>40%</color>的<color=#42cce0>冷凝伤害</color>。"
+        },
+        {
+            "id": 900248,
+            "name": "液氮毒刺",
+            "description": "对<color=#f26c1c>周围半径4格内</color>的敌方单位施加<color=#3487e0>{1}</color>。范围内的敌方单位受到攻击前，若未持有<color=#3487e0>{0}</color>，则扣除其<color=#f26c1c>500%</color>埃芙攻击力的生命值并转化为等量的<color=#3487e0>{0}</color>，至多将生命值扣至<color=#f26c1c>1点</color>，每个大回合每个单位至多触发<color=#f26c1c>1次</color>。同时至多存在<color=#f26c1c>1个</color>。范围内的敌方单位护盾被击破时若处于埃芙<color=#f26c1c>周围半径8格内</color>，埃芙对其进行<color=#f26c1c>1次</color>攻击，造成该护盾累积吸收量<color=#f26c1c>60%</color>的<color=#42cce0>冷凝伤害</color>。"
+        },
+        {
+            "id": 900249,
+            "name": "协防构装",
+            "description": "召唤物。继承巴希达<color=#f26c1c>100%</color>初始生命值，<color=#f26c1c>80%</color>初始防御力，<color=#f26c1c>80%</color>初始攻击力。能保护<color=#f26c1c>周围半径3格内</color>的友方单位和掩体。"
+        },
+        {
+            "id": 900250,
+            "name": "协防构装",
+            "description": "召唤物。继承巴希达<color=#f26c1c>100%</color>初始生命值，<color=#f26c1c>80%</color>初始防御力，<color=#f26c1c>80%</color>初始攻击力。能保护<color=#f26c1c>周围半径5格内</color>的友方单位和掩体。"
+        },
+        {
+            "id": 900251,
+            "name": "协防构装",
+            "description": "召唤物。继承巴希达<color=#f26c1c>100%</color>初始生命值，<color=#f26c1c>100%</color>初始防御力，<color=#f26c1c>100%</color>初始攻击力。能保护<color=#f26c1c>周围半径5格内</color>的友方单位和掩体。"
+        },
+        {
+            "id": 900252,
+            "name": "协战构装",
+            "description": "召唤物。继承巴希达<color=#f26c1c>100%</color>初始生命值，<color=#f26c1c>80%</color>初始防御力，<color=#f26c1c>80%</color>初始攻击力。能对<color=#f26c1c>周围半径3格内</color>最近的敌方单位造成伤害。"
+        },
+        {
+            "id": 900253,
+            "name": "协战构装",
+            "description": "召唤物。继承巴希达<color=#f26c1c>100%</color>初始生命值，<color=#f26c1c>80%</color>初始防御力，<color=#f26c1c>80%</color>初始攻击力。能对<color=#f26c1c>周围半径5格内</color>最近的敌方单位造成伤害。"
+        },
+        {
+            "id": 900254,
+            "name": "协战构装",
+            "description": "召唤物。继承巴希达<color=#f26c1c>100%</color>初始生命值，<color=#f26c1c>100%</color>初始防御力，<color=#f26c1c>100%</color>初始攻击力。能对<color=#f26c1c>周围半径5格内</color>最近的敌方单位造成伤害。"
         },
         {
             "id": 901031,

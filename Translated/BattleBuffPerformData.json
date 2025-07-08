@@ -352,6 +352,12 @@
             "isLoop": "0"
         },
         {
+            "id": 424,
+            "name": "앨바 마스크 착용--테스트",
+            "description": "앨바 마스크 착용--테스트",
+            "iconName": "Buff_Nogoal"
+        },
+        {
             "id": 441,
             "name": "미슈티 수면-테스트",
             "description": "미슈티 수면-테스트",
@@ -1660,6 +1666,54 @@
             "showPriorityIcon": 99
         },
         {
+            "id": 70034,
+            "name": "전공 개척",
+            "description": "아군 유닛의 <color=#2caadb>탁류 피해</color> <color=#f26c1c>100%</color> 증가. 실드 효과를 보유했을 시, 공격이 대상 방어력 <color=#f26c1c>30%</color>를 무시한다.\n아군 유닛의 방어력 <color=#f26c1c>15%</color> 증가, 받는 안정 피해 <color=#f26c1c>1</color>점 감소.",
+            "iconName": "Buff_Strong",
+            "isShow": true,
+            "showPriorityIcon": 99
+        },
+        {
+            "id": 70035,
+            "name": "전공 개척",
+            "description": "아군 유닛의 <color=#42cce0>빙결 피해</color> <color=#f26c1c>100%</color> 증가. 실드 효과를 보유했을 시, 공격이 대상 방어력 <color=#f26c1c>30%</color>를 무시한다.\n아군 유닛이 받는 피해 <color=#f26c1c>30%</color> 감소, 방어력 <color=#f26c1c>15%</color> 증가.",
+            "iconName": "Buff_Strong",
+            "isShow": true,
+            "showPriorityIcon": 99
+        },
+        {
+            "id": 70036,
+            "name": "전공 개척",
+            "description": "아군 유닛의 <color=#d4ae08>전도 피해</color> <color=#f26c1c>100%</color> 증가. 실드 효과를 보유했을 시, 공격이 대상 방어력 <color=#f26c1c>30%</color>를 무시한다.\n전체턴 종료 시, 아군 유닛이 자신의 최대 생명력의 <color=#f26c1c>20%</color>만큼 회복한다. 만약 자신이 안정 붕괴 상태일 경우, 추가로 <color=#f26c1c>3</color>점의 안정 지수를 회복한다.",
+            "iconName": "Buff_Strong",
+            "isShow": true,
+            "showPriorityIcon": 99
+        },
+        {
+            "id": 70037,
+            "name": "전공 개척",
+            "description": "아군 유닛의 물리 피해 <color=#f26c1c>100%</color> 증가. 실드 효과를 보유했을 시, 공격이 대상 방어력 <color=#f26c1c>30%</color>를 무시한다.\n아군 유닛이 받는 피해 <color=#f26c1c>40%</color> 감소, 방어력 <color=#f26c1c>20%</color> 증가.",
+            "iconName": "Buff_Strong",
+            "isShow": true,
+            "showPriorityIcon": 99
+        },
+        {
+            "id": 70038,
+            "name": "전공 개척",
+            "description": "아군 유닛의 <color=#8679e8>산성 피해</color> <color=#f26c1c>100%</color> 증가. 실드 효과를 보유했을 시, 공격이 대상 방어력 <color=#f26c1c>30%</color>를 무시한다.\n아군 유닛이 받는 피해 <color=#f26c1c>40%</color> 감소, 방어력 <color=#f26c1c>20%</color> 증가.",
+            "iconName": "Buff_Strong",
+            "isShow": true,
+            "showPriorityIcon": 99
+        },
+        {
+            "id": 70039,
+            "name": "전공 개척",
+            "description": "아군 유닛의 <color=#e67129>연소 피해</color> <color=#f26c1c>100%</color> 증가. 실드 효과를 보유했을 시, 공격이 대상 방어력 <color=#f26c1c>30%</color>를 무시한다.\n아군 유닛이 받는 피해 <color=#f26c1c>30%</color> 감소, 받는 안정 피해 <color=#f26c1c>1</color>점 감소.",
+            "iconName": "Buff_Strong",
+            "isShow": true,
+            "showPriorityIcon": 99
+        },
+        {
             "id": 80001,
             "name": "노출 중상",
             "description": "엄폐물 보호를 받지 않을 때 받는 피해 <color=#f26c1c>200%</color> 증가. 정화 불가.",
@@ -1766,6 +1820,29 @@
             "description": "기절·도발 등 제어 및 명령 금지 효과에 영향을 받지 않는다. 피해를 입으면 <color=#3487e0>{0}</color>, <color=#3487e0>{1}</color>, <color=#3487e0>{2}</color>를 정화하고, 이후 일반 유닛은 최대 생명력의 <color=#f26c1c>20%</color>, 정예 유닛은 <color=#f26c1c>10%</color>, 보스 유닛은 <color=#f26c1c>0.5%</color>를 회복한다.",
             "descriptionTips": "0:320001;0:301201;0:320101",
             "iconName": "Buff_DefUpNeutral",
+            "isShow": true
+        },
+        {
+            "id": 80131,
+            "name": "무력화 공포",
+            "description": "치료를 받을 때 자신의 생명력이 <color=#f26c1c>50%</color> 이상일 경우 치료 효과가 <color=#f26c1c>50%</color> 감소한다.\n피해를 가할 때 자신에게 <color=#3487e0>{0}</color> 계열 효과가 없으면 가하는 피해가 <color=#f26c1c>25%</color> 감소하고, 대상에게 빙결 계열 디버프가 없으면 가하는 피해가 <color=#f26c1c>25%</color> 감소한다.",
+            "descriptionTips": "1:90118",
+            "iconName": "Buff_Eber10",
+            "isShow": true
+        },
+        {
+            "id": 80141,
+            "name": "연산력 쇠퇴",
+            "description": "가하는 피해 <color=#f26c1c>25%</color> 감소. 액티브 공격이 위상 상성을 극복하지 못하면 가하는 피해가 추가로 <color=#f26c1c>25%</color> 감소한다. 행동 종료 시 최대 생명력의 <color=#f26c1c>25%</color>만큼 고정 피해를 입는다.",
+            "iconName": "Buff_Darture2",
+            "isShow": true
+        },
+        {
+            "id": 80151,
+            "name": "대상 보루",
+            "description": "전체턴 시작 시 자신의 생명력이 <color=#f26c1c>50%</color>를 초과하고 <color=#3487e0>{0}</color>이(가) 없을 경우, 생명력 <color=#f26c1c>20%</color>를 소모해 생명력의 <color=#f26c1c>30%</color>에 해당하는 <color=#3487e0>{0}</color>을(를) 획득한다. 자신에게 <color=#3487e0>{0}</color> 계열 효과가 있을 경우 가하는 피해가 <color=#f26c1c>30%</color> 증가한다.",
+            "descriptionTips": "1:90118",
+            "iconName": "Buff_UndeadNeutral",
             "isShow": true
         },
         {
@@ -7406,6 +7483,16 @@
             "buffHeadShow": 1
         },
         {
+            "id": 284100,
+            "name": "강타",
+            "description": "공격 시 대상에게 <color=#3487e0>{0}</color> 부여, <color=#f26c1c>1</color>턴간 지속.",
+            "descriptionTips": "1:90015",
+            "iconName": "Buff_AtkUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
             "id": 300002,
             "name": "체력 유실",
             "description": "행동 종료 시 자신의 체력상한 <color=#f26c1c>-10%</color>, 체력상한 감소 효과는 중첩 가능, <color=#3487e0>체력 유실</color> 상태가 사라질 때 <color=#3487e0>체력 유실</color>로 감소한 체력상한을 돌려받는다. 중첩 가능. 산성계 디버프.",
@@ -9825,8 +9912,32 @@
             "buffHeadShow": 1
         },
         {
+            "id": 351502,
+            "name": "감전 II",
+            "description": "<color=#f26c1c>1</color>칸 이동할 때마다 효과 부여자의 공격력 <color=#f26c1c>10%</color>만큼 고정 피해를 입는다. 전도계 디버프.",
+            "buffEffect": "Buff/Dot_shock|Skill/Dot_shock_break",
+            "effectPlayTime": [
+                1,
+                3
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "104|104",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_ElectricContinuehurt",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "1|0"
+        },
+        {
             "id": 351602,
-            "name": "찌리릿",
+            "name": "감전 I",
             "description": "<color=#f26c1c>1칸</color> 이동할 때마다 상태 부여자 공격력 <color=#f26c1c>5%</color> 고정 피해를 받는다. 전도계 디버프.",
             "buffEffect": "Buff/Dot_shock|Skill/Dot_shock_break",
             "effectPlayTime": [
@@ -11355,6 +11466,85 @@
             "iconName": "Buff_DenseFog",
             "isShow": true,
             "showPriorityIcon": 10
+        },
+        {
+            "id": 4300070,
+            "name": "허리케인",
+            "description": "바람을 등진 유닛에게 공격받으면, 바람 방향으로 <color=#f26c1c>2</color>칸 이동한다. 턴 종료 시, 자신의 안정 지수가 <color=#f26c1c>50%</color>를 초과하면 바람 방향으로 <color=#f26c1c>1</color>칸 이동하고, 안정 지수가 <color=#f26c1c>50%</color> 이하 <color=#f26c1c>0</color> 초과일 경우 바람 방향으로 <color=#f26c1c>2</color>칸 이동하며, 안정 지수가 <color=#f26c1c>0</color>일 경우 바람 방향으로 <color=#f26c1c>3</color>칸 이동한다.",
+            "iconName": "Buff_Hurricane",
+            "isShow": true,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 4300080,
+            "name": "궤멸의 파도",
+            "description": "전체턴 종료 시, <color=#f26c1c>1</color>점의 고정 안정 피해와 최대 생명력의 <color=#f26c1c>10%</color>만큼 고정 피해를 받고 <color=#3487e0>{0}</color> <color=#f26c1c>1</color>스택을 획득한다. <color=#3487e0>{0}</color> <color=#f26c1c>1</color>스택당 '궤멸의 파도'로 받는 고정 안정 피해가 <color=#f26c1c>1</color>점씩 증가한다. 안정 지수가 <color=#f26c1c>50%</color> 이하 <color=#f26c1c>0</color> 초과일 경우 최대 생명력의 <color=#f26c1c>20%</color>만큼 추가 고정 피해를 입고, 안정 붕괴 상태일 경우 최대 생명력의 <color=#f26c1c>60%</color>만큼 추가 고정 피해를 입는다.",
+            "descriptionTips": "0:4300081",
+            "iconName": "Buff_Waves",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 99
+        },
+        {
+            "id": 4300081,
+            "name": "침수",
+            "description": "받는 안정 피해 <color=#f26c1c>1</color>점 증가, <color=#2caadb>탁류 피해</color>를 받을 시 상성에게 피격된 것으로 간주. 탁류계 디버프. 중첩 가능.",
+            "iconName": "Buff_WaterWet",
+            "isShow": true,
+            "buffHeadShow": 1
+        },
+        {
+            "id": 4300090,
+            "name": "속박",
+            "description": "행동 불가. 이동 불가. 정화 불가.",
+            "buffEffect": "Buff/Debuff_shackle|Buff/Debuff_shackle",
+            "effectPlayTime": [
+                1,
+                6
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_Stun",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 98,
+            "isLoop": "1|1"
+        },
+        {
+            "id": 4300100,
+            "name": "식양 간사지",
+            "description": "<color=#3487e0>{0}</color>을(를) 제외한 모든 피해에 면역.",
+            "descriptionTips": "0:4300080",
+            "iconName": "Buff_Invincible",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 97
+        },
+        {
+            "id": 4300101,
+            "name": "안정 증강",
+            "description": "받는 안정 피해 <color=#f26c1c>5</color>점 감소. 정화 불가.",
+            "iconName": "Buff_CountSuppress",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 96
+        },
+        {
+            "id": 4300102,
+            "name": "식양 간사지",
+            "description": "<color=#3487e0>{0}</color>을(를) 제외한 모든 피해에 면역, 적 유닛이 받는 안정 피해 <color=#f26c1c>5</color>점 감소.",
+            "descriptionTips": "0:4300080",
+            "iconName": "Buff_Invincible",
+            "isShow": true,
+            "buffHeadShow": 1
         },
         {
             "id": 5104831,
@@ -14977,6 +15167,172 @@
             "isLoop": "1"
         },
         {
+            "id": 6782101,
+            "name": "불안 침투",
+            "description": "가하는 피해 <color=#f26c1c>10%</color> 감소, 받는 피해 <color=#f26c1c>10%</color> 증가, 최대 <color=#f26c1c>3</color>스택. <color=#f26c1c>3</color>스택 중첩 시 <color=#3487e0>{0}</color> 발동, <color=#f26c1c>1</color>턴간 지속. <color=#3487e0>{0}</color> 종료 시 스택 초기화, 해당 기간에 <color=#3487e0>{0}</color>이(가) 다시 발동하지 않음. 정화 가능 디버프. 정화 시 <color=#3487e0>{1}</color> 획득, <color=#f26c1c>2</color> 전체턴간 지속.",
+            "descriptionTips": "0:401021;0:6782102",
+            "buffEffect": "Skill/6781001_Virus",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "104",
+            "effectTypeGroup": "0",
+            "iconName": "Buff_DamageDown",
+            "isShow": true,
+            "buffHeadShow": 17,
+            "isLoop": "1"
+        },
+        {
+            "id": 6782102,
+            "name": "통제불능 마인드맵",
+            "description": "치명타 피해 <color=#f26c1c>5%</color> 증가, 최대 <color=#f26c1c>10</color>스택. 정화 불가 버프.",
+            "iconName": "Buff_CriDamUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 6782301,
+            "name": "오버클럭 회로",
+            "description": "공격력 <color=#f26c1c>15%</color> 증가. 해당 효과가 부여된 아군 유닛은 <color=#f26c1c>1</color>회 이동할 때마다 <color=#3487e0>{0}</color> <color=#f26c1c>1</color>스택을 얻고, <color=#3487e0>{0}</color>이 <color=#f26c1c>3</color>스택이 되면 <color=#3487e0>{1}</color>을(를) 획득한다. 정화 불가.",
+            "descriptionTips": "0:6782302;0:6782303",
+            "buffEffect": "Skill/6781301_Link_Down,Skill/6781301_Link_Hit",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0,0",
+            "effectFollowType": "1,1",
+            "effectBirthType": "109,109",
+            "effectTypeGroup": "0,0",
+            "iconName": "Buff_UnsearchableGirl1",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 1,
+            "isLoop": "1,0"
+        },
+        {
+            "id": 6782302,
+            "name": "죽음의 재앙",
+            "description": "사망 시 자신 주변 <color=#f26c1c>3×3칸</color> 내 모든 적에게 자신의 공격력 <color=#f26c1c>30%</color>의 고정 피해. 이 효과 <color=#f26c1c>1층</color>마다 피해 계수 <color=#f26c1c>30%</color> 증가, 최대 <color=#f26c1c>3층</color>. 정화 불가.",
+            "iconName": "Buff_Tank5",
+            "isShow": true,
+            "buffHeadShow": 17,
+            "showPriorityIcon": 1
+        },
+        {
+            "id": 6782303,
+            "name": "널값 면제",
+            "description": "모든 피해에 <color=#f26c1c>1</color>회 면역. 정화 불가.",
+            "iconName": "Buff_InvincibleNeutral",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 6782304,
+            "name": "잉여 방벽",
+            "description": "방어력 <color=#f26c1c>20%</color> 증가, 최대 <color=#f26c1c>2</color>스택. 정화 불가 버프. 적 유닛에게 <color=#3487e0>{0}</color> 또는 <color=#3487e0>{1}</color> 피격 시 해당 효과 <color=#f26c1c>1</color>스택 제거.",
+            "descriptionTips": "1:90111;1:90110",
+            "iconName": "Buff_DefUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 6784101,
+            "name": "주시",
+            "description": "공격력 <color=#f26c1c>50%</color> 감소. 자신의 유닛 행동 종료 시, 해당 효과가 <color=#f26c1c>반경 3칸 내</color> 다른 아군 인형에게 랜덤으로 이전. 필드에 해당 효과는 1개만 존재하며, 아군 1명이 이 효과를 받으면 다른 대상의 효과는 해제된다. 정화 불가 디버프.",
+            "buffEffect": "Buff/6784101_Mark",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "104",
+            "effectTypeGroup": "0",
+            "iconName": "Buff_AtkDown",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "1"
+        },
+        {
+            "id": 6784401,
+            "name": "예리한 부상",
+            "description": "[검] 공격을 받으면 추가로 공격력의 <color=#f26c1c>50%</color>만큼 고정 피해를 입는다. 정화 불가 디버프.",
+            "iconName": "Buff_NeedleGalaxy1",
+            "isShow": true,
+            "buffHeadShow": 1
+        },
+        {
+            "id": 6784501,
+            "name": "관통상",
+            "description": "[총] 공격을 받으면 추가로 공격력의 <color=#f26c1c>50%</color>만큼 고정 피해를 입는다. 정화 불가 디버프.",
+            "iconName": "Buff_NeedleGalaxy2",
+            "isShow": true,
+            "buffHeadShow": 1
+        },
+        {
+            "id": 6784701,
+            "name": "집중 의식",
+            "description": "<color=#3487e0>{0}</color>. 추가로 액티브 공격으로 인한 단일 피해(근접 공격 제외)를 받으면 총알을 베어 공격을 무효화한다. 정화 불가 버프.",
+            "descriptionTips": "1:90118",
+            "buffEffect": "Skill/6784601_Shield",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "109",
+            "effectTypeGroup": "0",
+            "iconName": "Buff_InvincibleNeutral",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "1"
+        },
+        {
+            "id": 6790201,
+            "name": "펄스 폭탄",
+            "description": "해당 효과를 <color=#f26c1c>2</color>턴간 보유한 후, 자신 <color=#f26c1c>주변 2칸 내</color>의 모든 아군에게 폭탄 시전자의 공격력 <color=#f26c1c>100%</color>만큼의 광역 <color=#d4ae08>전도 피해</color>를 가한다. 정화 가능 디버프.",
+            "buffEffect": "Skill/6790201_Target",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "103",
+            "effectTypeGroup": "0",
+            "iconName": "Buff_ElectricHurtUP",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "1"
+        },
+        {
             "id": 6793101,
             "name": "1",
             "description": "1",
@@ -14994,7 +15350,7 @@
             "effectFollowType": "2,1",
             "effectBirthType": "201,109",
             "effectTypeGroup": "0,0",
-            "isLoop": "1,1"
+            "isLoop": "0,0"
         },
         {
             "id": 6793102,
@@ -15014,7 +15370,7 @@
             "effectFollowType": "2,1",
             "effectBirthType": "201,109",
             "effectTypeGroup": "0,0",
-            "isLoop": "1,1"
+            "isLoop": "0,0"
         },
         {
             "id": 6793103,
@@ -15034,7 +15390,7 @@
             "effectFollowType": "2,1",
             "effectBirthType": "201,109",
             "effectTypeGroup": "0,0",
-            "isLoop": "1,1"
+            "isLoop": "0,0"
         },
         {
             "id": 6793104,
@@ -15054,7 +15410,7 @@
             "effectFollowType": "2,1",
             "effectBirthType": "201,109",
             "effectTypeGroup": "0,0",
-            "isLoop": "1,1"
+            "isLoop": "0,0"
         },
         {
             "id": 6793105,
@@ -15074,7 +15430,7 @@
             "effectFollowType": "2,1",
             "effectBirthType": "201,109",
             "effectTypeGroup": "0,0",
-            "isLoop": "1,1"
+            "isLoop": "0,0"
         },
         {
             "id": 6793106,
@@ -15094,7 +15450,83 @@
             "effectFollowType": "2,1",
             "effectBirthType": "201,109",
             "effectTypeGroup": "0,0",
-            "isLoop": "1,1"
+            "isLoop": "0,0"
+        },
+        {
+            "id": 6794101,
+            "name": "개업 특선",
+            "description": "가하는 안정 피해 <color=#f26c1c>4</color>점 증가. 정화 불가 버프.",
+            "buffEffect": "Buff/AtkU|Buff/AtkU",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_SuppressAdd",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 6794401,
+            "name": "카리냥·소장가 특선",
+            "description": "모든 피해와 제어 효과에 면역. 정화 불가 버프.",
+            "buffEffect": "Buff/61152201_Invincible2|Buff/61152201_Invincible",
+            "effectPlayTime": [
+                1,
+                3
+            ],
+            "effectFadeTime": "0|90",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "104|104",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_Invincible",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "1|0"
+        },
+        {
+            "id": 6797203,
+            "name": "입 대기 특수효과",
+            "description": "-",
+            "buffEffect": "Other/6797101_Close",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0",
+            "effectFollowType": "2",
+            "effectBirthType": "202",
+            "effectTypeGroup": "0",
+            "isLoop": "1"
+        },
+        {
+            "id": 6797204,
+            "name": "입 발포 특수효과",
+            "description": "-",
+            "buffEffect": "Other/6797101_Open",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0",
+            "effectFollowType": "2",
+            "effectBirthType": "202",
+            "effectTypeGroup": "0",
+            "isLoop": "0"
         },
         {
             "id": 6851101,
@@ -16101,7 +16533,7 @@
         {
             "id": 6898101,
             "name": "징벌 표식",
-            "description": "받는 피해가 <color=#f26c1c>5%</color> 증가하고 공격력이 <color=#f26c1c>5%</color> 증가한다. 중첩 가능. 자신의 턴 중 액티브 공격 후 다이시그라프의 반격을 받아 다이시그라프 공격력 <color=#f26c1c>100%</color>의 물리 피해를 입는다(매복·반격 재발동 가능). 정화 불가 중립 효과.",
+            "description": "받는 피해 <color=#f26c1c>5%</color> 증가, 공격력 <color=#f26c1c>5%</color> 증가. 중첩 가능. 자신의 턴에 '요새 백작·보루'를 액티브 공격하면 반격을 받아 '요새 백작·보루' 공격력의 <color=#f26c1c>100%</color>만큼 물리 피해를 입는다(매복, 반격 재발동 가능). 정화 불가 중립 효과.",
             "iconName": "Buff_Felaskju1Neutral",
             "isShow": true,
             "buffHeadShow": 1,
@@ -19551,6 +19983,30 @@
             "isLoop": "0"
         },
         {
+            "id": 10610402,
+            "name": "내하중 구조물",
+            "description": "방어력 <color=#f26c1c>30%</color> 증가, 받는 안정 피해 <color=#f26c1c>2</color>점 감소. 행동 종료 시 생명력이 <color=#f26c1c>40%</color> 미만이면 바틸다 공격력의 <color=#f26c1c>50%</color>만큼 생명력을 회복한다. 버프.",
+            "iconName": "Buff_DefUp",
+            "isShow": true,
+            "buffHeadShow": 1
+        },
+        {
+            "id": 10610701,
+            "name": "응력 균열",
+            "description": "받는 안정 피해 <color=#f26c1c>2</color>점 증가, 가하는 안정 피해 <color=#f26c1c>2</color>점 감소. 방어계 디버프.",
+            "iconName": "Buff_WillSub",
+            "isShow": true,
+            "buffHeadShow": 1
+        },
+        {
+            "id": 10610800,
+            "name": "성능 돌파",
+            "description": "공격력 <color=#f26c1c>3%</color> 증가, 방어력 <color=#f26c1c>3%</color> 증가. 최대 <color=#f26c1c>10</color>스택, 정화 불가.",
+            "iconName": "Buff_BalthildeSSR1",
+            "isShow": true,
+            "buffHeadShow": 1
+        },
+        {
             "id": 10640400,
             "name": "",
             "description": "",
@@ -19603,6 +20059,146 @@
             "iconName": "Buff_DamageUp",
             "isShow": true,
             "buffHeadShow": 1
+        },
+        {
+            "id": 10650501,
+            "name": "엄호 모드",
+            "description": "아군 유닛이 실드 효과를 보유한 적에게 가하는 <color=#42cce0>빙결 피해</color> <color=#f26c1c>20%</color> 증가. 자신의 치명타율 <color=#f26c1c>20%</color> 증가. <color=#f26c1c>반경 8칸 내</color>의 적이 액티브 공격을 하기 전 <color=#3487e0>{0}</color> <color=#f26c1c>1</color>회 발동, 공격력의 <color=#f26c1c>60%</color>만큼 <color=#42cce0>빙결 피해</color>와 <color=#f26c1c>4</color>점의 안정 피해를 가하며, 해당 피해량의 <color=#f26c1c>20%</color>를 모든 아군의 <color=#3487e0>{1}</color>에 누적시킨다. 턴당 최대 <color=#f26c1c>3</color>회 발동. 정화 불가.",
+            "descriptionTips": "1:90111;0:-1,10650801,1",
+            "buffEffect": "Skill/AlvaSSR01/10650501_Buff|Skill/AlvaSSR01/10650501_Disapear",
+            "effectPlayTime": [
+                1,
+                2
+            ],
+            "effectFadeTime": "120|120",
+            "cameraPlayTime": [
+                1,
+                2
+            ],
+            "cameraTime": [
+                60,
+                60
+            ],
+            "effectFollowType": "2|2",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_AlvaSSR1",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 99,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 10650502,
+            "name": "엄호 모드",
+            "description": "아군 유닛이 실드 효과를 보유한 적에게 가하는 <color=#42cce0>빙결 피해</color> <color=#f26c1c>20%</color> 증가. 자신의 치명타율 <color=#f26c1c>20%</color> 증가. 결전기 <color=#3487e0>설역의 진혼곡</color>이 가한 피해의 <color=#f26c1c>20%</color>가 모든 아군의 <color=#3487e0>{1}</color>에 누적된다. <color=#f26c1c>반경 8칸 내</color>의 적이 액티브 공격을 하기 전 <color=#3487e0>{0}</color> <color=#f26c1c>1</color>회 발동, 공격력의 <color=#f26c1c>60%</color>만큼 <color=#42cce0>빙결 피해</color>와 <color=#f26c1c>4</color>점의 안정 피해를 가하며, 해당 피해량의 <color=#f26c1c>30%</color>를 모든 아군의 <color=#3487e0>{1}</color>에 누적시킨다. 턴당 최대 <color=#f26c1c>3</color>회 발동. 정화 불가.",
+            "descriptionTips": "1:90111;0:-1,10650801,1",
+            "buffEffect": "Skill/AlvaSSR01/10650501_Buff|Skill/AlvaSSR01/10650501_Disapear",
+            "effectPlayTime": [
+                1,
+                2
+            ],
+            "effectFadeTime": "120|120",
+            "cameraPlayTime": [
+                1,
+                2
+            ],
+            "cameraTime": [
+                60,
+                60
+            ],
+            "effectFollowType": "2|2",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_AlvaSSR1",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 99,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 10650801,
+            "name": "혹한의 방벽",
+            "description": "실드. 흡수량은 최대 앨바 초기 공격력의 <color=#f26c1c>200%</color>를 넘지 않는다. 보유자가 <color=#42cce0>빙결 피해</color>를 가할 때, 실드 수치 <color=#f26c1c>1000</color>당 가하는 피해가 <color=#f26c1c>1.5%</color> 증가한다. 보유자가 피격당하면 공격자에게 <color=#3487e0>{0}</color> <color=#f26c1c>1</color>스택 부여, <color=#f26c1c>1</color>턴간 지속. <color=#3487e0>{1}</color>(으)로 간주될 수 있다. 빙결계 버프. 정화 불가.",
+            "descriptionTips": "0:330102;0:330701",
+            "buffEffect": "Skill/gun_Ice_shield|Skill/gun_Ice_shield_2",
+            "effectPlayTime": [
+                1,
+                2
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|3",
+            "effectBirthType": "104|104",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_IceGuard",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "1|0"
+        },
+        {
+            "id": 10650802,
+            "name": "혹한의 방벽",
+            "description": "실드. 흡수량은 최대 앨바 초기 공격력의 <color=#f26c1c>200%</color>를 넘지 않는다. 보유자가 <color=#42cce0>빙결 피해</color>를 가할 때, 실드 수치 <color=#f26c1c>1000</color>당 가하는 피해가 <color=#f26c1c>1.5%</color>, 치명타 피해가 <color=#f26c1c>1%</color> 증가한다. 보유자가 피격당하면 공격자에게 <color=#3487e0>{0}</color> <color=#f26c1c>1</color>스택 부여, <color=#f26c1c>1</color>턴간 지속. <color=#3487e0>{1}</color>(으)로 간주될 수 있다. 빙결계 버프. 정화 불가.",
+            "descriptionTips": "0:330102;0:330701",
+            "buffEffect": "Skill/gun_Ice_shield|Skill/gun_Ice_shield_2",
+            "effectPlayTime": [
+                1,
+                2
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|3",
+            "effectBirthType": "104|104",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_IceGuard",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "1|0"
+        },
+        {
+            "id": 10650803,
+            "name": "혹한의 방벽",
+            "description": "실드. 흡수량은 최대 앨바 초기 공격력의 <color=#f26c1c>300%</color>를 넘지 않는다. 보유자가 <color=#42cce0>빙결 피해</color>를 가할 때, 실드 수치 <color=#f26c1c>1000</color>당 가하는 피해가 <color=#f26c1c>3%</color>, 치명타 피해가 <color=#f26c1c>2%</color> 증가한다. 보유자가 피격당하면 공격자에게 <color=#3487e0>{0}</color> <color=#f26c1c>1</color>스택 부여, <color=#f26c1c>1</color>턴간 지속. <color=#3487e0>{1}</color>(으)로 간주될 수 있다. 빙결계 버프. 정화 불가.",
+            "descriptionTips": "0:330102;0:330701",
+            "buffEffect": "Skill/gun_Ice_shield|Skill/gun_Ice_shield_2",
+            "effectPlayTime": [
+                1,
+                2
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|3",
+            "effectBirthType": "104|104",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_IceGuard",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "1|0"
+        },
+        {
+            "id": 10650811,
+            "name": "전투 준비",
+            "description": "앨바 전용 효과, 중첩 가능. 정화 불가.",
+            "iconName": "Buff_CountUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 99
         },
         {
             "id": 20200016,
@@ -19728,6 +20324,118 @@
             "iconName": "Buff_CountMove",
             "isShow": true,
             "buffHeadShow": 1
+        },
+        {
+            "id": 21200004,
+            "name": "염옥·봉화연천",
+            "description": "공격력 <color=#f26c1c>+3%</color>, 최대 중첩 <color=#f26c1c>6스택</color>. 정화 불가 버프.",
+            "iconName": "Buff_AtkUp",
+            "isShow": true,
+            "buffHeadShow": 1
+        },
+        {
+            "id": 21200005,
+            "name": "염옥·봉화연천",
+            "description": "가하는 연소 피해 <color=#f26c1c>5%</color> 증가, 최대 <color=#f26c1c>9</color>스택. 정화 불가 버프.",
+            "iconName": "Buff_FireUP",
+            "isShow": true,
+            "buffHeadShow": 1
+        },
+        {
+            "id": 21210001,
+            "name": "타오르는 힘 I",
+            "description": "<color=#e67129>연소 피해</color>를 받으면 1스택 중첩. 행동 종료 시 효과 부여자가 대상에게 공격력의 <color=#f26c1c>30%</color>만큼 고정 피해를 가하고, 추가 <color=#f26c1c>1</color>스택당 피해 계수가 <color=#f26c1c>30%</color>씩 증가하며, <color=#3487e0>{0}</color> 및 <color=#3487e0>{1}</color>을(를) 부여한다.",
+            "descriptionTips": "0:310472;0:310401",
+            "buffEffect": "Buff/Rouge12_Burning1",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "104",
+            "effectTypeGroup": "0",
+            "iconName": "Buff_FireDamage",
+            "isShow": true,
+            "buffHeadShow": 9,
+            "isLoop": "1"
+        },
+        {
+            "id": 21210002,
+            "name": "타오르는 힘 II",
+            "description": "<color=#e67129>연소 피해</color>를 받으면 1스택 중첩. 행동 종료 시 효과 부여자가 대상 및 <color=#f26c1c>반경 2칸 내</color>의 모든 적에게 공격력의 <color=#f26c1c>60%</color>만큼 고정 피해를 가하고, 추가 <color=#f26c1c>1</color>스택당 피해 계수가 <color=#f26c1c>60%</color>씩 증가하며, <color=#3487e0>{0}</color> 및 <color=#3487e0>{1}</color>을(를) 부여한다. 사망 시 자신 <color=#f26c1c>주변 반경 3칸 내</color>의 모든 아군에게 <color=#f26c1c>현재 스택 수x300%</color>만큼 효과 부여자의 공격력에 해당하는 고정 피해를 가한다.",
+            "descriptionTips": "0:310472;0:310401",
+            "buffEffect": "Buff/Rouge12_Burning1",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "104",
+            "effectTypeGroup": "0",
+            "iconName": "Buff_FireDamage",
+            "isShow": true,
+            "buffHeadShow": 9,
+            "isLoop": "1"
+        },
+        {
+            "id": 21300006,
+            "name": "기생 개화",
+            "description": "공격력 <color=#f26c1c>5%</color> 감소, 최대 <color=#f26c1c>6</color>스택. 정화 불가 디버프.",
+            "iconName": "Buff_AtkDown",
+            "isShow": true,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 21300016,
+            "name": "촉진",
+            "description": "이동력 <color=#f26c1c>1</color>칸 증가, 산성 피해 <color=#f26c1c>30%</color> 증가. 정화 가능 버프.",
+            "iconName": "Buff_AtkUp",
+            "isShow": true,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 21310001,
+            "name": "기생",
+            "description": "방어력 <color=#f26c1c>15%</color> 감소, 최대 <color=#f26c1c>3</color>스택. 정화 불가 방어계 디버프.",
+            "iconName": "Buff_DefLow",
+            "isShow": true,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 21410001,
+            "name": "침투",
+            "description": "전체턴 시작 시 최대 생명력의 <color=#f26c1c>15%</color>만큼 고정 피해를 받고 <color=#3487e0>{0}</color> <color=#f26c1c>1</color>스택을 획득한다. 적에게 피해를 가한 후 해당 피해량의 <color=#f26c1c>30%</color>만큼 생명력을 회복한다. 정화 불가 버프.",
+            "descriptionTips": "0:214100011",
+            "buffEffect": "Buff/Rouge14_WaterFlush",
+            "effectPlayTime": [
+                3
+            ],
+            "effectFadeTime": "90",
+            "cameraPlayTime": [
+                3
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "109",
+            "effectTypeGroup": "0",
+            "iconName": "Buff_SelfHeal",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0"
         },
         {
             "id": 31030121,
@@ -22260,6 +22968,57 @@
             "showPriorityIcon": 10
         },
         {
+            "id": 60009002,
+            "name": "소형 배리어",
+            "description": "일반 공격 및 스킬 피해를 받지 않는다, 일반 공격 또는 스킬 공격을 <color=#f26c1c>1회</color> 받은 후에 해제된다. 정화 가능 버프.",
+            "buffEffect": "Buff/61152201_Invincible2|Buff/61152201_Invincible",
+            "effectPlayTime": [
+                1,
+                3
+            ],
+            "effectFadeTime": "0|90",
+            "effectFollowType": "1|1",
+            "effectBirthType": "104|104",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_Invincible",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "1|0"
+        },
+        {
+            "id": 60009101,
+            "name": "이동 감소III",
+            "description": "이동력 <color=#f26c1c>3</color>칸 감소, <color=#f26c1c>2</color>턴간 지속. 정화 불가 디버프.",
+            "buffEffect": "Buff/SpeedD|Buff/SpeedD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_SpeedLow",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 60009301,
+            "name": "공격 감소II",
+            "description": "공격력 <color=#f26c1c>20%</color> 감소.",
+            "iconName": "Buff_AtkDown",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
             "id": 61000010,
             "name": "치명 화력",
             "description": "센티널 인형이 주는 피해 <color=#f26c1c>+20%</color>.",
@@ -22615,6 +23374,20 @@
             "name": "에너지 관통",
             "description": "자신에게 버프가 <color=#f26c1c>4개 이상</color> 있을 때, 공격이 대상 방어력의 <color=#f26c1c>25%</color>를 무시한다.",
             "iconName": "Buff_Guild_72",
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 61000530,
+            "name": "집중 방패진",
+            "description": "자신이 실드를 보유했을 시, 공격이 대상 방어력 <color=#f26c1c>20%</color>를 무시하고 치명타 피해가 <color=#f26c1c>10%</color> 증가한다.",
+            "iconName": "Buff_Guild_73",
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 61000540,
+            "name": "리몰딩 공명",
+            "description": "전체턴 시작 전, 자신의 리몰딩 지수가 <color=#f26c1c>2</color> 이상일 경우, 이번 전체턴이 종료되기 전까지 가하는 피해가 <color=#f26c1c>25%</color> 증가한다.",
+            "iconName": "Buff_Guild_74",
             "showPriorityIcon": 10
         },
         {
@@ -23431,6 +24204,30 @@
             "description": "방어력이 <color=#f26c1c>200%</color> 증가한다. 버프.",
             "iconName": "Buff_DefUp",
             "isShow": true
+        },
+        {
+            "id": 62104317,
+            "name": "보호 I",
+            "description": "받는 피해 <color=#f26c1c>7.5%</color> 감소. 정화 불가. 중기관총과 유탄 발사 모듈을 파괴하여 제거할 수 있다.",
+            "iconName": "Buff_DefUpNeutral",
+            "isShow": true,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 62104318,
+            "name": "보호 II",
+            "description": "받는 피해 <color=#f26c1c>15%</color> 감소. 정화 불가. 중기관총과 유탄 발사 모듈을 파괴하여 제거할 수 있다.",
+            "iconName": "Buff_DefUpNeutral",
+            "isShow": true,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 62104319,
+            "name": "보호 III",
+            "description": "받는 피해 <color=#f26c1c>30%</color> 감소. 정화 불가. 중기관총과 유탄 발사 모듈을 파괴하여 제거할 수 있다.",
+            "iconName": "Buff_DefUpNeutral",
+            "isShow": true,
+            "showPriorityIcon": 10
         },
         {
             "id": 62111010,
@@ -24567,6 +25364,25 @@
             "effectBirthType": "109"
         },
         {
+            "id": 67804301,
+            "name": "엔트로피 고착",
+            "description": "공격력 <color=#f26c1c>15%</color> 증가, 받는 <color=#3487e0>{0}</color> <color=#f26c1c>3%</color> 감소. 중첩 가능. 정화 불가 버프.",
+            "descriptionTips": "1:90120",
+            "iconName": "Buff_AtkUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 67804401,
+            "name": "자기 속박 함정",
+            "description": "이동력 <color=#f26c1c>5</color>칸 감소, 최대 <color=#f26c1c>2</color>스택. <color=#f26c1c>2</color>스택 중첩 시 <color=#3487e0>{0}</color> 발동, <color=#f26c1c>2</color>턴간 지속. <color=#3487e0>{0}</color> 종료 시 스택 초기화, 해당 기간에 <color=#3487e0>{0}</color>이(가) 다시 발동하지 않음. 정화 불가 디버프.",
+            "descriptionTips": "1:90097",
+            "iconName": "Buff_SpeedLow",
+            "isShow": true,
+            "buffHeadShow": 1
+        },
+        {
             "id": 67810011,
             "name": "혼선 오버로드",
             "description": "사망 시 자신 주변 <color=#f26c1c>3×3칸</color> 내 모든 적에게 자신의 공격력 <color=#f26c1c>30%</color>의 고정 피해. 이 효과 <color=#f26c1c>1층</color>마다 피해 계수 <color=#f26c1c>30%</color> 증가, 최대 <color=#f26c1c>3층</color>. 정화 불가.",
@@ -24596,6 +25412,137 @@
             "iconName": "Buff_SuppressAdd",
             "isShow": true,
             "buffHeadShow": 1,
+            "isLoop": "1"
+        },
+        {
+            "id": 67826031,
+            "name": "과부하 균열",
+            "description": "받는 피해 <color=#f26c1c>2%</color> 증가, 최대 <color=#f26c1c>30</color>스택. 정화 불가 디버프.",
+            "iconName": "Buff_EnemyHurtUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 67827021,
+            "name": "고치화 꼭두각시",
+            "description": "최대 생명력 <color=#f26c1c>5%</color>의 실드 생성.",
+            "buffEffect": "Skill/6873401_Shield|Skill/6873403_Shield_1",
+            "effectPlayTime": [
+                1,
+                2
+            ],
+            "effectFadeTime": "0|60",
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_DefUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10,
+            "isLoop": "1|0"
+        },
+        {
+            "id": 67921201,
+            "name": "말살 포인터",
+            "description": "블레이드 워커가 이 대상을 공격한다. 정화 불가 중립 효과.",
+            "buffEffect": "Skill/6792201_Target",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "103",
+            "effectTypeGroup": "0",
+            "iconName": "Buff_TargetNeutral",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "1"
+        },
+        {
+            "id": 67942011,
+            "name": "치료",
+            "description": "-",
+            "buffEffect": "Buff/Recover",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "60",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "109",
+            "effectTypeGroup": "0",
+            "isLoop": "0"
+        },
+        {
+            "id": 67942012,
+            "name": "정화",
+            "description": "-",
+            "buffEffect": "Buff/Purity",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "60",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "109",
+            "effectTypeGroup": "0",
+            "isLoop": "0"
+        },
+        {
+            "id": 67943011,
+            "name": "안정 회복",
+            "description": "-",
+            "buffEffect": "Buff/StableU",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "60",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "109",
+            "effectTypeGroup": "0",
+            "isLoop": "0"
+        },
+        {
+            "id": 67972011,
+            "name": "귀 표현 특수효과",
+            "description": "-",
+            "buffEffect": "Buff/6797101_Ear",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "60",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "2",
+            "effectBirthType": "201",
+            "effectTypeGroup": "0",
             "isLoop": "1"
         },
         {
@@ -26037,6 +26984,188 @@
             "isShow": true,
             "buffHeadShow": 1,
             "showPriorityIcon": 10
+        },
+        {
+            "id": 73011001,
+            "name": "빙결 순환",
+            "description": "<color=#42cce0>빙결 피해</color> <color=#f26c1c>30%</color> 증가, 빙결 피해를 가할 시 치명타 피해 <color=#f26c1c>20%</color> 증가.",
+            "iconName": "Buff_Guild_24"
+        },
+        {
+            "id": 73011201,
+            "name": "월드보스 빙결 특수효과 버프",
+            "description": "표시 안 함",
+            "buffEffect": "Buff/WorldBoss_ice",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                0
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "109",
+            "effectTypeGroup": "0",
+            "isLoop": "1"
+        },
+        {
+            "id": 73012001,
+            "name": "액체 효과",
+            "description": "<color=#2caadb>탁류 피해</color> <color=#f26c1c>30%</color> 증가, 탁류 피해를 가할 시 치명타 피해 <color=#f26c1c>20%</color> 증가.",
+            "iconName": "Buff_Guild_21"
+        },
+        {
+            "id": 73012201,
+            "name": "월드보스 탁류 특수효과 버프",
+            "description": "표시 안 함",
+            "buffEffect": "Buff/WorldBoss_water",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                0
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "109",
+            "effectTypeGroup": "0",
+            "isLoop": "1"
+        },
+        {
+            "id": 73013001,
+            "name": "혼합 이론",
+            "description": "탄종 피해를 가할 시 피해량 <color=#f26c1c>30%</color> 증가, 치명타 피해 <color=#f26c1c>20%</color> 증가.",
+            "iconName": "Buff_Guild_69"
+        },
+        {
+            "id": 73013201,
+            "name": "월드보스 공용 특수효과 버프",
+            "description": "표시 안 함",
+            "buffEffect": "Buff/WorldBoss_common",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                0
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "109",
+            "effectTypeGroup": "0",
+            "isLoop": "1"
+        },
+        {
+            "id": 73014001,
+            "name": "초토화 협정",
+            "description": "<color=#e67129>연소 피해</color> <color=#f26c1c>30%</color> 증가, 연소 피해를 가할 시 치명타 피해 <color=#f26c1c>20%</color> 증가.",
+            "iconName": "Buff_Guild_20"
+        },
+        {
+            "id": 73014201,
+            "name": "월드보스 연소 특수효과 버프",
+            "description": "표시 안 함",
+            "buffEffect": "Buff/WorldBoss_fire",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                0
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "109",
+            "effectTypeGroup": "0",
+            "isLoop": "1"
+        },
+        {
+            "id": 73015001,
+            "name": "분해 반응",
+            "description": "<color=#8679e8>산성 피해</color> <color=#f26c1c>30%</color> 증가, 산성 피해를 가할 시 치명타 피해 <color=#f26c1c>20%</color> 증가.",
+            "iconName": "Buff_Guild_23"
+        },
+        {
+            "id": 73015201,
+            "name": "월드보스 산성 특수효과 버프",
+            "description": "표시 안 함",
+            "buffEffect": "Buff/WorldBoss_poison",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                0
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "109",
+            "effectTypeGroup": "0",
+            "isLoop": "1"
+        },
+        {
+            "id": 73016001,
+            "name": "초전도 증폭",
+            "description": "<color=#d4ae08>전도 피해</color> <color=#f26c1c>30%</color> 증가, 전도 피해를 가할 시 치명타 피해 <color=#f26c1c>20%</color> 증가.",
+            "iconName": "Buff_Guild_22"
+        },
+        {
+            "id": 73016201,
+            "name": "월드보스 전도 특수효과 버프",
+            "description": "표시 안 함",
+            "buffEffect": "Buff/WorldBoss_electric",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                0
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "109",
+            "effectTypeGroup": "0",
+            "isLoop": "1"
+        },
+        {
+            "id": 73017001,
+            "name": "충격 강화",
+            "description": "물리 피해를 가할 시 대상 방어력 <color=#f26c1c>50%</color> 무시 및 치명타 피해 <color=#f26c1c>20%</color> 증가.",
+            "iconName": "Buff_Guild_73"
+        },
+        {
+            "id": 73017201,
+            "name": "월드보스 물리 특수효과 버프",
+            "description": "표시 안 함",
+            "buffEffect": "Buff/WorldBoss_physics",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                0
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "109",
+            "effectTypeGroup": "0",
+            "isLoop": "1"
         },
         {
             "id": 80000001,
@@ -28703,6 +29832,14 @@
             "isLoop": "0|0"
         },
         {
+            "id": 106108001,
+            "name": "성능 돌파",
+            "description": "공격력 <color=#f26c1c>5%</color> 증가, 방어력 <color=#f26c1c>5%</color> 증가. 최대 <color=#f26c1c>10</color>스택, 정화 불가.",
+            "iconName": "Buff_BalthildeSSR1",
+            "isShow": true,
+            "buffHeadShow": 1
+        },
+        {
             "id": 106404031,
             "name": "아드레날린",
             "description": "공격력이 <color=#f26c1c>10%</color> 증가하고 방어력이 <color=#f26c1c>30%</color> 증가한다. 정화 불가 버프.",
@@ -28830,6 +29967,40 @@
             "buffHeadShow": 1,
             "showPriorityIcon": 10,
             "isLoop": "0,1"
+        },
+        {
+            "id": 106507212,
+            "name": "저체온증",
+            "description": "받는 <color=#42cce0>빙결 피해</color> <color=#f26c1c>20%</color> 증가. 빙결계 디버프.",
+            "iconName": "Buff_EnemyHurtUp",
+            "isShow": true,
+            "buffHeadShow": 1
+        },
+        {
+            "id": 106507215,
+            "name": "한기",
+            "description": "특수 실드. 다른 실드와 동시에 존재할 수 있으며 우선적으로 소모되지 않는다. 파괴 시 보유자에게 <color=#3487e0>{0}</color>과 <color=#f26c1c>2</color>턴간 지속되는 <color=#3487e0>{1}</color>을(를) 부여한다. 빙결계 디버프. 정화 불가.",
+            "descriptionTips": "0:106507216;0:10520403",
+            "iconName": "Buff_IceFakeGuard",
+            "isShow": true,
+            "buffHeadShow": 1
+        },
+        {
+            "id": 106507216,
+            "name": "응결된 서리",
+            "description": "받는 <color=#42cce0>빙결 피해</color> <color=#f26c1c>20%</color> 증가, <color=#3487e0>{0}</color> 획득 시 제거. 빙결계 디버프. 정화 불가.",
+            "descriptionTips": "0:106507215",
+            "iconName": "Buff_EnemyHurtUp",
+            "isShow": true,
+            "buffHeadShow": 1
+        },
+        {
+            "id": 106507232,
+            "name": "저체온증",
+            "description": "받는 <color=#42cce0>빙결 피해</color> <color=#f26c1c>40%</color> 증가, 빙결계 디버프.",
+            "iconName": "Buff_EnemyHurtUp",
+            "isShow": true,
+            "buffHeadShow": 1
         },
         {
             "id": 201000041,
@@ -29718,6 +30889,156 @@
             "description": ""
         },
         {
+            "id": 211000101,
+            "name": "얼음 방벽",
+            "description": "<color=#3487e0>{0}</color>의 효과 강화. 흡수량은 자신의 최대 체력 <color=#f26c1c>100%</color>. 지속시간 <color=#f26c1c>1턴</color>. 빙결계 버프, 정화 불가.",
+            "descriptionTips": "0:330701",
+            "buffEffect": "Skill/gun_Ice_shield|Skill/gun_Ice_shield_2",
+            "effectPlayTime": [
+                1,
+                2
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|3",
+            "effectBirthType": "104|104",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_IceGuard",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "1|0"
+        },
+        {
+            "id": 211000173,
+            "name": "",
+            "description": "",
+            "buffEffect": "Buff/StableHPRecover",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "109"
+        },
+        {
+            "id": 212100002,
+            "name": "스택 임무 스택 수",
+            "description": ""
+        },
+        {
+            "id": 213100010,
+            "name": "",
+            "description": "표시 안 함, 셰이더 수정용",
+            "shaderType": 6
+        },
+        {
+            "id": 213100016,
+            "name": "",
+            "description": "표시 안 함, 셰이더 수정용",
+            "shaderType": 4
+        },
+        {
+            "id": 213100018,
+            "name": "",
+            "description": "표시 안 함, 셰이더 수정용",
+            "shaderType": 5
+        },
+        {
+            "id": 213100124,
+            "name": "로그라이크 독2 기생 1스택 발동 특수효과",
+            "description": "표시 안 함",
+            "buffEffect": "Buff/Rouge13_ParasitismTrigger1",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "104",
+            "effectTypeGroup": "0",
+            "isLoop": "0"
+        },
+        {
+            "id": 213100125,
+            "name": "로그라이크 독2 기생 2스택 발동 특수효과",
+            "description": "표시 안 함",
+            "buffEffect": "Buff/Rouge13_ParasitismTrigger2",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "104",
+            "effectTypeGroup": "0",
+            "isLoop": "0"
+        },
+        {
+            "id": 213100126,
+            "name": "로그라이크 독2 기생 3스택 발동 특수효과",
+            "description": "표시 안 함",
+            "buffEffect": "Buff/Rouge13_ParasitismTrigger3",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "104",
+            "effectTypeGroup": "0",
+            "isLoop": "0"
+        },
+        {
+            "id": 214100011,
+            "name": "침염",
+            "description": "공격력 <color=#f26c1c>20%</color> 증가, 중첩 가능 버프. 정화 불가.",
+            "buffEffect": "Buff/Rouge14_WaterMist",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "90",
+            "cameraPlayTime": [
+                0
+            ],
+            "cameraTime": [
+                0
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "109",
+            "effectTypeGroup": "0",
+            "iconName": "Buff_AtkUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "1"
+        },
+        {
+            "id": 214100021,
+            "name": "용솟음",
+            "description": "액티브 공격 전, 대상에게 최대 생명력의 <color=#f26c1c>10%</color>와 공격력의 <color=#f26c1c>10%</color>만큼 <color=#2caadb>탁류 피해</color>를 가하고, 그 <color=#f26c1c>주변 반경 2칸 내</color>에 <color=#3487e0>암류</color> 지형을 생성한다. 발동 후 스택의 절반을 잃는다. 중첩 가능 버프. 정화 불가.",
+            "iconName": "Buff_WaterUP",
+            "isShow": true,
+            "buffHeadShow": 1
+        },
+        {
             "id": 510533015,
             "name": "치명적 불스아이",
             "description": "일반공격으로 주는 치명피해 <color=#f26c1c>+15%</color>, 정화 불가 버프.",
@@ -30440,6 +31761,25 @@
             "iconName": "Buff_DefUp",
             "isShow": true,
             "buffHeadShow": 1
+        },
+        {
+            "id": 621005301,
+            "name": "이동 상승",
+            "description": "이동력 <color=#f26c1c>2</color>칸 증가. 정화 불가.",
+            "buffEffect": "Buff/SpeedU|Buff/SpeedU",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_CountMove",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10,
+            "isLoop": "0|0"
         },
         {
             "id": 622022301,
@@ -31732,7 +33072,7 @@
         {
             "id": 2071000121,
             "name": "관통 마크",
-            "description": "공격 시 대상의 방어력을 <color=#f26c1c>5%</color> 무시한다. 중첩 가능. 정화 불가 버프.",
+            "description": "자신의 공격력과 방어력 <color=#f26c1c>10%</color> 증가, 공격 시 대상 방어력 <color=#f26c1c>10%</color> 무시, 중첩 가능. 정화 불가 버프.",
             "buffEffect": "Buff/AtkU",
             "effectPlayTime": [
                 1
@@ -31921,6 +33261,118 @@
             "isShow": true,
             "buffHeadShow": 1,
             "showPriorityIcon": 99
+        },
+        {
+            "id": 2111000108,
+            "name": "빙결 속박",
+            "description": "이동 불가, 액티브 이동 불가, 받는 <color=#42cce0>빙결 피해</color> <color=#f26c1c>20%</color> 증가. 빙결계 이동 디버프.",
+            "buffEffect": "Buff/buff_Frozen|Buff/buff_Frozen",
+            "effectPlayTime": [
+                1,
+                6
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_IceUnmove",
+            "isShow": true,
+            "buffHeadShow": 17,
+            "isLoop": "1|1"
+        },
+        {
+            "id": 2111000121,
+            "name": "얼음 방벽",
+            "description": "<color=#3487e0>{0}</color> 효과 상승, 흡수량은 공격력의 <color=#f26c1c>150%</color>.",
+            "descriptionTips": "0:330701",
+            "buffEffect": "Skill/gun_Ice_shield|Skill/gun_Ice_shield_2",
+            "effectPlayTime": [
+                1,
+                2
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|3",
+            "effectBirthType": "104|104",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_IceGuard",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "1|0"
+        },
+        {
+            "id": 2111000321,
+            "name": "동결",
+            "description": "이동력 <color=#f26c1c>1</color>칸 감소, 받는 <color=#42cce0>빙결 피해</color> <color=#f26c1c>30%</color> 증가. 턴 종료 시 보유자에게 최대 생명력의 <color=#f26c1c>3%</color>만큼 고정 피해를 가한다. 중첩 가능. 빙결계 디버프.",
+            "buffEffect": "Buff/Rouge11_Cold",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "60",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                0
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "109",
+            "effectTypeGroup": "0",
+            "iconName": "Buff_AllUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0"
+        },
+        {
+            "id": 2121000102,
+            "name": "",
+            "description": "",
+            "buffEffect": "Buff/Rouge12_Burning1_Break",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "60",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "104",
+            "effectTypeGroup": "0",
+            "isLoop": "0"
+        },
+        {
+            "id": 2141000253,
+            "name": "",
+            "description": "",
+            "buffEffect": "Buff/Rouge14_MistDamage",
+            "effectPlayTime": [
+                3
+            ],
+            "effectFadeTime": "90",
+            "cameraPlayTime": [
+                3
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "104",
+            "effectTypeGroup": "0",
+            "isLoop": "0"
         }
     ]
 }

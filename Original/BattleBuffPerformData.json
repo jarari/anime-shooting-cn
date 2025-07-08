@@ -352,6 +352,12 @@
             "isLoop": "0"
         },
         {
+            "id": 424,
+            "name": "埃芙挂口罩--测试",
+            "description": "埃芙挂口罩--测试",
+            "iconName": "Buff_Nogoal"
+        },
+        {
             "id": 441,
             "name": "米什缇睡觉-测试",
             "description": "米什缇睡觉-测试",
@@ -1660,6 +1666,54 @@
             "showPriorityIcon": 99
         },
         {
+            "id": 70034,
+            "name": "拓域专研",
+            "description": "友方单位<color=#2caadb>浊刻伤害</color>提高<color=#f26c1c>100%</color>，拥有护盾类效果时，攻击无视目标<color=#f26c1c>30%</color>的防御力。\n友方单位的防御力提高<color=#f26c1c>15%</color>，受到的稳态伤害降低<color=#f26c1c>1点</color>。",
+            "iconName": "Buff_Strong",
+            "isShow": true,
+            "showPriorityIcon": 99
+        },
+        {
+            "id": 70035,
+            "name": "拓域专研",
+            "description": "友方单位<color=#42cce0>冷凝伤害</color>提高<color=#f26c1c>100%</color>，拥有护盾类效果时，攻击无视目标<color=#f26c1c>30%</color>的防御力。\n友方单位受到的伤害降低<color=#f26c1c>30%</color>，防御力提高<color=#f26c1c>15%</color>。",
+            "iconName": "Buff_Strong",
+            "isShow": true,
+            "showPriorityIcon": 99
+        },
+        {
+            "id": 70036,
+            "name": "拓域专研",
+            "description": "友方单位<color=#d4ae08>电导伤害</color>提高<color=#f26c1c>100%</color>，拥有护盾类效果时，攻击无视目标<color=#f26c1c>30%</color>的防御力。\n大回合结束时，友方单位恢复自身<color=#f26c1c>20%</color>最大生命值的生命值，若自身处于稳态崩溃状态，则额外恢复<color=#f26c1c>3点</color>稳态指数。",
+            "iconName": "Buff_Strong",
+            "isShow": true,
+            "showPriorityIcon": 99
+        },
+        {
+            "id": 70037,
+            "name": "拓域专研",
+            "description": "友方单位物理伤害提高<color=#f26c1c>100%</color>，拥有护盾类效果时，攻击无视目标<color=#f26c1c>30%</color>的防御力。\n友方单位受到的伤害降低<color=#f26c1c>40%</color>，防御力提高<color=#f26c1c>20%</color>。",
+            "iconName": "Buff_Strong",
+            "isShow": true,
+            "showPriorityIcon": 99
+        },
+        {
+            "id": 70038,
+            "name": "拓域专研",
+            "description": "友方单位<color=#8679e8>酸蚀伤害</color>提高<color=#f26c1c>100%</color>，拥有护盾类效果时，攻击无视目标<color=#f26c1c>30%</color>的防御力。\n友方单位受到的伤害降低<color=#f26c1c>40%</color>，防御力提高<color=#f26c1c>20%</color>。",
+            "iconName": "Buff_Strong",
+            "isShow": true,
+            "showPriorityIcon": 99
+        },
+        {
+            "id": 70039,
+            "name": "拓域专研",
+            "description": "友方单位<color=#e67129>燃烧伤害</color>提高<color=#f26c1c>100%</color>，拥有护盾类效果时，攻击无视目标<color=#f26c1c>30%</color>的防御力。\n友方单位受到的伤害降低<color=#f26c1c>30%</color>，受到的稳态伤害降低<color=#f26c1c>1点</color>。",
+            "iconName": "Buff_Strong",
+            "isShow": true,
+            "showPriorityIcon": 99
+        },
+        {
             "id": 80001,
             "name": "明靶重创",
             "description": "未受到掩体保护时，受到伤害提高<color=#f26c1c>200%</color>。不可驱散。",
@@ -1766,6 +1820,29 @@
             "description": "不会受到眩晕，嘲讽等控制以及指令禁止效果影响。受到伤害后，驱散<color=#3487e0>{0}</color>、<color=#3487e0>{1}</color>和<color=#3487e0>{2}</color>，随后普通单位恢复<color=#f26c1c>20%</color>最大生命值，精锐单位恢复<color=#f26c1c>10%</color>最大生命值，首领单位恢复<color=#f26c1c>0.5%</color>最大生命值。",
             "descriptionTips": "0:320001;0:301201;0:320101",
             "iconName": "Buff_DefUpNeutral",
+            "isShow": true
+        },
+        {
+            "id": 80131,
+            "name": "失能恐惧",
+            "description": "受到治疗时，若自身生命值高于<color=#f26c1c>50%</color>，则受到治疗效果降低<color=#f26c1c>50%</color>。\n造成伤害时，若自身无<color=#3487e0>{0}</color>类效果时，造成伤害降低<color=#f26c1c>25%</color>；若敌方目标无冷凝类减益，造成伤害降低<color=#f26c1c>25%</color>。",
+            "descriptionTips": "1:90118",
+            "iconName": "Buff_Eber10",
+            "isShow": true
+        },
+        {
+            "id": 80141,
+            "name": "算力衰败",
+            "description": "造成伤害降低<color=#f26c1c>25%</color>；主动攻击若未造成异位克制，则造成伤害额外降低<color=#f26c1c>25%</color>。行动结束时，受到<color=#f26c1c>25%</color>最大生命值固定伤害。",
+            "iconName": "Buff_Darture2",
+            "isShow": true
+        },
+        {
+            "id": 80151,
+            "name": "代偿壁垒",
+            "description": "大回合开始时，若自身生命值高于<color=#f26c1c>50%</color>且自身没有<color=#3487e0>{0}</color>，则消耗<color=#f26c1c>20%</color>生命值，获得<color=#f26c1c>30%</color>生命值的<color=#3487e0>{0}</color>。自身拥有<color=#3487e0>{0}</color>类效果时，造成伤害提高<color=#f26c1c>30%</color>。",
+            "descriptionTips": "1:90118",
+            "iconName": "Buff_UndeadNeutral",
             "isShow": true
         },
         {
@@ -7406,6 +7483,16 @@
             "buffHeadShow": 1
         },
         {
+            "id": 284100,
+            "name": "重击",
+            "description": "攻击时对目标施加<color=#3487e0>{0}</color>，持续<color=#f26c1c>1回合</color>",
+            "descriptionTips": "1:90015",
+            "iconName": "Buff_AtkUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
             "id": 300002,
             "name": "失能",
             "description": "行动结束时，降低自身<color=#f26c1c>10%</color>的生命上限，生命上限降低效果可叠加，<color=#3487e0>失能</color>状态消失时返还因<color=#3487e0>失能</color>减少的生命上限。可叠加。酸蚀类减益。",
@@ -9825,8 +9912,32 @@
             "buffHeadShow": 1
         },
         {
+            "id": 351502,
+            "name": "触电II",
+            "description": "每移动<color=#f26c1c>1格</color>，受到状态施加者<color=#f26c1c>10%</color>攻击力的固定伤害。电导类减益。",
+            "buffEffect": "Buff/Dot_shock|Skill/Dot_shock_break",
+            "effectPlayTime": [
+                1,
+                3
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "104|104",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_ElectricContinuehurt",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "1|0"
+        },
+        {
             "id": 351602,
-            "name": "触电",
+            "name": "触电I",
             "description": "每移动<color=#f26c1c>1格</color>，受到状态施加者<color=#f26c1c>5%</color>攻击力的固定伤害。电导类减益。",
             "buffEffect": "Buff/Dot_shock|Skill/Dot_shock_break",
             "effectPlayTime": [
@@ -11355,6 +11466,85 @@
             "iconName": "Buff_DenseFog",
             "isShow": true,
             "showPriorityIcon": 10
+        },
+        {
+            "id": 4300070,
+            "name": "飓风",
+            "description": "被顺着风向的单位攻击时，自身沿风向位移<color=#f26c1c>2格</color>。回合结束时，如果自身稳态大于<color=#f26c1c>50%</color>，沿风向位移<color=#f26c1c>1格</color>；如果自身稳态小于等于<color=#f26c1c>50%</color>且大于<color=#f26c1c>0</color>时，沿风向位移<color=#f26c1c>2格</color>；如果自身稳态为<color=#f26c1c>0</color>时，沿风向位移<color=#f26c1c>3格</color>。",
+            "iconName": "Buff_Hurricane",
+            "isShow": true,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 4300080,
+            "name": "溃决之潮",
+            "description": "大回合结束时，受到1点固定稳态伤害和<color=#f26c1c>10%</color>最大生命值的固定伤害，获得一层<color=#3487e0>{0}</color>。每拥有<color=#f26c1c>1层</color><color=#3487e0>{0}</color>，受到溃决之潮的固定稳态伤害增加<color=#f26c1c>1点</color>。若稳态指数小于等于<color=#f26c1c>50%</color>且大于<color=#f26c1c>0</color>，则额外受到最大生命值<color=#f26c1c>20%</color>的固定伤害；若处于稳态崩溃，额外受到最大生命值<color=#f26c1c>60%</color>的固定伤害。",
+            "descriptionTips": "0:4300081",
+            "iconName": "Buff_Waves",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 99
+        },
+        {
+            "id": 4300081,
+            "name": "浸水",
+            "description": "受到的稳态伤害增加<color=#f26c1c>1点</color>，受到<color=#2caadb>浊刻伤害</color>时视为被克制。浊刻类减益。可叠加。",
+            "iconName": "Buff_WaterWet",
+            "isShow": true,
+            "buffHeadShow": 1
+        },
+        {
+            "id": 4300090,
+            "name": "束缚",
+            "description": "无法行动。不可被位移。不可驱散。",
+            "buffEffect": "Buff/Debuff_shackle|Buff/Debuff_shackle",
+            "effectPlayTime": [
+                1,
+                6
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_Stun",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 98,
+            "isLoop": "1|1"
+        },
+        {
+            "id": 4300100,
+            "name": "息壤滩涂",
+            "description": "免疫除<color=#3487e0>{0}</color>以外的所有伤害。",
+            "descriptionTips": "0:4300080",
+            "iconName": "Buff_Invincible",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 97
+        },
+        {
+            "id": 4300101,
+            "name": "稳态增强",
+            "description": "受到稳态伤害减少<color=#f26c1c>5点</color>。不可驱散。",
+            "iconName": "Buff_CountSuppress",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 96
+        },
+        {
+            "id": 4300102,
+            "name": "息壤滩涂",
+            "description": "免疫除<color=#3487e0>{0}</color>以外的所有伤害，敌方单位受到的稳态伤害减少<color=#f26c1c>5点</color>。",
+            "descriptionTips": "0:4300080",
+            "iconName": "Buff_Invincible",
+            "isShow": true,
+            "buffHeadShow": 1
         },
         {
             "id": 5104831,
@@ -14977,6 +15167,172 @@
             "isLoop": "1"
         },
         {
+            "id": 6782101,
+            "name": "焦虑渗透",
+            "description": "造成的伤害降低<color=#f26c1c>10%</color>，受到的伤害增加<color=#f26c1c>10%</color>，至多叠加<color=#f26c1c>3层</color>。叠加至<color=#f26c1c>3层</color>时，触发<color=#3487e0>{0}</color>，持续<color=#f26c1c>1回合</color>。<color=#3487e0>{0}</color>结束时层数重置，期间不会再次触发<color=#3487e0>{0}</color>。减益可驱散。被驱散时获得<color=#3487e0>{1}</color>，持续<color=#f26c1c>2个大回合</color>。",
+            "descriptionTips": "0:401021;0:6782102",
+            "buffEffect": "Skill/6781001_Virus",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "104",
+            "effectTypeGroup": "0",
+            "iconName": "Buff_DamageDown",
+            "isShow": true,
+            "buffHeadShow": 17,
+            "isLoop": "1"
+        },
+        {
+            "id": 6782102,
+            "name": "失控心智",
+            "description": "暴击伤害提高<color=#f26c1c>5%</color>，最大可叠加<color=#f26c1c>10层</color>，增益不可驱散。",
+            "iconName": "Buff_CriDamUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 6782301,
+            "name": "超频回路",
+            "description": "攻击力提高<color=#f26c1c>15%</color>。被施加该效果的友方单位每移动<color=#f26c1c>1次</color>，获得<color=#f26c1c>1层</color><color=#3487e0>{0}</color>，<color=#3487e0>{0}</color>叠加至<color=#f26c1c>3层</color>时获得<color=#3487e0>{1}</color>。不可驱散。",
+            "descriptionTips": "0:6782302;0:6782303",
+            "buffEffect": "Skill/6781301_Link_Down,Skill/6781301_Link_Hit",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0,0",
+            "effectFollowType": "1,1",
+            "effectBirthType": "109,109",
+            "effectTypeGroup": "0,0",
+            "iconName": "Buff_UnsearchableGirl1",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 1,
+            "isLoop": "1,0"
+        },
+        {
+            "id": 6782302,
+            "name": "死亡灾变",
+            "description": "死亡时对<color=#f26c1c>自身周围3×3格</color>内的所有敌方目标造成自身<color=#f26c1c>30%</color>攻击力的固定伤害，每有<color=#f26c1c>1层</color>该效果，伤害系数提高<color=#f26c1c>30%</color>，至多叠加<color=#f26c1c>3层</color>。不可驱散。",
+            "iconName": "Buff_Tank5",
+            "isShow": true,
+            "buffHeadShow": 17,
+            "showPriorityIcon": 1
+        },
+        {
+            "id": 6782303,
+            "name": "空值豁免",
+            "description": "免疫所有伤害<color=#f26c1c>1次</color>，不可驱散。",
+            "iconName": "Buff_InvincibleNeutral",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 6782304,
+            "name": "冗余屏障",
+            "description": "防御力提高<color=#f26c1c>20%</color>，最大可叠加<color=#f26c1c>2层</color>，增益不可驱散。当受到敌方单位的<color=#3487e0>{0}</color>或<color=#3487e0>{1}</color>时，移除<color=#f26c1c>1层</color>该效果。",
+            "descriptionTips": "1:90111;1:90110",
+            "iconName": "Buff_DefUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 6784101,
+            "name": "注视",
+            "description": "攻击力降低<color=#f26c1c>50%</color>；自身单位行动结束时，该效果随机转移给<color=#f26c1c>周围半径3格内</color>其他友方人形；全场只存在1个该效果，当1个友方目标被施加该效果时，其余的会被解除。减益不可驱散。",
+            "buffEffect": "Buff/6784101_Mark",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "104",
+            "effectTypeGroup": "0",
+            "iconName": "Buff_AtkDown",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "1"
+        },
+        {
+            "id": 6784401,
+            "name": "锐利伤势",
+            "description": "受到【剑】攻击时，额外受到<color=#f26c1c>50%</color>攻击力的固定伤害。减益不可驱散。",
+            "iconName": "Buff_NeedleGalaxy1",
+            "isShow": true,
+            "buffHeadShow": 1
+        },
+        {
+            "id": 6784501,
+            "name": "贯穿伤势",
+            "description": "受到【枪】攻击时，额外受到<color=#f26c1c>50%</color>攻击力的固定伤害。减益不可驱散。",
+            "iconName": "Buff_NeedleGalaxy2",
+            "isShow": true,
+            "buffHeadShow": 1
+        },
+        {
+            "id": 6784701,
+            "name": "专注意识",
+            "description": "<color=#3487e0>{0}</color>，此外受到主动攻击造成的精准伤害时（不包含近战），会将子弹切碎使攻击无效。增益不可驱散。",
+            "descriptionTips": "1:90118",
+            "buffEffect": "Skill/6784601_Shield",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "109",
+            "effectTypeGroup": "0",
+            "iconName": "Buff_InvincibleNeutral",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "1"
+        },
+        {
+            "id": 6790201,
+            "name": "脉冲炸弹",
+            "description": "持有该效果<color=#f26c1c>2回合</color>后，对自身<color=#f26c1c>周围2格范围内</color>的所有友方目标造成炸弹施加者100%攻击力的范围<color=#d4ae08>电导伤害</color>。减益效果可驱散。",
+            "buffEffect": "Skill/6790201_Target",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "103",
+            "effectTypeGroup": "0",
+            "iconName": "Buff_ElectricHurtUP",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "1"
+        },
+        {
             "id": 6793101,
             "name": "1",
             "description": "1",
@@ -14994,7 +15350,7 @@
             "effectFollowType": "2,1",
             "effectBirthType": "201,109",
             "effectTypeGroup": "0,0",
-            "isLoop": "1,1"
+            "isLoop": "0,0"
         },
         {
             "id": 6793102,
@@ -15014,7 +15370,7 @@
             "effectFollowType": "2,1",
             "effectBirthType": "201,109",
             "effectTypeGroup": "0,0",
-            "isLoop": "1,1"
+            "isLoop": "0,0"
         },
         {
             "id": 6793103,
@@ -15034,7 +15390,7 @@
             "effectFollowType": "2,1",
             "effectBirthType": "201,109",
             "effectTypeGroup": "0,0",
-            "isLoop": "1,1"
+            "isLoop": "0,0"
         },
         {
             "id": 6793104,
@@ -15054,7 +15410,7 @@
             "effectFollowType": "2,1",
             "effectBirthType": "201,109",
             "effectTypeGroup": "0,0",
-            "isLoop": "1,1"
+            "isLoop": "0,0"
         },
         {
             "id": 6793105,
@@ -15074,7 +15430,7 @@
             "effectFollowType": "2,1",
             "effectBirthType": "201,109",
             "effectTypeGroup": "0,0",
-            "isLoop": "1,1"
+            "isLoop": "0,0"
         },
         {
             "id": 6793106,
@@ -15094,7 +15450,83 @@
             "effectFollowType": "2,1",
             "effectBirthType": "201,109",
             "effectTypeGroup": "0,0",
-            "isLoop": "1,1"
+            "isLoop": "0,0"
+        },
+        {
+            "id": 6794101,
+            "name": "开业特供",
+            "description": "造成的稳态伤害提高<color=#f26c1c>4点</color>，增益不可驱散。",
+            "buffEffect": "Buff/AtkU|Buff/AtkU",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_SuppressAdd",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 6794401,
+            "name": "格琳喵·典藏特供",
+            "description": "免疫所有伤害和控制效果，增益不可驱散。",
+            "buffEffect": "Buff/61152201_Invincible2|Buff/61152201_Invincible",
+            "effectPlayTime": [
+                1,
+                3
+            ],
+            "effectFadeTime": "0|90",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "104|104",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_Invincible",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "1|0"
+        },
+        {
+            "id": 6797203,
+            "name": "嘴巴待机特效",
+            "description": "-",
+            "buffEffect": "Other/6797101_Close",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0",
+            "effectFollowType": "2",
+            "effectBirthType": "202",
+            "effectTypeGroup": "0",
+            "isLoop": "1"
+        },
+        {
+            "id": 6797204,
+            "name": "嘴巴开火特效",
+            "description": "-",
+            "buffEffect": "Other/6797101_Open",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0",
+            "effectFollowType": "2",
+            "effectBirthType": "202",
+            "effectTypeGroup": "0",
+            "isLoop": "0"
         },
         {
             "id": 6851101,
@@ -16101,7 +16533,7 @@
         {
             "id": 6898101,
             "name": "惩戒标记",
-            "description": "受到伤害增加<color=#f26c1c>5%</color>，攻击力提高<color=#f26c1c>5%</color>，可叠加。自身回合内主动攻击后将受到要塞伯爵的回击，造成要塞伯爵<color=#f26c1c>100%</color>攻击力的物理伤害（可再次触发伏击、反击），中性不可驱散。",
+            "description": "受到伤害增加<color=#f26c1c>5%</color>，攻击力提高<color=#f26c1c>5%</color>，可叠加。自身回合内主动攻击要塞伯爵·垒狱后将受到其回击，造成要塞伯爵·垒狱<color=#f26c1c>100%</color>攻击力的物理伤害（可再次触发伏击、反击），中性不可驱散。",
             "iconName": "Buff_Felaskju1Neutral",
             "isShow": true,
             "buffHeadShow": 1,
@@ -19551,6 +19983,30 @@
             "isLoop": "0"
         },
         {
+            "id": 10610402,
+            "name": "承重构件",
+            "description": "防御力提高<color=#f26c1c>30%</color>，受到的稳态伤害减少<color=#f26c1c>2点</color>。行动结束时，若生命值低于<color=#f26c1c>40%</color>，则恢复<color=#f26c1c>50%</color>巴希达攻击力的生命值。增益效果。",
+            "iconName": "Buff_DefUp",
+            "isShow": true,
+            "buffHeadShow": 1
+        },
+        {
+            "id": 10610701,
+            "name": "应力裂隙",
+            "description": "受到稳态伤害提高<color=#f26c1c>2点</color>，且造成的稳态伤害降低<color=#f26c1c>2点</color>。防御类减益效果。",
+            "iconName": "Buff_WillSub",
+            "isShow": true,
+            "buffHeadShow": 1
+        },
+        {
+            "id": 10610800,
+            "name": "性能突破",
+            "description": "攻击力提高<color=#f26c1c>3%</color>，防御力提高<color=#f26c1c>3%</color>。至多叠加<color=#f26c1c>10层</color>，不可驱散。",
+            "iconName": "Buff_BalthildeSSR1",
+            "isShow": true,
+            "buffHeadShow": 1
+        },
+        {
             "id": 10640400,
             "name": "",
             "description": "",
@@ -19603,6 +20059,146 @@
             "iconName": "Buff_DamageUp",
             "isShow": true,
             "buffHeadShow": 1
+        },
+        {
+            "id": 10650501,
+            "name": "援护模式",
+            "description": "友方单位对拥有护盾类效果的敌方单位造成的<color=#42cce0>冷凝伤害</color>提高<color=#f26c1c>20%</color>。自身暴击率提高<color=#f26c1c>20%</color>。<color=#f26c1c>周围半径8格内</color>的敌方单位主动攻击前，进行<color=#f26c1c>1次</color><color=#3487e0>{0}</color>，造成<color=#f26c1c>60%</color>攻击力的<color=#42cce0>冷凝伤害</color>和<color=#f26c1c>4点</color>稳态伤害，并将<color=#f26c1c>20%</color>该次伤害值累积至所有友方单位的<color=#3487e0>{1}</color>，每回合至多触发<color=#f26c1c>3次</color>。不可驱散。",
+            "descriptionTips": "1:90111;0:-1,10650801,1",
+            "buffEffect": "Skill/AlvaSSR01/10650501_Buff|Skill/AlvaSSR01/10650501_Disapear",
+            "effectPlayTime": [
+                1,
+                2
+            ],
+            "effectFadeTime": "120|120",
+            "cameraPlayTime": [
+                1,
+                2
+            ],
+            "cameraTime": [
+                60,
+                60
+            ],
+            "effectFollowType": "2|2",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_AlvaSSR1",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 99,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 10650502,
+            "name": "援护模式",
+            "description": "友方单位对拥有护盾类效果的敌方单位造成的<color=#42cce0>冷凝伤害</color>提高<color=#f26c1c>20%</color>。自身暴击率提高<color=#f26c1c>20%</color>。制胜技能<color=#3487e0>雪域镇魂歌</color>造成伤害的<color=#f26c1c>20%</color>累积至所有友方的<color=#3487e0>{1}</color>。<color=#f26c1c>周围半径8格内</color>的敌方单位主动攻击前，进行<color=#f26c1c>1次</color><color=#3487e0>{0}</color>，造成<color=#f26c1c>60%</color>攻击力的<color=#42cce0>冷凝伤害</color>和<color=#f26c1c>4点</color>稳态伤害，并将<color=#f26c1c>30%</color>该次伤害值累积至所有友方单位的<color=#3487e0>{1}</color>，每回合至多触发<color=#f26c1c>3次</color>。不可驱散。",
+            "descriptionTips": "1:90111;0:-1,10650801,1",
+            "buffEffect": "Skill/AlvaSSR01/10650501_Buff|Skill/AlvaSSR01/10650501_Disapear",
+            "effectPlayTime": [
+                1,
+                2
+            ],
+            "effectFadeTime": "120|120",
+            "cameraPlayTime": [
+                1,
+                2
+            ],
+            "cameraTime": [
+                60,
+                60
+            ],
+            "effectFollowType": "2|2",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_AlvaSSR1",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 99,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 10650801,
+            "name": "凛冬屏障",
+            "description": "护盾。吸收量至多不超过埃芙初始攻击力的<color=#f26c1c>200%</color>。持有者造成<color=#42cce0>冷凝伤害</color>时，每拥有<color=#f26c1c>1000</color>护盾值，造成的伤害提高<color=#f26c1c>1.5%</color>。持有者受到攻击后，对攻击者施加<color=#f26c1c>1层</color><color=#3487e0>{0}</color>，持续<color=#f26c1c>1回合</color>。可被视为<color=#3487e0>{1}</color>。冷凝类增益。不可驱散。",
+            "descriptionTips": "0:330102;0:330701",
+            "buffEffect": "Skill/gun_Ice_shield|Skill/gun_Ice_shield_2",
+            "effectPlayTime": [
+                1,
+                2
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|3",
+            "effectBirthType": "104|104",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_IceGuard",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "1|0"
+        },
+        {
+            "id": 10650802,
+            "name": "凛冬屏障",
+            "description": "护盾。吸收量至多不超过埃芙初始攻击力的<color=#f26c1c>200%</color>。持有者造成<color=#42cce0>冷凝伤害</color>时，每拥有<color=#f26c1c>1000</color>护盾值，造成的伤害提高<color=#f26c1c>1.5%</color>，暴击伤害提高<color=#f26c1c>1%</color>。持有者受到攻击后，对攻击者施加<color=#f26c1c>1层</color><color=#3487e0>{0}</color>，持续<color=#f26c1c>1回合</color>。可被视为<color=#3487e0>{1}</color>。冷凝类增益。不可驱散。",
+            "descriptionTips": "0:330102;0:330701",
+            "buffEffect": "Skill/gun_Ice_shield|Skill/gun_Ice_shield_2",
+            "effectPlayTime": [
+                1,
+                2
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|3",
+            "effectBirthType": "104|104",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_IceGuard",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "1|0"
+        },
+        {
+            "id": 10650803,
+            "name": "凛冬屏障",
+            "description": "护盾。吸收量至多不超过埃芙初始攻击力的<color=#f26c1c>300%</color>。持有者造成<color=#42cce0>冷凝伤害</color>时，每拥有<color=#f26c1c>1000</color>护盾值，造成的伤害提高<color=#f26c1c>3%</color>，暴击伤害提高<color=#f26c1c>2%</color>。持有者受到攻击后，对攻击者施加<color=#f26c1c>1层</color><color=#3487e0>{0}</color>，持续<color=#f26c1c>1回合</color>。可被视为<color=#3487e0>{1}</color>。冷凝类增益。不可驱散。",
+            "descriptionTips": "0:330102;0:330701",
+            "buffEffect": "Skill/gun_Ice_shield|Skill/gun_Ice_shield_2",
+            "effectPlayTime": [
+                1,
+                2
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|3",
+            "effectBirthType": "104|104",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_IceGuard",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "1|0"
+        },
+        {
+            "id": 10650811,
+            "name": "战备",
+            "description": "埃芙专属效果，可叠加。不可驱散。",
+            "iconName": "Buff_CountUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 99
         },
         {
             "id": 20200016,
@@ -19728,6 +20324,118 @@
             "iconName": "Buff_CountMove",
             "isShow": true,
             "buffHeadShow": 1
+        },
+        {
+            "id": 21200004,
+            "name": "炎狱·烽火连绵",
+            "description": "攻击力提高<color=#f26c1c>3%</color>，至多叠加<color=#f26c1c>6层</color>。增益不可驱散。",
+            "iconName": "Buff_AtkUp",
+            "isShow": true,
+            "buffHeadShow": 1
+        },
+        {
+            "id": 21200005,
+            "name": "炎狱·烽火连绵",
+            "description": "造成的燃烧伤害提高<color=#f26c1c>5%</color>，至多叠加<color=#f26c1c>9层</color>。增益不可驱散。",
+            "iconName": "Buff_FireUP",
+            "isShow": true,
+            "buffHeadShow": 1
+        },
+        {
+            "id": 21210001,
+            "name": "炽能I",
+            "description": "受到<color=#e67129>燃烧伤害</color>时叠加1层，行动结束时，施加者对其造成<color=#f26c1c>30%</color>攻击力的固定伤害，每额外叠加<color=#f26c1c>1层</color>伤害系数提高<color=#f26c1c>30%</color>，并施加<color=#3487e0>{0}</color>和<color=#3487e0>{1}</color>。",
+            "descriptionTips": "0:310472;0:310401",
+            "buffEffect": "Buff/Rouge12_Burning1",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "104",
+            "effectTypeGroup": "0",
+            "iconName": "Buff_FireDamage",
+            "isShow": true,
+            "buffHeadShow": 9,
+            "isLoop": "1"
+        },
+        {
+            "id": 21210002,
+            "name": "炽能II",
+            "description": "受到<color=#e67129>燃烧伤害</color>时叠加1层，行动结束时，施加者对其及其<color=#f26c1c>周围半径2格内</color>的所有敌方单位造成<color=#f26c1c>60%</color>攻击力的固定伤害，每额外叠加<color=#f26c1c>1层</color>伤害系数提高<color=#f26c1c>60%</color>，并施加<color=#3487e0>{0}</color>和<color=#3487e0>{1}</color>。死亡时对<color=#f26c1c>自身周围半径3格内</color>所有友方单位造成<color=#f26c1c>当前层数x300%</color>施加者攻击力的固定伤害。",
+            "descriptionTips": "0:310472;0:310401",
+            "buffEffect": "Buff/Rouge12_Burning1",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "104",
+            "effectTypeGroup": "0",
+            "iconName": "Buff_FireDamage",
+            "isShow": true,
+            "buffHeadShow": 9,
+            "isLoop": "1"
+        },
+        {
+            "id": 21300006,
+            "name": "寄生绽放",
+            "description": "降低<color=#f26c1c>5%</color>攻击力，至多叠加<color=#f26c1c>6层</color>。减益不可驱散。",
+            "iconName": "Buff_AtkDown",
+            "isShow": true,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 21300016,
+            "name": "催化",
+            "description": "行动力提高<color=#f26c1c>1格</color>，酸蚀伤害提高<color=#f26c1c>30%</color>。可驱散增益。",
+            "iconName": "Buff_AtkUp",
+            "isShow": true,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 21310001,
+            "name": "寄生",
+            "description": "降低<color=#f26c1c>15%</color>防御力，至多叠加<color=#f26c1c>3层</color>。防御类减益不可驱散。",
+            "iconName": "Buff_DefLow",
+            "isShow": true,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 21410001,
+            "name": "渗透",
+            "description": "大回合开始时，受到<color=#f26c1c>15%</color>最大生命值的固定伤害并获得<color=#f26c1c>1层</color><color=#3487e0>{0}</color>。对敌方单位造成伤害后，恢复该次伤害<color=#f26c1c>30%</color>的生命值。增益不可驱散。",
+            "descriptionTips": "0:214100011",
+            "buffEffect": "Buff/Rouge14_WaterFlush",
+            "effectPlayTime": [
+                3
+            ],
+            "effectFadeTime": "90",
+            "cameraPlayTime": [
+                3
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "109",
+            "effectTypeGroup": "0",
+            "iconName": "Buff_SelfHeal",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0"
         },
         {
             "id": 31030121,
@@ -22260,6 +22968,57 @@
             "showPriorityIcon": 10
         },
         {
+            "id": 60009002,
+            "name": "小型防护罩",
+            "description": "不会受到普通攻击和技能造成的伤害，受到<color=#f26c1c>1次</color>普通攻击或技能攻击后解除，可驱散增益。",
+            "buffEffect": "Buff/61152201_Invincible2|Buff/61152201_Invincible",
+            "effectPlayTime": [
+                1,
+                3
+            ],
+            "effectFadeTime": "0|90",
+            "effectFollowType": "1|1",
+            "effectBirthType": "104|104",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_Invincible",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "1|0"
+        },
+        {
+            "id": 60009101,
+            "name": "移动降低III",
+            "description": "行动力降低<color=#f26c1c>3格</color>，持续<color=#f26c1c>2回合</color>，减益不可驱散。",
+            "buffEffect": "Buff/SpeedD|Buff/SpeedD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_SpeedLow",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 60009301,
+            "name": "攻击降低II",
+            "description": "攻击力降低<color=#f26c1c>20%</color>。",
+            "iconName": "Buff_AtkDown",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
             "id": 61000010,
             "name": "致命火力",
             "description": "火力人形造成的伤害提高<color=#f26c1c>20%</color>。",
@@ -22615,6 +23374,20 @@
             "name": "积能穿刺",
             "description": "自身持有增益效果<color=#f26c1c>大于等于4个</color>时，攻击无视目标<color=#f26c1c>25%</color>防御。",
             "iconName": "Buff_Guild_72",
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 61000530,
+            "name": "聚焦盾阵",
+            "description": "自身持有护盾时，攻击无视目标<color=#f26c1c>20%</color>防御力，且暴击伤害提高<color=#f26c1c>10%</color>。",
+            "iconName": "Buff_Guild_73",
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 61000540,
+            "name": "导染共鸣",
+            "description": "大回合开始前，自身导染数<color=#f26c1c>大于等于2</color>时，直到本次大回合结束前，造成伤害提高<color=#f26c1c>25%</color>。",
+            "iconName": "Buff_Guild_74",
             "showPriorityIcon": 10
         },
         {
@@ -23431,6 +24204,30 @@
             "description": "防御力提高<color=#f26c1c>200%</color>。增益效果。",
             "iconName": "Buff_DefUp",
             "isShow": true
+        },
+        {
+            "id": 62104317,
+            "name": "保护I",
+            "description": "受到伤害降低<color=#f26c1c>7.5%</color>。不可驱散。可通过破坏重机枪和榴弹发射模组消除。",
+            "iconName": "Buff_DefUpNeutral",
+            "isShow": true,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 62104318,
+            "name": "保护II",
+            "description": "受到伤害降低<color=#f26c1c>15%</color>。不可驱散。可通过破坏重机枪和榴弹发射模组消除。",
+            "iconName": "Buff_DefUpNeutral",
+            "isShow": true,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 62104319,
+            "name": "保护III",
+            "description": "受到伤害降低<color=#f26c1c>30%</color>。不可驱散。可通过破坏重机枪和榴弹发射模组消除。",
+            "iconName": "Buff_DefUpNeutral",
+            "isShow": true,
+            "showPriorityIcon": 10
         },
         {
             "id": 62111010,
@@ -24567,6 +25364,25 @@
             "effectBirthType": "109"
         },
         {
+            "id": 67804301,
+            "name": "熵序固化",
+            "description": "攻击力提高<color=#f26c1c>15%</color>，受到的<color=#3487e0>{0}</color>降低<color=#f26c1c>3%</color>，可叠加，增益不可驱散。",
+            "descriptionTips": "1:90120",
+            "iconName": "Buff_AtkUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 67804401,
+            "name": "自轭陷阱",
+            "description": "行动力降低<color=#f26c1c>5格</color>，至多叠加<color=#f26c1c>2层</color>。叠加至<color=#f26c1c>2层</color>时，触发<color=#3487e0>{0}</color>，持续<color=#f26c1c>2回合</color>。<color=#3487e0>{0}</color>结束时层数重置，期间不会再次触发<color=#3487e0>{0}</color>，减益不可驱散。",
+            "descriptionTips": "1:90097",
+            "iconName": "Buff_SpeedLow",
+            "isShow": true,
+            "buffHeadShow": 1
+        },
+        {
             "id": 67810011,
             "name": "乱序过载",
             "description": "死亡时对<color=#f26c1c>自身周围3×3格</color>内的所有敌方目标造成自身<color=#f26c1c>30%</color>攻击力的固定伤害，每有<color=#f26c1c>1层</color>该效果，伤害系数提高<color=#f26c1c>30%</color>，至多叠加<color=#f26c1c>3层</color>。不可驱散。",
@@ -24596,6 +25412,137 @@
             "iconName": "Buff_SuppressAdd",
             "isShow": true,
             "buffHeadShow": 1,
+            "isLoop": "1"
+        },
+        {
+            "id": 67826031,
+            "name": "过载裂痕",
+            "description": "受到伤害增加<color=#f26c1c>2%</color>，至多叠加<color=#f26c1c>30层</color>，减益不可驱散。",
+            "iconName": "Buff_EnemyHurtUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 67827021,
+            "name": "茧化傀儡",
+            "description": "生成最大生命值<color=#f26c1c>5%</color>的护盾。",
+            "buffEffect": "Skill/6873401_Shield|Skill/6873403_Shield_1",
+            "effectPlayTime": [
+                1,
+                2
+            ],
+            "effectFadeTime": "0|60",
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_DefUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10,
+            "isLoop": "1|0"
+        },
+        {
+            "id": 67921201,
+            "name": "抹杀指针",
+            "description": "刀锋行者将攻击该目标。中性不可驱散。",
+            "buffEffect": "Skill/6792201_Target",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "103",
+            "effectTypeGroup": "0",
+            "iconName": "Buff_TargetNeutral",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "1"
+        },
+        {
+            "id": 67942011,
+            "name": "治疗",
+            "description": "-",
+            "buffEffect": "Buff/Recover",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "60",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "109",
+            "effectTypeGroup": "0",
+            "isLoop": "0"
+        },
+        {
+            "id": 67942012,
+            "name": "驱散",
+            "description": "-",
+            "buffEffect": "Buff/Purity",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "60",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "109",
+            "effectTypeGroup": "0",
+            "isLoop": "0"
+        },
+        {
+            "id": 67943011,
+            "name": "回稳",
+            "description": "-",
+            "buffEffect": "Buff/StableU",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "60",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "109",
+            "effectTypeGroup": "0",
+            "isLoop": "0"
+        },
+        {
+            "id": 67972011,
+            "name": "耳朵表现特效",
+            "description": "-",
+            "buffEffect": "Buff/6797101_Ear",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "60",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "2",
+            "effectBirthType": "201",
+            "effectTypeGroup": "0",
             "isLoop": "1"
         },
         {
@@ -26037,6 +26984,188 @@
             "isShow": true,
             "buffHeadShow": 1,
             "showPriorityIcon": 10
+        },
+        {
+            "id": 73011001,
+            "name": "冷凝循环",
+            "description": "<color=#42cce0>冷凝伤害</color>提高<color=#f26c1c>30%</color>，造成冷凝伤害时，暴击伤害提高<color=#f26c1c>20%</color>。",
+            "iconName": "Buff_Guild_24"
+        },
+        {
+            "id": 73011201,
+            "name": "世界boss冷凝特效buff",
+            "description": "不显示",
+            "buffEffect": "Buff/WorldBoss_ice",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                0
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "109",
+            "effectTypeGroup": "0",
+            "isLoop": "1"
+        },
+        {
+            "id": 73012001,
+            "name": "液态效应",
+            "description": "<color=#2caadb>浊刻伤害</color>提高<color=#f26c1c>30%</color>，造成浊刻伤害时，暴击伤害提高<color=#f26c1c>20%</color>。",
+            "iconName": "Buff_Guild_21"
+        },
+        {
+            "id": 73012201,
+            "name": "世界boss浊刻特效buff",
+            "description": "不显示",
+            "buffEffect": "Buff/WorldBoss_water",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                0
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "109",
+            "effectTypeGroup": "0",
+            "isLoop": "1"
+        },
+        {
+            "id": 73013001,
+            "name": "混合理论",
+            "description": "造成弹种伤害时伤害提高<color=#f26c1c>30%</color>，暴击伤害提高<color=#f26c1c>20%</color>。",
+            "iconName": "Buff_Guild_69"
+        },
+        {
+            "id": 73013201,
+            "name": "世界boss通用特效buff",
+            "description": "不显示",
+            "buffEffect": "Buff/WorldBoss_common",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                0
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "109",
+            "effectTypeGroup": "0",
+            "isLoop": "1"
+        },
+        {
+            "id": 73014001,
+            "name": "焦土协议",
+            "description": "<color=#e67129>燃烧伤害</color>提高<color=#f26c1c>30%</color>，造成燃烧伤害时，暴击伤害提高<color=#f26c1c>20%</color>。",
+            "iconName": "Buff_Guild_20"
+        },
+        {
+            "id": 73014201,
+            "name": "世界boss燃烧特效buff",
+            "description": "不显示",
+            "buffEffect": "Buff/WorldBoss_fire",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                0
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "109",
+            "effectTypeGroup": "0",
+            "isLoop": "1"
+        },
+        {
+            "id": 73015001,
+            "name": "降解反应",
+            "description": "<color=#8679e8>酸蚀伤害</color>提高<color=#f26c1c>30%</color>，造成酸蚀伤害时，暴击伤害提高<color=#f26c1c>20%</color>。",
+            "iconName": "Buff_Guild_23"
+        },
+        {
+            "id": 73015201,
+            "name": "世界boss酸蚀特效buff",
+            "description": "不显示",
+            "buffEffect": "Buff/WorldBoss_poison",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                0
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "109",
+            "effectTypeGroup": "0",
+            "isLoop": "1"
+        },
+        {
+            "id": 73016001,
+            "name": "超导增幅",
+            "description": "<color=#d4ae08>电导伤害</color>提高<color=#f26c1c>30%</color>，造成电导伤害时，暴击伤害提高<color=#f26c1c>20%</color>。",
+            "iconName": "Buff_Guild_22"
+        },
+        {
+            "id": 73016201,
+            "name": "世界boss电导特效buff",
+            "description": "不显示",
+            "buffEffect": "Buff/WorldBoss_electric",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                0
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "109",
+            "effectTypeGroup": "0",
+            "isLoop": "1"
+        },
+        {
+            "id": 73017001,
+            "name": "冲击增效",
+            "description": "造成物理伤害时，无视目标<color=#f26c1c>50%</color>防御力，且暴击伤害提高<color=#f26c1c>20%</color>。",
+            "iconName": "Buff_Guild_73"
+        },
+        {
+            "id": 73017201,
+            "name": "世界boss物理特效buff",
+            "description": "不显示",
+            "buffEffect": "Buff/WorldBoss_physics",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                0
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "109",
+            "effectTypeGroup": "0",
+            "isLoop": "1"
         },
         {
             "id": 80000001,
@@ -28703,6 +29832,14 @@
             "isLoop": "0|0"
         },
         {
+            "id": 106108001,
+            "name": "性能突破",
+            "description": "攻击力提高<color=#f26c1c>5%</color>，防御力提高<color=#f26c1c>5%</color>。至多叠加<color=#f26c1c>10层</color>，不可驱散。",
+            "iconName": "Buff_BalthildeSSR1",
+            "isShow": true,
+            "buffHeadShow": 1
+        },
+        {
             "id": 106404031,
             "name": "肾上腺素",
             "description": "攻击力提高<color=#f26c1c>10%</color>，防御力提高<color=#f26c1c>30%</color>。增益不可驱散。",
@@ -28830,6 +29967,40 @@
             "buffHeadShow": 1,
             "showPriorityIcon": 10,
             "isLoop": "0,1"
+        },
+        {
+            "id": 106507212,
+            "name": "失温症",
+            "description": "受到的<color=#42cce0>冷凝伤害</color>提高<color=#f26c1c>20%</color>，冷凝类减益。",
+            "iconName": "Buff_EnemyHurtUp",
+            "isShow": true,
+            "buffHeadShow": 1
+        },
+        {
+            "id": 106507215,
+            "name": "寒意",
+            "description": "特殊护盾。可与其它护盾同时存在且不会被优先消耗。被击破时，对持有者施加<color=#3487e0>{0}</color>和持续<color=#f26c1c>2回合</color>的<color=#3487e0>{1}</color>。冷凝类减益。不可驱散。",
+            "descriptionTips": "0:106507216;0:10520403",
+            "iconName": "Buff_IceFakeGuard",
+            "isShow": true,
+            "buffHeadShow": 1
+        },
+        {
+            "id": 106507216,
+            "name": "凝霜",
+            "description": "受到的<color=#42cce0>冷凝伤害</color>提高<color=#f26c1c>20%</color>，获得<color=#3487e0>{0}</color>后消除。冷凝类减益。不可驱散。",
+            "descriptionTips": "0:106507215",
+            "iconName": "Buff_EnemyHurtUp",
+            "isShow": true,
+            "buffHeadShow": 1
+        },
+        {
+            "id": 106507232,
+            "name": "失温症",
+            "description": "受到的<color=#42cce0>冷凝伤害</color>提高<color=#f26c1c>40%</color>，冷凝类减益。",
+            "iconName": "Buff_EnemyHurtUp",
+            "isShow": true,
+            "buffHeadShow": 1
         },
         {
             "id": 201000041,
@@ -29718,6 +30889,156 @@
             "description": ""
         },
         {
+            "id": 211000101,
+            "name": "寒冰屏障",
+            "description": "<color=#3487e0>{0}</color>效果提升，吸收量为自身<color=#f26c1c>100%</color>最大生命值，持续<color=#f26c1c>1回合</color>。冷凝类增益，不可驱散。",
+            "descriptionTips": "0:330701",
+            "buffEffect": "Skill/gun_Ice_shield|Skill/gun_Ice_shield_2",
+            "effectPlayTime": [
+                1,
+                2
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|3",
+            "effectBirthType": "104|104",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_IceGuard",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "1|0"
+        },
+        {
+            "id": 211000173,
+            "name": "",
+            "description": "",
+            "buffEffect": "Buff/StableHPRecover",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "109"
+        },
+        {
+            "id": 212100002,
+            "name": "叠层任务层数",
+            "description": ""
+        },
+        {
+            "id": 213100010,
+            "name": "",
+            "description": "不显示，改shader用",
+            "shaderType": 6
+        },
+        {
+            "id": 213100016,
+            "name": "",
+            "description": "不显示，改shader用",
+            "shaderType": 4
+        },
+        {
+            "id": 213100018,
+            "name": "",
+            "description": "不显示，改shader用",
+            "shaderType": 5
+        },
+        {
+            "id": 213100124,
+            "name": "肉鸽毒2寄生1层触发特效",
+            "description": "不显示",
+            "buffEffect": "Buff/Rouge13_ParasitismTrigger1",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "104",
+            "effectTypeGroup": "0",
+            "isLoop": "0"
+        },
+        {
+            "id": 213100125,
+            "name": "肉鸽毒2寄生2层触发特效",
+            "description": "不显示",
+            "buffEffect": "Buff/Rouge13_ParasitismTrigger2",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "104",
+            "effectTypeGroup": "0",
+            "isLoop": "0"
+        },
+        {
+            "id": 213100126,
+            "name": "肉鸽毒2寄生3层触发特效",
+            "description": "不显示",
+            "buffEffect": "Buff/Rouge13_ParasitismTrigger3",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "104",
+            "effectTypeGroup": "0",
+            "isLoop": "0"
+        },
+        {
+            "id": 214100011,
+            "name": "浸染",
+            "description": "攻击力提高<color=#f26c1c>20%</color>，增益可叠加。不可驱散。",
+            "buffEffect": "Buff/Rouge14_WaterMist",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "90",
+            "cameraPlayTime": [
+                0
+            ],
+            "cameraTime": [
+                0
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "109",
+            "effectTypeGroup": "0",
+            "iconName": "Buff_AtkUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "1"
+        },
+        {
+            "id": 214100021,
+            "name": "涌动",
+            "description": "主动攻击前，对目标造成<color=#f26c1c>10%</color>最大生命值和<color=#f26c1c>10%</color>攻击力的<color=#2caadb>浊刻伤害</color>并在其<color=#f26c1c>周围半径2格内</color>生成<color=#3487e0>暗流</color>地格，触发后失去一半层数。增益可叠加。不可驱散。",
+            "iconName": "Buff_WaterUP",
+            "isShow": true,
+            "buffHeadShow": 1
+        },
+        {
             "id": 510533015,
             "name": "致命红心",
             "description": "普攻造成的暴击伤害提高<color=#f26c1c>15%</color>，增益不可驱散。",
@@ -30440,6 +31761,25 @@
             "iconName": "Buff_DefUp",
             "isShow": true,
             "buffHeadShow": 1
+        },
+        {
+            "id": 621005301,
+            "name": "移动提升",
+            "description": "行动力提高<color=#f26c1c>2格</color>。不可驱散。",
+            "buffEffect": "Buff/SpeedU|Buff/SpeedU",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_CountMove",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10,
+            "isLoop": "0|0"
         },
         {
             "id": 622022301,
@@ -31732,7 +33072,7 @@
         {
             "id": 2071000121,
             "name": "穿透徽印",
-            "description": "攻击时无视敌方目标<color=#f26c1c>5%</color>的防御力，可叠加。增益不可驱散。",
+            "description": "自身攻击力和防御力提高<color=#f26c1c>10%</color>，攻击时无视敌方目标<color=#f26c1c>10%</color>的防御力，可叠加。增益不可驱散。",
             "buffEffect": "Buff/AtkU",
             "effectPlayTime": [
                 1
@@ -31921,6 +33261,118 @@
             "isShow": true,
             "buffHeadShow": 1,
             "showPriorityIcon": 99
+        },
+        {
+            "id": 2111000108,
+            "name": "冰锢",
+            "description": "无法移动、无法主动位移，受到<color=#42cce0>冷凝伤害</color>增加<color=#f26c1c>20%</color>。冷凝类移动减益。",
+            "buffEffect": "Buff/buff_Frozen|Buff/buff_Frozen",
+            "effectPlayTime": [
+                1,
+                6
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_IceUnmove",
+            "isShow": true,
+            "buffHeadShow": 17,
+            "isLoop": "1|1"
+        },
+        {
+            "id": 2111000121,
+            "name": "寒冰屏障",
+            "description": "<color=#3487e0>{0}</color>效果提升，吸收量为<color=#f26c1c>150%</color>攻击力。",
+            "descriptionTips": "0:330701",
+            "buffEffect": "Skill/gun_Ice_shield|Skill/gun_Ice_shield_2",
+            "effectPlayTime": [
+                1,
+                2
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|3",
+            "effectBirthType": "104|104",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_IceGuard",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "1|0"
+        },
+        {
+            "id": 2111000321,
+            "name": "冻僵",
+            "description": "移动力减少<color=#f26c1c>1格</color>，受到<color=#42cce0>冷凝伤害</color>增加<color=#f26c1c>30%</color>，回合结束时对持有者造成最大生命值<color=#f26c1c>3%</color>的固定伤害。可叠加。冷凝类减益效果。",
+            "buffEffect": "Buff/Rouge11_Cold",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "60",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                0
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "109",
+            "effectTypeGroup": "0",
+            "iconName": "Buff_AllUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0"
+        },
+        {
+            "id": 2121000102,
+            "name": "",
+            "description": "",
+            "buffEffect": "Buff/Rouge12_Burning1_Break",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "60",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "104",
+            "effectTypeGroup": "0",
+            "isLoop": "0"
+        },
+        {
+            "id": 2141000253,
+            "name": "",
+            "description": "",
+            "buffEffect": "Buff/Rouge14_MistDamage",
+            "effectPlayTime": [
+                3
+            ],
+            "effectFadeTime": "90",
+            "cameraPlayTime": [
+                3
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "104",
+            "effectTypeGroup": "0",
+            "isLoop": "0"
         }
     ]
 }

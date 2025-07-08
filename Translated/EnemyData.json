@@ -2733,7 +2733,7 @@
                 0,
                 0
             ],
-            "nameOnBar": "캐롤릭K-09",
+            "nameOnBar": "캐롤릭",
             "nonMultimove": true,
             "showPotential": true,
             "guardRadius": 300,
@@ -2936,7 +2936,7 @@
                 0,
                 0
             ],
-            "nameOnBar": "캐롤릭K-09",
+            "nameOnBar": "캐롤릭",
             "nonMultimove": true,
             "showPotential": true,
             "guardRadius": 300,
@@ -7821,7 +7821,7 @@
             ],
             "rank": 3,
             "propertyGroup": 209301,
-            "name": "신비한 소녀",
+            "name": "수수께끼의 소녀",
             "joke": "때로는 결핍이 더 효율적이다. 쓸모없는 감정과 논리를 버린 이 인격에 남은 것은 숙주를 갉아먹는 본능적 갈망뿐.",
             "trapDescription": "",
             "description": "리바의 마인드맵에서 오류 데이터가 재조합돼 생긴 가상 인격. 리바의 마인드맵을 개변하는 것을 사명으로 삼으며, 다른 잉여 데이터 창조물을 조종할 수 있다. 불안정한 마인드맵 공간 탓에 감정 기복이 심하고 지능도 결핍되어 대부분 본능에 따라 움직인다.",
@@ -7860,35 +7860,122 @@
                 0,
                 0
             ],
-            "nameOnBar": "신비한 소녀",
+            "nameOnBar": "수수께끼의 소녀",
             "guardRadius": 500,
             "guardRadiusShow": 1,
             "weakWeaponTag": 2
         },
         {
-            "id": 6784,
-            "enemyCamp": 1100,
+            "id": 6782,
+            "enemyCamp": 1099,
             "duty": 1,
+            "skillNormalAttack": 6782101,
+            "skillActive": 6782201,
+            "skillTalent": 6782102,
+            "skillActiveExtra": [
+                6782202,
+                6782203,
+                67822011,
+                67822021,
+                67822031,
+                6782301,
+                6782401
+            ],
+            "skillTalentExtra": [
+                6782501,
+                6782601,
+                6782701,
+                6782801,
+                6151501,
+                910000012
+            ],
             "aiList": [
-                677301
+                678201
+            ],
+            "rank": 3,
+            "propertyGroup": 209303,
+            "name": "수수께끼 소녀·엔트로피 변태",
+            "joke": "그녀는 뜨거운 갈망과 온몸의 가시를 품고 광적으로 당신에게 달려든다.",
+            "trapDescription": "",
+            "description": "리바의 마인드맵에서 오류 데이터가 재조합돼 생긴 가상 인격. 리바의 마인드맵을 개변하는 것을 사명으로 삼으며, 다른 잉여 데이터 창조물을 조종할 수 있다. 불안정한 마인드맵 공간 탓에 감정 기복이 심하고 지능도 결핍되어 대부분 본능에 따라 움직인다.",
+            "textIndex": [
+                7,
+                13,
+                14,
+                23
+            ],
+            "characterPic": "UnsearchableGirl",
+            "modelCode": 6781,
+            "moveCode": 1,
+            "occupySize": 3,
+            "aiOrder": 50,
+            "useFakeAttack": true,
+            "shieldType": 2,
+            "attackType": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "enemyType": 1,
+            "dzOpenBattle": 6781101,
+            "btPath": "BT/BOSSBT/6782/BOSSBT_6782.bt",
+            "weakTag": "2,3",
+            "supressGroup": [
+                3,
+                4,
+                0,
+                2,
+                1,
+                0,
+                0
+            ],
+            "nameOnBar": "수수께끼 소녀·엔트로피 변태",
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 42
+        },
+        {
+            "id": 6784,
+            "enemyCamp": 1010,
+            "duty": 1,
+            "skillNormalAttack": 6784101,
+            "skillActive": 6784201,
+            "skillTalent": 6784202,
+            "skillActiveExtra": [
+                6784301,
+                6784401,
+                6784501
+            ],
+            "skillTalentExtra": [
+                6784601,
+                6784701,
+                6784801,
+                6151501,
+                80000002
+            ],
+            "aiList": [
+                678401
             ],
             "dzAiList": [
                 611002
             ],
             "rank": 3,
-            "propertyGroup": 208901,
-            "name": "바늘 1형태",
-            "joke": "얼마나 오랫동안 벽에 걸려 있었는지는 모릅니다. 족쇄가 느슨해지는 순간, 억눌려 있던 광기가 한순간에 뿜어져 나오겠죠.",
+            "propertyGroup": 209601,
+            "name": "바늘",
+            "joke": "그녀는 마치 장례식에 온 것처럼 예의 바르다.",
             "trapDescription": "",
-            "description": "금속 소체와 무장 기계를 결합한 생산품. 이름 모를 지하 연구소에서 비밀리에 개발한 제3세대 인형의 프로토타입입니다. 흉측한 촉수는 각종 무기를 휘두르며 적에게 치명상을 입힐 기회를 노립니다.",
+            "description": "세련된 옷차림과 우아한 행동거지를 갖춘 3세대 인형. 정성껏 유지하는 체면 아래, 경외심을 불러일으키는 비범한 힘이 숨겨져 있다.",
             "textIndex": [
-                13,
-                14
+                13
             ],
             "characterPic": "NeedleGalaxy01",
             "modelCode": 6784,
             "moveCode": 11,
-            "occupySize": 3,
+            "occupySize": 1,
             "aiOrder": 50,
             "useFakeAttack": true,
             "shieldType": 1,
@@ -7903,24 +7990,24 @@
             ],
             "idleType": 1,
             "dzOpenBattle": 6110101,
-            "btPath": "BT/BOSSBT/6773/BOSSBT_Chaos.bt",
-            "weakTag": "2,3,1",
+            "btPath": "BT/BOSSBT/6784/BOSSBT_ NeedleGalaxy01.bt",
+            "weakTag": "3",
             "supressGroup": [
                 4,
-                2,
-                5,
-                5,
                 3,
+                5,
+                4,
+                6,
                 0
             ],
             "nameOnBar": "바늘",
             "guardRadius": 500,
             "guardRadiusShow": 1,
-            "weakWeaponTag": 42
+            "weakWeaponTag": 12
         },
         {
             "id": 6787,
-            "enemyCamp": 1100,
+            "enemyCamp": 1010,
             "duty": 1,
             "aiList": [
                 677301
@@ -7930,7 +8017,7 @@
             ],
             "rank": 3,
             "propertyGroup": 208901,
-            "name": "바늘 3형태",
+            "name": "바늘",
             "joke": "얼마나 오랫동안 벽에 걸려 있었는지는 모릅니다. 족쇄가 느슨해지는 순간, 억눌려 있던 광기가 한순간에 뿜어져 나오겠죠.",
             "trapDescription": "",
             "description": "금속 소체와 무장 기계를 결합한 생산품. 이름 모를 지하 연구소에서 비밀리에 개발한 제3세대 인형의 프로토타입입니다. 흉측한 촉수는 각종 무기를 휘두르며 적에게 치명상을 입힐 기회를 노립니다.",
@@ -7957,7 +8044,7 @@
             "idleType": 1,
             "enemyType": 1,
             "dzOpenBattle": 6110101,
-            "btPath": "BT/BOSSBT/6773/BOSSBT_Chaos.bt",
+            "btPath": "BT/BOSSBT/6784/BOSSBT_ NeedleGalaxy01.bt",
             "weakTag": "2,3,1",
             "supressGroup": [
                 4,
@@ -7984,7 +8071,7 @@
                 611002
             ],
             "rank": 1,
-            "propertyGroup": 105301,
+            "propertyGroup": 116104,
             "name": "크레이지 큐빅",
             "joke": "크레이지 큐빅이 알려드립니다: 미친 듯이 클릭해도 승률은 오르지 않고 손가락만 더 아플 뿐입니다.",
             "trapDescription": "",
@@ -8023,9 +8110,166 @@
             "guardRadiusShow": 1
         },
         {
+            "id": 6795,
+            "enemyCamp": 1099,
+            "duty": 6,
+            "skillNormalAttack": 6795101,
+            "skillTalent": 6795201,
+            "dzAiList": [
+                611002
+            ],
+            "rank": 1,
+            "propertyGroup": 116101,
+            "name": "피자 씨",
+            "joke": "고개를 들어 봐, 네가 주문한 디럭스 점보 피자... 씨가 왔어!",
+            "trapDescription": "",
+            "description": "미슈티의 '꿈'에 나타난 피자 씨 인형. 공룡에 버금가는 파괴력을 지녔다. 본래 인형이라 그런지 외형에는 별다른 변화가 없는 듯하다.",
+            "textIndex": [
+                5,
+                7,
+                2
+            ],
+            "characterPic": "MrPizza",
+            "modelCode": 6795,
+            "moveCode": 1,
+            "occupySize": 1,
+            "aiOrder": 50,
+            "useFakeAttack": true,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "btPath": "BT/EnemyBT/EnemyBT_005.bt",
+            "weakTag": "3",
+            "supressGroup": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "피자 씨",
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 4
+        },
+        {
+            "id": 6796,
+            "enemyCamp": 1099,
+            "duty": 7,
+            "skillNormalAttack": 6796101,
+            "dzAiList": [
+                611002
+            ],
+            "rank": 1,
+            "propertyGroup": 116102,
+            "name": "타리스",
+            "joke": "비행 능력이 뛰어나 하루 종일 날 수 있지만, 착륙 모듈이 없어서인 듯하다.",
+            "trapDescription": "",
+            "description": "미슈티의 '꿈'에 나타난 타리스 인형. 현실의 타리스처럼 사용자의 성격을 이어받아 자신의 힘으로 모두를 지킨다.",
+            "textIndex": [
+                7,
+                28
+            ],
+            "characterPic": "MuppetEagle",
+            "modelCode": 6796,
+            "moveCode": 4,
+            "occupySize": 1,
+            "aiOrder": 75,
+            "useFakeAttack": true,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 2,
+            "displacement": 1,
+            "btPath": "BT/EnemyBT/EnemyBT_006.bt",
+            "weakTag": "5",
+            "supressGroup": [
+                10,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "타리스",
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 8
+        },
+        {
+            "id": 6797,
+            "enemyCamp": 1099,
+            "duty": 8,
+            "skillNormalAttack": 6797101,
+            "skillTalent": 6797201,
+            "dzAiList": [
+                611002
+            ],
+            "rank": 1,
+            "propertyGroup": 116103,
+            "name": "네모루카이",
+            "joke": "진정한 엘리트 인형은 '머리'만으로 임무를 완수한다.",
+            "trapDescription": "",
+            "description": "미슈티의 '꿈'에 나타난 네모루카이 인형. 무기와 몸이 없어도 움직이고 공격할 수 있다. 이것이야말로 엘리트 인형이겠지.",
+            "textIndex": [
+                5,
+                7,
+                2
+            ],
+            "characterPic": "ClukayBlock",
+            "modelCode": 6797,
+            "moveCode": 1,
+            "occupySize": 1,
+            "aiOrder": 100,
+            "useFakeAttack": true,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "btPath": "BT/EnemyBT/EnemyBT_005.bt",
+            "weakTag": "2",
+            "supressGroup": [
+                5,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "네모루카이",
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 32
+        },
+        {
             "id": 6851,
             "enemyCamp": 1100,
-            "duty": 1,
+            "duty": 9,
             "skillNormalAttack": 6851101,
             "skillActive": 6851111,
             "skillActiveExtra": [
@@ -8093,7 +8337,7 @@
         {
             "id": 6852,
             "enemyCamp": 1100,
-            "duty": 1,
+            "duty": 10,
             "skillNormalAttack": 6852101,
             "skillActive": 6852102,
             "skillActiveExtra": [
@@ -10815,7 +11059,7 @@
             "modelCode": 6902,
             "moveCode": 1,
             "occupySize": 3,
-            "aiOrder": 50,
+            "aiOrder": 100,
             "useFakeAttack": true,
             "shieldType": 2,
             "attackType": 1,
@@ -13360,6 +13604,63 @@
             "weakWeaponTag": 16
         },
         {
+            "id": 6979,
+            "enemyCamp": 1099,
+            "duty": 1,
+            "skillNormalAttack": 6979010,
+            "skillTalent": 6979020,
+            "skillTalentExtra": [
+                6979030,
+                80000002,
+                910000012,
+                6151501
+            ],
+            "aiList": [
+                697901
+            ],
+            "rank": 3,
+            "propertyGroup": 601009,
+            "name": "기계인형·해변의 대가",
+            "joke": "초강력 안정성 자가 복구 능력을 지닌 해변의 기계인형. 해변의 수리공이라 불러도 좋다.",
+            "trapDescription": "",
+            "description": "미슈티의 '꿈'에 나타난 수수께끼의 기계인형. 해변의 대가라는 새로운 이름으로 다시 등장했다. 익숙한 도색은 옛 친구를 떠올리게 한다.",
+            "textIndex": [
+                50,
+                13,
+                14
+            ],
+            "characterPic": "TrainingBot",
+            "modelCode": 7201,
+            "occupySize": 3,
+            "aiOrder": 550,
+            "useFakeAttack": true,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                1,
+                1000,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "enemyType": 1,
+            "btPath": "BT/BOSSBT/6979/BOSSBT_6979.bt",
+            "supressGroup": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "기계인형·해변의 대가",
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 62
+        },
+        {
             "id": 7001,
             "enemyCamp": 1099,
             "duty": 1,
@@ -13968,6 +14269,208 @@
             "feature": 1
         },
         {
+            "id": 7017,
+            "enemyCamp": 1099,
+            "duty": 1,
+            "skillNormalAttack": 70110101,
+            "skillTalent": 70110701,
+            "skillTalentExtra": [
+                80000002,
+                910000011,
+                910000013,
+                910000010,
+                910000022
+            ],
+            "rank": 1,
+            "propertyGroup": 300503,
+            "name": "유탄 발사 모듈",
+            "joke": "시생물 바비큐! 독특한 풍미, 투명한 원산지 표시! 엄마의 마음으로 만듭니다!",
+            "trapDescription": "",
+            "description": "전장에서 흔히 볼 수 있는 실용적인 살상 무기. 성숙하고 진중한 솜씨로 시생물의 슬픔을, 적의 눈물을 이끌어냅니다.",
+            "textIndex": [
+                7
+            ],
+            "characterPic": "GatlingE",
+            "modelCode": 7003,
+            "occupySize": 1,
+            "aiOrder": 250,
+            "shieldType": 2,
+            "attackType": 2,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "btPath": "BT/MainBT/MainBT_7003.bt",
+            "supressGroup": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "유탄 발사 모듈",
+            "guardRadius": 600,
+            "guardRadiusShow": 1,
+            "ignorePlayer1Skill": true,
+            "feature": 1
+        },
+        {
+            "id": 7018,
+            "enemyCamp": 1099,
+            "duty": 1,
+            "skillNormalAttack": 7002010,
+            "skillTalent": 910000011,
+            "skillTalentExtra": [
+                80000002,
+                70110701,
+                910000013,
+                910000010,
+                910000022
+            ],
+            "rank": 1,
+            "propertyGroup": 300403,
+            "name": "중기관총 모듈",
+            "joke": "탄통 하나 싹 비우면 스트레스도 싸악 날아갈걸요?",
+            "trapDescription": "",
+            "description": "전장에서 흔히 볼 수 있는 실용적인 살상 무기. 사용 시 작렬하는 음향으로 조종자의 열정을 전달합니다.",
+            "textIndex": [
+                42
+            ],
+            "characterPic": "Gatling",
+            "modelCode": 7002,
+            "occupySize": 1,
+            "aiOrder": 250,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "btPath": "BT/MainBT/MainBT_7002.bt",
+            "supressGroup": [
+                3,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "중기관총 모듈",
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "ignorePlayer1Skill": true,
+            "feature": 1
+        },
+        {
+            "id": 7019,
+            "enemyCamp": 1099,
+            "duty": 1,
+            "skillNormalAttack": 70110101,
+            "skillTalentExtra": [
+                80000002,
+                910000013,
+                910000022
+            ],
+            "rank": 1,
+            "propertyGroup": 300503,
+            "name": "유탄 발사 모듈",
+            "joke": "시생물 바비큐! 독특한 풍미, 투명한 원산지 표시! 엄마의 마음으로 만듭니다!",
+            "trapDescription": "",
+            "description": "전장에서 흔히 볼 수 있는 실용적인 살상 무기. 성숙하고 진중한 솜씨로 시생물의 슬픔을, 적의 눈물을 이끌어냅니다.",
+            "textIndex": [
+                7
+            ],
+            "characterPic": "GatlingE",
+            "modelCode": 7003,
+            "occupySize": 1,
+            "aiOrder": 250,
+            "shieldType": 2,
+            "attackType": 2,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "btPath": "BT/MainBT/MainBT_7003.bt",
+            "supressGroup": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "유탄 발사 모듈",
+            "guardRadius": 600,
+            "guardRadiusShow": 1,
+            "ignorePlayer1Skill": true,
+            "feature": 1
+        },
+        {
+            "id": 7020,
+            "enemyCamp": 1099,
+            "duty": 1,
+            "skillNormalAttack": 7002010,
+            "skillTalentExtra": [
+                80000002,
+                910000013,
+                910000022
+            ],
+            "rank": 1,
+            "propertyGroup": 300403,
+            "name": "중기관총 모듈",
+            "joke": "탄통 하나 싹 비우면 스트레스도 싸악 날아갈걸요?",
+            "trapDescription": "",
+            "description": "전장에서 흔히 볼 수 있는 실용적인 살상 무기. 사용 시 작렬하는 음향으로 조종자의 열정을 전달합니다.",
+            "textIndex": [
+                42
+            ],
+            "characterPic": "Gatling",
+            "modelCode": 7002,
+            "occupySize": 1,
+            "aiOrder": 250,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "btPath": "BT/MainBT/MainBT_7002.bt",
+            "supressGroup": [
+                3,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "중기관총 모듈",
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "ignorePlayer1Skill": true,
+            "feature": 1
+        },
+        {
             "id": 7021,
             "enemyCamp": 1002,
             "duty": 1,
@@ -14323,24 +14826,26 @@
             "id": 7028,
             "enemyCamp": 1099,
             "duty": 1,
-            "skillTalent": 7026101,
+            "skillNormalAttack": 7028101,
+            "skillTalent": 7028201,
             "skillTalentExtra": [
                 910000011,
                 910000013,
                 910000010,
-                80000002
+                7028301,
+                7028401
             ],
             "rank": 1,
             "propertyGroup": 300801,
-            "name": "미끼탑·기절",
+            "name": "생태 장치·현기증 안개",
             "joke": "성질 완전 더러워. 툭하면 폭발해.",
             "trapDescription": "암류 잔류",
             "description": "성격이 괴팍하고 사나우며 혼자 있는 것을 좋아합니다. 최대한 방해하지 않도록 하세요.",
             "textIndex": [
                 17
             ],
-            "characterPic": "JerricanWater",
-            "modelCode": 7010,
+            "characterPic": "StunDevice",
+            "modelCode": 7028,
             "occupySize": 1,
             "aiOrder": 250,
             "trap": true,
@@ -14364,7 +14869,7 @@
                 0,
                 0
             ],
-            "nameOnBar": "미끼탑·기절",
+            "nameOnBar": "생태 장치·현기증 안개",
             "guardRadius": 100,
             "guardRadiusShow": 1,
             "feature": 1
@@ -14373,24 +14878,26 @@
             "id": 7029,
             "enemyCamp": 1099,
             "duty": 1,
-            "skillTalent": 7026101,
+            "skillNormalAttack": 7029101,
+            "skillTalent": 7029201,
             "skillTalentExtra": [
                 910000011,
                 910000013,
                 910000010,
-                80000002
+                7029301,
+                7029401
             ],
             "rank": 1,
             "propertyGroup": 300801,
-            "name": "미끼탑·발묶기",
+            "name": "생태 장치·지체 얼음",
             "joke": "성질 완전 더러워. 툭하면 폭발해.",
             "trapDescription": "암류 잔류",
             "description": "성격이 괴팍하고 사나우며 혼자 있는 것을 좋아합니다. 최대한 방해하지 않도록 하세요.",
             "textIndex": [
                 17
             ],
-            "characterPic": "JerricanWater",
-            "modelCode": 7010,
+            "characterPic": "FootRestrictionDevice",
+            "modelCode": 7029,
             "occupySize": 1,
             "aiOrder": 250,
             "trap": true,
@@ -14414,7 +14921,7 @@
                 0,
                 0
             ],
-            "nameOnBar": "미끼탑·발묶기",
+            "nameOnBar": "생태 장치·지체 얼음",
             "guardRadius": 100,
             "guardRadiusShow": 1,
             "feature": 1
@@ -14733,9 +15240,9 @@
             "rank": 1,
             "propertyGroup": 209506,
             "name": "골리앗·치료",
-            "joke": "멀리서 보면 축구공 같지만, 가까이서 보면... 젠장, 튀어!",
+            "joke": "",
             "trapDescription": "",
-            "description": "철혈공조 기술의 대표작을 커스터마이징한 모델. 특수 디자인한 도색으로 골리앗의 반려동물화 및 가정화 추세가 선명하게 드러나는 버전입니다.",
+            "description": "",
             "characterPic": "GolyatRed",
             "modelCode": 63121,
             "moveCode": 1,
@@ -14778,9 +15285,9 @@
             "rank": 1,
             "propertyGroup": 209505,
             "name": "골리앗·민간용",
-            "joke": "멀리서 보면 축구공 같지만, 가까이서 보면... 젠장, 튀어!",
+            "joke": "",
             "trapDescription": "",
-            "description": "철혈공조 기술의 대표작을 커스터마이징한 모델. 특수 디자인한 도색으로 골리앗의 반려동물화 및 가정화 추세가 선명하게 드러나는 버전입니다.",
+            "description": "",
             "characterPic": "Golyat",
             "modelCode": 6312,
             "moveCode": 1,
@@ -14965,6 +15472,95 @@
                 0
             ],
             "nameOnBar": "지휘형 돌격차",
+            "guardRadius": 300,
+            "guardRadiusShow": 1
+        },
+        {
+            "id": 7104,
+            "enemyCamp": 1099,
+            "duty": 2,
+            "skillNormalAttack": 710101011,
+            "rank": 2,
+            "propertyGroup": 80210,
+            "name": "진지형 작전 지휘 차량",
+            "joke": "여러분이 지휘를 못 알아듣는다면, 이 녀석도 포술을 좀 안다.",
+            "trapDescription": "",
+            "description": "전장의 지휘 중추, 군대 전체의 생명선을 지탱한다.",
+            "textIndex": [
+                3
+            ],
+            "characterPic": "MGDroneR",
+            "modelCode": 7101,
+            "moveCode": 1,
+            "occupySize": 1,
+            "aiOrder": 50,
+            "shieldType": 1,
+            "attackType": 2,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "dzOpenBattle": 71010101,
+            "btPath": "BT/MainBT/MainBT_71011.bt",
+            "supressGroup": [
+                2,
+                4,
+                3,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "진지형 돌격 차량",
+            "guardRadius": 300,
+            "guardRadiusShow": 1
+        },
+        {
+            "id": 7105,
+            "enemyCamp": 1099,
+            "duty": 2,
+            "rank": 2,
+            "propertyGroup": 80210,
+            "name": "진지형 작전 지휘 차량",
+            "joke": "지휘관 차량",
+            "trapDescription": "",
+            "description": "전장의 지휘 중추, 군대 전체의 생명선을 지탱한다.",
+            "textIndex": [
+                51
+            ],
+            "characterPic": "MGDroneR",
+            "modelCode": 7101,
+            "moveCode": 1,
+            "occupySize": 1,
+            "aiOrder": 50,
+            "shieldType": 1,
+            "attackType": 2,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "dzOpenBattle": 71010101,
+            "btPath": "BT/MainBT/MainBT_71011.bt",
+            "supressGroup": [
+                2,
+                4,
+                3,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "진지형 돌격 차량",
             "guardRadius": 300,
             "guardRadiusShow": 1
         },
@@ -26939,6 +27535,58 @@
             "weakWeaponTag": 2
         },
         {
+            "id": 67804,
+            "enemyCamp": 1099,
+            "duty": 1,
+            "skillNormalAttack": 67804101,
+            "skillTalent": 67804201,
+            "skillTalentExtra": [
+                67804301,
+                67804401
+            ],
+            "rank": 1,
+            "propertyGroup": 209304,
+            "name": "시퀀스 유령·자가 멍에",
+            "joke": "사회 공포증이 있을 뿐, 공격성이 약하다는 뜻은 아니다.",
+            "trapDescription": "",
+            "description": "무질서 유령의 자기 복제 과정에서 우연히 나타난 비교적 안정적인 단계. 일정한 자율 행동 논리가 생겨 안전 거리를 유지하며 공격하는 자기 보존 의식이 발달했다.",
+            "textIndex": [
+                2
+            ],
+            "characterPic": "SequenceGhost",
+            "modelCode": 6780,
+            "moveCode": 3,
+            "occupySize": 1,
+            "aiOrder": 25,
+            "useFakeAttack": true,
+            "shieldType": 2,
+            "attackType": 2,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "dzOpenBattle": 67801101,
+            "btPath": "BT/MainBT/MainBT_6780.bt",
+            "weakTag": "3,4",
+            "supressGroup": [
+                4,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "시퀀스 유령·자가 멍에",
+            "guardRadius": 700,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 14
+        },
+        {
             "id": 67811,
             "enemyCamp": 1099,
             "duty": 1,
@@ -26964,7 +27612,7 @@
             ],
             "rank": 3,
             "propertyGroup": 209302,
-            "name": "신비한 소녀",
+            "name": "수수께끼의 소녀",
             "joke": "때로는 결핍이 더 효율적이다. 쓸모없는 감정과 논리를 버린 이 인격에 남은 것은 숙주를 갉아먹는 본능적 갈망뿐.",
             "trapDescription": "",
             "description": "리바의 마인드맵에서 오류 데이터가 재조합돼 생긴 가상 인격. 리바의 마인드맵을 개변하는 것을 사명으로 삼으며, 다른 잉여 데이터 창조물을 조종할 수 있다. 불안정한 마인드맵 공간 탓에 감정 기복이 심하고 지능도 결핍되어 대부분 본능에 따라 움직인다.",
@@ -27003,35 +27651,49 @@
                 0,
                 0
             ],
-            "nameOnBar": "신비한 소녀",
+            "nameOnBar": "수수께끼의 소녀",
             "guardRadius": 500,
             "guardRadiusShow": 1,
             "weakWeaponTag": 2
         },
         {
             "id": 67841,
-            "enemyCamp": 1100,
+            "enemyCamp": 1010,
             "duty": 1,
+            "skillNormalAttack": 6784101,
+            "skillActive": 6784201,
+            "skillTalent": 6784202,
+            "skillActiveExtra": [
+                6784301,
+                6784401,
+                6784501
+            ],
+            "skillTalentExtra": [
+                6784601,
+                6784701,
+                6784801,
+                6151501,
+                80000002
+            ],
             "aiList": [
-                677301
+                678401
             ],
             "dzAiList": [
                 611002
             ],
             "rank": 3,
-            "propertyGroup": 208901,
-            "name": "바늘 1형태",
-            "joke": "얼마나 오랫동안 벽에 걸려 있었는지는 모릅니다. 족쇄가 느슨해지는 순간, 억눌려 있던 광기가 한순간에 뿜어져 나오겠죠.",
+            "propertyGroup": 209602,
+            "name": "바늘",
+            "joke": "그녀는 마치 장례식에 온 것처럼 예의 바르다.",
             "trapDescription": "",
-            "description": "금속 소체와 무장 기계를 결합한 생산품. 이름 모를 지하 연구소에서 비밀리에 개발한 제3세대 인형의 프로토타입입니다. 흉측한 촉수는 각종 무기를 휘두르며 적에게 치명상을 입힐 기회를 노립니다.",
+            "description": "세련된 옷차림과 우아한 행동거지를 갖춘 3세대 인형. 정성껏 유지하는 체면 아래, 경외심을 불러일으키는 비범한 힘이 숨겨져 있다.",
             "textIndex": [
-                13,
-                14
+                13
             ],
             "characterPic": "NeedleGalaxy01",
             "modelCode": 6784,
             "moveCode": 11,
-            "occupySize": 3,
+            "occupySize": 1,
             "aiOrder": 50,
             "useFakeAttack": true,
             "shieldType": 1,
@@ -27046,24 +27708,24 @@
             ],
             "idleType": 1,
             "dzOpenBattle": 6110101,
-            "btPath": "BT/BOSSBT/6773/BOSSBT_Chaos.bt",
-            "weakTag": "2,3,1",
+            "btPath": "BT/BOSSBT/6784/BOSSBT_ NeedleGalaxy01.bt",
+            "weakTag": "3",
             "supressGroup": [
                 4,
-                2,
-                5,
-                5,
                 3,
+                5,
+                4,
+                6,
                 0
             ],
             "nameOnBar": "바늘",
             "guardRadius": 500,
             "guardRadiusShow": 1,
-            "weakWeaponTag": 42
+            "weakWeaponTag": 12
         },
         {
             "id": 67871,
-            "enemyCamp": 1100,
+            "enemyCamp": 1010,
             "duty": 1,
             "aiList": [
                 677301
@@ -27073,7 +27735,7 @@
             ],
             "rank": 3,
             "propertyGroup": 208901,
-            "name": "바늘 3형태",
+            "name": "바늘",
             "joke": "얼마나 오랫동안 벽에 걸려 있었는지는 모릅니다. 족쇄가 느슨해지는 순간, 억눌려 있던 광기가 한순간에 뿜어져 나오겠죠.",
             "trapDescription": "",
             "description": "금속 소체와 무장 기계를 결합한 생산품. 이름 모를 지하 연구소에서 비밀리에 개발한 제3세대 인형의 프로토타입입니다. 흉측한 촉수는 각종 무기를 휘두르며 적에게 치명상을 입힐 기회를 노립니다.",
@@ -27100,7 +27762,7 @@
             "idleType": 1,
             "enemyType": 1,
             "dzOpenBattle": 6110101,
-            "btPath": "BT/BOSSBT/6773/BOSSBT_Chaos.bt",
+            "btPath": "BT/BOSSBT/6784/BOSSBT_ NeedleGalaxy01.bt",
             "weakTag": "2,3,1",
             "supressGroup": [
                 4,
@@ -27117,491 +27779,734 @@
         },
         {
             "id": 67901,
-            "enemyCamp": 1001,
+            "enemyCamp": 1010,
             "duty": 1,
-            "skillNormalAttack": 6110101,
+            "skillNormalAttack": 6790101,
+            "skillActive": 6790201,
+            "skillTalent": 6790401,
             "dzAiList": [
                 611002
             ],
             "rank": 1,
-            "propertyGroup": 101201,
+            "propertyGroup": 116201,
             "name": "더미 인형·스톰 헌터 1형",
-            "joke": "총을 쏘다 보면 언젠간 맞겠지.",
+            "joke": "보조 배터리 필요한 사람?",
             "trapDescription": "",
-            "description": "도대체 무엇이 그들을 전장에서 날뛸 줄밖에 모르는 고릴라로 만들었을까요?",
+            "description": "양산형 꼭두각시 인형. 명령에 따라 싸울 줄만 알며, 광범위 화력 제압에 능하다.",
             "textIndex": [
                 1
             ],
-            "characterPic": "Felade",
-            "modelCode": 6110,
-            "moveCode": 11,
+            "characterPic": "StormHunter",
+            "modelCode": 6790,
+            "moveCode": 1,
             "occupySize": 1,
-            "aiOrder": 600,
+            "aiOrder": 75,
             "useFakeAttack": true,
             "shieldType": 1,
             "attackType": 1,
             "element": 1,
             "beSupressedConfig": [
                 80000001,
-                1,
-                1000,
+                9999,
                 0,
-                32
+                0,
+                8
             ],
             "idleType": 1,
             "displacement": 1,
-            "dzOpenBattle": 6110101,
+            "dzOpenBattle": 6790101,
             "btPath": "BT/EnemyBT/EnemyBT_002+002.bt",
-            "weakTag": "5,1",
+            "weakTag": "3,5",
             "supressGroup": [
+                2,
                 4,
-                0,
                 0,
                 0,
                 0,
                 0
             ],
-            "nameOnBar": "선봉병Ⅰ",
+            "nameOnBar": "꼭두각시 인형·폭풍 사냥꾼Ⅰ",
             "guardRadius": 500,
             "guardRadiusShow": 1,
-            "weakWeaponTag": 14,
-            "weakMap": 61101
+            "weakWeaponTag": 12
         },
         {
             "id": 67902,
-            "enemyCamp": 1001,
+            "enemyCamp": 1010,
             "duty": 1,
-            "skillNormalAttack": 6110101,
-            "skillTalent": 61101200,
+            "skillNormalAttack": 6790101,
+            "skillActive": 6790201,
+            "skillTalent": 6790301,
+            "skillTalentExtra": [
+                67902401
+            ],
             "dzAiList": [
                 611002
             ],
             "rank": 1,
-            "propertyGroup": 101202,
+            "propertyGroup": 116202,
             "name": "더미 인형·스톰 헌터 2형",
-            "joke": "총을 쏘다 보면 언젠간 맞겠지.",
+            "joke": "보조 배터리 필요한 사람?",
             "trapDescription": "",
-            "description": "도대체 무엇이 그들을 전장에서 날뛸 줄밖에 모르는 고릴라로 만들었을까요?",
+            "description": "양산형 꼭두각시 인형. 명령에 따라 싸울 줄만 알며, 광범위 화력 제압에 능하다.",
             "textIndex": [
                 1
             ],
-            "characterPic": "Felade",
-            "modelCode": 6110,
-            "moveCode": 11,
+            "characterPic": "StormHunter",
+            "modelCode": 6790,
+            "moveCode": 1,
             "occupySize": 1,
-            "aiOrder": 550,
+            "aiOrder": 75,
             "useFakeAttack": true,
             "shieldType": 1,
             "attackType": 1,
             "element": 1,
             "beSupressedConfig": [
                 80000001,
-                1,
-                1000,
+                9999,
                 0,
-                32
+                0,
+                8
             ],
             "idleType": 1,
             "displacement": 1,
-            "dzOpenBattle": 6110101,
+            "dzOpenBattle": 6790101,
             "btPath": "BT/EnemyBT/EnemyBT_002+002.bt",
-            "weakTag": "5,1",
+            "weakTag": "3,5",
             "supressGroup": [
-                3,
-                0,
+                2,
+                4,
                 0,
                 0,
                 0,
                 0
             ],
-            "nameOnBar": "선봉병Ⅱ",
+            "nameOnBar": "꼭두각시 인형·폭풍 사냥꾼Ⅱ",
             "guardRadius": 500,
             "guardRadiusShow": 1,
-            "weakWeaponTag": 14,
-            "weakMap": 61102
+            "weakWeaponTag": 12
         },
         {
             "id": 67903,
-            "enemyCamp": 1001,
+            "enemyCamp": 1010,
             "duty": 1,
-            "skillNormalAttack": 6110101,
-            "skillTalent": 61103200,
+            "skillNormalAttack": 6790101,
+            "skillActive": 6790201,
+            "skillTalent": 67903301,
             "skillTalentExtra": [
-                61102300
+                67903401
             ],
             "dzAiList": [
                 611002
             ],
             "rank": 1,
-            "propertyGroup": 101203,
+            "propertyGroup": 116203,
             "name": "더미 인형·스톰 헌터 3형",
-            "joke": "총을 쏘다 보면 언젠간 맞겠지.",
+            "joke": "보조 배터리 필요한 사람?",
             "trapDescription": "",
-            "description": "도대체 무엇이 그들을 전장에서 날뛸 줄밖에 모르는 고릴라로 만들었을까요?",
+            "description": "양산형 꼭두각시 인형. 명령에 따라 싸울 줄만 알며, 광범위 화력 제압에 능하다.",
             "textIndex": [
                 1
             ],
-            "characterPic": "Felade",
-            "modelCode": 6110,
-            "moveCode": 11,
+            "characterPic": "StormHunter",
+            "modelCode": 6790,
+            "moveCode": 1,
             "occupySize": 1,
-            "aiOrder": 550,
+            "aiOrder": 75,
             "useFakeAttack": true,
             "shieldType": 1,
             "attackType": 1,
             "element": 1,
             "beSupressedConfig": [
                 80000001,
-                1,
-                1000,
+                9999,
                 0,
-                32
+                0,
+                8
             ],
             "idleType": 1,
             "displacement": 1,
-            "dzOpenBattle": 6110101,
+            "dzOpenBattle": 6790101,
             "btPath": "BT/EnemyBT/EnemyBT_003+003.bt",
-            "weakTag": "1",
+            "weakTag": "3,5",
             "supressGroup": [
                 2,
-                0,
+                4,
                 0,
                 0,
                 0,
                 0
             ],
-            "nameOnBar": "선봉병Ⅲ",
+            "nameOnBar": "꼭두각시 인형·폭풍 사냥꾼Ⅲ",
             "guardRadius": 500,
             "guardRadiusShow": 1,
-            "weakWeaponTag": 12,
-            "weakMap": 61103
+            "weakWeaponTag": 12
         },
         {
             "id": 67911,
-            "enemyCamp": 1001,
+            "enemyCamp": 1010,
             "duty": 1,
-            "skillNormalAttack": 6110101,
+            "skillNormalAttack": 6791101,
+            "skillActive": 6791201,
+            "skillTalent": 6791401,
             "dzAiList": [
                 611002
             ],
             "rank": 1,
-            "propertyGroup": 101201,
+            "propertyGroup": 116301,
             "name": "더미 인형·정밀 펄스 1형",
-            "joke": "총을 쏘다 보면 언젠간 맞겠지.",
+            "joke": "들어봐, 저 나무가 말하는 것 같아.",
             "trapDescription": "",
-            "description": "도대체 무엇이 그들을 전장에서 날뛸 줄밖에 모르는 고릴라로 만들었을까요?",
+            "description": "양산형 꼭두각시 인형. 명령에 따라 싸울 줄만 알며, 고정밀 총기를 이용한 원거리 사살에 능하다.",
             "textIndex": [
-                1
+                2
             ],
-            "characterPic": "Felade",
-            "modelCode": 6110,
-            "moveCode": 11,
+            "characterPic": "PrecisionPulse",
+            "modelCode": 6791,
+            "moveCode": 1,
             "occupySize": 1,
-            "aiOrder": 600,
+            "aiOrder": 75,
             "useFakeAttack": true,
             "shieldType": 1,
             "attackType": 1,
             "element": 1,
             "beSupressedConfig": [
                 80000001,
-                1,
-                1000,
+                9999,
                 0,
-                32
+                0,
+                8
             ],
             "idleType": 1,
             "displacement": 1,
-            "dzOpenBattle": 6110101,
-            "btPath": "BT/EnemyBT/EnemyBT_002+002.bt",
-            "weakTag": "5,1",
+            "dzOpenBattle": 6791101,
+            "btPath": "BT/EnemyBT/EnemyBT_001+001.bt",
+            "weakTag": "1,3",
             "supressGroup": [
-                4,
-                0,
-                0,
+                2,
+                3,
+                6,
                 0,
                 0,
                 0
             ],
-            "nameOnBar": "선봉병Ⅰ",
+            "nameOnBar": "꼭두각시 인형·정밀 펄스Ⅰ",
             "guardRadius": 500,
             "guardRadiusShow": 1,
-            "weakWeaponTag": 14,
-            "weakMap": 61101
+            "weakWeaponTag": 6
         },
         {
             "id": 67912,
-            "enemyCamp": 1001,
+            "enemyCamp": 1010,
             "duty": 1,
-            "skillNormalAttack": 6110101,
-            "skillTalent": 61101200,
+            "skillNormalAttack": 6791101,
+            "skillActive": 6791202,
+            "skillTalent": 6791402,
             "dzAiList": [
                 611002
             ],
             "rank": 1,
-            "propertyGroup": 101202,
+            "propertyGroup": 116302,
             "name": "더미 인형·정밀 펄스 2형",
-            "joke": "총을 쏘다 보면 언젠간 맞겠지.",
+            "joke": "들어봐, 저 나무가 말하는 것 같아.",
             "trapDescription": "",
-            "description": "도대체 무엇이 그들을 전장에서 날뛸 줄밖에 모르는 고릴라로 만들었을까요?",
+            "description": "양산형 꼭두각시 인형. 명령에 따라 싸울 줄만 알며, 고정밀 총기를 이용한 원거리 사살에 능하다.",
             "textIndex": [
-                1
+                2
             ],
-            "characterPic": "Felade",
-            "modelCode": 6110,
-            "moveCode": 11,
+            "characterPic": "PrecisionPulse",
+            "modelCode": 6791,
+            "moveCode": 1,
             "occupySize": 1,
-            "aiOrder": 550,
+            "aiOrder": 75,
             "useFakeAttack": true,
             "shieldType": 1,
             "attackType": 1,
             "element": 1,
             "beSupressedConfig": [
                 80000001,
-                1,
-                1000,
+                9999,
                 0,
-                32
+                0,
+                8
             ],
             "idleType": 1,
             "displacement": 1,
-            "dzOpenBattle": 6110101,
-            "btPath": "BT/EnemyBT/EnemyBT_002+002.bt",
-            "weakTag": "5,1",
+            "dzOpenBattle": 6791101,
+            "btPath": "BT/EnemyBT/EnemyBT_001+001.bt",
+            "weakTag": "1,3",
             "supressGroup": [
+                2,
                 3,
-                0,
-                0,
+                6,
                 0,
                 0,
                 0
             ],
-            "nameOnBar": "선봉병Ⅱ",
+            "nameOnBar": "꼭두각시 인형·정밀 펄스Ⅱ",
             "guardRadius": 500,
             "guardRadiusShow": 1,
-            "weakWeaponTag": 14,
-            "weakMap": 61102
+            "weakWeaponTag": 6
         },
         {
             "id": 67913,
-            "enemyCamp": 1001,
+            "enemyCamp": 1010,
             "duty": 1,
-            "skillNormalAttack": 6110101,
-            "skillTalent": 61103200,
+            "skillNormalAttack": 6791101,
+            "skillActive": 6791203,
+            "skillTalent": 6791403,
             "skillTalentExtra": [
-                61102300
+                6791303
             ],
             "dzAiList": [
                 611002
             ],
             "rank": 1,
-            "propertyGroup": 101203,
+            "propertyGroup": 116303,
             "name": "더미 인형·정밀 펄스 3형",
-            "joke": "총을 쏘다 보면 언젠간 맞겠지.",
+            "joke": "들어봐, 저 나무가 말하는 것 같아.",
             "trapDescription": "",
-            "description": "도대체 무엇이 그들을 전장에서 날뛸 줄밖에 모르는 고릴라로 만들었을까요?",
+            "description": "양산형 꼭두각시 인형. 명령에 따라 싸울 줄만 알며, 고정밀 총기를 이용한 원거리 사살에 능하다.",
             "textIndex": [
-                1
+                2
             ],
-            "characterPic": "Felade",
-            "modelCode": 6110,
-            "moveCode": 11,
+            "characterPic": "PrecisionPulse",
+            "modelCode": 6791,
+            "moveCode": 1,
             "occupySize": 1,
-            "aiOrder": 550,
+            "aiOrder": 75,
             "useFakeAttack": true,
             "shieldType": 1,
             "attackType": 1,
             "element": 1,
             "beSupressedConfig": [
                 80000001,
-                1,
-                1000,
+                9999,
                 0,
-                32
+                0,
+                8
             ],
             "idleType": 1,
             "displacement": 1,
-            "dzOpenBattle": 6110101,
-            "btPath": "BT/EnemyBT/EnemyBT_003+003.bt",
-            "weakTag": "1",
+            "dzOpenBattle": 6791101,
+            "btPath": "BT/EnemyBT/EnemyBT_001+001.bt",
+            "weakTag": "1,3",
             "supressGroup": [
                 2,
-                0,
-                0,
+                3,
+                6,
                 0,
                 0,
                 0
             ],
-            "nameOnBar": "선봉병Ⅲ",
+            "nameOnBar": "꼭두각시 인형·정밀 펄스Ⅲ",
             "guardRadius": 500,
             "guardRadiusShow": 1,
-            "weakWeaponTag": 12,
-            "weakMap": 61103
+            "weakWeaponTag": 6
         },
         {
             "id": 67921,
-            "enemyCamp": 1001,
+            "enemyCamp": 1010,
             "duty": 1,
-            "skillNormalAttack": 6110101,
+            "skillNormalAttack": 67921101,
+            "skillActive": 67921201,
+            "skillTalent": 67921401,
+            "skillActiveExtra": [
+                67921202
+            ],
+            "skillTalentExtra": [
+                67921203
+            ],
             "dzAiList": [
                 611002
             ],
             "rank": 1,
-            "propertyGroup": 101201,
+            "propertyGroup": 116401,
             "name": "더미 인형·블레이드 워커 1형",
-            "joke": "총을 쏘다 보면 언젠간 맞겠지.",
+            "joke": "그래서 일곱 걸음 안에서는 칼이 빠른가, 총이 빠른가?",
             "trapDescription": "",
-            "description": "도대체 무엇이 그들을 전장에서 날뛸 줄밖에 모르는 고릴라로 만들었을까요?",
+            "description": "양산형 꼭두각시 인형. 명령에 따라 싸울 줄만 알며, 특화된 운동 모듈 덕분에 몸을 숨기고 암살을 감행하기 쉽다.",
             "textIndex": [
-                1
+                3,
+                11
             ],
-            "characterPic": "Felade",
-            "modelCode": 6110,
-            "moveCode": 11,
+            "characterPic": "BladeRunner",
+            "modelCode": 6792,
+            "moveCode": 1,
             "occupySize": 1,
-            "aiOrder": 600,
+            "aiOrder": 250,
             "useFakeAttack": true,
             "shieldType": 1,
             "attackType": 1,
             "element": 1,
             "beSupressedConfig": [
                 80000001,
-                1,
-                1000,
+                9999,
                 0,
-                32
+                0,
+                8
             ],
             "idleType": 1,
             "displacement": 1,
-            "dzOpenBattle": 6110101,
-            "btPath": "BT/EnemyBT/EnemyBT_002+002.bt",
-            "weakTag": "5,1",
+            "dzOpenBattle": 67921101,
+            "btPath": "BT/MainBT/MainBT_6792.bt",
+            "weakTag": "3,4",
             "supressGroup": [
+                2,
                 4,
                 0,
                 0,
                 0,
-                0,
                 0
             ],
-            "nameOnBar": "선봉병Ⅰ",
+            "nameOnBar": "꼭두각시 인형·칼날 보행자Ⅰ",
             "guardRadius": 500,
             "guardRadiusShow": 1,
-            "weakWeaponTag": 14,
-            "weakMap": 61101
+            "weakWeaponTag": 12
         },
         {
             "id": 67922,
-            "enemyCamp": 1001,
+            "enemyCamp": 1010,
             "duty": 1,
-            "skillNormalAttack": 6110101,
-            "skillTalent": 61101200,
+            "skillNormalAttack": 67921101,
+            "skillActive": 67922201,
+            "skillTalent": 67922301,
+            "skillActiveExtra": [
+                67921202
+            ],
+            "skillTalentExtra": [
+                67922401,
+                67921203
+            ],
             "dzAiList": [
                 611002
             ],
             "rank": 1,
-            "propertyGroup": 101202,
+            "propertyGroup": 116402,
             "name": "더미 인형·블레이드 워커 2형",
-            "joke": "총을 쏘다 보면 언젠간 맞겠지.",
+            "joke": "그래서 일곱 걸음 안에서는 칼이 빠른가, 총이 빠른가?",
             "trapDescription": "",
-            "description": "도대체 무엇이 그들을 전장에서 날뛸 줄밖에 모르는 고릴라로 만들었을까요?",
+            "description": "양산형 꼭두각시 인형. 명령에 따라 싸울 줄만 알며, 특화된 운동 모듈 덕분에 몸을 숨기고 암살을 감행하기 쉽다.",
             "textIndex": [
-                1
+                3,
+                11
             ],
-            "characterPic": "Felade",
-            "modelCode": 6110,
-            "moveCode": 11,
+            "characterPic": "BladeRunner",
+            "modelCode": 6792,
+            "moveCode": 1,
             "occupySize": 1,
-            "aiOrder": 550,
+            "aiOrder": 250,
             "useFakeAttack": true,
             "shieldType": 1,
             "attackType": 1,
             "element": 1,
             "beSupressedConfig": [
                 80000001,
-                1,
-                1000,
+                9999,
                 0,
-                32
+                0,
+                8
             ],
             "idleType": 1,
             "displacement": 1,
-            "dzOpenBattle": 6110101,
-            "btPath": "BT/EnemyBT/EnemyBT_002+002.bt",
-            "weakTag": "5,1",
+            "dzOpenBattle": 67921101,
+            "btPath": "BT/MainBT/MainBT_6792.bt",
+            "weakTag": "3,4",
             "supressGroup": [
-                3,
-                0,
+                2,
+                4,
                 0,
                 0,
                 0,
                 0
             ],
-            "nameOnBar": "선봉병Ⅱ",
+            "nameOnBar": "꼭두각시 인형·칼날 보행자Ⅱ",
             "guardRadius": 500,
             "guardRadiusShow": 1,
-            "weakWeaponTag": 14,
-            "weakMap": 61102
+            "weakWeaponTag": 12
         },
         {
             "id": 67923,
-            "enemyCamp": 1001,
+            "enemyCamp": 1010,
             "duty": 1,
-            "skillNormalAttack": 6110101,
-            "skillTalent": 61103200,
+            "skillNormalAttack": 67921101,
+            "skillActive": 67923201,
+            "skillTalent": 67923301,
+            "skillActiveExtra": [
+                67921202
+            ],
             "skillTalentExtra": [
-                61102300
+                67923401,
+                67921203
             ],
             "dzAiList": [
                 611002
             ],
             "rank": 1,
-            "propertyGroup": 101203,
+            "propertyGroup": 116403,
             "name": "더미 인형·블레이드 워커 3형",
-            "joke": "총을 쏘다 보면 언젠간 맞겠지.",
+            "joke": "그래서 일곱 걸음 안에서는 칼이 빠른가, 총이 빠른가?",
             "trapDescription": "",
-            "description": "도대체 무엇이 그들을 전장에서 날뛸 줄밖에 모르는 고릴라로 만들었을까요?",
+            "description": "양산형 꼭두각시 인형. 명령에 따라 싸울 줄만 알며, 특화된 운동 모듈 덕분에 몸을 숨기고 암살을 감행하기 쉽다.",
             "textIndex": [
-                1
+                3,
+                11
             ],
-            "characterPic": "Felade",
-            "modelCode": 6110,
-            "moveCode": 11,
+            "characterPic": "BladeRunner",
+            "modelCode": 6792,
+            "moveCode": 1,
             "occupySize": 1,
-            "aiOrder": 550,
+            "aiOrder": 250,
             "useFakeAttack": true,
             "shieldType": 1,
             "attackType": 1,
             "element": 1,
             "beSupressedConfig": [
                 80000001,
-                1,
-                1000,
+                9999,
                 0,
-                32
+                0,
+                8
             ],
             "idleType": 1,
             "displacement": 1,
-            "dzOpenBattle": 6110101,
-            "btPath": "BT/EnemyBT/EnemyBT_003+003.bt",
-            "weakTag": "1",
+            "dzOpenBattle": 67921101,
+            "btPath": "BT/MainBT/MainBT_6792.bt",
+            "weakTag": "3,4",
             "supressGroup": [
                 2,
+                4,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "꼭두각시 인형·칼날 보행자Ⅲ",
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 12
+        },
+        {
+            "id": 67941,
+            "enemyCamp": 1099,
+            "duty": 2,
+            "skillNormalAttack": 6794201,
+            "dzAiList": [
+                611002
+            ],
+            "rank": 1,
+            "propertyGroup": 116001,
+            "name": "카리냥",
+            "joke": "돈주머니를 살짝 흔들기만 하면, 귀여운 카리냥이 언제든 나타난다.",
+            "trapDescription": "",
+            "description": "미슈티의 '꿈'에 나타난 카리냥 인형. 행동 패턴은 실제 고양이와 같지만, 쉽게 놀란다. 익숙한 외모는 어떤 주황색 머리 상인을 떠올리게 한다.",
+            "textIndex": [
+                5,
+                8
+            ],
+            "characterPic": "GreenMew",
+            "modelCode": 6794,
+            "moveCode": 1,
+            "occupySize": 1,
+            "aiOrder": 25,
+            "useFakeAttack": true,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "btPath": "BT/EnemyBT/EnemyBT_007+007+007+007.bt",
+            "weakTag": "1",
+            "supressGroup": [
+                0,
                 0,
                 0,
                 0,
                 0,
                 0
             ],
-            "nameOnBar": "선봉병Ⅲ",
+            "nameOnBar": "카리냥",
             "guardRadius": 500,
             "guardRadiusShow": 1,
-            "weakWeaponTag": 12,
-            "weakMap": 61103
+            "weakWeaponTag": 2
+        },
+        {
+            "id": 67942,
+            "enemyCamp": 1099,
+            "duty": 3,
+            "skillNormalAttack": 6794201,
+            "skillActive": 6794101,
+            "dzAiList": [
+                611002
+            ],
+            "rank": 1,
+            "propertyGroup": 116002,
+            "name": "카리냥",
+            "joke": "돈주머니를 살짝 흔들기만 하면, 귀여운 카리냥이 언제든 나타난다.",
+            "trapDescription": "",
+            "description": "미슈티의 '꿈'에 나타난 카리냥 인형. 행동 패턴은 실제 고양이와 같지만, 쉽게 놀란다. 익숙한 외모는 어떤 주황색 머리 상인을 떠올리게 한다.",
+            "textIndex": [
+                5,
+                8,
+                31
+            ],
+            "characterPic": "GreenMew",
+            "modelCode": 6794,
+            "moveCode": 1,
+            "occupySize": 1,
+            "aiOrder": 25,
+            "useFakeAttack": true,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "btPath": "BT/EnemyBT/EnemyBT_007+007+007+007.bt",
+            "weakTag": "1",
+            "supressGroup": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "카리냥",
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 2
+        },
+        {
+            "id": 67943,
+            "enemyCamp": 1099,
+            "duty": 4,
+            "skillNormalAttack": 6794201,
+            "skillActive": 6794101,
+            "skillActiveExtra": [
+                6794301
+            ],
+            "dzAiList": [
+                611002
+            ],
+            "rank": 1,
+            "propertyGroup": 116003,
+            "name": "카리냥",
+            "joke": "돈주머니를 살짝 흔들기만 하면, 귀여운 카리냥이 언제든 나타난다.",
+            "trapDescription": "",
+            "description": "미슈티의 '꿈'에 나타난 카리냥 인형. 행동 패턴은 실제 고양이와 같지만, 쉽게 놀란다. 익숙한 외모는 어떤 주황색 머리 상인을 떠올리게 한다.",
+            "textIndex": [
+                5,
+                8,
+                31
+            ],
+            "characterPic": "GreenMew",
+            "modelCode": 6794,
+            "moveCode": 1,
+            "occupySize": 1,
+            "aiOrder": 25,
+            "useFakeAttack": true,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "btPath": "BT/EnemyBT/EnemyBT_007+007+007+007.bt",
+            "weakTag": "1",
+            "supressGroup": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "카리냥",
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 2
+        },
+        {
+            "id": 67944,
+            "enemyCamp": 1099,
+            "duty": 5,
+            "skillNormalAttack": 6794201,
+            "skillActive": 6794101,
+            "skillActiveExtra": [
+                6794301,
+                6794401
+            ],
+            "dzAiList": [
+                611002
+            ],
+            "rank": 1,
+            "propertyGroup": 116004,
+            "name": "카리냥",
+            "joke": "돈주머니를 살짝 흔들기만 하면, 귀여운 카리냥이 언제든 나타난다.",
+            "trapDescription": "",
+            "description": "미슈티의 '꿈'에 나타난 카리냥 인형. 행동 패턴은 실제 고양이와 같지만, 쉽게 놀란다. 익숙한 외모는 어떤 주황색 머리 상인을 떠올리게 한다.",
+            "textIndex": [
+                5,
+                8,
+                31
+            ],
+            "characterPic": "GreenMew",
+            "modelCode": 6794,
+            "moveCode": 1,
+            "occupySize": 1,
+            "aiOrder": 25,
+            "useFakeAttack": true,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "btPath": "BT/EnemyBT/EnemyBT_007+007+007+007.bt",
+            "weakTag": "1",
+            "supressGroup": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "카리냥",
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 2
         },
         {
             "id": 68512,
             "enemyCamp": 1100,
-            "duty": 1,
+            "duty": 11,
             "skillNormalAttack": 6851101,
             "skillActive": 6851111,
             "skillActiveExtra": [
@@ -27669,7 +28574,7 @@
         {
             "id": 68522,
             "enemyCamp": 1100,
-            "duty": 1,
+            "duty": 12,
             "skillNormalAttack": 6852101,
             "skillActive": 6852102,
             "skillActiveExtra": [
@@ -29554,9 +30459,9 @@
             "rank": 1,
             "propertyGroup": 209508,
             "name": "골리앗·치료",
-            "joke": "멀리서 보면 축구공 같지만, 가까이서 보면... 젠장, 튀어!",
+            "joke": "",
             "trapDescription": "",
-            "description": "철혈공조 기술의 대표작을 커스터마이징한 모델. 특수 디자인한 도색으로 골리앗의 반려동물화 및 가정화 추세가 선명하게 드러나는 버전입니다.",
+            "description": "",
             "characterPic": "GolyatRed",
             "modelCode": 63121,
             "moveCode": 1,
@@ -29599,9 +30504,9 @@
             "rank": 1,
             "propertyGroup": 209507,
             "name": "골리앗·민간용",
-            "joke": "멀리서 보면 축구공 같지만, 가까이서 보면... 젠장, 튀어!",
+            "joke": "",
             "trapDescription": "",
-            "description": "철혈공조 기술의 대표작을 커스터마이징한 모델. 특수 디자인한 도색으로 골리앗의 반려동물화 및 가정화 추세가 선명하게 드러나는 버전입니다.",
+            "description": "",
             "characterPic": "Golyat",
             "modelCode": 6312,
             "moveCode": 1,
@@ -30247,6 +31152,389 @@
             "nameOnBar": "과녁기·늪지의 마스터"
         },
         {
+            "id": 73011,
+            "enemyCamp": 1099,
+            "duty": 1,
+            "skillNormalAttack": 73011101,
+            "skillTalent": 73011801,
+            "skillTalentExtra": [
+                6151501,
+                910000012,
+                73011201
+            ],
+            "aiList": [
+                73011
+            ],
+            "rank": 3,
+            "propertyGroup": 208701,
+            "name": "소원의 대가·한파",
+            "joke": "날렵한 로봇. 빙판 위에서도 페라리를 몰 수 있다.",
+            "trapDescription": "",
+            "description": "수수께끼의 제조사에서 온 차세대 훈련용 기계인형. 지휘관에게 새로운 시련을 주기 위해 스스로 시스템을 업그레이드했다. 이번에는 모든 것을 되찾을 것이다!",
+            "textIndex": [
+                50,
+                13,
+                14
+            ],
+            "characterPic": "TrainingBot",
+            "modelCode": 73011,
+            "occupySize": 3,
+            "aiOrder": 550,
+            "useFakeAttack": true,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                2,
+                1000,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "enemyType": 1,
+            "btPath": "BT/BOSSBT/73011/BOSSBT_73011.bt",
+            "weakTag": "3",
+            "supressGroup": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "소원의 대가·한파",
+            "weakWeaponTag": 14
+        },
+        {
+            "id": 73012,
+            "enemyCamp": 1099,
+            "duty": 1,
+            "skillNormalAttack": 73012101,
+            "skillTalent": 73011801,
+            "skillTalentExtra": [
+                6151501,
+                910000012,
+                73012201
+            ],
+            "aiList": [
+                73012
+            ],
+            "rank": 3,
+            "propertyGroup": 208701,
+            "name": "소원의 대가·탁류",
+            "joke": "뭐? 회장님이 몸을 풀고 계신다고!?",
+            "trapDescription": "",
+            "description": "수수께끼의 제조사에서 온 차세대 훈련용 기계인형. 지휘관에게 시련을 주기 위해 스스로 시스템을 업그레이드했다. 이번에는 제국을 재건할 것이다!",
+            "textIndex": [
+                50,
+                13,
+                14
+            ],
+            "characterPic": "TrainingBot",
+            "modelCode": 73012,
+            "occupySize": 3,
+            "aiOrder": 550,
+            "useFakeAttack": true,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                2,
+                1000,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "enemyType": 1,
+            "btPath": "BT/BOSSBT/73011/BOSSBT_73011.bt",
+            "weakTag": "5",
+            "supressGroup": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "소원의 대가·탁류",
+            "weakWeaponTag": 14
+        },
+        {
+            "id": 73013,
+            "enemyCamp": 1099,
+            "duty": 1,
+            "skillNormalAttack": 73013101,
+            "skillTalent": 73011801,
+            "skillTalentExtra": [
+                6151501,
+                910000012,
+                73013201
+            ],
+            "aiList": [
+                73013
+            ],
+            "rank": 3,
+            "propertyGroup": 208701,
+            "name": "소원의 대가·거장",
+            "joke": "강함. 무적.",
+            "trapDescription": "",
+            "description": "수수께끼의 제조사에서 온 차세대 훈련용 기계인형. 지휘관에게 시련을 주기 위해 스스로 시스템을 업그레이드했다. 이번에는 세계를 제패할 것이다!",
+            "textIndex": [
+                50,
+                13,
+                14
+            ],
+            "characterPic": "TrainingBot",
+            "modelCode": 73013,
+            "occupySize": 3,
+            "aiOrder": 550,
+            "useFakeAttack": true,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                2,
+                1000,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "enemyType": 1,
+            "btPath": "BT/BOSSBT/73011/BOSSBT_73011.bt",
+            "supressGroup": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "소원의 대가·거장",
+            "weakWeaponTag": 62
+        },
+        {
+            "id": 73014,
+            "enemyCamp": 1099,
+            "duty": 1,
+            "skillNormalAttack": 73014101,
+            "skillTalent": 73011801,
+            "skillTalentExtra": [
+                6151501,
+                910000012,
+                73014201
+            ],
+            "aiList": [
+                73014
+            ],
+            "rank": 3,
+            "propertyGroup": 208701,
+            "name": "소원의 대가·燎原",
+            "joke": "도시 전설에 따르면, 이 기계인형은 가끔 서약 대사를 재생하기도 한다.",
+            "trapDescription": "",
+            "description": "수수께끼의 제조사에서 온 차세대 훈련용 기계인형. 지휘관에게 새로운 시련을 주기 위해 스스로 시스템을 업그레이드했다. 이번에는 화려하게 데뷔할 것이다!",
+            "textIndex": [
+                50,
+                13,
+                14
+            ],
+            "characterPic": "TrainingBot",
+            "modelCode": 73014,
+            "occupySize": 3,
+            "aiOrder": 550,
+            "useFakeAttack": true,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                2,
+                1000,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "enemyType": 1,
+            "btPath": "BT/BOSSBT/73011/BOSSBT_73011.bt",
+            "weakTag": "1",
+            "supressGroup": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "소원의 대가·燎原",
+            "weakWeaponTag": 38
+        },
+        {
+            "id": 73015,
+            "enemyCamp": 1099,
+            "duty": 1,
+            "skillNormalAttack": 73015101,
+            "skillTalent": 73011801,
+            "skillTalentExtra": [
+                6151501,
+                910000012,
+                73015201
+            ],
+            "aiList": [
+                73015
+            ],
+            "rank": 3,
+            "propertyGroup": 208701,
+            "name": "소원의 대가·산성비",
+            "joke": "비범한 기계인형. 이번 업그레이드로 피해 등급이 SSS에 도달했다.",
+            "trapDescription": "",
+            "description": "수수께끼의 제조사에서 온 차세대 훈련용 기계인형. 지휘관에게 시련을 주기 위해 스스로 시스템을 업그레이드했다. 이번에는 화력을 총동원할 것이다!",
+            "textIndex": [
+                50,
+                13,
+                14
+            ],
+            "characterPic": "TrainingBot",
+            "modelCode": 73015,
+            "occupySize": 3,
+            "aiOrder": 550,
+            "useFakeAttack": true,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                2,
+                1000,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "enemyType": 1,
+            "btPath": "BT/BOSSBT/73011/BOSSBT_73011.bt",
+            "weakTag": "4",
+            "supressGroup": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "소원의 대가·산성비",
+            "weakWeaponTag": 44
+        },
+        {
+            "id": 73016,
+            "enemyCamp": 1099,
+            "duty": 1,
+            "skillNormalAttack": 73016101,
+            "skillTalent": 73011801,
+            "skillTalentExtra": [
+                6151501,
+                910000012,
+                73016201
+            ],
+            "aiList": [
+                73016
+            ],
+            "rank": 3,
+            "propertyGroup": 208701,
+            "name": "소원의 대가·벼락",
+            "joke": "전력만 유지된다면, 한 번에 13년 후의 수리 계획까지 작성할 수 있다.",
+            "trapDescription": "",
+            "description": "수수께끼의 제조사에서 온 차세대 훈련용 기계인형. 지휘관에게 새로운 시련을 주기 위해 스스로 시스템을 업그레이드했다. 이번에는 다시 정상에 오를 것이다!",
+            "textIndex": [
+                50,
+                13,
+                14
+            ],
+            "characterPic": "TrainingBot",
+            "modelCode": 73016,
+            "occupySize": 3,
+            "aiOrder": 550,
+            "useFakeAttack": true,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                2,
+                1000,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "enemyType": 1,
+            "btPath": "BT/BOSSBT/73011/BOSSBT_73011.bt",
+            "weakTag": "2",
+            "supressGroup": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "소원의 대가·벼락",
+            "weakWeaponTag": 14
+        },
+        {
+            "id": 73017,
+            "enemyCamp": 1099,
+            "duty": 1,
+            "skillNormalAttack": 73017101,
+            "skillTalent": 73011801,
+            "skillTalentExtra": [
+                6151501,
+                910000012,
+                73017201
+            ],
+            "aiList": [
+                73017
+            ],
+            "rank": 3,
+            "propertyGroup": 208701,
+            "name": "소원의 대가·두려움 없음",
+            "joke": "이번에는 네가 도전자다!",
+            "trapDescription": "",
+            "description": "수수께끼의 제조사에서 온 차세대 훈련용 기계인형. 지휘관에게 새로운 시련을 주기 위해 스스로 시스템을 업그레이드했다. 이번에는 자신을 증명할 것이다!",
+            "textIndex": [
+                50,
+                13,
+                14
+            ],
+            "characterPic": "TrainingBot",
+            "modelCode": 73017,
+            "occupySize": 3,
+            "aiOrder": 550,
+            "useFakeAttack": true,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                2,
+                1000,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "enemyType": 1,
+            "btPath": "BT/BOSSBT/73011/BOSSBT_73011.bt",
+            "supressGroup": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "소원의 대가·두려움 없음",
+            "weakWeaponTag": 62
+        },
+        {
             "id": 206441,
             "enemyCamp": 1004,
             "duty": 1,
@@ -30499,7 +31787,7 @@
         {
             "id": 206852,
             "enemyCamp": 1100,
-            "duty": 1,
+            "duty": 10,
             "skillNormalAttack": 6852101,
             "skillActive": 6852102,
             "skillActiveExtra": [
@@ -31158,7 +32446,7 @@
             "modelCode": 68731,
             "moveCode": 1,
             "occupySize": 1,
-            "aiOrder": 100,
+            "aiOrder": 50,
             "useFakeAttack": true,
             "shieldType": 2,
             "attackType": 1,
@@ -31205,7 +32493,7 @@
             "modelCode": 68731,
             "moveCode": 1,
             "occupySize": 1,
-            "aiOrder": 100,
+            "aiOrder": 60,
             "useFakeAttack": true,
             "shieldType": 2,
             "attackType": 1,
@@ -31244,7 +32532,7 @@
             "modelCode": 68731,
             "moveCode": 1,
             "occupySize": 1,
-            "aiOrder": 100,
+            "aiOrder": 70,
             "useFakeAttack": true,
             "shieldType": 2,
             "attackType": 1,

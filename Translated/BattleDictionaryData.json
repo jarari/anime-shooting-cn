@@ -1,6 +1,81 @@
 ﻿{
     "data": [
         {
+            "id": 21100,
+            "name": "운빙",
+            "description": "중립 유닛. 소환자 공격력의 <color=#f26c1c>200%</color>를 계승한다. 피격 후, 공격자의 반대 방향으로 장애물에 부딪힐 때까지 돌진한다. 피격당하지 않으면 랜덤 대상의 방향으로 돌진한다. 장애물과 충돌 시, 자신 <color=#f26c1c>주변 반경 3칸 내</color>의 모든 대상에게 공격력의 <color=#f26c1c>300%</color>만큼 광역 <color=#42cce0>빙결 피해</color>를 가하고 <color=#3487e0>{0}</color>을(를) 부여한다(<color=#f26c1c>1</color>턴간 지속). 다른 <color=#3487e0>운빙</color>과 충돌 시 <color=#3487e0>{1}</color>(으)로 합성된다. 자신은 충돌 후 사망한다."
+        },
+        {
+            "id": 21101,
+            "name": "운빙",
+            "description": "중립 유닛. 소환자 공격력의 <color=#f26c1c>200%</color>를 계승한다. 피격 후, 공격자의 반대 방향으로 장애물에 부딪힐 때까지 돌진한다. 피격당하지 않으면 랜덤 대상의 방향으로 돌진한다. 장애물과 충돌 시, 자신 <color=#f26c1c>주변 반경 3칸 내</color>의 모든 대상에게 공격력의 <color=#f26c1c>300%</color>만큼 광역 <color=#42cce0>빙결 피해</color>를 가하고 <color=#3487e0>{0}</color>을(를) 부여한다(<color=#f26c1c>1</color>턴간 지속). 다른 <color=#3487e0>운빙</color>과 충돌 시 <color=#3487e0>{1}</color>(으)로 합성된다. 자신은 <color=#f26c1c>3</color>회 충돌 후 사망한다."
+        },
+        {
+            "id": 21102,
+            "name": "대운빙",
+            "description": "중립 유닛. 소환자 공격력의 <color=#f26c1c>300%</color>를 계승한다. 피격 후, 공격자의 반대 방향으로 장애물에 부딪힐 때까지 돌진한다. 피격당하지 않으면 랜덤 대상의 방향으로 돌진한다. 장애물과 충돌 시, 자신 <color=#f26c1c>주변 반경 3칸 내</color>의 모든 대상에게 공격력의 <color=#f26c1c>300%</color>만큼 광역 <color=#42cce0>빙결 피해</color>를 가하고 <color=#3487e0>{0}</color>을(를) 부여한다(<color=#f26c1c>1</color>턴간 지속). 자신은 충돌 후 사망한다."
+        },
+        {
+            "id": 21103,
+            "name": "대운빙",
+            "description": "아군 유닛. 소환자 공격력의 <color=#f26c1c>400%</color>를 계승한다. 행동 종료 시, 랜덤 적의 방향으로 돌진한다. 장애물과 충돌 시, 자신 <color=#f26c1c>주변 반경 3칸 내</color>의 모든 대상에게 공격력의 <color=#f26c1c>300%</color>만큼 광역 <color=#42cce0>빙결 피해</color>를 가하고 <color=#3487e0>{0}</color>을(를) 부여한다(<color=#f26c1c>1</color>턴간 지속). 자신은 <color=#f26c1c>3</color>회 충돌 후 사망한다."
+        },
+        {
+            "id": 21104,
+            "name": "서리 침식 지형",
+            "description": "해당 지형 위의 적을 공격 시 치명타율 <color=#f26c1c>30%</color> 증가, 받는 빙결 피해 <color=#f26c1c>30%</color> 증가. 행동 종료 후 해당 구역에 머무는 적에게 <color=#3487e0>{0}</color> 부여, <color=#f26c1c>2</color>턴간 지속. 해당 구역의 적에게 <color=#42cce0>빙결</color> 약점 부여. 빙결계 지형."
+        },
+        {
+            "id": 21200,
+            "name": "화세",
+            "description": "모든 아군이 연소 피해 또는 턴외 피해를 가하면 에너지 <color=#f26c1c>1</color>점를 획득한다."
+        },
+        {
+            "id": 21210,
+            "name": "염옥 I",
+            "description": "구역 내의 적에게 <color=#e67129>연소</color> 약점을 부여하고, 받는 연소 피해 <color=#f26c1c>25%</color> 증가, 방어력 <color=#f26c1c>15%</color> 감소. 행동 종료 후 구역에 머무르는 적에게 <color=#3487e0>{0}</color> 부여. 구역 내의 아군에게 가하는 피해 <color=#f26c1c>25%</color> 증가, 방어력 <color=#f26c1c>15%</color> 증가. 해당 인형이 연소 속성일 경우, 공격력 추가 <color=#f26c1c>25%</color> 증가, 가하는 연소 피해 추가 <color=#f26c1c>15%</color> 증가. 연소계 지형."
+        },
+        {
+            "id": 21213,
+            "name": "염겁천운",
+            "description": "필드의 모든 적에게 공격력의 <color=#f26c1c>500%</color>만큼 광역 <color=#e67129>연소 피해</color>를 가하고, 추가로 대상에게 <color=#3487e0>{0}</color> <color=#f26c1c>스택 수x0.3%</color>만큼 대상 최대 생명력의 고정 피해를 가한다."
+        },
+        {
+            "id": 21220,
+            "name": "염옥 II",
+            "description": "구역 내의 적에게 <color=#e67129>연소</color> 약점을 부여하고, 받는 연소 피해 <color=#f26c1c>45%</color> 증가, 방어력 <color=#f26c1c>30%</color> 감소. 행동 종료 후 구역에 머무르는 적에게 <color=#3487e0>{0}</color> 부여. 구역 내의 아군에게 가하는 피해 <color=#f26c1c>45%</color> 증가, 방어력 <color=#f26c1c>30%</color> 증가. 해당 인형이 연소 속성일 경우, 공격력 추가 <color=#f26c1c>45%</color> 증가, 가하는 연소 피해 추가 <color=#f26c1c>30%</color> 증가. 연소계 지형."
+        },
+        {
+            "id": 21230,
+            "name": "염옥 III",
+            "description": "구역 내의 적에게 <color=#e67129>연소</color> 약점을 부여하고, 받는 연소 피해 <color=#f26c1c>75%</color> 증가, 방어력 <color=#f26c1c>45%</color> 감소. 행동 종료 후 구역에 머무르는 적에게 <color=#3487e0>{0}</color> 부여. 구역 내의 아군에게 가하는 피해 <color=#f26c1c>75%</color> 증가, 방어력 <color=#f26c1c>45%</color> 증가. 해당 인형이 연소 속성일 경우, 공격력 추가 <color=#f26c1c>75%</color> 증가, 가하는 연소 피해 추가 <color=#f26c1c>45%</color> 증가. 연소계 지형."
+        },
+        {
+            "id": 21300,
+            "name": "독성 알",
+            "description": "각종 소환물을 사용해 공격하며, 자신의 소환물은 공격 후 즉시 소멸한다. 피해, 제어 및 명령 금지 효과에 면역."
+        },
+        {
+            "id": 21301,
+            "name": "강화된 부패늪",
+            "description": "행동 종료 후 구역에 머무르는 적에게 효과 부여자의 공격력 <color=#f26c1c>20%</color>만큼 고정 피해를 가한다. 구역 내의 적에게 <color=#8679e8>산성</color> 약점 부여. 매 턴 시작 시 <color=#3487e0>부패늪</color>은 각 방향으로 <color=#f26c1c>1</color>칸씩 확산된다. 산성계 지형."
+        },
+        {
+            "id": 21302,
+            "name": "침식",
+            "description": "대상에게 공격력의 <color=#f26c1c>200%</color>만큼 단일 <color=#8679e8>산성 피해</color>를 가한다."
+        },
+        {
+            "id": 21303,
+            "name": "가시혹",
+            "description": "소환자 최대 생명력의 <color=#f26c1c>20%</color>를 계승하고, 공격 또는 이동이 불가. <color=#8679e8>산성 피해</color>를 받으면 자신이 받은 피해량의 <color=#f26c1c>100%</color>만큼 소환자에게 고정 피해를 가한다."
+        },
+        {
+            "id": 21401,
+            "name": "수증기 농도",
+            "description": "수증기 농도가 <color=#f26c1c>60</color>에 도달하면 전체턴 종료 시, 모든 유닛이 자신 초기 최대 생명력의 <color=#f26c1c>15%</color>만큼 고정 피해를 받는다.\n수증기 농도가 <color=#f26c1c>120</color>에 도달하면 모든 유닛의 최대 생명력이 <color=#f26c1c>30%</color> 감소한다.\n수증기 농도가 <color=#f26c1c>180</color>에 도달하면 모든 유닛의 방어력이 <color=#f26c1c>30%</color> 감소하고 공격력이 <color=#f26c1c>30%</color> 증가한다."
+        },
+        {
             "id": 51015,
             "name": "소각",
             "description": "타일 위 적 유닛에게 연소 약점을 부여한다. 이 타일 위에서 행동을 마친 적 유닛에게 <color=#3487e0>{0}</color>와 <color=#3487e0>{1}</color>를 2턴간 부여한다. 연소계 타일."
@@ -949,6 +1024,46 @@
             "id": 900246,
             "name": "취침 전 몸풀기",
             "description": "실제 효과는 일반 공격 <color=#3487e0>취침 전 준비</color>와 동일하며, 피해 계수가 <color=#f26c1c>130%</color>로 증가한다. 일반 공격 <color=#3487e0>취침 전 준비</color>로 간주된다."
+        },
+        {
+            "id": 900247,
+            "name": "액체질소 독침",
+            "description": "<color=#f26c1c>반경 4칸 내</color>의 적에게 <color=#3487e0>{1}</color>을(를) 부여한다. 범위 내의 적이 피격 전 <color=#3487e0>{0}</color>을(를) 보유하지 않았다면, 앨바 공격력의 <color=#f26c1c>500%</color>만큼 생명력을 차감하여 동일한 양의 <color=#3487e0>{0}</color>으로 전환한다. 생명력은 최대 <color=#f26c1c>1</color>점까지 차감되며, 전체턴마다 유닛당 최대 <color=#f26c1c>1</color>회 발동한다. 동시에 최대 <color=#f26c1c>1</color>개만 존재할 수 있다. 범위 내의 적 실드가 파괴되었을 때 앨바 <color=#f26c1c>주변 반경 8칸 내</color>에 있다면, 앨바가 대상을 <color=#f26c1c>1</color>회 공격하여 해당 실드의 누적 흡수량 <color=#f26c1c>40%</color>만큼 <color=#42cce0>빙결 피해</color>를 가한다."
+        },
+        {
+            "id": 900248,
+            "name": "액체질소 독침",
+            "description": "<color=#f26c1c>반경 4칸 내</color>의 적에게 <color=#3487e0>{1}</color>을(를) 부여한다. 범위 내의 적이 피격 전 <color=#3487e0>{0}</color>을(를) 보유하지 않았다면, 앨바 공격력의 <color=#f26c1c>500%</color>만큼 생명력을 차감하여 동일한 양의 <color=#3487e0>{0}</color>으로 전환한다. 생명력은 최대 <color=#f26c1c>1</color>점까지 차감되며, 전체턴마다 유닛당 최대 <color=#f26c1c>1</color>회 발동한다. 동시에 최대 <color=#f26c1c>1</color>개만 존재할 수 있다. 범위 내의 적 실드가 파괴되었을 때 앨바 <color=#f26c1c>주변 반경 8칸 내</color>에 있다면, 앨바가 대상을 <color=#f26c1c>1</color>회 공격하여 해당 실드의 누적 흡수량 <color=#f26c1c>60%</color>만큼 <color=#42cce0>빙결 피해</color>를 가한다."
+        },
+        {
+            "id": 900249,
+            "name": "협력 방어 구조물",
+            "description": "소환물. 바틸다의 초기 생명력 <color=#f26c1c>100%</color>, 초기 방어력 <color=#f26c1c>80%</color>, 초기 공격력 <color=#f26c1c>80%</color>를 계승한다. <color=#f26c1c>반경 3칸 내</color>의 아군과 엄폐물을 보호할 수 있다."
+        },
+        {
+            "id": 900250,
+            "name": "협력 방어 구조물",
+            "description": "소환물. 바틸다의 초기 생명력 <color=#f26c1c>100%</color>, 초기 방어력 <color=#f26c1c>80%</color>, 초기 공격력 <color=#f26c1c>80%</color>를 계승한다. <color=#f26c1c>반경 5칸 내</color>의 아군과 엄폐물을 보호할 수 있다."
+        },
+        {
+            "id": 900251,
+            "name": "협력 방어 구조물",
+            "description": "소환물. 바틸다의 초기 생명력 <color=#f26c1c>100%</color>, 초기 방어력 <color=#f26c1c>100%</color>, 초기 공격력 <color=#f26c1c>100%</color>를 계승한다. <color=#f26c1c>반경 5칸 내</color>의 아군과 엄폐물을 보호할 수 있다."
+        },
+        {
+            "id": 900252,
+            "name": "협력 전투 구조물",
+            "description": "소환물. 바틸다의 초기 생명력 <color=#f26c1c>100%</color>, 초기 방어력 <color=#f26c1c>80%</color>, 초기 공격력 <color=#f26c1c>80%</color>를 계승한다. <color=#f26c1c>반경 3칸 내</color> 가장 가까운 적에게 피해를 줄 수 있다."
+        },
+        {
+            "id": 900253,
+            "name": "협력 전투 구조물",
+            "description": "소환물. 바틸다의 초기 생명력 <color=#f26c1c>100%</color>, 초기 방어력 <color=#f26c1c>80%</color>, 초기 공격력 <color=#f26c1c>80%</color>를 계승한다. <color=#f26c1c>반경 5칸 내</color> 가장 가까운 적에게 피해를 줄 수 있다."
+        },
+        {
+            "id": 900254,
+            "name": "협력 전투 구조물",
+            "description": "소환물. 바틸다의 초기 생명력 <color=#f26c1c>100%</color>, 초기 방어력 <color=#f26c1c>100%</color>, 초기 공격력 <color=#f26c1c>100%</color>를 계승한다. <color=#f26c1c>반경 5칸 내</color> 가장 가까운 적에게 피해를 줄 수 있다."
         },
         {
             "id": 901031,
