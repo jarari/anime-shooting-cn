@@ -2733,7 +2733,7 @@
                 0,
                 0
             ],
-            "nameOnBar": "캐롤릭",
+            "nameOnBar": "캐롤릭K-09",
             "nonMultimove": true,
             "showPotential": true,
             "guardRadius": 300,
@@ -2894,8 +2894,7 @@
             ],
             "skillTalentExtra": [
                 10010811,
-                100105011,
-                2068001
+                100105011
             ],
             "rank": 3,
             "propertyGroup": 209203,
@@ -2936,7 +2935,7 @@
                 0,
                 0
             ],
-            "nameOnBar": "캐롤릭",
+            "nameOnBar": "캐롤릭K-09",
             "nonMultimove": true,
             "showPotential": true,
             "guardRadius": 300,
@@ -2944,6 +2943,47 @@
             "defaultClothId": 1100100,
             "weakWeaponTag": 32,
             "weaponTag": 16
+        },
+        {
+            "id": 2069,
+            "enemyCamp": 1099,
+            "rank": 1,
+            "propertyGroup": 209202,
+            "name": "보이마스티나",
+            "joke": "",
+            "trapDescription": "",
+            "description": "",
+            "modelCode": 5066,
+            "moveCode": 27,
+            "occupySize": 1,
+            "aiOrder": 200,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "enemyType": 2,
+            "btPath": "BT/MainBT/MainBT_0.bt",
+            "supressGroup": [
+                6,
+                4,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "보이마스티나",
+            "nonMultimove": true,
+            "showPotential": true,
+            "guardRadius": 500,
+            "guardRadiusShow": 1
         },
         {
             "id": 6141,
@@ -7796,6 +7836,126 @@
             "weakWeaponTag": 14
         },
         {
+            "id": 6777,
+            "enemyCamp": 1100,
+            "duty": 1,
+            "skillNormalAttack": 6777101,
+            "skillActive": 6777401,
+            "skillActiveExtra": [
+                6777501,
+                6777601
+            ],
+            "skillTalentExtra": [
+                67775011,
+                6777801,
+                67778021,
+                80000002,
+                6151501
+            ],
+            "aiList": [
+                677701,
+                677702
+            ],
+            "dzAiList": [
+                611002
+            ],
+            "rank": 3,
+            "propertyGroup": 209701,
+            "name": "그로자?",
+            "joke": "익숙한 얼굴, 낯선 자태. 다가온 것은 대체 누구인가?",
+            "trapDescription": "",
+            "description": "수수께끼의 적대 인형, 뛰어난 지휘 능력을 지녔습니다. 소체 외형은 엘모호의 그로자와 매우 흡사하면서, 여러 모듈의 성능을 강화한 것 같습니다.",
+            "textIndex": [
+                13,
+                19,
+                32
+            ],
+            "characterPic": "BlackGroza",
+            "modelCode": 6776,
+            "moveCode": 11,
+            "occupySize": 1,
+            "aiOrder": 50,
+            "useFakeAttack": true,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                2,
+                1000,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "dzOpenBattle": 6776101,
+            "btPath": "BT/BOSSBT/6777/BOSSBT_6777.bt",
+            "weakTag": "3,5",
+            "nameOnBar": "그로자?",
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 6
+        },
+        {
+            "id": 6778,
+            "enemyCamp": 1100,
+            "duty": 1,
+            "skillNormalAttack": 6778101,
+            "skillActive": 6777401,
+            "skillActiveExtra": [
+                6778501,
+                6778601
+            ],
+            "skillTalentExtra": [
+                67785011,
+                6778801,
+                67788021,
+                80000002,
+                6151501
+            ],
+            "aiList": [
+                677801,
+                677802
+            ],
+            "dzAiList": [
+                611002
+            ],
+            "rank": 3,
+            "propertyGroup": 209704,
+            "name": "그로자?",
+            "joke": "익숙한 얼굴, 낯선 자태. 다가온 것은 대체 누구인가?",
+            "trapDescription": "",
+            "description": "수수께끼의 적대 인형, 뛰어난 지휘 능력을 지녔습니다. 소체 외형은 엘모호의 그로자와 매우 흡사하면서, 여러 모듈의 성능을 강화한 것 같습니다.",
+            "textIndex": [
+                13,
+                19,
+                32
+            ],
+            "characterPic": "BlackGroza",
+            "modelCode": 6776,
+            "moveCode": 11,
+            "occupySize": 1,
+            "aiOrder": 50,
+            "useFakeAttack": true,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                2,
+                1000,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "dzOpenBattle": 6776101,
+            "btPath": "BT/BOSSBT/6778/BOSSBT_6778.bt",
+            "weakTag": "3,5",
+            "nameOnBar": "그로자?",
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 6
+        },
+        {
             "id": 6781,
             "enemyCamp": 1099,
             "duty": 1,
@@ -8009,18 +8169,31 @@
             "id": 6787,
             "enemyCamp": 1010,
             "duty": 1,
+            "skillNormalAttack": 6787101,
+            "skillActive": 6787201,
+            "skillTalent": 6787801,
+            "skillActiveExtra": [
+                6787301,
+                6787401,
+                6787501
+            ],
+            "skillTalentExtra": [
+                6151501,
+                910000012,
+                6787901
+            ],
             "aiList": [
-                677301
+                678701
             ],
             "dzAiList": [
                 611002
             ],
             "rank": 3,
-            "propertyGroup": 208901,
+            "propertyGroup": 209603,
             "name": "이그라",
-            "joke": "얼마나 오랫동안 벽에 걸려 있었는지는 모릅니다. 족쇄가 느슨해지는 순간, 억눌려 있던 광기가 한순간에 뿜어져 나오겠죠.",
+            "joke": "别轻易惹怒一头护崽的母狮。",
             "trapDescription": "",
-            "description": "금속 소체와 무장 기계를 결합한 생산품. 이름 모를 지하 연구소에서 비밀리에 개발한 제3세대 인형의 프로토타입입니다. 흉측한 촉수는 각종 무기를 휘두르며 적에게 치명상을 입힐 기회를 노립니다.",
+            "description": "由吉拉尔集团设计，专为军事作战而研发的“最强”三代人形。但事实上，连研发者也不清楚，她体内究竟蕴含着多么强大的力量。",
             "textIndex": [
                 13,
                 14
@@ -8028,7 +8201,7 @@
             "characterPic": "NeedleGalaxy03",
             "modelCode": 6787,
             "moveCode": 1,
-            "occupySize": 3,
+            "occupySize": 5,
             "aiOrder": 50,
             "useFakeAttack": true,
             "shieldType": 1,
@@ -8044,20 +8217,20 @@
             "idleType": 1,
             "enemyType": 1,
             "dzOpenBattle": 6110101,
-            "btPath": "BT/BOSSBT/6784/BOSSBT_ NeedleGalaxy01.bt",
-            "weakTag": "2,3,1",
+            "btPath": "BT/BOSSBT/6787/BOSSBT_NeedleGalaxy03.bt",
+            "weakTag": "5",
             "supressGroup": [
+                5,
+                6,
+                6,
                 4,
-                2,
-                5,
-                5,
-                3,
+                6,
                 0
             ],
             "nameOnBar": "이그라",
             "guardRadius": 500,
             "guardRadiusShow": 1,
-            "weakWeaponTag": 42
+            "weakWeaponTag": 28
         },
         {
             "id": 6793,
@@ -13661,6 +13834,59 @@
             "weakWeaponTag": 62
         },
         {
+            "id": 6980,
+            "enemyCamp": 1005,
+            "duty": 1,
+            "skillTalent": 69781101,
+            "skillTalentExtra": [
+                910000023
+            ],
+            "rank": 1,
+            "propertyGroup": 208905,
+            "name": "束缚怪",
+            "joke": "재배와 방어, 어느 것 하나 부족함 없지.",
+            "trapDescription": "",
+            "description": "농업용 자동 무인기를 개조하여 만든 방어 기계. 첨단 재배 기술을 탑재했으며 적을 상대하는 데도 일가견이 있습니다.",
+            "textIndex": [
+                1,
+                7,
+                28
+            ],
+            "characterPic": "ProfFertilizer",
+            "modelCode": 6501,
+            "moveCode": 4,
+            "occupySize": 1,
+            "aiOrder": 560,
+            "shieldType": 1,
+            "attackType": 2,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 2,
+            "displacement": 1,
+            "dzOpenBattle": 6501101,
+            "btPath": "BT/MainBT/69781/MainBT_69781.bt",
+            "weakTag": "1,3",
+            "supressGroup": [
+                3,
+                1,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "배양학자",
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 12,
+            "weakMap": 65013
+        },
+        {
             "id": 7001,
             "enemyCamp": 1099,
             "duty": 1,
@@ -14832,17 +15058,18 @@
                 910000011,
                 910000013,
                 910000010,
-                7028301,
-                7028401
+                7028401,
+                910000001,
+                80000002
             ],
             "rank": 1,
             "propertyGroup": 300801,
             "name": "생태 장치·현기증 안개",
-            "joke": "성질 완전 더러워. 툭하면 폭발해.",
-            "trapDescription": "암류 잔류",
-            "description": "성격이 괴팍하고 사나우며 혼자 있는 것을 좋아합니다. 최대한 방해하지 않도록 하세요.",
+            "joke": "当你觉得头晕，可能是昨晚喝多了。",
+            "trapDescription": "현기증 안개",
+            "description": "放置于污染区中，可小范围改变地形和环境的装置。内部装填了某种麻醉化学物质，当看到其释放大量雾气时，千万不要靠近。",
             "textIndex": [
-                17
+                52
             ],
             "characterPic": "StunDevice",
             "modelCode": 7028,
@@ -14884,17 +15111,18 @@
                 910000011,
                 910000013,
                 910000010,
-                7029301,
-                7029401
+                7029401,
+                910000001,
+                80000002
             ],
             "rank": 1,
             "propertyGroup": 300801,
             "name": "생태 장치·지체 얼음",
-            "joke": "성질 완전 더러워. 툭하면 폭발해.",
-            "trapDescription": "암류 잔류",
-            "description": "성격이 괴팍하고 사나우며 혼자 있는 것을 좋아합니다. 최대한 방해하지 않도록 하세요.",
+            "joke": "冰冰凉，很清爽。",
+            "trapDescription": "지체 얼음",
+            "description": "放置于污染区中，可小范围改变地形和环境的装置。内部装填了用于急速降温的化学物质，释放时能瞬间形成冰面。",
             "textIndex": [
-                17
+                52
             ],
             "characterPic": "FootRestrictionDevice",
             "modelCode": 7029,
@@ -15527,9 +15755,9 @@
             "rank": 2,
             "propertyGroup": 80210,
             "name": "진지형 작전 지휘 차량",
-            "joke": "지휘관 차량",
+            "joke": "여러분이 지휘를 못 알아듣는다면, 이 녀석도 포술을 좀 안다.",
             "trapDescription": "",
-            "description": "전장의 지휘 중추, 군대 전체의 생명선을 지탱한다.",
+            "description": "지휘관 차량",
             "textIndex": [
                 51
             ],
@@ -15563,6 +15791,50 @@
             "nameOnBar": "진지형 돌격차",
             "guardRadius": 300,
             "guardRadiusShow": 1
+        },
+        {
+            "id": 20210,
+            "enemyCamp": 1001,
+            "duty": 1,
+            "skillTalent": 2021001,
+            "rank": 1,
+            "propertyGroup": 200906,
+            "name": "탈주범 03",
+            "joke": "그저 조용한 짐꾼일 뿐.",
+            "trapDescription": "",
+            "description": "바랴그단을 따르면 미래가 없다. 몇몇 \"깨어난\" 자들은 이것을 눈치채고는 누구보다 빠르게 탈주하고 있습니다.",
+            "characterPic": "TargetMachineN1",
+            "modelCode": 62020,
+            "moveCode": 3,
+            "occupySize": 1,
+            "aiOrder": 150,
+            "useFakeAttack": true,
+            "shieldType": 2,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                1000,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "btPath": "BT/MainBT/MainBT_Gold2021.bt",
+            "weakTag": "1,4",
+            "supressGroup": [
+                4,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "탈주범 03",
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 40
         },
         {
             "id": 61101,
@@ -27224,6 +27496,166 @@
             "weakWeaponTag": 14
         },
         {
+            "id": 67771,
+            "enemyCamp": 1100,
+            "duty": 1,
+            "skillActive": 67773011,
+            "skillTalent": 6777301,
+            "dzAiList": [
+                611002
+            ],
+            "rank": 1,
+            "propertyGroup": 209702,
+            "name": "情感投射·黑",
+            "joke": "",
+            "trapDescription": "",
+            "description": "",
+            "characterPic": "BlackGroza",
+            "modelCode": 6776,
+            "moveCode": 11,
+            "occupySize": 1,
+            "aiOrder": 50,
+            "useFakeAttack": true,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                2,
+                1000,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "dzOpenBattle": 6776101,
+            "btPath": "BT/EnemyBT/EnemyBT_002+002.bt",
+            "weakTag": "3,5",
+            "nameOnBar": "情感投射·黑",
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 6
+        },
+        {
+            "id": 67772,
+            "enemyCamp": 1100,
+            "duty": 1,
+            "skillActive": 67773022,
+            "skillTalent": 6777302,
+            "dzAiList": [
+                611002
+            ],
+            "rank": 1,
+            "propertyGroup": 209703,
+            "name": "情感投射·白",
+            "joke": "",
+            "trapDescription": "",
+            "description": "",
+            "characterPic": "BlackGroza",
+            "modelCode": 6776,
+            "moveCode": 11,
+            "occupySize": 1,
+            "aiOrder": 50,
+            "useFakeAttack": true,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                2,
+                1000,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "dzOpenBattle": 6776101,
+            "btPath": "BT/EnemyBT/EnemyBT_001+001.bt",
+            "weakTag": "3,5",
+            "nameOnBar": "情感投射·白",
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 6
+        },
+        {
+            "id": 67781,
+            "enemyCamp": 1100,
+            "duty": 1,
+            "skillActive": 67783011,
+            "skillTalent": 6778301,
+            "dzAiList": [
+                611002
+            ],
+            "rank": 1,
+            "propertyGroup": 209705,
+            "name": "情感投射·黑",
+            "joke": "",
+            "trapDescription": "",
+            "description": "",
+            "characterPic": "BlackGroza",
+            "modelCode": 6776,
+            "moveCode": 11,
+            "occupySize": 1,
+            "aiOrder": 50,
+            "useFakeAttack": true,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                2,
+                1000,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "dzOpenBattle": 6776101,
+            "btPath": "BT/EnemyBT/EnemyBT_002+002.bt",
+            "weakTag": "3,5",
+            "nameOnBar": "情感投射·黑",
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 6
+        },
+        {
+            "id": 67782,
+            "enemyCamp": 1100,
+            "duty": 1,
+            "skillActive": 67783022,
+            "skillTalent": 6778302,
+            "dzAiList": [
+                611002
+            ],
+            "rank": 1,
+            "propertyGroup": 209706,
+            "name": "情感投射·白",
+            "joke": "",
+            "trapDescription": "",
+            "description": "",
+            "characterPic": "BlackGroza",
+            "modelCode": 6776,
+            "moveCode": 11,
+            "occupySize": 1,
+            "aiOrder": 50,
+            "useFakeAttack": true,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                2,
+                1000,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "dzOpenBattle": 6776101,
+            "btPath": "BT/EnemyBT/EnemyBT_001+001.bt",
+            "weakTag": "3,5",
+            "nameOnBar": "情感投射·白",
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 6
+        },
+        {
             "id": 67791,
             "enemyCamp": 1099,
             "duty": 1,
@@ -27727,18 +28159,33 @@
             "id": 67871,
             "enemyCamp": 1010,
             "duty": 1,
+            "skillNormalAttack": 6787101,
+            "skillActive": 6787201,
+            "skillTalent": 6787601,
+            "skillActiveExtra": [
+                6787301,
+                6787401,
+                6787501
+            ],
+            "skillTalentExtra": [
+                6787701,
+                6787801,
+                6151501,
+                910000012,
+                6787911
+            ],
             "aiList": [
-                677301
+                678701
             ],
             "dzAiList": [
                 611002
             ],
             "rank": 3,
-            "propertyGroup": 208901,
+            "propertyGroup": 209604,
             "name": "이그라",
-            "joke": "얼마나 오랫동안 벽에 걸려 있었는지는 모릅니다. 족쇄가 느슨해지는 순간, 억눌려 있던 광기가 한순간에 뿜어져 나오겠죠.",
+            "joke": "别轻易惹怒一头护崽的母狮。",
             "trapDescription": "",
-            "description": "금속 소체와 무장 기계를 결합한 생산품. 이름 모를 지하 연구소에서 비밀리에 개발한 제3세대 인형의 프로토타입입니다. 흉측한 촉수는 각종 무기를 휘두르며 적에게 치명상을 입힐 기회를 노립니다.",
+            "description": "由吉拉尔集团设计，专为军事作战而研发的“最强”三代人形。但事实上，连研发者也不清楚，她体内究竟蕴含着多么强大的力量。",
             "textIndex": [
                 13,
                 14
@@ -27746,7 +28193,7 @@
             "characterPic": "NeedleGalaxy03",
             "modelCode": 6787,
             "moveCode": 1,
-            "occupySize": 3,
+            "occupySize": 5,
             "aiOrder": 50,
             "useFakeAttack": true,
             "shieldType": 1,
@@ -27762,20 +28209,20 @@
             "idleType": 1,
             "enemyType": 1,
             "dzOpenBattle": 6110101,
-            "btPath": "BT/BOSSBT/6784/BOSSBT_ NeedleGalaxy01.bt",
-            "weakTag": "2,3,1",
+            "btPath": "BT/BOSSBT/6787/BOSSBT_NeedleGalaxy03.bt",
+            "weakTag": "5",
             "supressGroup": [
+                5,
+                6,
+                6,
                 4,
-                2,
-                5,
-                5,
-                3,
+                6,
                 0
             ],
             "nameOnBar": "이그라",
             "guardRadius": 500,
             "guardRadiusShow": 1,
-            "weakWeaponTag": 42
+            "weakWeaponTag": 28
         },
         {
             "id": 67901,
@@ -27798,7 +28245,7 @@
             ],
             "characterPic": "StormHunter",
             "modelCode": 6790,
-            "moveCode": 1,
+            "moveCode": 11,
             "occupySize": 1,
             "aiOrder": 75,
             "useFakeAttack": true,
@@ -27854,7 +28301,7 @@
             ],
             "characterPic": "StormHunter",
             "modelCode": 6790,
-            "moveCode": 1,
+            "moveCode": 11,
             "occupySize": 1,
             "aiOrder": 75,
             "useFakeAttack": true,
@@ -27910,7 +28357,7 @@
             ],
             "characterPic": "StormHunter",
             "modelCode": 6790,
-            "moveCode": 1,
+            "moveCode": 11,
             "occupySize": 1,
             "aiOrder": 75,
             "useFakeAttack": true,
@@ -27963,9 +28410,9 @@
             ],
             "characterPic": "PrecisionPulse",
             "modelCode": 6791,
-            "moveCode": 1,
+            "moveCode": 11,
             "occupySize": 1,
-            "aiOrder": 75,
+            "aiOrder": 100,
             "useFakeAttack": true,
             "shieldType": 1,
             "attackType": 1,
@@ -28016,9 +28463,9 @@
             ],
             "characterPic": "PrecisionPulse",
             "modelCode": 6791,
-            "moveCode": 1,
+            "moveCode": 11,
             "occupySize": 1,
-            "aiOrder": 75,
+            "aiOrder": 100,
             "useFakeAttack": true,
             "shieldType": 1,
             "attackType": 1,
@@ -28072,9 +28519,9 @@
             ],
             "characterPic": "PrecisionPulse",
             "modelCode": 6791,
-            "moveCode": 1,
+            "moveCode": 11,
             "occupySize": 1,
-            "aiOrder": 75,
+            "aiOrder": 100,
             "useFakeAttack": true,
             "shieldType": 1,
             "attackType": 1,
@@ -28132,7 +28579,7 @@
             ],
             "characterPic": "BladeRunner",
             "modelCode": 6792,
-            "moveCode": 1,
+            "moveCode": 11,
             "occupySize": 1,
             "aiOrder": 250,
             "useFakeAttack": true,
@@ -28193,7 +28640,7 @@
             ],
             "characterPic": "BladeRunner",
             "modelCode": 6792,
-            "moveCode": 1,
+            "moveCode": 11,
             "occupySize": 1,
             "aiOrder": 250,
             "useFakeAttack": true,
@@ -28254,7 +28701,7 @@
             ],
             "characterPic": "BladeRunner",
             "modelCode": 6792,
-            "moveCode": 1,
+            "moveCode": 11,
             "occupySize": 1,
             "aiOrder": 250,
             "useFakeAttack": true,
@@ -28933,6 +29380,78 @@
             "weakWeaponTag": 12
         },
         {
+            "id": 68563,
+            "enemyCamp": 1100,
+            "duty": 1,
+            "skillNormalAttack": 6851101,
+            "skillActive": 6851111,
+            "skillActiveExtra": [
+                6856201,
+                6856301,
+                6851401,
+                26856500
+            ],
+            "skillTalentExtra": [
+                6851500,
+                6851600,
+                6856300,
+                6151501,
+                80000002,
+                910000015
+            ],
+            "aiList": [
+                685604,
+                685605
+            ],
+            "dzAiList": [
+                685602,
+                685603
+            ],
+            "rank": 3,
+            "propertyGroup": 200905,
+            "name": "다츄어",
+            "joke": "무도회가 시작되었군요. 귀하의 활약을 기대하겠어요.",
+            "trapDescription": "",
+            "description": "완벽한 미소는 숙녀로서의 기본 소양. 물론 우아한 스텝과 유연한 전술도 빼놓을 수 없습니다.",
+            "textIndex": [
+                13,
+                32
+            ],
+            "characterPic": "Darture_default",
+            "modelCode": 6851,
+            "moveCode": 11,
+            "occupySize": 1,
+            "aiOrder": 50,
+            "useFakeAttack": true,
+            "shieldType": 2,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                2,
+                1000,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "dzOpenBattle": 6851101,
+            "btPath": "BT/BOSSBT/6856/BOSSBT_Darture_expand_41.bt",
+            "weakTag": "4,5",
+            "supressGroup": [
+                3,
+                5,
+                4,
+                7,
+                3,
+                0,
+                0
+            ],
+            "nameOnBar": "다츄어",
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 12
+        },
+        {
             "id": 68572,
             "enemyCamp": 1100,
             "duty": 1,
@@ -28975,6 +29494,81 @@
             "characterPic": "Darture_evo",
             "modelCode": 6852,
             "moveCode": 3,
+            "occupySize": 1,
+            "aiOrder": 50,
+            "useFakeAttack": true,
+            "shieldType": 2,
+            "attackType": 2,
+            "element": 1,
+            "beSupressedConfig": [
+                910000006,
+                2,
+                1000,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "enemyType": 1,
+            "dzOpenBattle": 6852101,
+            "btPath": "BT/BOSSBT/6857/BOSSBT_DartureMKII_hard.bt",
+            "weakTag": "4,5",
+            "supressGroup": [
+                3,
+                5,
+                3,
+                7,
+                3,
+                0,
+                0
+            ],
+            "nameOnBar": "다츄어",
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 12
+        },
+        {
+            "id": 68573,
+            "enemyCamp": 1100,
+            "duty": 1,
+            "skillNormalAttack": 6857101,
+            "skillActive": 6857102,
+            "skillActiveExtra": [
+                6852201,
+                6852301,
+                6857411,
+                6852511
+            ],
+            "skillTalentExtra": [
+                6852400,
+                6857500,
+                6852600,
+                6151501,
+                910000012,
+                910000101,
+                6852900,
+                910000015
+            ],
+            "aiList": [
+                685701,
+                685702
+            ],
+            "dzAiList": [
+                685701,
+                685702
+            ],
+            "rank": 3,
+            "propertyGroup": 200904,
+            "name": "다츄어",
+            "joke": "처벌은 이제 막 시작인걸요?",
+            "trapDescription": "",
+            "description": "숙녀의 우산 끝에서 치명적인 불꽃이 튀어오릅니다. 화염이 타오르면 전장의 풍경이 더 아름다워질 것입니다.",
+            "textIndex": [
+                13,
+                19
+            ],
+            "characterPic": "Darture_evo",
+            "modelCode": 6852,
+            "moveCode": 7,
             "occupySize": 1,
             "aiOrder": 50,
             "useFakeAttack": true,
@@ -30254,6 +30848,79 @@
         },
         {
             "id": 69761,
+            "enemyCamp": 1002,
+            "duty": 1,
+            "skillNormalAttack": 6976101,
+            "skillActive": 6976102,
+            "skillTalent": 69761501,
+            "skillActiveExtra": [
+                6976201,
+                6976301
+            ],
+            "skillTalentExtra": [
+                6976601,
+                910000012,
+                910000015,
+                6976001,
+                6976302,
+                69761701,
+                69761801,
+                69761901,
+                6151501
+            ],
+            "aiList": [
+                697601
+            ],
+            "dzAiList": [
+                697601
+            ],
+            "rank": 3,
+            "propertyGroup": 206405,
+            "name": "투모링커스·테러",
+            "joke": "생명을 가진 다기능 요새입니다.",
+            "trapDescription": "",
+            "description": "기생충이 연체동물과 융합하여 탄생한 부점. 겉모습은 단단한 껍질로 덮여 있고, 일부 신체 부위는 독립된 개체로 분화되어 모체의 영토 확장을 돕습니다. 그야말로 '1인 군단' 그 자체입니다.",
+            "textIndex": [
+                13,
+                7,
+                19
+            ],
+            "characterPic": "Crustacean02",
+            "modelCode": 6976,
+            "moveCode": 1,
+            "occupySize": 3,
+            "aiOrder": 50,
+            "useFakeAttack": true,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                1000,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "enemyType": 1,
+            "dzOpenBattle": 6976101,
+            "btPath": "BT/BOSSBT/6971/BOSSBT_Jiake_P2_6976.bt",
+            "weakTag": "1,4",
+            "supressGroup": [
+                4,
+                4,
+                3,
+                3,
+                0,
+                0
+            ],
+            "nameOnBar": "투모링커스·테러",
+            "guardRadius": 700,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 12
+        },
+        {
+            "id": 69762,
             "enemyCamp": 1002,
             "duty": 1,
             "skillNormalAttack": 6976101,
@@ -32424,6 +33091,100 @@
                 0
             ],
             "nameOnBar": "스킬 테스트 선봉병",
+            "guardRadius": 500,
+            "guardRadiusShow": 1
+        },
+        {
+            "id": 678711,
+            "enemyCamp": 1002,
+            "duty": 1,
+            "dzAiList": [
+                611002
+            ],
+            "rank": 1,
+            "propertyGroup": 116502,
+            "name": "“琥珀”",
+            "joke": "如果它没有爆开，也许适合捡回去当个沙袋。",
+            "trapDescription": "",
+            "description": "披覆鲜血的怪异个体，表皮比想象中坚韧得多。似乎并不具备主动攻击的能力，但是体内蕴藏的鲜血随时能侵染整片战场。",
+            "textIndex": [
+                51
+            ],
+            "characterPic": "BloodTumors",
+            "modelCode": 6789,
+            "occupySize": 1,
+            "aiOrder": 75,
+            "useFakeAttack": true,
+            "shieldType": 2,
+            "attackType": 2,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "btPath": "BT/MainBT/MainBT_0.bt",
+            "supressGroup": [
+                3,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "“琥珀”",
+            "guardRadius": 500,
+            "guardRadiusShow": 1
+        },
+        {
+            "id": 678712,
+            "enemyCamp": 1002,
+            "duty": 1,
+            "skillNormalAttack": 6788101,
+            "skillTalent": 6788201,
+            "dzAiList": [
+                611002
+            ],
+            "rank": 1,
+            "propertyGroup": 116701,
+            "name": "破壳者",
+            "joke": "这东西……需要晒太阳和浇水吗？",
+            "trapDescription": "",
+            "description": "受坍塌辐射影响严重变异，植物特征与动物特征参半的怪物。破坏力与生命力极强，轻而易举就能撕碎装甲。",
+            "textIndex": [
+                1
+            ],
+            "characterPic": "NeedleSummoned",
+            "modelCode": 6788,
+            "moveCode": 1,
+            "occupySize": 1,
+            "aiOrder": 75,
+            "useFakeAttack": true,
+            "shieldType": 2,
+            "attackType": 2,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "btPath": "BT/MainBT/MainBT_Summon6787701.bt",
+            "supressGroup": [
+                3,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "破壳者",
             "guardRadius": 500,
             "guardRadiusShow": 1
         },
@@ -38667,6 +39428,60 @@
             "weakWeaponTag": 62
         },
         {
+            "id": 2072012,
+            "enemyCamp": 1099,
+            "duty": 1,
+            "skillNormalAttack": 20720121,
+            "skillTalent": 20720122,
+            "skillTalentExtra": [
+                6151501,
+                910000012,
+                2072011201
+            ],
+            "aiList": [
+                2072011
+            ],
+            "rank": 3,
+            "propertyGroup": 601009,
+            "name": "치타",
+            "joke": "마스터는 방심하지 않았다, 회피 따윈 필요 없으니까.",
+            "trapDescription": "",
+            "description": "위험이 도사리는 오염 구역에서 수많은 시련을 거친 끝에, 전능 마스터는 이제 온갖 전투 기술을 완전히 익히고 싸움의 진의를 깨달았다.",
+            "textIndex": [
+                50,
+                13,
+                14
+            ],
+            "characterPic": "TrainingBot",
+            "modelCode": 7201,
+            "occupySize": 3,
+            "aiOrder": 550,
+            "useFakeAttack": true,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                1000,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "enemyType": 1,
+            "btPath": "BT/BOSSBT/2072011/BOSSBT_2072011.bt",
+            "supressGroup": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "만능 마스터",
+            "weakWeaponTag": 62
+        },
+        {
             "id": 2106442,
             "enemyCamp": 1004,
             "duty": 1,
@@ -39487,7 +40302,7 @@
                 10
             ],
             "characterPic": "ClukaySSR",
-            "modelCode": 5058,
+            "modelCode": 1052,
             "moveCode": 27,
             "occupySize": 1,
             "aiOrder": 200,
@@ -39546,7 +40361,7 @@
                 31
             ],
             "characterPic": "MishtySSR",
-            "modelCode": 5057,
+            "modelCode": 1051,
             "moveCode": 27,
             "occupySize": 1,
             "aiOrder": 200,
@@ -39605,7 +40420,7 @@
                 31
             ],
             "characterPic": "BiyocaSSR",
-            "modelCode": 5058,
+            "modelCode": 1045,
             "moveCode": 27,
             "occupySize": 1,
             "aiOrder": 200,
@@ -39664,7 +40479,7 @@
                 31
             ],
             "characterPic": "AndorisSSR",
-            "modelCode": 5058,
+            "modelCode": 1042,
             "moveCode": 27,
             "occupySize": 1,
             "aiOrder": 200,
@@ -51585,6 +52400,47 @@
             "weakMap": 61111
         },
         {
+            "id": 4300112,
+            "enemyCamp": 1099,
+            "duty": 1,
+            "skillActive": 43001121,
+            "skillTalent": 43001122,
+            "rank": 1,
+            "propertyGroup": 104003,
+            "name": "坍塌晶簇",
+            "joke": "",
+            "trapDescription": "",
+            "description": "",
+            "characterPic": "Crystals01",
+            "modelCode": 4300112,
+            "occupySize": 1,
+            "aiOrder": 50,
+            "useFakeAttack": true,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "btPath": "BT/EnemyBT/EnemyBT_002+007.bt",
+            "supressGroup": [
+                2,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "坍塌晶簇",
+            "guardRadius": 500,
+            "guardRadiusShow": 1
+        },
+        {
             "id": 6283401,
             "enemyCamp": 1002,
             "duty": 2,
@@ -51628,6 +52484,57 @@
             ],
             "nameOnBar": "벼슬두더지Ⅰ",
             "guardRadius": 300,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 12
+        },
+        {
+            "id": 6976201,
+            "duty": 1,
+            "skillNormalAttack": 6971041,
+            "skillTalent": 6971042,
+            "skillTalentExtra": [
+                69761044,
+                69761043,
+                69761042
+            ],
+            "rank": 1,
+            "propertyGroup": 206406,
+            "name": "뱀가시",
+            "joke": "뱀가시",
+            "trapDescription": "",
+            "description": "뱀가시",
+            "textIndex": [
+                1
+            ],
+            "characterPic": "Crustacean_Summon04",
+            "modelCode": 697104,
+            "moveCode": 1,
+            "occupySize": 1,
+            "aiOrder": 180,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "btPath": "BT/MainBT/MainBT_6210.bt",
+            "weakTag": "1,4",
+            "supressGroup": [
+                4,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "뱀가시",
+            "guardRadius": 500,
             "guardRadiusShow": 1,
             "weakWeaponTag": 12
         },
@@ -51994,6 +52901,108 @@
             "weakWeaponTag": 8
         },
         {
+            "id": 93061201,
+            "addLevel": 2,
+            "enemyCamp": 1001,
+            "duty": 2,
+            "skillNormalAttack": 6122101,
+            "skillActive": 6122221,
+            "skillTalent": 6317201,
+            "rank": 1,
+            "propertyGroup": 401305,
+            "name": "싸움꾼·척탄병·연소Ⅱ",
+            "joke": "일단 던져. 맞을지 안 맞을지는 나중 문제야.",
+            "trapDescription": "",
+            "description": "그들의 광적인 열기를 표현하는 데에는 초라한 화염병으로도 충분합니다. 물론 화염병은 제조 속도가 느리니까, 작은 권총으로 표현하는 것도 나쁘진 않죠.",
+            "textIndex": [
+                1,
+                7,
+                9
+            ],
+            "characterPic": "Felaste_Fire",
+            "modelCode": 6122,
+            "moveCode": 11,
+            "occupySize": 1,
+            "aiOrder": 250,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 2,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "dzOpenBattle": 6122101,
+            "btPath": "BT/EnemyBT/EnemyBT_002+005.bt",
+            "weakTag": "4,2",
+            "supressGroup": [
+                4,
+                2,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "척탄병·연소Ⅱ",
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 6,
+            "weakMap": 61222
+        },
+        {
+            "id": 93062102,
+            "addLevel": 2,
+            "enemyCamp": 1002,
+            "duty": 1,
+            "skillNormalAttack": 6210101,
+            "skillTalent": 622022301,
+            "rank": 1,
+            "propertyGroup": 400502,
+            "name": "가시곰Ⅱ",
+            "joke": "내려찍기, 후려치기, 원거리 폭파 등, 부 수는건뭐든지잘하는 동물. 돈은 필요없어, 목숨만 내놔.",
+            "trapDescription": "",
+            "description": "직립보행이 가능한 갈색 곰. 표피를 찢고 나온 붕괴 결정에 먼지, 흙, 돌이 엉켜 가시덤불 같은 형태가 되었습니다. 계속되는 통증으로 인해 주변의 모든 것을 공격하려 합니다.",
+            "textIndex": [
+                1
+            ],
+            "characterPic": "HammerThorn",
+            "modelCode": 6210,
+            "moveCode": 11,
+            "occupySize": 1,
+            "aiOrder": 500,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "dzOpenBattle": 6210101,
+            "btPath": "BT/MainBT/MainBT_6210.bt",
+            "weakTag": "5,3",
+            "supressGroup": [
+                2,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "가시곰Ⅱ",
+            "guardRadius": 300,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 44,
+            "weakMap": 62102
+        },
+        {
             "id": 93062202,
             "addLevel": 3,
             "enemyCamp": 1002,
@@ -52042,6 +53051,109 @@
             "guardRadiusShow": 1,
             "weakWeaponTag": 24,
             "weakMap": 62202
+        },
+        {
+            "id": 93064101,
+            "addLevel": 20,
+            "enemyCamp": 1004,
+            "duty": 1,
+            "skillNormalAttack": 6433201,
+            "skillActiveExtra": [
+                6433301
+            ],
+            "rank": 1,
+            "propertyGroup": 401707,
+            "name": "신도-015·산성Ⅰ",
+            "joke": "항상 전장에서 쉴 새 없이 지껄여댑니다. 이런 사람한테도 청중이 있을까요?",
+            "trapDescription": "",
+            "description": "경건할수록 더 큰 은혜가 내린다는 것이 그의 확고한 신념입니다. 그는 신앙이 새로운 생명을 부여할 수 있다면, 당연히 죽음도 만들어낼 수 있다는 생각을 고집합니다.",
+            "textIndex": [
+                2,
+                8
+            ],
+            "characterPic": "U015Support",
+            "modelCode": 6433,
+            "moveCode": 11,
+            "occupySize": 1,
+            "aiOrder": 310,
+            "useFakeAttack": true,
+            "shieldType": 1,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "dzOpenBattle": 6433201,
+            "btPath": "BT/EnemyBT/EnemyBT_001+008.bt",
+            "weakTag": "5,1",
+            "supressGroup": [
+                4,
+                4,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "신도-015·산성Ⅰ",
+            "guardRadius": 500,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 40,
+            "weakMap": 64331
+        },
+        {
+            "id": 93162102,
+            "addLevel": 5,
+            "enemyCamp": 1002,
+            "duty": 1,
+            "skillNormalAttack": 6210101,
+            "skillTalent": 622022301,
+            "rank": 1,
+            "propertyGroup": 400502,
+            "name": "가시곰Ⅱ",
+            "joke": "내려찍기, 후려치기, 원거리 폭파 등, 부 수는건뭐든지잘하는 동물. 돈은 필요없어, 목숨만 내놔.",
+            "trapDescription": "",
+            "description": "직립보행이 가능한 갈색 곰. 표피를 찢고 나온 붕괴 결정에 먼지, 흙, 돌이 엉켜 가시덤불 같은 형태가 되었습니다. 계속되는 통증으로 인해 주변의 모든 것을 공격하려 합니다.",
+            "textIndex": [
+                1
+            ],
+            "characterPic": "HammerThorn",
+            "modelCode": 6210,
+            "moveCode": 11,
+            "occupySize": 1,
+            "aiOrder": 500,
+            "attackType": 1,
+            "element": 1,
+            "beSupressedConfig": [
+                80000001,
+                9999,
+                0,
+                0,
+                8
+            ],
+            "idleType": 1,
+            "displacement": 1,
+            "dzOpenBattle": 6210101,
+            "btPath": "BT/MainBT/MainBT_6210.bt",
+            "weakTag": "5,3",
+            "supressGroup": [
+                2,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "nameOnBar": "가시곰Ⅱ",
+            "guardRadius": 300,
+            "guardRadiusShow": 1,
+            "weakWeaponTag": 44,
+            "weakMap": 62102
         }
     ]
 }

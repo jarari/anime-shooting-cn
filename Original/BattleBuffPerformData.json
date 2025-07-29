@@ -1714,6 +1714,54 @@
             "showPriorityIcon": 99
         },
         {
+            "id": 70040,
+            "name": "拓域专研",
+            "description": "友方单位<color=#2caadb>浊刻伤害</color>提高<color=#f26c1c>100%</color>，制胜技能或回合外攻击造成伤害时，无视目标<color=#f26c1c>30%</color>的防御力。\n友方单位的防御力提高<color=#f26c1c>15%</color>，受到的稳态伤害降低<color=#f26c1c>1点</color>。",
+            "iconName": "Buff_Strong",
+            "isShow": true,
+            "showPriorityIcon": 99
+        },
+        {
+            "id": 70041,
+            "name": "拓域专研",
+            "description": "友方单位物理伤害提高<color=#f26c1c>100%</color>，制胜技能或回合外攻击造成伤害时，无视目标<color=#f26c1c>30%</color>的防御力。\n友方单位受到的伤害降低<color=#f26c1c>40%</color>，防御力提高<color=#f26c1c>20%</color>。",
+            "iconName": "Buff_Strong",
+            "isShow": true,
+            "showPriorityIcon": 99
+        },
+        {
+            "id": 70042,
+            "name": "拓域专研",
+            "description": "友方单位<color=#d4ae08>电导伤害</color>提高<color=#f26c1c>100%</color>，制胜技能或回合外攻击造成伤害时，无视目标<color=#f26c1c>30%</color>的防御力。\n大回合结束时，友方单位恢复自身<color=#f26c1c>20%</color>最大生命值的生命值，若自身处于稳态崩溃状态，则额外恢复<color=#f26c1c>3点</color>稳态指数。",
+            "iconName": "Buff_Strong",
+            "isShow": true,
+            "showPriorityIcon": 99
+        },
+        {
+            "id": 70043,
+            "name": "拓域专研",
+            "description": "友方单位<color=#8679e8>酸蚀伤害</color>提高<color=#f26c1c>100%</color>，制胜技能或回合外攻击造成伤害时，无视目标<color=#f26c1c>30%</color>的防御力。\n友方单位受到的伤害降低<color=#f26c1c>40%</color>，防御力提高<color=#f26c1c>20%</color>。",
+            "iconName": "Buff_Strong",
+            "isShow": true,
+            "showPriorityIcon": 99
+        },
+        {
+            "id": 70044,
+            "name": "拓域专研",
+            "description": "友方单位<color=#42cce0>冷凝伤害</color>提高<color=#f26c1c>100%</color>，制胜技能或回合外攻击造成伤害时，无视目标<color=#f26c1c>30%</color>的防御力。\n友方单位受到的伤害降低<color=#f26c1c>30%</color>，防御力提高<color=#f26c1c>15%</color>。",
+            "iconName": "Buff_Strong",
+            "isShow": true,
+            "showPriorityIcon": 99
+        },
+        {
+            "id": 70045,
+            "name": "拓域专研",
+            "description": "友方单位<color=#e67129>燃烧伤害</color>提高<color=#f26c1c>100%</color>，制胜技能或回合外攻击造成伤害时，无视目标<color=#f26c1c>30%</color>的防御力。\n友方单位受到的伤害降低<color=#f26c1c>30%</color>，受到的稳态伤害降低<color=#f26c1c>1点</color>。",
+            "iconName": "Buff_Strong",
+            "isShow": true,
+            "showPriorityIcon": 99
+        },
+        {
             "id": 80001,
             "name": "明靶重创",
             "description": "未受到掩体保护时，受到伤害提高<color=#f26c1c>200%</color>。不可驱散。",
@@ -1843,6 +1891,28 @@
             "description": "大回合开始时，若自身生命值高于<color=#f26c1c>50%</color>且自身没有<color=#3487e0>{0}</color>，则消耗<color=#f26c1c>20%</color>生命值，获得<color=#f26c1c>30%</color>生命值的<color=#3487e0>{0}</color>。自身拥有<color=#3487e0>{0}</color>类效果时，造成伤害提高<color=#f26c1c>30%</color>。",
             "descriptionTips": "1:90118",
             "iconName": "Buff_UndeadNeutral",
+            "isShow": true
+        },
+        {
+            "id": 80191,
+            "name": "失联效应",
+            "description": "<color=#f26c1c>自身周围半径2格内</color>不存在友方单位时，受到的伤害增加<color=#f26c1c>50%</color>。\n若造成的伤害非物理伤害，则此次伤害攻击力降低<color=#f26c1c>30%</color>。",
+            "iconName": "Buff_AtkUpNeutral",
+            "isShow": true
+        },
+        {
+            "id": 80201,
+            "name": "阵地抑制",
+            "description": "在掩体附近攻击时，造成伤害降低<color=#f26c1c>50%</color>。",
+            "iconName": "Buff_MechaGuard3",
+            "isShow": true
+        },
+        {
+            "id": 80211,
+            "name": "防御校准",
+            "description": "行动结束时获得<color=#3487e0>{0}</color>。",
+            "descriptionTips": "0:802111",
+            "iconName": "Buff_DefUpNeutral",
             "isShow": true
         },
         {
@@ -7292,200 +7362,1448 @@
         },
         {
             "id": 270101,
-            "name": "掩体崩解I",
-            "description": "受到掩体减伤降低<color=#f26c1c>10%</color>。减益效果。",
-            "iconName": "Buff_MechaSupport1",
+            "name": "掩体减伤降低I",
+            "description": "受到掩体减伤降低<color=#f26c1c>10%</color>。防御减益效果。",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_CoverRedDown",
             "isShow": true,
-            "buffHeadShow": 1
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
         },
         {
             "id": 270102,
-            "name": "掩体崩解I",
-            "description": "受到掩体减伤降低<color=#f26c1c>10%</color>。减益效果。",
-            "iconName": "Buff_MechaSupport1",
+            "name": "掩体减伤降低I",
+            "description": "受到掩体减伤降低<color=#f26c1c>10%</color>。防御减益效果。",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_CoverRedDown",
             "isShow": true,
-            "buffHeadShow": 1
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
         },
         {
             "id": 270201,
-            "name": "掩体崩解II",
-            "description": "受到掩体减伤降低<color=#f26c1c>15%</color>。减益效果。",
-            "iconName": "Buff_MechaSupport1",
+            "name": "掩体减伤降低II",
+            "description": "受到掩体减伤降低<color=#f26c1c>20%</color>。防御减益效果。",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_CoverRedDown",
             "isShow": true,
-            "buffHeadShow": 1
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
         },
         {
             "id": 270202,
-            "name": "掩体崩解II",
-            "description": "受到掩体减伤降低<color=#f26c1c>15%</color>。减益效果。",
-            "iconName": "Buff_MechaSupport1",
+            "name": "掩体减伤降低II",
+            "description": "受到掩体减伤降低<color=#f26c1c>20%</color>。防御减益效果。",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_CoverRedDown",
             "isShow": true,
-            "buffHeadShow": 1
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
         },
         {
             "id": 270301,
-            "name": "掩体崩解III",
-            "description": "受到掩体减伤降低<color=#f26c1c>20%</color>。减益效果。",
-            "iconName": "Buff_MechaSupport1",
+            "name": "掩体减伤降低III",
+            "description": "受到掩体减伤降低<color=#f26c1c>30%</color>。防御减益效果。",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_CoverRedDown",
             "isShow": true,
-            "buffHeadShow": 1
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
         },
         {
             "id": 270302,
-            "name": "掩体崩解III",
-            "description": "受到掩体减伤降低<color=#f26c1c>20%</color>。减益效果。",
-            "iconName": "Buff_MechaSupport1",
+            "name": "掩体减伤降低III",
+            "description": "受到掩体减伤降低<color=#f26c1c>30%</color>。防御减益效果。",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_CoverRedDown",
             "isShow": true,
-            "buffHeadShow": 1
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
         },
         {
             "id": 271101,
-            "name": "稳态失效I",
-            "description": "受到稳态减伤降低<color=#f26c1c>10%</color>。减益效果。",
-            "iconName": "Buff_WillSub",
+            "name": "稳态减伤降低I",
+            "description": "受到稳态减伤降低<color=#f26c1c>10%</color>。防御减益效果。",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_DollRedDown",
             "isShow": true,
-            "buffHeadShow": 1
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
         },
         {
             "id": 271102,
-            "name": "稳态失效I",
-            "description": "受到稳态减伤降低<color=#f26c1c>10%</color>。减益效果。",
-            "iconName": "Buff_WillSub",
+            "name": "稳态减伤降低I",
+            "description": "受到稳态减伤降低<color=#f26c1c>10%</color>。防御减益效果。",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_DollRedDown",
             "isShow": true,
-            "buffHeadShow": 1
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
         },
         {
             "id": 271201,
-            "name": "稳态失效II",
-            "description": "受到稳态减伤降低<color=#f26c1c>20%</color>。减益效果。",
-            "iconName": "Buff_WillSub",
+            "name": "稳态减伤降低II",
+            "description": "受到稳态减伤降低<color=#f26c1c>20%</color>。防御减益效果。",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_DollRedDown",
             "isShow": true,
-            "buffHeadShow": 1
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
         },
         {
             "id": 271202,
-            "name": "稳态失效II",
-            "description": "受到稳态减伤降低<color=#f26c1c>20%</color>。减益效果。",
-            "iconName": "Buff_WillSub",
+            "name": "稳态减伤降低II",
+            "description": "受到稳态减伤降低<color=#f26c1c>20%</color>。防御减益效果。",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_DollRedDown",
             "isShow": true,
-            "buffHeadShow": 1
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
         },
         {
             "id": 271301,
-            "name": "稳态失效III",
-            "description": "受到稳态减伤降低<color=#f26c1c>30%</color>。减益效果。",
-            "iconName": "Buff_WillSub",
+            "name": "稳态减伤降低III",
+            "description": "受到稳态减伤降低<color=#f26c1c>30%</color>。防御减益效果。",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_DollRedDown",
             "isShow": true,
-            "buffHeadShow": 1
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
         },
         {
             "id": 271302,
-            "name": "稳态失效III",
-            "description": "受到稳态减伤降低<color=#f26c1c>30%</color>。减益效果。",
-            "iconName": "Buff_WillSub",
+            "name": "稳态减伤降低III",
+            "description": "受到稳态减伤降低<color=#f26c1c>30%</color>。防御减益效果。",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_DollRedDown",
             "isShow": true,
-            "buffHeadShow": 1
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
         },
         {
             "id": 272101,
-            "name": "暴击钝化I",
+            "name": "爆伤降低I",
             "description": "暴击伤害降低<color=#f26c1c>10%</color>。减益效果。",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
             "iconName": "Buff_CriDamDown",
             "isShow": true,
-            "buffHeadShow": 1
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
         },
         {
             "id": 272102,
-            "name": "暴击钝化I",
+            "name": "爆伤降低I",
             "description": "暴击伤害降低<color=#f26c1c>10%</color>。减益效果。",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
             "iconName": "Buff_CriDamDown",
             "isShow": true,
-            "buffHeadShow": 1
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
         },
         {
             "id": 272201,
-            "name": "暴击钝化II",
+            "name": "爆伤降低II",
             "description": "暴击伤害降低<color=#f26c1c>20%</color>。减益效果。",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
             "iconName": "Buff_CriDamDown",
             "isShow": true,
-            "buffHeadShow": 1
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
         },
         {
             "id": 272202,
-            "name": "暴击钝化II",
+            "name": "爆伤降低II",
             "description": "暴击伤害降低<color=#f26c1c>20%</color>。减益效果。",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
             "iconName": "Buff_CriDamDown",
             "isShow": true,
-            "buffHeadShow": 1
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
         },
         {
             "id": 272301,
-            "name": "暴击钝化III",
+            "name": "爆伤降低III",
             "description": "暴击伤害降低<color=#f26c1c>30%</color>。减益效果。",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
             "iconName": "Buff_CriDamDown",
             "isShow": true,
-            "buffHeadShow": 1
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
         },
         {
             "id": 272302,
-            "name": "暴击钝化III",
+            "name": "爆伤降低III",
             "description": "暴击伤害降低<color=#f26c1c>30%</color>。减益效果。",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
             "iconName": "Buff_CriDamDown",
             "isShow": true,
-            "buffHeadShow": 1
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
         },
         {
             "id": 273101,
-            "name": "治疗弱化I",
+            "name": "弱疗I",
             "description": "受到治疗降低<color=#f26c1c>10%</color>。减益效果。",
-            "iconName": "Buff_MaxHPDown",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_BeHealDown",
             "isShow": true,
-            "buffHeadShow": 1
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
         },
         {
             "id": 273102,
-            "name": "治疗弱化I",
+            "name": "弱疗I",
             "description": "受到治疗降低<color=#f26c1c>10%</color>。减益效果。",
-            "iconName": "Buff_MaxHPDown",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_BeHealDown",
             "isShow": true,
-            "buffHeadShow": 1
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
         },
         {
             "id": 273201,
-            "name": "治疗弱化II",
+            "name": "弱疗II",
             "description": "受到治疗降低<color=#f26c1c>20%</color>。减益效果。",
-            "iconName": "Buff_MaxHPDown",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_BeHealDown",
             "isShow": true,
-            "buffHeadShow": 1
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
         },
         {
             "id": 273202,
-            "name": "治疗弱化II",
+            "name": "弱疗II",
             "description": "受到治疗降低<color=#f26c1c>20%</color>。减益效果。",
-            "iconName": "Buff_MaxHPDown",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_BeHealDown",
             "isShow": true,
-            "buffHeadShow": 1
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
         },
         {
             "id": 273301,
-            "name": "治疗弱化III",
+            "name": "弱疗III",
             "description": "受到治疗降低<color=#f26c1c>30%</color>。减益效果。",
-            "iconName": "Buff_MaxHPDown",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_BeHealDown",
             "isShow": true,
-            "buffHeadShow": 1
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
         },
         {
             "id": 273302,
-            "name": "治疗弱化III",
+            "name": "弱疗III",
             "description": "受到治疗降低<color=#f26c1c>30%</color>。减益效果。",
-            "iconName": "Buff_MaxHPDown",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_BeHealDown",
             "isShow": true,
-            "buffHeadShow": 1
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 274101,
+            "name": "护盾弱化I",
+            "description": "获得护盾量降低<color=#f26c1c>10%</color>。减益效果。",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_BeArmorDown",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 274102,
+            "name": "护盾弱化I",
+            "description": "获得护盾量降低<color=#f26c1c>10%</color>。减益效果。",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_BeArmorDown",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 274201,
+            "name": "护盾弱化II",
+            "description": "获得护盾量降低<color=#f26c1c>20%</color>。减益效果。",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_BeArmorDown",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 274202,
+            "name": "护盾弱化II",
+            "description": "获得护盾量降低<color=#f26c1c>20%</color>。减益效果。",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_BeArmorDown",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 274301,
+            "name": "护盾弱化III",
+            "description": "获得护盾量降低<color=#f26c1c>30%</color>。减益效果。",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_BeArmorDown",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 274302,
+            "name": "护盾弱化III",
+            "description": "获得护盾量降低<color=#f26c1c>30%</color>。减益效果。",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_BeArmorDown",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 275101,
+            "name": "逆势钝化I",
+            "description": "造成非克制伤害时，造成的伤害降低<color=#f26c1c>10%</color>。减益效果。",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_DamageDown",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 275102,
+            "name": "逆势钝化I",
+            "description": "造成非克制伤害时，造成的伤害降低<color=#f26c1c>10%</color>。减益效果。",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_DamageDown",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 275201,
+            "name": "逆势钝化II",
+            "description": "造成非克制伤害时，造成的伤害降低<color=#f26c1c>20%</color>。减益效果。",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_DamageDown",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 275202,
+            "name": "逆势钝化II",
+            "description": "造成非克制伤害时，造成的伤害降低<color=#f26c1c>20%</color>。减益效果。",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_DamageDown",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 275301,
+            "name": "逆势钝化III",
+            "description": "造成非克制伤害时，造成的伤害降低<color=#f26c1c>30%</color>。减益效果。",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_DamageDown",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 275302,
+            "name": "逆势钝化III",
+            "description": "造成非克制伤害时，造成的伤害降低<color=#f26c1c>30%</color>。减益效果。",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_DamageDown",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 276101,
+            "name": "弱点暴露I",
+            "description": "受到克制伤害时，受到的伤害提高<color=#f26c1c>10%</color>。防御减益效果。",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_EnemyHurtUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 276102,
+            "name": "弱点暴露I",
+            "description": "受到克制伤害时，受到的伤害提高<color=#f26c1c>10%</color>。防御减益效果。",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_EnemyHurtUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 276201,
+            "name": "弱点暴露II",
+            "description": "受到克制伤害时，受到的伤害提高<color=#f26c1c>20%</color>。防御减益效果。",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_EnemyHurtUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 276202,
+            "name": "弱点暴露II",
+            "description": "受到克制伤害时，受到的伤害提高<color=#f26c1c>20%</color>。防御减益效果。",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_EnemyHurtUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 276301,
+            "name": "弱点暴露III",
+            "description": "受到克制伤害时，受到的伤害提高<color=#f26c1c>30%</color>。防御减益效果。",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_EnemyHurtUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 276302,
+            "name": "弱点暴露III",
+            "description": "受到克制伤害时，受到的伤害提高<color=#f26c1c>30%</color>。防御减益效果。",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_EnemyHurtUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 277101,
+            "name": "异位蚀痕I",
+            "description": "随机附加<color=#f26c1c>1个</color>元素弱点。防御减益效果。",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_ElementBeAttach",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 277102,
+            "name": "异位蚀痕I",
+            "description": "随机附加<color=#f26c1c>1个</color>元素弱点。防御减益效果。",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_ElementBeAttach",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 277201,
+            "name": "异位蚀痕II",
+            "description": "随机附加<color=#f26c1c>2个</color>元素弱点。防御减益效果。",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_ElementBeAttach",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 277202,
+            "name": "异位蚀痕II",
+            "description": "随机附加<color=#f26c1c>2个</color>元素弱点。防御减益效果。",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_ElementBeAttach",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 277301,
+            "name": "异位蚀痕III",
+            "description": "随机附加<color=#f26c1c>3个</color>元素弱点。防御减益效果。",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_ElementBeAttach",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 277302,
+            "name": "异位蚀痕III",
+            "description": "随机附加<color=#f26c1c>3个</color>元素弱点。防御减益效果。",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_ElementBeAttach",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 278101,
+            "name": "虚弱标记I",
+            "description": "对施加者造成伤害降低<color=#f26c1c>10%</color>。减益效果。",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_DamageDown",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 278102,
+            "name": "虚弱标记I",
+            "description": "对施加者造成伤害降低<color=#f26c1c>10%</color>。减益效果。",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_DamageDown",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 278201,
+            "name": "虚弱标记II",
+            "description": "对施加者造成伤害降低<color=#f26c1c>20%</color>。减益效果。",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_DamageDown",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 278202,
+            "name": "虚弱标记II",
+            "description": "对施加者造成伤害降低<color=#f26c1c>20%</color>。减益效果。",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_DamageDown",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 278301,
+            "name": "虚弱标记III",
+            "description": "对施加者造成伤害降低<color=#f26c1c>30%</color>。减益效果。",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_DamageDown",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 278302,
+            "name": "虚弱标记III",
+            "description": "对施加者造成伤害降低<color=#f26c1c>30%</color>。减益效果。",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_DamageDown",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 279101,
+            "name": "易伤标记I",
+            "description": "受到施加者造成的伤害提高<color=#f26c1c>10%</color>。防御减益效果。",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_EnemyHurtUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 279102,
+            "name": "易伤标记I",
+            "description": "受到施加者造成的伤害提高<color=#f26c1c>10%</color>。防御减益效果。",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_EnemyHurtUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 279201,
+            "name": "易伤标记II",
+            "description": "受到施加者造成的伤害提高<color=#f26c1c>20%</color>。防御减益效果。",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_EnemyHurtUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 279202,
+            "name": "易伤标记II",
+            "description": "受到施加者造成的伤害提高<color=#f26c1c>20%</color>。防御减益效果。",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_EnemyHurtUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 279301,
+            "name": "易伤标记III",
+            "description": "受到施加者造成的伤害提高<color=#f26c1c>30%</color>。防御减益效果。",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_EnemyHurtUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 279302,
+            "name": "易伤标记III",
+            "description": "受到施加者造成的伤害提高<color=#f26c1c>30%</color>。防御减益效果。",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_EnemyHurtUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
         },
         {
             "id": 284100,
             "name": "重击",
-            "description": "攻击时对目标施加<color=#3487e0>{0}</color>，持续<color=#f26c1c>1回合</color>",
+            "description": "攻击时对目标施加<color=#3487e0>{0}</color>，持续<color=#f26c1c>1回合</color>。",
             "descriptionTips": "1:90015",
             "iconName": "Buff_AtkUp",
             "isShow": true,
@@ -10636,6 +11954,30 @@
             "isLoop": "1|1"
         },
         {
+            "id": 401051,
+            "name": "沉默",
+            "description": "指令禁止，无法使用普攻与主动技能，减益效果。",
+            "iconName": "Buff_Stun",
+            "isShow": true,
+            "buffHeadShow": 17
+        },
+        {
+            "id": 401052,
+            "name": "沉默",
+            "description": "指令禁止，无法使用普攻与主动技能，减益效果。",
+            "iconName": "Buff_Stun",
+            "isShow": true,
+            "buffHeadShow": 17
+        },
+        {
+            "id": 401053,
+            "name": "沉默",
+            "description": "指令禁止，无法使用普攻与主动技能，减益效果。",
+            "iconName": "Buff_Stun",
+            "isShow": true,
+            "buffHeadShow": 17
+        },
+        {
             "id": 401061,
             "name": "惊狂",
             "description": "随机攻击普通攻击范围内一个友方单位。不可驱散。",
@@ -10743,6 +12085,46 @@
             "id": 501244,
             "name": "移动提升",
             "description": "行动力提高<color=#f26c1c>1格</color>。移动类增益不可驱散。",
+            "buffEffect": "Buff/SpeedU|Buff/SpeedU",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_SpeedUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 501264,
+            "name": "持续回稳II",
+            "description": "行动结束时，恢复<color=#f26c1c>2点</color>稳态指数。增益不可驱散。",
+            "buffEffect": "Buff/StableU",
+            "effectPlayTime": [
+                3
+            ],
+            "effectFadeTime": "100",
+            "effectFollowType": "1",
+            "effectBirthType": "109",
+            "iconName": "Buff_WillHealUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "0"
+        },
+        {
+            "id": 501274,
+            "name": "移动提升II",
+            "description": "行动力提高<color=#f26c1c>2格</color>。移动类增益不可驱散。",
             "buffEffect": "Buff/SpeedU|Buff/SpeedU",
             "effectPlayTime": [
                 1,
@@ -11196,6 +12578,13 @@
             "isShow": true
         },
         {
+            "id": 802111,
+            "name": "刚毅护盾",
+            "description": "受到的伤害减少<color=#f26c1c>50%</color>。受到<color=#f26c1c>2格</color>范围内的伤害前，去除该效果。增益不可驱散。",
+            "iconName": "Buff_EnemyRedHurt",
+            "isShow": true
+        },
+        {
             "id": 1028090,
             "name": "",
             "description": "",
@@ -11482,7 +12871,6 @@
             "descriptionTips": "0:4300081",
             "iconName": "Buff_Waves",
             "isShow": true,
-            "buffHeadShow": 1,
             "showPriorityIcon": 99
         },
         {
@@ -11491,7 +12879,8 @@
             "description": "受到的稳态伤害增加<color=#f26c1c>1点</color>，受到<color=#2caadb>浊刻伤害</color>时视为被克制。浊刻类减益。可叠加。",
             "iconName": "Buff_WaterWet",
             "isShow": true,
-            "buffHeadShow": 1
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
         },
         {
             "id": 4300090,
@@ -11545,6 +12934,34 @@
             "iconName": "Buff_Invincible",
             "isShow": true,
             "buffHeadShow": 1
+        },
+        {
+            "id": 4300110,
+            "name": "坍塌风暴",
+            "description": "大回合结束时，场上的单位获得<color=#3487e0>{0}</color>。单位死亡时有50%概率在临近的格子召唤<坍塌晶簇>。首领单位不受该天气影响。",
+            "descriptionTips": "0:4300111",
+            "iconName": "Buff_Storm",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 99
+        },
+        {
+            "id": 4300111,
+            "name": "歧途转化",
+            "description": "生骸单位获得最大生命值增加10%，非生骸单位最大生命值减少10%，可叠加，最多叠加到9层。不可驱散。",
+            "iconName": "Buff_Eber10",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 4300113,
+            "name": "歧途转化",
+            "description": "生骸单位获得最大生命值增加10%，非生骸单位最大生命值减少10%，可叠加，最多叠加到9层。不可驱散。",
+            "iconName": "Buff_Eber10",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
         },
         {
             "id": 5104831,
@@ -15077,6 +16494,123 @@
             "isLoop": "1"
         },
         {
+            "id": 6777101,
+            "name": "揭露",
+            "description": "防御力降低<color=#f26c1c>10%</color>，至多叠加<color=#f26c1c>5</color>层，减益效果。",
+            "buffEffect": "Buff/AccD|Buff/AccD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_DefLow",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 80,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 6777601,
+            "name": "自爆指令",
+            "description": "行动结束进行自爆，对自身<color=#f26c1c>周围半径3格内</color>的所有敌方单位造成<color=#f26c1c>100%</color>攻击力固定伤害。不可驱散。",
+            "buffEffect": "Skill/6776301_Explore",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "103",
+            "effectTypeGroup": "2",
+            "iconName": "Buff_Tank5",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 99,
+            "isLoop": "1"
+        },
+        {
+            "id": 6777801,
+            "name": "迎敌姿态",
+            "description": "受到最终伤害降低<color=#f26c1c>60%</color>。",
+            "iconName": "Buff_Armor",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 98
+        },
+        {
+            "id": 6777802,
+            "name": "偏折屏障",
+            "description": "免疫除固定伤害的任何伤害，每受到<color=#f26c1c>1</color>次攻击消耗<color=#f26c1c>1</color>层，至多叠加<color=#f26c1c>2</color>层，不可驱散。",
+            "buffEffect": "Buff/61152201_Invincible2|Buff/61152201_Invincible",
+            "effectPlayTime": [
+                1,
+                3
+            ],
+            "effectFadeTime": "0|90",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "104|104",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_Invincible",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 99,
+            "isLoop": "1|0"
+        },
+        {
+            "id": 6778601,
+            "name": "自爆指令",
+            "description": "行动结束进行自爆，对自身<color=#f26c1c>周围半径3格内</color>的所有敌方单位造成<color=#f26c1c>100%</color>攻击力固定伤害并生成<color=#3487e0>{0}</color>。不可驱散。",
+            "descriptionTips": "1:901043",
+            "buffEffect": "Skill/6776301_Explore",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "103",
+            "effectTypeGroup": "2",
+            "iconName": "Buff_Tank5",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 99,
+            "isLoop": "1"
+        },
+        {
+            "id": 6778801,
+            "name": "迎敌姿态",
+            "description": "受到最终伤害降低<color=#f26c1c>65%</color>。",
+            "iconName": "Buff_Armor",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 98
+        },
+        {
             "id": 6781000,
             "name": "紊乱疽痕",
             "description": "造成的精准伤害降低<color=#f26c1c>15%</color>，至多叠加<color=#f26c1c>3层</color>。叠加至<color=#f26c1c>3层</color>时，触发<color=#3487e0>{0}</color>，持续<color=#f26c1c>1回合</color>。<color=#3487e0>{0}</color>结束时层数重置，期间不会再次触发<color=#3487e0>{0}</color>。减益可驱散。",
@@ -15310,9 +16844,41 @@
             "isLoop": "1"
         },
         {
+            "id": 6787201,
+            "name": "圣光",
+            "description": "受到伤害提高<color=#f26c1c>100%</color>。减益不可驱散。",
+            "iconName": "Buff_EnemyHurtUp",
+            "isShow": true,
+            "buffHeadShow": 1
+        },
+        {
+            "id": 6787701,
+            "name": "怒火",
+            "description": "攻击力提高<color=#f26c1c>2%</color>，每受到<color=#f26c1c>1次</color>主动攻击造成的物理伤害减少<color=#f26c1c>1</color>层。可叠加。增益不可驱散。",
+            "iconName": "Buff_NeedleGalaxy3",
+            "isShow": true,
+            "buffHeadShow": 1
+        },
+        {
+            "id": 6787702,
+            "name": "心智紊乱",
+            "description": "防御力降低<color=#f26c1c>10%</color>，至多叠加<color=#f26c1c>10</color>层。减益不可驱散。",
+            "iconName": "Buff_NeedleGalaxy4",
+            "isShow": true,
+            "buffHeadShow": 1
+        },
+        {
+            "id": 6788201,
+            "name": "野蛮融合",
+            "description": "攻击力提高<color=#f26c1c>20%</color>，移动力提高<color=#f26c1c>1格</color>，可叠加。增益不可驱散。",
+            "iconName": "Buff_AtkUpNeutral",
+            "isShow": true,
+            "buffHeadShow": 1
+        },
+        {
             "id": 6790201,
             "name": "脉冲炸弹",
-            "description": "持有该效果<color=#f26c1c>2回合</color>后，对自身<color=#f26c1c>周围2格范围内</color>的所有友方目标造成炸弹施加者100%攻击力的范围<color=#d4ae08>电导伤害</color>。减益效果可驱散。",
+            "description": "持有该效果<color=#f26c1c>2回合</color>后，对自身<color=#f26c1c>周围2格范围内</color>的所有友方目标造成炸弹施加者100%攻击力的范围<color=#d4ae08>电导伤害</color>。施加者死亡后解除。减益效果可驱散。",
             "buffEffect": "Skill/6790201_Target",
             "effectPlayTime": [
                 1
@@ -18932,24 +20498,23 @@
             "description": "行动结束时，每拥有<color=#f26c1c>1层</color><color=#3487e0>创口</color>，受到施加者<color=#f26c1c>8%</color>攻击力的固定伤害，并消耗<color=#f26c1c>2层</color><color=#3487e0>创口</color>。减益效果。",
             "buffEffect": "Skill/FayeSSR01/10430501_buff",
             "effectPlayTime": [
-                1,
-                4
+                1
             ],
-            "effectFadeTime": "0|0",
+            "effectFadeTime": "0",
             "cameraPlayTime": [
                 1
             ],
             "cameraTime": [
                 60
             ],
-            "effectFollowType": "1|1",
-            "effectBirthType": "109|109",
-            "effectTypeGroup": "0|0",
+            "effectFollowType": "1",
+            "effectBirthType": "109",
+            "effectTypeGroup": "0",
             "iconName": "Buff_ContinueHurt",
             "isShow": true,
             "buffHeadShow": 1,
             "showPriorityIcon": 5,
-            "isLoop": "0|0"
+            "isLoop": "0"
         },
         {
             "id": 10430501,
@@ -20201,6 +21766,109 @@
             "showPriorityIcon": 99
         },
         {
+            "id": 10660432,
+            "name": "破胆",
+            "description": "受到威玛西娜攻击时，降低<color=#f26c1c>40%</color>防御力。减益不可驱散。",
+            "iconName": "Buff_EnemyHurtUp",
+            "isShow": true
+        },
+        {
+            "id": 10660523,
+            "name": "连携狩猎",
+            "description": "造成的伤害提高<color=#f26c1c>10%</color>，暴击率提高<color=#f26c1c>10%</color>。至多叠加<color=#f26c1c>3层</color>。增益不可驱散。",
+            "iconName": "Buff_CriUp",
+            "isShow": true
+        },
+        {
+            "id": 10660700,
+            "name": "显示特效用",
+            "description": "",
+            "buffEffect": "Skill/VoymastinaSSR01/10660701_lockon_buff",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0",
+            "effectFollowType": "1",
+            "effectBirthType": "103",
+            "effectTypeGroup": "0",
+            "isLoop": "1"
+        },
+        {
+            "id": 10660701,
+            "name": "狼眼系统",
+            "description": "若有敌方单位即将移动、攻击前或行动结束时位于自身<color=#f26c1c>周围半径8格内</color>，进行1次<color=#3487e0>{0}</color>，对其及其<color=#f26c1c>周围3×3格内</color>的所有敌方目标造成<color=#f26c1c>80%</color>攻击力的无视掩体的范围物理伤害和<color=#f26c1c>1点</color>稳态伤害，每回合每个单位至多触发<color=#f26c1c>1次</color>，总计至多触发<color=#f26c1c>6次</color>。",
+            "descriptionTips": "1:90261",
+            "buffEffect": "Skill/VoymastinaSSR01/10660701_buff",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0",
+            "effectFollowType": "2",
+            "effectBirthType": "507",
+            "effectTypeGroup": "0",
+            "iconName": "Buff_VoymastinaSSR1",
+            "isShow": true,
+            "showPriorityIcon": 99,
+            "isLoop": "1"
+        },
+        {
+            "id": 10660702,
+            "name": "狼眼系统",
+            "description": "若有敌方单位即将移动、攻击前或行动结束时位于自身<color=#f26c1c>周围半径8格内</color>，进行1次<color=#3487e0>{0}</color>，对其及其<color=#f26c1c>周围3×3格内</color>的所有敌方目标造成<color=#f26c1c>130%</color>攻击力的无视掩体的范围物理伤害和<color=#f26c1c>1点</color>稳态伤害。每回合每个单位至多触发<color=#f26c1c>1次</color>。若射程范围内有新的敌方单位出生，则对其造成<color=#f26c1c>130%</color>攻击力的精准物理伤害和<color=#f26c1c>1点</color>稳态伤害，且不消耗次数。",
+            "descriptionTips": "1:90261",
+            "buffEffect": "Skill/VoymastinaSSR01/10660701_buff",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0",
+            "effectFollowType": "2",
+            "effectBirthType": "507",
+            "effectTypeGroup": "0",
+            "iconName": "Buff_VoymastinaSSR1",
+            "isShow": true,
+            "showPriorityIcon": 99,
+            "isLoop": "1"
+        },
+        {
+            "id": 10660801,
+            "name": "掠食法则",
+            "description": "下一次主动攻击时无视目标<color=#f26c1c>50%</color>防御力，暴击率提高<color=#f26c1c>30%</color>，造成的暴击伤害提高<color=#f26c1c>25%</color>。增益不可驱散。",
+            "iconName": "Buff_AllUp",
+            "isShow": true,
+            "showPriorityIcon": 90
+        },
+        {
+            "id": 10660812,
+            "name": "追猎者",
+            "description": "造成的伤害提高<color=#f26c1c>45%</color>，暴击伤害提高<color=#f26c1c>30%</color>。增益不可驱散。",
+            "iconName": "Buff_CriDamUp",
+            "isShow": true
+        },
+        {
+            "id": 10680001,
+            "name": "起爆符",
+            "description": "受到燃烧伤害时额外对目标及其周围半径2格范围内所有敌方目标造成90%攻击力的范围燃烧伤害，并产生1点【燃烧能量】，每个目标身上最多存在3张【符】，如果【符】到达上限，则新生成的符会直接触发1次伤害",
+            "buffEffect": "Buff/Rouge12_Burning1",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "104",
+            "effectTypeGroup": "0",
+            "iconName": "Buff_UnsearchableGirl1",
+            "isShow": true,
+            "buffHeadShow": 9,
+            "showPriorityIcon": 1,
+            "isLoop": "1"
+        },
+        {
             "id": 20200016,
             "name": "",
             "description": "",
@@ -20448,6 +22116,856 @@
             "effectFollowType": "1",
             "effectBirthType": "109",
             "iconName": "Buff_AtkUp"
+        },
+        {
+            "id": 41000011,
+            "name": "黑胡椒",
+            "description": "暴击伤害提高<color=#f26c1c>0.8%</color>。增益不可驱散。",
+            "iconName": "Buff_CriUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41000012,
+            "name": "黑胡椒",
+            "description": "暴击伤害提高<color=#f26c1c>1.5%</color>。增益不可驱散。",
+            "iconName": "Buff_CriUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41000021,
+            "name": "玫瑰盐",
+            "description": "攻击力提高<color=#f26c1c>20点</color>。增益不可驱散。",
+            "iconName": "Buff_AtkUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41000022,
+            "name": "玫瑰盐",
+            "description": "攻击力提高<color=#f26c1c>50点</color>。增益不可驱散。",
+            "iconName": "Buff_AtkUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41000031,
+            "name": "老陈醋",
+            "description": "造成的所有属性伤害提高<color=#f26c1c>1.2%</color>。增益不可驱散。",
+            "iconName": "Buff_DamageUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41000032,
+            "name": "老陈醋",
+            "description": "造成的所有属性伤害提高<color=#f26c1c>2.4%</color>。增益不可驱散。",
+            "iconName": "Buff_DamageUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41000041,
+            "name": "三鲜鸡精",
+            "description": "主动攻击造成的伤害提高<color=#f26c1c>1.5%</color>。增益不可驱散。",
+            "iconName": "Buff_DamageUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41000042,
+            "name": "三鲜鸡精",
+            "description": "主动攻击造成的伤害提高<color=#f26c1c>3%</color>。增益不可驱散。",
+            "iconName": "Buff_DamageUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41000051,
+            "name": "酿造料酒",
+            "description": "回合外攻击造的成伤害提高<color=#f26c1c>1.5%</color>。增益不可驱散。",
+            "iconName": "Buff_DamageUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41000052,
+            "name": "酿造料酒",
+            "description": "回合外攻击造的成伤害提高<color=#f26c1c>3%</color>。增益不可驱散。",
+            "iconName": "Buff_DamageUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41000061,
+            "name": "味极鲜",
+            "description": "攻击力提高<color=#f26c1c>0.8%</color>，防御力提高<color=#f26c1c>0.8%</color>。增益不可驱散。",
+            "iconName": "Buff_AllUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41000062,
+            "name": "味极鲜",
+            "description": "攻击力提高<color=#f26c1c>1.5%</color>，防御力提高<color=#f26c1c>1.5%</color>。增益不可驱散。",
+            "iconName": "Buff_AllUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41000071,
+            "name": "白砂糖",
+            "description": "所有属性造成伤害提高<color=#f26c1c>1%</color>，攻击无视目标<color=#f26c1c>1%</color>防御。增益不可驱散。",
+            "iconName": "Buff_DamageUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41000072,
+            "name": "白砂糖",
+            "description": "所有属性造成伤害提高<color=#f26c1c>2%</color>，攻击无视目标<color=#f26c1c>2%</color>防御。增益不可驱散。",
+            "iconName": "Buff_DamageUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41001011,
+            "name": "芝士烤土豆",
+            "description": "攻击力提高<color=#f26c1c>10点</color>。增益不可驱散。",
+            "iconName": "Buff_AtkUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41001012,
+            "name": "芝士烤土豆",
+            "description": "攻击力提高<color=#f26c1c>15点</color>。增益不可驱散。",
+            "iconName": "Buff_AtkUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41001013,
+            "name": "芝士烤土豆",
+            "description": "攻击力提高<color=#f26c1c>25点</color>。增益不可驱散。",
+            "iconName": "Buff_AtkUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41001021,
+            "name": "孢子甘蓝沙拉",
+            "description": "防御力提高<color=#f26c1c>10点</color>。增益不可驱散。",
+            "iconName": "Buff_DefUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41001022,
+            "name": "孢子甘蓝沙拉",
+            "description": "防御力提高<color=#f26c1c>15点</color>。增益不可驱散。",
+            "iconName": "Buff_DefUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41001023,
+            "name": "孢子甘蓝沙拉",
+            "description": "防御力提高<color=#f26c1c>25点</color>。增益不可驱散。",
+            "iconName": "Buff_DefUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41001031,
+            "name": "烈焰战斧牛排",
+            "description": "最大生命值提高<color=#f26c1c>10点</color>。增益不可驱散。",
+            "iconName": "Buff_SelfHeal",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41001032,
+            "name": "烈焰战斧牛排",
+            "description": "最大生命值提高<color=#f26c1c>15点</color>。增益不可驱散。",
+            "iconName": "Buff_SelfHeal",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41001033,
+            "name": "烈焰战斧牛排",
+            "description": "最大生命值提高<color=#f26c1c>25点</color>。增益不可驱散。",
+            "iconName": "Buff_SelfHeal",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41001041,
+            "name": "章鱼小丸子",
+            "description": "暴击率提高<color=#f26c1c>0.5%</color>。增益不可驱散。",
+            "iconName": "Buff_CriUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41001042,
+            "name": "章鱼小丸子",
+            "description": "暴击率提高<color=#f26c1c>1%</color>。增益不可驱散。",
+            "iconName": "Buff_CriUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41001043,
+            "name": "章鱼小丸子",
+            "description": "暴击率提高<color=#f26c1c>2%</color>。增益不可驱散。",
+            "iconName": "Buff_CriUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41002011,
+            "name": "炎烤沙威玛",
+            "description": "造成的<color=#e67129>燃烧伤害</color>提高<color=#f26c1c>0.5%</color>。增益不可驱散。",
+            "iconName": "Buff_DamageUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41002012,
+            "name": "炎烤沙威玛",
+            "description": "造成的<color=#e67129>燃烧伤害</color>提高<color=#f26c1c>1%</color>。增益不可驱散。",
+            "iconName": "Buff_DamageUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41002013,
+            "name": "炎烤沙威玛",
+            "description": "造成的<color=#e67129>燃烧伤害</color>提高<color=#f26c1c>2%</color>。增益不可驱散。",
+            "iconName": "Buff_DamageUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41002021,
+            "name": "逍遥胡辣汤",
+            "description": "造成的<color=#2caadb>浊刻伤害</color>提高<color=#f26c1c>0.5%</color>。增益不可驱散。",
+            "iconName": "Buff_DamageUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41002022,
+            "name": "逍遥胡辣汤",
+            "description": "造成的<color=#2caadb>浊刻伤害</color>提高<color=#f26c1c>1%</color>。增益不可驱散。",
+            "iconName": "Buff_DamageUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41002023,
+            "name": "逍遥胡辣汤",
+            "description": "造成的<color=#2caadb>浊刻伤害</color>提高<color=#f26c1c>2%</color>。增益不可驱散。",
+            "iconName": "Buff_DamageUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41002031,
+            "name": "糖醋狮子头",
+            "description": "造成的<color=#8679e8>酸蚀伤害</color>提高<color=#f26c1c>0.5%</color>。增益不可驱散。",
+            "iconName": "Buff_DamageUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41002032,
+            "name": "糖醋狮子头",
+            "description": "造成的<color=#8679e8>酸蚀伤害</color>提高<color=#f26c1c>1%</color>。增益不可驱散。",
+            "iconName": "Buff_DamageUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41002033,
+            "name": "糖醋狮子头",
+            "description": "造成的<color=#8679e8>酸蚀伤害</color>提高<color=#f26c1c>2%</color>。增益不可驱散。",
+            "iconName": "Buff_DamageUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41002041,
+            "name": "仰望星空派",
+            "description": "造成的<color=#d4ae08>电导伤害</color>提高<color=#f26c1c>0.5%</color>。增益不可驱散。",
+            "iconName": "Buff_DamageUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41002042,
+            "name": "仰望星空派",
+            "description": "造成的<color=#d4ae08>电导伤害</color>提高<color=#f26c1c>1%</color>。增益不可驱散。",
+            "iconName": "Buff_DamageUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41002043,
+            "name": "仰望星空派",
+            "description": "造成的<color=#d4ae08>电导伤害</color>提高<color=#f26c1c>2%</color>。增益不可驱散。",
+            "iconName": "Buff_DamageUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41002051,
+            "name": "明虾冷盘",
+            "description": "造成的<color=#42cce0>冷凝伤害</color>提高<color=#f26c1c>0.5%</color>。增益不可驱散。",
+            "iconName": "Buff_DamageUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41002052,
+            "name": "明虾冷盘",
+            "description": "造成的<color=#42cce0>冷凝伤害</color>提高<color=#f26c1c>1%</color>。增益不可驱散。",
+            "iconName": "Buff_DamageUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41002053,
+            "name": "明虾冷盘",
+            "description": "造成的<color=#42cce0>冷凝伤害</color>提高<color=#f26c1c>2%</color>。增益不可驱散。",
+            "iconName": "Buff_DamageUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41002061,
+            "name": "三鲜水饺",
+            "description": "造成的物理伤害提高<color=#f26c1c>0.5%</color>。增益不可驱散。",
+            "iconName": "Buff_DamageUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41002062,
+            "name": "三鲜水饺",
+            "description": "造成的物理伤害提高<color=#f26c1c>1%</color>。增益不可驱散。",
+            "iconName": "Buff_DamageUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41002063,
+            "name": "三鲜水饺",
+            "description": "造成的物理伤害提高<color=#f26c1c>2%</color>。增益不可驱散。",
+            "iconName": "Buff_DamageUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41003011,
+            "name": "黄油焗蜗牛",
+            "description": "制胜技能造成的伤害提高<color=#f26c1c>1.5%</color>。增益不可驱散。",
+            "iconName": "Buff_DamageUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41003012,
+            "name": "黄油焗蜗牛",
+            "description": "制胜技能造成的伤害提高<color=#f26c1c>2%</color>。增益不可驱散。",
+            "iconName": "Buff_DamageUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41003013,
+            "name": "黄油焗蜗牛",
+            "description": "制胜技能造成的伤害提高<color=#f26c1c>3%</color>。增益不可驱散。",
+            "iconName": "Buff_DamageUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41003021,
+            "name": "黑松露双层牛肉堡",
+            "description": "制胜技能以外的主动技能造成的伤害提高<color=#f26c1c>1.5%</color>。增益不可驱散。",
+            "iconName": "Buff_DamageUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41003022,
+            "name": "黑松露双层牛肉堡",
+            "description": "制胜技能以外的主动技能造成的伤害提高<color=#f26c1c>2%</color>。增益不可驱散。",
+            "iconName": "Buff_DamageUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41003023,
+            "name": "黑松露双层牛肉堡",
+            "description": "制胜技能以外的主动技能造成的伤害提高<color=#f26c1c>3%</color>。增益不可驱散。",
+            "iconName": "Buff_DamageUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41003031,
+            "name": "黄金燕鲍翅",
+            "description": "受到的所有属性伤害降低<color=#f26c1c>1%</color>。增益不可驱散。",
+            "iconName": "Buff_EnemyRedHurt",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41003032,
+            "name": "黄金燕鲍翅",
+            "description": "受到的所有属性伤害降低<color=#f26c1c>1.5%</color>。增益不可驱散。",
+            "iconName": "Buff_EnemyRedHurt",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41003033,
+            "name": "黄金燕鲍翅",
+            "description": "受到的所有属性伤害降低<color=#f26c1c>2.5%</color>。增益不可驱散。",
+            "iconName": "Buff_EnemyRedHurt",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41003041,
+            "name": "海鲜刺身",
+            "description": "范围伤害提高<color=#f26c1c>1.5%</color>。增益不可驱散。",
+            "iconName": "Buff_DamageUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41003042,
+            "name": "海鲜刺身",
+            "description": "范围伤害提高<color=#f26c1c>2%</color>。增益不可驱散。",
+            "iconName": "Buff_DamageUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41003043,
+            "name": "海鲜刺身",
+            "description": "范围伤害提高<color=#f26c1c>3%</color>。增益不可驱散。",
+            "iconName": "Buff_DamageUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41003051,
+            "name": "酸辣回锅肉",
+            "description": "精准伤害提高<color=#f26c1c>1.5%</color>。增益不可驱散。",
+            "iconName": "Buff_DamageUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41003052,
+            "name": "酸辣回锅肉",
+            "description": "精准伤害提高<color=#f26c1c>2%</color>。增益不可驱散。",
+            "iconName": "Buff_DamageUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41003053,
+            "name": "酸辣回锅肉",
+            "description": "精准伤害提高<color=#f26c1c>3%</color>。增益不可驱散。",
+            "iconName": "Buff_DamageUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41003061,
+            "name": "味噌关东煮",
+            "description": "导染技能造成的伤害提高<color=#f26c1c>1.5%</color>。增益不可驱散。",
+            "iconName": "Buff_DamageUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41003062,
+            "name": "味噌关东煮",
+            "description": "导染技能造成的伤害提高<color=#f26c1c>2%</color>。增益不可驱散。",
+            "iconName": "Buff_DamageUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41003063,
+            "name": "味噌关东煮",
+            "description": "导染技能造成的伤害提高<color=#f26c1c>3%</color>。增益不可驱散。",
+            "iconName": "Buff_DamageUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41003071,
+            "name": "迷迭香风味烤鸡",
+            "description": "非导染技能造成的伤害提高<color=#f26c1c>1.5%</color>。增益不可驱散。",
+            "iconName": "Buff_DamageUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41003072,
+            "name": "迷迭香风味烤鸡",
+            "description": "非导染技能造成的伤害提高<color=#f26c1c>2%</color>。增益不可驱散。",
+            "iconName": "Buff_DamageUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41003073,
+            "name": "迷迭香风味烤鸡",
+            "description": "非导染技能造成的伤害提高<color=#f26c1c>3%</color>。增益不可驱散。",
+            "iconName": "Buff_DamageUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41003081,
+            "name": "九转大肠",
+            "description": "对首领单位造成的伤害提高<color=#f26c1c>1.5%</color>。增益不可驱散。",
+            "iconName": "Buff_DamageUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41003082,
+            "name": "九转大肠",
+            "description": "对首领单位造成的伤害提高<color=#f26c1c>2%</color>。增益不可驱散。",
+            "iconName": "Buff_DamageUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41003083,
+            "name": "九转大肠",
+            "description": "对首领单位造成的伤害提高<color=#f26c1c>3%</color>。增益不可驱散。",
+            "iconName": "Buff_DamageUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41004011,
+            "name": "多纳尔烤肉",
+            "description": "造成<color=#e67129>燃烧伤害</color>时攻击力提高<color=#f26c1c>1%</color>。增益不可驱散。",
+            "iconName": "Buff_AtkUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41004012,
+            "name": "多纳尔烤肉",
+            "description": "造成<color=#e67129>燃烧伤害</color>时攻击力提高<color=#f26c1c>1.5%</color>。增益不可驱散。",
+            "iconName": "Buff_AtkUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41004013,
+            "name": "多纳尔烤肉",
+            "description": "造成<color=#e67129>燃烧伤害</color>时攻击力提高<color=#f26c1c>2.5%</color>。增益不可驱散。",
+            "iconName": "Buff_AtkUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41004021,
+            "name": "四喜丸子",
+            "description": "造成<color=#2caadb>浊刻伤害</color>时攻击力提高<color=#f26c1c>1%</color>。增益不可驱散。",
+            "iconName": "Buff_AtkUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41004022,
+            "name": "四喜丸子",
+            "description": "造成<color=#2caadb>浊刻伤害</color>时攻击力提高<color=#f26c1c>1.5%</color>。增益不可驱散。",
+            "iconName": "Buff_AtkUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41004023,
+            "name": "四喜丸子",
+            "description": "造成<color=#2caadb>浊刻伤害</color>时攻击力提高<color=#f26c1c>2.5%</color>。增益不可驱散。",
+            "iconName": "Buff_AtkUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41004031,
+            "name": "塔布勒沙拉",
+            "description": "造成<color=#8679e8>酸蚀伤害</color>时攻击力提高<color=#f26c1c>1%</color>。增益不可驱散。",
+            "iconName": "Buff_AtkUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41004032,
+            "name": "塔布勒沙拉",
+            "description": "造成<color=#8679e8>酸蚀伤害</color>时攻击力提高<color=#f26c1c>1.5%</color>。增益不可驱散。",
+            "iconName": "Buff_AtkUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41004033,
+            "name": "塔布勒沙拉",
+            "description": "造成<color=#8679e8>酸蚀伤害</color>时攻击力提高<color=#f26c1c>2.5%</color>。增益不可驱散。",
+            "iconName": "Buff_AtkUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41004041,
+            "name": "农家小炒肉",
+            "description": "造成<color=#d4ae08>电导伤害</color>时攻击力提高<color=#f26c1c>1%</color>。增益不可驱散。",
+            "iconName": "Buff_AtkUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41004042,
+            "name": "农家小炒肉",
+            "description": "造成<color=#d4ae08>电导伤害</color>时攻击力提高<color=#f26c1c>1.5%</color>。增益不可驱散。",
+            "iconName": "Buff_AtkUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41004043,
+            "name": "农家小炒肉",
+            "description": "造成<color=#d4ae08>电导伤害</color>时攻击力提高<color=#f26c1c>2.5%</color>。增益不可驱散。",
+            "iconName": "Buff_AtkUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41004051,
+            "name": "酒灼海螺",
+            "description": "造成<color=#42cce0>冷凝伤害</color>时攻击力提高<color=#f26c1c>1%</color>。增益不可驱散。",
+            "iconName": "Buff_AtkUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41004052,
+            "name": "酒灼海螺",
+            "description": "造成<color=#42cce0>冷凝伤害</color>时攻击力提高<color=#f26c1c>1.5%</color>。增益不可驱散。",
+            "iconName": "Buff_AtkUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41004053,
+            "name": "酒灼海螺",
+            "description": "造成<color=#42cce0>冷凝伤害</color>时攻击力提高<color=#f26c1c>2.5%</color>。增益不可驱散。",
+            "iconName": "Buff_AtkUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41004061,
+            "name": "法式红菜汤",
+            "description": "造成物理伤害时攻击力提高<color=#f26c1c>1%</color>。增益不可驱散。",
+            "iconName": "Buff_AtkUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41004062,
+            "name": "法式红菜汤",
+            "description": "造成物理伤害时攻击力提高<color=#f26c1c>1.5%</color>。增益不可驱散。",
+            "iconName": "Buff_AtkUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41004063,
+            "name": "法式红菜汤",
+            "description": "造成物理伤害时攻击力提高<color=#f26c1c>2.5%</color>。增益不可驱散。",
+            "iconName": "Buff_AtkUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41004071,
+            "name": "墨西哥巨无霸",
+            "description": "回合外攻击时攻击力提高<color=#f26c1c>1%</color>。增益不可驱散。",
+            "iconName": "Buff_AtkUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41004072,
+            "name": "墨西哥巨无霸",
+            "description": "回合外攻击时攻击力提高<color=#f26c1c>1.5%</color>。增益不可驱散。",
+            "iconName": "Buff_AtkUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41004073,
+            "name": "墨西哥巨无霸",
+            "description": "回合外攻击时攻击力提高<color=#f26c1c>2.5%</color>。增益不可驱散。",
+            "iconName": "Buff_AtkUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41004081,
+            "name": "鲜虾锅贴",
+            "description": "主动攻击时攻击力提高<color=#f26c1c>1%</color>。增益不可驱散。",
+            "iconName": "Buff_AtkUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41004082,
+            "name": "鲜虾锅贴",
+            "description": "主动攻击时攻击力提高<color=#f26c1c>1.5%</color>。增益不可驱散。",
+            "iconName": "Buff_AtkUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 41004083,
+            "name": "鲜虾锅贴",
+            "description": "主动攻击时攻击力提高<color=#f26c1c>2.5%</color>。增益不可驱散。",
+            "iconName": "Buff_AtkUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 43001121,
+            "name": "结晶化",
+            "description": "攻击力和防御力增加<color=#f26c1c>10%</color>，可叠加。增益不可驱散。",
+            "iconName": "Buff_AllUp",
+            "isShow": true,
+            "buffHeadShow": 1
+        },
+        {
+            "id": 43001123,
+            "name": "出生特效",
+            "description": "",
+            "buffEffect": "Skill/6971001_sumborn",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0",
+            "effectFollowType": "1",
+            "effectBirthType": "109",
+            "effectTypeGroup": "0",
+            "isLoop": "0"
         },
         {
             "id": 51034312,
@@ -23019,6 +25537,33 @@
             "showPriorityIcon": 10
         },
         {
+            "id": 60009602,
+            "name": "回路干扰α",
+            "description": "自身造成的燃烧、电导、浊刻伤害降低<color=#f26c1c>30%</color>。减益效果。",
+            "iconName": "Buff_DamageDown",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 60009803,
+            "name": "扩编43期BUFFA",
+            "description": "攻击力提高<color=#f26c1c>10%</color>，受到的物理伤害减少<color=#f26c1c>10%</color>，受到的稳态伤害减少<color=#f26c1c>5点</color>，可驱散，效果可叠加。",
+            "iconName": "Buff_AtkUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 60009804,
+            "name": "扩编43期BUFFB",
+            "description": "防御力提高<color=#f26c1c>10%</color>，受到的元素伤害减少<color=#f26c1c>10%</color>，受到的稳态伤害减少<color=#f26c1c>5点</color>，可驱散，效果可叠加。",
+            "iconName": "Buff_DefUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
             "id": 61000010,
             "name": "致命火力",
             "description": "火力人形造成的伤害提高<color=#f26c1c>20%</color>。",
@@ -23388,6 +25933,13 @@
             "name": "导染共鸣",
             "description": "大回合开始前，自身导染数<color=#f26c1c>大于等于2</color>时，直到本次大回合结束前，造成伤害提高<color=#f26c1c>25%</color>。",
             "iconName": "Buff_Guild_74",
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 61000550,
+            "name": "破盾重挫",
+            "description": "对持有<color=#f26c1c>防御类减益</color>数量<color=#f26c1c>大于等于2</color>的目标造成的暴击伤害提高<color=#f26c1c>25%</color>。",
+            "iconName": "Buff_Guild_75",
             "showPriorityIcon": 10
         },
         {
@@ -24053,6 +26605,24 @@
             "isLoop": "0|0"
         },
         {
+            "id": 62009700,
+            "name": "英勇协议",
+            "description": "不再受逃避效果影响，不可驱散",
+            "iconName": "Buff_Strong",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
+            "id": 62009710,
+            "name": "锐志协议",
+            "description": "不再受诱导效果影响，不可驱散",
+            "iconName": "Buff_AllUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 10
+        },
+        {
             "id": 62101022,
             "name": "",
             "description": "",
@@ -24208,7 +26778,7 @@
         {
             "id": 62104317,
             "name": "保护I",
-            "description": "受到伤害降低<color=#f26c1c>7.5%</color>。不可驱散。可通过破坏重机枪和榴弹发射模组消除。",
+            "description": "受到伤害降低<color=#f26c1c>7.5%</color>，至多叠加<color=#f26c1c>6层</color>。不可驱散。破坏重机枪和榴弹发射模组以消除。",
             "iconName": "Buff_DefUpNeutral",
             "isShow": true,
             "showPriorityIcon": 10
@@ -24216,7 +26786,7 @@
         {
             "id": 62104318,
             "name": "保护II",
-            "description": "受到伤害降低<color=#f26c1c>15%</color>。不可驱散。可通过破坏重机枪和榴弹发射模组消除。",
+            "description": "受到伤害降低<color=#f26c1c>15%</color>，至多叠加<color=#f26c1c>6层</color>。不可驱散。破坏重机枪和榴弹发射模组以消除。",
             "iconName": "Buff_DefUpNeutral",
             "isShow": true,
             "showPriorityIcon": 10
@@ -24224,7 +26794,7 @@
         {
             "id": 62104319,
             "name": "保护III",
-            "description": "受到伤害降低<color=#f26c1c>30%</color>。不可驱散。可通过破坏重机枪和榴弹发射模组消除。",
+            "description": "受到伤害降低<color=#f26c1c>30%</color>，至多叠加<color=#f26c1c>6层</color>。不可驱散。破坏重机枪和榴弹发射模组以消除。",
             "iconName": "Buff_DefUpNeutral",
             "isShow": true,
             "showPriorityIcon": 10
@@ -24804,7 +27374,7 @@
         },
         {
             "id": 64881102,
-            "name": "移动降低II",
+            "name": "移动降低III",
             "description": "行动力降低<color=#f26c1c>3格</color>。减益效果。",
             "buffEffect": "Buff/SpeedD|Buff/SpeedD",
             "effectPlayTime": [
@@ -25364,6 +27934,366 @@
             "effectBirthType": "109"
         },
         {
+            "id": 67773011,
+            "name": "受难",
+            "description": "携带者行动结束后，减少其<color=#f26c1c>10%x层数</color>当前生命值的伤害并对<color=#f26c1c>周围半径2格内</color>的友方单位施加该效果，至多叠加<color=#f26c1c>15</color>层。减益效果。",
+            "buffEffect": "Skill/677703_Black",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "104",
+            "iconName": "Buff_BlackGroza4",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 99,
+            "isLoop": "1"
+        },
+        {
+            "id": 67773013,
+            "name": "情感投射·黑",
+            "description": "闪电？的情感投射。",
+            "buffEffect": "Skill/677701_Black",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "90",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "2",
+            "effectBirthType": "301",
+            "effectTypeGroup": "0",
+            "buffFix": 4,
+            "iconName": "Buff_NogoalNeutral",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "1"
+        },
+        {
+            "id": 67773014,
+            "name": "",
+            "description": "",
+            "buffEffect": "Skill/677702_Black",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0",
+            "effectFollowType": "1",
+            "effectBirthType": "104",
+            "isLoop": "1"
+        },
+        {
+            "id": 67773023,
+            "name": "情感投射·白",
+            "description": "闪电？的情感投射。",
+            "buffEffect": "Skill/677701_White",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "90",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "2",
+            "effectBirthType": "301",
+            "effectTypeGroup": "0",
+            "buffFix": 4,
+            "iconName": "Buff_NogoalNeutral",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "1"
+        },
+        {
+            "id": 67773024,
+            "name": "",
+            "description": "",
+            "buffEffect": "Skill/677702_White",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0",
+            "effectFollowType": "1",
+            "effectBirthType": "104",
+            "isLoop": "1"
+        },
+        {
+            "id": 67777022,
+            "name": "核心暴露",
+            "description": "增加闪电？<color=#f26c1c>20%</color>受到的最终伤害。减益不可驱散。",
+            "iconName": "Buff_EnemyHurtUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 95
+        },
+        {
+            "id": 67778011,
+            "name": "攻击特型",
+            "description": "友方单位（不包含自身）进行攻击时，进行<color=#3487e0>{0}</color>，造成<color=#f26c1c>50%</color>攻击力的物理伤害，<color=#f26c1c>2点</color>稳态伤害并施加<color=#3487e0>{1}</color>，持续<color=#f26c1c>2</color>回合。",
+            "descriptionTips": "1:90109;0:6777101",
+            "buffEffect": "Skill/6776601_Attack",
+            "effectPlayTime": [
+                1
+            ],
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "104",
+            "iconName": "Buff_BlackGroza1",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 99
+        },
+        {
+            "id": 67778012,
+            "name": "防御特型",
+            "description": "回合开始时获得<color=#f26c1c>2</color>层<color=#3487e0>{0}</color>。不可驱散。",
+            "descriptionTips": "0:6777802",
+            "buffEffect": "Skill/6776601_Defence",
+            "effectPlayTime": [
+                1
+            ],
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "104",
+            "iconName": "Buff_BlackGroza2",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 99
+        },
+        {
+            "id": 67778041,
+            "name": "战斗激励",
+            "description": "攻击力提高<color=#f26c1c>3%</color>，最大叠加至<color=#f26c1c>30</color>层。增益效果不可驱散。",
+            "buffEffect": "Buff/AtkU|Buff/AtkU",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "3|3",
+            "showPriorityEffect": 1,
+            "iconName": "Buff_AtkUp",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 90,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 67779011,
+            "name": "应急护盾",
+            "description": "消耗应急护盾的生命值抵消等量的伤害，被击破时，受到<color=#f26c1c>30%</color>自身最大生命值的伤害。不可驱散。",
+            "iconName": "Buff_DefUpNeutral",
+            "isShow": true,
+            "buffHeadShow": 1
+        },
+        {
+            "id": 67779012,
+            "name": "移动降低III",
+            "description": "移动力降低<color=#f26c1c>3</color>格，减益效果不可驱散。",
+            "buffEffect": "Buff/SpeedD|Buff/SpeedD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_SpeedLow",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 50,
+            "isLoop": "0|0"
+        },
+        {
+            "id": 67783013,
+            "name": "情感投射·黑",
+            "description": "闪电？的情感投射。",
+            "buffEffect": "Skill/677701_Black",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "90",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "2",
+            "effectBirthType": "301",
+            "effectTypeGroup": "0",
+            "buffFix": 4,
+            "iconName": "Buff_NogoalNeutral",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "1"
+        },
+        {
+            "id": 67783014,
+            "name": "",
+            "description": "",
+            "buffEffect": "Skill/677702_Black",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0",
+            "effectFollowType": "1",
+            "effectBirthType": "104",
+            "isLoop": "1"
+        },
+        {
+            "id": 67783023,
+            "name": "情感投射·白",
+            "description": "闪电？的情感投射。",
+            "buffEffect": "Skill/677701_White",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "90",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "2",
+            "effectBirthType": "301",
+            "effectTypeGroup": "0",
+            "buffFix": 4,
+            "iconName": "Buff_NogoalNeutral",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "isLoop": "1"
+        },
+        {
+            "id": 67783024,
+            "name": "",
+            "description": "",
+            "buffEffect": "Skill/677702_White",
+            "effectPlayTime": [
+                1
+            ],
+            "effectFadeTime": "0",
+            "effectFollowType": "1",
+            "effectBirthType": "104",
+            "isLoop": "1"
+        },
+        {
+            "id": 67788011,
+            "name": "攻击特型",
+            "description": "友方单位（不包含自身）进行攻击时，进行<color=#3487e0>{0}</color>，造成<color=#f26c1c>70%</color>攻击力的物理伤害，<color=#f26c1c>2点</color>稳态伤害并施加<color=#3487e0>{1}</color>，持续<color=#f26c1c>2</color>回合。",
+            "descriptionTips": "1:90109;0:6777101",
+            "buffEffect": "Skill/6776601_Attack",
+            "effectPlayTime": [
+                1
+            ],
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "104",
+            "iconName": "Buff_BlackGroza1",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 99
+        },
+        {
+            "id": 67788012,
+            "name": "防御特型",
+            "description": "回合开始时获得<color=#f26c1c>2</color>层<color=#3487e0>{0}</color>。不可驱散。",
+            "descriptionTips": "0:6777802",
+            "buffEffect": "Skill/6776601_Defence",
+            "effectPlayTime": [
+                1
+            ],
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1",
+            "effectBirthType": "104",
+            "iconName": "Buff_BlackGroza2",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 99
+        },
+        {
+            "id": 67789011,
+            "name": "应急护盾",
+            "description": "消耗应急护盾的生命值抵消等量的伤害，被击破时，受到<color=#f26c1c>30%</color>自身最大生命值的伤害。不可驱散。",
+            "iconName": "Buff_DefUpNeutral",
+            "isShow": true,
+            "buffHeadShow": 1
+        },
+        {
+            "id": 67789012,
+            "name": "移动降低III",
+            "description": "移动力降低<color=#f26c1c>3</color>格，减益效果不可驱散。",
+            "buffEffect": "Buff/SpeedD|Buff/SpeedD",
+            "effectPlayTime": [
+                1,
+                4
+            ],
+            "effectFadeTime": "0|0",
+            "cameraPlayTime": [
+                1
+            ],
+            "cameraTime": [
+                60
+            ],
+            "effectFollowType": "1|1",
+            "effectBirthType": "109|109",
+            "effectTypeGroup": "0|0",
+            "iconName": "Buff_SpeedLow",
+            "isShow": true,
+            "buffHeadShow": 1,
+            "showPriorityIcon": 50,
+            "isLoop": "0|0"
+        },
+        {
             "id": 67804301,
             "name": "熵序固化",
             "description": "攻击力提高<color=#f26c1c>15%</color>，受到的<color=#3487e0>{0}</color>降低<color=#f26c1c>3%</color>，可叠加，增益不可驱散。",
@@ -25458,7 +28388,7 @@
                 60
             ],
             "effectFollowType": "1",
-            "effectBirthType": "103",
+            "effectBirthType": "114",
             "effectTypeGroup": "0",
             "iconName": "Buff_TargetNeutral",
             "isShow": true,
@@ -26992,26 +29922,6 @@
             "iconName": "Buff_Guild_24"
         },
         {
-            "id": 73011201,
-            "name": "世界boss冷凝特效buff",
-            "description": "不显示",
-            "buffEffect": "Buff/WorldBoss_ice",
-            "effectPlayTime": [
-                1
-            ],
-            "effectFadeTime": "0",
-            "cameraPlayTime": [
-                1
-            ],
-            "cameraTime": [
-                0
-            ],
-            "effectFollowType": "1",
-            "effectBirthType": "109",
-            "effectTypeGroup": "0",
-            "isLoop": "1"
-        },
-        {
             "id": 73012001,
             "name": "液态效应",
             "description": "<color=#2caadb>浊刻伤害</color>提高<color=#f26c1c>30%</color>，造成浊刻伤害时，暴击伤害提高<color=#f26c1c>20%</color>。",
@@ -27040,7 +29950,7 @@
         {
             "id": 73013001,
             "name": "混合理论",
-            "description": "造成弹种伤害时伤害提高<color=#f26c1c>30%</color>，暴击伤害提高<color=#f26c1c>20%</color>。",
+            "description": "造成弹种伤害时，造成的伤害提高<color=#f26c1c>30%</color>，暴击伤害提高<color=#f26c1c>20%</color>。",
             "iconName": "Buff_Guild_69"
         },
         {
@@ -30003,6 +32913,14 @@
             "buffHeadShow": 1
         },
         {
+            "id": 106608222,
+            "name": "狩猎律动",
+            "description": "若该效果叠加至<color=#f26c1c>5层</color>，下一个回合开始时，触发1次主动技能<color=#3487e0>白獒之瞳</color>的被动效果。每场战斗至多触发<color=#f26c1c>1次</color>。不可驱散。",
+            "iconName": "Buff_VoymastinaSSR2",
+            "isShow": true,
+            "showPriorityIcon": 99
+        },
+        {
             "id": 201000041,
             "name": "烽火连绵",
             "description": "造成的稳态伤害提高<color=#f26c1c>1点</color>，至多叠加<color=#f26c1c>6层</color>。增益不可驱散。",
@@ -31035,6 +33953,14 @@
             "name": "涌动",
             "description": "主动攻击前，对目标造成<color=#f26c1c>10%</color>最大生命值和<color=#f26c1c>10%</color>攻击力的<color=#2caadb>浊刻伤害</color>并在其<color=#f26c1c>周围半径2格内</color>生成<color=#3487e0>暗流</color>地格，触发后失去一半层数。增益可叠加。不可驱散。",
             "iconName": "Buff_WaterUP",
+            "isShow": true,
+            "buffHeadShow": 1
+        },
+        {
+            "id": 430011211,
+            "name": "解离态",
+            "description": "攻击力和防御力降低<color=#f26c1c>10%</color>，可叠加。减益不可驱散。",
+            "iconName": "Buff_Injury",
             "isShow": true,
             "buffHeadShow": 1
         },
@@ -33314,7 +36240,7 @@
         {
             "id": 2111000321,
             "name": "冻僵",
-            "description": "移动力减少<color=#f26c1c>1格</color>，受到<color=#42cce0>冷凝伤害</color>增加<color=#f26c1c>30%</color>，回合结束时对持有者造成最大生命值<color=#f26c1c>3%</color>的固定伤害。可叠加。冷凝类减益效果。",
+            "description": "移动力减少<color=#f26c1c>1格</color>，受到<color=#42cce0>冷凝伤害</color>增加<color=#f26c1c>100%</color>，回合结束时对持有者造成最大生命值<color=#f26c1c>3%</color>的固定伤害。可叠加。冷凝类减益效果。",
             "buffEffect": "Buff/Rouge11_Cold",
             "effectPlayTime": [
                 1
