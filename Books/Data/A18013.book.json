@@ -68,15 +68,23 @@
         {
           "rowIndex": 2,
           "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 3,
+          "strings": [
             "Bg",
             "BG_None_Black_01",
             "",
             "BgDefault",
             "",
             "",
-            "0.2",
+            ".2",
             "0",
-            "Linear",
+            "",
             "",
             "",
             "",
@@ -92,10 +100,10 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 3,
+          "rowIndex": 4,
           "strings": [
             "Bg",
-            "BG_Green_404Room_Day_02",
+            "BG_Green_Office_Day_01",
             "",
             "BgDefault",
             "",
@@ -118,27 +126,16 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 4,
-          "strings": [
-            "Text",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218013001"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
           "rowIndex": 5,
           "strings": [
-            "Text",
+            "Particle",
+            "二级平层",
+            "",
+            "EffectLayer",
+            "35",
+            "1",
+            "",
+            "0",
             "",
             "",
             "",
@@ -148,7 +145,8 @@
             "",
             "",
             "",
-            "218013002"
+            "",
+            ""
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -156,13 +154,13 @@
         {
           "rowIndex": 6,
           "strings": [
-            "ChangeMessageWindow",
-            "AVGWindow",
+            "Se",
+            "2018041",
+            "TRUE",
+            "1",
             "",
-            "",
-            "",
-            "",
-            "",
+            "0",
+            "3",
             "",
             "",
             "",
@@ -182,10 +180,17 @@
         {
           "rowIndex": 7,
           "strings": [
-            "Character",
-            "妮基塔SSR",
-            "Serious,0",
-            "中"
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "1",
+            "",
+            "",
+            "218013001"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -193,25 +198,7 @@
         {
           "rowIndex": 8,
           "strings": [
-            "BgOff",
-            "BgCGBackGround",
-            "",
-            "",
-            "",
-            "",
-            "2",
-            "5",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "CharacterOff"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -219,14 +206,32 @@
         {
           "rowIndex": 9,
           "strings": [
-            "BgOff",
-            "BG_Green_404Room_Day_02",
+            "Text",
             "",
             "",
             "",
             "",
-            "2",
-            "5",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218013002"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 10,
+          "strings": [
+            "ChangeMessageWindow",
+            "AVGWindow",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -243,11 +248,22 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 10,
+          "rowIndex": 11,
+          "strings": [
+            "Character",
+            "妮基塔SSR",
+            "Idle,0",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 12,
           "strings": [
             "AddEffect",
             "妮基塔SSR",
-            "SenCharEff_CommunStart_holo_01",
+            "SenCharEff_Plot_CommunStart_holo_02",
             "",
             "",
             "",
@@ -269,12 +285,12 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 11,
+          "rowIndex": 13,
           "strings": [
             "Text",
             "462",
-            "",
             "妮基塔SSR",
+            "",
             "",
             "",
             "",
@@ -287,69 +303,17 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 12,
-          "strings": [
-            "ChangeMessageWindow",
-            "AVGRecordPaperDialog",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 13,
-          "strings": [
-            "CharacterOff",
-            "妮基塔SSR",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
           "rowIndex": 14,
           "strings": [
-            "Bg",
-            "BG_None_Black_01",
-            "",
-            "BgDefault",
+            "BgOff",
             "",
             "",
-            "0.2",
-            "0",
-            "Linear",
+            "",
+            "",
+            "",
+            "1",
+            "",
+            "",
             "",
             "",
             "",
@@ -367,15 +331,15 @@
         {
           "rowIndex": 15,
           "strings": [
-            "Bg",
-            "BG_None_Black_01",
-            "",
-            "BgDefault",
+            "ChangeMessageWindow",
+            "AVGWindowFull",
             "",
             "",
-            "2",
-            "0",
-            "EaseInSine",
+            "",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -393,25 +357,7 @@
         {
           "rowIndex": 16,
           "strings": [
-            "Bgm",
-            "黄区人文",
-            "",
-            "1",
-            "",
-            "0",
-            "2",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "CharacterOff"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -419,13 +365,13 @@
         {
           "rowIndex": 17,
           "strings": [
-            "Se",
-            "20110061",
-            "False",
+            "Bgm",
+            "日常沉重",
+            "",
             "1",
             "",
             "0",
-            "0",
+            "2",
             "",
             "",
             "",
@@ -445,32 +391,6 @@
         {
           "rowIndex": 18,
           "strings": [
-            "Se",
-            "20110062",
-            "True",
-            "1",
-            "",
-            "0",
-            "2",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 19,
-          "strings": [
             "Text",
             "",
             "",
@@ -487,10 +407,18 @@
           "isCommentOut": 0
         },
         {
+          "rowIndex": 19,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
           "rowIndex": 20,
           "strings": [
             "Text",
-            "519",
+            "",
             "",
             "",
             "",
@@ -507,8 +435,16 @@
         {
           "rowIndex": 21,
           "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 22,
+          "strings": [
             "Text",
-            "428",
+            "",
             "",
             "",
             "",
@@ -523,10 +459,18 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 22,
+          "rowIndex": 23,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 24,
           "strings": [
             "Text",
-            "519",
+            "",
             "",
             "",
             "",
@@ -541,10 +485,18 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 23,
+          "rowIndex": 25,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 26,
           "strings": [
             "Text",
-            "428",
+            "",
             "",
             "",
             "",
@@ -559,10 +511,18 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 24,
+          "rowIndex": 27,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 28,
           "strings": [
             "Text",
-            "519",
+            "",
             "",
             "",
             "",
@@ -577,91 +537,9 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 25,
-          "strings": [
-            "Text",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218013010"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 26,
-          "strings": [
-            "Text",
-            "428",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218013011"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 27,
-          "strings": [
-            "Text",
-            "519",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218013012"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 28,
-          "strings": [
-            "Text",
-            "428",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218013013"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
           "rowIndex": 29,
           "strings": [
-            "Text",
-            "519",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218013014"
+            "CharacterOff"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -679,7 +557,7 @@
             "",
             "",
             "",
-            "218013015"
+            "218013010"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -687,17 +565,7 @@
         {
           "rowIndex": 31,
           "strings": [
-            "Text",
-            "428",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218013016"
+            "CharacterOff"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -706,7 +574,6 @@
           "rowIndex": 32,
           "strings": [
             "Text",
-            "519",
             "",
             "",
             "",
@@ -715,7 +582,8 @@
             "",
             "",
             "",
-            "218013017"
+            "",
+            "218013011"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -723,17 +591,7 @@
         {
           "rowIndex": 33,
           "strings": [
-            "Text",
-            "428",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218013018"
+            "CharacterOff"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -742,7 +600,6 @@
           "rowIndex": 34,
           "strings": [
             "Text",
-            "428",
             "",
             "",
             "",
@@ -751,7 +608,8 @@
             "",
             "",
             "",
-            "218013090"
+            "",
+            "218013012"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -759,17 +617,7 @@
         {
           "rowIndex": 35,
           "strings": [
-            "Text",
-            "519",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218013019"
+            "CharacterOff"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -778,7 +626,6 @@
           "rowIndex": 36,
           "strings": [
             "Text",
-            "428",
             "",
             "",
             "",
@@ -787,7 +634,8 @@
             "",
             "",
             "",
-            "218013020"
+            "",
+            "218013013"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -795,17 +643,7 @@
         {
           "rowIndex": 37,
           "strings": [
-            "Text",
-            "428",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218013091"
+            "CharacterOff"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -814,7 +652,6 @@
           "rowIndex": 38,
           "strings": [
             "Text",
-            "428",
             "",
             "",
             "",
@@ -823,7 +660,8 @@
             "",
             "",
             "",
-            "218013092"
+            "",
+            "218013014"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -831,17 +669,7 @@
         {
           "rowIndex": 39,
           "strings": [
-            "Text",
-            "519",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218013093"
+            "CharacterOff"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -859,7 +687,7 @@
             "",
             "",
             "",
-            "218013021"
+            "218013015"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -867,17 +695,7 @@
         {
           "rowIndex": 41,
           "strings": [
-            "Text",
-            "428",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218013094"
+            "CharacterOff"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -886,7 +704,163 @@
           "rowIndex": 42,
           "strings": [
             "Text",
-            "519",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218013016"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 43,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 44,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218013017"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 45,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 46,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218013018"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 47,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 48,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218013019"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 49,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 50,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218013020"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 51,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 52,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218013021"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 53,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 54,
+          "strings": [
+            "Text",
+            "",
             "",
             "",
             "",
@@ -901,10 +875,18 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 43,
+          "rowIndex": 55,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 56,
           "strings": [
             "Text",
-            "428",
+            "",
             "",
             "",
             "",
@@ -919,10 +901,18 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 44,
+          "rowIndex": 57,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 58,
           "strings": [
             "Text",
-            "519",
+            "",
             "",
             "",
             "",
@@ -937,319 +927,9 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 45,
-          "strings": [
-            "Text",
-            "428",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218013025"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 46,
-          "strings": [
-            "Text",
-            "519",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218013095"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 47,
-          "strings": [
-            "Text",
-            "428",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218013096"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 48,
-          "strings": [
-            "Text",
-            "428",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218013097"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 49,
-          "strings": [
-            "Text",
-            "519",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218013098"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 50,
-          "strings": [
-            "Text",
-            "428",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218013099"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 51,
-          "strings": [
-            "Se",
-            "2010073",
-            "False",
-            "1",
-            "",
-            "0",
-            "0",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 52,
-          "strings": [
-            "Se",
-            "2010135",
-            "False",
-            "1",
-            "",
-            "0",
-            "0",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 53,
-          "strings": [
-            "Text",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218013026"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 54,
-          "strings": [
-            "Text",
-            "428",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218013027"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 55,
-          "strings": [
-            "Text",
-            "519",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218013028"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 56,
-          "strings": [
-            "BgOff",
-            "BgCGBackGround",
-            "",
-            "",
-            "",
-            "",
-            "2",
-            "4",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 57,
-          "strings": [
-            "BgOff",
-            "BG_None_Black_01",
-            "",
-            "",
-            "",
-            "",
-            "2",
-            "4",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 58,
-          "strings": [
-            "Se",
-            "20110063",
-            "False",
-            "1",
-            "",
-            "0",
-            "0",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
           "rowIndex": 59,
           "strings": [
-            "StopSe",
-            "20110062",
-            "",
-            "",
-            "",
-            "",
-            "2",
-            "0",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "CharacterOff"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -1267,13 +947,351 @@
             "",
             "",
             "",
-            "218013029"
+            "218013025"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
         },
         {
           "rowIndex": 61,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 62,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218013026"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 63,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 64,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218013027"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 65,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 66,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218013028"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 67,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 68,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218013029"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 69,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 70,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218013030"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 71,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 72,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218013031"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 73,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 74,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218013032"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 75,
+          "strings": [
+            "BgOff",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 76,
+          "strings": [
+            "ChangeMessageWindow",
+            "AVGWindowFull",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 77,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 78,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218013033"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 79,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 80,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218013034"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 81,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 82,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218013035"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 83,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 84,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218013036"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 85,
           "strings": [
             "ChangeMessageWindow",
             "AVGWindow",
@@ -1299,126 +1317,22 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 62,
+          "rowIndex": 86,
           "strings": [
             "Character",
             "妮基塔SSR",
-            "Serious,0",
+            "Surprised,0",
             "中"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
         },
         {
-          "rowIndex": 63,
-          "strings": [
-            "Bg",
-            "BG_None_Black_01",
-            "",
-            "BgDefault",
-            "",
-            "",
-            "0.2",
-            "0",
-            "Linear",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 64,
-          "strings": [
-            "Bg",
-            "BG_Green_404Room_Day_02",
-            "",
-            "BgDefault",
-            "",
-            "",
-            "2",
-            "0",
-            "EaseInSine",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 65,
-          "strings": [
-            "BgOff",
-            "BgCGBackGround",
-            "",
-            "",
-            "",
-            "",
-            "2",
-            "5",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 66,
-          "strings": [
-            "BgOff",
-            "BG_Green_404Room_Day_02",
-            "",
-            "",
-            "",
-            "",
-            "2",
-            "5",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 67,
+          "rowIndex": 87,
           "strings": [
             "AddEffect",
             "妮基塔SSR",
-            "SenCharEff_CommunStart_holo_01",
+            "SenCharEff_Plot_CommunStart_holo_02",
             "",
             "",
             "",
@@ -1440,293 +1354,11 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 68,
+          "rowIndex": 88,
           "strings": [
             "Text",
             "462",
-            "",
             "妮基塔SSR",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218013030"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 69,
-          "strings": [
-            "ChangeMessageWindow",
-            "AVGRecordPaperDialog",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 70,
-          "strings": [
-            "CharacterOff",
-            "妮基塔SSR",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 71,
-          "strings": [
-            "Bg",
-            "BG_None_Black_01",
-            "",
-            "BgDefault",
-            "",
-            "",
-            "0.2",
-            "0",
-            "Linear",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 72,
-          "strings": [
-            "Bg",
-            "BG_Green_404Room_Day_02",
-            "",
-            "BgDefault",
-            "",
-            "",
-            "2",
-            "0",
-            "EaseInSine",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 73,
-          "strings": [
-            "Se",
-            "20110061",
-            "False",
-            "1",
-            "",
-            "0",
-            "0",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 74,
-          "strings": [
-            "Se",
-            "20110062",
-            "True",
-            "1",
-            "",
-            "0",
-            "2",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 75,
-          "strings": [
-            "Text",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218013031"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 76,
-          "strings": [
-            "Text",
-            "428",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218013032"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 77,
-          "strings": [
-            "Text",
-            "519",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218013033"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 78,
-          "strings": [
-            "Text",
-            "428",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218013034"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 79,
-          "strings": [
-            "Text",
-            "519",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218013035"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 80,
-          "strings": [
-            "Text",
-            "428",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218013036"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 81,
-          "strings": [
-            "Text",
-            "519",
-            "",
             "",
             "",
             "",
@@ -1740,145 +1372,12 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 82,
-          "strings": [
-            "Text",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218013038"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 83,
-          "strings": [
-            "Text",
-            "428",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218013039"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 84,
-          "strings": [
-            "Text",
-            "519",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218013040"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 85,
-          "strings": [
-            "Text",
-            "428",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218013041"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 86,
-          "strings": [
-            "Text",
-            "519",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218013042"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 87,
-          "strings": [
-            "Text",
-            "428",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218013043"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 88,
-          "strings": [
-            "Text",
-            "519",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218013044"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
           "rowIndex": 89,
           "strings": [
-            "Text",
-            "428",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218013045"
+            "Character",
+            "妮基塔SSR",
+            "Serious,0.5",
+            "中"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -1887,16 +1386,16 @@
           "rowIndex": 90,
           "strings": [
             "Text",
-            "519",
+            "462",
+            "妮基塔SSR",
             "",
             "",
             "",
             "",
+            "1",
             "",
             "",
-            "",
-            "",
-            "218013046"
+            "218013038"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -1904,13 +1403,13 @@
         {
           "rowIndex": 91,
           "strings": [
-            "Se",
-            "2010135",
-            "False",
-            "1",
+            "BgOff",
             "",
-            "0",
-            "0",
+            "",
+            "",
+            "",
+            "",
+            "1",
             "",
             "",
             "",
@@ -1930,103 +1429,13 @@
         {
           "rowIndex": 92,
           "strings": [
-            "Text",
+            "ChangeMessageWindow",
+            "AVGWindowFull",
             "",
             "",
             "",
             "",
             "",
-            "",
-            "",
-            "",
-            "",
-            "218013047"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 93,
-          "strings": [
-            "Text",
-            "428",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218013048"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 94,
-          "strings": [
-            "Text",
-            "519",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218013049"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 95,
-          "strings": [
-            "Text",
-            "428",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218013050"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 96,
-          "strings": [
-            "Text",
-            "519",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218013051"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 97,
-          "strings": [
-            "Se",
-            "2010135",
-            "False",
-            "1",
-            "",
-            "0",
-            "0",
             "",
             "",
             "",
@@ -2039,6 +1448,66 @@
             "",
             "",
             ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 93,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 94,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218013039"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 95,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 96,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218013040"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 97,
+          "strings": [
+            "CharacterOff"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -2056,7 +1525,7 @@
             "",
             "",
             "",
-            "218013052"
+            "218013041"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -2064,17 +1533,7 @@
         {
           "rowIndex": 99,
           "strings": [
-            "Text",
-            "428",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218013053"
+            "CharacterOff"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -2083,7 +1542,6 @@
           "rowIndex": 100,
           "strings": [
             "Text",
-            "519",
             "",
             "",
             "",
@@ -2092,7 +1550,8 @@
             "",
             "",
             "",
-            "218013054"
+            "",
+            "218013042"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -2100,17 +1559,7 @@
         {
           "rowIndex": 101,
           "strings": [
-            "Text",
-            "428",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218013055"
+            "CharacterOff"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -2119,7 +1568,6 @@
           "rowIndex": 102,
           "strings": [
             "Text",
-            "519",
             "",
             "",
             "",
@@ -2128,7 +1576,8 @@
             "",
             "",
             "",
-            "218013056"
+            "",
+            "218013043"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -2136,17 +1585,7 @@
         {
           "rowIndex": 103,
           "strings": [
-            "Text",
-            "428",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218013057"
+            "CharacterOff"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -2155,7 +1594,6 @@
           "rowIndex": 104,
           "strings": [
             "Text",
-            "519",
             "",
             "",
             "",
@@ -2164,7 +1602,8 @@
             "",
             "",
             "",
-            "218013058"
+            "",
+            "218013044"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -2172,17 +1611,7 @@
         {
           "rowIndex": 105,
           "strings": [
-            "Text",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218013059"
+            "CharacterOff"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -2191,7 +1620,6 @@
           "rowIndex": 106,
           "strings": [
             "Text",
-            "428",
             "",
             "",
             "",
@@ -2200,7 +1628,8 @@
             "",
             "",
             "",
-            "218013060"
+            "",
+            "218013045"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -2208,17 +1637,7 @@
         {
           "rowIndex": 107,
           "strings": [
-            "Text",
-            "519",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218013061"
+            "CharacterOff"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -2227,7 +1646,6 @@
           "rowIndex": 108,
           "strings": [
             "Text",
-            "428",
             "",
             "",
             "",
@@ -2236,7 +1654,8 @@
             "",
             "",
             "",
-            "218013062"
+            "",
+            "218013046"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -2244,17 +1663,7 @@
         {
           "rowIndex": 109,
           "strings": [
-            "Text",
-            "519",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218013063"
+            "CharacterOff"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -2262,32 +1671,6 @@
         {
           "rowIndex": 110,
           "strings": [
-            "Se",
-            "2010051",
-            "False",
-            "1",
-            "",
-            "0",
-            "0",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 111,
-          "strings": [
             "Text",
             "",
             "",
@@ -2298,7 +1681,15 @@
             "",
             "",
             "",
-            "218013064"
+            "218013047"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 111,
+          "strings": [
+            "CharacterOff"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -2307,7 +1698,6 @@
           "rowIndex": 112,
           "strings": [
             "Text",
-            "519",
             "",
             "",
             "",
@@ -2316,7 +1706,8 @@
             "",
             "",
             "",
-            "218013065"
+            "",
+            "218013048"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -2324,17 +1715,7 @@
         {
           "rowIndex": 113,
           "strings": [
-            "Text",
-            "428",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218013066"
+            "CharacterOff"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -2342,13 +1723,7 @@
         {
           "rowIndex": 114,
           "strings": [
-            "Se",
-            "20110063",
-            "False",
-            "1",
-            "",
-            "0",
-            "0",
+            "Text",
             "",
             "",
             "",
@@ -2358,9 +1733,7 @@
             "",
             "",
             "",
-            "",
-            "",
-            ""
+            "218013049"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -2368,25 +1741,7 @@
         {
           "rowIndex": 115,
           "strings": [
-            "StopSe",
-            "20110062",
-            "",
-            "",
-            "",
-            "",
-            "2",
-            "0",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "CharacterOff"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -2394,14 +1749,7 @@
         {
           "rowIndex": 116,
           "strings": [
-            "BgOff",
-            "BgCGBackGround",
-            "",
-            "",
-            "",
-            "",
-            "2",
-            "4",
+            "Text",
             "",
             "",
             "",
@@ -2411,8 +1759,7 @@
             "",
             "",
             "",
-            "",
-            ""
+            "218013050"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -2420,25 +1767,7 @@
         {
           "rowIndex": 117,
           "strings": [
-            "BgOff",
-            "BG_None_Black_01",
-            "",
-            "",
-            "",
-            "",
-            "2",
-            "4",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "CharacterOff"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -2456,7 +1785,7 @@
             "",
             "",
             "",
-            "218013067"
+            "218013051"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -2464,25 +1793,7 @@
         {
           "rowIndex": 119,
           "strings": [
-            "ChangeMessageWindow",
-            "AVGWindow",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "CharacterOff"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -2490,10 +1801,17 @@
         {
           "rowIndex": 120,
           "strings": [
-            "Character",
-            "妮基塔SSR",
-            "Dazed,0",
-            "中"
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218013052"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -2501,25 +1819,7 @@
         {
           "rowIndex": 121,
           "strings": [
-            "Bg",
-            "BG_None_Black_01",
-            "",
-            "BgDefault",
-            "",
-            "",
-            "0.2",
-            "0",
-            "Linear",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "CharacterOff"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -2527,15 +1827,7 @@
         {
           "rowIndex": 122,
           "strings": [
-            "Bg",
-            "BG_Green_404Room_Day_02",
-            "",
-            "BgDefault",
-            "",
-            "",
-            "2",
-            "0",
-            "EaseInSine",
+            "Text",
             "",
             "",
             "",
@@ -2545,7 +1837,7 @@
             "",
             "",
             "",
-            ""
+            "218013053"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -2553,25 +1845,7 @@
         {
           "rowIndex": 123,
           "strings": [
-            "AddEffect",
-            "妮基塔SSR",
-            "SenCharEff_CommunStart_holo_01",
-            "",
-            "",
-            "",
-            "",
-            "0",
-            "",
-            "NoWait",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "CharacterOff"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -2580,16 +1854,16 @@
           "rowIndex": 124,
           "strings": [
             "Text",
-            "462",
-            "",
-            "妮基塔SSR",
             "",
             "",
             "",
             "",
             "",
             "",
-            "218013068"
+            "",
+            "",
+            "",
+            "218013054"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -2597,10 +1871,7 @@
         {
           "rowIndex": 125,
           "strings": [
-            "Character",
-            "妮基塔SSR",
-            "Dazed,0|Idle,0.5",
-            "中"
+            "CharacterOff"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -2608,14 +1879,7 @@
         {
           "rowIndex": 126,
           "strings": [
-            "BgOff",
-            "BgCGBackGround",
-            "",
-            "",
-            "",
-            "",
-            "2",
-            "4",
+            "Text",
             "",
             "",
             "",
@@ -2625,8 +1889,7 @@
             "",
             "",
             "",
-            "",
-            ""
+            "218013055"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -2634,25 +1897,7 @@
         {
           "rowIndex": 127,
           "strings": [
-            "BgOff",
-            "BG_Green_404Room_Day_02",
-            "",
-            "",
-            "",
-            "",
-            "2",
-            "4",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "CharacterOff"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -2660,16 +1905,7 @@
         {
           "rowIndex": 128,
           "strings": [
-            "AddEffect",
-            "妮基塔SSR",
-            "SenCharEff_CommunStart_holo_01",
-            "",
-            "",
-            "",
-            "",
-            "0",
-            "",
-            "NoWait",
+            "Text",
             "",
             "",
             "",
@@ -2678,7 +1914,8 @@
             "",
             "",
             "",
-            ""
+            "",
+            "218013056"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -2686,17 +1923,7 @@
         {
           "rowIndex": 129,
           "strings": [
-            "Text",
-            "462",
-            "",
-            "妮基塔SSR",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218013069"
+            "CharacterOff"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -2704,8 +1931,7 @@
         {
           "rowIndex": 130,
           "strings": [
-            "ChangeMessageWindow",
-            "AVGRecordPaperDialog",
+            "Text",
             "",
             "",
             "",
@@ -2715,14 +1941,7 @@
             "",
             "",
             "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "218013057"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -2730,25 +1949,7 @@
         {
           "rowIndex": 131,
           "strings": [
-            "CharacterOff",
-            "妮基塔SSR",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "CharacterOff"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -2756,15 +1957,7 @@
         {
           "rowIndex": 132,
           "strings": [
-            "Bg",
-            "BG_None_Black_01",
-            "",
-            "BgDefault",
-            "",
-            "",
-            "0.2",
-            "0",
-            "Linear",
+            "Text",
             "",
             "",
             "",
@@ -2774,7 +1967,7 @@
             "",
             "",
             "",
-            ""
+            "218013058"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -2782,25 +1975,7 @@
         {
           "rowIndex": 133,
           "strings": [
-            "Bg",
-            "BG_None_Black_01",
-            "",
-            "BgDefault",
-            "",
-            "",
-            "2",
-            "0",
-            "EaseInSine",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "CharacterOff"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -2808,13 +1983,7 @@
         {
           "rowIndex": 134,
           "strings": [
-            "Se",
-            "20110061",
-            "False",
-            "1",
-            "",
-            "0",
-            "0",
+            "Text",
             "",
             "",
             "",
@@ -2824,9 +1993,7 @@
             "",
             "",
             "",
-            "",
-            "",
-            ""
+            "218013059"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -2834,25 +2001,7 @@
         {
           "rowIndex": 135,
           "strings": [
-            "Se",
-            "20110062",
-            "True",
-            "1",
-            "",
-            "0",
-            "2",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "CharacterOff"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -2870,7 +2019,7 @@
             "",
             "",
             "",
-            "218013070"
+            "218013060"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -2878,17 +2027,7 @@
         {
           "rowIndex": 137,
           "strings": [
-            "Text",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218013071"
+            "CharacterOff"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -2897,7 +2036,6 @@
           "rowIndex": 138,
           "strings": [
             "Text",
-            "519",
             "",
             "",
             "",
@@ -2906,7 +2044,8 @@
             "",
             "",
             "",
-            "218013072"
+            "",
+            "218013061"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -2914,17 +2053,7 @@
         {
           "rowIndex": 139,
           "strings": [
-            "Text",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218013073"
+            "CharacterOff"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -2933,7 +2062,6 @@
           "rowIndex": 140,
           "strings": [
             "Text",
-            "519",
             "",
             "",
             "",
@@ -2942,7 +2070,8 @@
             "",
             "",
             "",
-            "218013074"
+            "",
+            "218013062"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -2950,17 +2079,7 @@
         {
           "rowIndex": 141,
           "strings": [
-            "Text",
-            "428",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218013075"
+            "CharacterOff"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -2978,7 +2097,7 @@
             "",
             "",
             "",
-            "218013076"
+            "218013063"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -2986,17 +2105,7 @@
         {
           "rowIndex": 143,
           "strings": [
-            "Text",
-            "519",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218013077"
+            "CharacterOff"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -3014,7 +2123,7 @@
             "",
             "",
             "",
-            "218013078"
+            "218013064"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -3022,17 +2131,7 @@
         {
           "rowIndex": 145,
           "strings": [
-            "Text",
-            "428",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218013079"
+            "CharacterOff"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -3041,7 +2140,6 @@
           "rowIndex": 146,
           "strings": [
             "Text",
-            "519",
             "",
             "",
             "",
@@ -3050,7 +2148,8 @@
             "",
             "",
             "",
-            "218013080"
+            "",
+            "218013065"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -3058,17 +2157,7 @@
         {
           "rowIndex": 147,
           "strings": [
-            "Text",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218013081"
+            "CharacterOff"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -3077,7 +2166,6 @@
           "rowIndex": 148,
           "strings": [
             "Text",
-            "428",
             "",
             "",
             "",
@@ -3086,7 +2174,8 @@
             "",
             "",
             "",
-            "218013082"
+            "",
+            "218013066"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -3094,17 +2183,7 @@
         {
           "rowIndex": 149,
           "strings": [
-            "Text",
-            "519",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218013083"
+            "CharacterOff"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -3112,9 +2191,139 @@
         {
           "rowIndex": 150,
           "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218013067"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 151,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 152,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218013068"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 153,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 154,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218013069"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 155,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 156,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218013070"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 157,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 158,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218013071"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 159,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 160,
+          "strings": [
             "Se",
-            "20110063",
-            "False",
+            "2017007",
+            "",
             "1",
             "",
             "0",
@@ -3136,18 +2345,151 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 151,
+          "rowIndex": 161,
           "strings": [
-            "StopSe",
-            "20110062",
+            "Text",
             "",
             "",
             "",
             "",
-            "2",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218013072"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 162,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 163,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218013073"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 164,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 165,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218013074"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 166,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 167,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218013075"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 168,
+          "strings": [
+            "ChangeMessageWindow",
+            "AVGWindow",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 169,
+          "strings": [
+            "Character",
+            "妮基塔SSR",
+            "Think,0",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 170,
+          "strings": [
+            "AddEffect",
+            "妮基塔SSR",
+            "SenCharEff_Plot_CommunStart_holo_02",
+            "",
+            "",
+            "",
+            "",
             "0",
             "",
-            "",
+            "NoWait",
             "",
             "",
             "",
@@ -3162,16 +2504,63 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 152,
+          "rowIndex": 171,
+          "strings": [
+            "Text",
+            "462",
+            "妮基塔SSR",
+            "",
+            "",
+            "",
+            "",
+            "1",
+            "",
+            "",
+            "218013076"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 172,
+          "strings": [
+            "Character",
+            "妮基塔SSR",
+            "Idle,0.5",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 173,
+          "strings": [
+            "Text",
+            "462",
+            "妮基塔SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218013077"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 174,
           "strings": [
             "BgOff",
-            "BgCGBackGround",
             "",
             "",
             "",
             "",
-            "2",
-            "4",
+            "",
+            "1",
+            "",
             "",
             "",
             "",
@@ -3188,16 +2577,16 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 153,
+          "rowIndex": 175,
           "strings": [
-            "BgOff",
-            "BG_None_Black_01",
+            "ChangeMessageWindow",
+            "AVGWindowFull",
             "",
             "",
             "",
             "",
-            "2",
-            "4",
+            "",
+            "",
             "",
             "",
             "",
@@ -3214,7 +2603,171 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 154,
+          "rowIndex": 176,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 177,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218013078"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 178,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 179,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218013079"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 180,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 181,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218013080"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 182,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 183,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218013081"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 184,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 185,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218013082"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 186,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 187,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218013083"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 188,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 189,
           "strings": [
             "Text",
             "",
@@ -3232,16 +2785,206 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 155,
+          "rowIndex": 190,
           "strings": [
-            "ChangeMessageWindow",
-            "AVGNarrator",
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 191,
+          "strings": [
+            "Text",
             "",
             "",
             "",
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "218013085"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 192,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 193,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218013086"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 194,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 195,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218013087"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 196,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 197,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218013088"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 198,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 199,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218013089"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 200,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 201,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218013090"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 202,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 203,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218013091"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 204,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 205,
+          "strings": [
+            "ParticleOff",
+            "二级平层",
+            "",
+            "",
+            "",
+            "",
+            ".2",
+            "0",
             "",
             "",
             "",
@@ -3258,7 +3001,7 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 156,
+          "rowIndex": 206,
           "strings": [
             "Bg",
             "BG_None_Black_01",
@@ -3266,9 +3009,9 @@
             "BgDefault",
             "",
             "",
-            "0.2",
+            ".2",
             "0",
-            "Linear",
+            "",
             "",
             "",
             "",
@@ -3284,10 +3027,10 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 157,
+          "rowIndex": 207,
           "strings": [
             "Bg",
-            "BG_Green_404Room_Day_02",
+            "BG_Green_Office_Day_01",
             "",
             "BgDefault",
             "",
@@ -3310,7 +3053,33 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 158,
+          "rowIndex": 208,
+          "strings": [
+            "Se",
+            "2018041",
+            "TRUE",
+            "1",
+            "",
+            "0",
+            "2",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 209,
           "strings": [
             "Text",
             "",
@@ -3322,13 +3091,13 @@
             "",
             "",
             "",
-            "218013085"
+            "218013092"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
         },
         {
-          "rowIndex": 159,
+          "rowIndex": 210,
           "strings": [
             "ChangeMessageWindow",
             "AVGWindow",
@@ -3354,51 +3123,50 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 160,
+          "rowIndex": 211,
           "strings": [
             "Character",
             "妮基塔SSR",
-            "Think,0",
+            "Idle,0|Serious,0.5",
             "中"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
         },
         {
-          "rowIndex": 161,
+          "rowIndex": 212,
           "strings": [
             "Text",
             "462",
-            "",
             "妮基塔SSR",
             "",
             "",
             "",
             "",
+            "1",
             "",
             "",
-            "218013086"
+            "218013093"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
         },
         {
-          "rowIndex": 162,
+          "rowIndex": 213,
           "strings": [
             "Character",
             "妮基塔SSR",
-            "Think,0|Idle,0.5",
+            "Think,2",
             "中"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
         },
         {
-          "rowIndex": 163,
+          "rowIndex": 214,
           "strings": [
             "Text",
             "462",
-            "",
             "妮基塔SSR",
             "",
             "",
@@ -3406,13 +3174,14 @@
             "",
             "",
             "",
-            "218013087"
+            "",
+            "218013094"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
         },
         {
-          "rowIndex": 164,
+          "rowIndex": 215,
           "strings": [
             "ChangeMessageWindow",
             "AVGNarrator",
@@ -3438,36 +3207,33 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 165,
+          "rowIndex": 216,
           "strings": [
-            "Character",
-            "妮基塔SSR",
-            "Idle,0",
-            "中"
+            "CharacterOff"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
         },
         {
-          "rowIndex": 166,
+          "rowIndex": 217,
           "strings": [
             "Text",
             "",
             "",
-            "妮基塔SSR",
             "",
             "",
             "",
             "",
             "",
             "",
-            "218013088"
+            "",
+            "218013095"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
         },
         {
-          "rowIndex": 167,
+          "rowIndex": 218,
           "strings": [
             "ChangeMessageWindow",
             "AVGWindow",
@@ -3493,18 +3259,44 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 168,
+          "rowIndex": 219,
           "strings": [
             "Character",
             "妮基塔SSR",
-            "Serious,0",
+            "Think,0|Serious,0.5",
             "中"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
         },
         {
-          "rowIndex": 169,
+          "rowIndex": 220,
+          "strings": [
+            "CharacterOff",
+            "妮基塔SSR",
+            "",
+            "",
+            "",
+            "",
+            "2",
+            "5",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 221,
           "strings": [
             "BgOff",
             "BgCGBackGround",
@@ -3512,8 +3304,8 @@
             "",
             "",
             "",
-            "2",
-            "6",
+            "",
+            "",
             "",
             "",
             "",
@@ -3530,10 +3322,10 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 170,
+          "rowIndex": 222,
           "strings": [
             "BgOff",
-            "BG_Green_404Room_Day_02",
+            "BG_Green_Office_Day_01",
             "",
             "",
             "",
@@ -3556,16 +3348,16 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 171,
+          "rowIndex": 223,
           "strings": [
             "StopBgm",
-            "",
+            "日常沉重",
             "",
             "",
             "",
             "",
             "2",
-            "6",
+            "5",
             "",
             "",
             "",
@@ -3582,25 +3374,25 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 172,
+          "rowIndex": 224,
           "strings": [
             "Text",
             "462",
-            "",
             "妮基塔SSR",
+            "",
             "",
             "",
             "Next",
             "",
             "",
             "",
-            "218013089"
+            "218013096"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
         },
         {
-          "rowIndex": 173,
+          "rowIndex": 225,
           "strings": [
             "EndScenario"
           ],
@@ -3608,9 +3400,9 @@
           "isCommentOut": 0
         }
       ],
-      "name": "Assets/Utage/BuildResources/NewAVG_Activity/chapterActivity18/A18013.xls:A18013",
+      "name": "Assets/Utage/BuildResources/Activity/ChapterActivity18/A18013.xls:A18013",
       "type": 1,
-      "textLength": 3719,
+      "textLength": 3577,
       "headerRow": 0,
       "entityIndexTbl": [],
       "entityDataList": []

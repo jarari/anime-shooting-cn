@@ -68,15 +68,23 @@
         {
           "rowIndex": 2,
           "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 3,
+          "strings": [
             "Bg",
             "BG_None_Black_01",
             "",
             "BgDefault",
             "",
             "",
-            "0.2",
+            ".2",
             "0",
-            "Linear",
+            "",
             "",
             "",
             "",
@@ -92,7 +100,7 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 3,
+          "rowIndex": 4,
           "strings": [
             "Bg",
             "BG_White_Room_Night_02",
@@ -118,7 +126,7 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 4,
+          "rowIndex": 5,
           "strings": [
             "Bgm",
             "消极不安",
@@ -144,15 +152,15 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 5,
+          "rowIndex": 6,
           "strings": [
             "Se",
-            "20110024",
-            "True",
+            "2010157",
+            "TRUE",
             "1",
             "",
             "0",
-            "2",
+            "3",
             "",
             "",
             "",
@@ -170,7 +178,7 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 6,
+          "rowIndex": 7,
           "strings": [
             "Text",
             "",
@@ -179,7 +187,7 @@
             "",
             "",
             "",
-            "",
+            "1",
             "",
             "",
             "218011001"
@@ -188,7 +196,15 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 7,
+          "rowIndex": 8,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 9,
           "strings": [
             "Text",
             "",
@@ -206,7 +222,7 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 8,
+          "rowIndex": 10,
           "strings": [
             "ChangeMessageWindow",
             "AVGWindow",
@@ -232,37 +248,22 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 9,
-          "strings": [
-            "Character",
-            "SoundOnly_02",
-            "TRUE",
-            "右",
-            "",
-            "",
-            "0",
-            "0"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 10,
+          "rowIndex": 11,
           "strings": [
             "Character",
             "卡门",
-            "Smile,0",
-            "左"
+            "Idle,0",
+            "中"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
         },
         {
-          "rowIndex": 11,
+          "rowIndex": 12,
           "strings": [
             "Se",
             "2010051",
-            "False",
+            "",
             "1",
             "",
             "0",
@@ -284,16 +285,16 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 12,
+          "rowIndex": 13,
           "strings": [
             "Text",
             "14",
-            "",
             "卡门",
             "",
             "",
             "",
-            "1",
+            "",
+            "",
             "",
             "",
             "218011003"
@@ -302,27 +303,11 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 13,
-          "strings": [
-            "Character",
-            "SoundOnly_02",
-            "TRUE",
-            "右",
-            "",
-            "",
-            "0",
-            "0"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
           "rowIndex": 14,
           "strings": [
-            "Character",
-            "卡门",
-            "Smile,0",
-            "左"
+            "Text",
+            "",
+            "卡门"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -330,10 +315,21 @@
         {
           "rowIndex": 15,
           "strings": [
+            "Character",
+            "卡门",
+            "Smile,0.5",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 16,
+          "strings": [
             "Text",
             "14",
-            "",
             "卡门",
+            "",
             "",
             "",
             "",
@@ -346,26 +342,11 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 16,
-          "strings": [
-            "Character",
-            "SoundOnly_02",
-            "TRUE",
-            "右",
-            "",
-            "",
-            "0",
-            "0"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
           "rowIndex": 17,
           "strings": [
-            "Character",
+            "ChangeLayer",
             "卡门",
-            "Smile,0",
+            "KeepLocal",
             "左"
           ],
           "isEmpty": 0,
@@ -374,10 +355,21 @@
         {
           "rowIndex": 18,
           "strings": [
+            "Character",
+            "SoundOnly_02",
+            "TRUE",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 19,
+          "strings": [
             "Text",
-            "14",
+            "517",
+            "SoundOnly_02",
             "",
-            "卡门",
             "",
             "",
             "",
@@ -390,27 +382,12 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 19,
-          "strings": [
-            "Character",
-            "SoundOnly_02",
-            "TRUE",
-            "右",
-            "",
-            "",
-            "0",
-            "0"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
           "rowIndex": 20,
           "strings": [
             "Character",
-            "卡门",
-            "Smile,0",
-            "左"
+            "SoundOnly_02",
+            "FALSE",
+            "右"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -419,8 +396,8 @@
           "rowIndex": 21,
           "strings": [
             "Text",
-            "517",
-            "",
+            "427",
+            "卡门",
             "",
             "",
             "",
@@ -439,11 +416,7 @@
             "Character",
             "SoundOnly_02",
             "TRUE",
-            "右",
-            "",
-            "",
-            "0",
-            "0"
+            "右"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -451,21 +424,10 @@
         {
           "rowIndex": 23,
           "strings": [
-            "Character",
-            "卡门",
-            "Smile,0",
-            "左"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 24,
-          "strings": [
             "Text",
-            "427",
+            "517",
+            "SoundOnly_02",
             "",
-            "卡门",
             "",
             "",
             "",
@@ -478,37 +440,22 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 25,
+          "rowIndex": 24,
           "strings": [
             "Character",
             "SoundOnly_02",
             "TRUE",
-            "右",
-            "",
-            "",
-            "0",
-            "0"
+            "右"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
         },
         {
-          "rowIndex": 26,
-          "strings": [
-            "Character",
-            "卡门",
-            "Smile,0",
-            "左"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 27,
+          "rowIndex": 25,
           "strings": [
             "Text",
             "517",
-            "",
+            "SoundOnly_02",
             "",
             "",
             "",
@@ -522,37 +469,22 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 28,
+          "rowIndex": 26,
           "strings": [
             "Character",
             "SoundOnly_02",
-            "TRUE",
-            "右",
-            "",
-            "",
             "0",
-            "0"
+            "右"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
         },
         {
-          "rowIndex": 29,
-          "strings": [
-            "Character",
-            "卡门",
-            "Smile,0",
-            "左"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 30,
+          "rowIndex": 27,
           "strings": [
             "Text",
-            "517",
-            "",
+            "427",
+            "卡门",
             "",
             "",
             "",
@@ -566,36 +498,44 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 31,
+          "rowIndex": 28,
           "strings": [
-            "Character",
-            "SoundOnly_02",
-            "TRUE",
-            "右",
+            "ChangeMessageWindow",
+            "AVGNarrator",
             "",
             "",
-            "0",
-            "0"
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
           ],
           "isEmpty": 0,
           "isCommentOut": 0
         },
         {
-          "rowIndex": 32,
+          "rowIndex": 29,
           "strings": [
-            "Character",
-            "卡门",
-            "Smile,0|Idle,0.5",
-            "左"
+            "CharacterOff"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
         },
         {
-          "rowIndex": 33,
+          "rowIndex": 30,
           "strings": [
             "Text",
-            "517",
+            "",
             "",
             "",
             "",
@@ -610,147 +550,7 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 34,
-          "strings": [
-            "Character",
-            "SoundOnly_02",
-            "TRUE",
-            "右",
-            "",
-            "",
-            "0",
-            "0"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 35,
-          "strings": [
-            "Character",
-            "卡门",
-            "Idle,0",
-            "左"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 36,
-          "strings": [
-            "Text",
-            "427",
-            "",
-            "卡门",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218011011"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 37,
-          "strings": [
-            "ChangeMessageWindow",
-            "AVGNarrator",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 38,
-          "strings": [
-            "CharacterOff",
-            "卡门",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 39,
-          "strings": [
-            "CharacterOff",
-            "SoundOnly_02",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 40,
-          "strings": [
-            "Text",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218011012"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 41,
+          "rowIndex": 31,
           "strings": [
             "ChangeMessageWindow",
             "AVGWindow",
@@ -776,38 +576,103 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 42,
-          "strings": [
-            "Character",
-            "SoundOnly_02",
-            "TRUE",
-            "右",
-            "",
-            "",
-            "0",
-            "0"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 43,
+          "rowIndex": 32,
           "strings": [
             "Character",
             "卡门",
-            "Idle,0",
+            "Smile,0",
             "左"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
         },
         {
-          "rowIndex": 44,
+          "rowIndex": 33,
+          "strings": [
+            "Character",
+            "SoundOnly_02",
+            "FALSE",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 34,
           "strings": [
             "Text",
             "427",
-            "",
             "卡门",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218011011"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 35,
+          "strings": [
+            "Character",
+            "SoundOnly_02",
+            "TRUE",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 36,
+          "strings": [
+            "Text",
+            "517",
+            "SoundOnly_02",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218011012"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 37,
+          "strings": [
+            "Character",
+            "SoundOnly_02",
+            "FALSE",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 38,
+          "strings": [
+            "Character",
+            "卡门",
+            "Idle,0.5",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 39,
+          "strings": [
+            "Text",
+            "427",
+            "卡门",
+            "",
             "",
             "",
             "",
@@ -820,37 +685,22 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 45,
+          "rowIndex": 40,
           "strings": [
             "Character",
             "SoundOnly_02",
             "TRUE",
-            "右",
-            "",
-            "",
-            "0",
-            "0"
+            "右"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
         },
         {
-          "rowIndex": 46,
-          "strings": [
-            "Character",
-            "卡门",
-            "Idle,0",
-            "左"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 47,
+          "rowIndex": 41,
           "strings": [
             "Text",
             "517",
-            "",
+            "SoundOnly_02",
             "",
             "",
             "",
@@ -864,38 +714,23 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 48,
+          "rowIndex": 42,
           "strings": [
             "Character",
             "SoundOnly_02",
             "TRUE",
-            "右",
-            "",
-            "",
-            "0",
-            "0"
+            "右"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
         },
         {
-          "rowIndex": 49,
-          "strings": [
-            "Character",
-            "卡门",
-            "Idle,0|Angry,0.5",
-            "左"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 50,
+          "rowIndex": 43,
           "strings": [
             "Text",
-            "427",
+            "517",
+            "SoundOnly_02",
             "",
-            "卡门",
             "",
             "",
             "",
@@ -908,36 +743,58 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 51,
+          "rowIndex": 44,
           "strings": [
-            "Character",
-            "SoundOnly_02",
-            "TRUE",
-            "右",
+            "ChangeMessageWindow",
+            "AVGNarrator",
             "",
             "",
-            "0",
-            "0"
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
           ],
           "isEmpty": 0,
           "isCommentOut": 0
         },
         {
-          "rowIndex": 52,
+          "rowIndex": 45,
           "strings": [
             "Character",
             "卡门",
-            "Angry,0|Idle,0.5",
+            "",
             "左"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
         },
         {
-          "rowIndex": 53,
+          "rowIndex": 46,
+          "strings": [
+            "Character",
+            "SoundOnly_02",
+            "",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 47,
           "strings": [
             "Text",
-            "517",
+            "",
             "",
             "",
             "",
@@ -952,147 +809,7 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 54,
-          "strings": [
-            "Character",
-            "SoundOnly_02",
-            "TRUE",
-            "右",
-            "",
-            "",
-            "0",
-            "0"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 55,
-          "strings": [
-            "Character",
-            "卡门",
-            "Idle,0",
-            "左"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 56,
-          "strings": [
-            "Text",
-            "517",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218011017"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 57,
-          "strings": [
-            "ChangeMessageWindow",
-            "AVGNarrator",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 58,
-          "strings": [
-            "CharacterOff",
-            "卡门",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 59,
-          "strings": [
-            "CharacterOff",
-            "SoundOnly_02",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 60,
-          "strings": [
-            "Text",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218011018"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 61,
+          "rowIndex": 48,
           "strings": [
             "ChangeMessageWindow",
             "AVGWindow",
@@ -1118,38 +835,81 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 62,
+          "rowIndex": 49,
+          "strings": [
+            "Character",
+            "SoundOnly_02",
+            "FALSE",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 50,
+          "strings": [
+            "Text",
+            "427",
+            "卡门",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218011017"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 51,
           "strings": [
             "Character",
             "SoundOnly_02",
             "TRUE",
-            "右",
-            "",
-            "",
-            "0",
-            "0"
+            "右"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
         },
         {
-          "rowIndex": 63,
-          "strings": [
-            "Character",
-            "卡门",
-            "Idle,0|Smile,0.5",
-            "左"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 64,
+          "rowIndex": 52,
           "strings": [
             "Text",
-            "427",
+            "517",
+            "SoundOnly_02",
             "",
-            "卡门",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218011018"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 53,
+          "strings": [
+            "Character",
+            "SoundOnly_02",
+            "TRUE",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 54,
+          "strings": [
+            "Text",
+            "517",
+            "SoundOnly_02",
+            "",
             "",
             "",
             "",
@@ -1162,37 +922,22 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 65,
+          "rowIndex": 55,
           "strings": [
             "Character",
             "SoundOnly_02",
             "TRUE",
-            "右",
-            "",
-            "",
-            "0",
-            "0"
+            "右"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
         },
         {
-          "rowIndex": 66,
-          "strings": [
-            "Character",
-            "卡门",
-            "Idle,0",
-            "左"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 67,
+          "rowIndex": 56,
           "strings": [
             "Text",
             "517",
-            "",
+            "SoundOnly_02",
             "",
             "",
             "",
@@ -1206,37 +951,22 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 68,
+          "rowIndex": 57,
           "strings": [
             "Character",
             "SoundOnly_02",
             "TRUE",
-            "右",
-            "",
-            "",
-            "0",
-            "0"
+            "右"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
         },
         {
-          "rowIndex": 69,
-          "strings": [
-            "Character",
-            "卡门",
-            "Idle,0",
-            "左"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 70,
+          "rowIndex": 58,
           "strings": [
             "Text",
             "517",
-            "",
+            "SoundOnly_02",
             "",
             "",
             "",
@@ -1250,37 +980,22 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 71,
+          "rowIndex": 59,
           "strings": [
             "Character",
             "SoundOnly_02",
-            "TRUE",
-            "右",
-            "",
-            "",
-            "0",
-            "0"
+            "FALSE",
+            "右"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
         },
         {
-          "rowIndex": 72,
-          "strings": [
-            "Character",
-            "卡门",
-            "Idle,0",
-            "左"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 73,
+          "rowIndex": 60,
           "strings": [
             "Text",
-            "517",
-            "",
+            "427",
+            "卡门",
             "",
             "",
             "",
@@ -1294,37 +1009,33 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 74,
+          "rowIndex": 61,
           "strings": [
             "Character",
             "SoundOnly_02",
-            "TRUE",
-            "右",
-            "",
-            "",
-            "0",
-            "0"
+            "FALSE",
+            "右"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
         },
         {
-          "rowIndex": 75,
+          "rowIndex": 62,
           "strings": [
             "Character",
             "卡门",
-            "Idle,0",
+            "Smile,0.5",
             "左"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
         },
         {
-          "rowIndex": 76,
+          "rowIndex": 63,
           "strings": [
             "Text",
-            "517",
-            "",
+            "427",
+            "卡门",
             "",
             "",
             "",
@@ -1338,36 +1049,70 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 77,
+          "rowIndex": 64,
           "strings": [
-            "Character",
-            "SoundOnly_02",
-            "TRUE",
-            "右",
+            "ChangeMessageWindow",
+            "AVGNarrator",
             "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 65,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 66,
+          "strings": [
+            "Se",
+            "2010052",
+            "",
+            "1",
             "",
             "0",
-            "0"
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
           ],
           "isEmpty": 0,
           "isCommentOut": 0
         },
         {
-          "rowIndex": 78,
-          "strings": [
-            "Character",
-            "卡门",
-            "Idle,0",
-            "左"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 79,
+          "rowIndex": 67,
           "strings": [
             "Text",
-            "517",
+            "",
             "",
             "",
             "",
@@ -1382,38 +1127,49 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 80,
+          "rowIndex": 68,
           "strings": [
-            "Character",
-            "SoundOnly_02",
-            "TRUE",
-            "右",
+            "ChangeMessageWindow",
+            "AVGWindow",
             "",
             "",
-            "0",
-            "0"
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
           ],
           "isEmpty": 0,
           "isCommentOut": 0
         },
         {
-          "rowIndex": 81,
+          "rowIndex": 69,
           "strings": [
             "Character",
             "卡门",
-            "Idle,0|Smile,0.5",
-            "左"
+            "Idle,0",
+            "中"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
         },
         {
-          "rowIndex": 82,
+          "rowIndex": 70,
           "strings": [
             "Text",
             "427",
-            "",
             "卡门",
+            "",
             "",
             "",
             "",
@@ -1426,16 +1182,207 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 83,
+          "rowIndex": 71,
+          "strings": [
+            "Text",
+            "427",
+            "卡门",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218011026"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 72,
+          "strings": [
+            "ChangeMessageWindow",
+            "AVGNarrator",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 73,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 74,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218011027"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 75,
+          "strings": [
+            "ChangeMessageWindow",
+            "AVGWindow",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 76,
           "strings": [
             "Character",
-            "SoundOnly_02",
-            "TRUE",
-            "右",
+            "卡门",
+            "Idle,0",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 77,
+          "strings": [
+            "Text",
+            "427",
+            "卡门",
             "",
             "",
-            "0",
-            "0"
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218011028"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 78,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 79,
+          "strings": [
+            "Text",
+            "518",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218011029"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 80,
+          "strings": [
+            "Character",
+            "卡门",
+            "Idle,0",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 81,
+          "strings": [
+            "Text",
+            "427",
+            "卡门",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218011030"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 82,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 83,
+          "strings": [
+            "Text",
+            "518",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218011031"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -1445,8 +1392,8 @@
           "strings": [
             "Character",
             "卡门",
-            "Smile,0",
-            "左"
+            "Idle,0",
+            "中"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -1456,7 +1403,6 @@
           "strings": [
             "Text",
             "427",
-            "",
             "卡门",
             "",
             "",
@@ -1464,7 +1410,8 @@
             "",
             "",
             "",
-            "218011026"
+            "",
+            "218011032"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -1498,8 +1445,7 @@
         {
           "rowIndex": 87,
           "strings": [
-            "CharacterOff",
-            "卡门",
+            "Text",
             "",
             "",
             "",
@@ -1509,14 +1455,7 @@
             "",
             "",
             "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "218011033"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -1524,8 +1463,8 @@
         {
           "rowIndex": 88,
           "strings": [
-            "CharacterOff",
-            "SoundOnly_02",
+            "ChangeMessageWindow",
+            "AVGWindow",
             "",
             "",
             "",
@@ -1550,417 +1489,10 @@
         {
           "rowIndex": 89,
           "strings": [
-            "Se",
-            "2010052",
-            "False",
-            "1",
-            "",
-            "0",
-            "0",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 90,
-          "strings": [
-            "Se",
-            "2010135",
-            "False",
-            "1",
-            "",
-            "3",
-            "0",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 91,
-          "strings": [
-            "Text",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218011027"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 92,
-          "strings": [
-            "ChangeMessageWindow",
-            "AVGWindow",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 93,
-          "strings": [
-            "Character",
-            "卡门",
-            "Angry,0",
-            "中"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 94,
-          "strings": [
             "Text",
             "427",
-            "",
             "卡门",
             "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218011028"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 95,
-          "strings": [
-            "Character",
-            "卡门",
-            "Angry,0|Idle,0.5",
-            "中"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 96,
-          "strings": [
-            "Text",
-            "427",
-            "",
-            "卡门",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218011029"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 97,
-          "strings": [
-            "ChangeMessageWindow",
-            "AVGNarrator",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 98,
-          "strings": [
-            "CharacterOff",
-            "卡门",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 99,
-          "strings": [
-            "Se",
-            "2010010",
-            "False",
-            "1",
-            "",
-            "0",
-            "0",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 100,
-          "strings": [
-            "Text",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218011030"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 101,
-          "strings": [
-            "ChangeMessageWindow",
-            "AVGWindow",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 102,
-          "strings": [
-            "Character",
-            "卡门",
-            "Idle,0",
-            "中"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 103,
-          "strings": [
-            "Text",
-            "427",
-            "",
-            "卡门",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218011031"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 104,
-          "strings": [
-            "Character",
-            "卡门",
-            "Idle,0",
-            "左"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 105,
-          "strings": [
-            "Character",
-            "白区男性",
-            "Idle,0",
-            "右"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 106,
-          "strings": [
-            "Text",
-            "518",
-            "",
-            "白区男性",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218011032"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 107,
-          "strings": [
-            "Character",
-            "白区男性",
-            "Idle,0",
-            "右"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 108,
-          "strings": [
-            "Character",
-            "卡门",
-            "Idle,0|Angry,0.5",
-            "左"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 109,
-          "strings": [
-            "Text",
-            "427",
-            "",
-            "卡门",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218011033"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 110,
-          "strings": [
-            "Character",
-            "卡门",
-            "Angry,0",
-            "左"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 111,
-          "strings": [
-            "Character",
-            "白区男性",
-            "Idle,0",
-            "右"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 112,
-          "strings": [
-            "Text",
-            "518",
-            "",
-            "白区男性",
             "",
             "",
             "",
@@ -1973,49 +1505,12 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 113,
-          "strings": [
-            "CharacterOff",
-            "白区男性",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 114,
-          "strings": [
-            "Character",
-            "卡门",
-            "Angry,0|Smile,0.5",
-            "中"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 115,
+          "rowIndex": 90,
           "strings": [
             "Text",
-            "427",
+            "518",
             "",
-            "卡门",
+            "",
             "",
             "",
             "",
@@ -2028,63 +1523,11 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 116,
-          "strings": [
-            "ChangeMessageWindow",
-            "AVGNarrator",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 117,
-          "strings": [
-            "CharacterOff",
-            "卡门",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 118,
+          "rowIndex": 91,
           "strings": [
             "Text",
-            "",
-            "",
+            "427",
+            "卡门",
             "",
             "",
             "",
@@ -2098,7 +1541,567 @@
           "isCommentOut": 0
         },
         {
+          "rowIndex": 92,
+          "strings": [
+            "Text",
+            "427",
+            "卡门",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218011037"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 93,
+          "strings": [
+            "Text",
+            "518",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218011038"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 94,
+          "strings": [
+            "Text",
+            "427",
+            "卡门",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218011039"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 95,
+          "strings": [
+            "Text",
+            "427",
+            "卡门",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218011040"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 96,
+          "strings": [
+            "Text",
+            "518",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218011041"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 97,
+          "strings": [
+            "Text",
+            "518",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218011042"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 98,
+          "strings": [
+            "Text",
+            "427",
+            "卡门",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218011043"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 99,
+          "strings": [
+            "Text",
+            "427",
+            "卡门",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218011044"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 100,
+          "strings": [
+            "Text",
+            "518",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218011045"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 101,
+          "strings": [
+            "Character",
+            "卡门",
+            "Smile,0.5",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 102,
+          "strings": [
+            "CharacterOff",
+            "卡门",
+            "",
+            "",
+            "",
+            "",
+            "2",
+            "4",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 103,
+          "strings": [
+            "StopBgm",
+            "消极不安",
+            "",
+            "",
+            "",
+            "",
+            "2",
+            "2",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 104,
+          "strings": [
+            "Text",
+            "427",
+            "卡门",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218011046"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 105,
+          "strings": [
+            "Character",
+            "妮基塔SSR",
+            "Idle,0",
+            "中",
+            "",
+            "",
+            ".5",
+            "2"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 106,
+          "strings": [
+            "Sprite",
+            "BG_None_Black_02",
+            "",
+            "黑屏",
+            "",
+            "",
+            ".8",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 107,
+          "strings": [
+            "Wait",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 108,
+          "strings": [
+            "BgOff",
+            "BG_White_Room_Night_02",
+            "",
+            "",
+            "",
+            "",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 109,
+          "strings": [
+            "Bg",
+            "BG_Green_Hotelwarehouse_Day_01",
+            "",
+            "BgDefault",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 110,
+          "strings": [
+            "Tween",
+            "BG_None_Black_02",
+            "ColorTo",
+            "time=1 alpha=0 start=0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 111,
+          "strings": [
+            "SpriteOff",
+            "BG_None_Black_02",
+            "",
+            "",
+            "",
+            "",
+            ".1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 112,
+          "strings": [
+            "Bgm",
+            "绿区卫星城",
+            "",
+            "1",
+            "",
+            "0",
+            "2",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 113,
+          "strings": [
+            "Text",
+            "462",
+            "妮基塔SSR",
+            "",
+            "",
+            "",
+            "",
+            "2",
+            "",
+            "",
+            "218011047"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 114,
+          "strings": [
+            "ChangeLayer",
+            "妮基塔SSR",
+            "KeepLocal",
+            "左"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 115,
+          "strings": [
+            "Character",
+            "科谢尼娅SR",
+            "Idle,0",
+            "右"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 116,
+          "strings": [
+            "Text",
+            "163",
+            "科谢尼娅SR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218011048"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 117,
+          "strings": [
+            "Text",
+            "163",
+            "科谢尼娅SR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218011049"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 118,
+          "strings": [
+            "ChangeMessageWindow",
+            "AVGNarrator",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
           "rowIndex": 119,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218011050"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 120,
           "strings": [
             "ChangeMessageWindow",
             "AVGWindow",
@@ -2124,30 +2127,19 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 120,
-          "strings": [
-            "Character",
-            "卡门",
-            "Smile,0",
-            "中"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
           "rowIndex": 121,
           "strings": [
             "Text",
-            "427",
-            "",
-            "卡门",
-            "",
+            "462",
+            "妮基塔SSR",
             "",
             "",
             "",
             "",
             "",
-            "218011037"
+            "",
+            "",
+            "218011051"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -2156,9 +2148,9 @@
           "rowIndex": 122,
           "strings": [
             "Character",
-            "卡门",
-            "Smile,0",
-            "左"
+            "科谢尼娅SR",
+            "Nervous,0.5",
+            "右"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -2166,10 +2158,17 @@
         {
           "rowIndex": 123,
           "strings": [
-            "Character",
-            "白区男性",
-            "Idle,0",
-            "右"
+            "Text",
+            "163",
+            "科谢尼娅SR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218011052"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -2177,226 +2176,8 @@
         {
           "rowIndex": 124,
           "strings": [
-            "Text",
-            "518",
-            "",
-            "白区男性",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218011038"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 125,
-          "strings": [
-            "Character",
-            "白区男性",
-            "Idle,0",
-            "右"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 126,
-          "strings": [
-            "Character",
-            "卡门",
-            "Smile,0|Idle,0.5",
-            "左"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 127,
-          "strings": [
-            "Text",
-            "427",
-            "",
-            "卡门",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218011039"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 128,
-          "strings": [
-            "Character",
-            "卡门",
-            "Idle,0",
-            "左"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 129,
-          "strings": [
-            "Character",
-            "白区男性",
-            "Idle,0",
-            "右"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 130,
-          "strings": [
-            "Text",
-            "427",
-            "",
-            "卡门",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218011040"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 131,
-          "strings": [
-            "Character",
-            "卡门",
-            "Idle,0",
-            "左"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 132,
-          "strings": [
-            "Character",
-            "白区男性",
-            "Idle,0",
-            "右"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 133,
-          "strings": [
-            "Text",
-            "518",
-            "",
-            "白区男性",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218011041"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 134,
-          "strings": [
-            "Character",
-            "白区男性",
-            "Idle,0",
-            "右"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 135,
-          "strings": [
-            "Character",
-            "卡门",
-            "Idle,0|Smile,0.5",
-            "左"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 136,
-          "strings": [
-            "Text",
-            "427",
-            "",
-            "卡门",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218011042"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 137,
-          "strings": [
-            "Character",
-            "卡门",
-            "Smile,0",
-            "左"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 138,
-          "strings": [
-            "Character",
-            "白区男性",
-            "Idle,0",
-            "右"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 139,
-          "strings": [
-            "Text",
-            "427",
-            "",
-            "卡门",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218011043"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 140,
-          "strings": [
-            "CharacterOff",
-            "卡门",
+            "ChangeMessageWindow",
+            "AVGNarrator",
             "",
             "",
             "",
@@ -2419,12 +2200,324 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 141,
+          "rowIndex": 125,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 126,
+          "strings": [
+            "Sprite",
+            "BG_None_Black_02",
+            "",
+            "黑屏",
+            "",
+            "",
+            ".8",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 127,
+          "strings": [
+            "Wait",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 128,
+          "strings": [
+            "BgOff",
+            "BG_Green_Hotelwarehouse_Day_01",
+            "",
+            "",
+            "",
+            "",
+            "0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 129,
+          "strings": [
+            "Bg",
+            "BG_Green_Warehouse_Day_01",
+            "",
+            "BgDefault",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 130,
+          "strings": [
+            "Tween",
+            "BG_None_Black_02",
+            "ColorTo",
+            "time=1 alpha=0 start=0",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 131,
+          "strings": [
+            "SpriteOff",
+            "BG_None_Black_02",
+            "",
+            "",
+            "",
+            "",
+            ".1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 132,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "1",
+            "",
+            "",
+            "218011053"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 133,
+          "strings": [
+            "ChangeMessageWindow",
+            "AVGWindow",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 134,
           "strings": [
             "Character",
-            "白区男性",
-            "Idle,0",
+            "科谢尼娅SR",
+            "Nervous,0",
             "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 135,
+          "strings": [
+            "Text",
+            "163",
+            "科谢尼娅SR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218011054"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 136,
+          "strings": [
+            "ChangeMessageWindow",
+            "AVGNarrator",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 137,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 138,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218011055"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 139,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 140,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218011056"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 141,
+          "strings": [
+            "CharacterOff"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -2433,16 +2526,16 @@
           "rowIndex": 142,
           "strings": [
             "Text",
-            "518",
-            "",
-            "白区男性",
             "",
             "",
             "",
             "",
             "",
             "",
-            "218011044"
+            "",
+            "",
+            "",
+            "218011057"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -2450,10 +2543,25 @@
         {
           "rowIndex": 143,
           "strings": [
-            "Character",
-            "白区男性",
-            "Idle,0",
-            "中"
+            "ChangeMessageWindow",
+            "AVGWindow",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -2461,17 +2569,10 @@
         {
           "rowIndex": 144,
           "strings": [
-            "Text",
-            "518",
-            "",
-            "白区男性",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218011045"
+            "Character",
+            "妮基塔SSR",
+            "Idle,0|Surprised,2",
+            "中"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -2479,10 +2580,17 @@
         {
           "rowIndex": 145,
           "strings": [
-            "Character",
-            "卡门",
-            "Idle,0",
-            "左"
+            "Text",
+            "462",
+            "妮基塔SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218011058"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -2490,10 +2598,25 @@
         {
           "rowIndex": 146,
           "strings": [
-            "Character",
-            "白区男性",
-            "Idle,0",
-            "右"
+            "ChangeMessageWindow",
+            "AVGNarrator",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -2501,17 +2624,7 @@
         {
           "rowIndex": 147,
           "strings": [
-            "Text",
-            "427",
-            "",
-            "卡门",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218011046"
+            "CharacterOff"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -2519,10 +2632,17 @@
         {
           "rowIndex": 148,
           "strings": [
-            "Character",
-            "白区男性",
-            "Idle,0",
-            "右"
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218011059"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -2530,10 +2650,7 @@
         {
           "rowIndex": 149,
           "strings": [
-            "Character",
-            "卡门",
-            "Idle,0|Angry,0.5",
-            "左"
+            "CharacterOff"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -2542,16 +2659,16 @@
           "rowIndex": 150,
           "strings": [
             "Text",
-            "427",
-            "",
-            "卡门",
             "",
             "",
             "",
             "",
             "",
             "",
-            "218011047"
+            "",
+            "",
+            "",
+            "218011060"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -2559,10 +2676,25 @@
         {
           "rowIndex": 151,
           "strings": [
-            "Character",
-            "卡门",
-            "Angry,0",
-            "左"
+            "ChangeMessageWindow",
+            "AVGWindow",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -2571,9 +2703,9 @@
           "rowIndex": 152,
           "strings": [
             "Character",
-            "白区男性",
-            "Idle,0",
-            "右"
+            "妮基塔SSR",
+            "Surprised,0|Serious,0.5",
+            "中"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -2582,16 +2714,16 @@
           "rowIndex": 153,
           "strings": [
             "Text",
-            "518",
-            "",
-            "白区男性",
-            "",
+            "462",
+            "妮基塔SSR",
             "",
             "",
             "",
             "",
             "",
-            "218011048"
+            "",
+            "",
+            "218011061"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -2599,8 +2731,8 @@
         {
           "rowIndex": 154,
           "strings": [
-            "CharacterOff",
-            "白区男性",
+            "ChangeMessageWindow",
+            "AVGNarrator",
             "",
             "",
             "",
@@ -2625,25 +2757,7 @@
         {
           "rowIndex": 155,
           "strings": [
-            "CharacterOff",
-            "卡门",
-            "",
-            "",
-            "",
-            "",
-            "2",
-            "3",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "CharacterOff"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -2651,10 +2765,17 @@
         {
           "rowIndex": 156,
           "strings": [
-            "Character",
-            "卡门",
-            "Angry,0|Smile,0.5",
-            "中"
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218011062"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -2662,25 +2783,7 @@
         {
           "rowIndex": 157,
           "strings": [
-            "BgOff",
-            "BgCGBackGround",
-            "",
-            "",
-            "",
-            "",
-            "2",
-            "4",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "CharacterOff"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -2688,14 +2791,7 @@
         {
           "rowIndex": 158,
           "strings": [
-            "BgOff",
-            "BG_White_Room_Night_02",
-            "",
-            "",
-            "",
-            "",
-            "2",
-            "4",
+            "Text",
             "",
             "",
             "",
@@ -2705,58 +2801,13 @@
             "",
             "",
             "",
-            "",
-            ""
+            "218011063"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
         },
         {
           "rowIndex": 159,
-          "strings": [
-            "StopSe",
-            "20110024",
-            "",
-            "",
-            "",
-            "",
-            "2",
-            "4",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 160,
-          "strings": [
-            "Text",
-            "427",
-            "",
-            "卡门",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218011049"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 161,
           "strings": [
             "ChangeMessageWindow",
             "AVGWindow",
@@ -2782,209 +2833,36 @@
           "isCommentOut": 0
         },
         {
+          "rowIndex": 160,
+          "strings": [
+            "Character",
+            "妮基塔SSR",
+            "Serious,0",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 161,
+          "strings": [
+            "Text",
+            "462",
+            "妮基塔SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218011064"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
           "rowIndex": 162,
-          "strings": [
-            "Bg",
-            "BG_None_Black_01",
-            "",
-            "BgDefault",
-            "",
-            "",
-            "0.2",
-            "0",
-            "Linear",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 163,
-          "strings": [
-            "Bg",
-            "BG_None_Black_01",
-            "",
-            "BgDefault",
-            "",
-            "",
-            "2",
-            "0",
-            "EaseInSine",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 164,
-          "strings": [
-            "Text",
-            "462",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "1",
-            "",
-            "",
-            "218011050"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 165,
-          "strings": [
-            "Text",
-            "163",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218011051"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 166,
-          "strings": [
-            "Text",
-            "462",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218011052"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 167,
-          "strings": [
-            "BgOff",
-            "BgCGBackGround",
-            "",
-            "",
-            "",
-            "",
-            "4",
-            "8",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 168,
-          "strings": [
-            "BgOff",
-            "BG_None_Black_01",
-            "",
-            "",
-            "",
-            "",
-            "4",
-            "8",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 169,
-          "strings": [
-            "Se",
-            "2021007",
-            "False",
-            "1",
-            "",
-            "6",
-            "0",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 170,
-          "strings": [
-            "Text",
-            "163",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218011053"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 171,
           "strings": [
             "ChangeMessageWindow",
             "AVGNarrator",
@@ -3010,17 +2888,43 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 172,
+          "rowIndex": 163,
           "strings": [
-            "Bg",
-            "BG_None_Black_01",
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 164,
+          "strings": [
+            "Text",
             "",
-            "BgDefault",
             "",
             "",
-            "0.2",
-            "0",
-            "Linear",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218011065"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 165,
+          "strings": [
+            "ChangeMessageWindow",
+            "AVGWindow",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3036,17 +2940,142 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 173,
+          "rowIndex": 166,
           "strings": [
-            "Bg",
-            "BG_Green_Warehouse_Day_01",
+            "Character",
+            "妮基塔SSR",
+            "Serious,0|Think,0.5",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 167,
+          "strings": [
+            "Text",
+            "462",
+            "妮基塔SSR",
             "",
-            "BgDefault",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218011066"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 168,
+          "strings": [
+            "Text",
+            "462",
+            "妮基塔SSR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218011067"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 169,
+          "strings": [
+            "ChangeMessageWindow",
+            "AVGNarrator",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 170,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 171,
+          "strings": [
+            "StopBgm",
+            "绿区卫星城",
+            "",
+            "",
             "",
             "",
             "2",
-            "0",
-            "EaseInSine",
+            "2",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 172,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218011068"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 173,
+          "strings": [
+            "ChangeMessageWindow",
+            "AVGWindow",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3064,25 +3093,10 @@
         {
           "rowIndex": 174,
           "strings": [
-            "Se",
-            "2015015",
-            "True",
-            "1",
-            "",
-            "0",
-            "2",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "Character",
+            "科谢尼娅SR",
+            "Idle,0",
+            "中"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -3091,16 +3105,16 @@
           "rowIndex": 175,
           "strings": [
             "Text",
+            "163",
+            "科谢尼娅SR",
             "",
             "",
             "",
             "",
             "",
             "",
-            "1",
             "",
-            "",
-            "218011054"
+            "218011069"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -3109,7 +3123,7 @@
           "rowIndex": 176,
           "strings": [
             "ChangeMessageWindow",
-            "AVGWindow",
+            "AVGNarrator",
             "",
             "",
             "",
@@ -3134,10 +3148,7 @@
         {
           "rowIndex": 177,
           "strings": [
-            "Character",
-            "科谢尼娅SR",
-            "Helpless,0",
-            "中"
+            "CharacterOff"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -3146,16 +3157,16 @@
           "rowIndex": 178,
           "strings": [
             "Text",
-            "163",
-            "",
-            "科谢尼娅SR",
             "",
             "",
             "",
             "",
             "",
             "",
-            "218011055"
+            "",
+            "",
+            "",
+            "218011070"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -3163,37 +3174,8 @@
         {
           "rowIndex": 179,
           "strings": [
-            "Character",
-            "科谢尼娅SR",
-            "Helpless,0",
-            "中"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 180,
-          "strings": [
-            "Text",
-            "163",
-            "",
-            "科谢尼娅SR",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218011056"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 181,
-          "strings": [
             "ChangeMessageWindow",
-            "AVGNarrator",
+            "AVGWindow",
             "",
             "",
             "",
@@ -3216,11 +3198,40 @@
           "isCommentOut": 0
         },
         {
+          "rowIndex": 180,
+          "strings": [
+            "Character",
+            "科谢尼娅SR",
+            "Idle,0",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 181,
+          "strings": [
+            "Text",
+            "163",
+            "科谢尼娅SR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218011071"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
           "rowIndex": 182,
           "strings": [
             "Character",
             "科谢尼娅SR",
-            "Helpless,0",
+            "Nervous,0.5",
             "中"
           ],
           "isEmpty": 0,
@@ -3230,6 +3241,8 @@
           "rowIndex": 183,
           "strings": [
             "Text",
+            "163",
+            "科谢尼娅SR",
             "",
             "",
             "",
@@ -3237,9 +3250,7 @@
             "",
             "",
             "",
-            "",
-            "",
-            "218011057"
+            "218011072"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -3247,8 +3258,8 @@
         {
           "rowIndex": 184,
           "strings": [
-            "CharacterOff",
-            "科谢尼娅SR",
+            "ChangeMessageWindow",
+            "AVGNarrator",
             "",
             "",
             "",
@@ -3273,17 +3284,7 @@
         {
           "rowIndex": 185,
           "strings": [
-            "Text",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218011058"
+            "CharacterOff"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -3301,7 +3302,7 @@
             "",
             "",
             "",
-            "218011059"
+            "218011073"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -3309,25 +3310,7 @@
         {
           "rowIndex": 187,
           "strings": [
-            "ChangeMessageWindow",
-            "AVGWindow",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "CharacterOff"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -3335,148 +3318,23 @@
         {
           "rowIndex": 188,
           "strings": [
-            "Character",
-            "妮基塔SSR",
-            "Idle,0",
-            "中"
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218011074"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
         },
         {
           "rowIndex": 189,
-          "strings": [
-            "Text",
-            "462",
-            "",
-            "妮基塔SSR",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218011060"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 190,
-          "strings": [
-            "ChangeMessageWindow",
-            "AVGNarrator",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 191,
-          "strings": [
-            "CharacterOff",
-            "妮基塔SSR",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 192,
-          "strings": [
-            "Text",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218011061"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 193,
-          "strings": [
-            "Se",
-            "2025018",
-            "False",
-            "1",
-            "",
-            "0",
-            "0",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 194,
-          "strings": [
-            "Text",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218011062"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 195,
           "strings": [
             "ChangeMessageWindow",
             "AVGWindow",
@@ -3502,36 +3360,94 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 196,
+          "rowIndex": 190,
           "strings": [
             "Character",
             "妮基塔SSR",
-            "Serious,0",
+            "Idle,0|Serious,0.5",
             "中"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
         },
         {
-          "rowIndex": 197,
+          "rowIndex": 191,
           "strings": [
             "Text",
             "462",
-            "",
             "妮基塔SSR",
             "",
             "",
             "",
             "",
+            "1",
             "",
             "",
-            "218011063"
+            "218011075"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
         },
         {
-          "rowIndex": 198,
+          "rowIndex": 192,
+          "strings": [
+            "Character",
+            "科谢尼娅SR",
+            "Surprised,0",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 193,
+          "strings": [
+            "Text",
+            "163",
+            "科谢尼娅SR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218011076"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 194,
+          "strings": [
+            "Character",
+            "科谢尼娅SR",
+            "Nervous,0",
+            "中"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 195,
+          "strings": [
+            "Text",
+            "163",
+            "科谢尼娅SR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218011077"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 196,
           "strings": [
             "ChangeMessageWindow",
             "AVGNarrator",
@@ -3557,12 +3473,35 @@
           "isCommentOut": 0
         },
         {
+          "rowIndex": 197,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 198,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218011078"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
           "rowIndex": 199,
           "strings": [
-            "Character",
-            "妮基塔SSR",
-            "Serious,0",
-            "中"
+            "CharacterOff"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -3580,7 +3519,7 @@
             "",
             "",
             "",
-            "218011064"
+            "218011079"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -3588,8 +3527,8 @@
         {
           "rowIndex": 201,
           "strings": [
-            "CharacterOff",
-            "妮基塔SSR",
+            "ChangeMessageWindow",
+            "AVGWindow",
             "",
             "",
             "",
@@ -3614,17 +3553,10 @@
         {
           "rowIndex": 202,
           "strings": [
-            "Text",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218011065"
+            "Character",
+            "妮基塔SSR",
+            "Serious,0",
+            "中"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -3632,89 +3564,23 @@
         {
           "rowIndex": 203,
           "strings": [
-            "ChangeMessageWindow",
-            "AVGWindow",
+            "Text",
+            "462",
+            "妮基塔SSR",
             "",
             "",
             "",
             "",
+            "1",
             "",
             "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "218011080"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
         },
         {
           "rowIndex": 204,
-          "strings": [
-            "Character",
-            "妮基塔SSR",
-            "Serious,0",
-            "中"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 205,
-          "strings": [
-            "Text",
-            "462",
-            "",
-            "妮基塔SSR",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218011066"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 206,
-          "strings": [
-            "Character",
-            "妮基塔SSR",
-            "Serious,0",
-            "中"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 207,
-          "strings": [
-            "Text",
-            "462",
-            "",
-            "妮基塔SSR",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218011067"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 208,
           "strings": [
             "ChangeMessageWindow",
             "AVGNarrator",
@@ -3740,18 +3606,15 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 209,
+          "rowIndex": 205,
           "strings": [
-            "Character",
-            "妮基塔SSR",
-            "Serious,0",
-            "中"
+            "CharacterOff"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
         },
         {
-          "rowIndex": 210,
+          "rowIndex": 206,
           "strings": [
             "Text",
             "",
@@ -3763,13 +3626,39 @@
             "",
             "",
             "",
-            "218011068"
+            "218011081"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
         },
         {
-          "rowIndex": 211,
+          "rowIndex": 207,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 208,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218011082"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 209,
           "strings": [
             "ChangeMessageWindow",
             "AVGWindow",
@@ -3795,7 +3684,7 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 212,
+          "rowIndex": 210,
           "strings": [
             "Character",
             "科谢尼娅SR",
@@ -3806,11 +3695,10 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 213,
+          "rowIndex": 211,
           "strings": [
             "Text",
             "163",
-            "",
             "科谢尼娅SR",
             "",
             "",
@@ -3818,13 +3706,14 @@
             "",
             "",
             "",
-            "218011069"
+            "",
+            "218011083"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
         },
         {
-          "rowIndex": 214,
+          "rowIndex": 212,
           "strings": [
             "ChangeMessageWindow",
             "AVGNarrator",
@@ -3850,27 +3739,35 @@
           "isCommentOut": 0
         },
         {
+          "rowIndex": 213,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 214,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218011084"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
           "rowIndex": 215,
           "strings": [
-            "CharacterOff",
-            "科谢尼娅SR",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "CharacterOff"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -3888,7 +3785,7 @@
             "",
             "",
             "",
-            "218011070"
+            "218011085"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -3924,7 +3821,7 @@
           "strings": [
             "Character",
             "科谢尼娅SR",
-            "Idle,0",
+            "Surprised,0",
             "中"
           ],
           "isEmpty": 0,
@@ -3935,7 +3832,6 @@
           "strings": [
             "Text",
             "163",
-            "",
             "科谢尼娅SR",
             "",
             "",
@@ -3943,7 +3839,8 @@
             "",
             "",
             "",
-            "218011071"
+            "",
+            "218011086"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -3951,10 +3848,17 @@
         {
           "rowIndex": 220,
           "strings": [
-            "Character",
+            "Text",
+            "163",
             "科谢尼娅SR",
-            "Idle,0",
-            "中"
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218011087"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -3962,17 +3866,10 @@
         {
           "rowIndex": 221,
           "strings": [
-            "Text",
-            "163",
-            "",
+            "Character",
             "科谢尼娅SR",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218011072"
+            "Think,0.5",
+            "中"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -3980,8 +3877,9 @@
         {
           "rowIndex": 222,
           "strings": [
-            "ChangeMessageWindow",
-            "AVGNarrator",
+            "Text",
+            "163",
+            "科谢尼娅SR",
             "",
             "",
             "",
@@ -3989,16 +3887,7 @@
             "",
             "",
             "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "218011088"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -4006,8 +3895,8 @@
         {
           "rowIndex": 223,
           "strings": [
-            "CharacterOff",
-            "科谢尼娅SR",
+            "ChangeMessageWindow",
+            "AVGNarrator",
             "",
             "",
             "",
@@ -4032,17 +3921,7 @@
         {
           "rowIndex": 224,
           "strings": [
-            "Text",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218011073"
+            "CharacterOff"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -4060,13 +3939,39 @@
             "",
             "",
             "",
-            "218011074"
+            "218011089"
           ],
           "isEmpty": 0,
           "isCommentOut": 0
         },
         {
           "rowIndex": 226,
+          "strings": [
+            "CharacterOff"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 227,
+          "strings": [
+            "Text",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "218011090"
+          ],
+          "isEmpty": 0,
+          "isCommentOut": 0
+        },
+        {
+          "rowIndex": 228,
           "strings": [
             "ChangeMessageWindow",
             "AVGWindow",
@@ -4092,39 +3997,10 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 227,
-          "strings": [
-            "Character",
-            "妮基塔SSR",
-            "Serious,0",
-            "中"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 228,
-          "strings": [
-            "Text",
-            "462",
-            "",
-            "妮基塔SSR",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218011075"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
           "rowIndex": 229,
           "strings": [
             "Character",
-            "科谢尼娅SR",
+            "妮基塔SSR",
             "Surprised,0",
             "中"
           ],
@@ -4134,17 +4010,25 @@
         {
           "rowIndex": 230,
           "strings": [
-            "Text",
-            "163",
-            "",
-            "科谢尼娅SR",
+            "CharacterOff",
+            "妮基塔SSR",
             "",
             "",
             "",
             "",
+            "2",
+            "5",
             "",
             "",
-            "218011076"
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -4152,10 +4036,25 @@
         {
           "rowIndex": 231,
           "strings": [
-            "Character",
-            "科谢尼娅SR",
-            "Surprised,0|Helpless,0.5",
-            "中"
+            "BgOff",
+            "BgCGBackGround",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -4163,17 +4062,25 @@
         {
           "rowIndex": 232,
           "strings": [
-            "Text",
-            "163",
-            "",
-            "科谢尼娅SR",
+            "BgOff",
+            "BG_Green_Warehouse_Day_01",
             "",
             "",
             "",
             "",
+            "2",
+            "5",
             "",
             "",
-            "218011077"
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
           ],
           "isEmpty": 0,
           "isCommentOut": 0
@@ -4181,14 +4088,14 @@
         {
           "rowIndex": 233,
           "strings": [
-            "ChangeMessageWindow",
-            "AVGNarrator",
+            "StopSe",
+            "2010157",
             "",
             "",
             "",
             "",
-            "",
-            "",
+            "2",
+            "5",
             "",
             "",
             "",
@@ -4207,741 +4114,14 @@
         {
           "rowIndex": 234,
           "strings": [
-            "CharacterOff",
-            "科谢尼娅SR",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 235,
-          "strings": [
-            "Text",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218011078"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 236,
-          "strings": [
-            "Text",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218011079"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 237,
-          "strings": [
-            "ChangeMessageWindow",
-            "AVGWindow",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 238,
-          "strings": [
-            "Character",
-            "妮基塔SSR",
-            "Serious,0",
-            "中"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 239,
-          "strings": [
             "Text",
             "462",
-            "",
             "妮基塔SSR",
             "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218011080"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 240,
-          "strings": [
-            "ChangeMessageWindow",
-            "AVGNarrator",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 241,
-          "strings": [
-            "Character",
-            "妮基塔SSR",
-            "Serious,0",
-            "中"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 242,
-          "strings": [
-            "Text",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218011081"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 243,
-          "strings": [
-            "CharacterOff",
-            "妮基塔SSR",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 244,
-          "strings": [
-            "Text",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218011082"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 245,
-          "strings": [
-            "ChangeMessageWindow",
-            "AVGWindow",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 246,
-          "strings": [
-            "Character",
-            "科谢尼娅SR",
-            "Surprised,0",
-            "中"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 247,
-          "strings": [
-            "Text",
-            "163",
-            "",
-            "科谢尼娅SR",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218011083"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 248,
-          "strings": [
-            "ChangeMessageWindow",
-            "AVGNarrator",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 249,
-          "strings": [
-            "CharacterOff",
-            "科谢尼娅SR",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 250,
-          "strings": [
-            "Text",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218011084"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 251,
-          "strings": [
-            "Text",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218011085"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 252,
-          "strings": [
-            "ChangeMessageWindow",
-            "AVGWindow",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 253,
-          "strings": [
-            "Character",
-            "科谢尼娅SR",
-            "Surprised,0",
-            "中"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 254,
-          "strings": [
-            "Text",
-            "163",
-            "",
-            "科谢尼娅SR",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218011086"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 255,
-          "strings": [
-            "Character",
-            "科谢尼娅SR",
-            "Surprised,0",
-            "中"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 256,
-          "strings": [
-            "Text",
-            "163",
-            "",
-            "科谢尼娅SR",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218011087"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 257,
-          "strings": [
-            "Character",
-            "科谢尼娅SR",
-            "Surprised,0",
-            "中"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 258,
-          "strings": [
-            "Text",
-            "163",
-            "",
-            "科谢尼娅SR",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218011088"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 259,
-          "strings": [
-            "ChangeMessageWindow",
-            "AVGNarrator",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 260,
-          "strings": [
-            "CharacterOff",
-            "科谢尼娅SR",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 261,
-          "strings": [
-            "Text",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218011089"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 262,
-          "strings": [
-            "Text",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "218011090"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 263,
-          "strings": [
-            "ChangeMessageWindow",
-            "AVGWindow",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 264,
-          "strings": [
-            "CharacterOff",
-            "妮基塔SSR",
-            "",
-            "",
-            "",
-            "",
-            "2",
-            "2015015",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 265,
-          "strings": [
-            "Character",
-            "妮基塔SSR",
-            "Serious,0",
-            "中"
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 266,
-          "strings": [
-            "BgOff",
-            "BgCGBackGround",
-            "",
-            "",
-            "",
-            "",
-            "2",
-            "4",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 267,
-          "strings": [
-            "BgOff",
-            "BG_Green_Warehouse_Day_01",
-            "",
-            "",
-            "",
-            "",
-            "2",
-            "4",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 268,
-          "strings": [
-            "StopBgm",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "2",
-            "4",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 269,
-          "strings": [
-            "StopSe",
-            "2015015",
-            "",
-            "",
-            "",
-            "",
-            "2",
-            "4",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "isEmpty": 0,
-          "isCommentOut": 0
-        },
-        {
-          "rowIndex": 270,
-          "strings": [
-            "Text",
-            "462",
-            "",
-            "妮基塔SSR",
             "",
             "",
             "Next",
-            "",
+            "1",
             "",
             "",
             "218011091"
@@ -4950,7 +4130,7 @@
           "isCommentOut": 0
         },
         {
-          "rowIndex": 271,
+          "rowIndex": 235,
           "strings": [
             "EndScenario"
           ],
@@ -4958,9 +4138,9 @@
           "isCommentOut": 0
         }
       ],
-      "name": "Assets/Utage/BuildResources/NewAVG_Activity/chapterActivity18/A18011.xls:A18011",
+      "name": "Assets/Utage/BuildResources/Activity/ChapterActivity18/A18011.xls:A18011",
       "type": 1,
-      "textLength": 5990,
+      "textLength": 5111,
       "headerRow": 0,
       "entityIndexTbl": [],
       "entityDataList": []
